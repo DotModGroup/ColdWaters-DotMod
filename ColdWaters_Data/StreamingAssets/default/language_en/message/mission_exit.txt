@@ -1,0 +1,6 @@
+NoContact=Captain,\nXO Reports:\nWe have no contact, ready to leave the area.\n<LEAVESTATUS>\nYour Orders Sir?
+Contact=Captain,\nXO Reports:\nThere is activity nearby, we need move away to leave the area.\n<LEAVESTATUS>\nYour Orders Sir?
+Flooding=Captain,\nXO Reports:\nWe have flooding which needs to be controlled in order to leave the area.\n<LEAVESTATUS>Your Orders Sir?
+Sinking=Captain,\nXO Reports:\nPressure hull breach! We have critical damage and uncontrolled flooding, the ship is lost!\n<LEAVESTATUS>Your Orders Sir?
+Doomed=Captain,\nXO Reports:\nPressure hull breach! We have critical damage, uncontrolled flooding, and are beyond escape depth. It has been an honor serving with you Commander.\n<LEAVESTATUS>Your Orders Sir?
+OutOfBounds=Captain,\nXO Reports:\n\nWe have left the combat area.\n<LEAVESTATUS>Your Orders Sir?

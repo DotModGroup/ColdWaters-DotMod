@@ -1,0 +1,10 @@
+
+Captain,
+XO reports:
+
+The crew is enjoying some shore leave while we make ready for departure.
+
+		Stores and Tubes:		<STORESSTATUS>
+		Damage Report:			<SYSTEMSSTATUS>
+
+Your Orders Sir?

@@ -1,0 +1,75 @@
+ENEMY_TITLE_INVASION_INITIAL=<ENEMY> INVADES <LANDCOUNTRY>|<LANDCOUNTRY> INVADED!|<ENEMY> Strike Into <LANDCOUNTRY>|<LANDCOUNTRY> Attacked by <ENEMY_SUFFIX>|<LANDCOUNTRY> UNDER ATTACK|<ENEMY> HIT <LANDCOUNTRY>|<LANDCOUNTRY> ATTACKED!|<LANDCOUNTRY> UNDER SIEGE|<LANDCOUNTRY> UNDER FIRE
+ENEMY_TITLE_INVASION_PARTIAL=BATTLE FOR <LANDCOUNTRY>|LOST GROUND IN <LANDCOUNTRY>|LOSSES IN <LANDCOUNTRY>|<LANDCOUNTRY> CLOSER TO DEFEAT|LOST GROUND IN <LANDCOUNTRY>
+ENEMY_TITLE_INVASION_TOTAL=<ENEMY> TAKES <LANDCOUNTRY>|<LANDCOUNTRY> FALLS TO <ENEMY>|<LANDCOUNTRY> FALLS|<LANDCOUNTRY> DEFEATED|<LANDCOUNTRY> LOST|<LANDCOUNTRY> SURRENDERS|<LANDCOUNTRY> OVERCOME|<LANDCOUNTRY> CONQUERED
+
+
+
+
+ENEMY_INVASION_LAND_INITIAL=This morning, PLA troops crossed the border into <LANDCOUNTRY> in response to what PRC termed repeated incursions in Chinese territorial waters. In what seems to be a well-prepared and orchestrated attack, the spearhead surged directly towards major bridges, railway crossings and airfields and rapidly advanced into the interior. <INVASION_SECOND>|BREAKING NEWS >> Border clashes erupt along the Chinese/<LANDCOUNTRY> border as Beijing responds to repeated incursions on what it claims as Chinese territorial waters. <INVASION_SECOND>
+
+ENEMY_INVASION_SEA_INITIAL=A major Chinese amphibious assault claimed more territory in the region consistent with their intent to  uphold their territorial claims along the nine-dash line. "Where is our Navy?", op-ed asks.|A new dimension in the US-China conflict emerges as Chinese amphibious forces land in <LANDCOUNTRY>. Tensions increase as new front opens, further challenging the US Navy's ability to  keep the region open to freedom of navigation.|The region theatre expands as Chinese amphibious forces make landfall in <LANDCOUNTRY>. The political strain on the US increases as the Chinese double down on their efforts to claim territory along the nine-dash line.
+
+ENEMY_INVASION_AIR_INITIAL=The Chinese control of the region tightens as paratroopers land inside <LANDCOUNTRY>, securing airfields and other critical transport hubs. The next 48 hours will be vital if the defending forces have any hope of turning the battle.|Chinese paratroopers, supported by a massive wave of airstrikes, have seized key installations in <LANDCOUNTRY> in response to what PRC termed repeated military incursions into its territorial waters. Waves of transport aircraft have been seen offloading equipment, no doubt in an effort to secure an initial beachhead. <INVASION_SECOND>
+
+
+
+ENEMY_INVASION_LAND_PARTIAL=The Chinese land offensive in <LANDCOUNTRY> continues. More regions have fallen under Chinese control as PLA combined arms units push forward. A swift victory would help in securing the nine-dash line and denying forward basing of air and naval units to the US.|The battle for <LANDCOUNTRY> continues after local forces have made what officials called "tactical withdrawals". Our military analyst explains how a decisive Chinese win could affect the balance of power in the region. >> p. 9.|PLA forces have moved deeper into <LANDCOUNTRY> territory. Forces are said to be evenly matched, and Pentagon officials have released estimates of heavy Chinese losses. At the same time, Chinese state television aired images of "liberated" villages in <LANDCOUNTRY>.
+
+ENEMY_INVASION_SEA_PARTIAL=The seaborne invasion of <LANDCOUNTRY> escalates as Chinese forces gain a beachhead and assault further inland. Although the fighting has now moved beyond the coastal areas, local forces are continuing to make determined efforts to halt further advances.|Local forces have yet been unsuccessful in their attempts to contain the Chinese naval invasion of <LANDCOUNTRY>. Although PLA troops have made substantial gains inland, Pentagon officials suggest that these are - "not yet decisive".|Chinese naval infantry spearheading the invasion of <LANDCOUNTRY> are now reported by Chinese state media to have made substantial advances into mainland areas. The battle for <LANDCOUNTRY> is now a race for time between the armed forces on the ground and the US's efforts to disrupt enemy supply lines.
+
+ENEMY_INVASION_AIR_PARTIAL=<LANDCOUNTRY> >> Chinese paratroopers and air-mobile reinforcements are expanding their zones of control after the surprise aerial invasion of <LANDCOUNTRY>. The past few days have seen Chinese forces supported by devastating airstrikes, gaining additional ground, causing a situation that might prove difficult to stop.|<LANDCOUNTRY>’s government calls for help as Chinese paratrooper regiments are reinforced and extending their control within the country. Meanwhile, the US Administration remains reluctant to increase its military involvement in the region beyond its current naval presence.
+
+ENEMY_INVASION_LAND_TOTAL=The military pressure proved too much as the government of <LANDCOUNTRY> reached a peace agreement with the PRC, which reportedly grants Chinese forces the ability to operate from the country's air- and naval bases.|The government of <LANDCOUNTRY> ultimately yielded to sustained pressure put upon it by forces of the PRC. Analysts predict that <LANDCOUNTRY> will henceforth align itself with Beijing, denying the US access to key forward bases and intelligence assets.
+
+ENEMY_INVASION_SEA_TOTAL=A sustained blockade by naval forces and decisive inland raids by naval infantry has forced <LANDCOUNTRY> to  acquiesce to Chinese surrender terms. The Pentagon refused to comment on how this discouraging turn of events will affect ongoing operations in the region.
+
+ENEMY_INVASION_AIR_TOTAL=A series of major military losses proved too much for the government of <LANDCOUNTRY>, which reached a peace agreement with the PRC. The terms, released by Chinese officials, specifically grant Chinese forces the ability to operate from the country's air- and naval bases.|The government of <LANDCOUNTRY> ultimately yielded to the effective combination of Chinese light forces and air strikes. Analysts predict that <LANDCOUNTRY> will henceforth align itself with Beijing, denying the US access to key forward bases and intelligence assets.
+
+
+
+//LIBERATIONS run in opposite direction TOTAL = start of liberation, INITIAL = fully liberated
+
+FRIENDLY_TITLE_LIBERATION_TOTAL=<FRIENDLY> BACK IN <LANDCOUNTRY>|<FRIENDLY> RE-ENTER <LANDCOUNTRY>|HOPE FOR <LANDCOUNTRY>|WE'RE BACK IN <LANDCOUNTRY>
+FRIENDLY_TITLE_LIBERATION_PARTIAL=BATTLE FOR <LANDCOUNTRY>|WINNING BACK <LANDCOUNTRY>|PROGRESS IN <LANDCOUNTRY>|GROUND GAINED IN <LANDCOUNTRY>|STRUGGLE FOR <LANDCOUNTRY>|TAKING BACK <LANDCOUNTRY>
+FRIENDLY_TITLE_LIBERATION_INITIAL=<FRIENDLY> FREE <LANDCOUNTRY>|<LANDCOUNTRY> FREE|<LANDCOUNTRY> FREED|<LANDCOUNTRY> BACK IN OUR HANDS|<ENEMY_SINGULAR> SURRENDERS <LANDCOUNTRY>|<ENEMY_SINGULAR> OUT OF <LANDCOUNTRY>|<FRIENDLY_PREFIX> TAKE BACK <LANDCOUNTRY>|<FRIENDLY> BACK IN <LANDCOUNTRY>|<LANDCOUNTRY> LIBERATED
+
+
+FRIENDLY_LIBERATION_LAND_TOTAL=Allied forces have launched a series of successful counter-attacks, establishing a foothold in <LANDCOUNTRY>. Hopes rise for a retaking after the Chinese invasion some time ago.|Allied ground troops broke into Chinese-occupied territory in <LANDCOUNTRY> yesterday in what could be the start of a larger counter-offensive. Unconfirmed reports of US special forces guiding precision airstrikes in PLA rear areas are speculated to presage the allies' next major blow.
+
+FRIENDLY_LIBERATION_SEA_TOTAL=A US Navy sea operation has made a successful landfall in <LANDCOUNTRY>. Marines are reported to have established a beachhead, but no official statements have yet been made. Analysts assume that Pentagon still considers the situation to be too volatile for any solid assessments.|A USMC expeditionary unit, backed by naval gunfire and air support, were inserted on <LANDCOUNTRY>´s coast in what is believed to be an initial attempt of retaking the country. Pentagon officials have not yet disclosed any details, suggesting that the operation is still in an early stage.
+
+FRIENDLY_LIBERATION_AIR_TOTAL=Waves of C-17's and C-141's landed to deploy infantry and armored units after an initial USMC raid secured several key airfields in what is believed to be the start of a retaking of <LANDCOUNTRY>. Submarine-launched missile raids on enemy installations are said to have created a temporary blackout of Chinese electronic surveillance, during which the troops were inserted.|Allies gained a tenuous foothold in <LANDCOUNTRY> as airborne battalions are engaged in the effort of retaking the country. Pentagon officials described a daring raid to secure key airfields, accompanied by overwhelming air support, which was followed by swift fighting where apparently unprepared Chinese units were caught by surprise.
+
+
+FRIENDLY_LIBERATION_LAND_PARTIAL=Large parts of <LANDCOUNTRY> are now back in allied hands, as a push by allied troops forced the Chinese forces into a larger retreat. Chinese officials warned that 'continued aggression by the US against Chinese interests would lead to dire consequences'.|The battle area in <LANDCOUNTRY> has seen a major shift in initiative as allied units retake large tracts of  Chinese-held territory. Beijing fiercely condemned what they termed 'continuous US aggression against innocent states'.
+
+FRIENDLY_LIBERATION_SEA_PARTIAL=US Marines are making substantial headway into <LANDCOUNTRY> after securing and expanding several beachheads in coastal areas. As key airfields have been secured, the USAF has been able to airlift substantial reinforcements into the country . Allied forces are now said to be in control of roughly half of the country.|Control of <LANDCOUNTRY> hangs in the balance, as USMC forces fight their way into the mainland. The battle has turned into a race of reinforcements, as troop transports from both sides are rumored to be underway.
+
+FRIENDLY_LIBERATION_AIR_PARTIAL=<LANDCOUNTRY> is now contested on nearly equal terms, as US airborne infantry and cavalry units have landed and secured several key areas in the country. One US General described the continuous flow of supplies and reinforcements "an airlift operation of a size not seen since the Berlin Blockade".|The US and its Allies are pushing back PRC-backed forces in <LANDCOUNTRY> after a bold series of airborne operations. The local defenders reportedly offered little resistance, with the bulk of fighting taking place against Chinese 'advisors'. Beijing fiercely condemned what they termed 'continuous US imperialist aggression against  innocent states'.
+
+
+
+FRIENDLY_LIBERATION_LAND_INITIAL=War correspondents in <LANDCOUNTRY> send pictures of cheering crowds as the allied offensive of <LANDCOUNTRY> is deemed a complete success. In an decisive show of force, naval units and marine troops defeated the PRC-backed forces , successfully reinstating the legitimate government.|Exiled citizens celebrate as the Pentagon announced the complete retaking of <LANDCOUNTRY>. The Chinese forces have been completely routed, in what can only be a massive setback to Chinese ambitions in the region.
+
+FRIENDLY_LIBERATION_SEA_INITIAL=The USMC claimed Mission Accomplished as the invasion of <LANDCOUNTRY> is deemed a complete success. In an outstanding show of force, naval units and marine troops defeated the PRC-backed forces , successfully restoring the legitimate government.|<LANDCOUNTRY> is liberated through a heroic effort by the USMC working with loyalist forces. The Chinese forces have been completely routed, in what can only be a massive setback to Chinese ambitions in the region.
+
+FRIENDLY_LIBERATION_AIR_INITIAL=The Pentagon today issued a statement, announcing the complete liberation of <LANDCOUNTRY>. The Chinese forces have been completely routed, in what can only be a massive setback to Chinese ambitions in the region.|After establishing complete air superiority over <LANDCOUNTRY>,  persistent military pressure by US-backed forces on the ground has defeated the PRC-backed forces , successfully reinstating the legitimate government.
+
+
+
+//Not used in this campaign as NATO cannot take Soviet territories
+ENEMY_TITLE_LIBERATION_INITIAL=
+ENEMY_TITLE_LIBERATION_PARTIAL=
+ENEMY_TITLE_LIBERATION_TOTAL=
+
+ENEMY_LIBERATION_LAND_INITIAL=
+ENEMY_LIBERATION_SEA_INITIAL=
+ENEMY_LIBERATION_AIR_INITIAL=
+
+FRIENDLY_TITLE_INVASION_INITIAL=
+FRIENDLY_TITLE_INVASION_PARTIAL=
+FRIENDLY_TITLE_INVASION_TOTAL=
+
+FRIENDLY_INVASION_LAND_INITIAL=
+FRIENDLY_INVASION_SEA_INITIAL=
+FRIENDLY_INVASION_AIR_INITIAL=

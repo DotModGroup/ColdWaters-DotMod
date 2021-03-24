@@ -1,0 +1,12 @@
+NextAction=event_campaign_fail_2
+Image=campaign/images/plan ssbn
+Photo=campaign/images/photos/naval plan sub 1,campaign/images/photos/naval plan sub 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>THREAT OF NUKES TOO HIGH</b>
+Sentence1=Nuclear ballistic missiles, hidden in the Chinese mainland, were used as leverage during recent armistice talks to bolster China's weak position. Finally, both sides have recognized the "Mutually Assured Destruction" of taking the conflict any further and talks are now underway to bring peace and stability back to the region.
+Sentence2=CEASEFIRE<n>The general ceasefire - announced only days ago - thankfully seems to have been upheld along all fronts. An anonymous Department of Defence spokesman has suggested that if peace talks are successful, many troops could be on their way home in a matter of weeks.

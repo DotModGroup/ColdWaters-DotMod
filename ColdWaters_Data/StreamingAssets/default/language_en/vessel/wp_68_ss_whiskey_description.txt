@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Whiskey
+Description=Whiskey-class Diesel-Electric Attack Submarine
+
+History=The Whiskey was initially designed during the war as a follow-on to the S-class, but after the war was redesigned to incorporate captured German technology. The German influence can be clearly seen in the sonar installation, with its prominent chin array. The class was modernized during the 1950's until the definitive Whiskey V that dispensed with deck guns in favor of a streamlined sail. These boats are exceedingly slow and noisy, but with over 200 built, this is the most numerous class of submarine in the world.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,,,,,,,,,
+PlayerClassHullNumbers=S-187,S-188,S-189,S-190,S-191,S-48,S-80,S-355,S-356,S-357,S-358,S-359,S-360,S-361,S-362,S-363,S-364,S-365

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Rastrub-B»
+WeaponDescriptiveName=URK-5 "Rastrub-B" Anti-ship/Anti-sub Missile
+WeaponDescription=Special: Dual-purpose\nURK-5 "Rastrub-B" (NATO classification: SS-N-14 Silex) is a modernization of an URPK-3 «Metel'». Anti-ship mode was introduced and it could be used both against surface and submerged targets. Mode can be switched in the weapon settings just before launch.

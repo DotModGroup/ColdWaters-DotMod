@@ -1,0 +1,48 @@
+//Yulin
+UseTerrain=TRUE
+MapCoordinates=1339,620
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=70,-70
+PlayerHeading=5
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//West N/S
+EnemyWaypoints=-143,15|-118,-300
+//East N/S
+EnemyWaypoints=250,250|320,-120
+//E/W
+EnemyWaypoints=950,-470|-660,-220
+//E/W 2
+EnemyWaypoints=-137,74|-370,-120
+
+//MissionPosition=-100,80
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+//plan_helix
+HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=plan_y-8x
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-284,-17,150
+AircraftSearchArea=350,-11,200
+
+//spawn minefields and set detection range
+ProximityMineLocations=-87,36
+ProximityMineField=10,6,80,15
+ProximityMineFieldAngles=-45
+ProximityMineScatter=0.3

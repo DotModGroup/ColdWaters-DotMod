@@ -1,0 +1,7 @@
+Image=campaign/images/pact wolfpack 3
+MissionLocation=В Датском проливе
+Briefing=14 ноября 1984г
+Briefing=Противолодочный патруль НАТО загнал вас в Датский пролив. Пришло время поохотиться на охотников...
+Briefing=
+Briefing=Боевая задача:
+Briefing=Потопите вражеские противолодочные корабли

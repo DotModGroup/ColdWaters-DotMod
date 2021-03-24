@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-1
+WeaponDescriptiveName=Yu-1 Torpedo
+WeaponDescription=The Yu-1 is a steam-powered dual-purpose torpedo with passive acoustic guidance. The range of the homing system is about 880 yards.

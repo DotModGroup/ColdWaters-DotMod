@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Ka-27PL Helix
+AircraftDescriptiveName=Kamov Ka-27PL Helix A
+History=The Ka-27 is a follow-on design to the Ka-25 Hormone, and compared to its predecessor it is faster, carries a heavier payload over a greater range, and has better sensors to boot. These helicopters should be regarded as a major threat whereever they are encountered. 

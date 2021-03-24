@@ -1,0 +1,29 @@
+[TRAINING_MENU 1]
+[/TRAINING_MENU 1]
+
+[TRAINING_MENU 2]
+<b>Select Vessel</b>
+For missions with multiple player submarine classes available you will need to select your submarine class. 
+Recommended class: Los Angeles
+
+<b>Camera controls:</b>
+Pan Camera: either use <KEY:Drag Camera> or <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> and <KEY:Camera Down>.
+Zoom: either use <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+
+<b>Change Vessel:</b>
+Use the <KEY:Rudder Left> and <KEY:Rudder Right> keys to view other vessels.
+
+<LEFTCLICK> <DICTIONARY:Accept> for your class of choice.
+[/TRAINING_MENU 2]
+
+[TRAINING_MENU 3]
+<b>Vessel Assignment</b>
+You have been assigned a submarine of the chosen class.
+
+<LEFTCLICK> <DICTIONARY:Accept>
+[/TRAINING_MENU 3]
+
+[TRAINING_MENU 4]
+<b>Exit Briefing</b>
+<LEFTCLICK> <DICTIONARY:Battlestations> to begin the mission.
+[/TRAINING_MENU 4]

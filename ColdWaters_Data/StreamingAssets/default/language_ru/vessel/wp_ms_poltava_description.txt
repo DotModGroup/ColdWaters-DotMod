@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Poltava
+Description=Poltava-class large cargo ship
+History=Typical large-hatch general cargo ships, 21 ships of this class were completed between 1962-74 for the Soviet merchant marine. Originally intended for the lumber trade, these ships saw use as blockade runners during the  missile crisis, and they are well equipped to carry military cargo such as munitions and vehicles. It is therefore natural to assume they would see wartime use as replenishment transports during a conflict in the Norwegian Sea.

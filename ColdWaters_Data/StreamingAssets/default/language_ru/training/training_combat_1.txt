@@ -1,0 +1,103 @@
+[TRAINING 1]=6
+<b>Welcome Commander</b>
+It is time to begin combat training.
+
+<i>Remember use <KEY:Help> to re-open this training panel, or if this panel is already open, <KEY:Help> will open Help. Opening Help during combat pauses combat (and hides this panel).</i>
+
+Use  <color=grey><b>>>></b></color>  and   <color=grey><b><<<</b></color>  in title bar above to navigate tutorial forward or back.
+<i>Instructions in italics are optional.</i>
+
+Click  <color=grey><b>>>></b></color>  in the title bar above to continue.
+[/TRAINING 1]
+
+[TRAINING 2]
+<b>Camera Controls</b>
+<b>Pan Camera:</b> use <KEY:Drag Camera> or <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> and <KEY:Camera Down>. Camera can move above and below water.
+
+<b>Camera Bearing Indicator</b> in upper middle of screen displays true bearing (direction) camera is facing.
+0=north, 90=east, 180=south and 270=west.
+
+<b>Zoom:</b> use <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+
+Following commands cycle camera through different objects:
+<KEY:Camera To Player> - player submarine
+<KEY:Camera To Selected Contact> - current contact
+<KEY:Camera To Weapon> - torpedoes and missiles
+<KEY:Camera To Aircraft> - aircraft
+
+Try using <KEY:Camera To Player>, <KEY:Camera To Selected Contact> and <KEY:Camera To Aircraft> now (no weapons have been fired yet). Note that the target ship is not visible! If the exact position of a contact is not known, it is not displayed in the world. We will reveal the ship with the periscope during the next step.
+
+Next use <KEY:Camera To Aircraft>. Freeze camera with <KEY:Still Camera>, then use <KEY:Still Camera> again to return to following.
+
+<KEY:Event Camera> toggles the event camera on/off as indicated by the icon in upper right. The event camera will automatically focus on events of interest such as weapons firing and impacting.
+
+When ready, return camera to your submarine with <KEY:Camera To Player>.
+[/TRAINING 2]
+
+[TRAINING 3]
+<b>Periscope</b>
+Press <KEY:Periscope> to raise your periscope. Once raised and ready to use, an icon appears in the upper right. Use <KEY:Periscope View> to enter the periscope view. Periscope view can by panned with <RIGHTCLICK> and dragging or using <KEY:Camera Left> and <KEY:Camera Right>.
+
+Pan the periscope until it is facing north (0 on the camera bearing indicator) and the target ship is in the crosshairs.
+Press <KEY:Help> now to learn more about using the periscope.
+
+Use <KEY:Mark Target> to mark the target with laser rangefinding. The target will immediately be classified and updated data about the target is shown in the middle column above the mini-map (bottom left). Target is also accurately plotted on the mini-map.
+
+The mini-map displays your submarine, contacts, torpedoes and will be used to set weapon waypoints.
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Tactical Map/Mini-Map</b>
+Map Controls:
+<b>Pan Map:</b> <LEFTCLICK> on the mini-map and drag the mouse.
+<b>Zoom Map:</b> Position mouse over map and <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+<b>Centre Map:</b> <KEY:Centre Map> will position your submarine in the centre of the map, <KEY:Auto Centre Map> locks it there.
+<b>Maximise Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
+<b>Hide Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it.
+
+<LEFTCLICK> on your submarine icon moves camera to your submarine.
+<LEFTCLICK> on a contact icon selects that contact or if already selected, moves camera to it.
+<LEFTCLICK> on a torpedo icon moves camera to it.
+
+Use <KEY:Help> now to learn more about the tactical map, then press <KEY:Periscope View> to leave periscope view if you have not already done so.
+[/TRAINING 4]
+
+[TRAINING 5]
+<b>Firing a Torpedo</b>
+Use <KEY:Event Camera> to turn on the event camera for your upcoming torpedo attack.
+
+We will be firing a non-homing dumbfire Mark16 torpedo.
+Your target is not moving and several thousand yards directly north of your stationary submarine.
+ 
+To fire a torpedo;
+<b>1) Select Tube</b>
+Torpedo tubes at the bottom left indicate that all 4 tubes are loaded and ready to fire. Use <KEY:Next Tube> or <LEFTCLICK> a torpedo icon to select which tube to fire (highlighted in red).
+
+<b>2) Place Waypoint</b>
+Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint. Bearing and Range to the waypoint are displayed and a blue line now appears on the mini-map which follows your mouse pointer.
+
+Simply move your mouse pointer around the mini-map, placing it directly over the target, the readout bearing should display approximately 0.
+
+<RIGHTCLICK> to set the waypoint and fire. Map can be panned, zoomed and centred while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+
+If all went well, your torpedo should run north and strike the target.
+If it misses or ship doesn't sink, fire another remembering to select a loaded tube and set the waypoint's bearing to 0.
+[/TRAINING 5]
+
+[TRAINING 6]
+<b>Ending Combat</b>
+When ready, leave combat by using <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+The following options are available:
+
+1) <DICTIONARY:AbandonShip> - may be attempted if your submarine is still intact and is currently above escape depth. If below escape depth, this option is not available.
+
+2) <DICTIONARY:OptionsHeader> - opens the game options to edit game settings as per the main menu.
+
+3) <DICTIONARY:ExitMission> - end combat and go to the After Action Report. This option is available if you have broken contact with all enemy forces, there are no torpedoes or missiles nearby and any flooding your submarine has sustained is under control. If your submarine reaches the map boundary, this option is always available.
+
+4) <DICTIONARY:Back> - return to combat
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 6]

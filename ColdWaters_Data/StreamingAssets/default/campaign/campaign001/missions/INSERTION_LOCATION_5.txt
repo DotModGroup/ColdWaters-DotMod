@@ -1,0 +1,56 @@
+//Bergen 5
+UseTerrain=TRUE
+MapCoordinates=2000,630
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_dubna,wp_fv_trawler,wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_mpk_grisha3_ai|wp_68_mpk_poti_ai,biologic_humpback_whale|biologic_blue_whale
+FormationCruiseSpeed=7
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-370,-200
+PlayerHeading=170
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//Merchant
+EnemyWaypoints=-266,-750|-266,800
+//Merchant2
+EnemyWaypoints=-300,-800|-292,950
+//Trawler
+EnemyWaypoints=-120,-280|-120,-320|-150,-300
+//ASW Patrol North Coast
+EnemyWaypoints=-250,-600|-240,85|-300,-150
+//ASW Patrol South Coast
+EnemyWaypoints=-300,-400|-550,-390|-300,-280
+//Whale1
+EnemyWaypoints=-134,-265|-380,-313|-190,-292
+//Whale2
+EnemyWaypoints=-134,-265|-380,-313|-190,-292
+MissionPosition=50,-310
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-300,-360,70
+AircraftSearchArea=-320,-160,70
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-10,-290|-10,-290
+//number across,number deep,length,depth
+ProximityMineField=20,4,35,20|20,4,38,100
+ProximityMineFieldAngles=180,180
+ProximityMineScatter=0.5,0.4

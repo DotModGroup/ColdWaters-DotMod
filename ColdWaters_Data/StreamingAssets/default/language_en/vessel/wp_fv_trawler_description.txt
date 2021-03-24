@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Trawler
+Description=Barentsevo More-Class Stern Trawler
+History=The Soviet Union operates the world's largest fishing fleet. The Barentsevo More is typical of medium-size soviet fishing vessels and they can generally be found in coastal waters and around Soviet ports. 

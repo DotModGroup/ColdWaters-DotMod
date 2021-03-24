@@ -1,0 +1,8 @@
+﻿[Unit Reference]
+ShipClass=Alfa
+Description=Alfa-class Nuclear Attack Submarine
+History=These are among the fastest submarines ever built. Highly automated and fitted with advanced sonar and weapons, an exotic liquid-metal reactor propels these boats at a staggering 40+ kts underwater. These high speeds allow them to outrun most ASW torpedoes, but it makes the Alfas extremely noisy. However at slower speeds they are quiet and fitted with special creep motors for silent running.
+
+[Player Ship Instances]
+PlayerClassNames=Lira,Lira,Lira,Lira,Lira,Lira
+PlayerClassHullNumbers=K-123,K-316,K-432,K-373,K-493,K-463

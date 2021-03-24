@@ -1,0 +1,14 @@
+Await additional orders on this downlink.
+Await additional orders.
+Await further orders on this downlink.
+Await further orders.
+Await new orders.
+Further orders to be transmitted on this downlink.
+New orders coming on this downlink soon.
+New orders to be issued shortly on this downlink.
+New orders to be sent on this downlink soon.
+New orders to be transmitted on this downlink.
+Stand by for additional orders.
+Stand by for further orders.
+Stand by for new orders on this downlink.
+Stand by for new orders.

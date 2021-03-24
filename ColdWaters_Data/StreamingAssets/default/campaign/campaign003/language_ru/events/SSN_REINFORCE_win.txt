@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato convoy
+Photo=campaign/images/photos/cargo 1,campaign/images/photos/cargo 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>WOLVES DRIVEN OFF</b>|<b>CONVOYS PROTECTED</b>|<b>SUB KILLERS</b>
+Color=57,61,73,255
+Sentence1=Anonymous sources within the Pentagon indicated that several Russian submarines, apparently sent as aid to China, had been sunk in transit. The Kremlin has so far denied these rumors, while as usual the Pentagon has refused to comment on current submarine operations.
+Color=218,218,208,255
+Sentence2=Without the threat of attack from submarines, trans-Pacific crossings are becoming more efficient and suffering less losses. If this improved influx of supplies and war materials can be sustained, US forces will be in a position to secure the South China Sea region.

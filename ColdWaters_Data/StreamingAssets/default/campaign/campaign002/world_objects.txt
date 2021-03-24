@@ -1,0 +1,5 @@
+//Contains the pixel coordinates and mesh data for world objects
+WorldObject=terrain/scenery/scenery_harbour_narvik
+WorldObjectCoords=2539,1066
+MeshPosition=-0.75,0,5.22
+MeshRotation=0,0,0

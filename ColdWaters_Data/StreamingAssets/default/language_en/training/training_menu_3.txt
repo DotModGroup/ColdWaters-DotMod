@@ -1,0 +1,35 @@
+[TRAINING_MENU 1]
+[/TRAINING_MENU 1]
+
+[TRAINING_MENU 2]
+[/TRAINING_MENU 2]
+
+[TRAINING_MENU 3]
+<b>Vessel Assignment</b>
+You have been automatically assigned a Sturgeon class submarine for this mission.
+
+<LEFTCLICK> <DICTIONARY:Accept>
+[/TRAINING_MENU 3]
+
+[TRAINING_MENU 4]
+<b>Weapons Loadout</b>
+For this mission we will modfy your weapon loadout and which weapons will be ready in the tubes for combat.
+
+<LEFTCLICK> <DICTIONARY:VesselStatus> or <KEY:Stores> to view your vessel's weapon stores.
+
+<b>Changing Loadout</b>
+<LEFTCLICK> <DICTIONARY:UnloadWeapon> 4 times to remove 4 MK48 torpedoes from your stores. You should now have 4 MK48 in your stores plus an additional (4) in the torpedo tubes for a total of 19/23 weapons on board.
+
+<LEFTCLICK> on the TASM missile icon or it's name to select it.
+<LEFTCLICK> <DICTIONARY:LoadWeapon> 4 times to add 4 TASM missiles to your stores. You should now have 4 TASM in your stores with (0) in the torpedo tubes for a total of 23/23 weapons on board.
+
+<b>Loading Tubes</b>
+Currently there are 4 MK48 in the tubes as indicated by the icons in the tubes and the (4) listed next to the MK48 icon.
+Tap <KEY:Load Tube> continuously to cycle through the weapon in tube #1. Stop when a UGM-84 is loaded, UGM-84 should read 7 (1) to indicate of the 7v UGM-84 on board, 1 is in the tubes and the icon in tube #1 should be a UGM-84.
+
+<LEFTCLICK> the weapon in tube #2 (or use <KEY:Next Tube>) and use <KEY:Load Tube> to place a UGM-84 in tube #2.
+Repeat this for tubes #3 and #4, but in these load a TASM into each.
+When finished you should have UGM-84 6 (2) and TASM 2 (2) listed along with 2 UGM-84 icons in tubes and 2 TASM icons in tubes.
+
+Once you have this loadout <LEFTCLICK> <DICTIONARY:Battlestations> to begin the mission.
+[/TRAINING_MENU 4]

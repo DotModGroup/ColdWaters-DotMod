@@ -1,0 +1,13 @@
+NextAction=event_campaign_win_2
+Image=campaign/images/pact reinforcements
+Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 1,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>REDS THROW IN THE TOWEL</b>
+Sentence1=Czechoslovakian, Polish and East German governments have made direct contact with NATO's political leadership, asking for an immediate separate peace. The peace offer was accompanied by a plea towards NATO to guarantee the future independence of these regions from communist pressure.
+Sentence2=In general terms, acceptance of this offer could mean NATO will oblige itself to assist in forcing Soviet troops out of these respective territories. Furthermore, the displacement of hundreds of thousands of civilians across Europe poses a massive humanitarian crisis for NATO, as well as other nations, to resolve.

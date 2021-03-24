@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Qiongsha
+Description=Qiongsha-class military transport
+History=This is a class of small coastal passenger cargo ships designed to ferry troops to Chinese garrisons throughout the South China Sea. Sailing under PLAN flag, they carry 350 tons of cargo and about 400 troops. Not true landing ships, they are unable to directly deliver their troops to beaches, and must rely on conventional dockside facilities to offload cargo.

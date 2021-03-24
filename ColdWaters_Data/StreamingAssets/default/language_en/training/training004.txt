@@ -1,0 +1,9 @@
+Image=campaign/images/nato submarine
+MissionLocation=Training exercise
+Briefing=Learn how to move and manouver your submarine.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Adjusting speed.
+Briefing=- Steering with rudder controls.
+Briefing=- Adjusting depth with planes and ballast.
+Briefing=- Emergency blow ballast.

@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Kazbek
+Description=Kazbek-class fleet oiler
+History=Some 50 of these ships were built as commercial tankers during the 1950's, some being assigned to the Navy since 1960. The class bears a strong resemblance to the wartime US T-2 tankers, but refitted for underway replenishment with a large two-legged mast and smaller cranes for replenishment of dry stores, while refuelling is limited to a single ship using the inefficient stern refuelling method.

@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato missile land attack
+Photo=campaign/images/photos/explosions 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b><ENDLOCATION> HIT</b>|<b>BULLSEYE</b>
+Color=57,61,73,255
+Sentence1=Military installations in and around <ENDLOCATION>, <COUNTRY> have suffered extensive damage in what witnesses have called a "massive" cruise missile strike. Numerous uncontrolled fires remain burning nearly a day after the attack. 
+Color=218,218,208,255
+Sentence2=Spokesmen from <COUNTRY> have cried out, accusing the US leadership and officers of war crimes and other atrocities against civilian populations in the wake of recent attacks. Pacific Command officials have dismissed the claims, calling the accusations nothing more than "Chinese Propaganda".

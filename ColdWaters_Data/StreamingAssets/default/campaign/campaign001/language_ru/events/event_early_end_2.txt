@@ -1,0 +1,13 @@
+NextAction=END
+Image=campaign/images/pact france
+Photo=campaign/images/photos/riot 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>IRON CURTAIN DRAWS OVER EUROPE</b> 
+Sentence1=Hundreds of thousands of refugees flee toward the English Channel as the red stain of communism finally dominates the continent. In occupied Europe, it is rumoured that many from the middle class and academia are being sent to re-education camps in increasing numbers. The Soviet occupying forces have clamped down further on security in response to what they claim are 'actions of subversion by capitalist class enemies'.
+Sentence2=<b>UNCERTAIN TIMES AHEAD</b><n>Due to the economic and military strain of the recent conflict, analysts expect that despite the cessation of hostilities, the Cold War climate will return and indeed persist and escalate for decades to come. Detente now seems a naive fantasy. The recent clash will no doubt require sustained future expansion of military expenditures, and continuing domestic sacrifices, both by Eastern nations and by the Western nations that remain free.

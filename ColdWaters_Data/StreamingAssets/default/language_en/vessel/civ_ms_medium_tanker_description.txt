@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=Large Tanker
+History=These large ships come help fuel the world, carrying huge amounts of petroleum and usually causing great environmental damage should they run aground or be sunk.

@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Jianghu3
+Description=Jianghu 3-class Frigate
+DefensiveWeapons=37mm AA Guns
+OffensiveWeapons=Type 81 ASW Rockets
+Aircraft=None
+History=This class is a development of the earlier Jianghu, but patterned more obviously on contemporary European designs, with airtight cabins, central air conditioning, NBC protection and integrated combat systems using solid-state electronics. The design features four box launchers for the YJ-8 anti ship missile, along with an improved bow sonar that allows the ship to engage submarines using an improved ASW mortar battery.

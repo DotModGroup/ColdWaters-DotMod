@@ -1,0 +1,8 @@
+Image=campaign/images/pact missile attack
+MissionLocation=Training exercise
+Briefing=Attack and destroy a stationary target using missiles.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Set weapon stores and tube loadout.
+Briefing=- Reloading tubes in combat.
+Briefing=- Firing missiles.

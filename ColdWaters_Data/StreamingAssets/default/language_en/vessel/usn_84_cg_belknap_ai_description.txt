@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Belknap
+Description=Belknap-class Guided Missile Cruiser
+DefensiveWeapons=RIM-67B Standard SAM
+OffensiveWeapons=
+Aircraft=1 SH-2F Seasprite
+History=This class was built in the 1960's as fast single-ended guided missile frigates for screening carrier taskforces. The design is derivative of the earlier Leahy-class double-ended taskforce frigates, but substitutes the rear missile launcher for a 5-inch gun, along with an upgraded missile system capable of firing both the Standard surface-to-air missile and the ASROC anti-submarine missile. They were reclassified as guided missile cruisers in 1975.

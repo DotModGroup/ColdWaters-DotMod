@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+SATELLITE PHOTOS SHOW THAT AN ENEMY CARRIER TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION>. INTELLIGENCE ESTIMATES THAT IT WILL MAKE A CONSERVATIVE PATROL IN THE VICINITY OF THE NORWEGIAN SEA, PERHAPS APPROACHING NARVIK, BEFORE STRIKING OUT INTO THE PACIFIC. YOU ARE ORDERED TO INTERCEPT AND DESTROY THIS TASK FORCE, ESPECIALLY THE AIRCRAFT CARRIER. AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY AIRCRAFT CARRIER
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) WEAPONS FREE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Pacific convoys. CINCPAC sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Pacific convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

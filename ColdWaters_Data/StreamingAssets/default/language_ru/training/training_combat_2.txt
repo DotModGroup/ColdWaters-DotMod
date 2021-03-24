@@ -1,0 +1,80 @@
+[TRAINING 1]=6
+<b>Wire Guided Torpedoes</b>
+Use <KEY:Help> now to read about torpedo settings and wire-guiding.
+
+Let's practice:
+Use <KEY:Tactical Map> to switch to full screen map.
+Use <KEY:Fire Tube> and drag mouse to set waypoint approximately:
+Bearing: 0 Range 20 KYD
+<RIGHTCLICK> to place waypoint and fire.
+
+Third column above mini-map shows this wire-guided torpedo's data:
+<b>WPN DATA</b> Wire/Tube Number
+<b>CSE</b> Course
+<b>RNG</b> Range
+<b>BRG</b> Bearing - direction from your submarine to the weapon
+<b>RTE</b> Range To Enable - distance from weapon to its waypoint
+<b>TTR</b> Time To Run - seconds left for weapon to run
+
+Note the "1" next to the torpedo icon on the tactical map, this is the tube/wire number.
+[/TRAINING 1]
+
+[TRAINING 2]
+<b>Move Waypoint</b>
+<i>If torpedo 1 reached its waypoint and is aready active:
+Fire another torpedo at Bearing:0 Range 20 KYD</i>
+
+<LEFTCLICK> to pick up the waypoint (may need to zoom map if other icons are nearby).
+Drag waypoint about with mouse pointer, say to:
+Bearing 330, Range 3 KYD.
+<RIGHTCLICK> to place waypoint as new position (or use <KEY:Cancel or Quit> to cancel move).
+Torpedo heads to this updated waypoint position.
+
+Once the torpedo reaches its waypoint it:
+- becomes enabled and starts searching for a target
+- now uses the sensor, search and depth settings provided
+- can no longer have its waypoint moved
+- can be steered directly
+[TRAINING 2]
+
+[TRAINING 3]
+<b>Steer Torpedo</b>
+One torpedo has reached its waypoint and is enabled:
+Use <KEY:Steer Torpedo Left> and <KEY:Steer Torpedo Right> to change direction. Torpedo will continue straight unless tube setting is used to set another search pattern.
+
+Use <KEY:Steer Torpedo Shallow> and <KEY:Steer Torpedo Deep> to change depth. Depth can also be adjusted by setting the tube's setting to RUN LEVEL, RUN SHALLOW or RUN DEEP. <i>Opening the Conditions Tab with <KEY:Conditions> will show current depth of the torpedo.</i>
+
+<b>Other Torpedo Actions</b>
+<KEY:Activate Torpedo> will activate a torpedo as if it had reached its waypoint.
+<KEY:Cut Wire> cuts the wire, preventing further external control (disabled during training).
+
+Wire guided torpedoes will not home on friendly vessels, but one with a cut or broken wire can!
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Wire Breakage</b>
+Disabled for training purposes, however a wire may be broken unintentionally with the same effect as cutting the wire.
+
+Use <KEY:Help> now to read about the conditions causing wire breakage and how to avoid it.
+[/TRAINING 4]
+
+[TRAINING 5]
+<b>Target Practice</b>
+Be sure the camera is following one of your torpedoes (use <KEY:Camera To Weapon> or <LEFTCLICK> torpedo icon on map/mini map.
+
+Use <KEY:Activate Torpedo> to enable the torpedo if it is not already active.
+Using tube settings and/or direct steering, point your torpedo at one of the target ships. Once in range, your torpedo should "lock on" and home in to the target.
+
+Try sinking the other targets. Use <KEY:Load Tube> to relaod more torpedoes if needed.
+
+Torpedoes can also be guided using the map, however this usually requires enough data to accurately plot the target's position. A subject to be examined in mission #5.
+[/TRAINING 5]
+
+[TRAINING 6]
+<b>Ending Combat</b>
+To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 6]

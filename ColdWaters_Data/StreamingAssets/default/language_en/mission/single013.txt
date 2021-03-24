@@ -1,0 +1,7 @@
+Image=campaign/images/pact wolfpack 3
+MissionLocation=In the Denmark Strait
+Briefing=14 NOV 1984
+Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink enemy escorts

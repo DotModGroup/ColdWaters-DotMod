@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTEL REPORTS INDICATE A SURFACE BATTLEGROUP HAS SAILED FROM <STARTLOCATION> INTENDING TO ATTEMPT A BREAK OUT INTO THE NORTH ATLANTIC THROUGH <MUSTUSELOCATION0>. INTEL FURTHER BELIEVES THE GROUP INCLUDES ONE OR MORE SVERDLOV GUN CRUISERS THAT ONCE ON STATION WILL RAID NATO SUPPLY CONVOYS. AS BAD WEATHER PREVENTS AIRSTRIKES YOU ARE ORDERED TO INTERCEPT AND DESTROY THIS TASK FORCE.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY CRUISERS
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Atlantic convoys. CINCLANT sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Atlantic convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

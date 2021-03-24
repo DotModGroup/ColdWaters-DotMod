@@ -1,0 +1,59 @@
+//Priority Target
+
+UseTerrain=TRUE
+//MapCoordinates=1393,681
+MapCoordinates=1044,637
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
+
+//Environment
+Date=28 SEP 1982
+Hemisphere=North
+Time=0800
+UsePresetEnvironment=TRUE
+Weather=Storm
+SeaState=Fresh Breeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+
+//Enemy Ships
+UsePresetPositions=FALSE 
+PlayerPosition=85,-586
+PlayerHeading=345
+PlayerDepthInFeet=45
+NumberOfEnemyUnits=1-1,2-4,1-2,1-1
+CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE
+EnemyShipClasses=usn_84_cvn_nimitz_ai,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_dd_spruance_ai
+FormationCruiseSpeed=12
+//Enemy WayPoints
+//Group 1 Waypoints
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+
+//Group 2 Waypoints
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+
+//Group 3 Waypoints
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+
+//Group 4 Waypoints
+EnemyWaypoints=-897,275|441,-824|2435,-1546
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
+
+OtherVessels=usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_dd_spruance_ai,usn_84_cvn_nimitz_ai,wp_fv_trawler,civ_fv_trawler,civ_ms_small_freighter,civ_ms_freighter_a,civ_ms_freighter_b,civ_ms_super_p,civ_ms_roro,civ_ms_mercur,civ_ms_encounter,civ_ms_act_1,civ_ms_medium_tanker,civ_ms_sl7,civ_ms_leninskiy_komsomol,civ_ms_poltava,civ_ms_kommunist,civ_vtr_amguema,civ_vtr_andizhan,civ_vtr_yuniy_partizan,civ_ms_old_small_freighter,civ_ms_qiongsha,civ_oilrig,civ_spar_rig,biologic_humpback_whale,biologic_blue_whale
+
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF

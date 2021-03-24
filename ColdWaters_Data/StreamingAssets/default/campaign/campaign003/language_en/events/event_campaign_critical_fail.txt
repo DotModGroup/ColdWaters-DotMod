@@ -1,0 +1,12 @@
+NextAction=event_campaign_fail_2
+Image=campaign/images/plan ssbn
+Photo=campaign/images/photos/naval pact sub 1,campaign/images/photos/naval pact sub 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>THREAT OF NUKES TOO HIGH</b>
+Sentence1=Nuclear ballistic missiles, hidden in the Chinese mainland, were used as leverage during recent armistice talks. As tensions continue to rise, the President was asked to consider the implications of a Chinese nuclear or EMP strike on the mainland United States.
+Sentence2=CHAOS<n>Civil unrest and riots have broken out across major cities throughout the US, with violence and looting in their wake, as the nuclear scare grows stronger by the hour.

@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Riga
+Description=Riga-class Patrol Ship
+DefensiveWeapons=37mm AA Guns
+OffensiveWeapons=RBU-2500 ASW Rockets
+Aircraft=None
+History=This class was built in the 1950's as a smaller companion to the Kotlin-class destroyers. They feature a relatively heavy gun armament, but were technologically obsolete already when the first unit commissioned. Over the years they have been modernized with somewhat better electronics and anti-submarine rockets, but they remain definite second rate ships. They have very small fuel bunkers and so will primarily be found operating in coastal areas, or as escorts for surface groups operating close to Soviet home waters.

@@ -1,0 +1,9 @@
+This was not your mission target.
+This was not your mission objective.
+This was not the target of your current mission orders.
+This was not the objective of your current mission orders.
+Unfortunately this was not your mission objective.
+Unfortunately this was not your current mission target.
+Please resume your actual mission objective.
+Resume your actual mission objective immediately.
+Return to mission objective immediately.

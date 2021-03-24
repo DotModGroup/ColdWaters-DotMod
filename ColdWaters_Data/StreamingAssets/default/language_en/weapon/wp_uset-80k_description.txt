@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=USET-80K
+WeaponDescriptiveName=USET-80K Torpedo
+WeaponDescription=This Soviet dual-purpose torpedo is an upgrade over the USET-80. It has an improved sensor range, but lacks wake-homing.

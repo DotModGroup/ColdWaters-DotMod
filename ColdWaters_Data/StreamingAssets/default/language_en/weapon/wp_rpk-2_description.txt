@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Vjuga»
+WeaponDescriptiveName=RPK-2 «Vjuga» ASW Missile
+WeaponDescription=(NATO classification: SS-N-15)Submarine-launched stand-off ASW missile. It is similar to the SS-N-14 but drops the AT-1 homing torpedo.

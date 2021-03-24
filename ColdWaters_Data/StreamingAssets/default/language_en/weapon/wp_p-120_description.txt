@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Malakhit»
+WeaponDescriptiveName=P-120 «Malakhit» (SS-N-9 Siren)
+WeaponDescription=The P-120 «Malakhit» (NATO reporting name: SS-N-9 Siren) is a Soviet medium range anti-ship missile used by corvettes and submarines. Introduced in 1972, it remains in service but has been superseded by the SS-N-22 Sunburn.

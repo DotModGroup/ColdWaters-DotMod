@@ -1,0 +1,265 @@
+Designation=CGH
+ShipType=CAPITAL
+// Early version of Moskva class for 1968 campaign
+// DO NOT PUT COMMENTS ON FIRST LINE!
+
+Length=196.6
+Beam=35
+HullHeight=0.1
+Displacement=17500
+Crew=850
+Range=14000
+
+// Changing hull numbers requires PNGSs of that name exist
+// 1984 Hull numbers:
+HullNumbers=113,106
+//1968 HullNumbers:
+//HullNumbers=857,848
+//AircraftNumbers=18
+//Only 12 ASW helos are generally carried (+2 utility/liaison)
+AircraftNumbers=12
+//Use older variant of Ka-25 for this earlier verson of the Moskva class
+//AircraftTypes=wp_hormone
+AircraftTypes=wp_hormone_68
+
+[Movement]
+SurfaceSpeed=31
+SubmergedSpeed=0
+TelegraphSpeeds=-5,0,5,10,18,25,31
+AccelerationRate=0.02
+DecelerationRate=0.02
+RudderTurnRate=0.5
+TurnRate=0.3
+PivotPointTurning=0.256
+DiveRate=0
+SurfaceRate=0
+BallastRate=0
+Waterline=0
+SubmergedAt=0
+CavitationParameters=0,0
+PropRotationSpeed=-250,250
+TestDepth=0
+
+[Acoustics & Sensors]
+SelfNoise=180
+ActiveSonarReflection=25
+ActiveSonarModel=wp_moose_jaw
+PassiveSonarModel=wp_moose_jaw
+TowedArrayModel=wp_mare_tail
+AnechoicCoating=FALSE
+RADAR=wp_don_kay
+RADARSignature=MEDIUM
+
+[Weapon Systems]
+// http://russianships.info/eng/warships/project_1123.htm
+// MISSING WEAPONS (1968):
+// 1 x SUW-N-1 FRAS-1 aka MS-32 PRK-1 «Vyuga» launcher (8 82R anti-submarine guided missiles) 
+//  (nuclear weapon so not modelled in CW)
+// 2 x 5 533mm torpedo tubes SET-53 / SET-65 (removed 1975) (ADDED for _68 variant)
+// 2 x twin SA-N-3 GOBLET SAM aka B-189 M-11 «Shtorm» SAM system launchers (96 V-611 missiles (4K60))
+//  (no SAMs modelled in CW as yet)
+// MISSING WEAPONS (1984):
+// TBC - 30mm CIWS?
+
+NavalGuns=wp_ak-725_shell,wp_ak-725_shell
+NavalGunFiringArcBearingMin=-160,160
+NavalGunFiringArcBearingMax=-20,20
+NavalGunRestAngle=0,180
+NavalGunParticle=weapons/assets/SmallMuzzleFlash
+NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
+
+//Copied from KIEV
+TorpedoTypes=wp_set-65
+TorpedoNumbers=10
+TorpedoTubes=10
+TubeConfig=5,5
+TorpedoTubeSize=21
+TubeReloadTime=0
+
+RBULaunchers=wp_rbu6000_mortar,wp_rbu6000_mortar
+//RBUSalvos=8,8
+RBUSalvos=10,10
+RBUFiringArcBearingMin=-90,-90
+RBUFiringArcBearingMax=90,90
+
+[Defenses]
+ChaffType=wp_chaff
+ChaffProbability=0.12
+NumberChaffLaunched=2
+
+AntiAirMissileType=wp_m-11
+AntiAirMissilesNumbers=80
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=80
+AntiAirMissileLaunchDepth=5
+AntiAirMissileLaunchPoints=-0.025,0.237,0.7|0.025,0.237,0.7|-0.025,0.268,0.384|0.025,0.268,0.384
+AntiAirMissileLaunchPointsRotation=-30,0,0
+
+NoisemakerName=surf_noisemaker
+NumberOfNoisemakers=20
+NoisemakerReloadTime=20
+
+[Model]
+ModelFile=ships/wp_pkr_moskva/wp_pkr_moskva
+
+//Hull and Deck
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+MeshHullCollider=wp_pkr_moskva_coll_hull
+MeshSuperstructureCollider=wp_pkr_moskva_coll_ss
+
+Material=ships/wp_pkr_moskva/wp_pkr_moskva_mat
+MaterialTextures=ships/wp_pkr_moskva/wp_pkr_moskva_tx,ships/wp_pkr_moskva/wp_pkr_moskva_spec,ships/wp_pkr_moskva/wp_pkr_moskva_nm
+Mesh=wp_pkr_moskva,wp_pkr_moskva_d
+MeshPosition=0,-0.0582,-1.159
+MeshRudder=wp_pkr_moskva_rudder
+
+MeshPosition=0,0,0
+Material=ships/wp_pkr_moskva/wp_pkr_moskva_deck
+MaterialTextures=ships/wp_pkr_moskva/wp_pkr_moskva_deck_tx,ships/wp_pkr_moskva/wp_pkr_moskva_deck_spec,ships/wp_pkr_moskva/wp_pkr_moskva_deck_nm
+Mesh=wp_pkr_moskva_deck,wp_pkr_moskva_deck_d
+
+Material=ships/materials/underside
+Mesh=wp_pkr_moskva_undersides,wp_pkr_moskva_undersides_d
+
+Material=ships/materials/trans
+Mesh=wp_pkr_moskva_trans,wp_pkr_moskva_trans_d
+
+Material=ships/materials/boats
+Mesh=wp_pkr_moskva_boats,wp_pkr_moskva_boats_d
+
+Material=ships/materials/wp_headlights
+Mesh=wp_pkr_moskva_headlights,wp_pkr_moskva_headlights_d
+
+Material=ships/materials/crew_soviet
+Mesh=wp_pkr_moskva_crew,HIDE
+
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=wp_pkr_moskva_hullnumber
+
+Material=ships/materials/modular_parts
+Mesh=wp_pkr_moskva_parts,wp_pkr_moskva_parts_d
+MeshPosition=-0.07885,-0.0672,-1.042
+MeshProp=wp_pkr_moskva_prop_l
+MeshPosition=0.07885,-0.0672,-1.042
+MeshProp=wp_pkr_moskva_prop_r
+
+//Deck Props
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=aircraft/wp_hormone/wp_hormone_mat
+MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
+Mesh=wp_pkr_moskva_airwing
+Material=ships/materials/hormone_shadow
+Mesh=wp_pkr_moskva_airwing_shadow
+
+//RADARs
+RADARSpeed=100
+RADARDirection=1
+
+MeshPosition=0,0.323,0.28736
+MeshRADAR=wp_pkr_moskva_navradar
+
+Material=ships/materials/wp_topsail
+RADARSpeed=20
+MeshPosition=0,0.678,-0.117
+MeshRADAR=wp_pkr_moskva_topsail,HIDE
+
+Material=ships/materials/wp_headnet_c
+RADARSpeed=80
+MeshPosition=0,0.5435,-0.053
+MeshRADAR=wp_pkr_moskva_headnet_c,HIDE
+
+//Flags
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_soviet
+MeshMainFlag=wp_pkr_moskva_animatedflag,HIDE
+
+Material=ships/materials/flag_signal
+MeshOtherFlags=wp_pkr_moskva_signals,HIDE
+
+[Weapon Systems]
+//Naval Guns
+MeshRotation=0,0,0
+Material=ships/materials/modular_parts
+MeshPosition=-0.1591,0.2245,0.1321
+MeshNavalGun=wp_pkr_moskva_AK725
+MeshPosition=0,0.01503,0.01
+MeshRotation=0,0,0
+MeshNavalGunBarrel=wp_pkr_moskva_AK725_guns
+NavalGunSpawnPosition=0,0,0.12
+
+MeshRotation=0,180,0
+MeshPosition=0.1801,0.2245,-0.0791
+MeshNavalGun=wp_pkr_moskva_AK725
+MeshPosition=0,0.01503,0.01
+MeshRotation=0,0,0
+MeshNavalGunBarrel=wp_pkr_moskva_AK725_guns
+NavalGunSpawnPosition=0,0,0.12
+
+MeshRotation=0,0,0
+Material=ships/materials/modular_parts
+
+//Torpedo Mounts copied from KIEV
+MeshPosition=-0.25,0.08,-0.1
+MeshTorpedoMount=FALSE
+TorpedoSpawnPosition=0,0,0
+TorpedoEffectPosition=0,0.0055,0.041
+
+MeshPosition=0.25,0.08,-0.1
+MeshTorpedoMount=FALSE
+TorpedoSpawnPosition=0,0,0
+TorpedoEffectPosition=0,0.0055,0.041
+
+//Noisemaker Mount
+MeshRotation=0,0,0
+MeshPosition=0,-0.011,-1.106
+MeshNoisemakerMount=FALSE
+
+//RBU
+MeshRotation=335,0,0
+MeshPosition=0.0,0.195,1.1916
+MeshRBULauncher=wp_pkr_moskva_RBU6000
+
+MeshPosition=0.0,0.212,1.0342
+MeshRBULauncher=wp_pkr_moskva_RBU6000
+
+//Wake and Smoke
+ModelFile=ships/wp_pkr_moskva/wp_pkr_moskva
+MeshPosition=0,0,0
+MeshRotationn=0,0,0
+Material=FALSE
+BowWaveParticle=ships/particles/bowwave
+PropWashParticle=ships/particles/bowwave
+CavitationParticle=ships/particles/wp_pkr_moskva_cavitation
+FunnelSmokeParticle=ships/particles/wp_pkr_moskva_smokeemitter
+
+//Wake planes
+MeshPosition=0,0,1.238
+MeshHullWake=wp_pkr_moskva_hullwake
+MeshPosition=0,0,-1.073
+MeshSternWake=wp_pkr_moskva_sternwake
+
+//Ocean surface particles
+ParticleBowWavePosition=0,0,1.26
+ParticlePropWashPosition=0,-0.056,-1.068
+ParticleHullFoamPosition=0,0,1.019
+ParticleHullFoamParameters=400,0.55,0.45,0.007,0,0,0.25
+ParticleSternFoamPosition=0,0,-0.998
+ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
+KelvinWaves=4.45,4.45
+
+EngineAudioClip=audio/units/turbine_large
+EngineAudioRollOff=LOGARITHMIC
+EngineAudioDistance=1,30
+EngineAudioPitchRange=0.8,1.2
+PropAudioClip=audio/units/ship_propeller
+PropAudioRollOff=LOGARITHMIC
+PropAudioDistance=1,20
+PropAudioPitchRange=0.1,0.6
+PingAudioClip=audio/environment/sonar_ping_lf
+PingAudioRollOff=LOGARITHMIC
+PingAudioDistance=1,50
+PingAudioPitch=1

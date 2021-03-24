@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=BE-12 Mail
+AircraftDescriptiveName=Beriev Be-12 Mail
+History=Along with the Ka-25 helicopter, the Beriev Be-12 Chayka ("Swallow"), NATO reporting name MAIL, was the first purpose built fixed wing ASW aircraft designed to respond to the threat from George Washington class SSBNs and Polaris A-1 nuclear missiles. (The MAY and BEAR-F aircraft were conversions, not new types.) This turboprop-powered flying boat, first operational in 1964, proved rugged and versatile, with good endurance. Nearly 50% of ASW hours logged by Soviet Naval Aviation between 1965-1981 were flown by this aircraft type. However from the early 1970s onward, the increasing range of US nuclear missiles meant the ASW role was given over to longer range aircraft able to operate further from the Soviet coast. 

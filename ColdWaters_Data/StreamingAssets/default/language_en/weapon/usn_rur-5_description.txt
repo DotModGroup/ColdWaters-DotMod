@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=RUR-5
+WeaponDescriptiveName=RUR-5 ASROC ASW Rocket
+WeaponDescription=Surface ship-launched stand-off ASW rocket that flies on an unguided ballistic trajectory and drops a homing Mk-46 lightweight torpedo.

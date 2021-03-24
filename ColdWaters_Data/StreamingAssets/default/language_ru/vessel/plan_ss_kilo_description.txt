@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Kilo Imp.
+Description=Improved Kilo-class Diesel-Electric Submarine
+History=This is the latest and most advanced diesel-electric submarine built by the Soviets. Compared to earlier designs, the Kilo has adopted the Albacore-hull form, which makes it much faster underwater. It is also much quieter, and carries weapons and sensors on par with the third-generation nuclear attack submarines like the Victor III.

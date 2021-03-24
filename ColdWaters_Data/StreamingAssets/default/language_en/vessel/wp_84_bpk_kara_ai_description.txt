@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Kara
+Description=Kara-class Large Anti-Submarine Ship
+DefensiveWeapons=SA-N-3 SAM\nSA-N-4 SAM\nAK726 76mm DP Guns
+OffensiveWeapons=RBU-6000 ASW Rockets\nRBU-1000 ASW Rockets
+Aircraft=1 Ka-25 Hormone ASW helicopter
+History=This class is an enlarged and improved derivative of the Kresta II design. Gas turbines have replaced the earlier steam plants, and the ships carry more extensive command and control spaces. The ASW weapons fit is identical to that of the Kresta II but AA capabilities have been improved with the addition of SA-N-4 launchers amidships. The larger size of the hull has also made it possible to fit these ships with both the Bull Nose bow sonar as well as the Mare Tail variable depth sonar also found on the Krivaks.

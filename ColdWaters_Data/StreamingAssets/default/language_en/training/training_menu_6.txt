@@ -1,0 +1,17 @@
+[TRAINING_MENU 1]
+[/TRAINING_MENU 1]
+
+[TRAINING_MENU 2]
+[/TRAINING_MENU 2]
+
+[TRAINING_MENU 3]
+<b>Vessel Assignment</b>
+You have been automatically assigned a Sturgeon class submarine for this mission.
+
+<LEFTCLICK> <DICTIONARY:Accept>
+[/TRAINING_MENU 3]
+
+[TRAINING_MENU 4]
+<b>Exit Briefing</b>
+<LEFTCLICK> <DICTIONARY:Battlestations> to begin the mission.
+[/TRAINING_MENU 4]

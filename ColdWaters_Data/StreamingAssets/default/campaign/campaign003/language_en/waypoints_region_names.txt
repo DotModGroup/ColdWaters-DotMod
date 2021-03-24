@@ -1,0 +1,12 @@
+Regions=Taiwan,The Philippines,China,South China Sea,The Spratlys
+Taipei=Taiwan
+Kaohsiung=Taiwan
+Luzon=The Philippines
+Manila=The Philippines
+Celebes=The Philippines
+Hong Kong=China
+Paracel Islands=South China Sea
+Scarborough Shoal=South China Sea
+northern islands=The Spratlys
+central islands=The Spratlys
+south islands=The Spratlys

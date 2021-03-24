@@ -1,0 +1,544 @@
+[HELM]
+NavigationWaypointInfo=Set Course HEADING: <BRG>   RANGE: <RANGE> <KILOYARD> / <RANGE_MILES> <MILE>
+NavigationSetCourse=Conn, come <DIRECTION> to <BRG>, helm aye
+NavigationAtCourse=Conn, helm steady course
+
+=============================================================
+[MOD ADDITION]
+
+EmergencyDeep=Emergency deep!, dive aye
+
+TowedArrayOn=Deploying towed array
+TowedArrayOff=Retracting towed array
+TowedArrayBroken=Towed array inoperable - dock repairs are required
+TowedArrayUnavaliable=Towed array can't be deployed - conditions are unsafe
+
+AboveMaxRange=Conn, torpedo room: cannot fire <WEAPON> beyond <RANGE> <KILOYARD>
+VLSNotReady=VLS not ready to fire
+FireVLS=Fire missile № <VLS_NUMBER>
+
+FireAntiAirMissile=Fire SAM № <LAUNCHPOINT_NUMBER>
+AntiAirMissileReloading=Cant fire SAM- reloading.
+AntiAirMissileReloaded=Conn, SAM ready to fire.
+AntiAirMissileNoAmmo=Cant fire SAM - out of ammo.
+MissileIntercepted=Missile <MISSILENAME>, M-<MISSILEID> is shot down.
+MissileNotIntercepted=Failed to intercept M-<MISSILEID> <MISSILENAME>
+OwnMissileIntercepted=Conn, our missile, <MISSILENAME>, was shot down.
+AirTargetIntercepted=Conn, Air target <TARGET> is shot down.
+AirTargetNotIntercepted=Conn, Air target <TARGET> is still intact.
+ScanAirRaiseRadarMast=Conn, Radar is swiched off. Detection of air targets is impossible.
+ScanAirRadarDamaged=Conn, Radar is damaged. Detection of air targets is impossible.
+
+NoSuitableTorpedo=No torpedoes of that caliber
+
+GunsFireAtWill=Guns! Fire at will!
+GunsOnHold=Guns! Hold fire!
+GunsLowSolution=Can not fire - low solution on target.
+GunsNoAmmo=Cant fire - out of ammo.
+GunsBadRange=Unable to fire - target is not within firing range.
+
+RBUFireAtWill=RBU! Fire!
+RBUOnHold=RBU! Hold fire!
+RBUNoAmmo=RBUs are out of ammo.
+
+MissileLaunchDetected=Missile launch detected! Bearing: <BRG> Distance: <RANGE> <KILOYARD>
+MissileType=Missile type: <MISSILENAME>. Target's ID is set to: M-<MISSILEID>
+MissileWarning=Incoming missile! Bearing: <BRG> Distance: <RANGE> <KILOYARD> ID: M-<MISSILEID> Type : <MISSILENAME>
+FireSunray=Jamming systems active!
+SunrayReady=Conn, jamming systems ready
+DeployChaff=Chaff deployed!
+ChaffReady=Conn, chaff ready
+
+PlayerWasDetected=Conn, I think, we've been detected.
+
+=============================================================
+[DIVE OFFICER]
+BlowBallast=Emergency surface the ship, dive aye
+PassingDepth=Passing <DEPTH> <FEET>
+TooShallowUnderKeel=Conn, less than <DEPTH> <FEET> below the keel
+IceHazard=Conn, sonar reports ice ahead
+MineHazard=Conn, sonar reports minefield ahead
+KnuckleFormed=Conn, knuckle formed
+BallastRecharged=Conn, high pressure air banks charge complete, ready to dive
+BallastRecharging=Conn, charging high pressure air banks after emergency blow, unable to dive
+NavigationSetDepth=Make depth <WANTEDDEPTH> <FEET>, dive aye
+NavigationAtDepth=Conn, dive at <WANTEDDEPTH> <FEET>
+
+[MANEUVERING]
+SetSpeed=Make turns for <SPEED> knots, manouvering aye
+AtSpeed=Conn, manouvering: making turns for <SPEED> knots
+BackSpeed=Back emergency, manouvering aye
+
+[SONAR]
+NewSonarContact=Conn, sonar: new contact bearing <BRG>, designated <CONTACT>
+LostSonarContact=Conn, sonar: lost contact <CONTACT> last bearing <BRG>, contact faded
+LostSonarContactBaffles=Conn, sonar: lost contact <CONTACT> last bearing <BRG>, contact is in the baffles
+ReEstablishSonarContact=Conn, sonar: contact <CONTACT> bearing <BRG>, contact re-established
+ContactSinking=Conn, sonar: lost contact <CONTACT> last bearing <BRG>, contact breaking up
+ContactIdentified=Conn, sonar: contact <CONTACT> is identified as <CONTACTTYPE>
+ContactClassified=Conn, sonar: contact <CONTACT> is classified as <CONTACTCLASSIFIED>
+TransientKnown=Conn, sonar: launch transient from <CONTACT>
+TransientUnknown=Conn, sonar: launch transient bearing <BRG>
+SonobuoyPing=Conn, sonar: sonobuy ping, bearing <BRG>
+ActivePing=Conn, sonar: active sonar, bearing <BRG>
+NoisemakerDropped=Conn, sonar: noisemaker, bearing <BRG>
+PlayerCavitating=Conn, sonar: we are cavitating
+PlayerStopCavitating=Conn, sonar: no longer cavitating
+EnemyCavitating=Conn, sonar: contact <CONTACT> is cavitating
+SwitchToActive=Conn, sonar: switching to active sonar
+SwitchToPassive=Conn, sonar: switching to passive sonar
+TorpedoInTheWater=Conn, sonar: torpedo in the water! Torpedo in the water! Bearing <BRG>
+
+[WLR-9]
+Torpedo in the water! Torpedo in the water! Bearing <BRG>
+Torpedo is active! Bearing <BRG>
+Torpedo is at <RANGE> yards and closing
+
+[TORPEDO ROOM]
+LoadWeapon=Conn, torpedo room: load <WEAPON> tube <TUBE>. Torpedo room aye
+TubeDestroyed=Conn, torpedo room: tube <TUBE> inoperable
+TubeJamDestroyed=Conn, torpedo room: tube <TUBE> jammed on launch
+WeaponLoaded=Conn, torpedo room: tube <TUBE> ready
+TooDeep=Conn, torpedo room: cannot fire <WEAPON> below <DEPTH> <FEET>
+VLSTooFast=Conn, torpedo room: cannot fire <VLS> weapon above <SPEED> <KNOT>
+VLSTooDeep=Conn, torpedo room: cannot <VLS> weapon below <DEPTH> <FEET>
+//CannotLoadWireInTube=Conn, torpedo room: cannot reload <TUBE>, active wire in <TUBE>
+NoReloadsAvailable=No reloads available
+NoVLSReloadsAvailable=No weapons remain in <VLS>
+BelowMinRange=Conn, torpedo room: cannot fire <WEAPON> below <RANGE> <KILOYARD>
+
+[FIRE CONTROL]
+WeaponAcquire=Conn, fire control, weapon acquire
+WeaponDecoy=Conn, fire control, weapon countermeasure homing
+WeaponReattack=Conn, fire control, weapon reattack on
+WireBreak=Conn, fire control, wire break, weapon <WEAPON>
+WaypointSet=BEARING: <BRG>   RANGE: <RANGE> <KILOYARD>
+WaypointInfo=BEARING: <BRG>   RANGE: <RANGE> <KILOYARD> + <ACTIVERANGE> <KILOYARD> <n> <RANGE_MILES> <MILE> / <TIME> sec <n><n><EVASIONHELP>
+NotReady=Conn, fire control, <TUBE> not ready to fire
+FireTube=Shoot tube <TUBE>, aye sir
+
+[XO]
+InDeploymentZone=In Spec Ops deployment zone, come to a stop above 100 <FEET> to deploy
+CompartmentStatus=<CONDITION> in the <COMPARTMENT>! Damage control parties, lay to the <COMPARTMENT>!
+MasterContact=Contact <ORIGINAL> upgraded to <CONTACT>
+CommandoDeployed=Spec Ops team is away
+LandStrikeHoming=Conn, weapon <LANDTARGETSTATUS> attacking land target
+LandStrikeComplete=Conn, all land attack weapons are away, land strike complete
+
+SubsystemDamaged=Conn, <SUBSYSTEM> damaged, time to repair <TIMETOREPAIR> minutes
+SubsystemDestroyed=Conn, <SUBSYSTEM> offline, requires repair at port
+SubsystemRepaired=Conn, <SUBSYSTEM> repaired
+
+FloodingInCompartment=Flooding in the <COMPARTMENT>!
+DCPartyToCompartment=Damage control parties, lay to the <COMPARTMENT>!
+
+[WATCH OFFICER]
+RunSilentOn=Rig ship for ultra quiet
+RunSilentOff=Releasing ship from ultra quiet
+
+NewVisualContact=New visual contact bearing <BRG>, designate <CONTACT>
+NewRADARContact=New RADAR contact bearing <BRG>, designate <CONTACT>
+NewESMContact=New ESM contact bearing <BRG>, designate <CONTACT>
+LostVisualContact=Contact <CONTACT> visual contact lost, bearing <BRG>
+LostRADARContact=Contact <CONTACT> RADAR contact lost, bearing <BRG>
+LostESMContact=Contact <CONTACT> ESM contact lost, bearing <BRG>
+ReEstablishVisualContact=Contact <CONTACT>, bearing <BRG>, contact re-established
+ReEstablishRADARContact=Contact <CONTACT>, bearing <BRG>, contact re-established
+ReEstablishESMContact=Contact <CONTACT>, bearing <BRG>, contact re-established
+
+CannotUseMasts=Cannot raise masts under <THRESHOLD> <FEET>
+RaiseMast0=Up scope
+LowerMast0=Down scope
+StowMast0=Conn, the periscope is stowed and rigged for dive
+
+RaiseMast1=Raise the ESM mast
+LowerMast1=Lower the ESM mast
+StowMast1=Conn, radio, the ESM mast is stowed and rigged for dive
+
+RaiseMast2=Raise the RADAR mast
+LowerMast2=Lower the RADAR mast
+StowMast2=Conn, radio, the RADAR mast is stowed and rigged for dive
+
+[AUDIO]
+=============================================================
+[MOD ADDITION]
+
+VLSNotReady=audio/messagelog/minor error
+MissileLaunchDetected=audio/alert/MissileAllert_01.ogg
+MissileEarlyWarning=audio/messagelog/Alarm SUB Alt
+MissileWarning=audio/alert/MissileCloseAlert.ogg
+AboveMaxRange=audio/messagelog/minor error
+AntiAirMissileReloading=audio/messagelog/minor error
+AntiAirMissileReloaded=audio/alert/SAM_reloaded.ogg
+AntiAirMissileNoAmmo=audio/messagelog/minor error
+=============================================================
+RaiseMast1=audio/messagelog/mast
+LowerMast1=audio/messagelog/mast
+RaiseMast2=audio/messagelog/mast
+LowerMast2=audio/messagelog/mast
+RaiseMast0=audio/messagelog/mast
+LowerMast0=audio/messagelog/mast
+BlowBallast=audio/messagelog/blow ballast
+BallastRecharged=audio/messagelog/ballast recharged
+CommandoDeployed=audio/messagelog/ballast recharged
+LandStrikeHoming=audio/messagelog/OnOff 05
+LandStrikeComplete=audio/messagelog/OnOff 05
+
+SubsystemDamaged=audio/messagelog/Alarm SUB Alt
+SubsystemDestroyed=audio/messagelog/Alarm SUB Alt
+TubeJamDestroyed=audio/messagelog/Alarm SUB Alt
+
+SubsystemRepaired=audio/messagelog/OnOff 02
+
+TransientKnown=audio/messagelog/transient
+TransientUnknown=audio/messagelog/transient
+
+Power6=audio/messagelog/max power
+
+//TooShallowUnderKeel=audio/messagelog/Alarm 04
+IceHazard=audio/messagelog/Alarm 04
+MineHazard=audio/messagelog/Alarm 04
+
+NewContact=audio/messagelog/Alarm 01
+ReEstablishSonarContact=audio/messagelog/Alarm 01
+NewVisualContact=audio/messagelog/Alarm 01
+NewRADARContact=audio/messagelog/Alarm 01
+NewESMContact=audio/messagelog/Alarm 01
+ReEstablishVisualContact=audio/messagelog/Alarm 01
+ReEstablishRADARContact=audio/messagelog/Alarm 01
+ReEstablishESMContact=audio/messagelog/Alarm 01
+
+LostSonarContact=audio/messagelog/Errors 03
+BaffledContact=audio/messagelog/Errors 03
+LostVisualContact=audio/messagelog/Errors 03
+LostRADARContact=audio/messagelog/Errors 03
+LostESMContact=audio/messagelog/Errors 03
+
+SwitchToActive=audio/messagelog/OnOff 05
+SwitchToPassive=audio/messagelog/OnOff 05
+WaypointSet=audio/messagelog/OnOff 05
+RunSilentOn=audio/messagelog/OnOff 05
+RunSilentOff=audio/messagelog/OnOff 05
+
+TooDeep=audio/messagelog/minor error
+CannotLoadWireInTube=audio/messagelog/minor error
+NoReloadsAvailable=audio/messagelog/minor error
+WireBreak=audio/messagelog/minor error
+NotReady=audio/messagelog/minor error
+ToDeepToDeploy=audio/messagelog/minor error
+CannotUseMasts=audio/messagelog/minor error
+PlayerCavitating=audio/messagelog/minor error
+BelowMinRange=audio/messagelog/minor error
+VLSTooFast=audio/messagelog/minor error
+VLSTooDeep=audio/messagelog/minor error
+NoReloadsAvailable=audio/messagelog/minor error
+NoVLSReloadsAvailable=audio/messagelog/minor error
+BallastRecharging=audio/messagelog/minor error
+
+CompartmentStatus=audio/messagelog/error
+
+[VOICES]
+//audio file path|priority|SPECIAL
+=============================================================
+[MOD ADDITION]
+
+DIVEOFFICERMETRE=audio/voices/metres.wav
+
+FireTube9=audio/voices/fire control/ShootTube09.wav
+FireTube10=audio/voices/fire control/ShootTube00.wav
+FireTube11=audio/voices/fire control/ShootTube11.wav
+
+VLSNotReady=audio/voices/fire control/unable to fire.wav|7|FALSE
+FireVLS=audio/voices/fire control/fire VLS SFX.wav|5|FALSE
+
+TowedArrayOn=audio/messagelog/Alarm 01|5|FALSE
+TowedArrayOff=audio/messagelog/Alarm 01|5|FALSE
+TowedArrayBroken=audio/voices/xo/section2/towedarray_damaged.wav|5|FALSE
+TowedArrayUnavaliable=audio/messagelog/Alarm 01|5|FALSE
+
+WeaponLoaded9=audio/voices/torpedo room/Tubeready09.wav
+WeaponLoaded10=audio/voices/torpedo room/Tubeready00.wav
+WeaponLoaded11=audio/voices/torpedo room/Tubeready11.wav
+
+ReEstablishRADARContact=audio/voices/watch officer/New_radar_contact.wav|5|RADARCONTACT_WATCHOFFICERBRG
+ReEstablishESMContact=audio/voices/watch officer/New_ESM_contact.wav|5|ESMCONTACT_WATCHOFFICERBRG
+
+SubsystemDamagedDIESEL=audio/voices/xo/section2/reactor_scrammed.wav
+SubsystemRepairedDIESEL=audio/voices/xo/section1/reactor_back_online.wav
+SubsystemDestroyedDIESEL=audio/voices/xo/section2/reactor_damaged.wav
+
+FLOODINGDIESEL=audio/voices/xo/section3/flooding_reactorspace.wav
+DCPARTYDIESEL=audio/voices/xo/section3/dc_reactorspace.wav
+
+
+
+MissileLaunchDetected=audio/voices/sonarman/transient.wav|0|FALSE
+
+=============================================================
+
+//Dive Officer
+BlowBallast=audio/voices/dive officer/Emergency Surface.wav|2|FALSE
+TooShallowUnderKeel=audio/voices/dive officer/fifty feet below keel.wav|2|FALSE
+IceHazard=audio/voices/dive officer/Ice Ahead.wav|2|FALSE
+MineHazard=audio/voices/dive officer/Minefield Ahead.wav|2|FALSE
+KnuckleFormed=audio/voices/dive officer/Knuckle Formed.wav|3|FALSE
+BallastRecharged=audio/voices/dive officer/ready to dive.wav|3|FALSE
+BallastRecharging=audio/voices/dive officer/unable to dive.wav|2|FALSE
+PassingDepth=audio/voices/dive officer/01 Passing one hundred feet.wav|3|DEPTH
+PassingDepth100=audio/voices/dive officer/01 Passing one hundred feet.wav
+PassingDepth200=audio/voices/dive officer/02 Passing two hundred feet.wav
+PassingDepth300=audio/voices/dive officer/03 Passing three hundred feet.wav
+PassingDepth400=audio/voices/dive officer/04 Passing four hundred feet.wav
+PassingDepth500=audio/voices/dive officer/05 Passing five hundred feet.wav
+PassingDepth600=audio/voices/dive officer/06 Passing six hundred feet.wav
+PassingDepth700=audio/voices/dive officer/07 Passing seven hundred feet.wav
+PassingDepth800=audio/voices/dive officer/08 Passing eight hundred feet.wav
+PassingDepth900=audio/voices/dive officer/09 Passing nine hundred feet.wav
+PassingDepth1000=audio/voices/dive officer/10 Passing one thousand feet.wav
+PassingDepth1100=audio/voices/dive officer/11 Passing eleven hundred feet.wav
+PassingDepth1200=audio/voices/dive officer/12 Passing twelve hundred feet.wav
+PassingDepth1300=audio/voices/dive officer/13 Passing thirteen hundred feet.wav
+PassingDepth1400=audio/voices/dive officer/14 Passing fourteen hundred feet.wav
+PassingDepth1500=audio/voices/dive officer/15 Passing fifteen hundred feet.wav
+PassingDepth1600=audio/voices/dive officer/16 Passing sixteen hundred feet.wav
+PassingDepth1700=audio/voices/dive officer/17 Passing seventeen hundred feet.wav
+PassingDepth1800=audio/voices/dive officer/18 Passing eighteen hundred feet.wav
+PassingDepth1900=audio/voices/dive officer/19 Passing nineteen hundred feet.wav
+PassingDepth2000=audio/voices/dive officer/20 Passing two thousand feet.wav
+
+NavigationSetDepth=audio/voices/dive officer/Make Depth.wav|3|WANTEDDEPTH
+NavigationAtDepth=audio/voices/dive officer/Dive At.wav|4|WANTEDDEPTH
+DIVEOFFICER0=audio/voices/dive officer/zero.wav
+DIVEOFFICER1=audio/voices/dive officer/one.wav
+DIVEOFFICER2=audio/voices/dive officer/two.wav
+DIVEOFFICER3=audio/voices/dive officer/three.wav
+DIVEOFFICER4=audio/voices/dive officer/four.wav
+DIVEOFFICER5=audio/voices/dive officer/five.wav
+DIVEOFFICER6=audio/voices/dive officer/six.wav
+DIVEOFFICER7=audio/voices/dive officer/seven.wav
+DIVEOFFICER8=audio/voices/dive officer/eight.wav
+DIVEOFFICER9=audio/voices/dive officer/nine.wav
+DIVEOFFICERFEET=audio/voices/dive officer/feet.wav
+DIVEOFFICERAYE=audio/voices/dive officer/Dive Aye.wav
+
+//Helm
+NavigationSetCourse=|3|COMETOHEADING
+NavigationAtCourse=audio/voices/helm/steady course.wav|4|FALSE
+HELMLEFT=audio/voices/helm/come left to.wav
+HELMRIGHT=audio/voices/helm/come right to.wav
+HELMAYE=audio/voices/helm/helm aye.wav
+HELM0=audio/voices/helm/zero.wav
+HELM1=audio/voices/helm/one.wav
+HELM2=audio/voices/helm/two.wav
+HELM3=audio/voices/helm/three.wav
+HELM4=audio/voices/helm/four.wav
+HELM5=audio/voices/helm/five.wav
+HELM6=audio/voices/helm/six.wav
+HELM7=audio/voices/helm/seven.wav
+HELM8=audio/voices/helm/eight.wav
+HELM9=audio/voices/helm/nine.wav
+
+//Maneuvering
+SetSpeed=audio/voices/maneuvering/MAKE_TURNS_FOR.wav|3|WANTEDSPEED_MANEUVERINGAYE_DELAY
+AtSpeed=audio/voices/maneuvering/CONN_MANEUVERING_MAKING.wav|4|ATSPEED_MANEUVERINGKNOTS
+BackSpeed=audio/voices/maneuvering/BACK_EMER-01.wav|3|FALSE
+SpeedPrefixDuplicateCheck=Make turns for
+MANEUVERINGAYE=audio/voices/maneuvering/KNOTS_MANEUVERING_AYE.wav
+MANEUVERING0=audio/voices/maneuvering/ZERO.wav
+MANEUVERING1=audio/voices/maneuvering/ONE.wav
+MANEUVERING2=audio/voices/maneuvering/TWO.wav
+MANEUVERING3=audio/voices/maneuvering/THREE.wav
+MANEUVERING4=audio/voices/maneuvering/FOUR.wav
+MANEUVERING5=audio/voices/maneuvering/FIVE.wav
+MANEUVERING6=audio/voices/maneuvering/SIX.wav
+MANEUVERING7=audio/voices/maneuvering/SEVEN.wav
+MANEUVERING8=audio/voices/maneuvering/EIGHT.wav
+MANEUVERING9=audio/voices/maneuvering/NINE.wav
+MANEUVERINGKNOTS=audio/voices/maneuvering/KNOTS.wav
+
+//Fire Control
+WeaponAcquire=audio/voices/fire control/weapon acquire.wav|7|FALSE
+WeaponDecoy=audio/voices/fire control/weapon countermeasure homing.wav|7|FALSE
+WeaponReattack=audio/voices/fire control/weapon reattack.wav|7|FALSE
+WireBreak=audio/voices/fire control/wire break2.wav|7|FALSE
+NotReady=audio/voices/fire control/unable to fire.wav|7|FALSE
+
+FireTube=audio/voices/fire control/shoot tube one.wav|8|TUBENUMBER
+FireTube1=audio/voices/fire control/shoot tube one.wav
+FireTube2=audio/voices/fire control/shoot tube two.wav
+FireTube3=audio/voices/fire control/shoot tube three.wav
+FireTube4=audio/voices/fire control/shoot tube four.wav
+FireTube5=audio/voices/fire control/shoot tube five.wav
+FireTube6=audio/voices/fire control/shoot tube six.wav
+FireTube7=audio/voices/fire control/shoot tube seven.wav
+FireTube8=audio/voices/fire control/shoot tube eight.wav
+
+//Sonar
+NewSonarContact=audio/voices/sonarman/newcontact.wav|6|SONARBRG_SONARDESIGNATE
+LostSonarContact=audio/voices/sonarman/lostcontact.wav|6|SONARCONTACT_SONARLASTBEARING_SONARBRG_SONARISFADED
+LostSonarContactBaffles=audio/voices/sonarman/lostcontact.wav|6|SONARCONTACT_SONARLASTBEARING_SONARBRG_SONARISBAFFLES
+ReEstablishSonarContact=audio/voices/sonarman/regainedcontact.wav|6|SONARCONTACT_SONARBEARING_SONARBRG
+ContactSinking=audio/voices/sonarman/lostcontact.wav|6|SONARCONTACT_SONARLASTBEARING_SONARBRG_SONARBREAKINGUP
+ContactIdentified=audio/voices/sonarman/connsonar.wav|6|SONARCONTACT_SONARIDENTIFIED_SONARTYPE
+ContactClassified=audio/voices/sonarman/connsonar.wav|6|SONARCONTACT_SONARCLASSIFIED_SONARTYPE
+TransientKnown=audio/voices/sonarman/transient.wav|2|SONARCONTACT
+TransientUnknown=audio/voices/sonarman/transientbearing.wav|2|SONARBRG
+SonobuoyPing=audio/voices/sonarman/sonobuoy.wav|2|SONARBRG
+ActivePing=audio/voices/sonarman/activesonar.wav|2|SONARBRG
+NoisemakerDropped=audio/voices/sonarman/noisemaker.wav|6|SONARNOISEMAKERBRG
+PlayerCavitating=audio/voices/sonarman/cavitating.wav|2|FALSE
+PlayerStopCavitating=audio/voices/sonarman/nolongercavitating.wav|2|FALSE
+EnemyCavitating=audio/voices/sonarman/connsonar.wav|6|SONARCONTACT_SONARISCAVITATING
+SwitchToActive=audio/voices/sonarman/activesearch.wav|6|FALSE
+SwitchToPassive=audio/voices/sonarman/passivesearch.wav|6|FALSE
+TorpedoInTheWater=audio/voices/sonarman/torpedoinwater.wav|0|SONARTORPEDOBRG
+
+SONAR0=audio/voices/sonarman/zero.wav
+SONAR1=audio/voices/sonarman/one.wav
+SONAR2=audio/voices/sonarman/two.wav
+SONAR3=audio/voices/sonarman/three.wav
+SONAR4=audio/voices/sonarman/four.wav
+SONAR5=audio/voices/sonarman/five.wav
+SONAR6=audio/voices/sonarman/six.wav
+SONAR7=audio/voices/sonarman/seven.wav
+SONAR8=audio/voices/sonarman/eight.wav
+SONAR9=audio/voices/sonarman/nine.wav
+SONAR0E=audio/voices/sonarman/zero_e.wav
+SONAR1E=audio/voices/sonarman/one_e.wav
+SONAR2E=audio/voices/sonarman/two_e.wav
+SONAR3E=audio/voices/sonarman/three_e.wav
+SONAR4E=audio/voices/sonarman/four_e.wav
+SONAR5E=audio/voices/sonarman/five_e.wav
+SONAR6E=audio/voices/sonarman/six_e.wav
+SONAR7E=audio/voices/sonarman/seven_e.wav
+SONAR8E=audio/voices/sonarman/eight_e.wav
+SONAR9E=audio/voices/sonarman/nine_e.wav
+SONARDESIGNATEM=audio/voices/sonarman/designateM.wav
+SONARDESIGNATES=audio/voices/sonarman/designateS.wav
+SONARCONTACTS=audio/voices/sonarman/sierra.wav
+SONARCONTACTM=audio/voices/sonarman/master.wav
+SONARBEARING=audio/voices/sonarman/bearing.wav
+SONARLASTBEARING=audio/voices/sonarman/lastbearing.wav
+SONARBREAKINGUP=audio/voices/sonarman/breakingup.wav
+SONARIDENTIFIED=audio/voices/sonarman/identifiedas.wav
+SONARCLASSIFIED=audio/voices/sonarman/classifiedas.wav
+SONARTYPEMERCHANT=audio/voices/sonarman/merchant.wav
+SONARTYPEESCORT=audio/voices/sonarman/escort.wav
+SONARTYPECAPITAL=audio/voices/sonarman/capital.wav
+SONARTYPESUBMARINE=audio/voices/sonarman/sub.wav
+SONARTYPEBIOLOGIC=audio/voices/sonarman/biologic.wav
+SONARISCAVITATING=audio/voices/sonarman/iscavitating.wav
+SONARISFADED=audio/voices/sonarman/contactfaded.wav
+SONARISBAFFLES=audio/voices/sonarman/contactisinthebaffles.wav
+
+//Torpedo Room
+WeaponLoaded=audio/voices/torpedo room/Tubeready1.wav|8|TUBENUMBER
+WeaponLoaded1=audio/voices/torpedo room/Tubeready1.wav
+WeaponLoaded2=audio/voices/torpedo room/Tubeready2.wav
+WeaponLoaded3=audio/voices/torpedo room/Tubeready3.wav
+WeaponLoaded4=audio/voices/torpedo room/Tubeready4.wav
+WeaponLoaded5=audio/voices/torpedo room/Tubeready5.wav
+WeaponLoaded6=audio/voices/torpedo room/Tubeready6.wav
+WeaponLoaded7=audio/voices/torpedo room/Tubeready7.wav
+WeaponLoaded8=audio/voices/torpedo room/Tubeready8.wav
+
+TubeDestroyed=audio/voices/torpedo room/Tube_inoperable.wav|2|FALSE
+TubeJamDestroyed=audio/voices/torpedo room/Tube_jammed.wav|2|FALSE
+BelowMinRange=audio/voices/torpedo room/Cannot_fire_inside_minrange2.wav|8|FALSE
+
+NoReloadsAvailable=audio/voices/torpedo room/No_reloads_available.wav|8|FALSE
+NoVLSReloadsAvailable=audio/voices/torpedo room/VLS_empty.wav|8|FALSE
+
+//TooDeep=Conn, torpedo room: cannot fire <WEAPON> below <DEPTH> <FEET>
+//VLSTooFast=Conn, torpedo room: cannot fire <VLS> weapon above <SPEED> <KNOT>
+//VLSTooDeep=Conn, torpedo room: cannot <VLS> weapon below <DEPTH> <FEET>
+//CannotLoadWireInTube=Conn, torpedo room: cannot reload <TUBE>, active wire in <TUBE>
+
+//Watch Officer
+RaiseMast0=audio/voices/watch officer/Up_scope.wav|5|FALSE
+LowerMast0=audio/voices/watch officer/Down_scope.wav|5|FALSE
+RaiseMast1=audio/voices/watch officer/Raise_ESM.wav|5|FALSE
+LowerMast1=audio/voices/watch officer/Lower_ESM.wav|5|FALSE
+RaiseMast2=audio/voices/watch officer/Raise_radar.wav|5|FALSE
+LowerMast2=audio/voices/watch officer/Lower_radar.wav|5|FALSE
+RunSilentOn=audio/voices/watch officer/ultra_quiet.wav|2|FALSE
+
+NewVisualContact=audio/voices/watch officer/New_visual_contact.wav|5|VISUALCONTACT_WATCHOFFICERBRG
+NewRADARContact=audio/voices/watch officer/New_radar_contact.wav|5|RADARCONTACT_WATCHOFFICERBRG
+NewESMContact=audio/voices/watch officer/New_ESM_contact.wav|5|ESMCONTACT_WATCHOFFICERBRG
+LostVisualContact=audio/voices/watch officer/Contact_lost.wav|5|VISUALCONTACT_WATCHOFFICERBRG
+LostRADARContact=audio/voices/watch officer/Contact_lost.wav|5|RADARCONTACT_WATCHOFFICERBRG
+LostESMContact=audio/voices/watch officer/Contact_lost.wav|5|ESMCONTACT_WATCHOFFICERBRG
+
+WATCHOFFICER0=audio/voices/watch officer/zero.wav
+WATCHOFFICER1=audio/voices/watch officer/one.wav
+WATCHOFFICER2=audio/voices/watch officer/two.wav
+WATCHOFFICER3=audio/voices/watch officer/three.wav
+WATCHOFFICER4=audio/voices/watch officer/four.wav
+WATCHOFFICER5=audio/voices/watch officer/five.wav
+WATCHOFFICER6=audio/voices/watch officer/six.wav
+WATCHOFFICER7=audio/voices/watch officer/seven.wav
+WATCHOFFICER8=audio/voices/watch officer/eight.wav
+WATCHOFFICER9=audio/voices/watch officer/nine.wav
+
+//XO
+SubsystemDamaged=audio/voices/xo/section2/sonar_damaged.wav|2|SUBSYSTEM
+SubsystemDamagedBOWSONAR=audio/voices/xo/section2/sonar_damaged.wav
+SubsystemDamagedTOWED=audio/voices/xo/section2/towedarray_damaged.wav
+SubsystemDamagedPERISCOPE=audio/voices/xo/section2/scope_damaged.wav
+SubsystemDamagedESM_MAST=audio/voices/xo/section2/esm_damaged.wav
+SubsystemDamagedRADAR_MAST=audio/voices/xo/section2/radar_damaged.wav
+SubsystemDamagedTUBES=audio/voices/xo/section2/tubes_damaged.wav
+SubsystemDamagedFIRECONTROL=audio/voices/xo/section2/fc_damaged.wav
+SubsystemDamagedPUMPS=audio/voices/xo/section2/pumps_damaged.wav
+SubsystemDamagedPROPULSION=audio/voices/xo/section2/propulsion_damaged.wav
+SubsystemDamagedRUDDER=audio/voices/xo/section2/rudder_damaged.wav
+SubsystemDamagedPLANES=audio/voices/xo/section2/diveplanes_damaged.wav
+SubsystemDamagedBALLAST=audio/voices/xo/section2/ballast_damaged.wav
+SubsystemDamagedREACTOR=audio/voices/xo/section2/reactor_scrammed.wav
+
+SubsystemRepaired=audio/voices/xo/section1/sonar_repaired.wav|2|SUBSYSTEM
+SubsystemRepairedBOWSONAR=audio/voices/xo/section1/bow_sonar_repaired.wav
+SubsystemRepairedTOWED=audio/voices/xo/section1/towed_array_repaired.wav
+SubsystemRepairedPERISCOPE=audio/voices/xo/section1/scope_repaired.wav
+SubsystemRepairedESM_MAST=audio/voices/xo/section1/esm_repaired.wav
+SubsystemRepairedRADAR_MAST=audio/voices/xo/section1/radar_repaired.wav
+SubsystemRepairedFIRECONTROL=audio/voices/xo/section1/fc_repaired.wav
+SubsystemRepairedPUMPS=audio/voices/xo/section1/pumps_repaired.wav
+SubsystemRepairedPROPULSION=audio/voices/xo/section1/propulsion_repaired.wav
+SubsystemRepairedRUDDER=audio/voices/xo/section1/rudder_repaired.wav
+SubsystemRepairedPLANES=audio/voices/xo/section1/dive_planes_repaired.wav
+SubsystemRepairedBALLAST=audio/voices/xo/section1/ballast_repaired.wav
+SubsystemRepairedREACTOR=audio/voices/xo/section1/reactor_back_online.wav
+
+//SubsystemDestroyed
+SubsystemDestroyed=audio/voices/xo/section2/sonar_damaged.wav|2|SUBSYSTEM
+SubsystemDestroyedBOWSONAR=audio/voices/xo/section2/sonar_damaged.wav
+SubsystemDestroyedTOWED=audio/voices/xo/section2/towedarray_damaged.wav
+SubsystemDestroyedPERISCOPE=audio/voices/xo/section2/scope_damaged.wav
+SubsystemDestroyedESM_MAST=audio/voices/xo/section2/esm_damaged.wav
+SubsystemDestroyedRADAR_MAST=audio/voices/xo/section2/radar_damaged.wav
+SubsystemDestroyedTUBES=audio/voices/xo/section2/tubes_damaged.wav
+SubsystemDestroyedFIRECONTROL=audio/voices/xo/section2/fc_damaged.wav
+SubsystemDestroyedPUMPS=audio/voices/xo/section2/pumps_damaged.wav
+SubsystemDestroyedPROPULSION=audio/voices/xo/section2/propulsion_damaged.wav
+SubsystemDestroyedRUDDER=audio/voices/xo/section2/rudder_damaged.wav
+SubsystemDestroyedPLANES=audio/voices/xo/section2/diveplanes_damaged.wav
+SubsystemDestroyedBALLAST=audio/voices/xo/section2/ballast_damaged.wav
+SubsystemDestroyedREACTOR=audio/voices/xo/section2/reactor_damaged.wav
+
+//Flooding
+FloodingInCompartment=|1|FLOODEDCOMPARTMENT
+FLOODINGFRONT=audio/voices/xo/section3/flooding_torproom.wav
+FLOODINGFORE=audio/voices/xo/section3/flooding_CR.wav
+FLOODINGMID=audio/voices/xo/section3/flooding_reactorspace.wav
+FLOODINGAFT=audio/voices/xo/section3/flooding_engineroom.wav
+FLOODINGREAR=audio/voices/xo/section3/flooding_machinery.wav
+
+//Damage Control Party
+DCPartyToCompartment=|2|DCCOMPARTMENT_DELAY
+DCPARTY0=audio/voices/xo/section3/dc_torproom.wav
+DCPARTY1=audio/voices/xo/section3/dc_CR.wav
+DCPARTY2=audio/voices/xo/section3/dc_reactorspace.wav
+DCPARTY3=audio/voices/xo/section3/dc_engineroom.wav
+DCPARTY4=audio/voices/xo/section3/dc_machineryspace.wav

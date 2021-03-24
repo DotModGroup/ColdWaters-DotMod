@@ -1,0 +1,33 @@
+SkyboxTexture=environment/sky/Day_Overcast
+SkyboxDiffuse=environment/cubemap/Day_Overcast_IBL
+SkyboxSpecular=environment/cubemap/Day_Overcast_Spec
+
+AmbientColor=41,44,54,255
+LightLevel=128,128,128,255
+SurfaceFogColor=121,128,126,255
+SubmergedFogColor=10,46,60,255
+
+SkyColor=0,35,48,255
+OceanColor=1,23,36,255
+ReflectionTint=255,255,255,255
+ReflectionIntensity=0.75
+AboveInscatter=0,35,48,255
+
+SurfaceFogDensity=0.015
+SubmergedFogDensity=0.015
+
+PrimaryLightRotation=35,180,0
+PrimaryLightIntensity=0.1
+PrimaryLightColor=255,255,255,255
+
+SecondaryLightRotation=75,-110,0
+SecondaryLightIntensity=1
+SecondaryLightColor=0,35,48,255
+
+ShadowIntensity=0
+OceanShadows=FALSE
+FoamColor=255,255,255,255
+
+//Post Processing Color Filter (cold, normal, warm)
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Warm M
+PostProcessingUnderwater=Blockbuster 6

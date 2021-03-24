@@ -1,0 +1,275 @@
+ImageBackground=campaign/images/nato submarine 2
+ImagePosition=15,-298
+ImageHeight=260
+Image=language/help_images/torpedo_shot.png
+ImagePosition=15,-643
+ImageHeight=260
+Image=language/help_images/torpedo_off_axis.png
+ImagePosition=15,-948
+ImageHeight=260
+Image=language/help_images/torpedo_spread.png
+ImagePosition=15,-1430
+ImageHeight=260
+Image=language/help_images/wire_guidance.png
+ImagePosition=15,-2355
+ImageHeight=260
+Image=language/help_images/ship_ciws_fov.png
+ImagePosition=15,-2826
+ImageHeight=260
+Image=language/help_images/missile_dogleg.png
+ImagePosition=15,-3416
+ImageHeight=260
+Image=language/help_images/enemy_weapon_ranges.png
+ImagePosition=15,-3995
+ImageHeight=260
+Image=language/help_images/horizontal_evasion.png
+ImagePosition=15,-4432
+ImageHeight=260
+Image=language/help_images/vertical_evasion.png
+ImagePosition=15,-4871
+ImageHeight=260
+Image=language/help_images/reattack_logic.png
+[/Image]
+<size=24><color=maroon><b>TORPEDOES</b></color></size>
+Both the Allies and Nazi Germany had experimented with passive acoustic homing and pattern-running torpedoes during World War II. Post-war the focus shifted from the anti-ship mission to anti-submarine (in an effort to counter Soviet diesel-electric subs operating in the North Atlantic) and the US Navy introduced the concept of wire-guidance. It was not until the 1950's when better sonar- and fire control equipment made attacks against submerged targets a credible proposition.
+
+
+<size=24><color=maroon><b>UNGUIDED TORPEDOES</b></color></size>
+When firing at a moving target, you have to aim a distance in front of it, so that your weapon hits the target at the point he is going to be when the weapon gets there. This is known as leading the target.
+
+Ever since the 1920's, analog then digital computers have been employed to help with the fire control problem: Observations are made over time noting the target's course, speed and range. These are fed into the fire control system, which also takes input about the sub's own movement. The fire control system then calculates a continuously updated aim point where the target will be if you fired a torpedo at that time. This is known as the target solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The accuracy of the solution is dependent on several factors: Sudden movements by you or the target may invalidate the solution causing your weapons to miss. Therefore unguided torpedoes can easily be defeated by a manoeuvring target. This has been made into standard doctrine, and therefore all surface groups will make periodic course changes, or zigs, to throw off any skipper trying to ambush them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One way to hedge against target zigs is firing multiple torpedoes in a salvo, or spread:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In Cold Waters, an aim point appears on the tactical display when a target's solution reaches a good enough solution. To aim the weapons, simply drag the waypoint over the aim point and fire. The torpedoes will then run for a few hundred yards before turning to the gyro angle set by you.
+
+
+<size=24><color=maroon><b>GUIDED TORPEDOES</b></color></size>
+Modern torpedoes often use wire-guidance to dramatically increase hit probability against manoeuvring targets. As the torpedo leaves the tube, it pays out an umbilical wire, through which course corrections can be transmitted to update the weapon. This allows the attacking submarine to use its own much more powerful sonar to track the target, leaving the weapons on-board sensor for terminal guidance. Generally, the torpedo will swim out to a preset distance on a gyro angle, at which point it activates its on-board sonar and looks for targets. This is referred to as run-to-enable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weapons can be guided either by updating the activation point if the weapon is still in the run-to-enable phase of the torpedo run, or by directly steering the weapon if it is active. Steering an active weapon will override any terminal homing, and so is useful for guiding the weapon away from decoys or overriding a weapon that is homing on the wrong target.
+
+The wires themselves are relatively flimsy, and are subject to break if strained too much. On most US subs, the torpedo tubes are set amidships and angled out towards the sides, which means the wires can snag on the edges of the tube muzzle if the boat is moving at any significant speed, in which case they will break. Firing the torpedo at an off angle exacerbates this problem. Generally, the greater the shot angle, the more likely the wire is to break.
+
+Guided torpedoes dramatically extend the tactical repertoire of seasoned skippers. Assuming the wire stays intact, a weapon can be doglegged towards a target, creating a false datum for the enemy once it activates. With the capability of controlling several weapons at once, salvos can be arranged into complex, multi-directional time-on-target attacks that confuse enemy sensors and limit the effectiveness of their evasive measures. Another tactic involves setting up a pair of torpedoes with opposite Left and Right circle search patterns, with a third weapon on Snake search in the direction of the target. This technique allows you to bracket an elusive enemy target, and cut off his escape routes by flanking him.
+
+
+<size=24><color=maroon><b>GUIDED MISSILES</b></color></size>
+For many years after World War 2, US submarines had no other dedicated anti-shipping weapon than the unguided Mark 14 and Mark 16 torpedoes, of 1940's vintage. By the 1970's the sub force clearly needed a better weapon, and so the UGM-84 submarine-launched variant of the Harpoon anti-ship missile was developed and fielded aboard existing SSN's.
+
+Harpoon is a rather small missile, and lacks enough punch to deal with large targets, so in the 1980's, an anti-ship version of the Tomahawk land attack cruise missile was developed, called TASM with twice the hitting power of the earlier missile.
+
+These missiles can be thought of as faster guided torpedoes that have no mid-course guidance correction. They are launched in the anticipated direction of the target, fly out to an activation waypoint, and from there on search actively until they acquire a target. Missiles can be programmed to attack at wave top height, or perform a final pop-up manoeuvre and strike the target in a dive.
+
+In Cold Waters, missile parameters that can be set are seeker field-of-view, and terminal attack mode. To understand how to use these parameters, one must first understand the nature of Soviet missile defences:
+
+Most large surface combatants use a combination of active jamming, chaff launchers and rapid-fire anti-missile guns to defeat incoming missiles. On most Soviet destroyers and cruisers you will encounter, these guns are often arranged in either two per side or four per side, with each pair of guns controlled by single guidance radar. It is best to think of the guns as covering distinct 'quadrants' with fields of interlocking fire covering the broadsides. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These quadrants tend to leave the bow and stern areas undefended, with defensive fire being the weakest at angles < 45 degrees from the bow or stern.
+It quickly becomes apparent that a single missile has a rather low probability of surviving the defences of even a cruiser-sized ship. The way around this is firing missiles in salvos, with the intent to overload the defences. This is where wave top vs pop-up is useful. Two missiles can be launched in a quick salvo - the first set to pop-up, the second to wave top. The missile defences will attack the first missile as it does its pop-up manoeuvre, but this leaves them unable to attack the second missile coming in at wave top height.
+
+Missiles can be also be doglegged toward targets by exploiting the large range of their targeting radar. Position the waypoint accordingly and the missile will acquire the enemy, and turn towards him. Several missiles can be launched and set to attack the enemy from multiple directions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Due to the ranges at which missiles are commonly used, an important consideration is the activation distance from the target. A short distance means less time for the enemy's defences to react, but over large distances the enemy may have zigged or moved too far, causing the weapon to miss. Once you fire the missile, it is on its own - you cannot correct its course in-flight like you can with a torpedo.
+
+The narrow seeker FOV setting can be useful for hitting a specific target within a formation, or for avoiding obstacles like icebergs and oil rigs. Once active, missiles tend to lock onto the biggest target they can find, and if you don't pay attention, you may well lose the missile.
+
+
+<size=24><color=maroon><b>EVASION</b></color></size>
+A submarine's primary weapon is its ability to stay undetected. However, sooner or later you will be detected, and you will have to evade enemy attacks. To successfully evade, you have to understand how the enemy attacks and how his weapons work. Cold Waters's 1980's-era Soviet adversaries use a layered approach to ASW weaponry, combining stand-off missiles with homing torpedoes and rocket-boosted depth charges. Surface groups employ collaborative targeting, which means any one ship or helicopter can share target information via datalink to any other ship. In practice this gives small ships and helicopters the ability to call in long-range fire from missile-equipped ships.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enemy submarines likewise carry guided torpedoes, and unlike US subs, stand-off ASW missiles.
+This means they can attack you at significant ranges if they can detect you. Soviet doctrine places a much greater emphasis on active sonar than US passive tactics, and in theory a single ping is enough to fire an SS-N-16 down your bearing, which is guaranteed news to ruin the day. The best way to counteract this is to utilize the thermal layers, and always try to stay on the opposite side of the layer from an enemy sub, relying on your superior passive sensors to track and close the range.
+
+The primary ASW weapon is the guided torpedo. To successfully evade it, you must understand how it works:
+
+Typically, torpedoes search in a cone in front of them, similar to a flashlight. However, this cone is notably narrower in the vertical than in the horizontal. For instance, a Mk37 can cover roughly 400 ft of vertical space, but can look out to 1000 yards. What this means in practice is that the torpedo will generally search a slice, or corridor, of ocean (assuming it is a snaking weapon). If you move your sub outside of this corridor, the torpedo will never find you. There are several ways to accomplish this.
+
+<b>HORIZONTAL EVASION</b>
+In this scenario the torpedo is generally detected as a transient and assumed to be heading down the reciprocal bearing, that means, right at us. At this point you should go to flank speed and turn 100 degrees to either side. This will let you clear enough distance that you end up well outside of the torpedo's search area.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notice that if you turn at too shallow an angle, the enemy weapon may well acquire and home on you.
+If the water is sufficiently deep, another option is vertical evasion.
+
+<b>VERTICAL EVASION</b>
+In this scenario, we will change depth enough that we move outside the 'slice' exploiting the narrower vertical spread. Depending on your depth, either dive or rise rapidly to clear the danger zone. Generally this maneuver also involves the sharp turn seen in horizontal evasion, to form a very effective evasive manuever. The real gutsy skippers will assume the enemy has set their activation point close and simply run at flank speed towards the weapon, so that they end up behind the active torpedo but with maintained contact and in position to counterfire with a fish of their own.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+These evasion techniques assume the torpedo has not acquired your sub. If it does, you will have to use decoys in order to confuse it. You have two kinds of decoys: Noisemakers and self-propelled decoy torpedoes. Noisemakers are simply cans ejected from the submarine that emit a cloud of bubbles, presenting a false target to both active and passive weapons. However, as they are ejected from the sub, they will remain in the same spot behind you, roughly analogous to the chaff dropped by aircraft to spoof missiles. Decoy torpedoes are more sophisticated and are programmed to head in the direction of your choosing while mimicking your sound signature. Generally, while both types of decoys are quite capable of fooling even the most advanced torpedoes, enemy sonar operators will never be fooled by a noisemaker but they may be suckered by a decoy torpedo. This makes these decoys especially useful in situations where you may have inadvertently wandered within range of enemy ASW rockets, or other weapons that may attack rapidly and repeatedly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Again, to evade it is necessary to understand how the weapon behaves.
+
+If a torpedo has acquired and is closing, the standard response is to go flank and drop a noisemaker to act as a false target, giving you the time to escape. However, weapon designers have anticipated this and as a result almost all modern torpedoes have some form of re-attack logic. As the torpedo loses its target it will go into a re-attack pattern; this generally takes the form of a circle or spiral search. However, advanced torpedoes may be programmed with 'Drive around' logic.
+
+In this case they will begin their circle search before the decoy, and if the initial turn is in the right direction, may steer around the decoy and pick up your sub! Older weapons may use 'Drive through' logic, in which case they attempt to go past your decoy, then attempt a circle search to pick you up again. Here, knowledge is king: know your enemy and how his weapons behave, and make sure to identify contacts as early as possible. It might mean the difference between victory or cold, swift death in the depths of the ocean.
+
+It is perhaps useful to think of submarine vs submarine combat as very slow air combat. Unlike typical surface engagements, the battlespace is very much in 3D and a lot of the same concepts apply. Submarine skippers and fighter jocks alike will try to get in their opponents' six (or baffles), use clouds (or thermal layers) to mask their approach or attack from the sun (or the direction of a noisy surface ship).
+
+
+<size=24><color=maroon><b>MAINTAINING STEALTH</b></color></size>
+Understanding evasion tactics will help keep you alive when under attack. Understanding stealth tactics may mean you don't get attacked in the first place.
+
+Run silent: despite limitations to speed, repairs and reloading, silent running decreases noise made by your submarine.
+
+Keep out of enemy sonar detection ranges: classifying the enemy and understanding their sonar detection capabilities allows you to stay outside of their detection threshold. Be careful though, a sudden drop in speed by the enemy, or a sudden turn to clear their baffles can quickly and significantly increase their passive sonar detection range.
+
+Stay slow and don't cavitate: speed equals noise. Be sure to maintain a safe distance from the enemy if you intend to move at faster speeds.
+
+Put the layer between you and the enemy: if a layer is present, keeping it between you and your contact will decrease the sound transmission between you both (unless too close). This can be useful for sneaking in closer or for firing weapons, as the layer will decrease some of the noise from your transient.
+
+Stay off the surface: enemy radar has a long range. You should not ever surface, except in the case of an emergency to save your submarine from flooding. But if enemy warships or aircraft are in the area, expect a rapid attack. When using masts, don't leave them exposed. Get the data you need from them and get them down again quickly.
+
+Get on their six: positioning yourself at an enemy's 6 o'clock (directly behind) will put you in their baffles if they do not possess a towed array or are moving too fast for their towed array to be effective. When firing weapons, being in their baffles should decrease or even prevent them detecting noise from your transient.
+
+Use decoys: firing a decoy and keeping it between you and the enemy may cause weapons and the enemy to focus on its position rather than yours.

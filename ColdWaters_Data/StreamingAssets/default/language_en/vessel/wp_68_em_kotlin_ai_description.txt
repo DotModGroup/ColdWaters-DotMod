@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Kotlin
+Description=Kotlin-class Destroyer
+DefensiveWeapons=SM-20 Quad 45mm AA Guns
+OffensiveWeapons=130mm/58 130mm DP Guns\n533mm ASW Torpedoes\nRBU-2500 ASW Rockets
+Aircraft=None
+History=These ships were designed as escorts for the larger Sverdlov-class gun cruisers, but turned out to be obsolete even as the first units were completed. Of the 28 originally built, 4 were converted during construction to become Kildin-class missile ships, another 9 were converted in the late 1960's to carry surface-to-air missiles, and another 11 were modified in the early 1960's to strengthen their ASW capabilities, by fitting RBU-2500 ASW rockets. This class represents the last conventional destroyer type in the world. 

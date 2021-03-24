@@ -1,0 +1,8 @@
+Image=campaign/images/pact naval 1
+MissionLocation=Training exercise
+Briefing=Locate, identify and track an unknown contact.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Detecting and classifying contacts.
+Briefing=- Target Motion Analysis (TMA).
+Briefing=- Building a firing solution.

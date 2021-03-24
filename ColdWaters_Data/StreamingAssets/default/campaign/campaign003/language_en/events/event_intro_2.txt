@@ -1,0 +1,14 @@
+NextAction=event_intro_3
+Image=campaign/images/economic collapse
+Photo=campaign/images/photos/naval plan sub 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>TIGER ECONOMY COLLAPSES</b>
+Color=57,61,73,255
+Sentence1=The economic crisis that started with the collapse of the Thai Bhat in the Spring, has become a global financial contagion showing no signs of abating. International authorities have been unable to develop an effective response due to escalating tension between China and the U.S. which has allowed the crisis to continue unabated.
+Color=218,218,208,255
+Sentence2=The Russians have been particularly hard hit, with hyperinflation taking hold and the Ruble's value on the international market being wiped out. Desperate for foreign capital, the government has sold large amounts of military equipment to the Chinese, including advanced submarines along with Russian crews as military advisors.

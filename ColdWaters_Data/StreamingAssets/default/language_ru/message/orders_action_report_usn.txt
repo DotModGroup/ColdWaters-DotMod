@@ -1,0 +1,14 @@
+ОТ: Командира <PLAYERVESSELHULL> <PLAYERVESSELNAME>
+КОМУ: <COMMANDER>
+КОПИЯ:	<COMMANDERFLEET>
+
+ТЕМА: ДОКЛАД О БОЕВЫХ ДЕЙСТВИЯХ
+
+1.	(§) ПРОТИВНИК:
+<ENGAGEDCONTACTSLIST>---------------------------------------------------------------
+СУММАРНЫЙ ТОННАЖ:                             <TOTALTONNAGE> <size=11>т</size>
+
+2.	(§) ВООРУЖЕНИЕ:
+<WEAPONSONBOARD>
+3. (§) ПОВРЕЖДЁННЫЕ СИСТЕМЫ:
+<SYSTEMSDAMAGE>

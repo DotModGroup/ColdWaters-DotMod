@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MK37
+WeaponDescriptiveName=Mark 37 Torpedo (Mk37)
+WeaponDescription=The Mk37 was the standard US submarine launched ASW torpedo until the Mk48 replaced it. These weapons are slow enough that most SSN's can outrun them. Thus, extraordinary care must be taken when setting up an attack with these weapons. This slow speed makes them equally ineffective against surface ships, and poor PK against anything other than slow conventional submarines.

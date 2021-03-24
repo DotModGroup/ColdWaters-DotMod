@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SS-N-7
+WeaponDescriptiveName=SS-N-7 Starbright Anti-Ship Missile
+WeaponDescription=This is a high-subsonic cruise missile designed for the Papa and Charlie 1-class submarines. Earlier submarines of the Echo and Juliet classes used the SS-N-3 Shaddock supersonic cruise missile, whose mid-course guidance required the launching submarine to stay surfaced for long periods. The SS-N-7 instead uses submerged launch, and the relatively short range of the missile means no midcourse guidance is necessary and the submarine can use its own sensors for targeting.

@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=TU-142 BEAR-F
+AircraftDescriptiveName=Tupolev TU-142 BEAR-F
+History=The Tu-142M is an ASW and maritime strike derivative of the Tu-95 strategic bomber. While ostensibly performing the same role as the IL-38 MAY, the Tu-142 features much greater range and loiter capability, and carries a much larger payload than the MAY. Their main drawback is their incredibly high noise output, which is loud enough to be tracked on US SOSUS arrays.

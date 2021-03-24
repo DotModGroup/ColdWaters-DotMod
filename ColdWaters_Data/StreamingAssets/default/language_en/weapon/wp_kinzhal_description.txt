@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Kinzhal» SAM
+WeaponDescriptiveName=«Kinzhal» SAM
+WeaponDescription=ЗРК «Kinzhal» (NATO reporting name: SA-N-9 Gauntlet)

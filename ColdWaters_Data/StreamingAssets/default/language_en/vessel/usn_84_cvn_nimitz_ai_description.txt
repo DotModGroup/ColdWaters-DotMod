@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Nimitz
+Description=Nimitz Class Nuclear Aircraft Carrier
+DefensiveWeapons=4 Phalanx AA guns
+OffensiveWeapons=None
+Aircraft=90 aircraft and helicopters
+
+History=The Nimitz Class supercarriers are a class of ten nuclear-powered aircraft carriers in service with the United States Navy. The lead ship of the class is named after World War II United States Pacific Fleet commander Fleet Admiral Chester W. Nimitz, the U.S. Navy's last fleet admiral. With an overall length of 1,092 ft (333 m) and full-load displacement of over 100,000 long tons, they have been the largest warships built and in service.

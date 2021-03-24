@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=Large modern cargo ship
+History=These are large, powerful ships capable of hauling breakbulk cargo as well as standard 20 foot containers. A 24.000 SHP steam plant gives a service speed of 23 knots.

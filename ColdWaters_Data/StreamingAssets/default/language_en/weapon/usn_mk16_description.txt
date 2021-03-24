@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MK16
+WeaponDescriptiveName=Mark 16 Torpedo (Mk16)
+WeaponDescription=These straight-running WW2-vintage torpedoes were in service as anti-ship weapons until 1972, when they were replaced (along with the Mk37 ASW torpedo) by the dual-purpose Mk48. Guidance is limited to a gyro angle and hit probability is low at anything over point-blank range.

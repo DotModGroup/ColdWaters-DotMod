@@ -1,0 +1,240 @@
+ImageBackground=campaign/images/pact landing sunk
+ImagePosition=15,-327
+ImageHeight=260
+Image=language/help_images/tubes.png
+ImagePosition=15,-1664
+ImageHeight=260
+Image=language/help_images/tube_settings.png
+ImagePosition=15,-3970
+ImageHeight=260
+Image=language/help_images/stores.png
+ImagePosition=15,-4575
+ImageHeight=260
+Image=language/help_images/stores_port.png
+[/Image]
+<color=blue><b>Valid for EpicMod 2.09</b></color>
+<size=24><color=maroon><b>WEAPONS</b></color></size>
+In the post-World War II era, the ongoing Cold War pushed naval weaponry to all new levels. This section will discuss how to use and manage the weapon systems on board your submarine. To understand how to maximise your chances of hitting targets with weapons as well as void hit, see Tactics section.
+
+Weapons on board your submarine may be in one of three places:
+1) stores
+2) a torpedo tube
+3) the Vertical Launching System (VLS) if your submarine possesses one
+
+Weapons in stores need to be loaded into torpedo tubes in order to fire, while weapons in torpedo tubes are ready to fire, unless they are currently in the process of being loaded into that tube.
+
+<size=24><color=maroon><b>TORPEDO TUBES</b></color></size>
+At the very bottom right of the screen are the torpedo tubes for the current submarine. Different submarine classes may have different numbers of tubes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A tube consists of the tube itself along with 3 associated settings buttons. If loaded, an image of the weapon ready to fire is shown. Click on a tube or use <KEY:Next Tube> and <KEY:Previous Tube> to select tubes. The currently selected tube is highlighted in red.
+
+A tube undergoing loading will have the weapon image slowly sliding into it. Using <KEY:Load Tube> cycles through weapons to load.
+
+A tube running a wire-guided torpedo contains the icon shown above. Reloading a tube with a wire immediately cuts that wire.
+
+A destroyed tube is shaded in red and cannot be repaired while at sea.
+
+<b>VERTICAL LAUNCHING SYSTEM (VLS)</b>
+Weapons in the VLS do not require reloading. Instead the VLS is a single-tube representation of the multiple VLS tubes aboard. Simply choose a weapon from this pool of tubes using <KEY:Load Tube> in order to fire it. VLS tubes cannot be re-loaded while at sea.
+
+Since the VLS launches weapons perpendicular to the direction of your submarine's movement, it can only be used at low speed. The message log will notify you if your speed exceeds the VLS launch speed.
+
+<size=24><color=maroon><b>FIRING WEAPONS</b></color></size>
+Firing weapons in Cold Waters is relatively straight forward as your crew automatically performs all of the smaller tasks required, such as arming weapons and opening tubes. As commander, your role is to decide what weapon to fire and where to send it. All weapons in Cold Waters are fired using a waypoint system where the bearing and range to the waypoint are set using the tactical map display.
+
+<b>TACTICAL MAP DISPLAY</b>
+The tactical map is the nerve centre of your submarine's fire control system. It plots all information gathered by sensors and calculates target movement in order to predict their exact positions. The Sensors section will explain the tactical map in detail; however some basic understanding of its use is required to set weapon waypoints. Briefly;
+
+In bottom left corner is a mini-map displaying your submarine, contact and torpedoes which is used to set weapon waypoints.
+
+<b>Pan Map:</b> <LEFTCLICK> on the mini-map and drag the mouse.
+<b>Zoom Map:</b> Position mouse over map and <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+<b>Maximise Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
+<b>Hide Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it.
+<b>Center Map:</b> <KEY:Centre Map> positions your submarine in the centre of the map.
+<b>Auto-Centre Map:</b> <KEY:Auto Centre Map> locks the map to your submarine.
+
+Selecting your submarine with the mouse moves camera to your submarine.
+Clicking on a contact selects it as your contact or if already selected, moves camera to it.
+Clicking on a torpedo moves camera to it.
+
+<b>FIRE WEAPONS</b>
+To fire a torpedo;
+1) select a loaded tube
+2) place a waypoint on the map to send the torpedo to
+
+1) Select Tube
+Use <KEY:Next Tube> and <KEY:Previous Tube> or click directly on a weapon within the tube to select which tube to fire, it will be highlighted in red.
+
+2) Place Waypoint
+Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint. Bearing and Range to the waypoint are displayed and a blue line now appears on the map which follows your mouse pointer.
+
+Simply move your mouse pointer about the mini-map, placing it at the location you want your weapon to head to, then <RIGHTCLICK> to set the waypoint and fire.
+
+The map can be panned and zoomed while dragging a waypoint or if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+
+
+<size=24><color=maroon><b>TUBE SETTINGS</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Each tube may have up to 3 weapon settings, depending on the weapon loaded, for Sensor, Search and Depth/Height. Settings buttons can only be edited if the tube is currently selected and can be changed by clicking directly on them or by using <KEY:Weapon Homing>, <KEY:Weapon Attack> and <KEY:Weapon Depth>.
+
+
+<size=24><color=maroon><b>UNGUIDED TORPEDOES</b></color></size>
+Some weapons (and decoys) are simple straight running torpedoes. The torpedo will fire, engage a gyro to steer towards the waypoint you set and then simply continue running straight until it either hits a target or reaches its range limit.
+
+Unguided torpedoes have no applicable tube settings. They will either run at the depth launched (decoys), or change depth to a pre-set running depth for that particular torpedo model.
+
+
+<size=24><color=maroon><b>WIRE-GUIDED TORPEDOES</b></color></size>
+These sophisticated weapons are directly linked to your fire control computer by a wire once launched. As long as the wire remains intact, their behaviour settings can be changed, it is even possible to set new waypoint positions or manually guide the torpedo. If the wire is broken or cut, the weapon will carry out its current programmed settings.
+
+The third data column displays information about the current wire. Clicking a wire-guided torpedo on the map or selecting a wire-containing tube will display that tube's wire data:
+<b>WPN DATA</b> Wire/Tube Number
+<b>CSE</b> Course
+<b>RNG</b> Range
+<b>BRG</b> Bearing - direction from your submarine to the weapon
+<b>RTE</b> Range To Enable - distance from weapon to its waypoint
+<b>TTR</b> Time To Run - seconds left for weapon to run
+
+A wire-guided torpedo will run to its waypoint. Upon reaching it becomes enabled and applies the homing, search and depth settings set on that tube.
+<color=blue><b>Wires are not 100% reliable and some time after launch there is a chance to loose your wire, even if your sub is moving at slow speed. After certain time (~5min) wire data text will change its color wo warn that you can loose your wire at any moment. Enemy can loose thier wires that way too.</b></color>
+
+<b>TUBE SETTINGS</b>
+Tube settings can be modified for the highlighted tube by either using the settings directly or use <KEY:Weapon Homing>, <KEY:Weapon Attack> and <KEY:Weapon Depth> to toggle each of the three settings respectively.
+
+<b>Sensor Settings:</b>
+<b>Passive:</b> Once enabled, the torpedo will use passive sonar to listen for its target. Passive searching torpedoes are much harder for the enemy to detect, but require the target to be making significant noise. <color=blue>They have only 77% effective sensor range, but much less sensitive to noisemakers. Anechoic coating does nothing against them.</color>
+<b>Active:</b> Once enabled, the torpedo will use active sonar to search for its target. While active sonar is very loud, making the torpedo much easier to detect and anticipate by the target, it is very effective at detecting quiet targets. <color=blue>Active searching torpedoes do not have sensor range penalty, but they are affected by anechoic coating which cuts their effective sensor range in half.</color>
+<color=blue><b>Surface targets (depth less than 11m (33ft)) are twice hard to detect by both passive and active searching torpedoes. 
+All modifiers are cumulative. For example: </b></color>
+<color=blue> - Mk48 torpedo with passive sensor will detect surface vessel or surfaced submarine at (3200 / 1.3) / 2 = 1230 yards
+ - Mk48 torpedo with active sensor will detect submarine (below 33ft) with anechoic coating at 3200 / 2 = 1600 yards
+ - Mk48 torpedo with passive sensor will detect noisemaker (below 33ft) at (3200 / 1.3) / 4 = 615 yards
+
+</color>
+
+<b>Search Settings:</b>
+<b>Straight Search:</b> Torpedo searches in a straight line.
+<b>Snake Search:</b> Torpedo searches in a weaving pattern left and right.
+<b>Left Search:</b> Torpedo searches in a circle to the left.
+<b>Right Search:</b> Torpedo searches in a circle to the right.
+
+<b>Depth Settings:</b>
+<b>Run Level:</b> <color=blue>Once enabled, the torpedo will stay at its current depth. Universal torpedoes can lock both on surface and submerged targets.</color>
+<b>Run Shallow:</b> <color=blue>Once enabled, the torpedo will change depth to approximately 20 meters (65 ft depth). Universal torpedoes can lock only on surface targets (depth less than 10m (33ft).</color>
+<b>Run Deep:</b> <color=blue>Once enabled, the torpedo will change depth to be below the layer, or if no layer exists, search at about 90m (295 ft) depth. Universal torpedoes can lock only on submerged targets (depth more than 10m (33ft).</color>
+<color=blue>To use wake homing universal torpedoes like USET-80 and UGST, must be set to "Run Shallow".</color>
+
+If a wire-guided torpedo is enabled and still has its wire intact, changing any of the tube settings will immediately apply that setting to the torpedo.
+
+Torpedoes on a wire have additional commands available:
+<b>Cut Wire:</b> Use <KEY:Cut Wire> to cut the wire on this tube.
+<b>Activate Torpedo:</b> Use <KEY:Activate Torpedo> to set the torpedo into enabled mode, just as if it had reached its waypoint.
+<b>Edit Waypoint:</b> <LEFTCLICK> waypoint on either the Tactical Map or Mini-Map and <RIGHTCLICK> to place it at the current mouse position. Only torpedoes on a wire that have not yet reached their waypoint and become activated can have their waypoint changed.
+<b>Steer Torpedo:</b> Use <KEY:Steer Torpedo Left> and <KEY:Steer Torpedo Right> to manually change torpedo course.
+<b>Torpedo Depth:</b> Use <KEY:Steer Torpedo Shallow> and <KEY:Steer Torpedo Deep> to manually change torpedo depth.
+
+<b>WIRE BREAKAGE</b>
+The wire connecting the torpedo to the fire control computer is relatively fragile and may unintentionally be broken. A wire may break on launch, which is unavoidable and a wire will automatically be cut if a new weapon is loaded into a tube with a wire. Some submarine classes have fewer wires than tubes such that additional wire-guided torpedo launches will not possess a wire.
+
+Wire breakage while a torpedo is running can be minimised by;
+<color=blue><b>- moving at slow speed (individual for each torpedo)</b></color>
+
+
+<size=24><color=maroon><b>GUIDED MISSILES</b></color></size>
+Guided missiles launch, head towards their waypoint and upon reaching it, become enabled. Once enabled the on-board guidance system uses radar to search for a surface target, which if found, will cause the missile to seek to out that target. Guided missiles can be fooled by the deployment of chaff, a countermeasure which confuses the radar guidance, or be shot down by ships possessing anti-missile defences such as CIWS guns. Also, if a missile becomes enabled but cannot find a target, it will self destruct. 
+
+<b>TUBE SETTINGS</b>
+Tube settings can be modified for the highlighted tube by either directly using the setting buttons or <KEY:Weapon Homing>, <KEY:Weapon Attack> and <KEY:Weapon Depth> to toggle each of the three settings respectively. Once launched, a missile's settings cannot be modified.
+
+<b>Sensor Settings:</b>
+<b>None</b>
+
+<b>Search Settings:</b>
+<b>Wide Cone:</b> Uses a wide sensor arc to search for a target. This can be useful if the target location has not been accurately determined or to swing the missile in from an angle.
+<b>Narrow Cone:</b> Uses a narrow sensor arc to search for a target. Best used to focus the missile onto a specific target if other potential targets are nearby.
+
+<b>Height Settings:</b>
+<b>Skim:</b> Keeps the missile low, skimming the ocean surface all the way to the target.
+<b>Pop-Up:</b> During terminal homing the missile will suddenly sweep upwards and then plunge down at the target.
+
+
+<size=24><color=maroon><b>STORES</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Stores panel is always available prior to combat, during the Mission Briefing, in order to set up weapons on board as well as pre-loaded weapons in tubes. Once combat begins, the Stores panel remains available in order to continue managing your weapons.
+
+From the Mission Briefing, select <DICTIONARY:VesselStatus> or use <KEY:Stores> to open the Stores Panel.
+In combat use <KEY:Stores> or click directly on the Stores tab to open the Stores Panel.
+
+The Stores Panel displays a list of all weapons your submarine is capable of carrying, including their name, how many are currently on board as well as the total weapons on board and the maximum allowed, namely "23/23" in the image above. Numbers in parenthesis " ( ) " are the number of that weapon currently loaded into a tube. Numbers following "VLS:" are the numbers of that weapon currently loaded into a vertical launching system (VLS) if your submarine possesses one. Note that not all weapons are compatible with VLS and only those listed with "VLS:" can be used. In combat, it also provides controls for manually controlling wire-guided torpedoes. These on-screen controls correspond to the hotkeys listed under the weapons section. Other controls are shoot tube, toggle tube, and change loaded weapon.
+
+<b>CHANGING WEAPON INVENTORY</b>
+In Single Missions and Training Missions, weapon inventory may be changed during the mission briefing. When playing a campaign, weapon inventory can only be changed when at port and loading and unloading weapons or Spec Ops requires time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Click on any weapon name or image to select it (highlighted in white).
+Then use <DICTIONARY:UnloadWeapon> to remove the weapon or <DICTIONARY:LoadWeapon> to add the weapon into your submarine's inventory.
+Weapons in tubes will always be unloaded and loaded last. Weapons loaded into tubes and their settings will persist when combat starts.
+
+Spec Ops can also be brought on board for specific missions requiring their drop off. Loading a commando team takes up all inventory space of your submarine, allowing weapons to only be carried in tubes and the VLS. The maximum allowed weapons on board will change to reflect this and any weapons not in tubes or VLS will be removed when loading commandos. They are loaded and unloaded by using <DICTIONARY:LoadCommando> and <DICTIONARY:UnloadCommando>.
+
+Your submarine will always be equipped with the maximum number of noisemakers at the start of a mission (or when returning to port during a campaign) and in combat the number remaining can be viewed on the Stores panel.

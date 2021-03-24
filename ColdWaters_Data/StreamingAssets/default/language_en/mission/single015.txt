@@ -1,0 +1,7 @@
+Image=campaign/images/pact wolfpack 4
+MissionLocation=In the Denmark Strait
+Briefing=8 NOV 1984
+Briefing=At least one NATO attack submarine is reported to be operating in the area. Proceed with caution.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Fight a one-on-one duel with an enemy SSN

@@ -1,0 +1,36 @@
+SkyboxTexture=environment/sky/Night_Broken
+StarsTexture=environment/sky/stars
+NightMask=environment/sky/Night_Broken_mask
+SkyboxDiffuse=environment/cubemap/Night_Broken_IBL
+SkyboxSpecular=environment/cubemap/Night_Broken_Spec
+
+AmbientColor=27,21,33,255
+LightLevel=89,89,110,255
+SurfaceFogColor=38,33,44,255
+SubmergedFogColor=10,46,60,255
+
+SkyColor=0,35,48,255
+OceanColor=1,23,36,255
+ReflectionTint=255,255,255,255
+ReflectionIntensity=0.75
+AboveInscatter=27,21,33,255
+
+SurfaceFogDensity=0.015
+SubmergedFogDensity=0.015
+
+PrimaryLightRotation=10,180,0
+PrimaryLightIntensity=0.45
+PrimaryLightColor=148,159,195,255
+
+SecondaryLightRotation=75,-110,0
+SecondaryLightIntensity=1
+SecondaryLightColor=0,35,48,255
+
+ShadowIntensity=0.75
+OceanShadows=TRUE
+FoamColor=148,159,195,255
+MoonRotation=-7,0,0
+
+//Post Processing Color Filter (cold, normal, warm)
+PostProcessingSurface=Vintage 4,Vintage 4,Vintage 4
+PostProcessingUnderwater=Blockbuster 6

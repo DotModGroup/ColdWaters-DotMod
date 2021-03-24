@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Permit
+Description=Permit-class Nuclear Attack Submarine
+History=In service since 1961, this class introduced low-frequency sonar and rafting, making them orders of magnitude more capable than earlier SSN's. Originally named the Thresher-class, they were renamed after the lead ship USS Thresher sank with all hands during trials in 1963. This was the worst submarine disaster in history. Although quiet by Soviet standards, they are inferior to the more advanced Sturgeon and Los Angeles classes.
+
+[Player Ship Instances]
+PlayerClassNames=Permit,Plunger,Barb,Pollack,Haddo,Jack,Tinosa,Dace,Guardfish,Flasher,Greenling,Gato,Haddock
+
+PlayerClassHullNumbers=SSN-594,SSN-595,SSN-596,SSN-603,SSN-604,SSN-605,SSN-606,SSN-607,SSN-612,SSN-613,SSN-614,SSN-615,SSN-621

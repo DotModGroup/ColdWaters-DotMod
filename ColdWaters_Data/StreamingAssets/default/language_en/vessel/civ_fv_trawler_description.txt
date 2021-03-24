@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Trawler
+Description=Stern Trawler
+History=This is a typical medium-size fishing generally to be found in coastal waters and around ports, although they periodically travel to distant fishing grounds. 

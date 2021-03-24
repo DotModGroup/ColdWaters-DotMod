@@ -1,0 +1,15 @@
+NextAction=event_early_end_1
+Image=campaign/images/lost at sea
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NUCLEAR SUB SUNK!</b>
+Color=57,61,73,255
+Sentence1=A NATO spokesman has confirmed that a US nuclear attack submarine has been lost in action. Although details are incomplete at this time, sources close to the Pentagon say the submarine was lost with all hands during the course of duty.
+Color=218,218,208,255
+Sentence2=<b>Defeat In Europe</b><n>Warsaw Pact forces continue to drive back NATO by opening a new major offensive this morning. Meanwhile Soviet naval forces have effectively cut off the North Atlantic convoy lines, leaving NATO forces in Europe with little hope of reinforcements.

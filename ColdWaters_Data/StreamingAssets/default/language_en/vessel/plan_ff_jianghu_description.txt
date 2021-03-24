@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Jianghu
+Description=Jianghu-class Frigate
+DefensiveWeapons=37mm AA Guns
+OffensiveWeapons=RBU-1200 ASW Rockets
+Aircraft=None
+History=The Jianghu design is an enlarged version of the Riga/Chengdu frigate, featuring diesel drive in place of the original steam plant for improved endurance. Their gun armament is more powerful, and the increased length allows for an additional twin-tube SSM launcher. Like the Chengdus, however, their ASW capability is questionable at best, with only rudimentary electronics and short range ASW rockets being fitted.

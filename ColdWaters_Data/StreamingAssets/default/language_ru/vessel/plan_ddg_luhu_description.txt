@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Luhu
+Description=Luhu-class Guided Missile Destroyer
+DefensiveWeapons=37mm AA Guns, HQ-7 SAM
+OffensiveWeapons=EDS-25 ASW Rockets
+Aircraft=2 Ka-28 Helix ASW helicopters
+History=The Luhus were the first modern destroyers designed and built in China. Intended mostly for ASW, they are orders of magnitude more capable than the older Ludas, being fitted with the latest in digital European sonars and combat control systems. Their amidships missile launchers are capable of firing the C-802 cruise missile or the CY-1 anti-submarine rocket. Anti-air defenses are handled by 37mm guns and a short-range Crotale launcher, while aft is a large helipad and hangars for two Z-9 or Ka-28 ASW helicopters.

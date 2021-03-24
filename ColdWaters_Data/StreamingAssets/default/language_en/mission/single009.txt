@@ -1,0 +1,7 @@
+Image=campaign/images/68 pact naval 1
+MissionLocation=Denmark Strait, near Iceland
+Briefing=04 FEB 1968
+Briefing=You've made contact with a Soviet open-ocean ASW group, including a helicopter carrier, that is attempting to break out into the North Atlantic with intent to hunt our Polaris submarines there. 
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink the Moskva

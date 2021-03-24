@@ -1,0 +1,26 @@
+Text=
+Text=Командир,
+Text=Новый акустический контакт, пеленг <BEARING>, обозначение Сиерра 1.
+Text=
+Text=СП докладывает:
+Text=Наша глубина: <DEPTH>
+Text=Наш курс: <HEADING>
+Text=Наша скорость: <SPEED>
+Text=
+Text=
+Text=<DEPLOYMENTZONE>Ваши приказы, Командир?
+
+
+Text2=
+Text2=
+Text2=
+Text2=
+Text2=Местные условия:
+Text2=     <SURFACEDUCT> канал
+Text2=     <STRENGTH> слой <LAYERDEPTH>
+Text2=     
+//Text2=     Глубина моря: <WATERDEPTH>
+
+TextNoContact=Нет контактов. Следуем прежним курсом.
+TextInPort=В порту.
+

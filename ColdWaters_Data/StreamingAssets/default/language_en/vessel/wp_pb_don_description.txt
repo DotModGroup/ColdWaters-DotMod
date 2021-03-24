@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Don
+Description=Don-class submarine tender
+DefensiveWeapons=57mm AA Guns
+OffensiveWeapons=100mm Guns
+Sensors=Navigation radar only
+History=Seven of these ships were built between 1958 to 1961. They were designed to support Soviet submarines on distant operations, and as such were given significant self-defence armament and electronic warfare capabilities. The ship has several cranes for transferring weapons and stores, and below decks are workshops for conducting repairs and berths for relief crews. In addition to their support role, they are also intended to serve as flagships for a detachment of submarines.

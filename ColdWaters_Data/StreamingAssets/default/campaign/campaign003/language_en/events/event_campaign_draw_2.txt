@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/68 nato ground 2
+Photo=campaign/images/photos/armor plan 1,campaign/images/photos/infantry plan 1,campaign/images/photos/infantry plan 2,campaign/images/photos/riot 2
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>WAR OVER</b>
+Sentence1=The general ceasefire - announced only days ago - thankfully seems to have been upheld along all fronts. An anonymous Department of Defence spokesman has suggested that if peace talks are successful, many troops could be on their way home in a matter of weeks.
+Sentence2=Due to the economic and military strain of recent events, analysts remain concerned that a Cold War climate could emerge in East Asia and persist for decades to come. Worse yet, the recent clash will no doubt justify future expansion of military expenditure by both sides.

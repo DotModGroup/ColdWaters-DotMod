@@ -1,0 +1,18 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE HAS DISCERNED A PATTERN TO MOVEMENTS OF ENEMY AT-SEA REPLENISHMENT TANKERS AND TENDERS. A SMALL ENEMY FORCE INCLUDING ONE OR TWO OF THESE SHIPS IS EXPECTED TO SAIL FROM <STARTLOCATION> MOMENTARILY FOR A RENDEZVOUS NEAR <ENDLOCATION>. YOU ARE ORDERED TO FIND AND SINK THIS GROUP BEFORE IT COMPLETES REPLENISHMENT OF ENEMY FORCES. YOU MAY ALSO GET A CHANCE AT THE ENEMY SUBMARINES THIS GROUP IS INTENDED TO SUPPORT, BUT TENDERS AND TANKERS ARE THE MISSION TARGET.
+
+2.	(§) ОСНОВНАЯ ЗАДАЧА:
+Обнаружить и потопить вражеские корабли снабжения.
+
+3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
+По возможности обнаружить и потопить субмарины противника оказавшиеся поблизости.
+4.	(§) Избегать обнаружения патрульными силами противника.
+5.	(§) ППО: Код жёлтый, примение оружия только по опознанному противнику.
+6.	(§) Сохраняйте режим радиомолчания
+[MISSION WIN]
+Прекрасная работа по поиску и уничтожению вражеских кораблей снабжения. Продолжайте в том же духе!
+[MISSION FAIL]
+Огорчены известием о вашей неудаче. Неспособность потопить корабль снабжения вызывает недоумение...
+[MISSION MISSED]
+Корабли снабжения покинули целевой район. Возможность для атаки упущена.

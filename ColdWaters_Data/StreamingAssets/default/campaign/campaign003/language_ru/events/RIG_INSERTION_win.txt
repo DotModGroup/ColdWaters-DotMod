@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/oilrigs
+Photo=campaign/images/photos/naval us 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>RIG WORKERS COME HOME</b>|<b>RIG WORKERS FREE</b>
+Color=57,61,73,255
+Sentence1=US forces operating near <ENDLOCATION> have liberated an oil rig which had been taken over by enemy forces earlier this week. A spokesman for the Department of Defense issued a statement confirming that all civilians involved in the incident were unharmed.
+Color=218,218,208,255
+Sentence2=The Chinese government continues to claim that Western navies operating in the South China Sea are using civilian installations, such as oil rigs, as forward operating bases. Environmental experts express concerns that if true, the damage or destruction of such facilities could result in unprecedented and irreparable ecological damage to the region.

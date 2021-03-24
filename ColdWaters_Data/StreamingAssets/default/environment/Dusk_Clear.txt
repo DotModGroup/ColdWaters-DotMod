@@ -1,0 +1,33 @@
+SkyboxTexture=environment/sky/Dusk_Clear
+SkyboxDiffuse=environment/cubemap/Dusk_Clear_IBL
+SkyboxSpecular=environment/cubemap/Dusk_Clear_Spec
+
+AmbientColor=140,135,130,255
+LightLevel=197,185,174,255
+SurfaceFogColor=49,67,90,255
+SubmergedFogColor=10,46,60,255
+
+SkyColor=0,35,48,255
+OceanColor=1,23,36,255
+ReflectionTint=255,255,255,255
+ReflectionIntensity=0.75
+AboveInscatter=0,35,48,255
+
+SurfaceFogDensity=0.015
+SubmergedFogDensity=0.015
+
+PrimaryLightRotation=15,90,0
+PrimaryLightIntensity=0.35
+PrimaryLightColor=249,186,155,255
+
+SecondaryLightRotation=75,-110,0
+SecondaryLightIntensity=1
+SecondaryLightColor=0,35,48,255
+
+ShadowIntensity=1
+OceanShadows=FALSE
+FoamColor=255,255,255,255
+
+//Post Processing Color Filter (cold, normal, warm)
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Warm M
+PostProcessingUnderwater=Blockbuster 6

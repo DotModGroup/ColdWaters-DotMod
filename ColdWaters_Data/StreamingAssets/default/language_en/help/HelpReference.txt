@@ -1,0 +1,200 @@
+ImageBackground=campaign/images/pact submarine tender 2
+ImagePosition=15,-947
+ImageHeight=260
+Image=language/help_images/tube_settings.png
+ImagePosition=15,-1255
+ImageHeight=260
+Image=language/help_images/tacmap_icons.png
+ImagePosition=15,-1575
+ImageHeight=260
+Image=language/help_images/stratmap.png
+ImagePosition=15,-1915
+ImageHeight=260
+Image=language/help_images/navigation_status.png
+ImagePosition=15,-2205
+ImageHeight=260
+Image=language/help_images/sensor_status.png
+ImagePosition=15,-2515
+ImageHeight=260
+Image=language/help_images/damage_status.png
+[/Image]
+<size=24><color=maroon><b>CONTROLS</b></color></size>
+All controls may be re-mapped in <DICTIONARY:Options>.
+
+<b>General</b>||<b>Navigation</b>|
+<DICTIONARY:Help>|<KEY:Help>|<DICTIONARY:Increase Power>|<KEY:Increase Power>
+<DICTIONARY:Cancel or Quit>|<KEY:Cancel or Quit>|<DICTIONARY:Decrease Power>|<KEY:Decrease Power>
+<DICTIONARY:Continue>|<KEY:Continue>|<DICTIONARY:Rudder Left>|<KEY:Rudder Left>
+<DICTIONARY:Time Compression>|<KEY:Time Compression>|<DICTIONARY:Rudder Right>|<KEY:Rudder Right>
+<DICTIONARY:Hide HUD>|<KEY:Hide HUD>|<DICTIONARY:Planes Up>|<KEY:Planes Up>
+||<DICTIONARY:Planes Down>|<KEY:Planes Down>
+<b>Unit Reference and Vessel Selection</b>||<DICTIONARY:Ballast Up>|<KEY:Ballast Up>
+<DICTIONARY:Museum Next>|<KEY:Museum Next>|<DICTIONARY:Ballast Down>|<KEY:Ballast Down>
+<DICTIONARY:Museum Previous>|<KEY:Museum Previous>|<DICTIONARY:Blow Ballast>|<KEY:Blow Ballast>
+||<DICTIONARY:Level Submarine>|<KEY:Level Submarine>
+<b>Control Panel</b>||<DICTIONARY:Set Course>|<KEY:Set Course>
+<DICTIONARY:Helm Controls>|<KEY:Helm Controls>|<DICTIONARY:Periscope Depth>|<KEY:Periscope Depth>
+<DICTIONARY:Dive Controls>|<KEY:Dive Controls>|<DICTIONARY:Emergency Deep>|<KEY:Emergency Deep>
+<DICTIONARY:Sensor Controls>|<KEY:Sensor Controls>||
+
+<b>Camera Controls</b>||<b>Sensors, Map and Mast</b>|
+<DICTIONARY:Camera Left>|<KEY:Camera Left>|<DICTIONARY:Tactical Map>|<KEY:Tactical Map>
+<DICTIONARY:Camera Right>|<KEY:Camera Right>|<DICTIONARY:Centre Map>|<KEY:Centre Map>
+<DICTIONARY:Camera Up>|<KEY:Camera Up>|<DICTIONARY:Auto Centre Map>|<KEY:Auto Centre Map>
+<DICTIONARY:Camera Down>|<KEY:Camera Down>|<DICTIONARY:Next Contact>|<KEY:Next Contact>
+<DICTIONARY:Zoom In>|<KEY:Zoom In>|<DICTIONARY:Sonar Mode>|<KEY:Sonar Mode>
+<DICTIONARY:Zoom Out>|<KEY:Zoom Out>|<DICTIONARY:Periscope>|<KEY:Periscope>
+<DICTIONARY:Drag Camera>|<KEY:Drag Camera>|<DICTIONARY:Periscope View>|<KEY:Periscope View>
+<DICTIONARY:Still Camera>|<KEY:Still Camera>|<DICTIONARY:Night Vision>|<KEY:Night Vision>
+<DICTIONARY:Camera To Player>|<KEY:Camera To Player>|<DICTIONARY:Mark Target>|<KEY:Mark Target>
+<DICTIONARY:Camera To Selected Contact>|<KEY:Camera To Selected Contact>|<DICTIONARY:ESM Mast>|<KEY:ESM Mast>
+<DICTIONARY:Camera To Weapon>|<KEY:Camera To Weapon>|<DICTIONARY:RADAR Mast>|<KEY:RADAR Mast>
+<DICTIONARY:Camera To Aircraft>|<KEY:Camera To Aircraft>|
+<DICTIONARY:Camera To Scenery>|<KEY:Camera To Scenery>||
+<DICTIONARY:Event Camera>|<KEY:Event Camera>|<b>Tab Panels</b>|
+||<DICTIONARY:Conditions>|<KEY:Conditions>
+<b>Weapons</b>||<DICTIONARY:Signature>|<KEY:Signature>
+<DICTIONARY:Fire Tube>|<KEY:Fire Tube>|<DICTIONARY:Stores>|<KEY:Stores>
+<DICTIONARY:Set Waypoint>|<KEY:Set Waypoint>|<DICTIONARY:Damage Report>|<KEY:Damage Report>
+<DICTIONARY:Edit Waypoint>|<KEY:Edit Waypoint>|<DICTIONARY:Context Menu Previous>|<KEY:Context Menu Previous>
+<DICTIONARY:Next Tube>|<KEY:Next Tube>|<DICTIONARY:Context Menu Next>|<KEY:Context Menu Next>
+<DICTIONARY:Load Tube>|<KEY:Load Tube>|<DICTIONARY:Context Menu Set>|<KEY:Context Menu Set>
+<DICTIONARY:Weapon Homing>|<KEY:Weapon Homing>||
+<DICTIONARY:Weapon Attack>|<KEY:Weapon Attack>|<b>Tactical</b>|
+<DICTIONARY:Weapon Depth>|<KEY:Weapon Depth>|<DICTIONARY:Silent Running>|<KEY:Silent Running>
+<DICTIONARY:Activate Torpedo>|<KEY:Activate Torpedo>|<DICTIONARY:Noisemaker>|<KEY:Noisemaker>
+<DICTIONARY:Cut Wire>|<KEY:Cut Wire>||
+<DICTIONARY:Steer Torpedo Left>|<KEY:Steer Torpedo Left>|<b>Strategic Map</b>|
+<DICTIONARY:Steer Torpedo Right>|<KEY:Steer Torpedo Right>|<DICTIONARY:Patrol Speed>|<KEY:Patrol Speed>
+<DICTIONARY:Steer Torpedo Shallow>|<KEY:Steer Torpedo Shallow>|<DICTIONARY:Flank Speed>|<KEY:Flank Speed>
+<DICTIONARY:Steer Torpedo Deep>|<KEY:Steer Torpedo Deep>|<DICTIONARY:Briefing>|<KEY:Briefing>
+
+
+<size=24><color=maroon><b>TUBE SETTINGS</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>MAP ICONS</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>STRATEGIC MAP ICONS</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>STATUS ICONS</b></color></size>
+<b>NAVIGATION</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>SENSOR</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>DAMAGE & WARNINGS</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>SHIP DESIGNATIONS</b></color></size>
+LST			Landing ship Tank
+AS			Submarine Tender
+AOR		Replenishment Oiler
+AE			Ammunition Ship
+AP			Transport
+FF			Frigate
+FFG			Guided Missile Frigate
+DD			Destroyer
+DDG		Guided Missile Destroyer
+CL			Light Cruiser
+CG			Guided Missile Cruiser
+CGN		Nuclear-powered Guided Missile Cruiser
+CGH		Guided Missile Helicopter Carrier
+CVGH		Guided Missile Helicopter Fixed-wing Carrier
+SS			Submarine
+SSK			Hunter Killer Submarine
+SSG			Cruise Missile Submarine
+SSN			Nuclear Submarine
+SSGN		Nuclear Cruise Missile Submarine
+SSBN		Nuclear Ballistic Missile Submarine
+
+BIO			Biologic

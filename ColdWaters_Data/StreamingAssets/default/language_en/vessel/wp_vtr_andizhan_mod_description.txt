@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Andizhan M.
+Description=Modified Andizhan-class military transport
+History=This class of five ships started as Andizhan/Kovel-class dry cargo ships for the Soviet merchant marine, but were taken into naval service and converted into missile replenishment ships. The original A-frame masts have been replaced by a single heavy-lift crane forward and a pole mast with two smaller 5-ton cranes aft. Their forward holds can carry 10 SS-N-9 missiles and 20 SA-N-1 or SA-N-3 missiles. Cargo capacity is 3,950 tons.

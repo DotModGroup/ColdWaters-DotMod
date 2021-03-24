@@ -1,0 +1,57 @@
+[TRAINING 1]=4
+<b>Reloading Tubes In Combat</b>
+On the Briefing page you just left, you learned how to change the weapons on board and place them in tubes ready to fire prior to combat.
+Once in combat, stores cannot be changed but tubes can be reloaded.
+
+Use <KEY:Help> now to learn about missile settings.
+
+Select tube #1 by either <LEFTCLICK> on the weapon in the tube or use <KEY:Next Tube>.
+Selected tube is highlighted in red.
+Tap <KEY:Load Tube> until a TASM icon is shown again in tube #1.
+Wait a few seconds and an actual TASM begins to slide into the tube.
+Message log notifies you once it is fully loaded and ready to fire.
+
+<b>Time Compression</b>
+Use <KEY:Time Compression> to toggle time compression on/off to quickly load the TASM.
+Once the TASM is fully loaded continue to the next tutorial step.
+[/TRAINING 1]
+g
+[TRAINING 2]
+<b>Firing a Missile</b>
+We will fire a UGM-84 missile.
+Your target is not moving and directly north of your stationary submarine.
+
+To fire a missile;
+<b>1) Select Tube</b>
+Select a tube containing a UGM-84 (or TASM) by either <LEFTCLICK> on the weapon in the tube or use <KEY:Next Tube>. Selected tube is highlighted in red.
+Edit weapon settings. For this attack it is recommended to use the WIDE sensor cone.
+
+<b>2) Place Waypoint</b>
+Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint as was done for firing torpedoes.
+
+Move your mouse pointer onto the mini-map, placing it directly in front your submarine (north) until the waypoint's bearing readout displays 0 and the range is between 8 to 10 KYD (missiles do have a minimum range). Use <MOUSEWHEEL> or <KEY:Zoom Out> to zoom out the mini-map if needed. Map can be panned and zoomed while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+
+When ready, <RIGHTCLICK> to set the waypoint and fire.
+Your missile will launch and run to the waypoint where it will go active and seek a target. If it cannot find a target the missile will self-destruct, making it crucial to place the waypoint in front of your target.
+
+If all went well, your missile should launch to the north and strike the target.
+If it misses or ship doesn't sink, fire another remembering to select a loaded tube, set the waypoint's bearing to 0 and range of 8 to 10 KYD.
+[/TRAINING 2]
+
+[TRAINING 3]
+<b>Target Practice</b>
+Two other target ships are nearby, approximately at bearing 350 and 010.
+Be sure not to place the waypoint past the target (or missile will overshoot before going active) or too close to the target such that it is outside the missile's sensor cone.
+
+Try sinking these other targets with missiles and experiment with changing the weapon settings.
+Use <KEY:Load Tube> to reload more missiles if needed.
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Ending Combat</b>
+To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 4]

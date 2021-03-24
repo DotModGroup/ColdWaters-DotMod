@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Kashin
+Description=Kashin-class Large Anti-Submarine Ship
+DefensiveWeapons=SA-N-1 SAM
+OffensiveWeapons=AK762 76.2mm DP Guns\n533mm ASW Torpedoes\nRBU-6000 ASW Rockets\nRBU-1000 ASW Rockets
+Aircraft=Landing pad for ASW helicopter
+History=At its introduction in 1962, the Kashin was the world's first warship class powered entirely by gas turbine drive. The ship has the classic double-ended armament layout typical of Soviet ships of the period, with the anti-submarine armament comprising guided torpedoes and anti-submarine rockets. Advanced for their time, by the 1980's these now obsolescent ships make 'low' ships in a naval group using a 'high-low' mix.

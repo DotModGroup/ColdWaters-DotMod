@@ -1,0 +1,27 @@
+[TRAINING_MENU 1]
+[/TRAINING_MENU 1]
+
+[TRAINING_MENU 2]
+[/TRAINING_MENU 2]
+
+[TRAINING_MENU 3]
+<b>Vessel Assignment</b>
+You have been automatically assigned a Sturgeon class submarine for this mission.
+
+<LEFTCLICK> <DICTIONARY:Accept>
+[/TRAINING_MENU 3]
+
+[TRAINING_MENU 4]
+<b>Mission Briefing</b>
+At the beginning of any mission you are presented with this screen showing your vessel's current state and local conditions.
+
+<DICTIONARY:AttemptClosure> (disabled for training purposes)
+In actual combat, can be used to close in and start combat at about the range indicated. <LEFTCLICK> on the range value to change it.
+However it this not always successful and your starting range might already be below the minimum range or you may be detected by the enemy when closing.
+Is best used to start combat at long range for missile attacks or shorter range for torpedo attacks.
+
+<DICTIONARY:VesselStatus> displays your vessels weapon loadout, weapon stores and damage control. Here you can change your loadout for the mission, to be discussed later in Training Mission #4.
+
+<DICTIONARY:Battlestations> begins the mission.
+When ready <LEFTCLICK> <DICTIONARY:Battlestations> to enter the mission.
+[/TRAINING_MENU 4]

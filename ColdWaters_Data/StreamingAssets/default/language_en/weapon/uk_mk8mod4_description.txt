@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mk.8 Mod 4
+WeaponDescriptiveName=Mark 8 Mod 4 Torpedo
+WeaponDescription=The Mark VIII was the first burner-cycle torpedo in service. Although the original design dates from the 1920s, those manufactured during and after World War II were to a much-modified design. The Mark 8** was the British torpedo most used during World War II and was supplied to destroyers and MTBs as well as submarines. This torpedo was still in front-line use as late as 1982 during the Falklands War when the submarine HMS Conqueror fired three Mod 4 torpedoes at the Argentine cruiser General Belgrano. 

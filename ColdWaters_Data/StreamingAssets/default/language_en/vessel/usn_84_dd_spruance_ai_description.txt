@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Spruance
+Description=Spruance-class (DD-963)                                             Destroyer
+DefensiveWeapons=RIM-7 Sea Sparrow SAM\n127mm DP guns
+OffensiveWeapons=
+Aircraft=2 SH-60F Seahawk
+History=The Spruance-class destroyer was developed by the United States to replace the many World War II–built Allen M. Sumner- and Gearing-class destroyers and was the primary destroyer built for the U.S. Navy during the 1970s and 1980s. First commissioned in 1975, the class was designed with gas-turbine propulsion, a flight deck and hangar for up to two medium-lift helicopters, all-digital weapons systems, and automated 127 mm (5-inch) guns. Serving for three decades, the Spruance class was originally designed to escort a carrier group with a primary ASW mission, and later had a land strike capability added with the addition of the Tomahawk cruise missile.

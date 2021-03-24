@@ -1,0 +1,9 @@
+Image=campaign/images/nato submarine 2
+MissionLocation=Training exercise
+Briefing=Combine your training so far with countermeasures and damage control to ensure you and your crew return home.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Remaining undetected.
+Briefing=- Fooling the enemy with decoys.
+Briefing=- Using noisemakers and knuckles.
+Briefing=- Understanding damage control, repair and flooding.

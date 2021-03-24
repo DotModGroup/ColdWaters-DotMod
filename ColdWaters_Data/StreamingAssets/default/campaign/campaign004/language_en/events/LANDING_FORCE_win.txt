@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact landing sunk
+Photo=campaign/images/photos/infantry nato 3,campaign/images/photos/infantry nato 4,campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b><COUNTRY> STANDS</b>|<b>REDS OUT OF <COUNTRY></b>|<b>BATTLE FOR <COUNTRY></b>|<b><COUNTRY> DEFENDED</b>
+Color=57,61,73,255
+Sentence1=<ENDLOCATION>, <COUNTRY>: a massive, coordinated sea-based landing has been repelled. A NATO spokesman says that "a combination of hard fighting by defending troops and prior significant weakening of the invasion force by NATO naval units" contributed to averting disaster and defeat.
+Color=218,218,208,255
+Sentence2=According to analysts, the ability of NATO to contain the enemy and prevent opening of new fronts will be a major factor in the outcome of the war. Keeping the frontline focused, rather than spread out across multiple territories, will ensure success.

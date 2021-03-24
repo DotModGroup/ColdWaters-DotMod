@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Penguin
+WeaponDescriptiveName=Penguin Mk 2 Missile
+WeaponDescription=The Penguin anti-ship missile, designated AGM-119 by the U.S. military, is a Norwegian passive IR seeker-based short-to-medium range anti-ship guided missile, designed for naval use.

@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Kommunist
+Description=Kommunist-class large cargo ship
+History=Typical large-hatch general cargo ships, 20 ships of this class were built in Poland between 1968-71 for the Soviet merchant marine. Faster than the Poltavas, and well-suited to handle break-bulk cargo such as munitions and vehicles, they would likely see wartime use as fast replenishment transports during a conflict in the Norwegian Sea.

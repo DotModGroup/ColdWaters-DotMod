@@ -1,0 +1,46 @@
+﻿[MAP NAMES]
+MapName=North Atlantic All
+MapName=North Atlantic 1984 NATO vs Soviet
+MapName=North Atlantic 1984 Soviet vs NATO
+MapName=North Atlantic 1968 NATO vs Soviet
+MapName=North Atlantic 1968 Soviet vs NATO
+MapName=South China Sea 2000 US vs PLAN
+MapName=South China Sea 2000 PLAN vs US
+MapName=South China Sea 2000 Soviet vs US
+
+[ERRORS & WARNINGS]
+NoGroups=ERROR: No groups of vessels set as active. Check at least one box in the Use Group column on the Enemy Tab.
+MinZero=ERROR: Sum of min # vessels must be at least 1. Increase Min Vessels of at least one used group to 1 on the Enemy Tab.
+NoShips=ERROR: Used groups contain no vessels. Add at least 1 vessel type (click View/Edit Ships icon) to at least one used group on the Enemy Tab.
+MaxHigh=ERROR: Sum of used groups max vessels greater than 15. Decrease the max number of vessels per used group to below 15 total on the Enemy Tab.
+FileExported=File saved:
+FileExists=ERROR: that mission file already exists
+
+[INTERFACE]
+Back=Back
+Cancel=Cancel
+Start=Start
+Map=Map
+Vessels=Units
+UseTerrain=Use Terrain
+Date=Date
+Time=Time
+PresetEnvironment=Use Preset Environment
+Weather=Weather
+SeaState=Sea State
+Duct=Duct
+Layer=Layer
+PlayerClasses=Player Sub Classes
+Export=Export to text file
+Filename=filename
+MapCoords=Map Coordinates
+MapHelp= Click and drag to place combat position. Ensure sufficient water is in centre of region.
+CruiseSpeed=Cruise Speed
+GroupTitles=Use Group                Number of Ships                 Aggressive             View/Edit Ships
+Helicopters=Helicopters
+Aircraft=Aircraft
+Cancel=Cancel
+Accept=Accept
+GroupName=Group
+To=to
+ShipPreviewName=Click Ship Name for Preview

@@ -1,0 +1,6 @@
+[Unit Reference]
+ShipClass=Ugra
+Description=Ugra-class submarine tender
+DefensiveWeapons=57mm AA Guns
+Sensors=Navigation radar only
+History=Completed between 1963 and 1972, these six ships are follow-on design to the earlier Don class. They are designed to maintain and support submarines at sea, and carry weapons, food, water and relief crews in addition to providing extensive repair facilities. Like the Dons, they are intended to operate as flagships in addition to their support role. Because they carry only rudimentary AA weapons for self-defense, they will usually operate with surface escorts.

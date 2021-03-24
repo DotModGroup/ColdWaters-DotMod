@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE REPORTS THAT AN ENEMY CARRIER TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF <COUNTRY>. A NATO CARRIER BATTLEGROUP IS CURRENTLY PROVIDING COVER IN THE REGION AND MUST BE PROTECTED. YOU WILL THEREFORE INTERCEPT AND DESTROY THIS TASK FORCE, ESPECIALLY THE AIRCRAFT CARRIER. AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY AIRCRAFT CARRIER
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+SACLANT SENDS // My personal congratulations to commanding officer <PLAYERNAME> and crew for delivering this crucial blow to enemy naval forces. It is an honor to serve as your commander. Will see to it that we, crew and all, will have a drink when <PLAYERVESSELNAME> hits the beach // SACLANT ENDS 
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Enemy task force will no doubt continue to pose a major threat.
+[MISSION MISSED]
+Disappointed to hear target was not intercepted. Enemy task force will no doubt continue to pose a major threat.

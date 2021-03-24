@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato naval 1
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4,campaign/images/photos/naval nato 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>600 FEET UNDER</b>
+Color=57,61,73,255
+Sentence1=The Pentagon today revealed that several Chinese submarines attempted an incursion near <ENDLOCATION>, <COUNTRY>, and were either destroyed or driven off by the coordinated efforts of US surface vessels, submarines and aircraft. Cooperation between US forces and those of Allied nations was cited as pivotal to the successful outcome of this operation.
+Color=218,218,208,255
+Sentence2=The loss of so many vessels will certainly curtail the Chinese ability to project power in the region. Allied military installations continue to remain a high priority throughout the theatre, as the United States' ability to maintain control of the region is dependent on these bases.

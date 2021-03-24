@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-5
+WeaponDescriptiveName=Yu-5 ASW Torpedo
+WeaponDescription=This is the first Chinese wire-guided torpedo, which incorporates much technology from the US Mk-46 in the form of Otto-fuel propulsion. Terminal homing is by a passive/active guidance system with an estimated range of 1600 yards 

@@ -1,0 +1,42 @@
+//Paracel Islands - Oil Rig
+UseTerrain=TRUE
+MapCoordinates=1481,527
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-800,-1010
+PlayerHeading=280
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//N/S1 Patrol line
+EnemyWaypoints=-993,-767|-974,-1074
+//Sub or trawler
+EnemyWaypoints=-995,-780|-1090,-933|-1028,-1111
+//Patrol line South
+EnemyWaypoints=-816,-1139|-1194,-1040
+//North to west lurker 
+EnemyWaypoints=-820,-905|-815,-840|-1080,-860|-1060,-1030
+
+MissionPosition=-995,-937
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+//plan_helix
+HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=plan_y-8x
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-1120,-1037,200
+AircraftSearchArea=-1020,-1340,400

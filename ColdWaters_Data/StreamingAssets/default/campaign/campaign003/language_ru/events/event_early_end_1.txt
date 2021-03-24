@@ -1,0 +1,12 @@
+NextAction=event_early_end_2
+Image=campaign/images/plan surface raiders 3,campaign/images/plan surface raiders 2,campaign/images/plan surface raiders 1,campaign/images/plan surface raiders 2
+Photo=campaign/images/photos/naval engagement 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NOOSE TIGHTENS</b>|<b>UK BLOCKADED</b>
+Sentence1=Soviet naval forces have taken the initiative and now dominate the Atlantic and Norwegian Sea. Trans-Atlantic re-supply convoys struggle to make the journey and the escalating loss of materials and men at sea makes it only a matter of time before they stop arriving altogether.
+Sentence2=Currently in exile, political leaders from the occupied territories have voiced strong concern over the risk of the Iron Curtain being brought further west. Fears of permanent occupation have sparked a refugee crisis, with tens of thousands streaming towards Western Europe.

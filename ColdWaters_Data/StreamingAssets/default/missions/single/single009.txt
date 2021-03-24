@@ -1,0 +1,33 @@
+UseTerrain=TRUE
+MapCoordinates=1372,1575
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
+
+//Environment
+Date=04 FEB 1968
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=FALSE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=2-2,1-1,0-1
+CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_68_bpk_kashin_ai|wp_68_em_kotlin_ai,wp_84_pkr_moskva_ai,wp_68_ssn_november|wp_68_ss_foxtrot|wp_68_ss_romeo
+FormationCruiseSpeed=12
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

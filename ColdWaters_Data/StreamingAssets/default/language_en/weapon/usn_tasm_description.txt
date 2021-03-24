@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=TASM
+WeaponDescriptiveName=Tomahawk Missile (TASM)
+WeaponDescription=This is the anti-ship version of the UGM-109 Tomahawk missile. Compared to the Harpoon, it is faster and packs a significantly larger punch. However being larger makes it a bigger target for CIWS.

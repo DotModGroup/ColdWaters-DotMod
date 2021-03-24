@@ -1,0 +1,10 @@
+Image=campaign/images/nato convoy
+MissionLocation=Near Taiwan
+Briefing=24 DEC 2000
+Briefing=A US convoy is en route to Taiwan to deliver military supplies and equipment. You orders are to prevent the transports from reaching their destination.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink enemy transports
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink enemy escorts

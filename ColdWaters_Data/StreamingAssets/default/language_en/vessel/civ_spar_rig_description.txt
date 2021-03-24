@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Oilrig
+Description=Offshore Drill Rig
+History=Spar rigs have been developed as an alternative to conventional semi-submersible platforms for use in very deep waters. Compared to traditional platforms, they have more inherent stability thanks to their deep draft and large counterweight. Like other drill rigs, they output considerable broadband noise, and their mooring lines present underwater obstacles to contend with.

@@ -1,0 +1,160 @@
+[LOCATION NAMES AND COUNTRY/REGION]
+LocationName=Guam=Northern Marianas
+LocationName=Subic Bay=Philippines
+LocationName=Yokosuka=Japan
+LocationName=Sasebo=Japan
+LocationName=Okinawa=Japan
+LocationName=Taipei=Taiwan
+LocationName=Kaohsiung=Taiwan
+LocationName=Incheon=South Korea
+LocationName=Busan=South Korea
+LocationName=Vladivostok=Soviet Union
+LocationName=Cam Ranh=Vietnam
+LocationName=Hong Kong=China
+LocationName=Quingdao=China
+LocationName=Ningbo=China
+LocationName=Xiamen=China
+LocationName=Shantou=China
+LocationName=Yulin=China
+LocationName=Scarborough Shoal=South China Sea
+LocationName=Paracel Islands=South China Sea
+LocationName=Spratly Islands=South China Sea
+
+[CITY TOWN PORT NAMES]
+Color=255,255,255,255
+Outline=TRUE
+Size=10
+Font=2
+
+LabelPosition=529.5,-273.7
+LabelName=Guam
+LabelPosition=-14.3,-211.2
+LabelName=Manila\nSubic Bay
+LabelPosition=419.6,261.5
+LabelName=Tokyo\nYokosuka
+LabelPosition=212.5,184.17
+LabelName=Nagasaki\nSasebo
+LabelPosition=150.8,23.8
+LabelName=Okinawa
+LabelPosition=-2.9,-2.1
+LabelName=Taipei
+LabelPosition=-23,-45
+LabelName=Kaohsiung
+LabelPosition=113.4,303.3
+LabelName=Seoul\nIncheon
+LabelPosition=174.5,242.9
+LabelName=Busan
+//LabelPosition=220.2,381.8
+//LabelName=Vladivostok
+LabelPosition=-338.4,-84
+LabelName=Haiphong
+LabelPosition=-274.7,-272.2
+LabelName=Cam Ranh
+LabelPosition=-166.9,-48.4
+LabelName=Hong Kong
+LabelPosition=-23,267.8
+LabelName=Quingdao
+LabelPosition=7.8,120.8
+LabelName=Ningbo
+LabelPosition=-81.3,-1.5
+LabelName=Xiamen
+LabelPosition=-117.1,-32.2
+LabelName=Shantou
+LabelPosition=-265.5,-138.3
+LabelName=Yulin
+LabelPosition=2.2,151.2
+LabelName=Shanghai
+LabelPosition=-190.4,-30
+LabelName=Guangzhou
+LabelPosition=-83.6,-206.7
+LabelName=Scarborough\nShoal
+LabelPosition=-216.9,-173.8
+LabelName=Paracel\nIslands
+LabelPosition=-111.7,-294
+LabelName=Spratly\nIslands
+
+[MARKERS]
+Color=0,255,0,255
+Outline=TRUE
+Size=10
+LocationMarkerPosition=529.0,-261.7
+Color=255,255,255,255
+Size=5
+LocationMarkerPosition=-14.4,-227.8
+LocationMarkerPosition=419.4,243.3
+LocationMarkerPosition=186.4,185.1
+LocationMarkerPosition=150.6,34.6
+LocationMarkerPosition=-2.9,9.5
+LocationMarkerPosition=113,287.2
+LocationMarkerPosition=175,233
+LocationMarkerPosition=-21,-56
+//LocationMarkerPosition=218,395
+LocationMarkerPosition=-338.1,-94.5
+LocationMarkerPosition=-274.8,-282.9
+LocationMarkerPosition=-166.5,-60.4
+LocationMarkerPosition=-22.1,256.6
+LocationMarkerPosition=7.5,110.7
+LocationMarkerPosition=-82.0,-12.5
+LocationMarkerPosition=-117.3,-43.5
+LocationMarkerPosition=-265.4,-149.3
+LocationMarkerPosition=-84.0,-223.2
+LocationMarkerPosition=-217.1,-189.9
+LocationMarkerPosition=-112.1,-309.0
+LocationMarkerPosition=2.3,141
+LocationMarkerPosition=-190.6,-39.3
+
+[COUNTRY LABELS]
+Color=0,0,0,255
+Outline=FALSE
+Size=12
+Font=2
+LabelPosition=554.2,-186.3
+LabelName=NORTHERN\nMARIANAS
+LabelPosition=-10.3,-27.4
+LabelName=TAIWAN
+LabelPosition=369.1,255.1
+LabelName=JAPAN
+LabelPosition=29.6,-257.5
+LabelName=PHILIPPINES
+LabelPosition=-330.9,-185.2
+LabelName=VIETNAM
+LabelPosition=-446.8,-220.3
+LabelName=THAILAND
+LabelPosition=-366,-279
+LabelName=CAMBODIA
+LabelPosition=-550,-81
+LabelName=MYANMAR
+LabelPosition=-435,-115
+LabelName=LAOS
+LabelPosition=145,271.4
+LabelName=SOUTH\nKOREA
+LabelPosition=112,341.8
+LabelName=NORTH\nKOREA
+//LabelPosition=166.2,373.5
+//LabelName=RUSSIA
+Size=26
+LabelPosition=-262,65
+LabelName=PEOPLES REPUBLIC\nOF\nCHINA
+
+[OCEANS AND SEAS LABELS]
+Color=43,71,97,255
+Outline=FALSE
+Size=16
+Font=3
+LabelPosition=552,99
+LabelName=NORTH PACIFIC\nOCEAN
+LabelPosition=-151,-260
+LabelName=SOUTH CHINA\nSEA
+LabelPosition=81,91
+LabelName=EAST CHINA\nSEA
+LabelPosition=139.9,-100.8
+LabelName=PHILIPPINE SEA
+Size=12
+LabelPosition=240.6,337.1
+LabelName=SEA\nOF\nJAPAN
+LabelPosition=47.6,240.2
+LabelName=YELLOW\nSEA
+LabelPosition=-321.1,-130.1
+LabelName=GULF\nOF\nTONKIN
+LabelPosition=-453.1,-329
+LabelName=GULF\nOF\nTHAILAND

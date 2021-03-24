@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Yasen
+Description=Yasen-class Nuclear Attack Submarine
+History=The Yasen-class nuclear-powered multipurpose attack submarine is the latest addition to Russian Navy submarine force. Based on earlier Sierra-class and Akula-class submarines, this boat features state-of-the-art equipment, improved quieting, enormous torpedo arsenal and heavy cruise missile payload. 
+This submarine is the pride of Russian Navy, and must be considered an extremely dangerous threat.

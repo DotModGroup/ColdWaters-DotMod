@@ -1,0 +1,83 @@
+[TRAINING 1]=6
+<b>Data Panel - Ownship</b>
+Above the mini-map is the Data Panel which contains 3 columns of data (left to right).
+1) Ownship data
+2) Contact Data
+3) Weapon data (torpedo on a wire)
+
+For this mission we'll just focus on the first column which displays your vessel's;
+<b>CSE</b> Course
+<b>SPD</b> Speed
+<b>DEP</b> Depth
+<b>RUD</b> Rudder
+<b>PLN</b> Planes
+<b>BAL</b> Ballast
+
+As you adjust your submarine's rudder, planes and ballast, the settings will be diplayed here as will your submarine's current course, speed and depth.
+[/TRAINING 1]
+
+[TRAINING 2]
+<b>Speed and Steering</b>
+<b>Speed</b>
+Use <KEY:Increase Power> and <KEY:Decrease Power> to adjust your speed.
+Message log at bottom right shows your current speed setting.
+Now use <KEY:Increase Power> to bring your speed up to Ahead Flank.
+
+<b>Steering</b>
+Use <KEY:Rudder Left> and <KEY:Rudder Right> to steer your vessel.
+Rudder is set in 5 degree increments to a minimum of -30 degrees (left) and +30 degrees (right).
+Now use <KEY:Rudder Left> to bring your rudder hard over to -30 degrees port.
+
+Your submarine should now be turning in a circle, note the Data Panel's left-most column reflecting your changing course and current rudder setting.
+[/TRAINING 2]
+
+[TRAINING 3]
+<b>Depth Control</b>
+<color=red><b><i>WARNING: Commander, you are expected to navigate your vessel safely and are not to exceed 1000 ft depth</i></b></color>
+
+Dive Planes: Use <KEY:Planes Down> and <KEY:Planes Up> change depth with dive planes.
+Planes are set in 5 degree increments to a minimum of -30 degrees (down) and +30 degrees (up) and require some forward movement to function.
+Set your planes back to 0 in order to level out.
+
+Ballast: Use <KEY:Ballast Down> and <KEY:Ballast Up> change depth using ballast.
+Ballast is set in 5 unit increments to a minimum of -30 (down) and +30 (up) and does not require any forward movement to function.
+Depth changes with ballast are much slower than with planes.
+
+<b>Straight & Level</b>
+Use <KEY:Level Submarine> to quickly set rudder, planes and ballast settings to 0.
+
+<b>Holding Navigation Keys</b>
+Rather than tapping keys to change rudder, planes, ballast and speed, you may hold then release at the desired setting.
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Emergency Blow</b>
+Experiment with navigating your submarine as well as changing depth and speed. Be sure not to exceed 1000 ft depth.
+
+When ready, take your submarine down to about 200 ft depth and level it out.
+
+<b>Emergency Blow</b>
+In an emergency situation you can use <KEY:Blow Ballast> to blow emergency ballast in order to surface as quickly as possible.
+
+Use <KEY:Blow Ballast> now. Set your speed to Flank and dive planes to 30 in conjunction with blowing ballast to dramatically assist with the rate of surfacing.
+
+Once on the surface, level out your planes.
+[/TRAINING 4]
+
+[TRAINING 5]
+<b>Compressed Air</b>
+Blowing emergency ballast depletes reserves of compressed air. Once on the surface, air is available to replenish these reserves, but it takes time.
+
+Gradually the ballast indicator will count down to 0 at which time the compressed air is replenished and your submarine is able to dive again and use emergengy ballast once more.
+
+Note that from the time of blowing emergency ballast until compressed air reserves are restored, ballast settings cannot be changed.
+[/TRAINING 5]
+
+[TRAINING 6]
+<b>Ending Combat</b>
+To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 6]

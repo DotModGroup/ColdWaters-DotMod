@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+A WOLFPACK OF ENEMY ATTACK SUBMARINES HAS BEEN OPERATING IN AND AROUND THE LUZON STRAIT BETWEEN TAIWAN AND THE PHILIPPINES, WHERE THEY HAVE BEEN PURSUING AN ANTI-SHIPPING CAMPAIGN AIMED AT THE LOCAL FISHING INDUSTRY, AS A MEANS OF PRESSURING THE PHILIPPINE GOVERNMENT INTO SUBMISSION. TRANSIT TO THIS AREA AT BEST POSSIBLE SPEED AND CONDUCT AN ASW SWEEP OF THE AREA, BEFORE THE ENEMY HAS A CHANCE TO ESCAPE. AVOID ANY CIVILIAN CASUALTIES.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) WEAPONS FREE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Very pleased to see that you dealt with those subs with determination and resolve, Commander! Remember that for every enemy vessel we take out, it means a safer transit for our troops and transports. Good work.
+[MISSION FAIL]
+Captain, your recent mission has been evaluated as a failure to meet mission goals. This means more lost tonnage for the convoys and the enemy getting one step closer to closing the Pacific. We'll have to do better than this, Commander. 
+[MISSION MISSED]
+Sorry to hear mission goals could not be met. You can't win them all. For next time, try to plan your approach better. Always remember the balance between strengths and weaknesses.  We have the upper hand.

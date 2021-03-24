@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Nordkapp
+Description=Nordkapp-class Coast Guard Vessel (1984г)
+
+History=PLACEHOLDER! (Doesn't have correct model)\nThe Nordkapp class is a Norwegian Coast Guard ship class built in the 1980s, and is used for rescue, fishery inspection, research purposes and general EEZ patrol in Norwegian waters. It is a class of ships purpose built for the Norwegian Coast Guard with a secondary role as wartime naval escorts. The Norwegian Coast Guard is a part of the Royal Norwegian Navy, and has some police authority.

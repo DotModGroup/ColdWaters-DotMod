@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mk 48 ADCAP
+WeaponDescriptiveName=Торпеда Mk 48 ADCAP
+WeaponDescription=Торпеды Мк 48 модернизированные по программе ADCAP (Advanced Capability) обладают более совершенной электроникой и способны развивать большую скорость. Это делает их ещё более эффективными как против подводных лодок так и надводных кораблей.

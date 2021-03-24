@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SET-40
+WeaponDescriptiveName=SET-40 ASW Torpedo
+WeaponDescription=Special: ASW, Small caliber\nThe SET-40 is an 4th generation electrical anti-submarine torpedo with active/passive acoustic guidance. Due to its size it can be loaded only into 400mm torpedo tubes. Also, smaller size means that it takes less time to load. Will not lock on surface targets.

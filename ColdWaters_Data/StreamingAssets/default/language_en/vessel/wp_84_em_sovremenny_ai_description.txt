@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Sovremenny
+Description=Sovremenny-class Destroyer
+DefensiveWeapons=SA-N-7 SAM
+OffensiveWeapons=RBU-1000 ASW Rockets
+Aircraft=1 Ka-27 Helix ASW helicopter
+History=The Sovremenny is a companion class to the Udaloys, but where the latter are optimized for ASW operations, the Sovremennys are optimized for the anti-ship mission. The design is clearly derived from the earlier Kresta design, with almost identical dimensions and likely the same steam plant. Instead of the large SA-N-3 area defense system, they are fitted with a medium-range SAM system and more extensive command and control spaces but carry only rudimentary ASW weapons. In a break with Soviet praxis, they feature an amidships landing pad, similar to western designs.

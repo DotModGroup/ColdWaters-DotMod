@@ -1,0 +1,40 @@
+//Paracel Islands
+UseTerrain=TRUE
+MapCoordinates=1481,527
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-154,352
+PlayerHeading=150
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//N/S East flank
+EnemyWaypoints=52,194|27,534
+//North Patrol
+EnemyWaypoints=-44,512|-376,476
+//West Patrol
+EnemyWaypoints=-376,300|-560,240
+//South Patrol
+EnemyWaypoints=-324,121|260,121
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+//plan_helix
+HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=plan_y-8x
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=86,400,200
+AircraftSearchArea=-440,290,200

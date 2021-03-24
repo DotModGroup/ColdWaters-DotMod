@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato naval 1
+Photo=campaign/images/photos/naval nato 1,campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 3,campaign/images/photos/naval nato carrier 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO NAVAL PUSH</b>|<b>SAFE SEAS</b>|<b>SOVIET SUBS RETREAT</b>
+Color=57,61,73,255
+Sentence1=Several NATO naval groups have recently been operating unopposed. A Pentagon spokesman revealed that the enemy's ability to efficiently operate around <ENDLOCATION> had been drastically diminished for reasons that remain "classified".
+Color=218,218,208,255
+Sentence2=The United States Congress has called for more troops and armor to be made available for the conflict in Western Europe. Once deployed it is expected these additional ground resources would halt the Soviet advance and bring a speedier end to the current crisis.

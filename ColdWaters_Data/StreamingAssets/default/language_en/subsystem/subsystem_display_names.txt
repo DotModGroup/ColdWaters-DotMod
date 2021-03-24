@@ -1,0 +1,14 @@
+[Subsystem Display Names]
+Bow Sonar
+Towed Array
+Periscope
+ESM Mast
+Radar Mast
+Tubes
+Fire Control
+Pumps
+Propulsion
+Rudder
+Planes
+Ballast
+Reactor

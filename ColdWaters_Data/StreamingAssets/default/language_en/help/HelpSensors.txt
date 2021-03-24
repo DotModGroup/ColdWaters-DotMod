@@ -1,0 +1,284 @@
+ImageBackground=campaign/images/pact wolfpack 3
+ImagePosition=15,-1070
+ImageHeight=256
+Image=language/help_images/active_sonar.png
+ImagePosition=15,-1647
+ImageHeight=256
+Image=language/help_images/baffles.png
+ImagePosition=15,-2066
+ImageHeight=256
+Image=language/help_images/sonar_listening.png
+ImagePosition=15,-3129
+ImageHeight=256
+Image=language/help_images/sound_propagation.png
+ImagePosition=15,-3826
+ImageHeight=256
+Image=language/help_images/conditions.png
+ImagePosition=15,-4450
+ImageHeight=256
+Image=language/help_images/mast_panel.png
+ImagePosition=15,-4825
+ImageHeight=256
+Image=language/help_images/esm_meter.png
+ImagePosition=15,-5543
+ImageHeight=256
+Image=language/help_images/sensor_status.png
+[/Image]
+<size=24><color=maroon><b>SENSORS</b></color></size>
+Sensors play a key role in modern naval warfare. They detect the enemy, determine where it is as well as where it is going and ultimately facilitate hitting it with weapons. Passive sensors listen for evidence of the enemy without revealing the presence of the listening vessel. Active sensors emit a signal then listen for any that returns. This emission of signals can give away your presence, but active sensors can quickly provide more accurate and detailed data about the enemy. Your submarine, and enemy naval vessels, possess the following sensors:
+
+<b>PASSIVE SONAR</b>
+Unless your bow sonar is damaged, passive sonar is always on, continuously listening for sounds emitted by enemy vessels or weapons. Passive sonar gives an accurate bearing to the contact which can be used over time to build up a target solution. It can also reveal a profile of sound emitted from the contact allowing the classification of that vessel type.
+
+<b>ACTIVE SONAR</b>
+Active sonar must be enabled with <KEY:Sonar Mode>. Once enabled, active sonar will continue to emit pings until it is disabled by toggling off with <KEY:Sonar Mode>. Although active sonar gives away your position and has a significantly shorter range than passive sonar, it provides rapid and accurate bearing and range data.
+
+<b>TOWED ARRAY</b>
+This long cable trailing behind your submarine contains listening devices which greatly improve the sensitivity of your sonar. It works most effectively at about 5 knots as any slower, the cable sinks, while at faster speeds flow noise begins to drown out the signal being received.
+
+<b>RADAR</b>
+Radar is an active sensor that emits radio waves (or microwaves) and receives reflected waves for analysis. It can rapidly determine bearing, range as well as relative movement of detected objects. As an active sensor, it gives away the position of the unit using Radar. Radar detection range is affected by rain and the size of the object being detected.
+
+<b>ESM (ELECTRONIC SUPPORT MEASURES)</b>
+ESM is a passive Radar receiver that detects Radar emissions from other sources. Since emissions are detected on striking the ESM receiver, it is much more sensitive than the emitting Radar, which has to rely on the signal to travel to and from the contact.
+
+<b>VISUAL</b>
+Visual contact with the enemy is usually made with the periscope or if your submarine is surfaced. Using the periscope, laser range finding can be conducted to accurately determine the enemy's range and relative movement, without revealing your position (unlike RADAR).
+
+Note that radar, ESM and visual (periscope) require raising your masts above the water. Masts can be detected by enemy radar, revealing your position; furthermore your radar also broadcasts your position to the enemy!
+
+Enemy aircraft possess radar, ESM and visual as well as:
+<b>Dipping Sonar:</b> a passive or active sonar listening device lowered from a stationary helicopter.
+<b>Sonobuoy:</b> passive or active sonarbuoys dropped by helicopters and aircraft.
+<b>MAD:</b> Magnetic Anomaly Detector using Earth's magnetic field to detect submerged submarines. However it has a very limited range of 2,500 yards and is not effective at submarine depths below 500 ft.
+
+<b>DETECTING CONTACTS</b>
+Any vessel detected by your sensors is termed a Contact and is prefixed with a letter/name based on the sensor type initially detecting it;
+(S) Sierra - detected by sonar
+(R) Romeo - detected by RADAR
+(E) Echo - detected by ESM
+(V) Victor - detected by visual observation (periscope or bridge)
+(M) Master - upgraded to this if detected by more than one sensor type
+
+Once classified, the contact designation is replaced by the class of the vessel.
+
+<size=24><color=maroon><b>SONAR</b></color></size>
+When submerged, passive sonar will primarily be used by your submarine to detect, classify and track contacts. Active sonar is also extremely useful and can greatly increase TMA against a contact, but has several limitations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When using active sonar, the listening vessel (US Sub) emits a loud "ping" and listens for reflection of this noise from nearby objects (Enemy Sub A). Sound has to travel to and from the object, making active sonar range usually less than that of passive sonar. In addition, sound reaching Enemy Sub B that is too far to return to the listening vessel reveals the US Sub to Enemy Sub B, fails to detect Enemy Sub B, but reveals presence of the US Sub. Since active sonar relies on the reflection of sound from the contact such that a contact broadside to the listener reflects much more sound than one that is face on.
+
+Enemy vessel active sonar pings are displayed as yellow directional indicators on the Tactical Map. Enemy torpedo active sonar pings are displayed as red directional indicators on the Tactical Map.
+
+<b>FLOW NOISE</b>
+As a vessel moves, the flow of water around the hull generates flow noise. The faster the vessel moves, the louder the flow noise generated. This noise makes it harder to hear signals with your sonar, thus decreasing their sensitivity.
+
+<b>BAFFLES</b>
+Hull mounted sonar is shielded from behind so that noise generated by the vessel itself does not interfere with their sensitivity. In addition, turbulence from the propellers and hull disrupt the flow of sound behind the vessel. This results in a blind area directly to the rear, usually about 60 degrees wide.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A towed array is not affected by the rear baffles as the listening device is towed far behind the vessel. However the towed array has a narrow blind spot forward as the noise from the submarine ahead masks incoming sound.
+
+Finally all submarine sonar have a vertical limitation to detection such that they cannot hear sound sources directly above or below them. In Cold Waters this is represented by a +/- 45 degree listening arc.
+
+<b>SONAR LISTENING</b>
+While you will use sonar to detect enemy vessels when submerged, they will also be using sonar to detect you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The diagram above illustrates the general listening capabilities of your sonar. Enemy surface warships tend to be noisy, making them readily detectable by your sonar at longer ranges. Submarines are usually quieter, although the constant running reactor of nuclear submarines makes them somewhat more noisy than their diesel-electric counterparts. In fact, diesel-electric submarines will usually be the most quiet and difficult of contacts to detect. Finally enemy helicopters (and aircraft) are practically impossible to detect by sonar. Your only warning of their presence will be active pings from their dipping sonar or active sonobuoys dropped nearby.
+
+
+<size=24><color=maroon><b>UNDERWATER ACOUSTICS</b></color></size>
+Sonar uses sound waves travelling through water and environmental factors impact its sensitivity, decreasing or even enhancing it.
+
+<b>AMBIENT NOISE</b>
+This is the background noise of the ocean itself, the louder this is, the more difficult it becomes to hear other sound sources with sonar. Increased sea state (wind and how large waves are) as well as rain, snow and sea ice all increase ambient noise while pack ice dramatically reduces ambient noise.
+
+<b>WATER DEPTH</b>
+Very shallow waters may result in scattering of sound waves as they strike the bottom and also have more biological activity, resulting in decreased sonar sensitivity. Water depth is also a major factor involved in increasing the propagation of sound in water by several phenomena as outlined below.
+
+<b>MOVEMENT OF SOUND IN WATER</b>
+The propagation of sound in water bends, due to changes in temperature and pressure. As water cools, it bends sound waves downward, while warming water bends them upward. In addition, increasing water pressure also bends sound waves upwards. Therefore sound waves travelling deep into the ocean will initially bend downward due to the temperature gradient near the surface, then bend back upward due to the increasing pressure gradient. This results in the sound waves travelling in a deep arc back to the surface.
+
+<b>CONVERGENCE ZONE</b>
+As mentioned above, sound is bent back upwards by water pressure such that if the water is deep enough (~10,000 ft in the Norwegian Sea) it will ultimately return to the surface. The zone in which these sound waves return to the surface is called a Convergence Zone and can be 40,000-50,000 yards away. A ship listening with sonar in this zone could detect the emitter, even though the range is far beyond the distance the sound could travel along the surface.
+
+<b>BOTTOM BOUNCE</b>
+In moderately deep waters (~2000 ft) a phenomenon called Bottom Bounce may occur. Sound waves strike the ocean floor and can be reflected back up to the surface, increasing their propagation. Bottom bounce requires a relatively flat and uniform ocean floor to reflect sound waves.
+
+<b>LAYERS AND DUCTS</b>
+As mentioned previously, cooling water bends sound waves downward while warming water and increased water pressure bends them upward. In general, water is warmest near the surface, cooling gradually with depth. Around 100-300 ft deep there is a sudden drop in water temperature, called the thermocline or thermal layer. Past the thermal layer, water temperature gradually decreases to about 4 degrees Celsius at 3000 ft and below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>THERMAL LAYER</b>
+As mentioned above, the sudden drop of water temperature results in a thermal layer. Heavy seas mix the water near the surface which can weaken the strength of the thermal layer. In regions where the surface water is too heavily mixed, the water is too shallow or the temperature is too consistent, a thermal layer will not form at all.
+
+<b>SURFACE DUCT</b>
+Above the thermal layer, sound waves tend to bend upwards. Upon striking the ocean surface, some are reflected back downward where once again they gradually bent back upwards. This continuous reflection of sound waves between the ocean surface and thermal layer is called a Surface Duct and can greatly increase propagation of sound. Heavy seas tend to decrease the strength of a surface duct due to scattering of sound by the disrupted ocean surface.
+
+<b>SHADOW ZONE</b>
+Directly below the thermal layer, a region known as the shadow zone may form. Sound waves are either trapped in the surface duct, or penetrate the thermal layer only to be bent downwards as the water cools. The bending of sound waves away from this area results in a shadow zone, a region of dramatically decreased sound propagation. A submarine in the shadow zone will find it difficult to detect vessels outside of the zone and vice versa.
+
+Note that the effectiveness of a shadow zone is dependent on range between the vessels. As they get closer, sound waves travel more steeply between them, eventually penetrating the thermal layer as the submarine leaves the shadow zone.
+
+<size=24><color=maroon><b>CONDITIONS</b></color></size>
+Prior to combat, the local ocean conditions and presence of a layer and or duct are presented in the briefing. Once in combat use <KEY:Conditions> or click on the Conditions tab to open the Conditions Panel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Conditions display lists the current ocean ambient noise level, the depth and strength of a layer (if one exists), the strength of a surface duct (if one exists) as well as the depth to the ocean floor. In addition, your submarine's depth is plotted (if above 1000 ft) and if your current contact's solution is high enough, that contact's depth is also shown.
+
+The depth of the currently selected torpedo on a wire will also be displayed on the conditions panel.
+
+The ability of a layer to mask sound or a duct to propagate sound is dependent on their strength. Stronger layers and ducts have a much more dramatic effect on sound propagation than do weak ones.
+
+
+<size=24><color=maroon><b>PERISCOPE & MASTS</b></color></size>
+Your submarine's other sensors, periscope, ESM and radar are mounted on masts that must be raised above the surface in order to function. Masts usually require less than about 50 ft of depth in order to be raised and used. The message log will notify you if your submarine is too deep to raise and use masts.
+
+Masts are relatively fragile such that the flow of water at faster speeds, or water pressure from excessive depth can damage them. Running submerged at over 10 knots with a mast raised will damage and eventually destroy that mast.
+To access your masts, open the masts panel by clicking the tab on the left. This panel also features buttons for active sonar and launching noisemakers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>PERISCOPE</b>
+Use <KEY:Periscope> to raise your periscope when your submarine is at appropriate depth. Once fully raised, Once fully raised, click the eyepiece button in the upper left corner, or use <KEY:Periscope View> to enter and leave the periscope view. When in periscope view, <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out> can be used to change magnification of the view. The periscope view can by panned with <RIGHTCLICK> and dragging or using <KEY:Camera Left> and <KEY:Camera Right>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Low light vision can be toggled on/off with <KEY:Night Vision>. Placing a target in crosshair and using <KEY:Mark Target> will use laser ranging to accurately determine the range, providing a massive target solution boost and automatically classifying that target. This is termed "marking" a contact. Laser rangefinding can also be used to map nearby ice which will be plotted on your tactical map. You may also use the buttons under the ESM meter to mark or use LLTV.
+
+The periscope mast also contains an ESM receiver which detects the strength (but not direction) of enemy radar transmissions. This sensor's purpose is to alert you to enemy radar signals that might detect your raised periscope mast. If you see strong ESM readings while using the periscope, best lower it as soon as possible to avoid detection. Use <KEY:Periscope> to lower your periscope.
+
+<b>ESM MAST</b>
+Use <KEY:ESM Mast> to raise your ESM mast. This passive sensor detects radar signals, providing a measure of both their strength and originating bearing (shown as purple lines on the map). Detecting a contact by ESM provides a small boost to target solution. Use <KEY:ESM Mast> to lower your ESM mast.
+
+<b>RADAR MAST</b>
+Use <KEY:RADAR Mast> to raise the radar mast.
+Radar uses radio transmissions to accurately and continuously range contacts which provide a massive boost the target solution. However your outgoing radar signals travel long distances and are readily detected by enemy ESM. Use <KEY:RADAR Mast> to lower your radar mast.
+
+
+<size=24><color=maroon><b>SENSORS ICONS</b></color></size>
+As you use the various sensors of your submarine, status icons are displayed in the upper right to notify you of which sensors are being used.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>SENSOR ICON DESCRIPTIONS</b>
+<b>Active Sonar:</b> Your submarine is currently using Active Sonar.
+
+<b>Radar Mast:</b> Your submarine's radar mast is currently raised.
+
+<b>ESM Mast:</b> Your submarine's ESM mast is currently raised.
+
+<b>Periscope:</b> Your submarine's periscope is currently raised.
+
+Remember: using active sonar generates loud pings of sound and raising your radar mast broadcasts radio transmissions, both of which can quickly give away your position. In addition, masts which are raised about the water surface can be detected by enemy radar.

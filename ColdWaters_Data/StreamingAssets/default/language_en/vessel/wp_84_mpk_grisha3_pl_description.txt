@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Grisha III
+Description=Grisha III-class Small Anti-Submarine Ship
+
+History=These are small ASW frigates that despite their size feature a heavy ASW armament coupled with a heavy self-defense armament. Their hulls handle rough seas poorly and they are difficult to refuel at sea, which restricts them to patrol and escort duties in coastal waters. Despite these drawbacks they are still capable of causing considerable grief to NATO submarines. Unlike the larger Krivaks, these ships feature a 30mm anti-missile gun as part of their self-defense armament.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,
+PlayerClassHullNumbers=MPK-31,MPK-33,MPK-47,MPK-3,MPK-139,MPK-190,MPK-198,MPK-202,MPK-113,MPK-10

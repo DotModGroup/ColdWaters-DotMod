@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Granit»
+WeaponDescriptiveName=P-700 «Granit» (SS-N-19 Shipwreck)
+WeaponDescription=Special: Universal\nThe P-700 «Granit» is a Russian naval anti-ship/land-attack cruise missile. It comes in surface-to-surface and submarine-launched variants. Designed in the 1970s to replace the P-70 Ametist and P-120 Malakhit, both effective missiles but with too short a range in the face of improving weapons of U.S. Navy carrier battle groups. Guidance system is universal and allows switch between ship-attack and land-attack mode. Mode can be switched in the weapon settings just before launch.

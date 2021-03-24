@@ -1,0 +1,10 @@
+Image=campaign/images/pact specops
+MissionLocation=In the Luzon Strait
+Briefing=21 SEP 2000
+Briefing=Several hours ago, the PLAN launched a series of cruise missile and special forces attacks on our naval bases in Sasebo, Okinawa and Subic Bay. Nav Ops suspects a similar strike using submarines is planned for Guam, our last remaining base in the region.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink the enemy submarines
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Avoid collateral damage

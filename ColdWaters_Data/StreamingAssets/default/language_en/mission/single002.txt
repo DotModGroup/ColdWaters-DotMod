@@ -1,0 +1,7 @@
+Image=campaign/images/nato submarine
+MissionLocation=East of Iceland, in the Norwegian Sea
+Briefing=15 DEC 1984
+Briefing=After several uneventful days, sonar reports a lone contact.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Fight a one-on-one duel with an enemy SSN

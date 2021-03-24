@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SET-65K
+WeaponDescriptiveName=SET-65K Torpedo
+WeaponDescription=The latest modification of SET-65, 5th generation SET-65K is an electrical dual-purpose torpedo with newer guidance system «Keramika» which is capable to lock on both submerged and surface targets and has an increaced sensor range.

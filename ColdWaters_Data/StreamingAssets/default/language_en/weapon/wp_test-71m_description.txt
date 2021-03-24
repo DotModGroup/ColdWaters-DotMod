@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=TEST-71M
+WeaponDescriptiveName=TEST-71M Torpedo
+WeaponDescription=This 4th generation electrical torpedo is an improved version of the TEST-71 wire-guided torpedo. The speed and range are the same but the previous restrictions on wire guidance has been removed.

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Tigerfish
+WeaponDescriptiveName=Mark 24 "Tigerfish" Heavyweight Torpedo
+WeaponDescription=The Mark 24 Tigerfish was a heavyweight acoustic homing torpedo used by the Royal Navy during the 1980s and 90s. Conceptual development dates to the mid-1950s, and formally started in 1959 with a target introduction date in 1969. The first prototype "Tigerfish" examples were delivered in 1967.

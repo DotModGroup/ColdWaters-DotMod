@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=AT-1
+WeaponDescriptiveName=AT-1 ASW Torpedo
+WeaponDescription=Special: ASW\nThe AT-1 is an 4th generation electrical air-dropped torpedo with active/passive acoustic guidance carried only by helicopters. Will not lock on surface targets.

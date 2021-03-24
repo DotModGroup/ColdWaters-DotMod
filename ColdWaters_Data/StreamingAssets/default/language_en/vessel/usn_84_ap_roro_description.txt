@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Military RORO
+ShipClassShort=RORO
+Description=Large Roll-On, Roll-Off Ship
+History=RORO ships are versatile cargo ships that can be quickly loaded through ramps, which makes them very suitable for carrying vehicles and other rolling equipment. They can also carry standard shipping containers, which are driven onto the ship and placed by special on-board trucks. Deck cargo can be simply lifted aboard by pierside cranes.

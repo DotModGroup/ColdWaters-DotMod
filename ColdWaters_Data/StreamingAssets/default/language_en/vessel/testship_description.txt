@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=«Cassiopeia»
+Description=SSTN «Cassiopeia»
+
+History=Submarine for game testing. Never existed in reality.
+
+[Player Ship Instances]
+PlayerClassNames=«Cassiopeia»
+PlayerClassHullNumbers=K-12

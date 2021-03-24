@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Krivak I
+Description=Krivak I-class Patrol Ship
+DefensiveWeapons=SA-N-4 SAM
+OffensiveWeapons=RBU-6000 ASW Rockets
+Aircraft=None
+History=In service since the early 1970's, this class was intended to be built at smaller yards that had no experience building larger combatants. They are 'lightweight' ASW ships, but are nonetheless capable of giving NATO submarines considerable difficulty. They are sleek ships with excellent sea-keeping and fitted with variable depth sonar, but they have only limited weapons, carry no helicopters and feature only rudimentary command facilities. As such they will generally be under the command of larger BPKs in tactical situations. They lack the 30mm point-defense guns found on most other Soviet warships, which makes them vulnerable to anti-ship missiles.

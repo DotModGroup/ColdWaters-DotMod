@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Juliet
+Description=Juliet-class Cruise Missile Submarine
+
+History=These boats, built during the 1960's, are first-generation Soviet cruise missile boats, designed as cheaper diesel-electric equivalents of the Echo-class SSGN's. Like the Echos, they are very loud boats, even by diesel-electric standards. They also have to stay on the surface in order to target, launch and guide their SS-N-3 missiles, during which they are extremely vulnerable to NATO ASW. With the advent of submerged-launch missiles in the Charlie- and Oscar classes, these obsolete boats are probably retained as a means to harass NATO merchant convoys.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,
+PlayerClassHullNumbers=K-156,K-85,K-24,K-68,K-77,K-58,K-81,K-78,K-203,K-304

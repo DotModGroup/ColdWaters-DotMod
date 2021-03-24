@@ -1,0 +1,8 @@
+Image=campaign/images/pact surface raiders 3
+MissionLocation=Training exercise
+Briefing=Learn how to set up and control wire-guided torpedoes.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Modifying weapon settings.
+Briefing=- Steering weapons to targets.
+Briefing=- Knowing the limitations of wires.

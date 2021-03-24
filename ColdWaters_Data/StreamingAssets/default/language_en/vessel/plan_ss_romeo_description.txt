@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Romeo
+Description=Romeo-class Diesel-Electric Attack Submarine
+History=The Romeo is a follow-on design to the earlier Whiskey, being nearly identical in size and role, but patterned heavily on the German Type XXI wartime design, which is evident in its more streamlined features. Like its predecessor it is comparatively slow and noisy, but feature a much improved sensor outfit and heavier torpedo armament. This class was exported to several client states, including China where they proved to be popular boats.

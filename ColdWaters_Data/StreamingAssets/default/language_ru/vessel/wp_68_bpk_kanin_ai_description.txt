@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Kanin
+Description=Kanin-class Large Anti-Submarine Ship
+DefensiveWeapons=SA-N-1 SAM
+OffensiveWeapons=AK762 76.2mm DP Guns\n533mm ASW Torpedoes\nRBU-6000 ASW Rockets\nRBU-1000 ASW Rockets
+Aircraft=Landing pad for ASW helicopter
+History=The eight ships in this class were originally built as Krupny-class rocket ships armed with SS-N-1 cruise missiles. From 1968 to 1977 they were taken in and completely rebuilt as large anti-submarine ships, with upgraded sonar and ASW armament, and fitted with left-over SA-N-1 mounts originally intended for the Kresta I programme. While they are fitted with a helicopter landing pad on the stern, they do not have any hangar facilities to effectively operate helicopters. All in all they make second rate ships in a hi-lo mix.

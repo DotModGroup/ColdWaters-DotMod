@@ -1,0 +1,6 @@
+[Unit Reference]
+Designation=ФР
+ShipClass=«Нордкап»
+Description=Патрульный корабль типа «Нордкап» (1984г)
+
+History=PLACEHOLDER! (Doesn't have correct model)\nПатрульные корабли типа «Нордкап» (норв. Nordkapp-klassen) — серия норвежских кораблей береговой охраны.

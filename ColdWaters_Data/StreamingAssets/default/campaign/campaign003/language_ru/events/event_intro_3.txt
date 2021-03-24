@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/plan surface raiders 2
+Photo=campaign/images/photos/infantry plan 1,campaign/images/photos/infantry plan 2,campaign/images/photos/air plan 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CHINA ON THE OFFENSIVE</b>
+Color=57,61,73,255
+Sentence1=China has launched a series of attacks along its periphery, placing recent sabotage against US Military installations in a new light. Tensions have remained high since Taiwan's independence and Hong Kong's failed handover, likely resulting in the PRC deciding that the time is ripe to resolve these issues and enforce their territorial claims in the South china Sea.
+Color=218,218,208,255
+Sentence2=Furthermore analysts have noted that in recent months the Chinese economy may finally be feeling the effects of the Asian economic crisis. Capturing resource rich areas in the South China Sea may be an effort to divert domestic attention away from the stark economic situation.

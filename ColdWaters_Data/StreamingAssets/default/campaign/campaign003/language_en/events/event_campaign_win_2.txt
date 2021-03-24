@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/pact tanks,campaign/images/pact port takeover 1,campaign/images/pact port takeover 2,campaign/images/pact ruined city,campaign/images/nato victory 1
+Photo=campaign/images/photos/protests 1,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIET UNION COLLAPSES</b>|<b>WAR GETS CIVIL</b>
+Sentence1=The war with the West has come to an abrupt halt as the Soviet Union fractures, with some regions even falling into civil war. NATO forces have moved quickly, regaining lost ground all the way back to pre-war borders. Attempts are made to contain the volatile situation and aid the civilians streaming out of the former Soviet Union.
+Sentence2=This unexpected end to the conflict comes as a shock to analysts, who admit the "power of the people" has been grossly overlooked. Although economically weakened and with her satellite states breaking off, Russia remains a formidable military power. But for now, the Cold War is over.

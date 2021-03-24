@@ -1,0 +1,38 @@
+UseTerrain=TRUE
+//MapCoordinates=1321,1390
+//MapCoordinates=1470,946
+//MapCoordinates=2531,1066
+MapCoordinates=1300,1390
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_all
+
+//Environment
+Date=15 DEC 1984
+Hemisphere=North
+Time=1200
+UsePresetEnvironment=TRUE
+Weather=Scattered
+SeaState=Moderate Breeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyShipClasses=usn_84_ffg_perry_ai
+//,civ_ms_encounter|civ_ms_act_1|civ_ms_sl7|civ_ms_freighter_a|civ_ms_freighter_b|civ_ms_super_p|civ_ms_small_freighter,usn_84_cg_belknap_ai,plan_ptg_huangfeng
+//plan_lst_yukan,usn_99_ssn_los_angeles_flt2,wp_84_bpk_udaloy_ai
+//wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3|wp_84_ssn_victor2|wp_68_ssn_victor1|wp_68_ssn_november
+FormationCruiseSpeed=12
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=usn_sh60b
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_84_ffg_perry_pl,wp_84_bpk_udaloy_pl,wp_68_ssg_juliet,wp_68_ss_romeo,wp_84_bpk_kara_pl,wp_68_ssgn_echo2,wp_84_mpk_grisha3_pl,wp_84_rkr_kirov_pl,wp_68_ss_whiskey,wp_84_ss_tango,uk_84_ssn_trafalgar,wp_84_ss_kilo,wp_68_ss_foxtrot,wp_84_ssgn_charlie2,wp_84_skr_krivak1_pl,wp_84_ssgn_oscar,wp_84_ssgn_papa,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon,usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles,usn_99_ssn_los_angeles_flt2,usn_99_ssn_los_angeles_flt3,usn_99_ssn_seawolf,plan_ssn_han,usn_84_ff_knox_pl,usn_84_cg_belknap_pl,wp_68_em_kotlin_pl,testship
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF

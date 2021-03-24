@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/purple_heart
+Music=audio/music/Cold Waters Campaign Loss
+Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=The President of the United States of America pursuant to authority vested in him by Congress has awarded <POSTHUMOUSLY> the
+Sentence1=<b><size=22>PURPLE HEART<n>TO<n>CDR <PLAYERNAME><n>COMMANDING OFFICER,<n><PLAYERSUBMARINENAME></size></b>
+Sentence2=For wounds received on <DATE> resulting in his death.<n>Commander <PLAYERNAME> served his country with the upmost of pride and was ever willing to lay down his life throughout the course of his duties. His numerous achievements and respected command reflect great credit upon himself and the United States Naval Service.

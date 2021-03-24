@@ -1,0 +1,7 @@
+Image=campaign/images/pact wolfpack 5
+MissionLocation=Near the Faeroes
+Briefing=15 MAR 1984
+Briefing=On a routine barrier patrol, you make contact with a wolfpack of diesel-electric subs trying to break out into the Western Approaches
+Briefing=
+Briefing=Primary Objective:
+Briefing=Duke it out with the enemy subs and make sure they don't escape

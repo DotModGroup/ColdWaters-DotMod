@@ -1,0 +1,45 @@
+UseTerrain=FALSE
+MapCoordinates=80,1000
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=21 MAR 1982
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=ModerateBreeze
+DuctStrength=VeryStrong
+LayerStrength=VeryStrong
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyShipClasses=biologic_blue_whale
+FormationCruiseSpeed=9
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=0,-200
+PlayerHeading=0
+PlayerDepthInFeet=150
+PlayerTelegraph=1
+//Only used in training mode
+EnemyPositionsX=0
+EnemyPositionsZ=0
+EnemyHeadings=90
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=-20,0|20,0
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_tu-142_bear
+
+PlayerVessels=usn_84_ssn_sturgeon

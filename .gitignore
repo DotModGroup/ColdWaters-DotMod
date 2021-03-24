@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Ignore base game files
 *.exe
-*.out
-*.app
+*.dll
+*.mdb
+*.xml
+
+# Ignore WIP files
+*.bat
+*.psd
+*.dds
+*.rar
+
+
+
+
+# Ignore everything in game directory
+ColdWaters_Data/*
+
+# But don't ignore directories
+!ColdWaters_Data/Managed
+!ColdWaters_Data/StreamingAssets
+
+# But don't ignore "file_to_be_staged.txt"
+!!ColdWaters_Data/Managed/Assembly-CSharp.dll

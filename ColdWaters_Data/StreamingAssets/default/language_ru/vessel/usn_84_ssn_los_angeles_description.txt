@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Los Angeles
+Description=Los Angeles-class Nuclear Attack Submarine
+History=In service since 1976, this class was the first to be designed from the outset with a towed array, and the first to return to the 30+ knot speed of the Skipjacks. Originally designed to screen carrier groups against Soviet submarines, they combine high speed with excellent digital sonar and firecontrol, and the most advanced quieting available. With the addition of Harpoon and Tomahawk missiles, these boats are as capable against enemy shipping as they are against submarines. Their only drawback is their large size, that makes them very expensive and less maneuverable and deep-diving than the earlier Sturgeons.
+
+[Player Ship Instances]
+PlayerClassNames=Los Angeles, Baton Rouge, Philadelphia, Memphis, Omaha, Cincinnati, Groton, Birmingham, New York City, Indianapolis, Bremerton, Jacksonville, Dallas, La Jolla, Phoenix, Boston, Baltimore, City of Corpus Christi, Albuquerque, Portsmouth, Minneapolis-Saint Paul, Hyman G. Rickover, Augusta, San Francisco, Atlanta, Houston, Norfolk, Buffalo, Salt Lake City, Olympia, Honolulu
+
+PlayerClassHullNumbers=SSN-688,SSN-689,SSN-690,SSN-691,SSN-692,SSN-693,SSN-694,SSN-695,SSN-696,SSN-697,SSN-698,SSN-699,SSN-700,SSN-701,SSN-702,SSN-703,SSN-704,SSN-705,SSN-706,SSN-707,SSN-708,SSN-709,SSN-710,SSN-711,SSN-712,SSN-713,SSN-714,SSN-715,SSN-716,SSN-717,SSN-718

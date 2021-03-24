@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Huangfeng
+Description=Huangfeng-class Missile Boat
+DefensiveWeapons=25mm AA Guns
+OffensiveWeapons=
+Aircraft=None
+History=The Huangfeng is a Chinese version of the Soviet Osa-class missile boat, one of the most widely exported littoral warfare vessels in the world. They are an evolution of WW2 PT boats where missiles have replaced the torpedoes of old, making these vessels very powerful in respect to their size and low cost. They tend to operate in packs using hit and run tactics, often under central control from ground radar or maritime patrol aircraft, allowing them to rely on offboard targeting for stealthy attacks. Their high speed and shallow draft make them poor torpedo targets, so missiles are more effective at taking them out.

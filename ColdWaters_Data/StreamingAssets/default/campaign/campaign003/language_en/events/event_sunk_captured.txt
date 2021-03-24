@@ -1,0 +1,16 @@
+NextAction=END
+Image=campaign/images/pla prison
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Loss Gulag
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CHINESE CAPTURE<n>SUB CREW</b>
+Color=57,61,73,255
+Sentence1=A US Navy submarine has been reported lost while on operations in the West Pacific.
+Beijing claims to have captured the surviving crew, along with the commanding officer. While they refuse to reveal the exact location and number of crew captured, Chinese knowledge of operational details clearly confirms the accuracy of their claim.
+
+Color=218,218,208,255
+Sentence2=The US Secretary of State has demanded the whereabouts of the crew be revealed, but so far Beijing has not been forthcoming. It can only be assumed they are hidden in camps deep within the People's Republic of China.

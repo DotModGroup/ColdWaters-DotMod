@@ -1,0 +1,196 @@
+ImageBackground=campaign/images/nato submarine 2
+ImagePosition=15,-782
+ImageHeight=260
+Image=language/help_images/helm_panel.png
+ImagePosition=15,-2270
+ImageHeight=260
+Image=language/help_images/dive_panel.png
+ImagePosition=15,-3550
+ImageHeight=260
+Image=language/help_images/navigation_status.png
+[/Image]
+<size=24><color=maroon><b>NAVIGATION</b></color></size>
+
+<b>CONTROLLING YOUR SUBMARINE</b>
+Submarines act much like slow underwater aircraft, and they are controlled mainly with dynamic forces, using the rudder and the planes. There is also trim control and a hover system for low-speed maneuvering. 
+In Cold Waters, you can control your submarine in the traditional way by ordering your helmsman or dive officer to come to the desired course or depth, but you may also at any time assume direct control of the submarine in which case the submarine is 'flown' much like an underwater flight sim.
+
+<b>OWNSHIP DATA</b>
+Above the mini-map is a data panel which contains 3 columns of data (left to right).
+1) Ownship data
+2) Contact Data
+3) Weapon data (torpedo on a wire)
+
+The first column displays your current;
+<b>CSE</b> Course
+<b>SPD</b> Speed
+<b>DEP</b> Depth
+<b>RUD</b> Rudder
+<b>PLN</b> Planes
+<b>BAL</b> Ballast
+
+As you adjust your submarine's rudder, planes and ballast, their current settings will be displayed here as will your current course, speed and depth.
+
+<b>SHIP CONTROL PANELS</b>
+Above the Data Panel sits three tabs which access various parts of the control interface. From top to bottom, they are:
+Masts
+Dive
+Helm
+Clicking on either will open up the respective panel. Clicking the trianglular button in the corner hides it.
+
+<size=24><color=maroon><b>SPEED</b></color></size>
+Use <KEY:Increase Power> and <KEY:Decrease Power> to adjust speed.
+Your submarine's speed can be adjusted in the following increments:
+- Back Emergency
+- All Stop
+- Ahead 1/3
+- Ahead 2/3
+- Ahead Standard
+- Ahead Full
+- Ahead Flank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The helm control panel offers two additional ways of controlling speed:
+The graphical telegraph, which directly mirrors the functionality of the hotkeys.
+Ordered speed, which allows you to specify the precise speed you want. This allows you to optimize your speed to go as fast as possible without cavitating at a given depth.
+
+Changes in speed require some time to take effect, accelerating from stationary to flank speed may take several minutes. Travelling at Flank speed and cutting your speed to All Stop will allow your submarine to coast along for quite a long distance. While travelling fast and setting speed to Back Emergency will rapidly decelerate your submarine. You may use coasting to your advantage in sprint and drift tactics by silently gliding across thermoclines to better listen without alerting nearby enemies.
+
+<b>CAVITATION</b>
+Cavitation is the formation of bubbles by a fast turning propeller. These bubbles make significant amounts of noise that can give away your position. At deeper depths, higher water pressure decreases this effect, allowing you to go faster without cavitating. Note that cavitation is based on engine speed, not your submarine's speed, such that quickly reducing your speed setting can stop cavitation soon after it begins.
+
+Your sonar operator will notify you via voice and the message log if you are cavitating and a cavitating status icon will appear in the upper right.
+In most cases cavitation stops at these depths:
+ 10kn - 100f (31m) and lower
+ 15kn - 200f(61m)
+ 20kn - 300f (91m)
+ 25kn - 400f (122m)
+ 30kn - 500f (152m)
+ 35kn - 600f (183m)
+ 40kn - 700f (213m)
+ 45kn - 800f (244m)
+ 
+<b>FLOW NOISE</b>
+Higher speed increases the amount of noise your submarine generates, due to both machinery as well as flow of water around the hull. This flow of water, termed flow noise, can greatly interfere with sonar sensitivity, eventually drowning it out at higher speeds, resulting the loss of faint contacts. Towed arrays are extremely sensitive to flow noise and are drowned out at about 10 knots.
+
+As flow noise decreases the signal to noise ratio when listening to contacts, it makes signature analysis more difficult. Flow noise also increases the ability of enemy sonar to detect you submarine.
+
+The ability to balance getting into position, maintaining clear contact with the enemy and managing cavitation while not being detected by enemy sonar will make you a successful submarine commander.
+
+<b>EFFECTS OF DAMAGE</b>
+Upon damage to your submarine's propulsion, speed is limited to "Ahead 2/3". If your submarine's reactor is damaged, speed is limited to "All stop". Once these systems are repaired, maximum speed is restored to Flank.
+
+
+<size=24><color=maroon><b>STEERING</b></color></size>
+Use <KEY:Rudder Left> and <KEY:Rudder Right> to steer your vessel.
+Rudder is set in 5 degree increments to a minimum of -30 degrees (left) and +30 degrees (right).
+Current rudder setting is shown in the bottom left panel.
+
+You may also plot a desired heading on the tactical map by using the <KEY:Set Course> key or pressing the plot course button on the helm panel.
+Your turn rate will improve the faster you go, but turning induces drag which slows down the submarine, which means that during sustained turns turn performance will deteriorate. This is important to remember when trying to dodge torpedoes, which are much less susceptible to induced drag than your submarine.
+<b>EFFECTS OF DAMAGE</b>
+Damage to your submarine's rudder significantly increases your turn radius until repaired.
+
+
+<size=24><color=maroon><b>DEPTH CONTROL</b></color></size>
+Dive Planes: Use <KEY:Planes Down> and <KEY:Planes Up> to change depth using dive planes.
+Planes are set in 5 degree increments to a minimum of -30 degrees (down) and 30 degrees (up) and require some forward movement in order to work.
+
+Ballast: Use <KEY:Ballast Down> and <KEY:Ballast Up> change depth using ballast.
+Ballast is set in 5 unit increments to a minimum of -30 (down) and +30 (up) and does not require any forward movement in order to work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You may also set the desired depth in 15m (50ft) increments using the dive panel <color=blue>or keys <KEY:Increase Depth> and <KEY:Decrease Depth>. Use <KEY:Increase Depth Precise> and <KEY:Decrease Depth Precise> for more precise setting with 3m (10ft) increments.</color>. The dive panel also features buttons for:
+Periscope Depth: Using <KEY:Periscope Depth> orders your sub to periscope depth.
+Emergency Deep: Using <KEY:Emergency Deep> orders flank speed ahead and full down planes. Useful if you get ambushed close to the surface. Do remember to pull out of the dive or suffer the interesting effects of depth implosion.
+Emergency Blow: Use <KEY:Blow Ballast> to immediately blow emergency ballast which sets ballast to +60 and prevents further changes to ballast until your submarine has surfaced. Once surfaced, compressed air must be replenished before you can dive again. The ballast readout will slowly count back to 0 and once reached you will be able to dive your submarine again.
+
+<b>TEST & CRUSH DEPTHS</b>
+Hulls of submarines are constructed to withstand the immense water pressure at the depths they operate. For each 33 ft (10 m) of depth close to 1 atmosphere of pressure is added.
+
+Test depth is the safe depth at which a submarine can operate; during sea trials it has actually been reached. Crush depth is the actual depth causing the hull to structurally fail and implode, on average about 1.5 to 1.75 times that of test depth.
+
+As you change depth, the helmsman will notify you via the message log as you pass 100 ft increments. If you are below test depth, any deeper 100 ft increments will be displayed in red.
+
+<b>EFFECTS OF DAMAGE</b>
+Damage to your submarine's planes or ballast decreases their effectiveness by 50% making surfacing and diving significantly slower and less efficient. Damage to your submarine's ballast also prevents the use of Emergency Blow, making the ballast system a very high priority to repair as quickly as possible. These effects are removed once the system is repaired.
+
+As a submarine takes damage, hull integrity is decreased which impacts its ability to withstand water pressure. A heavily damaged hull may have its crush depth reduced by 50%, causing it to implode at more shallow and otherwise safe depths. Loss of hull integrity cannot be repaired while at sea.
+
+Loss of hull integrity may also result in flooding. The severity of flooding increases with depth, due once again to the increase in water pressure.
+See the Damage Section from more details.
+
+
+<size=24><color=maroon><b>STRAIGHT & LEVEL</b></color></size>
+Use <KEY:Level Submarine> to set rudder, planes and ballast (if no Emergency Blow) immediately to 0.
+
+
+<size=24><color=maroon><b>COLLISIONS</b></color></size>
+Striking ice or land with your submarine immediately results in a rapid loss of speed. The speed at which the collision occurs determines how much damage (if any) may be incurred. Travelling at less than 5 knots usually results in no or minimal damage, while high speeds can cripple or destroy your submarine due to extensive hull damage, flooding and knocked out subsystems.
+
+When operating in shallow waters or near the sea floor your helmsman will notify you if there is less than 50 ft of water under your keel. In addition, high frequency navigation sonar will detect ice or mines within about 4,000 yards in front of your submarine. Time compression will be disabled and status icons appear in the upper right to notify you of any ongoing navigational hazards.
+
+Any collision will immediately disable time compression, if enabled, and time compression cannot be re-enabled until your submarine is clear of the hazard. In addition, Back Emergency can be used to pull your submarine away from ice or the sea floor if your submarine becomes stationary during a collision. Ballast can also be used to "float up" from the sea floor after a collision.
+
+
+<size=24><color=maroon><b>NAVIGATION ICONS</b></color></size>
+As you navigate your submarine the following status icons are displayed in the upper right under certain conditions to warn you of navigation hazards or alert you to certain conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>NAVIGATION ICON DESCRIPTIONS</b>
+<b>Time Compression:</b> Time compression can be enabled and disabled with <KEY:Time Compression> to speed up game play when transiting longer distances. When enabled, this status icon is displayed. Time Compression will automatically be cancelled whenever a navigation hazard is encountered or if your submarine takes any damage.
+
+<b>Event Camera:</b> If enabled, the event camera will automatically focus on events of interest as they happen such as weapon launches and impacts, aerial drops or anti-missile guns firing. Use <KEY:Event Camera> to toggle the event camera on or off.
+
+<b>Cavitating:</b> You submarine is currently cavitating, causing the propeller to make additional noise. Decrease speed or dive deeper to prevent cavitation.
+
+<b>Running Silent:</b> Shown when your submarine is rigged for silent running. Silent running decreases noise made by your submarine, but also decreases your maximum allowed speed and stops all repairs, pumping of water and reloading of weapons. Silent running is toggled on and off using <KEY:Silent Running> and increasing speed, assigning damage control actions or loading a weapon will cancel silent running.
+
+<b>Shallow Depth:</b> Displayed when the depth under the keel of your submarine is less than 50 ft.
+
+<b>Ice Hazard:</b> High frequency under ice sonar has detected ice ahead of your submarine. Navigation sonar is limited to about 4,000 yards and can only detect hazards directly ahead of your submarine. Once detected, ice positions will be mapped onto your tactical map display.
+
+<b>Mine Hazard:</b> High frequency mine avoidance sonar has detected mines ahead of your submarine. This sonar is limited to about 4,000 yards and can only detect hazards directly ahead of your submarine. Once detected, mines will be mapped onto your tactical map display.

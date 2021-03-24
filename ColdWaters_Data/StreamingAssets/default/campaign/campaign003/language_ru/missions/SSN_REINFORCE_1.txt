@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE INDICATES THE RUSSIANS ARE INCREASING THEIR SUPPORT FOR THE PRC BY COVERTLY SENDING SUBMARINES TO REINFORCE THE CHINESE. INTEL FURTHER BELIEVES A SQUADRON OF NUCLEAR ATTACK SUBMARINES, MOST LIKELY INCLUDING VICTOR- AND AKULA-CLASS SUBMARINES WILL ATTEMPT TO TRANSIT THE SEA OF JAPAN AND PATROL THE SPRATLY ISLANDS TO DISRUPT FRIENDLY OPERATIONS THERE. THE PRESENCE OF THESE BOATS IN THE OPAREA WOULD SIGNIFICANTLY ALTER THE THREAT PICTURE, AND WE THEREFORE HAVE TO SINK THESE BOATS BEFORE THEY CAN REACH THEIR DESTINATION.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+AVOID COLLATERAL DAMAGE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) WEAPONS FREE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Pacific convoys. CINCPAC sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Pacific convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

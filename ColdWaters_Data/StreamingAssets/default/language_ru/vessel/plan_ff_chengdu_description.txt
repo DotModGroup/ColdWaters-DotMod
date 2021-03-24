@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Chengdu
+Description=Chengdu-class Frigate
+DefensiveWeapons=37mm AA Guns
+OffensiveWeapons=RBU-1200 ASW Rockets
+Aircraft=None
+History=This class was built in the 1950's as a smaller companion to the Kotlin-class destroyers and provided as kits to the Chinese, who promptly modified them by replacing the torpedo launchers with a twin-tube launcher for the SY-1 anti-ship missile. The 37mm guns are all locally controlled and of questionable utility against fast aircraft, not to mention anti-ship missiles. Their ASW capability is even worse than the original Rigas, featuring only a mortar battery of half the range compared to the RBU-2500.

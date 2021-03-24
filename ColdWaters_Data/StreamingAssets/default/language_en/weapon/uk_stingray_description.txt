@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Sting Ray
+WeaponDescriptiveName=Sting Ray ASW Torpedo
+WeaponDescription=The Sting Ray is a British acoustic homing lightweight torpedo (LWT) manufactured by GEC-Marconi, who were later bought out by BAE Systems. It entered service in 1983.

@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/68 soviet preparations
+Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO WINS? WARSAW PACT FALLS APART</b>
+Color=57,61,73,255
+Sentence1=The governments of Poland, Czechoslovakia and Hungary have proclaimed their immediate and unilateral withdrawal from the Warsaw Pact. The armed forces of the respective nations were ordered to disengage from any war operations aimed towards the West, whilst "using all means necessary to protect national sovereignty". 
+Color=218,218,208,255
+Sentence2=In effect, this means that any Soviet forces operating in, or by the support of, any of these nations either must withdraw or find themselves in a two-front war. It is as of this hour not certain how the Soviet Union will respond to this sudden development.

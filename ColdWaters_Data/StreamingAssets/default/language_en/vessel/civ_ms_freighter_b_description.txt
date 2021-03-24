@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=Post-war large cargo ship
+History=These are typical post-war dry-cargo ships. Powerful steam turbines make them capable of faster speeds than their wartime counterparts. They are of traditional house/engine room center design with hatches forward and aft.

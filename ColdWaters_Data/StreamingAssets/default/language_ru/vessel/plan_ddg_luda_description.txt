@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Luda
+Description=Luda-class Destroyer
+DefensiveWeapons=37mm AA Guns, 25mm AA Guns
+OffensiveWeapons=EDS-25 ASW Rockets
+Aircraft=None
+History=The Ludas are the first surface warships designed and built in China, and resemble an uprated and enlarged derivative of the Soviet Kotlin-class destroyer built in the 1950's. They differ from the Soviet ships in being designed with anti-ship cruise missiles from the outset in lieu of torpedo tubes. They have been extensively upgraded over the years, with improved silencing and modern digital sonars and variable-depth sonar.

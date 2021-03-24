@@ -1,0 +1,11 @@
+FRIENDLY=US|Allied forces|Allies|West
+ENEMY=China
+
+FRIENDLY_SINGULAR=US|West
+ENEMY_SINGULAR=China
+
+FRIENDLY_PREFIX=US|Allied forces|Allies|West|WE
+ENEMY_PREFIX=China|Chinese forces
+
+FRIENDLY_SUFFIX=US|Allied forces|Allies|West|US
+ENEMY_SUFFIX=China|Chinese forces

@@ -1,0 +1,61 @@
+UseTerrain=TRUE
+//MapCoordinates=3165,1066
+//MapCoordinates=2530,1070
+//MapCoordinates=128,128
+MapCoordinates=3236,1323
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=01 MAY 1984
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=FALSE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=0-1,2-4,1-2,2-4
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=wp_84_pkr_moskva_ai|wp_84_takr_kiev_ai,wp_84_bpk_udaloy_ai|wp_84_bpk_kresta2_ai|wp_84_skr_krivak1_ai,wp_84_ssbn_typhoon|wp_84_ssbn_delta4|wp_84_ssbn_delta3,wp_84_ss_kilo|wp_84_ss_tango
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=FALSE
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=0,-100|0,100
+EnemyWaypoints=10,-100|10,100
+EnemyWaypoints=20,-100|20,100
+//EnemyWaypoints=30,-100|30,100
+//EnemyWaypoints=40,-100|40,100
+//EnemyWaypoints=50,-100|50,100
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=wp_helix
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+//AircraftSearchArea=-100,-100,100
+//AircraftSearchArea=100,100,100
+//AircraftSearchArea=0,0,300
+
+//Drop passive sonobouys as barriers
+//Array of Vector 2 positions
+SonobouyLocations=0,-100|50,100|-50,-100
+
+//spawn minefields and set detection range
+//Static mines and torpedo mines
+
+PlayerVessels=usn_84_ssn_narwhal,usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_los_angeles
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

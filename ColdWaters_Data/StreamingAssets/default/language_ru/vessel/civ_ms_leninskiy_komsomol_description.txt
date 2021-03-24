@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Komsomol
+Description=Leniniskiy Komsomol-class large cargo ship
+History=This class was part of the great Soviet buildup in merchant capability during the early 1960's. Their tweendecker design are especially suited to carrying military equipment and troops and their high speed make them excellent blockade-runners.

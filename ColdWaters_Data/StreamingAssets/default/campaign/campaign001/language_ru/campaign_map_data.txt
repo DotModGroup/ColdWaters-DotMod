@@ -1,0 +1,171 @@
+[LOCATION NAMES AND COUNTRY/REGION]
+//Справка:
+//Именительный=страна=Родительный=Дательный=Винительный=Творительный=Предложный
+//Москва=Советский Союз=из Москвы=по Москве=про Москву=с Москвой=в Москве
+//<STARTLOCATION>=<COUNTRY>=<STARTLOCATION_RO>=<STARTLOCATION_DA>=<STARTLOCATION_VI>=<STARTLOCATION_TV>=<STARTLOCATION_PR>
+
+LocationName=Холи Лох=Шотландия=Холи Лох=Холи Лох=Холи Лох=Холи Лох=Холи Лох
+LocationName=Торсхавн=Фарерские острова=Торсхавна=Торсхавну=Торсхавн=Торсхавном=Торсхавне
+LocationName=Рейкьявик=Исландия=Рейкьявика=Рейкьявику=Рейкьявик=Рейкьявиком=Рейкьявике
+LocationName=Хёбн=Исландия=Хёбна=Хёбну=Хёбн=Хёбном=Хёбне
+LocationName=Осло=Норвегия=Осло=Осло=Осло=Осло=Осло
+LocationName=Берген=Норвегия=Бергена=Бергену=Берген=Бергеном=Бергене
+LocationName=Тронхейм=Норвегия=Тронхейма=Тронхейму=Тронхейм=Тронхеймом=Тронхейме
+LocationName=Аннёйа=Норвегия=Аннёйи=Аннёйе=Аннёйю=Аннёйей=Аннёйе
+LocationName=Нарвик=Норвегия=Нарвика=Нарвику=Нарвик=Нарвиком=Нарвике
+LocationName=Шпицберген=Шпицберген=Шпицбергена=Шпицбергену=Шпицберген=Шпицбергеном=Шпицбергене
+LocationName=Мурманск=Советский Союз=Мурманска=Мурманску=Мурманск=Мурманском=Мурманске
+LocationName=Архангельск=Советский Союз=Архангельска=Архангельску=Архангельск=Архангельском=Архангельске
+LocationName=Гремиха=Советский Союз=Гремихи=Гремихе=Гремиху=Гремихой=Гремихе
+
+[CITY TOWN PORT NAMES]
+Color=255,200,0,255
+Outline=TRUE
+Size=14
+Font=4
+
+LabelPosition=-175.12,-200
+LabelName=Холи-Лох
+LabelPosition=-125.4,-48.75
+LabelName=Торсхавн
+LabelPosition=-210,129.97
+LabelName=Рейкьявик
+LabelPosition=-181.71,84.17
+LabelName=Хёбн
+LabelPosition=53.1,-180.1
+LabelName=Oсло
+LabelPosition=12.7,-149.6
+LabelName=Берген
+LabelPosition=76.5,-108
+LabelName=Трондхейм
+LabelPosition=213.9,39.5
+LabelName=Аннёйа
+LabelPosition=187,8
+LabelName=Нарвик
+LabelPosition=224.5,280.4
+LabelName=Шпицберген
+LabelPosition=355.6,23.7
+LabelName=Мурманск
+LabelPosition=474.3,-83.1
+LabelName=Архангельск
+LabelPosition=420.2,1.7
+LabelName=Гремиха
+LabelPosition=150.8,-213.5
+LabelName=Стокгольм
+LabelPosition=265.7,-201.2
+LabelName=Хельсинки
+LabelPosition=354,-230.2
+LabelName=Ленинград
+
+[MARKERS]
+Color=0,255,0,255
+Outline=TRUE
+Size=10
+LocationMarkerPosition=-204.16,-185.34
+Color=255,255,255,255
+Size=5
+LocationMarkerPosition=-142.37,-37.5
+LocationMarkerPosition=-254.81,130.94
+LocationMarkerPosition=-192.42,73.73
+LocationMarkerPosition=55.9,-191.8
+LocationMarkerPosition=-13.7,-150.4
+LocationMarkerPosition=77.3,-96.9
+LocationMarkerPosition=186,15.8
+LocationMarkerPosition=177.9,38.4
+LocationMarkerPosition=217.8,268.6
+LocationMarkerPosition=358,32.7
+LocationMarkerPosition=458.1,-72.1
+LocationMarkerPosition=424.6,12.3
+LocationMarkerPosition=343.5,-218.9
+LocationMarkerPosition=162.7,-225.2
+LocationMarkerPosition=265.9,-212.9
+
+[COUNTRY LABELS]
+Color=0,0,0,255
+Outline=FALSE
+Size=13
+Font=4
+LabelPosition=-201.2,103.3
+LabelName=ИСЛАНДИЯ
+LabelPosition=-201.2,348.1
+LabelName=ГРЕНЛАНДИЯ
+LabelPosition=-191.1,-281.1
+LabelName=ВЕЛИКОБРИТАНИЯ
+LabelPosition=49.9,-160.5
+LabelName=НОРВЕГИЯ
+LabelPosition=130,-153.9
+LabelName=ШВЕЦИЯ
+LabelPosition=269.8,-138.3
+LabelName=ФИНЛЯНДИЯ
+LabelPosition=151,-374
+LabelName=ПОЛЬША
+LabelPosition=43.7,-369.2
+LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
+LabelPosition=-25.6,-369.2
+LabelName=ЗАПАДНАЯ\nГЕРМАНИЯ
+LabelPosition=9,-300
+LabelName=ДАНИЯ
+Size=26
+LabelPosition=477.3,-285.5
+LabelName=\nСОВЕТСКИЙ СОЮЗ
+
+[OCEANS AND SEAS LABELS]
+Color=43,71,97,255
+Outline=TRUE
+Size=16
+Font=4
+LabelPosition=-82.1,-252.1
+LabelName=СЕВЕРНОЕ МОРЕ
+Outline=FALSE
+LabelPosition=-379,-23
+LabelName=СЕВЕРНЫЙ АТЛАНТИЧЕСКИЙ\nОКЕАН
+LabelPosition=22.7,53.4
+LabelName=НОРВЕЖСКОЕ МОРЕ
+
+Size=12
+LabelPosition=-248.5,218.6
+LabelName=ДАТСКИЙ\nПРОЛИВ
+LabelPosition=396.5,135.5
+LabelName=БАРЕНЦЕВО МОРЕ
+LabelPosition=80.8,264.7
+LabelName=ГРЕНЛАНДСКОЕ МОРЕ
+Size=14
+LabelPosition=-320,-290
+LabelName=КЕЛЬТСКОЕ\nМОРЕ
+Color=157,168,210,255
+Outline=TRUE
+LabelPosition=190,-255
+LabelName=БАЛТИЙСКОЕ\nМОРЕ
+
+
+//Color=43,71,97,255
+Color=157,168,210,255
+Outline=TRUE
+Size=12
+Font=4
+LabelPosition=477,-15
+LabelName=Мезенский \nзалив
+LabelPosition=426,40
+LabelName=Святоносский \nзалив
+LabelPosition=115,12
+LabelName=Лофотенские \nострова
+LabelPosition=16,-228
+LabelName=Скагеррак
+LabelPosition=-298,143
+LabelName=Залив \nФахсафлоуи
+LabelPosition=170,-308
+LabelName=Готланд
+LabelPosition=98,-336
+LabelName=Борнхольм
+LabelPosition=51,-273
+LabelName=Каттегат
+LabelPosition=55,-250
+LabelName=o. Лесё
+LabelPosition=-350,-70
+LabelName=Банка \nРоколл
+LabelPosition=276,100
+LabelName=Нордкап
+//LabelPosition=-340,-270
+Size=16
+LabelPosition=-440,-200
+LabelName=Западные \nподходы

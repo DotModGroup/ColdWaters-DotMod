@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Igla»
+WeaponDescriptiveName=MANPADS «Igla»
+WeaponDescription=The 9K38 «Igla» (NATO reporting name: SA-18 Grouse) is a Soviet man-portable infrared homing surface-to-air missile system.

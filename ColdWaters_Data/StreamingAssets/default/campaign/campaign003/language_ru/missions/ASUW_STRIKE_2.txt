@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+SATELLITE PHOTOS SHOW THAT AN ENEMY BATTLEGROUP, ARMED TO THE TEETH WITH CRUISE MISSILES, IS PREPARING TO SAIL FROM <STARTLOCATION>. INTELLIGENCE ESTIMATES THAT IT WILL MAKE A CONSERVATIVE PATROL IN THE VICINITY OF <ENDLOCATION>. LOCATE THIS GROUP AND SINK AS MANY SHIPS AS POSSIBLE. PREVIOUS RECON INDICATES THE FORCE WILL CONTAIN AT LEAST ONE OR TWO SHIPS ARMED WITH ANTI-SHIP CRUISE MISSILES. CONSIDER THESE YOUR PRIMARY TARGETS . AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY STRIKE GROUP
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) WEAPONS FREE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Pacific convoys. CINCPAC sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Pacific convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

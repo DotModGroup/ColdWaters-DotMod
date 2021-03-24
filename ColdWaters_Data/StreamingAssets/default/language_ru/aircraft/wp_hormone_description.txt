@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Ka-25BSh Hormone
+AircraftDescriptiveName=Kamov Ka-25BSh Hormone A
+History=The Ka-25 naval helicopters are small anti-submarine (Hormone A) and over-the-horizon missile targeting (Hormone B) helicopters introduced in the mid 1960's. They carry either homing torpedoes or depth charges, and a dipping sonar as well as an assortment of sonobouys. They are covert, and can provide surface ships with targeting data, making them very dangerous foes.

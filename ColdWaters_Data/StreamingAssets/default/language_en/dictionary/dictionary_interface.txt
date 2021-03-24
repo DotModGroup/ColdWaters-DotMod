@@ -1,0 +1,536 @@
+﻿[MAIN MENU]
+Training=Training
+SingleMission=Single Mission
+Campaign=Campaign
+UnitReference=Unit Reference
+Options=Options
+Credits=Credits
+Quit=Quit
+
+=============================================================
+[MOD ADDITION]
+QuickMission=Mission Editor
+
+January=January
+February=February
+March=March
+April=April
+May=May
+June=June
+July=July
+August=August
+September=September
+October=October
+November=November
+December=December
+
+Mile=n. mi
+SubsystemDiesel=Diesel
+DieselSpace=diesel space
+TubeStores=Tubes
+PrestigeCost=Current Prestige: <PRESTIGE>                         Prestige needed: <PRESTIGE_COST>
+PrestigeInsufficient=Insufficient Prestige to command <DESIGNATION> <VESSELCLASS>
+PrestigeCurrent=Prestige: <CURRENTPRESTIGE>
+PrestigeForMission=Prestige earned: <PRESTIGEFORMISSION>\nPrestige: <CURRENTPRESTIGE>
+PrestigeTransferCost=Fill transfer report? (-<PRESTIGECOST> prestige)
+
+ReferenceActiveRange=Active Range
+ReferenceTorpedoMaxDepth=Max. Depth
+ReferenceWireGuided=Wire Guided
+ReferencePayload=Payload Parameters:
+ReferenceMinRange=Min. Range
+//Yes, "at" cause "at xxxm depth"
+ReferenceOn=at
+ReferenceType=Type:
+ReferenceTorpedoNumbers=Tube Stores:
+ReferenceSelfNoise=Self Noise:
+ReferenceWarhead=Warhead:
+ReferenceSensorSensitivity=Sensitivity:
+ReferenceAnechoicCoating=Anechoic coating
+ReferenceNavalGunsAbb=Gun
+ReferenceShellNumbers=
+ReferenceShells=Shells
+ReferenceRBUAbb=RBU
+ReferenceRBUSalvos=salvos
+ReferenceRBUSalvosAbb=salv.
+
+COM NORTHERN FLEET=COM NORTHERN FLEET
+GLAVCOM VMF=GLAVCOM VMF
+
+COMSUBLANT=COMSUBLANT
+CINCLANTFLT=CINCLANTFLT
+COMSUBPAC=COMSUBPAC
+CINCPACFLT=CINCPACFLT
+
+COM PACIFIC FLEET=COM PACIFIC FLEET
+CICPLAN=CICPLAN
+
+//Пока не работает. Может быть когда-нибудь..
+//less than 300ft, less than 500, less than 750, less than 1000, более 1000
+//less than 91m, less than 152, less than 228, less than 305, более 305
+[WATERDEPTH]
+DepthVeryShallow=Very Shallow
+DepthShallow=Shallow
+DepthModerate=Moderate
+DepthDeep=Deep
+DepthVeryDeep=Very Deep
+
+------------------------------ [DotMod options] ------------------------------
+DynamicDepthDarkening=Dynamic depth darkening
+DynamicDepthDarkeningDesc=Dynamic depth darkening. Reduction of water visibility with depth
+CombatDistanceIncreace=Combat spawn distance increaced by 
+CombatDistanceIncreaceDesc=Distance that player will be moved away from enemy upon entering combat by pressing "All hands man Battlestations". "Close to" button is not affected. Works always.
+CombatDistanceIncreaceSurf=Surface combat spawn distance increaced by 
+CombatDistanceIncreaceSurfDesc=Surface combat spawn distance increaced by flat amount. Works only when player controls surface ship, and enemy have surface ships too. Expands previous option.
+
+ShowWakebubles=Display wakebubles on Tac map
+
+------------------------------ [DotMod keys] ------------------------------
+Increase Depth=Increase Depth
+Decrease Depth=Decrease Depth
+Increase Depth Precise=Increase Depth by 10ft
+Decrease Depth Precise=Decrease Depth by 10ft
+Increase Depth Quick=Increase Depth by 100 metres
+Decrease Depth Quick=Decrease Depth by 100 metres
+Toggle Towed=Deploy/Retract Towed Array
+Previous Contact=Previous Contact
+Previous Tube=Previous Tube
+Stop Time Compression=Stop Time Compression
+Camera To Bearing=Camera To Bearing
+Skip Mission=Skip Mission(Debug)
+Toggle Guns=Guns Start/Stop Fire
+Toggle RBU=RBUs Start/Stop Fire
+Deploy Chaff=Deploy Chaff
+Place NavMarker=Place NavMarker
+Place NavMarkerALT=Place NavMarker ALT
+Delete All NavMarkers=Delete All NavMarkers
+Fire SAM=Fire SAM
+==============================================================
+
+[GENERAL]
+Back=Back
+Start=Start
+Accept=Accept
+Random=Random
+Help=Help
+Load=Load
+Save=Save
+Delete=Delete
+No=NO
+Yes=YES
+Labels=Labels
+Menu=Menu
+Hours=Hours
+
+[BRIEFINGS]
+InTheVicinityOf=In the vicinity of
+DockedAtPort=Docked at <PLAYERPORT>
+StoresStatus=FULLY STOCKED
+StoresStatusNeg=RELOADS AVAILABLE
+SystemsStatus=ALL SYSTEMS OPERATIONAL
+SystemsStatusNeg=REPAIRS NEEDED
+LeaveCombatNeg=NO
+LeaveCombatMissionNeg=NOT
+LeaveCombatVessels=VESSELS NEARBY
+LeaveCombatWeapons=WEAPONS NEARBY
+LeaveCombatAircraft=AIRCRAFT NEARBY
+LeaveCombatFlooding=FLOODING
+LeaveCombatInsertion=SPEC OPS TEAM <MISSIONSTATUS> DEPLOYED
+LeaveCombatLandStrike=LAND STRIKE <MISSIONSTATUS> COMPLETE <LANDSTRIKESTATUS>
+NearDeploymentZone=Mission deployment zone is nearby.
+
+//MissionWeaponsNeg=Require <NUMBER> <WEAPON> on board for current mission.
+//CommandoNeg=Require a SEAL team on board for current mission.
+RepairTime=Repair Time
+Minutes=Min
+Hours=Hours
+
+[OTHER]
+Posthumously=posthumously
+NavyPrefixUSS=USS
+SUBMARINE=submarine
+WARSHIP=warship
+
+[HEADINGS]
+TrainingMissionHeader=TRAINING
+SingleMissionHeader=SINGLE MISSION
+UnitReferenceHeader=UNIT REFERENCE
+SelectVesselHeader=SELECT VESSEL
+BriefingHeader=BRIEFING
+OrdersHeader=ORDERS
+NewCampaignHeader=NEW CAMPAIGN
+LoadCampaignHeader=LOAD CAMPAIGN
+OptionsHeader=OPTIONS
+IncomingMessageHeader=INCOMING MESSAGE
+
+[COMMANDS]
+Battlestations=All hands man Battlestations
+AttemptClosure=Close To:
+ContinueCourse=Continue On Course
+Loadout=Weapons Loadout
+DamageControl=Damage Control
+VesselStatus=XO: Status Report
+RearmRepair=Rearm and Repair
+ReviewOrders=Review Orders
+AbandonShip=Abandon Ship
+LeavePort=Cast Off, Anchors Aweigh!
+HoursInPort=Hours in Port:
+ExitMission=Leave Combat
+QuitMission=Quit Mission
+
+[HUD]
+ConditionsTab=CONDITIONS
+SignatureTab=SIGNATURE
+StoresTab=WEAPONS
+DamageControlTab=DAMAGE CONTROL
+Course=CSE
+Speed=SPD
+Depth=DEP
+Rudder=RUD
+Planes=PLN
+Ballast=BAL
+Bearing=BRG
+Knot=KT
+Feet=FT
+Metre=M
+Range=RNG
+KiloYard=KYD
+Kilometer=KM
+Solution=SOL
+Percentage=%
+WeaponData=WPN DATA
+RangeToEnable=RTE
+TimeToRun=TTR
+AmbientNoise=AMBIENT NOISE
+Decibels=dB
+SurfaceDuct=DUCT
+Layer=LAYER
+Floor=FLOOR AT
+Contact=CONTACT
+Offline=OFFLINE
+SignalStrength=SIG STR
+OwnShip=OWNSHIP
+SensorComparison=SNS COMP
+Profile=PROFILE:
+DepthGauge=0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000
+LoadWeapon=LOAD
+UnloadWeapon=UNLOAD
+LoadCommando=LOAD SPEC OPS
+UnloadCommando=UNLOAD SPEC OPS
+NoisemakerStores=DECOY
+NoContact=NO CONTACT
+VerticalLaunchSystem=Vertical Launching System:
+VerticalLaunchSystemAbb=VLS
+HullStatus=Hull:
+Left=left
+Right=right
+TorpedoRoom=torpedo room
+ControlRoom=control room
+ReactorSpace=reactor space
+EngineRoom=engine room
+MachinerySpace=machinery space
+
+SonarContact=Sierra
+RadarContact=Romeo
+VisualContact=Victor
+ESMContact=Echo
+MultipleContact=Master
+
+SET SPEED=SET SPEED
+HELM ORDERS=HELM ORDERS
+PLOT CSE=PLOT CSE
+SET DEPTH=SET DEPTH
+DIVE ORDERS=DIVE ORDERS
+E. BLOW=E. BLOW
+MASTS=MASTS
+ACTIVE=ACTIVE
+DECOY=DECOY
+ESM=ESM
+DETECTION THRESHOLD=DETECTION THRESHOLD
+LLTV=LLTV
+MARK=MARK
+WIRE CONTROL=WIRE CONTROL
+GUIDANCE=GUIDANCE
+MANUAL CTRL=MANUAL CTRL
+LOAD WEAPON=LOAD WEAPON
+LOAD SPEC OPS=LOAD SPEC OPS
+WIRES=WIRES
+
+[ACTION REPORT]
+ActionReportSunk=SUNK
+ActionReportDamaged=DAMAGED
+ActionReportEscaped=ESCAPED
+ActionReportUndetected=UNDETECTED
+ActionReportNone=NONE
+ActionReportLost=LOST
+ActionReportLostAllHands=LOST WITH ALL HANDS
+ActionReportHowSunk=SUNK BY:
+ActionReportImplosion=IMPLOSION
+ActionReportCollision=COLLISION
+ActionReportScuttled=SCUTTLED
+
+[CAMPAIGN]
+SaveFileName=Save File Name:
+CommanderName=Commander Name:
+DeleteSaveFile=Really delete file: <FILENAME>?
+SaveExists=Save File exists. Overwrite it?
+Statistics=Summary
+OpenBriefing=Brief
+
+[UNIT REFERENCE]
+ReferenceDimensions=Dimensions
+ReferenceTons=tons
+ReferenceMetre=m
+ReferenceKnot=kn
+ReferenceFeet=ft
+ReferenceCrew=Crew
+ReferenceDefensive=Defensive Weapons
+Reference30mmCIWS=Anti-Missile Defence
+ReferenceNone=None
+ReferenceOffensive=Offensive Weapons
+ReferenceMissiles=Missiles
+ReferenceDecoys=Decoys
+ReferenceTorpedoes=Torpedoes
+ReferenceSensors=Sensors
+ReferenceNavRADAR=Navigation Radar only
+ReferenceSearchRADAR=Search Radar, ESM
+ReferenceMastMounted=mast-mounted
+ReferenceSonarBoth=active and passive sonar
+ReferenceSonarActive=active sonar
+ReferenceSonarPassive=passive sonar
+ReferenceSonar=Sonar
+ReferenceRadar=Radar
+ReferenceActive=Active
+ReferencePassive=Passive
+ReferenceTowed=Towed
+ReferenceHullMounted=hull-mounted
+ReferenceTowedArray=towed array
+ReferenceDipping=dipping
+ReferenceSonobuoys=sonobuoys
+ReferenceAircraft=Aircraft
+ReferenceNotes=Notes
+ReferenceKilogram=kg
+ReferenceYard=yd
+ReferenceRange=Range
+ReferenceMaxSpeed=Max. Speed
+ReferenceSeekerRange=Seeker Range
+ReferenceAt=at
+FrequencyVeryLow=very low
+FrequencyLow=low
+FrequencyMedium=medium
+FrequencyHigh=high
+Frequency=frequency
+Frequencies=frequencies
+ReferenceVeryQuiet=Very Quiet
+ReferenceSemiQuiet=Semi-Quiet
+ReferenceQuiet=Quiet
+ReferenceSemiNoisy=Semi-Noisy
+ReferenceNoisy=Noisy
+ReferenceVeryNoisy=Very Noisy
+FrequencyAbbreviated=F
+FrequencyAbbreviatedVL=VL
+FrequencyAbbreviatedL=L
+FrequencyAbbreviatedM=M
+FrequencyAbbreviatedH=H
+ReferenceTestDepth=Test Depth:
+ReferenceWires=Number of wires:
+
+[Sea States]
+Calm=Calm
+LightAir=Light air
+LightBreeze=Light breeze
+GentleBreeze=Gentle breeze
+ModerateBreeze=Moderate breeze
+FreshBreeze=Fresh breeze
+StrongBreeze=Strong breeze
+HighWind=High wind
+
+[Weather]
+Clear=Clear
+Scattered=Scattered
+Broken=Broken
+Overcast=Overcast
+Rain=Rain
+Storm=Rain, fog
+Snow=Snow
+SnowStorm=Snow, fog
+
+[Strength Types]
+ZeroStrength=No
+VeryWeak=Very weak
+Weak=Weak
+Moderate=Moderate
+Strong=Strong
+VeryStrong=Very strong
+
+[ERROR]
+FatalError=FATAL ERROR:
+
+[OPTIONS]
+GameSettings=Game
+Controls=Controls
+VideoSettings=Video
+AudioSettings=Audio
+DefaultControls=Restore Default Controls
+DefaultCommanderName=Default Commander Name:
+Difficulty=Difficulty
+Easy=Easy
+Normal=Casual
+Hard=Realistic
+Elite=Elite
+//WorldScale=Distance Scale
+WorldScale=Language:
+Scale1=1:1
+Scale2=1:2
+Scale3=1:3
+Scale4=1:4
+//SpeedMultiplier=Speed Multiplier
+SpeedMultiplier=Voiceover:
+HideUnclassified=Hide Low SOL. Contacts in 3D
+Tooltips=Tooltips
+
+HUDSize=HUD Size
+AutoSave=Auto Save
+//DisableIronman=Disable Ironman
+DisableIronman=Metric system
+PlayerMarker=Player Marker
+NonMetricUnits=Non-Metric Units
+EventCamera=Event Camera
+InvertMouse=Invert Mouse
+FullScreen=Full Screen
+Resolution=Resolution
+Shadows=Shadows
+VSync=V-Sync
+DetailedOcean=Detailed Ocean
+Terrain=Terrain
+Trees=Trees
+UnderwaterParticles=Underwater Particles
+AntiAliasing=Anti-Aliasing
+Off=Off
+2x=2x
+4x=4x
+8x=8x
+OceanQuality=Ocean Quality
+High=High
+Medium=Medium
+Low=Low
+ColorFilter=Color Filter
+AmbientOcclusion=Ambient Occlusion
+Bloom=Bloom
+WorldObjects=Display World Objects
+MusicInCombat=Music In Combat
+Volume=Volume
+Music=Music
+CrewVoice=Crew Voice
+CameraSensitivity=Camera Sensitivity
+Apply=Apply
+
+[HELP]
+HelpGeneral=General
+HelpReference=Reference
+HelpWeapons=Weapons
+HelpNavigation=Navigation
+HelpMap=Map
+HelpSensors=Sensors
+HelpTactics=Tactics
+HelpDamage=Damage
+HelpCampaign=Campaign
+LeftMouse=LEFT CLICK
+RightMouse=RIGHT CLICK
+MiddleMouse=MIDDLE MOUSE BUTTON
+MouseWheel=MOUSE WHEEL
+ShiftKey=Shift
+ControlKey=Control
+AltKey=Alt
+
+
+[KEYBIND DISPLAY NAMES: COMMAND=OPTIONS DISPLAYNAME]
+Help=Help
+
+Rudder Left=Rudder Left
+Rudder Right=Rudder Right
+Set Course=Set Course
+Planes Up=Planes Up
+Planes Down=Planes Down
+Ballast Up=Ballast Up
+Ballast Down=Ballast Down
+Increase Power=Increase Power
+Decrease Power=Decrease Power
+
+Level Submarine=Straight & Level
+Periscope Depth=Periscope Depth
+Blow Ballast=Blow Ballast
+Emergency Deep=Emergency Deep
+Sonar Mode=Active Sonar
+Silent Running=Silent Running
+Noisemaker=Noisemaker
+
+ESM Mast=ESM Mast
+RADAR Mast=Radar Mast
+Periscope=Periscope
+Periscope View=Periscope View
+Night Vision=Night Vision
+Mark Target=Mark Target
+
+Tactical Map=Tactical Map
+Centre Map=Centre Map
+Auto Centre Map=Auto Centre Map
+
+Conditions=Conditions
+Signature=Signature
+Damage Report=Damage Control
+Context Menu Previous=Previous
+Context Menu Next=Next
+Context Menu Set=Select
+Next Contact=Next Contact
+Recognition Manual=Recognition Manual
+Helm Controls=Helm Controls
+Dive Controls=Dive Controls
+Sensor Controls=Sensor Controls
+Expand Log=Expand Log
+
+Next Tube=Next Tube
+Load Tube=Load Tube
+Stores=Weapons
+Fire Tube=Fire Tube
+Set Waypoint=Set Waypoint
+Edit Waypoint=Edit Waypoint
+
+Weapon Homing=Weapon Sensor
+Weapon Attack=Weapon Search
+Weapon Depth=Weapon Depth
+Activate Torpedo=Activate Torpedo
+Cut Wire=Cut Wire
+Steer Torpedo Left=Steer Torpedo Left
+Steer Torpedo Right=Steer Torpedo Right
+Steer Torpedo Shallow=Steer Torpedo Shallow
+Steer Torpedo Deep=Steer Torpedo Deep
+
+Time Compression=Toggle Time Compression
+Hide HUD=Hide HUD
+Event Camera=Event Camera On/Off
+
+Zoom In=Zoom In
+Zoom Out=Zoom Out
+
+Camera Left=Camera Left
+Camera Right=Camera Right
+Camera Up=Camera Up
+Camera Down=Camera Down
+Camera To Player=Camera To Player
+Camera To Selected Contact=Camera To Selected Contact
+Camera To Weapon=Camera To Weapon
+Camera To Aircraft=Camera To Aircraft
+Camera To Scenery=Camera To Scenery
+Drag Camera=Drag Camera
+Still Camera=Still Camera
+
+Patrol Speed=Patrol Speed
+Flank Speed=Flank Speed
+Briefing=Briefing
+
+Museum Next=Museum Next
+Museum Previous=Museum Previous
+
+Continue=Continue
+Cancel or Quit=Cancel or Quit

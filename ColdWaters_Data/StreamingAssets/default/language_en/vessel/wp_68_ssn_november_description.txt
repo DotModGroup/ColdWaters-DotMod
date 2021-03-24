@@ -1,0 +1,9 @@
+﻿[Unit Reference]
+ShipClass=November
+Description=November-class Nuclear Attack Submarine
+
+History=Designed in the 1950's, poorly armed, loud and with inferior sonar systems, these were the Soviet Union's first nuclear submarines. Over the years they have received little in the way of upgrades, rendering them second-rate opponents at best.
+
+[Player Ship Instances]
+PlayerClassNames=«Leninskiy Komsomol»,,,,,,,,,,,,
+PlayerClassHullNumbers=K-3,K-5,K-8,K-11,K-14,K-21,K-27,K-42,K-50,K-52,K-115,K-159,K-181

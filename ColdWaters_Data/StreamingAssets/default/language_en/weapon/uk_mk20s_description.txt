@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mk. 20S
+WeaponDescriptiveName=Mark 20S "Bidder" Submarine Torpedo
+WeaponDescription=Passive Homing Torpedo of the Royal Navy, developed in the 1950s and in service until replaced by Mark 24 Tigerfish in the 1980s.

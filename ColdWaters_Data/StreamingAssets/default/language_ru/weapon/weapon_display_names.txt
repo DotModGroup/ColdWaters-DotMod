@@ -1,0 +1,14 @@
+[Depth Charges, Mortars and Shells]
+wp_rbu6000_mortar=РБУ 6000
+wp_rbu2500_mortar=РБУ 2500
+wp_depth_bomb=25кг глубинная бомба
+wp_depth_bomb_50=Глубинная бомба ПЛАБ-50
+wp_depth_bomb_120=Глубинная бомба ПЛАБ-120
+wp_depth_bomb_250=Глубинная бомба ПЛАБ-250
+wp_depth_bomb_500=Глубинная бомба KAБ-500
+wp_6x3_b-38_shell=6x3 Б-38 152мм корабельное орудие
+wp_ak-130_shell=AK-130 130мм корабельное орудие
+wp_ak-100_shell=AK-100 100мм корабельное орудие
+wp_b-34_shell=Б-34 100мм корабельное орудие
+wp_ak-726_shell=AK-726 76.2мм корабельное орудие
+wp_ak-725_shell=AK-725 57мм корабельное орудие

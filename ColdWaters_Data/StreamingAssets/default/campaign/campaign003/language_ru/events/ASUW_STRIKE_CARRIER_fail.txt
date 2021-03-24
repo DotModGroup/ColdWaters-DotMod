@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato carrier loss
+Photo=campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 3,campaign/images/photos/naval nato carrier 4
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CARRIER LOST!</b>|<b>CARRIER SUNK</b>|<b>CARRIER DEFEATED</b>
+Color=57,61,73,255
+Sentence1=A US carrier battle group, reported to be operating somewhere in <ENDLOCATION>, has come under sudden and severe attack. The Pentagon confirmed that several ships, including the carrier, succumbed to overwhelming missile strikes and were lost during the action. Details remain incomplete, but initial numbers of personnel lost or unaccounted for are high.
+Color=218,218,208,255
+Sentence2=Carrier Ops too risky?<n>In light of this recent and major defeat, questions have been raised as whether carrier operations can be effectively carried out. Many in Congress are calling for the withdrawal of carriers from all contested waters, claiming the risks are simply too high.

@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=IL-38 MAY (Early)
+AircraftDescriptiveName=Ilyushin IL-38 MAY (Early)
+History=Most aptly described as the Soviet equivalent of the US Lockheed P-3, the IL-38 is a medium-range antisubmarine aircraft, derived from the IL-18 turboprop airliner. It is capable of laying huge barriers of sonoboys, and then pressing home the attack with an assortment of depth charges and homing torpedoes. This is the original version, equipped with earlier models of sonobuoys and the AT-1, AT-2 or APR-1 torpedoes. 

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=«Vodopad»
+WeaponDescriptiveName=RPK-6 «Vodopad» ASW Missile
+WeaponDescription=(NATO classification: SS-N-16)Submarine-launched stand-off ASW missile. It is similar to the SS-N-15 but drops the UGMT homing torpedo.

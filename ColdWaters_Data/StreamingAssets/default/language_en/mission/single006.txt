@@ -1,0 +1,10 @@
+Image=campaign/images/pact ssbn 2
+MissionLocation=In the polar region
+Briefing=01 MAY 1984
+Briefing=Satellite data has revealed that a Soviet boomer is lurking deep within its bastion, where it lies protected by layers upon layers of surface warships and hunter-killer subs. You must penetrate the bastion defenses, find that boomer, and sink it.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Locate and sink any SSBNs
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Locate and sink any escorting vessels if possible

@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/usn victory
+Photo=campaign/images/photos/riot plan 1,campaign/images/photos/riot plan 2,campaign/images/photos/protests plan 1,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>V-DAY</b>
+Sentence1=The immediate threat of nuclear war looks to have faded as the US triumphantly announced that "the Chinese nuclear deterrent had been neutralized by precision missile strikes". Deprived of their strategic leverage, the Chinese had no choice but to acquiesce to US terms during the peace talks, a direct result of their weak position in the Western Pacific. The war's outcome has triggered a massive economic collapse, and a move towards isolationism.
+Sentence2=Political analysts predict the US victory could lead to a strengthening of the American-led security order in the Pacific as Beijing once again looks inward, reaffirming the United States of America as the dominant power in the region for decades to come.

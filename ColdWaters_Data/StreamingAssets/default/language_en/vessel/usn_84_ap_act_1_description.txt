@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=Large container ship
+History=These are first-generation container ships, with cargo capacity of about 1900 TEU. With the start of the war many of them was aquired by US navy.

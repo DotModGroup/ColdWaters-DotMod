@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=Modern large cargo ship
+History=The last of the dry-cargo freighters, these large ships are fast and outfitted with an assortment of cranes and derricks to handle break-bulk cargo. While state-of-the-art when built in the late 1960s, they were quickly overshadowed by the emergence of the container ship, and while some were modified to carry containers, they would never be as profitable and most were scrapped in the mid-80's after relatively short service lives.

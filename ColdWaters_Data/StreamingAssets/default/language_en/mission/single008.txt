@@ -1,0 +1,10 @@
+Image=campaign/images/pact warship tender 1
+MissionLocation=West of Iceland
+Briefing=25 MAY 1968
+Briefing=Your orders are to intercept a replenishment force suspected to be operating somewhere in the North Atlantic, west of Iceland, where they are supporting aggressive Soviet anti-convoy operations. After several uneventful days spent searching, sonar reports a contact.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Locate and sink the tenders
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Locate and sink any escorting warships if possible

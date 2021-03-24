@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Spearfish
+WeaponDescriptiveName=Spearfish Heavyweight Torpedo
+WeaponDescription=The Spearfish torpedo (formally Naval Staff Target 7525) is the heavy torpedo used by the submarines of the Royal Navy. It can be guided by wire or by autonomous active or passive sonar, and provides both anti-submarine warfare (ASW) and anti-surface ship warfare (ASuW) capability. Spearfish development began in the 1970s, with production starting in 1988, and deployment in 1992. By 2004, they had completely replaced the older Tigerfish torpedo.

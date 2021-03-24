@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Andizhan
+Description=Andizhan-class military transport
+History=Some 40 general cargo ships of this class were built in 1958-60 for use in the Soviet merchant marine. Throughout the cold war they have been extensively used for transporting military supplies to Soviet allies.

@@ -1,0 +1,39 @@
+[TRAINING_MENU 1]
+<b>Training: Mission List</b>
+<b>Getting Help:</b>
+Use <KEY:Help> to open this training panel (during training missions only) or if this training panel is already open, pressing <KEY:Help> will open Help, a comprehensive in-game manual on playing Cold Waters. Help opens on the page deemed most relevant to what you are currently doing in game.
+
+Close Help by <KEY:Help> again or <LEFTCLICK> <DICTIONARY:Back> in the bottom right.
+
+
+<b>Let's begin a mission:</b>
+Select a training mission from the list. It is recommend doing misisons in order listed.
+List can be scrolled by hovering over it and <MOUSEWHEEL>, using the scroll list bar or <LEFTCLICK> and dragging.
+
+<LEFTCLICK> <DICTIONARY:Start> to begin.
+[/TRAINING_MENU 1]
+
+[TRAINING_MENU 2]
+[/TRAINING_MENU 2]
+
+[TRAINING_MENU 3]
+<b>Vessel Assignment</b>
+You have been automatically assigned a Sturgeon class submarine for this mission.
+
+<LEFTCLICK> <DICTIONARY:Accept>
+[/TRAINING_MENU 3]
+
+[TRAINING_MENU 4]
+<b>Mission Briefing</b>
+At the beginning of any mission you are presented with this screen showing your vessel's current state and local conditions.
+
+<DICTIONARY:AttemptClosure> (disabled for training purposes)
+In actual combat, can be used to close in and start combat at about the range indicated. <LEFTCLICK> on the range value to change it.
+However it this not always successful and your starting range might already be below the minimum range or you may be detected by the enemy when closing.
+Is best used to start combat at long range for missile attacks or shorter range for torpedo attacks.
+
+<DICTIONARY:VesselStatus> displays your vessels weapon loadout, weapon stores and damage control. Here you can change your loadout for the mission, to be discussed later in Training Mission #4.
+
+<DICTIONARY:Battlestations> begins the mission.
+When ready <LEFTCLICK> <DICTIONARY:Battlestations> to enter the mission.
+[/TRAINING_MENU 4]

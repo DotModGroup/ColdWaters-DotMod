@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Ka-25BSh Hormone (Early)
+AircraftDescriptiveName=Kamov Ka-25BSh Hormone A (Early)
+History=The Ka-25 naval helicopters are small anti-submarine (Hormone A) and over-the-horizon missile targeting (Hormone B) helicopters first introduced in the mid 1960's. They carry either homing torpedoes or depth charges, and a dipping sonar as well as an assortment of sonobouys. They are covert, and can provide surface ships with targeting data, making them very dangerous foes. This original 1960s version has the original 'Elk Tail' dipping sonar and carries the older AT-1 or more recent AT-2 torpedo. 

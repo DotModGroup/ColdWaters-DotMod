@@ -1,0 +1,61 @@
+UseTerrain=TRUE
+//MapCoordinates=3165,1066
+//MapCoordinates=2530,1070
+//MapCoordinates=128,128
+MapCoordinates=1311,920
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=12 JUN 1984
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-2
+CombatBehaviour=DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE
+EnemyShipClasses=wp_84_ssgn_oscar,wp_84_ssn_victor3|wp_84_ssn_alfa
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=FALSE
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=0,-100|0,100
+EnemyWaypoints=10,-100|10,100
+EnemyWaypoints=20,-100|20,100
+//EnemyWaypoints=30,-100|30,100
+//EnemyWaypoints=40,-100|40,100
+//EnemyWaypoints=50,-100|50,100
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+//AircraftSearchArea=-100,-100,100
+//AircraftSearchArea=100,100,100
+//AircraftSearchArea=0,0,300
+
+//Drop passive sonobouys as barriers
+//Array of Vector 2 positions
+SonobouyLocations=0,-100|50,100|-50,-100
+
+//spawn minefields and set detection range
+//Static mines and torpedo mines
+
+PlayerVessels=usn_84_ssn_narwhal,usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_los_angeles
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

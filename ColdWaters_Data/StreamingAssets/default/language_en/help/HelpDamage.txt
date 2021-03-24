@@ -1,0 +1,158 @@
+ImageBackground=campaign/images/sea rescue 1
+ImagePosition=0,-30
+ImageHeight=260
+Image=language/help_images/damage_control.png
+ImagePosition=15,-2476
+ImageHeight=256
+Image=language/help_images/damage_status.png
+[/Image]
+<size=24><color=maroon><b>DAMAGE CONTROL</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Click the Damage Control tab or use <KEY:Damage Report> to open the Damage Control panel.
+This panel can also be accessed from the briefing screen prior to any mission or when in port (campaign only) by selecting <DICTIONARY:VesselStatus> or using <KEY:Damage Report>.
+
+The Damage Control panel shows a cut-out view of your vessel which is divided into 5 major watertight compartments. Various subsystems are also shown, many of which are associated with a given compartment, although some such as Periscope and Masts are not linked to a compartment as they are in the sail. The currently selected subsystem is in bold.
+
+In addition, the overall hull integrity of your submarine is shown at the bottom centre. If hull integrity is reduced to 0%, your submarine will be destroyed and sink.
+
+
+<size=24><color=maroon><b>DAMAGE CONTROL PARTY</b></color></size>
+The current highlighted subsystem is the focus of your damage control party and the compartment they are within is shown by wrench/spanner icon. This subsystem (and only this subsystem) will be repaired at twice the normal rate. In addition, the compartment containing the damage control party, receives a bonus to pumping out water as they work to shore up bulkheads, but this pumping bonus requires the Pumps subsystem to be operational.
+
+It is possible to assign your damage control party to an undamaged subsystem in order to assist with controlling flooding in that compartment.
+
+
+<size=24><color=maroon><b>SUBSYSTEMS</b></color></size>
+Each compartment may contain one or more subsystems. Select the name of a subsystem or use <KEY:Context Menu Previous> and <KEY:Context Menu Next> to move through and highlight a subsystem. 
+
+Subsystems have 3 conditions:
+1) Operational (Blue)
+2) Damaged (Red)
+3) Critical (Black)
+
+An operational subsystem works normally while a damaged or critical subsystem is no longer functional and either cannot be used or incurs a penalty to performance. Damaged systems are filled with a red bar which represents about 5 minutes total repair time.
+
+Damaged subsystems will automatically be repaired by your crew over time and can be restored to operational status during combat. In addition, damage control party can halve the repair time of one subsystem. However critical subsystems are permanently out of action while at sea and cannot be repaired or restored.
+
+<b>CAMPAIGN: PORT REPAIRS</b>
+When playing a campaign, critical subsystems require returning to port for repair. Once back in port, click on the name or use <KEY:Context Menu Previous> and <KEY:Context Menu Next> to select a critical subsystem. The time required to repair it is displayed in the upper right of the damage control panel. To repair it either;
+Click the name of an already highlighted critical subsystem.
+Click on the time to repair.
+Use <KEY:Context Menu Set>.
+
+Any damage to hull integrity is automatically repaired at port but incurs a time penalty based on the severity of damage to repair.
+
+
+<size=24><color=maroon><b>EFFECTS OF NON-OPERATIONAL SUBSYSTEMS</b></color></size>
+<b>SENSORS</b>
+<b>Bow Sonar</b> - Your passive and active sonar sensitivity are greatly diminished, effectively rendering you nearly blind underwater
+<b>Towed Array</b> - No longer functions.
+<b>Periscope</b> - Periscope mast can no longer be raised and can no longer be used.
+<b>ESM Mast</b> - This mast can no longer be raised and no longer provides ESM data.
+<b>Radar Mast</b> - This mast can no longer be raised and no longer provides radar data.
+
+<b>WEAPONS</b>
+<b>Tubes</b> - Individual torpedo tubes can be rendered unusable and cannot be repaired at sea. A torpedo tube will have the wire cut (if one exists) or the weapon within it lost (if one is loaded) upon being knocked out. Some submarines have angled tubes in their sides behind the bow. Attempting to fire an angled tube at higher speeds (20+ knots) has a chance to jam the torpedo, rendering the tube disabled as well as loss of the weapon jammed in the tube.
+<b>Fire Control</b> - Loss of your fire control computer immediately halts all TMA (target motion analysis) of contacts and clears all contacts you were tracking.
+
+<b>MACHINERY</b>
+<b>Pumps</b> - Pumps automatically decrease the rate of flooding across all compartments. Once knocked out, flooding of compartments is no longer offset by pumping of water. In addition, the bonus to pumping in the compartment containing the damage control party is lost.
+<b>Propulsion</b> - Propulsion consists of engines, propeller shafts and the propellers themselves. Damage to propulsion decreases maximum speed of your vessel, limiting maximum telegraph setting to 2/3 Ahead.
+<b>Rudder</b> - When steering, reduces the turn rate of your vessel by half.
+<b>Planes</b> - When using planes to change depth, reduces the surface and dive rate of your vessel by half.
+<b>Ballast</b> - When using ballast to change depth, reduces the surface and dive rate of your vessel by half. Emergency blow ballast cannot be used.
+<b>Reactor</b> - If damaged or if your crew is forced to SCRAM the reactor, power is lost to the engines. This limits maximum telegraph setting to All Stop, effectively rendering your vessel dead in the water.
+
+
+<size=24><color=maroon><b>FLOODING</b></color></size>
+There are 5 major water-tight compartments within your submarine. Damage to them can cause flooding, which is indicated by a blue water level indicator. The higher the level of blue, the worse the flooding. If flooding is too excessive or becomes uncontrolled, your vessel will lose buoyancy and ultimately sink.
+
+Rate of flooding is increased by:
+- deeper depth, due to increased water pressure
+- increased damage to the compartment
+- loss of pumps subsystem
+- additional compartments taking on water
+
+Rate of flooding is decreased by:
+- shallow depth or surfacing
+- an operational pumps subsystem, which pumps water out across all compartments
+- damage control party, which doubles the effect or pumps within the compartment they occupy
+
+If you are having difficulty controlling flooding:
+- use ballast to offset any negative buoyancy
+- be sure your pumps subsystem is operational, or the priority for repairs
+- assign damage control party to the flooded compartment (only effective if pumps are operational)
+- decrease your depth or surface as quickly as possible
+- blow emergency ballast
+
+<b>UNCONTROLLED FLOODING</b>
+Once multiple compartments begin taking on water your submarine is in dire straits. You should take immediate action to get to shallow depth quickly. Keep in mind that reactor/propulsion or ballast getting knocked out while your submarine is deep and taking on water could prevent surfacing and be fatal.
+
+<b>REPAIRING FLOODING</b>
+Getting to shallow depth or surfacing will greatly assist your pumps and damage control party in getting ahead of flooding. Once surfaced, damage control party should be able to pump all water out by moving them between the flooded compartments. However if you are unable to surface, even after blowing emergency ballast, it may be time to consider your crew and abandon ship.
+
+While surfacing will allow all flooded compartments to be cleared of water, damage to the hull remains. Submerging will once again put the hull under stress and will likely result in flooding resuming, especially in the most damaged compartments first.
+
+
+<size=24><color=maroon><b>DAMAGE CONTROL ICONS</b></color></size>
+Status icons are displayed in the upper right to notify you of damage requiring repair, flooding or the detection of an imminent attack.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>DAMAGE CONTROL ICONS DESCRIPTIONS</b>
+<b>Reactor SCRAM:</b> You submarine's reactor is offline.
+
+<b>Damage:</b> A subsystem on board your submarine is damaged and in need of repair.
+
+<b>Flooding:</b> A compartment of your submarine is over 10% flooded, or the total flooding is greater than 5%.
+
+<b>Incoming Torpedo:</b> Active intercept has detected an incoming active torpedo or the sonar operator has detected a passive torpedo, homing in on your submarine.
+
+<b>Ranging Sonar:</b> An enemy vessel is pinging with its fire control sonar in an attempt to determine your exact position. An attack is likely imminent.
+
+
+<size=24><color=maroon><b>LOSS OF YOUR SUBMARINE</b></color></size>
+Your submarine will be destroyed if;
+- crush depth is exceeded, resulting in implosion
+- hull integrity is reduced to 0%
+
+It is important to remember that as hull integrity decreases, crush depth becomes more shallow and could result in up to a 50% reduction in crush depth. Depths that would otherwise be safe will now destroy your submarine.
+
+Once destroyed, the HUD is disabled.
+Use <KEY:Cancel or Quit> to enter the mission menu and end the mission.
+
+In the mission menu you may:
+1) <DICTIONARY:AbandonShip>. If your sub is still intact (has not imploded) and above escape depth you and your crew may survive yet by abandoning ship, otherwise nothing happens when selecting this option.
+2) <DICTIONARY:Quit> to end this mission.
+
+Either of these options will take you to the After Action Report.
+When finished viewing the After Action Report, click <DICTIONARY:Continue> or use <KEY:Continue>.

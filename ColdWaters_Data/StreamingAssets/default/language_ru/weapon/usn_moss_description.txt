@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MOSS
+WeaponDescriptiveName=Mark 70 Mobile Submarine Simulator (MOSS)
+WeaponDescription=Самоходный имитатор подводной лодки MK70 способен имитировать шумы подводной лодки затрудняя поиск реальной субмарины. Запускается по прямой и остаётся на глубине пуска.

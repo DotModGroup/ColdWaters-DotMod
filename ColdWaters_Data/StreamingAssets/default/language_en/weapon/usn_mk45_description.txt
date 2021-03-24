@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MK45
+WeaponDescriptiveName=Mark 45 Torpedo Mod 1(Mk45)
+WeaponDescription=The Mk45 was the only nuclear torpedo in service with the USN, intended for use against high-speed, deep-diving, enemy submarines. Westinghouse also marketed a conventional version as the 'Freedom Torpedo'. The Mod 1 is a conjectural weapon assuming nuclear torpedoes would be 'field modified' in a conventional war.

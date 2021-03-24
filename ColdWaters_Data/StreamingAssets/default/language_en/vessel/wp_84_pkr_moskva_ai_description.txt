@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Moskva
+Description=Moskva-class Anti-Submarine Cruiser
+DefensiveWeapons=SA-N-3 SAM\nAK570 57mm AA Guns
+OffensiveWeapons=SUW-N-1 Launcher\nRBU-6000 ASW Rockets
+Aircraft=18 Ka-25 Hormone ASW helicopter
+History=The two ships of the Moskva class were designed to hunt US Polaris missile submarines in the open ocean, using their large complement of helicopters and nuclear depth charges for this task. While this concept failed, mainly due to the introduction of the longer-ranged Poseidon missile in US service, their helicopters still makes them useful as a force multiplier for ASW operations. However they lack a non-nuclear stand-off ASW weapon and can only use their own RBUs against submarines, which makes them reliant on other units such as Kresta or Kara BPKs to realize their potential. They are poor sea boats and usually operate in the Mediterranean, but in a conflict in the Norwegian Sea theatre it is not unlikely that they would be transferred to join the Northern Fleet.

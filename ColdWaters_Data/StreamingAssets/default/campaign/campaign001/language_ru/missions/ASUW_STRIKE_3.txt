@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE REPORTS THAT AN ENEMY SURFACE TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF <COUNTRY>. THE WARSHIPS ARE ARMED WITH LONG RANGE CRUISE MISSILES AND COULD WREAK HAVOC ON VITAL NATO SUPPLY CONVOYS. YOU ARE ORDERED TO INTERCEPT AND DESTROY THIS TASK FORCE. NO OTHER FRIENDLY UNITS ARE IN A POSITION TO INTERCEPT THE ENEMY IN TIME.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK CAPITAL SHIPS
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Atlantic convoys. CINCLANT sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Atlantic convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

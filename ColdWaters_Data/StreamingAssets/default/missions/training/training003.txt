@@ -1,0 +1,47 @@
+UseTerrain=FALSE
+MapCoordinates=80,1000
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=12 MAR 1982
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1
+CombatBehaviour=DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyShipClasses=wp_vtr_andizhan,wp_vtr_yuniy_partizan,wp_vt_kazbek
+FormationCruiseSpeed=0
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=0,0
+PlayerHeading=0
+PlayerDepthInFeet=45
+PlayerTelegraph=1
+//Only used in training mode
+EnemyPositionsX=0,-20,20
+EnemyPositionsZ=80,100,120
+EnemyHeadings=90,-45,230
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=0,-100|0,100
+EnemyWaypoints=10,-100|10,100
+EnemyWaypoints=20,-100|20,100
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_tu-142_bear
+
+PlayerVessels=usn_84_ssn_sturgeon

@@ -1,0 +1,43 @@
+[MORTARS]
+wp_rbu6000_mortar=RBU 6000=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. The designation denotes the max range in meters.
+wp_rbu2500_mortar=RBU 2500=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. The designation denotes the max range in meters.
+wp_rbu1000_mortar=RBU 1000=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. The designation denotes the max range in meters.
+plan_fqf2500_mortar=FQF 2500=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. The designation denotes the max range in meters.
+plan_type81_mortar=Type 81=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. Maximum range is about 3000 yards.
+plan_type87_mortar=Type 87=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. Maximum range is about 5500 yards.
+nw_terne_mortar=Terne ASW=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. Maximum range is about 1750 yards.
+
+[GUNS]
+usn_mark_42_shell=5"/54 Mark 42 Gun=5"/54 Mark 42
+
+usn_mark_75_shell=3"/62 Mark 75 Gun=3"/62 Mark 75
+
+wp_6x3_b-38_shell=152mm/57 Guns=152mm/57 B-38
+
+wp_ak-130_shell=AK-130 Guns=130mm/70 AK-130
+
+wp_sm2_shell=130mm/58 Guns=130mm/58 SM-2-1
+
+wp_ak-100_shell=AK-100 Guns=100mm/70 AK-100
+
+wp_sm2_shell=130mm/58 Guns=130mm/58 SM-2-1
+
+wp_b-34_shell=B-34 Guns=100mm/56 B-34
+
+wp_ak-726_shell=AK-726 Guns=AK-726
+
+wp_ak-725_shell=AK-725 Guns=AK-725
+
+plan_type_79a_shell=Type 79A Guns=100mm/56 Type 79A
+
+wp_depth_bomb=Depth Bomb 25=Very Light Aerial Dropped Depth Bomb
+
+wp_depth_bomb_50=Depth Bomb PLAB-50=PLAB-50 Light Aerial Dropped Depth Bomb
+
+wp_depth_bomb_120=Depth Bomb PLAB-120=PLAB-120 Medium Aerial Dropped Depth Bomb
+
+wp_depth_bomb_250=Depth Bomb PLAB-250=PLAB-250 Heavy Aerial Dropped Depth Bomb
+
+wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
+
+wp_proximity_mine=Proximity Mine=Proximity Mine

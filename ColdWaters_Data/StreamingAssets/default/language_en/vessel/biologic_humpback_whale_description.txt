@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Humpback
+Description=Humpback Whale (Megaptera novaeangliae)
+History=The humpback is a baleen whale, belonging to the same family as the blue whale. Like its larger cousin, they too were hunted to the brink of extinction by humans until the international moratorium on whaling in 1966. The species is famous for their long and complex 'songs', the sound of which travels great distances underwater.

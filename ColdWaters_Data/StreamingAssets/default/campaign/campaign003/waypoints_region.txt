@@ -1,0 +1,67 @@
+//Taipei
+WaypointName=T1
+WaypointPosition=7.2,-0.1
+Alignment=FRIENDLY
+ConnectedZones=T2
+InvadedBy=SEA,FRIENDLY
+
+//Kaohsiung
+WaypointName=T2
+WaypointPosition=-14.8,-55
+Alignment=FRIENDLY
+ConnectedZones=T1
+
+//Luzon
+WaypointName=P1
+WaypointPosition=-0.8,-164.3
+Alignment=FRIENDLY
+ConnectedZones=P2
+InvadedBy=SEA,FRIENDLY
+
+//Manila and Subic Bay
+WaypointName=P2
+WaypointPosition=-3.6,-239.6
+Alignment=FRIENDLY
+ConnectedZones=P1,P3
+
+//Celebes
+WaypointName=P3
+WaypointPosition=30.6,-309.7
+Alignment=FRIENDLY
+ConnectedZones=P2
+
+//Hong Kong
+WaypointName=HK1
+WaypointPosition=-166.7,-56.3
+Alignment=FRIENDLY
+InvadedBy=SEA,FRIENDLY
+
+//Paracel Islands
+WaypointName=PI1
+WaypointPosition=-215.5,-189.1
+Alignment=ENEMY
+InvadedBy=SEA,FRIENDLY,ENEMY
+
+//Scarborough Shoal
+WaypointName=SS1
+WaypointPosition=-84.8,-220.6
+Alignment=FRIENDLY
+InvadedBy=SEA,FRIENDLY,ENEMY
+
+//North Spratly Islands
+WaypointName=SI1
+WaypointPosition=-111.1,-307.2
+Alignment=FRIENDLY
+InvadedBy=SEA,FRIENDLY,ENEMY
+
+//Central Spratly Islands
+WaypointName=SI2
+WaypointPosition=-158.8,-335.8
+Alignment=FRIENDLY
+InvadedBy=SEA,FRIENDLY,ENEMY
+
+//South Spratly Islands
+WaypointName=SI3
+WaypointPosition=-213.7,-367.8
+Alignment=FRIENDLY
+InvadedBy=SEA,FRIENDLY,ENEMY

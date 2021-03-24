@@ -1,0 +1,166 @@
+ImageBackground=campaign/images/sea rescue 2
+ImagePosition=160,-676
+ImageHeight=450
+Image=language/help_images/port.png
+ImagePosition=15,-1425
+ImageHeight=260
+Image=language/help_images/stratmap.png
+[/Image]
+<size=24><color=maroon><b>CAMPAIGN</b></color></size>
+It is recommended that you familiarise yourself with commanding a submarine by completing the Training Missions and practicing several Single Missions before attempting a Campaign.
+
+Campaigns let you experience an armed conflict as the commanding officer of a submarine. In a campaign you will;
+- receive orders to undertake various missions
+- navigate the Strategic Map to identify and intercept your targets
+- avoid detection by enemy reconnaissance aircraft and satellites
+- engage the enemy in combat
+- return to port occasionally to rearm and repair any battle damage
+- receive medals and awards based on your performance
+- help win the war by sinking enemy ships
+- help win the war by successfully completing missions
+- lose progress by failing to sink high priority targets
+- lose progress for failing missions
+
+Your success or failure throughout a campaign will have a direct impact on the outcome of the conflict.
+
+
+<size=24><color=maroon><b>EVENTS</b></color></size>
+All campaigns begin with a series of events outlining the background and geopolitical issues behind the current conflict. Events also occur when you complete or fail missions as well as being based on specific criteria, such as returning to port, the loss of your submarine or to award you with medals. Finally, events conclude the campaign, describing the outcome of the conflict and your ultimate fate. Your actions as commander will directly influence many events.
+
+<b>LAND WAR</b>
+Some campaigns have an accompanying land war. In these cases, additional events occur on a regular basis providing an update describing the loss or gain of territories as well as the overall balance of the war. The Strategic Map will be marked with icons indicating the ownership of territories.
+
+<b>CLOSING EVENTS</b>
+Use <KEY:Continue> or click <DICTIONARY:Continue> to close an event and continue the campaign.
+
+<b>SKIPPING EVENTS</b>
+Use <KEY:Continue> to immediately skip an event.
+
+
+<size=24><color=maroon><b>PORT</b></color></size>
+Your submarine will be docked in port at the start of
+a campaign. Here you are provided with a brief overview
+as to whether your submarine has room for additional
+weapons or requires any repairs.
+
+<DICTIONARY:LeavePort>
+Leaves port, taking you to the Strategic Map for
+navigation.
+
+<DICTIONARY:RearmRepair>
+Opens the Stores and Damage Control panels for reloading
+of weapons and performing repairs.
+<KEY:Stores> and <KEY:Damage Report> may also be used.
+
+<DICTIONARY:ReviewOrders>
+Examine your current orders. Some missions require
+specific weapons or commandos on board, so it might
+be worth checking your orders when re-arming.
+
+<b>TIME IN PORT</b>
+Entering port takes several hours for navigation,
+docking and getting the crew ashore. Furthermore,
+additional time is required for:
+- loading and unloading weapons
+- taking on or removing commandos
+- repairing subsystems
+- hull repairs (automatic and based on severity)
+
+Except for hull repairs, time required for these actions are shown in the Damage Control and Stores panels. The total time you have spent in port is indicated by the <b><DICTIONARY:HoursInPort></b> display.
+
+<b>ENTER PORT</b>
+Opening the Briefing while in the vicinity of a friendly port will enter that port. A port icon appears in the toolbar to indicate proximity to a port (see below).
+
+
+<size=24><color=maroon><b>STRATEGIC MAP</b></color></size>
+The Strategic map is used to navigate the oceans and provides an overview of the theatre of war. The strategic map consists of a toolbar in the upper left, a sea chart of the theatre of operations along with various icons. With the exception of the port and SOSUS barriers, icons are coloured according to the side they fight for.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>TOOLBAR</b>
+In the upper left is the toolbar. From left to right the toolbar displays:
+1) Time of day in hours
+2) Date
+3) Labels button to toggle map text and locations on/off
+4) Menu button to enter the Campaign Menu, or use <KEY:Cancel or Quit>
+5) Port icon indicating whether the player is in the vicinity of a friendly port
+
+<b>NAVIGATION</b>
+There are three movement speeds for your submarine on the Strategic Map
+1) Stationary: Your submarine is listening. Combat starts at ~5 knots and at shallow depth.
+2) Patrol Speed: Combat starts at ~15 knots and at moderate depth. <LEFTCLICK> to move at patrol speed toward the mouse pointer.
+3) Full Speed: Combat starts at ~25 knots and at deep depth. <RIGHTCLICK> to move at full speed toward the mouse pointer.
+When encountering an enemy force, the speed at which you are moving impacts starting distances, as sonar is less effective due to flow noise at faster speeds. Start depth may be altered by terrain if in shallow waters.
+
+Your submarine's speed also determines the range at which you reveal nearby enemy units. Faster speeds decrease detection range.
+
+<b>RECONNAISSANCE</b>
+In the Cold War era, reconnaissance is performed by satellites, aircraft, task forces and SOSUS barriers. Once encountered by your reconnaissance or directly by close proximity to your submarine, an enemy vessel or task force has been detected and will be revealed on the Strategic Map as an icon. The icon type, surface vessel or submarine, represents the type of enemy unit or units encountered. Mixed groups, containing submarines and surface units, default to the surface unit icon.
+
+As the contact ages, it slowly darkens and its position stops being updated. These darker icons now show last known location, becoming less accurate over time as the enemy moves on, until the icon eventually disappears.
+
+<b>Satellites:</b> both friendly and enemy satellites traverse the Strategic Map at regular intervals. Satellites have a very long detection range, but their passing is at regular intervals making it possible to time your positioning during a flyover by an enemy satellite.
+
+<b>Aircraft:</b> launched from locations containing an airbase, aircraft patrol out from and then return to their base. Aircraft require some downtime to refuel between each patrol.
+
+<b>SOSUS Barriers:</b> (SOund SUrveillance System) are chains of sonar listening devices designed to reveal the passage of submarines and ships. Predominately used by NATO, these barriers are strategically placed to guard the choke points of passage from the Norwegian Sea into the Atlantic by Soviet forces. Enemy units crossing a SOSUS barrier are revealed on the Strategic Map.
+
+<b>Vessels:</b> your own submarine (and enemy forces) can detect and reveal nearby units on the Strategic Map.
+
+If your submarine is detected by enemy reconnaissance, any nearby anti-submarine hunter killer groups will be vectored to your position in an attempt to intercept you. There is no notice of this detection, so keep an eye out for enemy satellite transits or nearby aircraft when in enemy waters.
+
+<b>LOCATIONS</b>
+Across the Strategic Map are numerous locations. They may be naval ports, airbases, SOSUS stations or a combination of these along with other strategic major cities and towns. Many of these locations may be directly involved in missions you are assigned and, if a campaign contains a ground war, these locations can be attacked by special forces (commandos) or even invaded and liberated by the opposing sides.
+
+<b>Naval Ports:</b> these hubs of naval activity are usually the source of enemy forces and can be infiltrated and attacked by either side's commandos. Your home port cannot be attacked or invaded by the enemy.
+
+<b>Airbases:</b> as mentioned above, these are the source of reconnaissance aircraft. If an enemy commando group attacks an airbase, it disrupts aircraft reconnaissance activity for several days. If an amphibious landing or land based invasion takes over a region containing an airbase, also it disrupts aircraft reconnaissance activity, but eventually restores it for the occupying side.
+
+<b>SOSUS Bases:</b> If an enemy commando group attacks, or the region is invaded, any SOSUS barrier associated with the location is lost permanently for the remainder of that campaign.
+
+Regions may be invaded as part of the ongoing land war, but may also be invaded by amphibious landing forces you have been tasked with stopping! In the latter case you have direct control over saving these valuable reconnaissance resources as well as preventing the enemy from opening new fronts.
+
+
+<size=24><color=maroon><b>BRIEFING</b></color></size>
+Use <KEY:Briefing> to open the briefing page whenever you are navigating on the Strategic Map.
+
+Selecting <DICTIONARY:ContinueCourse> returns you to the Strategic Map.
+
+You can examine the current status of your weapon stores and damage as well as review orders for the current mission by selecting <DICTIONARY:VesselStatus> or using <KEY:Stores> and <KEY:Damage Report>. As per regular Single missions, weapons pre-loaded into tubes and tube settings can be set and these will be ready to fire during the next engagement. However Stores cannot be modified as they require returning to port in order to bring new weapons on board.
+
+<DICTIONARY:ReviewOrders> can be used to examine your current mission parameters to determine where to navigate and what enemy forces you might need to intercept on the Strategic Map.
+
+
+<size=24><color=maroon><b>CAMPAIGN MENU</b></color></size>
+From the Campaign Menu you may select one of the following;
+1) <DICTIONARY:Statistics> - displays your statistics for the current campaign
+2) <DICTIONARY:Save> - saves the campaign using the file name specified at campaign creation
+3) <DICTIONARY:Quit> - quit the campaign back to the main menu
+4) <DICTIONARY:Back> - return to the Strategic Map and playing the campaign
+
+
+<size=24><color=maroon><b>INSERTION AND LAND STRIKE MISSIONS</b></color></size>
+These two missions require specific actions to be carried out.
+
+<b>INSERTION:</b> you must return to your home base and take on a party of Spec Ops. Then sail to the destination where you need to infiltrate an enemy location. On the Tactical Map will be displayed a deployment zone into which you must sail (preferably undetected), then come to a stop at less than 100 ft depth for the Spec Ops team to depart. Once departed, they will attempt to undertake their mission. If your submarine is engaged by the enemy or detected on route, shore defences will be on high alert and may capture your Spec Ops team before they can carry out their mission, making stealth of the upmost importance.
+
+<b>LAND STRIKE:</b> you must return to your home base to acquire the number of land strike weapons specified by your orders. Then sail to the destination where you need fire those weapons into a deployment zone (marked on your map). Missiles reaching the deployment zone will automatically be terminally guided to their target. Note that enemy ships may be in position with the ability to shoot down missiles en route. This mission type will only be given if your current submarine is capable of equipping land attack missiles.
+
+
+<size=24><color=maroon><b>LOSS OF YOUR SUBMARINE</b></color></size>
+Being sunk or abandoning ship in a Single Mission has no lasting consequences, after all it was a one off mission, but in a Campaign the stakes are much higher for you and your crew.
+
+If you survive the loss of your submarine, you will eventually be returned to your home port. Here you will be able to select a new submarine to command and get back into the fight. However being rescued and returned safely takes many hours and may result in the failure of time sensitive missions.

@@ -1,0 +1,207 @@
+ImageBackground=campaign/images/pact submarine tender 2
+ImagePosition=15,-1047
+ImageHeight=260
+Image=language/help_images/tube_settings.png
+ImagePosition=15,-1358
+ImageHeight=260
+Image=language/help_images/tacmap_icons.png
+ImagePosition=15,-1671
+ImageHeight=260
+Image=language/help_images/stratmap.png
+ImagePosition=15,-2013
+ImageHeight=260
+Image=language/help_images/navigation_status.png
+ImagePosition=15,-2307
+ImageHeight=260
+Image=language/help_images/sensor_status.png
+ImagePosition=15,-2611
+ImageHeight=260
+Image=language/help_images/damage_status.png
+[/Image]
+<size=24><color=maroon><b>УПРАВЛЕНИЕ</b></color></size>
+
+Все управление может быть переназначено в: Главное меню -> <DICTIONARY:Options> -> <DICTIONARY:Controls>.
+
+<b>Общее</b>||<b>Навигация</b>|
+<DICTIONARY:Help>|<KEY:Help>|<DICTIONARY:Increase Power>|<KEY:Increase Power>
+<DICTIONARY:Cancel or Quit>|<KEY:Cancel or Quit>|<DICTIONARY:Decrease Power>|<KEY:Decrease Power>
+<DICTIONARY:Continue>|<KEY:Continue>|<DICTIONARY:Rudder Left>|<KEY:Rudder Left>
+<DICTIONARY:Time Compression>|<KEY:Time Compression>|<DICTIONARY:Rudder Right>|<KEY:Rudder Right>
+<DICTIONARY:Hide HUD>|<KEY:Hide HUD>|<DICTIONARY:Planes Up>|<KEY:Planes Up>
+||<DICTIONARY:Planes Down>|<KEY:Planes Down>
+<b>Информация и выбор судна</b>||<DICTIONARY:Ballast Up>|<KEY:Ballast Up>
+<DICTIONARY:Museum Next>|<KEY:Museum Next>|<DICTIONARY:Ballast Down>|<KEY:Ballast Down>
+<DICTIONARY:Museum Previous>|<KEY:Museum Previous>|<DICTIONARY:Blow Ballast>|<KEY:Blow Ballast>
+||<DICTIONARY:Level Submarine>|<KEY:Level Submarine>
+<b>Управление камерой</b>|||
+<DICTIONARY:Camera Left>|<KEY:Camera Left>|<b>Сенсоры и мачты</b>|
+<DICTIONARY:Camera Right>|<KEY:Camera Right>|<DICTIONARY:Tactical Map>|<KEY:Tactical Map>
+<DICTIONARY:Camera Up>|<KEY:Camera Up>|<DICTIONARY:Centre Map>|<KEY:Centre Map>
+<DICTIONARY:Camera Down>|<KEY:Camera Down>|<DICTIONARY:Auto Centre Map>|<KEY:Auto Centre Map>
+<DICTIONARY:Zoom In>|<KEY:Zoom In>|<DICTIONARY:Next Contact>|<KEY:Next Contact>
+<DICTIONARY:Zoom Out>|<KEY:Zoom Out>|<DICTIONARY:Sonar Mode>|<KEY:Sonar Mode>
+<DICTIONARY:Drag Camera>|<KEY:Drag Camera>|<DICTIONARY:Periscope>|<KEY:Periscope>
+<DICTIONARY:Still Camera>|<KEY:Still Camera>|<DICTIONARY:Periscope View>|<KEY:Periscope View>
+<DICTIONARY:Camera To Player>|<KEY:Camera To Player>|<DICTIONARY:Night Vision>|<KEY:Night Vision>
+<DICTIONARY:Camera To Selected Contact>|<KEY:Camera To Selected Contact>|<DICTIONARY:Mark Target>|<KEY:Mark Target>
+<DICTIONARY:Camera To Weapon>|<KEY:Camera To Weapon>|<DICTIONARY:ESM Mast>|<KEY:ESM Mast>
+<DICTIONARY:Camera To Aircraft>|<KEY:Camera To Aircraft>|<DICTIONARY:RADAR Mast>|<KEY:RADAR Mast>
+<DICTIONARY:Camera To Scenery>|<KEY:Camera To Scenery>||
+<DICTIONARY:Event Camera>|<KEY:Event Camera>|<b>Панель управления</b>|
+||<DICTIONARY:Conditions>|<KEY:Conditions>
+<b>Оружие</b>||<DICTIONARY:Signature>|<KEY:Signature>
+<DICTIONARY:Fire Tube>|<KEY:Fire Tube>|<DICTIONARY:Stores>|<KEY:Stores>
+<DICTIONARY:Set Waypoint>|<KEY:Set Waypoint>|<DICTIONARY:Damage Report>|<KEY:Damage Report>
+<DICTIONARY:Edit Waypoint>|<KEY:Edit Waypoint>|<DICTIONARY:Context Menu Previous>|<KEY:Context Menu Previous>
+<DICTIONARY:Next Tube>|<KEY:Next Tube>|<DICTIONARY:Context Menu Next>|<KEY:Context Menu Next>
+<DICTIONARY:Load Tube>|<KEY:Load Tube>|<DICTIONARY:Context Menu Set>|<KEY:Context Menu Set>
+<DICTIONARY:Weapon Homing>|<KEY:Weapon Homing>||
+<DICTIONARY:Weapon Attack>|<KEY:Weapon Attack>|<b>Тактика</b>|
+<DICTIONARY:Weapon Depth>|<KEY:Weapon Depth>|<DICTIONARY:Silent Running>|<KEY:Silent Running>
+<DICTIONARY:Activate Torpedo>|<KEY:Activate Torpedo>|<DICTIONARY:Noisemaker>|<KEY:Noisemaker>
+<DICTIONARY:Cut Wire>|<KEY:Cut Wire>||
+<DICTIONARY:Steer Torpedo Left>|<KEY:Steer Torpedo Left>|<b>Стратегическая карта</b>|
+<DICTIONARY:Steer Torpedo Right>|<KEY:Steer Torpedo Right>|<DICTIONARY:Patrol Speed>|<KEY:Patrol Speed>
+<DICTIONARY:Steer Torpedo Shallow>|<KEY:Steer Torpedo Shallow>|<DICTIONARY:Flank Speed>|<KEY:Flank Speed>
+<DICTIONARY:Steer Torpedo Deep>|<KEY:Steer Torpedo Deep>|<DICTIONARY:Briefing>|<KEY:Briefing>
+<color=blue><b>Клавиши добавленные модом</b></color>
+
+<DICTIONARY:Increase Depth>|<KEY:Increase Depth>|<DICTIONARY:Stop Time Compression>|<KEY:Stop Time Compression>
+<DICTIONARY:Decrease Depth>|<KEY:Decrease Depth>|<DICTIONARY:Toggle Towed>|<KEY:Toggle Towed>
+<DICTIONARY:Increase Depth Precise>|<KEY:Increase Depth Precise>|<DICTIONARY:Previous Contact>|<KEY:Previous Contact>
+<DICTIONARY:Decrease Depth Precise>|<KEY:Decrease Depth Precise>|<DICTIONARY:Previous Tube>|<KEY:Previous Tube>
+<DICTIONARY:Increase Depth Quick>|<KEY:Increase Depth Quick>|<DICTIONARY:Camera To Bearing>|<KEY:Camera To Bearing>
+<DICTIONARY:Decrease Depth Quick>|<KEY:Decrease Depth Quick>|<DICTIONARY:Place NavMarker>|<KEY:Place NavMarker>
+<DICTIONARY:Toggle Guns>|<KEY:Toggle Guns>|<DICTIONARY:Place NavMarkerALT>|<KEY:Place NavMarkerALT>
+<DICTIONARY:Toggle RBU>|<KEY:Toggle RBU>|<DICTIONARY:Delete All NavMarkers>|<KEY:Delete All NavMarkers>
+<DICTIONARY:Deploy Chaff>|<KEY:Deploy Chaff>||
+<size=24><color=maroon><b>НАСТРОЙКИ ТОРПЕДНОГО АППАРАТА</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>ОБОЗНАЧЕНИЯ НА КАРТЕ</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>ОБОЗНАЧЕНИЯ НА СТРАТЕГИЧЕСКОЙ КАРТЕ</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>ИКОНКИ СОСТОЯНИЯ</b></color></size>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>НАВИГАЦИЯ</b> <b>СЕНСОРЫ</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<b>ПОВРЕЖДЕНИЯ И ПРЕДУПРЕЖДЕНИЯ</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<size=24><color=maroon><b>ОБОЗНАЧЕНИЯ КОРАБЛЕЙ</b></color></size>
+LST	Танкодесантный корабль 
+AS	Плавучая база подводных лодок
+AOR	Универсальный танкер-заправщик
+AE	Плавучий склад боеприпасов
+AP	Войсковой транспорт
+FF	Фрегат
+FFG	Фрегат УРО
+
+DD	Эсминец
+DDG	Эсминец УРО
+CL	Лёгкий крейсер
+CG	Крейсер УРО
+CGN	Крейсер УРО С ЯЭУ
+CGH	Авианосец с противолодочными вертолетами
+CVGH	Авианосец с противолодочными самолетами
+SS	Подводная лодка
+SSK	Патрульная подводная лодка
+SSG	Подводная лодка с крылатыми ракетами
+
+SSN	Многоцелевая атомная подводная лодка
+
+SSGN	Подводная лодка с крылатыми ракетами (с ЯЭУ)
+SSBN	Атомная подводная лодка с баллистическими ракетами на борту (ПЛАРБ)
+BIO	Биологическая

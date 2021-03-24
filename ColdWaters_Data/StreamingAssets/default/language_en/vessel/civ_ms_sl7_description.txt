@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Merchant
+Description=SL-7 Fast container ship
+History=These are high-speed container ships designed to cross the Atlantic and Pacific oceans at sustained speeds above 30 knots. Originally intended for nuclear propulsion, they were built with a very powerful steam plant. Eventually made uneconomical by the oil crisis, they have since been taken over by the US Navy and converted into RO-RO fast sealift ships of the Algol class. They are the fastest merchant ships ever built.

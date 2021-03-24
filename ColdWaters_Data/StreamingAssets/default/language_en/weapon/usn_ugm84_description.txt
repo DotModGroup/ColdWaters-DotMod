@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=UGM-84
+WeaponDescriptiveName=Harpoon Missile (UGM-84)
+WeaponDescription=The Sub-Harpoon has equipped US submarines and their allies since the early 70's. Although a small weapon, with a small warhead and comparatively slow it is very effective against small enemies lacking anti-missile defences. Against better armed targets they probably best launched in salvos to guarantee a hit.

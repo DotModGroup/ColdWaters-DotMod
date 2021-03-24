@@ -1,0 +1,11 @@
+TO:	<COMMANDER>
+INFO:	<COMMANDERFLEET>
+
+
+SUBJ:	AFTER ACTION REPORT
+
+1.	(S) ENEMY ENGAGED:
+<ENGAGEDCONTACTSLIST>---------------------------------------------------------------
+TOTAL TONNAGE:                                <TOTALTONNAGE> <size=11>t</size>
+
+2.	(S) <PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL> <PLAYERVESSELSTATUS>

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MK46
+WeaponDescriptiveName=Mark 46 Torpedo
+WeaponDescription=The Mark 46 is the US Navy's standard airdropped passive/active torpedo. Being a smaller weapon, it packs less of a punch, but is carried by helicopters, aircraft and serves as the payload for the RUR-5 ASROC rocket assisted torpedo. The guidance system has a range of 1600 yards.

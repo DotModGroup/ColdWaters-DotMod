@@ -1,0 +1,110 @@
+Help=LeftShift+F1
+
+Increase Depth=PageDown
+Decrease Depth=PageUp
+Increase Depth Precise=LeftShift+PageDown
+Decrease Depth Precise=LeftShift+PageUp
+Increase Depth Quick=LeftControl+PageDown
+Decrease Depth Quick=LeftControl+PageUp
+Toggle Towed=Backspace
+Previous Contact=Y
+Previous Tube=G
+Stop Time Compression=F11
+Camera To Bearing=U
+Skip Mission=LeftAlt+KeypadDivide
+Toggle Guns=Return
+Toggle RBU=LeftShift+Return
+Deploy Chaff=Delete
+Place NavMarker=LeftShift+Mouse0
+Place NavMarkerALT=LeftShift+Mouse1
+Delete All NavMarkers=LeftShift+Mouse2
+Fire SAM=LeftShift+Space
+
+Rudder Left=A
+Rudder Right=D
+Set Course=H
+Planes Up=S
+Planes Down=W
+Ballast Up=E
+Ballast Down=C
+Increase Power=Q
+Decrease Power=Z
+
+Level Submarine=X
+Periscope Depth=LeftShift+P
+Blow Ballast=LeftShift+R
+Emergency Deep=LeftShift+T
+Sonar Mode=LeftShift+A
+Silent Running=LeftShift+S
+Noisemaker=LeftShift+D
+
+ESM Mast=Alpha9
+RADAR Mast=Alpha8
+Periscope=Alpha0
+Periscope View=P
+Night Vision=O
+Mark Target=I
+
+Tactical Map=Tab
+Centre Map=Backslash
+Auto Centre Map=LeftShift+Backslash
+Conditions=F5
+Signature=F6
+Stores=F7
+Damage Report=F8
+Context Menu Previous=Semicolon
+Context Menu Next=Quote
+Context Menu Set=L
+Next Contact=T
+Recognition Manual=M
+Helm Controls=LeftShift+H
+Dive Controls=LeftShift+J
+Sensor Controls=LeftShift+K
+Expand Log=LeftShift+L
+
+Next Tube=F
+Load Tube=R
+Fire Tube=Space
+Set Waypoint=Mouse1
+Edit Waypoint=Mouse0
+
+Weapon Homing=Alpha1
+Weapon Attack=Alpha2
+Weapon Depth=Alpha3
+Activate Torpedo=Alpha4
+Cut Wire=LeftShift+Alpha4
+Steer Torpedo Left=Keypad4
+Steer Torpedo Right=Keypad6
+Steer Torpedo Shallow=Keypad5
+Steer Torpedo Deep=Keypad8
+
+Time Compression=F9
+Hide HUD=F10
+Event Camera=LeftShift+E
+
+Zoom In=Equals
+Zoom Out=Minus
+
+Camera Left=LeftArrow
+Camera Right=RightArrow
+Camera Up=UpArrow
+Camera Down=DownArrow
+
+Camera To Player=F1
+Camera To Selected Contact=F2
+Camera To Weapon=F3
+Camera To Aircraft=F4
+Camera To Scenery=RightShift+F4
+
+Drag Camera=Mouse1
+Still Camera=BackQuote
+
+Patrol Speed=Mouse1
+Flank Speed=Mouse0
+Briefing=Mouse2
+
+Museum Next=D
+Museum Previous=A
+
+Continue=Space
+Cancel or Quit=Escape

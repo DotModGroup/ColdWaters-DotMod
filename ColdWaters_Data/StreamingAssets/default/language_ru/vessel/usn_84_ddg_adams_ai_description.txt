@@ -1,0 +1,10 @@
+[Unit Reference]
+Designation=ЭМ
+ShipClass=«Адамс»
+Description=Эсминец типа «Чарльз Ф. Адамс» (1984 г)
+
+History=Эскадренные миноносцы типа «Чарльз Ф.Адамс» — тип эскадренных миноносцев УРО, разработанный на основе конструкции эсминцев типа «Форрест Шерман». Кормовое орудие уступило место пусковой установке ЗРК Тартар, под которой размещался боезапас в двух вращающихся барабанах, расположенных друг над другом непосредственно в корпусе.
+
+[Player Ship Instances]
+PlayerClassNames=Charles F. Adams,John King,Lawrence,Claude V. Ricketts,Barney,Henry B. Wilson
+PlayerClassHullNumbers=DDG-2,DDG-3,DDG-3,DDG-4,DDG-5,DDG-6,DDG-7

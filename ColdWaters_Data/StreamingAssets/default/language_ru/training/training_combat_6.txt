@@ -1,0 +1,84 @@
+[TRAINING 1]=7
+<b>Active Sonar</b>
+Use <KEY:Help> now to read about Sensors.
+
+Once a contact is detected, use <KEY:Sonar Mode> to toggle on your Active Sonar and start pinging. If a contact is not detected, increase speed to 5 knots and creep forward until it is.
+
+The target solution for this contact rises more rapidly due to the accurate ranging of active sonar as long as the contact is within range. However active sonar is very loud and can give away your position.
+
+Use <KEY:Sonar Mode> again to toggle off your Active Sonar.
+[/TRAINING 1]
+
+[TRAINING 2]
+<b>Conditions</b>
+Use <KEY:Conditions> or <LEFTCLICK> the Conditions tab in the bottom right to open the conditions panel.
+Use <KEY:Help> now to read about Underwater Acoustics and Conditions to understand they effect the performance of sonar.
+
+<b>Getting To Mast Depth</b>
+To use masts you will need to surface to above 50 ft.
+Use <KEY:Ballast Up> to set your ballast to 30 and begin ascending (use time compression if desired).
+Be careful not to surface or the enemy will spot you!
+
+When you reach about 65 ft depth, use <KEY:Level Submarine> to stop your ascension.
+
+Your final depth should be 40-50 ft. If not, use <KEY:Ballast Up> and <KEY:Ballast Down> as you cannot use masts if too deep.
+
+As you surfaced, your submarine crossed the layer into the surface duct allowing the detection of additional contacts.
+[/TRAINING 2]
+
+[TRAINING 3]
+<b>ESM Mast</b>
+Use <KEY:ESM Mast> to raise your ESM mast.
+This passive sensor detects radar signals, providing a measure of their strength and originating bearing (shown as purple lines on the map).
+
+There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on yout tactical map. Strength of this signal is shown on the meter in the upper left.
+
+Detecting a contact by ESM provides a small boost to target solution.
+
+Use <KEY:ESM Mast> to lower your ESM mast.
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Periscope</b>
+Press <KEY:Periscope> to raise your periscope. Once raised and ready to use, an icon appears in the upper right. Use <KEY:Periscope View> to enter the periscope view. Periscope view can by panned with <RIGHTCLICK> and dragging or using <KEY:Camera Left> and <KEY:Camera Right>.
+
+Low light vision enhancement can be toggled on/off with <KEY:Night Vision>.
+Placing a target in crosshair and using <KEY:Mark Target> will laser range it, providing a massive target solution boost and classifying it.
+Look to the north and mark one or both targets you find.
+
+The periscope mast also contains an ESM receiver which detects the strength (but not direction) of enemy radar transmissions.
+Use <KEY:Periscope> to lower your periscope.
+[/TRAINING 4]
+
+[TRAINING 5]
+<b>Radar Mast</b>
+Use <KEY:RADAR Mast> to raise the radar mast.
+
+Radar uses radio transmissions to accurately range contacts and provides a massive boost their target solution. Very quickly you should see that the target solutions for all contacts are greatly increased.
+
+However radar travels long distances and is readily detected by enemy ESM, so best not to use it if ESM has detected any nearby enemy warships or aircraft.
+
+Use <KEY:RADAR Mast> to lower the radar mast.
+[/TRAINING 5]
+
+[TRAINING 6]
+<b>Towed Array</b>
+Many submarines are equipped with a towed array which works best at about 5 knots. Use <KEY:Increase Power> to set your speed to Ahead 1/3.
+
+Use <KEY:Signature> or <LEFTCLICK> the Signature tab in the bottom right to open the conditions panel.
+
+As your speed reaches 5 knots, you will notice that your OWNSHIP TOWED signal may become greater than the PASSIVE signal. This is the additional sensitivity provided by the towed array. Cycle through the contacts with <KEY:Next Contact> to see the differences in detection between your various sonar types.
+
+Note that towed arrays have a narrow blind spot facing forward, while hull mounted sonar has a broader blind spot to the rear, termed the "baffles", this may result in a 0 reading for TOWED for contacts in front of your submarine.
+
+Finally use <KEY:Increase Power> to increase speed to Ahead 2/3 and note dramatic reduction of towed array bonus.
+[/TRAINING 6]
+
+[TRAINING 7]
+<b>Ending Combat</b>
+To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 7]

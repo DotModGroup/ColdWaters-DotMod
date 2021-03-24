@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=TLAM
+WeaponDescriptiveName=Tomahawk Land Attack Missile (TLAM)
+WeaponDescription=Land attack version of the UGM-109 Tomahawk missile. It carries either a conventional high-explosive warhead or cluster munitions. Advanced contour matching and terrain-following radar allows its destructive power to be delivered with pin-point accuracy.

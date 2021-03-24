@@ -1,0 +1,193 @@
+﻿[Menu Camera]
+MenuCameraRect=0,0,1,1
+MenuCameraOrthographicSize=DEFAULT
+MenuPixelDensity=2
+LoadVideos=TRUE
+
+GenerateFullLog=TRUE
+
+//=========Modded Parameters===========
+//You can change this string to your mod name and version
+ModVersion=Dot Mod v Alpha 3
+
+//Custom font
+CustomFontBundle=bundles\fonts\custom
+CustomFont=assets/resourcesforbundles/fonts/font/custom.ttf
+
+//% of maximum submerged speed needed to make a knuckle. Scripted to stay between 10 and 24 knots
+//If you want default CW behavior use any value more than 2.4
+KnuckleSpeed=0.95
+
+//Probability of enemy ASR torpedoes will use snake pattern instead of circulation, if dropped in more than 2100 yards from your sub.
+//Should be between 0 and 1. Values more than 1 will act like 1 (100% probability)
+ASRSnakeProbability=0
+
+//Increaces crush depth beyond Test Depth. Crush depth = Test Depth + (Test Depth * (Random value between TestDepthAddition and TestDepthAddition * 1.5))
+//Original game value = 0.5,  Epic Mod value = 0.1
+TestDepthAddition=0.25
+
+//After this time (in seconds) game makes wire break on run checks every minute. Actual time when you're guaranteed your (and AI's) wires will not break on run is 60 sec more 
+//Default is 240
+ReliableWireTime=540
+
+//TRUE - old CW style. To recive patrol award you need to kill required tonnage in single patrol(until you return to base)
+//FALSE - Epic Mod default. To recive patrol award you need to kill required tonnage in single combat 
+AwardsForPatrol=FALSE
+
+//TRUE - Default
+//FALSE - Enemy ships will launch anti-submarine rockets only
+EnemyUseAntiShip=TRUE
+
+//Maximum number of Navigation Markers displayed on tactical map. This option can be deleted and default amount will be 30
+MaxNavMarkersOnMap=30
+
+//*********Debug&Development*********
+
+//if TRUE, shows player local transform coordinates instead time and date on a global map.(Useful for modding, bad for gaming.)
+ShowClickPosition=FALSE
+
+//TRUE - each time you press Space on campaign map, you get 100000 exp
+ExpCheat=FALSE
+
+//If true, enables usage of "Skip Mission(Debug) Key which is used to counter a stuck campaign bug.
+SkipMissionKeyEnabled=TRUE
+
+//If enabled - shells and RBUs can't shoot through islands. Enabling may cause performans drop. Or not...
+//Works 50/50
+ShellColliderEnabled=FALSE
+
+//Log vessel name when reading its file on game loading. Useful to trace what vessel is causing errors.
+LogVesselNameOnCreation=FALSE
+
+//Works for player as well
+EnemyGunsDispersion=0.01
+
+//Periscope autorotate params
+CameraToBearingSpeed = 2.0
+CameraToBearingError = 1.1
+
+//-------------DotMod--------------
+//TRUE - enables some additional modding. Enable on your own risk.
+AddtionalChangesEnabled=TRUE
+
+//TRUE - Default
+//FALSE - Enemy ship's anti-missile guns will target only missiles locked on that ship. Authorised by Niels ;)
+EnemyAMGassist=FALSE
+
+//TRUE - Advanced AM-defence plus auto-chaff
+//FALSE - Manual chaff
+SunrayEnabled=FALSE
+
+//=========Modded Parameters===========
+[Music]
+MusicMainMenu=audio/music/Cold Waters Main Menu
+MusicStrategicMap=audio/music/Cold Waters Strategy
+MusicCombatAmbient1=audio/music/Cold Waters Combat 04
+MusicCombatAmbient2=audio/music/Cold Waters Combat 01
+MusicCombatAmbientNight=audio/music/Cold Waters Combat 02
+MusicCombatAmbientIce=audio/music/Cold Waters Combat 03
+MusicCombatAction=audio/music/Cold Waters Theme
+MusicActionReportVictory=audio/music/Cold Waters Campaign Victory
+MusicActionReportLoss=audio/music/Cold Waters Campaign Loss
+
+[Flags] - deprecated for now
+FlagSoviet=vessels/flags/flag_soviet.png
+FlagSovtorgFlot=vessels/flags/flag_sovtorgflot.png
+FlagSignal=vessels/flags/flag_signal.png
+
+[Acoustics & Weather]
+MaxSurfaceDuctBonus=12
+MaxLayerBonus=12
+MaxConvergenceBonus=20
+ConvergenceRange=35000,44000
+MaxBottomBounceBonus=10
+BottomBounceRange=15000,20000
+BottomBounceDepthRange=2000,2800
+AttenuationFactor=0.0008
+SpreadingFactor=20
+OceanBaseAmbientNoise=75
+NoisePerSeaState=3
+MaxNoiseFromRain=20
+NoiseFromCavitation=20
+NoiseFromTransient=5
+TargetNoisePerKnot=1
+PassiveCompressionFactor=3.2
+LandAbsorptionFold=3,4
+MaxShallowsAbsorption=20
+StrengthTypes=ZeroStrength,VeryWeak,Weak,Moderate,Strong,VeryStrong
+TimesOfDay=Dawn,Morning,Noon,Afternoon,Evening,Night
+Weather=Clear,Scattered,Broken,Overcast,Rain,Storm,Snow,SnowStorm
+WeatherProbability=0.2,0.2,0.2,0.2,0.1,0.1
+WeatherSeasonModifier=0.4
+SeaStates=Calm,LightAir,LightBreeze,GentleBreeze,ModerateBreeze,FreshBreeze,StrongBreeze,HighWind
+SeaStateProbability=0.05,0.1,0.2,0.2,0.2,0.1,0.1,0.05
+SeaStateSeasonModifier=0.25
+UnderwaterParticles=environment/underwater_particles
+RunningSilentBonus=5,8
+DetectionThreshold=10
+MaintainContactThreshold=1
+ContactProfileGraphicFactor=2
+
+NavigationSonarRange=4000
+MADDetectionRangeInYards=400
+NearbyVesselMinDistance=15000
+NearbyWeaponMinDistance=10000
+NearbyAircraftMinDistance=5000
+
+[Miscellaneous]
+//Flat % chance for whales
+WhaleProbability=0.1
+//Probability * pixel value of traffic map (0-1), rolls 2x
+NeutralVesselProbability1=0.5
+NeutralVesselProbability2=0.33
+
+[Environments]
+//First environment is used in Unit Reference for lighting
+Environment=Day_Clear
+Environment=Day_Scattered
+Environment=Day_Broken
+Environment=Day_Overcast
+Environment=Dawn_Clear
+Environment=Dawn_Scattered
+Environment=Dawn_Broken
+Environment=Dawn_Overcast
+Environment=Dusk_Clear
+Environment=Dusk_Scattered
+Environment=Dusk_Broken
+Environment=Dusk_Overcast
+Environment=Night_Clear
+Environment=Night_Scattered
+Environment=Night_Broken
+Environment=Night_Overcast
+UnitReferenceLightingAngle=35,140,0
+
+[Debug Options]
+CampaignDebugOnLoad=FALSE
+EventsDebugOnContinue=FALSE
+UnitReferenceDebugOnSpace=TRUE
+AutoCameraPanAndZoom=FALSE
+ForceCampaignMissionType=FALSE
+ForceCampaignMissionNumber=FALSE
+
+[Difficulty Settings]
+//Easy, Normal, Hard, Elite
+PlayerHullPoints=3,1.5,1,0.75
+EnemyHullPoints=0.75,1,1.125,1.25
+PlayerNoiseModifier=0.75,0.9,1,1.1
+EnemyNoiseModifier=1.3,1.1,1,0.9
+PlayerTMARate=1.4,1.2,1,0.85
+EnemyTMARate=0.85,1,1,1.2
+CombatRepairTimeModifier=0.8,1,1.5,2
+PlayerWeaponReloadTime=0.8,1,1.5,2
+EnemyWeaponReloadTime=1,1,1,1
+
+[Difficulty Settings Campaign]
+StartPointsModifier=1.2,1,0.8,0.6
+WinMissionModifier=1.2,1,0.75,0.5
+FailMissionModifier=1.2,1,0.75,0.5
+TonnageSunkModifier=1.2,1,0.75,0.5
+TimeInPortModifier=0.8,1,1.2,1.5
+RestockTimeModifier=0.5,0.8,1,2
+RepairTimeModifier=0.8,1,2,3
+RescueTimeModifier=0.8,1,2,3
+NumberOfASW=6,7,8,9

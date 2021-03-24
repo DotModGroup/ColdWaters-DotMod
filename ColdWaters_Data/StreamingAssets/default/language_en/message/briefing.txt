@@ -1,0 +1,23 @@
+Text=
+Text=Captain,
+Text=We have a new sonar contact, bearing <BEARING>, designate Sierra 1.
+Text=
+Text=XO reports:
+Text=     Our Depth: <DEPTH>
+Text=     Our Heading: <HEADING>
+Text=     Our Speed: <SPEED>
+Text=
+Text=<DEPLOYMENTZONE>Your Orders Sir?
+
+
+Text2=
+Text2=
+Text2=
+Text2=
+Text2=Local Conditions:
+Text2=     <SURFACEDUCT> surface duct
+Text2=     <STRENGTH> thermal layer <LAYERDEPTH>
+Text2= 
+//Text2=     Water depth is <WATERDEPTH>
+
+TextNoContact=No Contacts. Proceeding on course.

@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Kresta I
+Description=Kresta I-class Guided Missile Cruiser
+DefensiveWeapons=SA-N-1 SAM\nAK-570 57mm AA Guns
+History=This class was designed as a larger and more capable successor to the Kynda-class missile cruisers, which turned out top-heavy and too cramped. The Kresta I is intended for the anti-ship role but has much improved capabilities for anti-air and anti-submarine warfare. If these ships are allowed into the North Atlantic convoy routes they could prove a real threat to NATO as raiders.

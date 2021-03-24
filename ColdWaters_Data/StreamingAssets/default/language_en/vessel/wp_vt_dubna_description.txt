@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Dubna
+Description=Dubna-class fleet oiler
+History=The four ships in this class, built between 1974 to 1979, are small replenishment ships intended to support warships as well as the Soviet fishing fleet. Large kingposts and a constant-tension station transfer fuel and dry stores to ships on either side and over the stern. Compared to US UNREP ships, they are slower and lack helicopter facilities.

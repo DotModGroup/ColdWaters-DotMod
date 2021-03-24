@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Victor III
+Description=Victor III-class Nuclear Attack Submarine (1984)
+
+History=These boats represent the ultimate evolution of the Victor-class submarine. They were the first boats to be given a towed array, and they were the first to be built with improved quieting features such as raft-mounted machinery. Originally designed with an offset tandem propeller, they have since been upgraded with reduced-cavitation propellers. The entire group are also fitted with fire control for the SS-N-16 standoff ASW missile.
+
+[Player Ship Instances]
+PlayerClassNames=«Zapadnaya Litsa»,,«Volgograd»,,,«Murmansky komsomolets»
+PlayerClassHullNumbers=K-524,K-254,K-502,K-527,K-298,K-358

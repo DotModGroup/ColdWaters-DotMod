@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=CY-1
+WeaponDescriptiveName=CY-1 ASW Rocket
+WeaponDescription=Submarine- and surface ship-launched stand-off ASW rocket that flies on an unguided ballistic trajectory and drops a homing Yu-7 lightweight torpedo.

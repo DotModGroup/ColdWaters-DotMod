@@ -1,0 +1,52 @@
+UseTerrain=FALSE
+MapCoordinates=80,1000
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
+
+//Environment
+Date=7 MAR 1983
+Hemisphere=North
+Time=1100
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyShipClasses=wp_bdk_alligator
+FormationCruiseSpeed=0
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=0,0
+PlayerHeading=0
+PlayerDepthInFeet=45
+PlayerTelegraph=1
+//Only used in training mode
+EnemyPositionsX=0
+EnemyPositionsZ=15
+EnemyHeadings=90
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=0,-100|0,100
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_haze
+//NumberOfHelicopters=1
+//HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=wp_tu-142_bear
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=0,0,50
+AircraftSearchArea=-700,-700,75
+
+PlayerVessels=usn_68_ssn_sturgeon

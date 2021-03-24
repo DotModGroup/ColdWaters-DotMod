@@ -1,0 +1,20 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+ONE OR MORE ENEMY CRUISE MISSILE SUBMARINES ARE BELIEVED TO BE OPERATING IN AN AREA 200 MILES WEST OF NARVIK, NORWAY. A CARRIER BATTLEGROUP IS MOVING INTO THIS AREA SHORTLY, AND THOSE CRUISE MISSILES PRESENT A MAJOR THREAT TO THE CARRIER. YOU MUST THEREFORE FIND AND DESTROY THESE SUBS BEFORE THEY CAN STRIKE AT THE BATTLEGROUP. NAV OPS IS COUNTING ON YOU FOR THIS ONE.
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINE
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+My personal congratulations to commanding officer <PLAYERNAME> and crew for delivering this crucial blow to enemy naval forces. It is an honor to serve as your commander. Will see to it that we, crew and all, will have a drink when <PLAYERVESSELNAME> hits the beach.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. The presence of this enemy will doubt continue to pose a major threat to our ships in the region.
+[MISSION MISSED]
+Disappointed to hear target was not intercepted. Enemy submarines reported to be operating unhindered in the region.

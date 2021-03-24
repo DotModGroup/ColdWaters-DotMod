@@ -1,0 +1,76 @@
+[TRAINING 1]=6
+<b>Establishing Contact</b>
+<i>Between the briefing and mission start it is possible to lose the initial contact. If you have no contact, increase speed to 5 knots and move forward (use time compression if needed) until contact is re-established. Sonar operator notifies you via the message log when this happens.</i>
+
+Once contact is established, Use <KEY:Tactical Map> to open the full screen map and use <MOUSEWHEEL> or <KEY:Zoom Out> until the map is zoomed all the way out.
+[/TRAINING 1]
+
+[TRAINING 2]
+<b>Data Panel - Contact</b>
+The Data Panel at the bottom left contains 3 columns of data (left to right).
+1) Ownship data
+2) Contact Data
+3) Wire data (for a torpedo on a wire)
+
+For this mission we will focus on the second column which displays your current contact;
+<b>CONTACT NAME</b> name or designation of the contact
+<b>BRG</b> Bearing - direction from your submarine to the contact
+<b>CSE</b> Contact's course
+<b>SPD</b> Contact's speed
+<b>RNG</b> Range to contact
+<b>SOL</b> Target Solution quality, namely how accurate information about the contact is
+
+Unknown values are displayed as "---".
+
+Every several seconds these numbers update based on observations of how the contact is moving, a process termed Target Motion Analysis (TMA).
+
+Over time TMA builds up the target solution, making its position on the map more accurate and eventually enabling you to put weapons onto that target with confidence.
+[/TRAINING 2]
+
+[TRAINING 3]
+<b>Target Motion Analysis</b>
+Use <KEY:Help> now to read about Target Motion Analysis and what influences the rate.
+
+Next use <KEY:Tactical Map> to return to the full screen map.
+
+Over the last few minutes you've probably noticed that the target solution has not gotten much higher than 30-50%.
+
+To assist with the TMA, classify the contact using Signature Analysis.
+[/TRAINING 3]
+
+[TRAINING 4]
+<b>Signature Analysis</b>
+Use <KEY:Signature> or <LEFTCLICK> on the Signature tab in the bottom right to open the Signature Panel.
+Use <KEY:Help> now to read about Signature Analysis and to understand the data presented on the Signature Panel.
+
+Now use <KEY:Context Menu Next> and <KEY:Context Menu Previous> to cycle through the various profile signatures until "KOMSOMOL" is displayed (or <LEFTCLICK> left and right portion of the profile image.
+
+All of the lines (sound frequency peaks) line up, so use <KEY:Context Menu Set> (or <LEFTCLICK> centre of profile image) to classify S1 as a KOMSOMOL class merchant. Your sonar operator verifies your classification and contact S1 has now been renamed to Komsomol and displayed as hostile on the map.
+[/TRAINING 4]
+
+[TRAINING 5]
+<b>Increasing TMA Rate</b>
+Correctly classifying the contact improves the TMA rate, but it may not be enough.
+
+Use <KEY:Increase Power> to set your speed to 2/3 Ahead (faster may drown out contact's noise and risk losing it again).
+Use <KEY:Time Compression> to speed up the game.
+
+Eventually you will be closer, making the contact signal louder as well as increasing the rate of bearing change.
+Once target soluition reaches 95%, the contact is plotted with 100% accuracy on the map, trail is displayed and a weapon intercept point is calculated.
+
+However the KOMSOMOL is continuously turning, causing your target solution to decay and recover as you close in. This may cause the position of the KOMSOMOL jump about on the map as new solutions are calculated.
+
+Understanding how to classify contacts and maximise the TMA rate is crucial for knowing where your enemy is and how to hit them with weapons.
+[/TRAINING 5]
+
+
+[TRAINING 6]
+<b>Ending Combat</b>
+<i>Sink the merchant with torpedoes or missiles for practice.</i>
+
+To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+
+Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+
+When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+[/TRAINING 6]

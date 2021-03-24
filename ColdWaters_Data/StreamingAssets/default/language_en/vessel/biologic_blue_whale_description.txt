@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Blue Whale
+Description=Blue Whale (Balaenoptera musculus)
+History=Up to 30 metres in length and with a maximum recorded weight of 171 tonnes, the blue whale is the largest animal known to have ever existed. Once abundant in the world's oceans, they were hunted nearly to extinction by whalers until protected in 1966. They communicate at very low frequencies, and their song is known to have travelled thousands of miles underwater through the deep sound channel.

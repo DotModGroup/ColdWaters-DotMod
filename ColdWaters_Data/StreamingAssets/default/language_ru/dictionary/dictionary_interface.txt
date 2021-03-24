@@ -1,0 +1,534 @@
+[MAIN MENU]
+Training=Обучение
+SingleMission=Одиночная миссия
+Campaign=Кампания
+UnitReference=Справочник
+Options=Настройки
+Credits=Авторы
+Quit=Выход
+
+=============================================================
+[DotMod ADDITION]
+QuickMission=Редактор миссии
+Quick Mission=Редактор миссии
+
+January=Января
+February=Февраля
+March=Марта
+April=Апреля
+May=Мая
+June=Июня
+July=Июля
+August=Августа
+September=Сентября
+October=Октября
+November=Ноября
+December=Декабря
+
+Mile=n. mi
+SubsystemDiesel=Дизель
+DieselSpace=Дизельный отсек
+TubeStores=TA
+PrestigeCost=Престиж: <PRESTIGE>                         Необходимо престижа: <PRESTIGE_COST>
+PrestigeInsufficient=Недостаточно престижа для командования <DESIGNATION> <VESSELCLASS>
+PrestigeCurrent=Престиж: <CURRENTPRESTIGE>
+PrestigeForMission=Получено престижа: <PRESTIGEFORMISSION>\nПрестиж: <CURRENTPRESTIGE>
+PrestigeTransferCost=Написать рапорт о переводе? (-<PRESTIGECOST> престижа)
+
+ReferenceActiveRange=Акт. режим:
+ReferenceTorpedoMaxDepth=Макс. глубина
+ReferenceWireGuided=Телеуправление: Есть
+ReferencePayload=Параметры сбрасываемой торпеды:
+ReferenceMinRange=Минимальная дальность пуска
+ReferenceOn=на
+ReferenceType=Тип: 
+ReferenceTorpedoNumbers=Боекомплект к ТА:
+ReferenceSelfNoise=Уровень шума:
+ReferenceWarhead=Мощность БЧ:
+ReferenceSensorSensitivity=Чувствительность:
+ReferenceAnechoicCoating=Антисонарное покрытие
+ReferenceNavalGunsAbb=Арт
+ReferenceShellNumbers=шт
+ReferenceShells=Снаряды
+ReferenceRBUAbb=РБУ
+ReferenceRBUSalvos=залпов
+ReferenceRBUSalvosAbb=злп
+
+GLAVCOM VMF=ГЛАВКОМ ВМФ
+COM NORTHERN FLEET=КОМ. СЕВ. ФЛОТА
+
+COMSUBLANT=Командующий подводных сил Атлантического флота США
+CINCLANTFLT=Главнокомандующий Атлантического флота США
+COMSUBPAC=Командующий подводных сил Тихоокеанского флота США
+CINCPACFLT=Главнокомандующий Тихоокеанского флота США
+
+COM PACIFIC FLEET=Главнокомандующий Тихоокеанского флота
+CICPLAN=Главнокомандующий флота КНР
+
+//Пока не работает. Может быть когда-нибудь..
+//менее 300футов, менее 500, менее 750, менее 1000, более 1000
+//менее 91м, менее 152, менее 228, менее 305, более 305
+[WATERDEPTH]
+DepthVeryShallow=Очень мелко
+DepthShallow=Мелко
+DepthModerate=Умеренно глубоко
+DepthDeep=Глубоко
+DepthVeryDeep=Очень глубоко
+
+------------------------------ [DotMod options] ------------------------------
+DynamicDepthDarkening=Динамическое затемнение с глубиной
+DynamicDepthDarkeningDesc=Динамическое затемнение с глубиной. В зависимости от глубины прозрачность воды снижается.
+CombatDistanceIncreace=Увеличение дистанции боя на 
+CombatDistanceIncreaceDesc=Перед началом боя лодка/корабль игрока отодвигается от противника на указанное значение.
+CombatDistanceIncreaceSurf=Увеличение дистанции боя НК-НК на 
+CombatDistanceIncreaceSurfDesc=Перед началом боя корабль игрока отодвигается от противника на указанное значение. Срабатывает только когда игрок управляет надводным кораблём и у противника тоже есть боевые надводные корабли (транспорты без эскорта не считаются). Суммируется с предыдущей опцией.
+
+ShowWakebubles=Отображать вейкбаблы на карте
+ShowWakebublesDesc=Объекты для кильватреного наведения.
+
+------------------------------ [DotMod keys] ------------------------------
+Increase Depth=Увеличить глубину
+Decrease Depth=Уменьшить глубину
+Increase Depth Precise=Увеличить глубину на 3м
+Decrease Depth Precise=Уменьшить глубину на 3м
+Increase Depth Quick=Увеличить глубину на 100м
+Decrease Depth Quick=Уменьшить глубину на 100м
+Toggle Towed=Выпустить/смотать ГПБА
+Previous Contact=Предыдущий контакт
+Previous Tube=Предыдущий аппарат
+Stop Time Compression=Выкл. ускорение времени
+Camera To Bearing=Камера на пеленг
+Skip Mission=Пропустить миссию(Дебаг)
+Toggle Guns=Орудия огонь/отбой
+Toggle RBU=РБУ огонь/отбой
+Deploy Chaff=Постановка помех
+Place NavMarker=Установить нав. маркер
+Place NavMarkerALT=Установить нав. маркер 2
+Delete All NavMarkers=Стереть все маркеры
+Fire SAM=Пуск ЗУР
+==============================================================
+[GENERAL]
+Back=Назад
+Start=Старт
+Accept=Принять
+Random=Случайно
+Help=Помощь
+Load=Загрузить
+Save=Сохранить
+Delete=Удалить
+No=НЕТ
+Yes=ДА
+Labels=Метки
+Menu=Меню
+Hours=Час.
+
+[BRIEFINGS]
+InTheVicinityOf=Недалеко от
+DockedAtPort=В доке <PLAYERPORT>
+StoresStatus=ПОЛНОСТЬЮ УКОМПЛЕКТОВАНО
+StoresStatusNeg=ПЕРЕЗАРЯДКА ДОСТУПНА
+SystemsStatus=ВСЕ СИСТЕМЫ В НОРМЕ
+SystemsStatusNeg=ТРЕБУЕТСЯ РЕМОНТ
+LeaveCombatNeg=НЕ ОБНАРУЖЕНЫ:
+LeaveCombatMissionNeg=НЕ
+LeaveCombatVessels=СУДА В ЗОНЕ ДЕЙСТВИЯ
+LeaveCombatWeapons=ВООРУЖЕНИЕ В ЗОНЕ ДЕЙСТВИЯ
+LeaveCombatAircraft=АВИАЦИЯ В ЗОНЕ ДЕЙСТВИЯ
+LeaveCombatFlooding=ЗАТОПЛЕНИЯ ОТСЕКОВ
+LeaveCombatInsertion=ДОСТАВКА СПЕЦНАЗА: <MISSIONSTATUS> ВЫПОЛНЕНО
+LeaveCombatLandStrike=<LANDSTRIKESTATUS>, ЗАДАНИЕ <MISSIONSTATUS> ВЫПОЛНЕНО 
+NearDeploymentZone=Поблизости зона развертывания миссии.
+
+//MissionWeaponsNeg=Для текущего задания требуется иметь на борту <NUMBER> <WEAPON>.
+//CommandoNeg=Для текущего задания требуется иметь на борту группу Спецназ.
+RepairTime=Время ремонта
+Minutes=Мин
+Hours=Час
+
+[OTHER]
+Posthumously=посмертно
+NavyPrefixUSS=USS
+SUBMARINE=подводная лодка
+WARSHIP=военный корабль
+
+[HEADINGS]
+TrainingMissionHeader=ОБУЧЕНИЕ
+SingleMissionHeader=ОДИНОЧНЫЕ МИССИИ
+UnitReferenceHeader=СПРАВОЧНИК
+SelectVesselHeader=ВЫБОР КОРАБЛЯ
+BriefingHeader=БРИФИНГ
+OrdersHeader=ПРИКАЗЫ
+NewCampaignHeader=НОВАЯ КАМПАНИЯ
+LoadCampaignHeader=ЗАГРУЗИТЬ КАМПАНИЮ
+OptionsHeader=НАСТРОЙКИ
+IncomingMessageHeader=ВХОДЯЩЕЕ СООБЩЕНИЕ
+
+[COMMANDS]
+Battlestations=Всем занять свои боевые посты
+AttemptClosure=Сблизиться до:
+ContinueCourse=Сохранять курс
+Loadout=Набор вооружения
+DamageControl=Контроль повреждений
+VesselStatus=СП: Доклад о состоянии
+RearmRepair=Перезарядка и ремонт
+ReviewOrders=Посмотреть приказы
+AbandonShip=Покинуть корабль
+LeavePort=Отдать швартовы, поднять якоря!
+HoursInPort=Время в порту:
+ExitMission=Покинуть бой
+QuitMission=Завершить задание
+
+[HUD]
+ConditionsTab=ГЛУБИНЫ
+SignatureTab=СИГНАТУРА
+StoresTab=АРСЕНАЛ
+DamageControlTab=КОНТРОЛЬ ПОВРЕЖДЕНИЙ
+Course=КРС
+Speed=СКР
+Depth=ГЛБ
+Rudder=РУЛ
+Planes=УГЛ
+Ballast=БАЛ
+Bearing=ПЛГ
+Knot=узл
+Feet=фут
+Metre=м
+Range=ДЛН
+KiloYard=кяр
+Kilometer=км
+Solution=РЕШ
+Percentage=%
+WeaponData=Упр. Оружие
+RangeToEnable=ДДВ
+TimeToRun=ВДЗ
+AmbientNoise=УРОВЕНЬ ШУМА
+Decibels=дБ
+SurfaceDuct=КАНАЛ
+Layer=СЛОЙ
+Floor=ДНО на
+Contact=КОНТАКТ:
+Offline=ВЫКЛ
+SignalStrength=УРОВЕНЬ СИГН. СЕНСОРОВ
+OwnShip=НАШИ:
+SensorComparison=СРАВНЕНИЕ СЕНСОРОВ
+Profile=КЛАСС:
+DepthGauge=0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000
+LoadWeapon=ЗАГРУЗИТЬ
+UnloadWeapon=ВЫГРУЗИТЬ
+LoadCommando=ЗАГРУЗИТЬ СПЕЦНАЗ
+UnloadCommando=ВЫГРУЗИТЬ СПЕЦНАЗ
+NoisemakerStores=Ложная цель
+NoContact=НЕТ КОНТАКТА
+VerticalLaunchSystem=Ракетные шахты:
+VerticalLaunchSystemAbb=УВП
+HullStatus=Корпус:
+Left=лево
+Right=право
+TorpedoRoom=Торпедный отсек
+ControlRoom=Центральный пост
+ReactorSpace=Реакторный отсек
+EngineRoom=Турбинный отсек
+MachinerySpace=Машинное отделение
+
+SonarContact=Sierra
+RadarContact=Romeo
+VisualContact=Victor
+ESMContact=Echo
+MultipleContact=Master
+
+SET SPEED=УСТ СКОР
+HELM ORDERS=МАШ ТЕЛЕГРАФ
+PLOT CSE=ХОД И КУРС
+SET DEPTH=УСТ ГЛУБ
+DIVE ORDERS=РЕЖ ГЛУБ
+E. BLOW=СБРОС БАЛЛАСТА
+MASTS=МАЧТЫ
+ACTIVE=АКТ СОНАР
+DECOY=ЛОЖНЫЕ ЦЕЛИ
+ESM=РЛС
+DETECTION THRESHOLD=ПОРОГ ОБНАРУЖЕНИЯ
+LLTV=ПНВ
+MARK=МЕТКА
+WIRE CONTROL=ОРУЖ КОНТРОЛЬ
+GUIDANCE=УПРАВЛЕНИЕ
+MANUAL CTRL=РУЧ КОНТРОЛЬ
+LOAD WEAPON=ЗАГР ОРУЖИЕ
+LOAD SPEC OPS=ЗАГР СПЕЦНАЗ
+WIRES=ПРОВОДА
+
+[ACTION REPORT]
+ActionReportSunk=ПОТОПЛЕН
+ActionReportDamaged=ПОВРЕЖДЁН
+ActionReportEscaped=ПОКИНУЛ ЗОНУ
+ActionReportUndetected=НЕ ОБНАРУЖЕН
+ActionReportNone=НЕТ
+ActionReportLost=ПОТЕРЯН
+ActionReportLostAllHands=ПОТЕРЯН СО ВСЕМ ЭКИПАЖЕМ
+ActionReportHowSunk=Причина гибели:
+ActionReportImplosion=Разрушение прочного корпуса
+ActionReportCollision=Столкновение
+ActionReportScuttled=Покинут Экипажем
+
+[CAMPAIGN]
+SaveFileName=Имя файла:
+CommanderName=Имя командира:
+DeleteSaveFile=Действительно удалить: <FILENAME>?
+SaveExists=Уже существует. Заменить?
+Statistics=Статистика
+OpenBriefing=Инфо
+
+[UNIT REFERENCE]
+ReferenceDimensions=Размеры
+ReferenceTons=т
+ReferenceMetre=м
+ReferenceKnot=узл
+ReferenceFeet=фт
+ReferenceCrew=Экипаж
+ReferenceDefensive=Доп. вооружение
+Reference30mmCIWS=Системы ПРО
+ReferenceNone=Нет
+ReferenceOffensive=Вооружение
+ReferenceMissiles=
+ReferenceDecoys=Ложные цели
+ReferenceTorpedoes=Торпеды
+ReferenceSensors=Сенсоры
+ReferenceNavRADAR=Только навигационный радар
+ReferenceSearchRADAR=поисковый радар, РРТР
+ReferenceMastMounted=на мачте
+ReferenceSonarBoth=активный и пассивный сонар
+ReferenceSonarActive=активный сонар
+ReferenceSonarPassive=пассивный сонар
+ReferenceSonar=Гидролокатор
+ReferenceRadar=Радар
+ReferenceActive=Акт.
+ReferencePassive=Пас.
+ReferenceTowed=Буксир.
+ReferenceHullMounted=на корпусе
+ReferenceTowedArray=буксируемая ГАС
+ReferenceDipping=погружаемая
+ReferenceSonobuoys=гидроакустические буи
+ReferenceAircraft=Авиация
+ReferenceNotes=Заметки
+ReferenceKilogram=кг
+ReferenceYard=ярд
+ReferenceRange=Дальность
+ReferenceMaxSpeed=Макс. скорость
+ReferenceSeekerRange=Диапазон поиска
+ReferenceAt=при
+FrequencyVeryLow=очень низкая
+FrequencyLow=низкая
+FrequencyMedium=средняя
+FrequencyHigh=высокая
+Frequency=частота
+Frequencies=частоты
+ReferenceVeryQuiet=Очень Тихий
+ReferenceSemiQuiet=Полутихий
+ReferenceQuiet=Тихий
+ReferenceSemiNoisy=Немного Шумный
+ReferenceNoisy=Шумный
+ReferenceVeryNoisy=Очень Шумный
+FrequencyAbbreviated=F
+FrequencyAbbreviatedVL=VL
+FrequencyAbbreviatedL=L
+FrequencyAbbreviatedM=M
+FrequencyAbbreviatedH=H
+ReferenceTestDepth=Макс. глубина:
+ReferenceWires=Кол-во проводов:
+
+[Sea States]
+Calm=Штиль
+LightAir=Тихий ветер
+LightBreeze=Легкий ветер
+GentleBreeze=Слабый ветер
+ModerateBreeze=Умеренный ветер
+FreshBreeze=Свежий ветер
+StrongBreeze=Сильный ветер
+HighWind=Крепкий ветер
+
+[Weather]
+Clear=Ясно
+Scattered=Малооблачно
+Broken=Облачно
+Overcast=Пасмурно
+Rain=Дождь
+Storm=Дождь,туман
+Snow=Снег
+SnowStorm=Снег,туман
+
+[Strength Types]
+ZeroStrength=Отсутствует
+VeryWeak=Очень слабый
+Weak=Слабый
+Moderate=Умеренный
+Strong=Сильный
+VeryStrong=Очень сильный
+
+[ERROR]
+FatalError=ФАТАЛЬНАЯ ОШИБКА:
+
+[OPTIONS]
+GameSettings=Игра
+Controls=Клавиши
+VideoSettings=Видео
+AudioSettings=Звук
+DefaultControls=По умолчанию
+DefaultCommanderName=Имя командира по умолчанию:
+Difficulty=Сложность
+Easy=Легко
+Normal=Казуальный
+Hard=Реалистичный
+Elite=Элита
+//WorldScale=Масштаб
+WorldScale=Язык UI:
+Scale1=1:1
+Scale2=1:2
+Scale3=1:3
+Scale4=1:4
+//SpeedMultiplier=Ускорение
+SpeedMultiplier=Язык озвучки:
+HideUnclassified=Скрыть необнаруженные цели в 3D
+Tooltips=Подсказки
+
+HUDSize=Размер HUD
+AutoSave=Автосохранение
+DisableIronman=Метрическая система
+PlayerMarker=Метка игрока
+NonMetricUnits=Не метрические единицы
+EventCamera=Камера событий
+InvertMouse=Инвертировать мышь
+FullScreen=Полный экран
+Resolution=Экран
+Shadows=Тени
+VSync=V-Sync
+DetailedOcean=Детализированный океан
+Terrain=Поверхность
+Trees=Деревья
+UnderwaterParticles=Подводные частицы
+AntiAliasing=Сглаживание
+Off=Выкл
+2x=2x
+4x=4x
+8x=8x
+OceanQuality=Качество океана
+High=Высокое
+Medium=Среднее
+Low=Низкое
+ColorFilter=Цветовой фильтр
+AmbientOcclusion=Фильтр пост-обработки
+Bloom=Блум
+WorldObjects=Отображение объектов
+MusicInCombat=Музыка в бою
+Volume=Громкость
+Music=Музыка
+CrewVoice=Crew Voice
+CameraSensitivity=Чувствительность камеры
+Apply=Применить
+
+[HELP]
+HelpGeneral=Основы
+HelpReference=Справка
+HelpWeapons=Оружие
+HelpNavigation=Навигация
+HelpMap=Карта
+HelpSensors=Сенсоры
+HelpTactics=Тактика
+HelpDamage=Повреждения
+HelpCampaign=Кампания
+LeftMouse=ЛКМ
+RightMouse=ПКМ
+MiddleMouse=СКМ
+MouseWheel=КОЛЕСО МЫШИ
+ShiftKey=Shift
+ControlKey=Control
+AltKey=Alt
+
+[KEYBIND DISPLAY NAMES: COMMAND=OPTIONS DISPLAYNAME]
+Help=Помощь
+
+Rudder Left=Лево руля
+Rudder Right=Право руля
+Set Course=Установить курс
+Planes Up=Рули глубины вверх
+Planes Down=Рули глубины вниз
+Ballast Up=Сбросить балласт
+Ballast Down=Принять балласт
+Increase Power=Увеличить ход
+Decrease Power=Уменьшить ход
+
+Level Submarine=Держать горизонт. ход
+Periscope Depth=Перископная глубина
+Blow Ballast=Продуть балласт
+Emergency Deep=Cрочное погружение
+Sonar Mode=Активный сонар
+Silent Running=Тихий ход
+Noisemaker=Ложная цель
+
+ESM Mast=Мачта РРТР
+RADAR Mast=Радарная мачта
+Periscope=Перископ
+Periscope View=Смотреть в перископ
+Night Vision=Ночное видение
+Mark Target=Отметка цели
+
+Tactical Map=Тактическая карта
+Centre Map=Центр карты
+Auto Centre Map=Автоцентрировать карту
+
+Conditions=Режим
+Signature=Сигнатура
+Damage Report=Контроль повреждений
+Context Menu Previous=Предыдущее
+Context Menu Next=Следующее
+Context Menu Set=Установить
+Next Contact=Следующий контакт
+Recognition Manual=Распознавание ручное
+Helm Controls=Центральный пульт
+Dive Controls=Управление погружением
+Sensor Controls=Сенсоры
+Expand Log=Развернуть Журнал
+
+Next Tube=Следующий аппарат
+Load Tube=Зарядить аппарат
+Stores=Арсенал
+Fire Tube=Активировать аппарат
+Set Waypoint=Устан. точку маршрута
+Edit Waypoint=Редакт. точку маршрута
+
+Weapon Homing=Наведение оружия
+Weapon Attack=Поиск оружия
+Weapon Depth=Глубина оружия
+Activate Torpedo=Активация торпеды
+Cut Wire=Обрезать провод
+Steer Torpedo Left=Направить торпеду влево
+Steer Torpedo Right=Направить торпеду вправо
+Steer Torpedo Shallow=Уменьш. глубину торпеды
+Steer Torpedo Deep=Увелич. глубину торпеды
+
+Time Compression=Ускорение времени
+Hide HUD=Скрыть HUD
+Event Camera=Камера событий Вкл/Выкл
+
+Zoom In=Приблизить
+Zoom Out=Отдалить
+
+Camera Left=Камера влево
+Camera Right=Камера вправо
+Camera Up=Камера вверх
+Camera Down=Камера вниз
+Camera To Player=Камера на игрока
+Camera To Selected Contact=Камера на выбр. контакт
+Camera To Weapon=Камера на оружие
+Camera To Aircraft=Камера на воздушную цель
+Camera To Scenery=Наружная камера
+Drag Camera=Двигать камеру
+Still Camera=Неподвижная камера
+
+Patrol Speed=Средний ход
+Flank Speed=Самый полный ход
+Briefing=Брифинг
+
+Museum Next=Следующий экспонат
+Museum Previous=Предыдущий экспонат
+
+Continue=Продолжить
+Cancel or Quit=Отменить или Выйти

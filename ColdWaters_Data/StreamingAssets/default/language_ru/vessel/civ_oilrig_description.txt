@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Oilrig
+Description=Offshore Drill Rig
+History=Semi-submersible offshore rigs are popular for use in waters deeper than 1500 feet as fixed structures are no longer practical. They are designed for good stability and seakeeping characteristics, and are designed to be towed from well to well. While engaged in drilling operations, they output substantial broadband noise more than enough to mask even relatively loud contacts.

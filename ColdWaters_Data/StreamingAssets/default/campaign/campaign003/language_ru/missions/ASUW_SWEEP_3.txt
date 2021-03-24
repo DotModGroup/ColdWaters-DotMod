@@ -1,0 +1,21 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE INDICATES THE RUSSIANS ARE INCREASING THEIR SUPPORT FOR THE PRC BY SENDING SURFACE UNITS TO REINFORCE THE CHINESE. RECENT RECON OVERFLIGHTS INDICATE THAT A SURFACE STRIKE GROUP IS BEING FORMED AT THIS VERY MOMENT. INTELLIGENCE BELIEVES THIS GROUP WILL TRANSIT THROUGH THE SEA OF JAPAN AND DEPLOY TO SCARBOROUGH SHOAL WEST OF THE PHILIPPINES TO DISRUPT FRIENDLY OPERATIONS IN THE AREA. EXPECT THIS GROUP TO BE HEAVILY DEFENDED. YOUR ORDERS ARE TO INTERCEPT THIS GROUP AND SINK AS MANY SHIPS AS POSSIBLE.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY WARSHIPS
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING SUBMARINES IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) WEAPONS FREE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Pacific convoys. CINCPAC sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+[MISSION MISSED]
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Pacific convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.

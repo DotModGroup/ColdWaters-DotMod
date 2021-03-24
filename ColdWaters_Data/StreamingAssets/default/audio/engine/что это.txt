@@ -1,0 +1,13 @@
+Звук винтов дизеля и атомной  
+
+Открывайте txt лодки в vessels ищите строчку
+PropAudioClip 
+
+для атомной
+PropAudioClip=audio/engine/nuclear.ogg
+
+для дизельной
+PropAudioClip=audio/engine/diesel.ogg
+
+для торпед
+AudioClip=audio/engine/torpedo_in_water_loop.ogg

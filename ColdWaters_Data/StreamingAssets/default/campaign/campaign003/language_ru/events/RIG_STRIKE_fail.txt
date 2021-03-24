@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/plan air 1,campaign/images/pact air 2
+Photo=campaign/images/photos/explosions 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>AIR SUPERIORITY</b>
+Color=57,61,73,255
+Sentence1=In recent days, numerous Chinese air strikes have originated from airbases in and around <ENDLOCATION>, <COUNTRY>. The sudden shift in air superiority in the region has caught the US unprepared and is reported to have had a detrimental impact on allied operations in the area.
+Color=218,218,208,255
+Sentence2=Analysts have speculated that the highly defended installations would have been targeted by submarine-launched cruise missiles, but that the submarines must have been driven off by Chinese defenders.

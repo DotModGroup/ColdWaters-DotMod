@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Yukan
+Description=Yukan-class Landing Ship Tank
+DefensiveWeapons=57mm AA Guns, 25mm AA Guns
+OffensiveWeapons=
+Aircraft=None
+History=These are large landing ships built to replace the aging WW2-era LST's previously operated by the PLAN. A continuous tank deck with bow doors and shallow draft allows these ships to deliver tanks and troops directly onto the beach during landing operations. Featuring only rudimentary AA weaponry, these ships are entirely dependent on their escorts for protection.

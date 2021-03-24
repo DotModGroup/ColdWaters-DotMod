@@ -1,0 +1,10 @@
+Image=campaign/images/pact warship tender 2
+MissionLocation=Training exercise
+Briefing=Use the full sensor suite of your submarine to locate and identify targets.
+Briefing=
+Briefing=Things to practice:
+Briefing=- Understanding passive and active sonar.
+Briefing=- Learn about ocean conditions.
+Briefing=- Manouvering to mast depth.
+Briefing=- Using periscope, ESM and radar masts.
+Briefing=- Learn how to use towed array.

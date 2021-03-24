@@ -1,0 +1,188 @@
+ImageBackground=campaign/images/nato naval 1
+ImagePosition=160,-1026
+ImageHeight=450
+Image=language/help_images/briefing.png
+ImagePosition=160,-1642
+ImageHeight=450
+Image=language/help_images/leave_combat.png
+[/Image]
+<size=24><color=maroon><b>GENERAL</b></color></size>
+Use <KEY:Help> at any time to open this Help, a comprehensive in-game manual on playing Cold Waters. Help opens on the page deemed most relevant to what you are currently doing in game.
+
+Unless otherwise specified, all interactions with the interface are performed with mouse <LEFTCLICK>.
+
+Close Help by <KEY:Help> again or use the <b><color=maroon>X</color></b> button in upper right.
+
+
+<size=24><color=maroon><b>WELCOME TO COLD WATERS</b></color></size>
+From 1947 until 1991 the world was gripped in the Cold War, an era of geopolitical tension accompanied by massive military expenditure and build up by the two major superpowers of the United States and the Soviet Union. Thankfully the war failed to materialise, despite several close incidents, but what if it had?
+
+Cold Waters puts you in that very situation as the commander of a nuclear submarine when the Cold War goes hot. Rather than focus on specific operational details of a submarine, Cold Waters puts you in the Commander's chair where your tactical decisions will determine mission outcome and whether you and your crew return home.
+
+
+<size=24><color=maroon><b>MAIN MENU</b></color></size>
+<DICTIONARY:Training> - Tutorial missions teaching you command of a submarine
+<DICTIONARY:SingleMission> - Stand alone combat missions to test your mettle
+<DICTIONARY:Campaign> - Go to war as the commanding officer of a submarine
+<DICTIONARY:UnitReference> - Encyclopaedia of vessels, aircraft, weapons of the era
+<DICTIONARY:Options> - Edit various game settings
+<DICTIONARY:Credits> - Peruse those behind Cold Waters
+<DICTIONARY:Cancel or Quit> - Exit Cold Waters
+
+
+<size=24><color=maroon><b>TRAINING AND SINGLE MISSIONS</b></color></size>
+For your first time playing Cold Waters we recommend undertaking the Training missions.
+
+Training and Single missions are played as follows:
+Select <DICTIONARY:Training> or <DICTIONARY:SingleMission> from main menu.
+
+<b>MISSION LIST</b>
+Select a mission from the list. A brief summary of what the mission entails is provided in the lower left.
+<DICTIONARY:Start> will begin the mission.
+<DICTIONARY:Back> returns to the main menu.
+
+<b>SELECT VESSEL</b>
+If only one playable submarine class is available for the mission, it will be automatically assigned. Otherwise use <KEY:Museum Next> and <KEY:Museum Previous> to cycle through various submarine classes available for the mission.
+
+Camera controls can be used to view the submarine. See UNIT REFERENCE section below for camera controls.
+
+Use <DICTIONARY:Accept> to choose your vessel.
+<DICTIONARY:Random> will have a submarine assigned to you by naval command.
+<DICTIONARY:Back> returns to the main menu.
+
+After receiving a message assigning you command of a vessel, <DICTIONARY:Accept> enters the mission briefing or <DICTIONARY:Back> returns to the main menu.
+
+
+<b>MISSION BRIEFING</b>
+Prior to any combat, you are presented with a briefing 
+of the current situation. Details on current state of your
+submarine and local conditions are displayed.
+
+Use <DICTIONARY:VesselStatus> to examine your weapons,
+change weapon loadout and view damage report prior
+to entering combat. Or use <KEY:Stores> and <KEY:Damage Report> to open stores
+or damage control panel respectively. These panels
+are explained during the tutorial series or see
+<DICTIONARY:HelpWeapons> and <DICTIONARY:HelpDamage> sections for more information.
+
+Use <DICTIONARY:Battlestations> to begin combat.
+
+OR
+
+Select <DICTIONARY:AttemptClosure> to begin combat.
+In actual combat (not training missions), this can be
+used to close in and start combat at about the range
+indicated. <LEFTCLICK> on the range value
+to change it.
+
+However closure is not always successful as your
+starting range might already be below the range
+specified or you may be detected while closing.
+
+Depending on the circumstances you may want to
+start combat at long range for missile attacks and
+shorter range for torpedo attacks.
+
+
+<b>COMBAT</b>
+Combat enters you into the 3D game world where you take command of your submarine. During tutorial missions, follow the on-screen prompts (<KEY:Help>) to learn more about commanding your submarine in Cold Waters.
+
+<b>ENDING COMBAT</b>
+To end combat use <KEY:Cancel or Quit> to enter the mission menu.
+Alternatively, sailing to the limits of the map (red boundary)
+will immediately open the mission menu where your only
+option will be to leave the combat area.
+
+Entering the mission menu pauses combat.
+
+Once here you may select one of the following:
+1) <DICTIONARY:AbandonShip>
+May be attempted if your submarine is still intact and is
+currently above escape depth. If below escape depth,
+this option is not available.
+
+2) <DICTIONARY:OptionsHeader>
+Bring in the game options to edit game settings.
+
+3) <DICTIONARY:ExitMission>
+End combat and go to the After Action Report.
+This option is available when reaching the map boundary or
+if the following criteria are met:
+- No enemy vessel can detect you and you have no contacts
+- No torpedo or missile is within 15,000 yards
+- No enemy aircraft is within 15,000 yards
+- Your submarine has no significant flooding
+
+The briefing indicates which of these criteria may be
+preventing you from leaving combat.
+
+4) <DICTIONARY:Back>
+Return to combat
+
+If your submarine is ever destroyed the combat interface will immediately be disabled.
+Camera controls and moving camera between objects is still allowed, however you can no longer command your submarine.
+Use <KEY:Cancel or Quit> to enter the mission menu and end the mission, either through <DICTIONARY:AbandonShip> (if possible) or <DICTIONARY:Quit>.
+
+
+<b>AFTER ACTION REPORT</b>
+Immediately after any combat you are presented with a summary of the engagement containing the vessels encountered and whether they were sunk, damaged or not detected. Your remaining weapons and a summary of any subsystems damaged are also provided.
+
+Use <DICTIONARY:Continue> or <KEY:Continue> to close the After Action Report and return to list of missions or to continue playing a campaign.
+
+
+<size=24><color=maroon><b>UNIT REFERENCE</b></color></size>
+The Unit Reference is an encyclopaedia of all ships, submarines, aircraft, torpedoes and missiles currently available in Cold Waters.
+
+Use <KEY:Museum Next> and <KEY:Museum Previous> to cycle through the various units and weapons.
+Pan Camera: either use <KEY:Drag Camera> or <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> and <KEY:Camera Down>.
+Zoom Camera: either use <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+
+<DICTIONARY:Back> will leave the Unit Reference and return to the main menu.
+
+
+<size=24><color=maroon><b>OPTIONS</b></color></size>
+The following describes the effect of in-game option settings.
+
+<b>GAME</b>
+<DICTIONARY:DefaultCommanderName> - textbox to enter the name of your commander to be used in all subsequent missions/campaigns.
+<DICTIONARY:AutoSave> - Campaign only. Automatically saves the game when leaving port, before combat and after combat to a file named "AutoSave".
+<DICTIONARY:PlayerMarker> - Displays an icon on the ocean surface to indicate player submarine position and direction.
+<DICTIONARY:DisableIronman> - Turns off Ironman mode, allowing AutoSave files to be used and saving of the campaign at will.
+<DICTIONARY:HideUnclassified> - Vessels with a solution below maximum are hidden from view, unless detected through the periscope.
+<DICTIONARY:EventCamera> - Camera automatically focuses on weapons being fired, aircraft attacks and weapon impacts.
+<DICTIONARY:Tooltips> - If enabled, hovering over a button will display the associated hotkey.
+<DICTIONARY:Difficulty> - Adjusts the overall difficulty of the game.
+<DICTIONARY:WorldScale>* - Scales horizontal distances. 1:4 makes combat faster paced while 1:1 is most realistic. Terrain is not modified.
+<DICTIONARY:SpeedMultiplier>* - Increases the speed of vessels and torpedoes. Higher values increase the pace of game play while 1 is most realistic.
+
+<b>CONTROLS</b>
+<DICTIONARY:InvertMouse> - Swaps the Y axis of the mouse when dragging to pan the camera.
+<DICTIONARY:CameraSensitivity> - Adjusts the sensitivity of mouse and key control of the camera.
+<DICTIONARY:DefaultControls> - Returns all key and mouse controls to their default values.
+Remapping keys - <LEFTCLICK> a key to highlight it and then press desired key or mouse button to remap. Shift, Control and Alt are also supported in combination with a key.
+
+<b>VIDEO</b>
+<DICTIONARY:FullScreen> - Toggles the game between full screen and windowed mode.
+<DICTIONARY:VSync> - Vertical synchronization (useful to enable to improve performance).
+<DICTIONARY:Trees> - If terrain is enabled, displays trees (useful to disable to improve performance).
+<DICTIONARY:UnderwaterParticles> - Displays the underwater particles.
+<DICTIONARY:ColorFilter> - Post processing color filter for improved visuals.
+<DICTIONARY:AmbientOcclusion> - Post processing filter for improved shadows.
+<DICTIONARY:Shadows> - Enables or disables shadows.
+<DICTIONARY:Bloom> - Post processing effect for improved lighting and visuals.
+<DICTIONARY:AntiAliasing> - Improves jagged edges of graphics.
+<DICTIONARY:OceanQuality> - Effects ocean detail (decrease to improve performance).
+<DICTIONARY:HUDSize> - Resize the "heads up display" in combat.
+<DICTIONARY:Resolution>* - Toggle list of all resolutions supported by your monitor.
+
+* Requires game restart or returning to Main Menu to take full effect.
+
+Multiple Monitor Support: to run Cold Waters across multiple monitors, set <DICTIONARY:FullScreen> to OFF so as to run the game in windowed mode. Stretch the window out to any size you wish. Adjust <DICTIONARY:HUDSize> if needed.
+
+Editing User Interface: see modding documentation in "ColdWaters_Data/StreamingAssets/default" folder of your Cold Waters install directory.
+
+<b>AUDIO</b>
+<DICTIONARY:MusicInCombat> - Enable or disable music when in combat.
+<DICTIONARY:Volume> - Master volume for all sound effects.
+<DICTIONARY:Music> - Master volume for music.
+<DICTIONARY:CrewVoice> - Master volume for crew voices.

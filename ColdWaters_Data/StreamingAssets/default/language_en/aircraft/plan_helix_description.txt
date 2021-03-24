@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Ka-28 Helix
+AircraftDescriptiveName=Kamov Ka-28 Helix
+History=The Ka-28 is the export version of the Ka-27 follow-on design to the Ka-25 Hormone, and compared to its predecessor it is faster, carries a heavier payload over a greater range, and has better sensors to boot. These helicopters should be regarded as a major threat whereever they are encountered.

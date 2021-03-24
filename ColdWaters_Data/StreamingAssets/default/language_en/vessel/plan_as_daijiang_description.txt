@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Dajiang
+Description=Dajiang-class submarine support ship
+History=These ships are true multirole ships, capable of performing as marine salvage rescue, submarine rescue, or functioning as tenders for submarines and surface ships. They are fitted with a huge crane on the foredeck, while aft is a large hangar and helipad for 2 Z-8 Super Frelon ASW helicopters.

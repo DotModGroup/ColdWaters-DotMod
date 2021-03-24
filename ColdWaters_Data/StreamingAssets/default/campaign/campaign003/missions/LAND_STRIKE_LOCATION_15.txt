@@ -1,0 +1,46 @@
+//Shantou
+UseTerrain=TRUE
+MapCoordinates=1770,904
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=220,560
+PlayerHeading=285
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//East N/S
+EnemyWaypoints=490,820|540,480
+//South E/W
+EnemyWaypoints=590,380|15,380
+//Port Front
+EnemyWaypoints=8,520|80,680
+//outer
+EnemyWaypoints=-70,290|250,360|630,600
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+//plan_helix
+HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=plan_y-8x
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-20,300,150
+AircraftSearchArea=734,870,300
+
+//spawn minefields and set detection range
+//ProximityMineLocations=127,731
+//ProximityMineField=18,6,80,15
+//ProximityMineFieldAngles=10
+//ProximityMineScatter=0.3

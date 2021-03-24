@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/medal_of_honor
+Music=audio/music/Cold Waters Spotted
+Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=The Secretary of the Navy expresses his heartfelt congratulations and takes great pleasure in awarding <POSTHUMOUSLY> the
+Sentence1=<b><size=22>MEDAL OF HONOR<n>TO<n>CDR <PLAYERNAME><n>COMMANDING OFFICER,<n><PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL></size></b>
+Sentence2=CITATION:<n>For heroic achievement and valiant leadership in action on <DATE> as Commanding Officer of <PLAYERVESSELNAVY> <PLAYERVESSELNAME>. His unrelentless pursuit of enemy forces in the area of <PLAYERMAPREGION> and dauntless courage in the face of overwhelmingly odds resulted in massive material losses to the enemy and upholds the highest traditions of the United States Naval Service.

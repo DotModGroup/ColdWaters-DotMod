@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=AT-2
+WeaponDescriptiveName=AT-2 ASW Torpedo
+WeaponDescription=Special: ASW\nThe AT-2 is an 4th generation electrical heavy-weight, anti-submarine, air-launched torpedo with active/passive acoustic guidance. Carried by aircraft and some ASW missiles. Will not lock on surface targets. In order to achieve the requested range, speed and detection range, a large diameter torpedo was required. This makes the AT-2 one of the few air-launched heavy-weight torpedoes developed during the Cold War. The majority of the air-launched torpedoes are much smaller and only a quarter of the weight. These features preclude the operability of this torpedo from anti-submarine helicopters.\nWhile there is a number of modifications of AT-2 in real world, they are represented by a single version in the game since their differences are irrelevant gamewise.

@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Victor I
+Description=Victor I-class Nuclear Attack Submarine
+
+History=This class of sixteen boats was completed in 1968 through 1975. They are not as quiet or as capable as contemporary US boats, but they were a major improvement on the earlier November class boats. They are designed for high speed with little effort at silencing, but are fitted with electric creep motors for silent drive.
+
+[Player Ship Instances]
+PlayerClassNames=,
+PlayerClassHullNumbers=K-38,K-69

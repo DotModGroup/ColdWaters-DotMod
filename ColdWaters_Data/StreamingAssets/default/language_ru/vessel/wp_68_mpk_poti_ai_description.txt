@@ -1,0 +1,7 @@
+[Unit Reference]
+ShipClass=Poti
+Description=Poti-class Small Anti-Submarine Ship
+//DefensiveWeapons=AK275 57mm AA Guns
+OffensiveWeapons=RBU-6000 ASW Rockets
+Aircraft=None
+History=These ships are predecessors of the more familiar Grisha class. They were among the first to feature a combined diesel/gas turbine (COGOG) propulsion system and were armed with the then latest sonar and weapons. They are reputed to be good sea boats and while limited in terms of sensors, however the greater than 6000 yard range of their anti-submarine rockets make them dangerous opponents to any sub caught at periscope depth.

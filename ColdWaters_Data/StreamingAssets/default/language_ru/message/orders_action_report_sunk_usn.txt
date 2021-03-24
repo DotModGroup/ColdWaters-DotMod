@@ -1,0 +1,11 @@
+КОМУ: <COMMANDER>
+КОПИЯ:	<COMMANDERFLEET>
+
+ТЕМА: ДОКЛАД О БОЕВЫХ ДЕЙСТВИЯХ
+
+1.	(§) ПРОТИВНИК:
+
+<ENGAGEDCONTACTSLIST>---------------------------------------------------------------
+СУММАРНЫЙ ТОННАЖ:                             <TOTALTONNAGE> <size=11>т</size>
+
+2.	(§) <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERVESSELSTATUS>

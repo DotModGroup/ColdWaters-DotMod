@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato convoy
+Photo=campaign/images/photos/cargo 1,campaign/images/photos/cargo 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CONVOYS ARRIVE</b>|<b>SAFE TRANSIT BY CONVOYS</b>|<b>CONSTANT CONVOYS</b>
+Color=57,61,73,255
+Sentence1=Convoys from North America continue to ferry goods into Western Europe with minimal losses. This has been attributed to efficient cooperation among NATO naval forces. "The convoy system worked in World War I and World War II and it still works today," a spokesman for NATO naval operations said.
+Color=218,218,208,255
+Sentence2=Meanwhile in Western Europe, food and material shortages have failed to materialize in the unoccupied territories. Authorities urge citizens not to make runs on the banks but instead show restraint, so that the financial system can remain functional despite the ongoing conflict.

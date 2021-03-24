@@ -1,0 +1,11 @@
+ОТ: <COMMANDER>
+КОМУ: КПТН <PLAYERNAME>
+КОПИЯ: <COMMANDERFLEET>
+
+
+ТЕМА: НАЗНАЧЕНИЕ НА НОВУЮ КОМАНДНУЮ ДОЛЖНОСТЬ
+
+ДАННЫМ ПРИКАЗОМ ВЫ НАЗНАЧЕНЫ КОМАНДИРОМ:
+<PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> ПРОЕКТА <PLAYERVESSELCLASS>, 
+
+ПОЗДРАВЛЯЕМ И ЖЕЛАЕМ УДАЧИ НА НОВОЙ ДОЛЖНОСТИ.

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SET-65
+WeaponDescriptiveName=SET-65 ASW Torpedo
+WeaponDescription=Special: ASW\nThe SET-65 is a 3rd generation electrical anti-submarine torpedo with active acoustic guidance. Will not lock on surface targets.

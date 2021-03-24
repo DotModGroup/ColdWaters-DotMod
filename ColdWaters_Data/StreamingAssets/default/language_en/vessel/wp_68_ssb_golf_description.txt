@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Golf
+Description=Golf-class Diesel-Electric Ballistic Missile Submarine
+
+History=This class of 24 boats is a derivative of the Foxtrot design fitted with an enlarged sail to house three SS-N-4 Sark nuclear missiles. These missiles are short-ranged, forcing these boats to patrol relatively close to the US mainland.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,,,,,,,,,,,,,,
+PlayerClassHullNumbers=K-96,K-72,K-79,K-83,K-102,K-107,K-88,K-61,K-113,K-118,K-36,K-91,K-93,K-110,K-153,K-142,K-126,K-129,K-136,K-139,K-75,K-99,K-163
