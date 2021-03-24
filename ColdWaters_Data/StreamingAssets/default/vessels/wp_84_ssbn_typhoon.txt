@@ -30,14 +30,10 @@ TestDepth=1050
 //SelfNoise=130
 SelfNoise=124
 ActiveSonarReflection=35
-//ActiveSonarModel=wp_shark_gill
-//PassiveSonarModel=wp_shark_gill
-//TowedArrayModel=wp_shark_tail
 ActiveSonarModel=wp_mgk-500
 PassiveSonarModel=wp_mgk-500
 TowedArrayModel=wp_mgk-500_ta
 AnechoicCoating=TRUE
-//RADAR=wp_snoop_tray
 RADAR=wp_mrkp-58
 RADARSignature=SMALL
 
@@ -66,7 +62,7 @@ MeshHullCollider=wp_ssbn_typhoon_coll_hull
 MeshSuperstructureCollider=wp_ssbn_typhoon_coll_ss
 
 Material=ships/wp_ssbn_typhoon/wp_ssbn_typhoon_mat
-MaterialTextures=ships/wp_ssbn_typhoon/wp_ssbn_typhoon_tx,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_spec,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_nm
+MaterialTextures=vessels/textures/wp_ssbn_typhoon_tx.png,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_spec,ships/wp_ssbn_typhoon/wp_ssbn_typhoon_nm
 Mesh=wp_ssbn_typhoon
 MeshPosition=0,0.111,-1.08
 MeshRudder=wp_ssbn_typhoon_dorsal_rudder

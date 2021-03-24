@@ -30,14 +30,10 @@ TestDepth=1300
 //SelfNoise=142
 SelfNoise=125
 ActiveSonarReflection=30
-//ActiveSonarModel=wp_shark_gill
-//PassiveSonarModel=wp_shark_gill
-//TowedArrayModel=wp_shark_tail
 ActiveSonarModel=wp_mgk-400
 PassiveSonarModel=wp_mgk-400
 TowedArrayModel=wp_mgk-500_ta
 AnechoicCoating=TRUE
-//RADAR=wp_snoop_tray
 RADAR=wp_mrk-50
 RADARSignature=SMALL
 
@@ -67,7 +63,7 @@ MeshHullCollider=wp_ssbn_delta3_coll_hull
 MeshSuperstructureCollider=wp_ssbn_delta3_coll_ss
 
 Material=ships/wp_ssbn_delta3/wp_ssbn_delta3_mat
-MaterialTextures=ships/wp_ssbn_delta3/wp_ssbn_delta3_tx,ships/wp_ssbn_delta3/wp_ssbn_delta3_spec,ships/wp_ssbn_delta3/wp_ssbn_delta3_nm
+MaterialTextures=vessels/textures/wp_ssbn_delta3_tx.png,ships/wp_ssbn_delta3/wp_ssbn_delta3_spec,ships/wp_ssbn_delta3/wp_ssbn_delta3_nm
 Mesh=wp_ssbn_delta3
 MeshPosition=0,0.02452,-1.0117
 MeshRudder=wp_ssbn_delta3_dorsal_rudder

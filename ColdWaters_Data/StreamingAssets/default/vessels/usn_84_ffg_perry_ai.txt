@@ -8,6 +8,8 @@ HullHeight=0.1
 Crew=176
 Range=4500
 HullNumbers=S015.png,S020.png,S027.png,S065.png,S074.png,S154.png
+AircraftNumbers=1
+AircraftTypes=usn_sh60b
 
 [Movement]
 SurfaceSpeed=29
