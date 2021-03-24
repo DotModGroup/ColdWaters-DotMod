@@ -1,4 +1,4 @@
-Designation=МПК
+Designation=FFG
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 

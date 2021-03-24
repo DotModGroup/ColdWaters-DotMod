@@ -1,4 +1,4 @@
-Designation=СКР
+Designation=FFG
 ShipType=SUBMARINE
 PlayerHUD=hud/surface
 

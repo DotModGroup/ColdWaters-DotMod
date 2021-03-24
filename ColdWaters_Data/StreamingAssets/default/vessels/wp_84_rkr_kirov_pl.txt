@@ -1,4 +1,4 @@
-Designation=ТАРКР
+Designation=CGN
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 

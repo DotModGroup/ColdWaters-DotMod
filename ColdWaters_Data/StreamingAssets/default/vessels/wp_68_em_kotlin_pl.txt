@@ -1,6 +1,6 @@
 Designation=DD
 ShipType=SUBMARINE
-PlayerHUD=hud/surface
+PlayerHUD=hud/default
 
 Length=126.1
 Beam=12.7

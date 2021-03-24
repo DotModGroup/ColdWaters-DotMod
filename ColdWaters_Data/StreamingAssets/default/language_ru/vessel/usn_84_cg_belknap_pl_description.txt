@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=КР
 ShipClass=«Белнап»
 Description=Крейсер класса "Belknap" (1984 г)
 

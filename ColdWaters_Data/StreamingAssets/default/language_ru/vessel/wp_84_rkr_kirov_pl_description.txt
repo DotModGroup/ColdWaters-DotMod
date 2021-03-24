@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=ТАРКР
 ShipClass=«Орлан»
 Description=ТАРКР пр. 1144 «Орлан» (1984г.)
 
