@@ -21,5 +21,5 @@ ColdWaters_Data/*
 !ColdWaters_Data/Managed
 !ColdWaters_Data/StreamingAssets
 
-# But don't ignore "file_to_be_staged.txt"
-!!ColdWaters_Data/Managed/Assembly-CSharp.dll
+# But don't ignore files
+!ColdWaters_Data/Managed/Assembly-CSharp.dll
