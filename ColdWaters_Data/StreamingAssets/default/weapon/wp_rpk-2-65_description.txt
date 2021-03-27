@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SS-N-15B Starfish
+WeaponDescriptiveName=SS-N-15B Starfish ASW Cruise Missile
+WeaponDescription=Special: Large caliber\nThe SS-N-15B Starfish is an upgraded version of the original SS-N-15 (РПК-2 «Вьюга-53») designed for use in 650mm torpedo tubes instead of 530mm tubes. 

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SA-N-4 Gecko
+WeaponDescriptiveName=SA-N-4 Gecko SAM
+WeaponDescription=Special: Universal\nThe SA-N-4 Gecko (Russian: Osa-MA) is a Soviet universal SAM missile analgous to the US RIM-66 Standard, and is capable of attacking ships, aircraft, and missiles.

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SS-N-14B Silex
+WeaponDescriptiveName=SS-N-14B Silex Dual-Purpose Cruise Missile
+WeaponDescription=Special: Dual-Purpose\nThe SS-N-14B Silex (Russian: УРК-5 «Раструб-Б») is an upgraded verion of the orignial missile with a new seeker added to allow the missile to attack surface targets, giving ships like the Krivak ASuW capabilities without reducing storage for thier ASW missiles.

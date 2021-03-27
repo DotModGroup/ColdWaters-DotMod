@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SS-N-15 Starfish
+WeaponDescriptiveName=SS-N-15 Starfish ASW Cruise Missile
+WeaponDescription=The SS-N-15 Starfish, also known as the РПК-2 «Вьюга-53», is a Russian ASW cruise missile carried by surface ships and submarines alike. While the missile could theoretically carry a torpedo, in service is was always outfitted with a nuclear depth charge. For gameplay purposes this has been replaced with a homing torpedo.

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SA-N-9 Gauntlet
+WeaponDescriptiveName=SA-N-9 Gauntlet SAM
+WeaponDescription=The SA-N-9 Gauntlet is a Russian-made ship-based SAM system. The missle is known there as the ЗРК «Kinzhal».
