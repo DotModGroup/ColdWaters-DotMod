@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=«Strela-2»
-WeaponDescriptiveName=MANPADS «Strela-2»
-WeaponDescription=The 9K32 Strela-2 (NATO reporting name: SA-7 Grail) is a light-weight, shoulder-fired, surface-to-air missile (or MANPADS) system. It is designed to target aircraft at low altitudes, with passive infrared homing guidance and destroy them with a high explosive warhead.
+WeaponName=SA-7 Grail
+WeaponDescriptiveName=SA-7 Grail MANPADS
+WeaponDescription=The SA-7 Grail, known to the Russian military as the «Стрела-2», is a passive-infared homing MANPADS system. It can often be found in a submarine's conning tower for close-range anti-aircraft defense.

@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=«Rastrub-B»
-WeaponDescriptiveName=URK-5 "Rastrub-B" Anti-ship/Anti-sub Missile
-WeaponDescription=Special: Dual-purpose\nURK-5 "Rastrub-B" (NATO classification: SS-N-14 Silex) is a modernization of an URPK-3 «Metel'». Anti-ship mode was introduced and it could be used both against surface and submerged targets. Mode can be switched in the weapon settings just before launch.
+WeaponName=SS-N-14B Silex
+WeaponDescriptiveName=SS-N-14B Silex Dual-Purpose Cruise Missile
+WeaponDescription=Special: Dual-Purpose\nThe SS-N-14B Silex (Russian: УРК-5 «Раструб-Б») is an upgraded verion of the orignial missile with a new seeker added to allow the missile to attack surface targets, giving ships like the Krivak ASuW capabilities without reducing storage for thier ASW missiles.
