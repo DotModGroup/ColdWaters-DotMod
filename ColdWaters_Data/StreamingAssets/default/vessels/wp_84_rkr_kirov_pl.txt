@@ -96,7 +96,7 @@ AutoMissilesPerTarget=1
 AutoMissileReloadTime=16
 AutoMissileLaunchDepth=15
 AutoMissileLaunchPoints=-0.14147,0.246,0.3|0.14147,0.246,0.3|-0.14147,0.246,0.26|0.14147,0.246,0.26
-AutoMissileLaunchPointsRotation=-25,-90,0|-25,90,0|-25,90,0|25,90,0
+AutoMissileLaunchPointsRotation=-25,-90,0|-25,90,0|-25,-90,0|-25,90,0
 
 ChaffType=wp_chaff
 ChaffProbability=0.99

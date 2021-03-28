@@ -2052,7 +2052,7 @@ WeaponType=MISSILE
 Special=SurfaceLaunched
 *
 Warhead=133
-SensorRange=60150
+SensorRange=82000
 SensorAngles=30,45
 *
 AntiAircraftHitProbability=0.95
@@ -2064,11 +2064,11 @@ MissileChaffVulnerability=0.9
 *
 MaxLaunchDepth=5
 *
-WeaponAltitudes=450,450
+WeaponAltitudes=300,300
 CruiseTime=0
 BoosterReleasedAfterSeconds=999
 *
-WeaponRanges=5400,27400
+WeaponRanges=5400,82000
 WeaponSpeed=40,3900
 TurnRate=30
 MaxPitchAngle=35
