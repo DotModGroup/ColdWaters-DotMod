@@ -5,5 +5,5 @@ History=This class is an enlarged and improved derivative of the Kresta II desig
 
 [Player Ship Instances]
 
-PlayerClassNames="Nikolaev","Ochakov","Kerch","Azov","Petropavlovsk","Tashkent","Tallin"
+PlayerClassNames=Nikolaev,Ochakov,Kerch,Azov,Petropavlovsk,Tashkent,Tallin
 PlayerClassHullNumbers=C-2001,C-2002,C-2003,C-2004,C-2005,C-2006,C-2007

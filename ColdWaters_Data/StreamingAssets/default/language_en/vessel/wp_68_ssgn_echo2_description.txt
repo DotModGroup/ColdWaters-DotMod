@@ -5,5 +5,5 @@ Description=Echo II-class Nuclear Cruise Missile Submarine
 History=The Echo II is a modification of the original Echo-class which carried the nuclear land-attack version of the SS-N-3 Shaddock cruise missile. The modifications include adding a pair of launcher aft of the sail, and enlarging the sail to accommodate the Front Door missile guidance radar in a swivelling mount, as was done on the Juliet. They are fitted with the same unreliable propulsion plant as the Novembers, but the large cutouts for the missile exhausts make them even noisier. The need to stay surfaced in order to fire further limits their usefulness.
 
 [Player Ship Instances]
-PlayerClassNames=,,,,,,"Krasnogvardeets",,,,,,,
+PlayerClassNames=,,,,,,Krasnogvardeets,,,,,,,
 PlayerClassHullNumbers=K-166,K-170,K-172,K-47,K-28,K-74,K-22,K-35,K-90,K-116,K-128,K-131,K-135,K-125

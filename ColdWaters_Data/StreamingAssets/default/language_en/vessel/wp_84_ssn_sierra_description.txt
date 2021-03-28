@@ -5,5 +5,5 @@ Description=Sierra-class Nuclear Attack Submarine
 History=This is the latest and most advanced Soviet attack submarine. They are faster and deeper diving than US submarines, and feature the same sensors and weapons as the Victor IIIs in a much quieter hull, benefiting from latest technology.
 
 [Player Ship Instances]
-PlayerClassNames="Karp","Kostroma"
+PlayerClassNames=Karp,Kostroma
 PlayerClassHullNumbers=K-239,K-276

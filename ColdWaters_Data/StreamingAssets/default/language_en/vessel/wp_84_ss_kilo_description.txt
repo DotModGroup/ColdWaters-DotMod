@@ -4,5 +4,5 @@ Description=Kilo-class Diesel-Electric Submarine (1984)
 History=This is the latest and most advanced diesel-electric submarine built by the Soviets. Compared to earlier designs, the Kilo has adopted the Albacore-hull form, which makes it much faster underwater. It is also much quieter, and carries weapons and sensors on par with the third-generation nuclear attack submarines like the Victor III.
 
 [Player Ship Instances]
-PlayerClassNames="Novosibirsk",,"Chita","Vyborg",,
+PlayerClassNames=Novosibirsk,,Chita,Vyborg,,
 PlayerClassHullNumbers=B-401,B-248,B-260,B-227,B-229,B-404

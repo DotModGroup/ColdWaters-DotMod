@@ -5,5 +5,5 @@ Description=Yankee-class Nuclear Ballistic Missile Submarine
 History=This was the first really modern boomer built by the Soviet Union, and closely follows the pattern established by contemporary western SSBN's with forward planes mounted on the sail, and 16 missiles in a compartment behind the sail in marked contrast to earlier designs like the Golf and Hotel that had much larger missiles mounted in a large sail structure. Interestingly this same arrangement was seriously considered by the USN before the advent of Polaris. Unlike those early boats, the Yankees are capable of submerged launch, which makes them orders of magnitude more capable. Like other Soviet boats, they are noisy compared to western boats. This design would later be refined into the Delta class.
 
 [Player Ship Instances]
-PlayerClassNames="Leninets",,,
+PlayerClassNames=Leninets,,,
 PlayerClassHullNumbers=K-137,K-26,K-32,K-140

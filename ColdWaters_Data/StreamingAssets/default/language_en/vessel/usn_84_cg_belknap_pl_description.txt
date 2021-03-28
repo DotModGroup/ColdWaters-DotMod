@@ -5,5 +5,5 @@ Description=Belknap-class Guided Missile Cruiser (1984)
 History=This class was built in the 1960's as fast single-ended guided missile frigates for screening carrier taskforces. The design is derivative of the earlier Leahy-class double-ended taskforce frigates, but substitutes the rear missile launcher for a 5-inch gun, along with an upgraded missile system capable of firing both the Standard surface-to-air missile and the ASROC anti-submarine missile. They were reclassified as guided missile cruisers in 1975.
 
 [Player Ship Instances]
-PlayerClassNames="Josephus Daniels","Wainwright","Jouett","Horne","Sterett","William H. Standley","Fox","Biddle"
+PlayerClassNames=Josephus Daniels,Wainwright,Jouett,Horne,Sterett,William H. Standley,Fox,Biddle
 PlayerClassHullNumbers=CG-27,CG-28,CG-29,CG-30,CG-31,CG-32,CG-33,CG-34

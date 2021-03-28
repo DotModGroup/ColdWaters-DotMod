@@ -4,5 +4,5 @@ Description=Tango-class Diesel-Electric Attack Submarine
 History=These are large diesel-electric attack submarines designed for both long-range operations and defending the Arctic SSBN bastions. They are comparable to the Victor II-class nuclear attack submarines in terms of sensors and weapons, but are significantly quieter when running on batteries. This makes them suitable for Spetsnaz operations in addition to operating against NATO shipping.
 
 [Player Ship Instances]
-PlayerClassNames=,,"Magnitogorsky komsomoletz",,,,,,,"Novosibirskiy komsomoletz",,,
+PlayerClassNames=,,Magnitogorsky komsomoletz,,,,,,,Novosibirskiy komsomoletz,,,
 PlayerClassHullNumbers=B-443,B-474,B-437,B-515,B-519,B-290,B-303,B-146,B-546,B-30,B-215,B-396,B-307,B-319,B-225,B-312

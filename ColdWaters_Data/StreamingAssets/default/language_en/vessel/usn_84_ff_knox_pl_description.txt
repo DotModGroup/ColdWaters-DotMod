@@ -5,5 +5,5 @@ Description=Knox-class Frigate (1984)
 History=This class was originally laid down as second-generation anti-submarine escorts, pairing the very capable SQS-26 sonar with the DASH drone helicopter. Because of poor reliability, the DASH was later replaced with the SH-2F Seasprite LAMPS helicopter, providing the ship with a long-range ASW capability in addition to its ASROC battery. These ships have been refitted with the TACTASS towed array.
 
 [Player Ship Instances]
-PlayerClassNames=«Knox»,«Roark»,«Gray»,«Hepburn»,«Connole»,«Rathburne»,«Meyerkord»,«W. S. Sims»,«Lang»
+PlayerClassNames=Knox,Roark,Gray,Hepburn,Connole,Rathburne,Meyerkord,W. S. Sims,Lang
 PlayerClassHullNumbers=FF-1052,FF-1053,FF-1054,FF-1055,FF-1056,FF-1057,FF-1058,FF-1059,FF-1060
