@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=«Korund»
-WeaponDescriptiveName=MG-74 «Korund» Self-Propelled Decoy
+WeaponName="Korund"
+WeaponDescriptiveName=MG-74 "Korund" Self-Propelled Decoy
 WeaponDescription=The MG-74 is a passive decoy that attempts to simulate the sound of a submarine to lure enemy passive sonar. It can be set to various motion patterns to get tactical advantage.

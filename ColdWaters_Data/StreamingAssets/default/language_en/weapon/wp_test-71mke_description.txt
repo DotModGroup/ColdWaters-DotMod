@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=TEST-71MK
 WeaponDescriptiveName=TEST-71MK Torpedo
-WeaponDescription=This 5th generation electrical torpedo is a further improvement of the TEST-71M wire-guided torpedo. The speed and range remain the same but the new «Keramika» guidance system with increaced sensor range has been installed.
+WeaponDescription=This 5th generation electrical torpedo is a further improvement of the TEST-71M wire-guided torpedo. The speed and range remain the same but the new "Keramika" guidance system with increaced sensor range has been installed.

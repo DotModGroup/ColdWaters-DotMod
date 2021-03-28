@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=TEST-71
 WeaponDescriptiveName=TEST-71 ASW Torpedo
-WeaponDescription=Special: ASW, Limited wire guidance\nThis 4th generation electrical torpedo improves on the SET-65 by introducing basic wire guidance and more advanced active/passive homing capabilities of «Sapfir» guidance system. However the range of the homing system remains the same. Will not lock on surface targets. Horizontal-only wire guidance. Wire breaks at depth less then 12 meters.
+WeaponDescription=Special: ASW, Limited wire guidance\nThis 4th generation electrical torpedo improves on the SET-65 by introducing basic wire guidance and more advanced active/passive homing capabilities of "Sapfir" guidance system. However the range of the homing system remains the same. Will not lock on surface targets. Horizontal-only wire guidance. Wire breaks at depth less then 12 meters.

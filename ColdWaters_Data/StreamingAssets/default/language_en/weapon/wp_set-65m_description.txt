@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=SET-65 III
 WeaponDescriptiveName=SET-65 III Torpedo
-WeaponDescription=Special: ASW\nThe SET-65 III is a 4th generation electrical anti-submarine torpedo. It is a moderinzed version of original SET-65 torpedo with new active/passive «Sapfir» guidance system. Will not lock on surface targets.
+WeaponDescription=Special: ASW\nThe SET-65 III is a 4th generation electrical anti-submarine torpedo. It is a moderinzed version of original SET-65 torpedo with new active/passive "Sapfir" guidance system. Will not lock on surface targets.

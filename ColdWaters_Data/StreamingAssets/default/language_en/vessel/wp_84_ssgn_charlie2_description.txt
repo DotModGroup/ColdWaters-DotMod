@@ -4,5 +4,5 @@ Description=Charlie II-class Nuclear Cruise Missile Submarine
 History=The Charlie II's differ from the Charlie 1 primarily in adopting the SS-N-9 Siren missile in place of the short-legged SS-N-7 Starbright, which necessitated lengthening the sub. They are also fitted with a somewhat quieter tandem propeller and have the ability to fire SS-N-15 stand-off missiles from their torpedo tubes, making them more formidable opponents.
 
 [Player Ship Instances]
-PlayerClassNames=«Berkut»,,,,,
+PlayerClassNames="Berkut",,,,,
 PlayerClassHullNumbers=K-452,K-458,K-476,K-503,K-508,K-209

@@ -82,13 +82,21 @@ Anti-MissileRADARRestAngle=0,180,0,180
 PlayerWarningRange=3300
 JammingRange=4500
 
-AntiAirMissileType=wp_m-4
-AntiAirMissilesNumbers=20
-AntiAirMissilesPerTarget=1
-AntiAirMissileReloadTime=16
-AntiAirMissileLaunchDepth=5
-AntiAirMissileLaunchPoints=-0.01872,0.148,0.433|0.01872,0.148,0.433|-0.01872,0.148,-0.385|0.01872,0.148,-0.385
-AntiAirMissileLaunchPointsRotation=-24,0,0|-24,0,0|-24,180,0|-24,180,0
+AntiAirMissileType=wp_s-300
+AntiAirMissilesNumbers=48
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=3
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=-0.065,0.14,0.935|0.025,0.14,0.935|0.065,0.14,0.935|-0.065,0.14,0.88|0.025,0.14,0.88|0.065,0.14,0.88|-0.065,0.14,0.82|0.025,0.14,0.82|0.065,0.14,0.82|-0.065,0.14,0.765|0.025,0.14,0.765|0.065,0.14,0.765
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
+AutoMissileType=wp_m-4
+AutoMissilesNumbers=40
+AutoMissilesPerTarget=1
+AutoMissileReloadTime=16
+AutoMissileLaunchDepth=15
+AutoMissileLaunchPoints=-0.14147,0.246,0.3|0.14147,0.246,0.3|-0.14147,0.246,0.26|0.14147,0.246,0.26
+AutoMissileLaunchPointsRotation=-25,-90,0|-25,90,0|-25,90,0|25,90,0
 
 ChaffType=wp_chaff
 ChaffProbability=0.99
@@ -415,6 +423,21 @@ MeshMast=FALSE
 MeshPosition=0,0.45,-0.18
 MastHeight=0.074
 MeshMast=FALSE
+
+//Osa launchers
+AssetBundle=bundles/dotmod/parts/wp_zif122
+ModelFile=assets/resourcesforbundles/parts/wp_zif122/wp_zif122.obj
+Material=assets/resourcesforbundles/parts/wp_zif122/wp_zif122_mat.mat
+MaterialTextures=assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_tx.png,assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_spec.png,assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_nm.png
+MeshRotation=0,-90,0
+MeshPosition=-0.12275,0.19,0.283
+Mesh=zif122_base
+Mesh=zif122_rot
+
+MeshRotation=0,90,0
+MeshPosition=0.12275,0.19,0.283
+Mesh=zif122_base
+Mesh=zif122_rot
 
 ModelFile=ships/wp_rkr_kirov/wp_rkr_kirov
 

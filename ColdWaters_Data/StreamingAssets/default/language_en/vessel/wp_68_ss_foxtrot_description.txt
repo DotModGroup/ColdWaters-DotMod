@@ -5,5 +5,5 @@ Description=Foxtrot-class Diesel-Electric Attack Submarine (1968)
 History=Some 58 of these boats were built from 1957 to 1971. In the early 60's these boats represented the last of the old inexpensive conventional submarines designed to prowl the North Atlantic for NATO convoys but in the 1980's they are mostly used as special operations boats for Spetsnaz operations. Though bordering on outdated, they are quiet boats and can still be a threat to non-vigilant NATO submarine captains.
 
 [Player Ship Instances]
-PlayerClassNames=,,,,,«Chelyabinsky komsomolets»,,,,,,,,,,,«Bryansky komsomolets»,,«Yaroslavsky komsomolets»,,,,«Ulyanovsky komsomolets»
+PlayerClassNames=,,,,,"Chelyabinsky komsomolets",,,,,,,,,,,"Bryansky komsomolets",,"Yaroslavsky komsomolets",,,,"Ulyanovsky komsomolets"
 PlayerClassHullNumbers=B-94,B-95,B-133,B-139,B-57,B-4,B-153,B-164,B-2,B-55,B-98,B-101,B-6,B-107,B-112,B-25,B-21,B-9,B-26,B-28,B-34,B-397,B-400

@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=65-76
-WeaponDescriptiveName=65-76 «Whale» Torpedo
+WeaponDescriptiveName=65-76 "Whale" Torpedo
 WeaponDescription=Special: Wake-homing, Large caliber\nThe 65-76 is a 650mm wake-homing torpedo manufactured in the Soviet Union/Russia. It was developed for use against US Navy aircraft carrier battle groups, as well as large merchant targets such as supertankers or superfreighters. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes. Due to its size it can be loaded only into 650mm torpedo tubes. Also, bigger size means that it takes more time to load.
