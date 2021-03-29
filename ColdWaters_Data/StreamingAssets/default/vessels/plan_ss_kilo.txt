@@ -29,11 +29,11 @@ TestDepth=820
 [Acoustics & Sensors]
 SelfNoise=120
 ActiveSonarReflection=20
-ActiveSonarModel=wp_shark_gill
-PassiveSonarModel=wp_shark_gill
+ActiveSonarModel=wp_mgk-400
+PassiveSonarModel=wp_mgk-400
 TowedArrayModel=FALSE
 AnechoicCoating=TRUE
-RADAR=wp_snoop_tray
+RADAR=wp_mrk-50
 RADARSignature=SMALL
 
 [Weapon Systems]

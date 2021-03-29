@@ -53,6 +53,9 @@ ReferenceShells=Снаряды
 ReferenceRBUAbb=РБУ
 ReferenceRBUSalvos=залпов
 ReferenceRBUSalvosAbb=злп
+ReferenceGunRange=Дальность орудий
+ReferenceSAMRange=Дальность ЗРК
+ReferenceAutoSAMRange=Дальность ЗРК ПРО
 
 GLAVCOM VMF=ГЛАВКОМ ВМФ
 COM NORTHERN FLEET=КОМ. СЕВ. ФЛОТА

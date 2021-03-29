@@ -35,12 +35,13 @@ PeriscopeDepthInFeet=0
 [Acoustics & Sensors]
 SelfNoise=190
 ActiveSonarReflection=25
-ActiveSonarModel=wp_horse_jaw
-PassiveSonarModel=wp_horse_jaw
+ActiveSonarModel=wp_mgk-355
+PassiveSonarModel=wp_mgk-355
 TowedArrayModel=wp_horse_tail
 AnechoicCoating=FALSE
 RADAR=wp_don_kay
 RADARSignature=MEDIUM
+TowedArrayPosition=0,-0.02,-1.65
 
 [Weapon Systems]
 NavalGuns=wp_ak-100_shell,wp_ak-100_shell
@@ -110,7 +111,7 @@ NoisemakerReloadTime=20
 LabelPosition=370,39
 BOWSONAR=FRONT
 LabelPosition=50,39
-TOWED=FALSE
+TOWED=REAR
 LabelPosition=23,204
 PERISCOPE=SAIL
 LabelPosition=23,183

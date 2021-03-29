@@ -33,8 +33,8 @@ PeriscopeDepthInFeet=44
 [Acoustics & Sensors]
 SelfNoise=170
 ActiveSonarReflection=16
-ActiveSonarModel=wp_horse_jaw
-PassiveSonarModel=wp_horse_jaw
+ActiveSonarModel=wp_mgk-355
+PassiveSonarModel=wp_mgk-355
 TowedArrayModel=wp_horse_tail
 AnechoicCoating=FALSE
 RADAR=wp_don_kay

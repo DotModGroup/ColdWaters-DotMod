@@ -34,13 +34,10 @@ PeriscopeDepthInFeet=40
 //SelfNoise=160
 SelfNoise=145
 ActiveSonarReflection=25
-//ActiveSonarModel=wp_shark_teeth
-//PassiveSonarModel=wp_shark_fin
 ActiveSonarModel=wp_mg-200
 PassiveSonarModel=wp_mg-10
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-//RADAR=wp_snoop_tray
 RADAR=wp_rlk-101
 RADARSignature=SMALL
 

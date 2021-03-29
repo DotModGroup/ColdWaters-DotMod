@@ -37,13 +37,10 @@ Diesel=TRUE
 //SelfNoise=136
 SelfNoise=125
 ActiveSonarReflection=20
-//ActiveSonarModel=wp_pike_jaw
-//PassiveSonarModel=wp_trout_cheek
 ActiveSonarModel=wp_mg-200
 PassiveSonarModel=wp_mg-10
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-//RADAR=wp_snoop_plate
 RADAR=wp_flag
 RADARSignature=SMALL
 

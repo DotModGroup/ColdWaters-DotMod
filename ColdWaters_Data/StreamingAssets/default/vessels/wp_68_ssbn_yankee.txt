@@ -30,13 +30,10 @@ TestDepth=1475
 //SelfNoise=147
 SelfNoise=137
 ActiveSonarReflection=30
-//ActiveSonarModel=wp_shark_fin
-//PassiveSonarModel=wp_shark_teeth
 ActiveSonarModel=wp_mgk-100
 PassiveSonarModel=wp_mgk-100
 TowedArrayModel=FALSE
 AnechoicCoating=TRUE
-//RADAR=wp_snoop_tray
 RADAR=wp_rlk-101
 RADARSignature=SMALL
 

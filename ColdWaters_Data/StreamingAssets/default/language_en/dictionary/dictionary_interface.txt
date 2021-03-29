@@ -53,6 +53,9 @@ ReferenceShells=Shells
 ReferenceRBUAbb=RBU
 ReferenceRBUSalvos=salvos
 ReferenceRBUSalvosAbb=salv.
+ReferenceGunRange=Guns range
+ReferenceSAMRange=SAM range
+ReferenceAutoSAMRange=Secondary SAM range
 
 COM NORTHERN FLEET=COM NORTHERN FLEET
 GLAVCOM VMF=GLAVCOM VMF

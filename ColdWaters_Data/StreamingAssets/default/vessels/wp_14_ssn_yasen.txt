@@ -29,8 +29,8 @@ TestDepth=2000
 [Acoustics & Sensors]
 SelfNoise=105
 ActiveSonarReflection=20
-ActiveSonarModel=wp_amfora
-PassiveSonarModel=wp_amfora
+ActiveSonarModel=wp_mgk-600
+PassiveSonarModel=wp_mgk-600
 TowedArrayModel=wp_amfora_ta
 AnechoicCoating=TRUE
 RADAR=wp_snoop_pair

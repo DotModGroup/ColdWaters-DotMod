@@ -28,6 +28,8 @@ AirTargetIntercepted=Conn, Air target <TARGET> is shot down.
 AirTargetNotIntercepted=Conn, Air target <TARGET> is still intact.
 ScanAirRaiseRadarMast=Conn, Radar is swiched off. Detection of air targets is impossible.
 ScanAirRadarDamaged=Conn, Radar is damaged. Detection of air targets is impossible.
+AutoSAMEnabled=Conn, secondary SAM is ready to fire.
+AutoSAMDisabled=Conn, secondary SAM is offline.
 
 NoSuitableTorpedo=No torpedoes of that caliber
 
