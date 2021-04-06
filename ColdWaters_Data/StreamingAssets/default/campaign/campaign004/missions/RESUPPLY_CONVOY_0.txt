@@ -1,5 +1,5 @@
 MissionType=RESUPPLY_CONVOY
-AllowedOnlyFor=SSX
+AllowedOnlyFor=
 ForbiddenFor=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE

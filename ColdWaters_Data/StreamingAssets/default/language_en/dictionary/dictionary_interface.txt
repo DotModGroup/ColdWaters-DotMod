@@ -32,7 +32,12 @@ PrestigeCost=Current Prestige: <PRESTIGE>                         Prestige neede
 PrestigeInsufficient=Insufficient Prestige to command <DESIGNATION> <VESSELCLASS>
 PrestigeCurrent=Prestige: <CURRENTPRESTIGE>
 PrestigeForMission=Prestige earned: <PRESTIGEFORMISSION>\nPrestige: <CURRENTPRESTIGE>
-PrestigeTransferCost=Fill transfer report? (-<PRESTIGECOST> prestige)
+PrestigeChangeSub=Change vessel
+PrestigeTransferCost=File transfer request? \n(- <PRESTIGECOST> prestige)
+//PrestigeTransferCost=Fill transfer report? \n(- <PRESTIGECOST> prestige)
+PrestigeTransferNotEnough=Not enough prestige.
+PrestigeTransferFlavor=I, <PLAYERNAME>, request to be relinquished of command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and transferred to another vessel.
+//\n<b>TRANSFER REQUEST</b>\n\nI relinquish command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and request transfer to another vessel.\n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 ReferenceActiveRange=Active Range
 ReferenceTorpedoMaxDepth=Max. Depth

@@ -1,7 +1,7 @@
 //Player mission
 MissionType=INSERTION
 AllowedOnlyFor=
-ForbiddenFor=SSX
+ForbiddenFor=
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY

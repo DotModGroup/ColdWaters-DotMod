@@ -59,6 +59,7 @@ TorpedoTubeSize=14
 TubeReloadTime=30
 
 MissileType=usn_ugm84
+AntiShipMissileType=usn_ugm84
 MissilesPerLauncher=8
 
 [Defenses]

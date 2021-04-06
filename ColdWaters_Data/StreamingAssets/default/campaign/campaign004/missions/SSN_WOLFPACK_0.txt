@@ -1,7 +1,7 @@
 //Player mission
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SSX
+ForbiddenFor=SURFACE
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

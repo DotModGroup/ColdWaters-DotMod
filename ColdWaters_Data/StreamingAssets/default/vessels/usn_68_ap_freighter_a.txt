@@ -47,7 +47,8 @@ MeshRotation=0,0,0
 MeshHullCollider=civ_ms_freighter_a_coll_hull
 MeshSuperstructureCollider=civ_ms_freighter_a_coll_ss
 
-Material=ships/civ_ms_freighter_a/civ_ms_freighter_a_mat
+AssetBundle=bundles/vessels/usn/usn_transport_mats
+Material=assets/resourcesforbundles/vessels/usn/usn_transport_mats/usn_68_ap_freighter_a_mat.mat
 
 
 -MaterialTextures=ships/civ_ms_freighter_a/civ_ms_freighter_a_tx,ships/civ_ms_freighter_a/civ_ms_freighter_a_spec,ships/civ_ms_freighter_a/civ_ms_freighter_a_nm

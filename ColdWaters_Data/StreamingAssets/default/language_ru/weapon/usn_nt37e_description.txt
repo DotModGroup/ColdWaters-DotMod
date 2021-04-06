@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=NT37E
+WeaponDescriptiveName=Торпеда NT37E
+WeaponDescription=Экспортный вариант торпеды мк37 с цифровой навигационной подсистемой и другими модернизациями.

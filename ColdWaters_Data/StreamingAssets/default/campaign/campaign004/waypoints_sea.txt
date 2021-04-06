@@ -111,15 +111,15 @@ WaypointPosition=183.80,163.90,80
 NorthWaypoints=N3,P2,B2
 SouthWaypoints=NC2,NC1
 EastWaypoints=B1,B2,NC1
-WestWaypoints=N3,N2,NC2
+WestWaypoints=N3,N2,N4
 
 //16-the Norwegian Sea
 WaypointName=N2
 WaypointPosition=5.20,84.00,200
-NorthWaypoints=IG1,N3
+NorthWaypoints=N4,N3
 SouthWaypoints=IG6,NC4,NC3,NC2
 EastWaypoints=N3,N1,NC2,NC3
-WestWaypoints=IG1,IG5,IG6,NC4
+WestWaypoints=N4,IG1,IG5,IG6
 
 //17-the Greenland Sea
 WaypointName=N3
@@ -127,14 +127,14 @@ WaypointPosition=90.90,274.00,50
 NorthWaypoints=P2
 SouthWaypoints=IG1,N2,N1
 EastWaypoints=P2,N1
-WestWaypoints=IG1,N2
+WestWaypoints=IG1,N4
 
 //18-the Denmark Strait
 WaypointName=IG1
 WaypointPosition=-163.60,200.70,30
 NorthWaypoints=N3
 SouthWaypoints=N2
-EastWaypoints=N3,N2
+EastWaypoints=N3,N4
 WestWaypoints=IG2
 
 //19-the Denmark Strait
@@ -162,9 +162,9 @@ WestWaypoints=A4,A5,IG7
 //22-the Iceland-UK Gap
 WaypointName=IG5
 WaypointPosition=-158.30,20.70,50
-NorthWaypoints=IG4
-SouthWaypoints=IG7
-EastWaypoints=N2
+NorthWaypoints=IG4,IG1,N4,N2
+SouthWaypoints=IG7,WA1
+EastWaypoints=N2,NC3
 WestWaypoints=IG4,IG7
 
 //23-the Iceland-UK Gap
@@ -301,3 +301,11 @@ NorthWaypoints=A5,IG7,WA1
 SouthWaypoints=A6,CS1
 EastWaypoints=IG7,WA1,CS1
 WestWaypoints=A5,A6
+
+//42-Jan Mayen
+WaypointName=N4
+WaypointPosition=-30,169,20
+NorthWaypoints=N3
+SouthWaypoints=IG5,N2
+EastWaypoints=N1
+WestWaypoints=IG1

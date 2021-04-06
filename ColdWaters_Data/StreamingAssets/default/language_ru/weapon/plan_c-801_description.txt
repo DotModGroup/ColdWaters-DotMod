@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=C-801
-WeaponDescriptiveName=C-801 Anti-Ship Missile
-WeaponDescription=This missile is very similar to the French Exocet and US Harpoon missiles. From submarines it is launched on using a canister similar to Sub-Harpoon, and features similar performance to its western counterparts.
+WeaponName=ПКР YJ-8
+WeaponDescriptiveName=ПКР YJ-8
+WeaponDescription=YJ-8 или Инцзи-8 (кит. ин цзи (Атакующий орёл) - 8, экспортное обозначение — C-801, Классификация НАТО: CSS-N-4 Sardine) — китайская противокорабельная ракета средней дальности. По внешнему виду и способу применения аналогична французской ПКР «Экзосет». Также как и «Экзосет» имеет маломощную БЧ, недостаточную для эффективного поражения современных кораблей.

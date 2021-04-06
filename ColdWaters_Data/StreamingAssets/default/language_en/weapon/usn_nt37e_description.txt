@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=NT37E
+WeaponDescriptiveName=NT37E Torpedo
+WeaponDescription=Export version of aging Mk37 torpedo with improved characterisitics.

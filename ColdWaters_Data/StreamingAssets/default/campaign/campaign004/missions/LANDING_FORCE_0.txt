@@ -1,6 +1,6 @@
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
-ForbiddenFor=SSX
+ForbiddenFor=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

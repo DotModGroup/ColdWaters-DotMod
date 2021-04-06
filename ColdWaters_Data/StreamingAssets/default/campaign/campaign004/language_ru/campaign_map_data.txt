@@ -239,6 +239,9 @@ WaypointName=WA1
 WaypointPosition=-383.10,-209.40,20
 WaypointName=WA2
 
+//42-Jan Mayen
+WaypointPosition=-30,169,20
+WaypointName=N4
 </skip>
 
 

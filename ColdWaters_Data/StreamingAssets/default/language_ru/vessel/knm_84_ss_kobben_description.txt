@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=«Коббен»
+Description=ДПЛ типа «Коббен»
+
+History=Подводные лодки типа «Коббен» (типа 207, норв. Kobben-klassen) — серия норвежских дизель-электрических подводных лодок 1960-х годов. Являлись модернизированной версией германских подводных лодок типа 205. 
+
+[Player Ship Instances]
+PlayerClassNames=Kaura
+PlayerClassHullNumbers=S315

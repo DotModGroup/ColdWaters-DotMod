@@ -1,5 +1,7 @@
 //AI mission
 MissionType=SSN_PATROL
+AllowedOnlyFor=
+ForbiddenFor=SS
 HoursToStart=24,48
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

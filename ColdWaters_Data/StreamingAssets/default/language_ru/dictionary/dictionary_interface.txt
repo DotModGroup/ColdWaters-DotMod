@@ -33,7 +33,10 @@ PrestigeCost=Престиж: <PRESTIGE>                         Необходи
 PrestigeInsufficient=Недостаточно престижа для командования <DESIGNATION> <VESSELCLASS>
 PrestigeCurrent=Престиж: <CURRENTPRESTIGE>
 PrestigeForMission=Получено престижа: <PRESTIGEFORMISSION>\nПрестиж: <CURRENTPRESTIGE>
-PrestigeTransferCost=Написать рапорт о переводе? (-<PRESTIGECOST> престижа)
+PrestigeChangeSub=Сменить корабль
+PrestigeTransferCost=Подать рапорт о переводе? \n(- <PRESTIGECOST> престижа)
+PrestigeTransferNotEnough=Недостаточно престижа.
+PrestigeTransferFlavor=\n<b>РАПОРТ</b>\n\n\n\nПрошу освободить меня от занимаемой должности командира <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> \n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 ReferenceActiveRange=Акт. режим:
 ReferenceTorpedoMaxDepth=Макс. глубина

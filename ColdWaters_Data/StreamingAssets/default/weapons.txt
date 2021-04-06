@@ -713,7 +713,7 @@ MeshPosition=0,0,0
 MeshWeapon=USET-80
 MeshWeaponPropRotation=700
 MeshWeaponProp=USET-80_propr
-MeshPosition=0,0,-0.1
+MeshPosition=0,0,-0.0718
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
 AudioSource=TorpedoEngine
 AudioClip=audio/weapons/torpedo_in_water_loop
@@ -1877,7 +1877,7 @@ MeshMissileBooster=FALSE
 
 MeshPosition=0,0,-0.0758
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.06
 MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 MeshPosition=0,0,-0.0561
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
@@ -3224,7 +3224,8 @@ AudioLoop=FALSE
 WeaponObjectReference=plan_c-801
 WeaponType=MISSILE
 *
-Warhead=330
+//= Vanilla warhead = 330, RL - 165kg
+Warhead=165
 SensorRange=10000
 SensorAngles=60,15
 *
@@ -3244,7 +3245,7 @@ MaxPitchAngle=15
 *
 HomeSettings=SHIP
 AttackSettings=WIDE,NARROW
-DepthSettings=SKIM,POP-UP
+DepthSettings=SKIM
 *
 WeaponNoiseValues=190,190
 WeaponSprite=weapons/sprites/plan_c-801_sprite

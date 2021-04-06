@@ -222,6 +222,7 @@ MeshNoisemakerMount=FALSE
 MeshPosition=0,0,0
 MeshRotation=270,90,0
 Material=ships/materials/flag_plan
+MaterialTextures=/hud/flags/flag_knm.png
 MeshMainFlag=plan_ff_jianghu3_animatedflag
 
 Material=ships/materials/flag_signal

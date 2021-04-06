@@ -123,6 +123,16 @@ Mesh=plan_ff_chengdu_crew,HIDE
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=plan_ff_chengdu_hullnumber
 
+//Flags
+MeshPosition=0,0,0
+MeshRotation=270,90,0
+Material=ships/materials/flag_plan
+MaterialTextures=/hud/flags/flag_knm.png
+MeshMainFlag=plan_ff_chengdu_animatedflag
+
+Material=ships/materials/flag_signal
+MeshOtherFlags=plan_ff_chengdu_signals,HIDE
+
 Material=ships/materials/modular_parts
 MeshRotation=-5,0,0
 MeshPosition=-0.0277,-0.0383,-0.515
@@ -191,21 +201,12 @@ MeshRotation=0,0,0
 MeshPosition=0,-0.011,-0.646
 MeshNoisemakerMount=FALSE
 
-//Flags
-MeshPosition=0,0,0
-MeshRotation=270,90,0
-Material=ships/materials/flag_plan
-MeshMainFlag=plan_ff_chengdu_animatedflag
-
-Material=ships/materials/flag_signal
-MeshOtherFlags=plan_ff_chengdu_signals,HIDE
-MeshRotation=0,0,0
-
+//Terne RBU
 ModelFile=ships/wp_skr_riga/wp_skr_riga
 Material=ships/materials/modular_parts
 MeshRotation=-25,0,180
 -MeshPosition=-0.016,0.075,0.28
-Mesh=wp_skr_riga_torpedomount
+-Mesh=wp_skr_riga_torpedomount
 MeshPosition=0.016,0.075,0.28
 -Mesh=wp_skr_riga_torpedomount
 

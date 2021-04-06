@@ -2,8 +2,8 @@
 MapImage=campaign/maps/norwegian_sea_chart.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
-WorldObjectsData=campaign/maps/norwegian_sea_world_objects_68
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
 
 MapHeightInNM=1800
 MapTimeCompression=3600
@@ -152,7 +152,7 @@ LinksToRegionWaypoint=N6
 
 //Trondheim 6
 Alignment=ENEMY
-Function=STRATEGIC_NODE,AIRBASE,NAVAL_BASE,-INSERTION_TARGET
+Function=STRATEGIC_NODE,AIRBASE,NAVAL_BASE,KNM_BASE,-INSERTION_TARGET
 BaseMapPosition=67.2,-83.5
 AircraftType=us_p3c_orion
 AircraftTypeInvaded=wp_il-38_may
@@ -166,7 +166,7 @@ LinksToRegionWaypoint=N5
 
 //Andoya 7
 Alignment=ENEMY
-Function=AIRBASE,SOSUS_NODE,-INSERTION_TARGET
+Function=AIRBASE,SOSUS_NODE,KNM_BASE,-INSERTION_TARGET
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
 AircraftType=us_p3c_orion

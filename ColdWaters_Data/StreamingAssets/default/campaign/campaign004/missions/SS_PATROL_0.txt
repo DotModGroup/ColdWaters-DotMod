@@ -1,5 +1,7 @@
 //AI mission
 MissionType=SS_PATROL
+AllowedOnlyFor=
+ForbiddenFor=
 HoursToStart=24,48
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -21,4 +23,5 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-3
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack
+EnemyShipClasses=knm_84_ss_kobben
+//usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack

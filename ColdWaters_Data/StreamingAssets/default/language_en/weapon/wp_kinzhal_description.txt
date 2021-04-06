@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName="Kinzhal" SAM
 WeaponDescriptiveName="Kinzhal" SAM
-WeaponDescription="Kinzhal" SAM (NATO reporting name: SA-N-9 Gauntlet)is a Soviet naval surface-to-air missile system found on Udaloy-class vessels.
+WeaponDescription="Kinzhal" SAM (NATO reporting name: SA-N-9 Gauntlet) is a Soviet naval surface-to-air missile system found on Udaloy-class vessels.
