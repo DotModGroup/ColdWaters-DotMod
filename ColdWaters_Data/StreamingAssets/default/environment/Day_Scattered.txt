@@ -4,7 +4,7 @@ SkyboxSpecular=environment/cubemap/Day_Scattered_Spec
 
 AmbientColor=130,135,140,255
 LightLevel=255,255,255,255
-SurfaceFogColor=159,175,189,255
+SurfaceFogColor=121,135,148,255
 SubmergedFogColor=10,46,60,255
 
 SkyColor=0,35,48,255
@@ -13,8 +13,8 @@ ReflectionTint=255,255,255,255
 ReflectionIntensity=0.75
 AboveInscatter=0,35,48,255
 
-SurfaceFogDensity=0.01
-SubmergedFogDensity=0.015
+SurfaceFogDensity=0.005
+SubmergedFogDensity=0.14
 
 PrimaryLightRotation=35,180,0
 PrimaryLightIntensity=1
@@ -29,5 +29,5 @@ OceanShadows=TRUE
 FoamColor=255,255,255,255
 
 //Post Processing Color Filter (cold, normal, warm)
-PostProcessingSurface=Blockbuster 15,Blockbuster 15,Warm M
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Blockbuster 15
 PostProcessingUnderwater=Blockbuster 6

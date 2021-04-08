@@ -13,8 +13,8 @@ ReflectionTint=255,255,255,255
 ReflectionIntensity=0.75
 AboveInscatter=0,35,48,255
 
-SurfaceFogDensity=0.015
-SubmergedFogDensity=0.0155
+SurfaceFogDensity=0.005
+SubmergedFogDensity=0.13
 
 PrimaryLightRotation=35,180,0
 PrimaryLightIntensity=1.2
@@ -29,5 +29,5 @@ OceanShadows=TRUE
 FoamColor=255,255,255,255
 
 //Post Processing Color Filter (cold, normal, warm)
-PostProcessingSurface=Blockbuster 15,Blockbuster 15,Warm M
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Blockbuster 15
 PostProcessingUnderwater=Blockbuster 6
