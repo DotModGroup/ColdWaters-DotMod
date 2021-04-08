@@ -21,7 +21,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles|usn_99_ssn_seawolf|usn_99_ssn_los_angeles_flt3|usn_99_ssn_los_angeles_flt2
+EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles|usn_99_ssn_seawolf|usn_99_ssn_los_angeles_flt3|usn_99_ssn_los_angeles_flt2
 //Ship positions and headings, otherwise build into a formation
 
 //Enemy Aircraft
