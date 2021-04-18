@@ -2363,7 +2363,7 @@ AudioLoop=FALSE
 WeaponObjectReference=usn_mk45
 WeaponType=TORPEDO
 Special=SwimOut
-MaxQuantity=2
+MaxQuantity=4
 *
 Warhead=225
 *
