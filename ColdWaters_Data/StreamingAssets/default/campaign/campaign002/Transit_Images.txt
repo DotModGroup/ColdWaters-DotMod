@@ -1,9 +1,0 @@
-wp_68_ssgn_charlie1=Charlie1_01.png,Charlie1_02.png,Charlie1_03.png,Charlie1_04.png,Charlie1_05.png
-wp_84_ssn_alfa=alfa_01.png,alfa_02.png,alfa_03.png
-wp_84_ssn_victor2=victor2_01.png
-wp_84_ssn_akula1=Akula_01.png,Akula_02.png,Akula_03.png,Akula_04.png,Akula_05.png
-wp_84_ssgn_charlie2=charlie2_01.png,charlie2_02.png,charlie2_03.png,charlie2_04.png,charlie2_05.png
-wp_84_ssgn_oscar=Oscar_01.png,Oscar_02.png,Oscar_03.png,Oscar_04.png,Oscar_05.png
-usn_68_ssn_skipjack=Skipjack68_01.png,Skipjack68_02.png,Skipjack68_03.png,Skipjack68_04.png,Skipjack68_05.png
-usn_84_ssn_skipjack=Skipjack84_01.png,Skipjack84_02.png,Skipjack84_03.png,Skipjack84_04.png,Skipjack84_05.png
-testship=testship_01.png,testship_02.png,testship_03.png,

@@ -1,5 +1,0 @@
-Image=campaign/images/68 nato ground 1
-PlayerVessels=usn_68_ssn_sturgeon,usn_68_ssn_permit,usn_68_ssn_skipjack
-[COMMANDER NAMES]
-CommanderName=COMSUBLANT
-CommanderFleetName=CINCLANTFLT
