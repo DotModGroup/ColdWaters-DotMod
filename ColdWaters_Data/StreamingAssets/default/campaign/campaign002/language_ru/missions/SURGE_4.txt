@@ -1,0 +1,22 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+RED BANNER FLEET SUBMARINES ARE MASSING FOR A BIG PUSH SOUTH, INTO THE NORTH ATLANTIC.  THESE VESSELS MUST BE STOPPED BEFORE THEY HAVE A CHANCE TO INTERDICT ALLIED SHIPPING.  
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO PATROL AREA **GREEN 311** IN THE DENMARK STRAIT. SINK ALL HOSTILE FORCES ENCOUNTERED.  
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+5.	(S) EMCON - MAINTAIN RADIO SILENCE  
+
+BT
+0004
+[MISSION WIN]
+Excellent job on intercepting and destroying advanced Soviet subs.  This is going to be a long war, but you and your crew have hopefully helped to shorten it. 
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity to significantly attrite soviet forces. We can't take too many more mistakes like this.
+[MISSION MISSED]
+Disappointed to hear your results were not better. You must be more aggressive if we have any chance of winning this conflict.  

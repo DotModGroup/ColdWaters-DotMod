@@ -1,0 +1,24 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+SOVIET BALLISTIC MISSILE SUBMARINES ARE PREPARING TO SORTIE TO THEIR FIRING POSITIONS IN THE BARENTS AND KARA SEAS. YOU MUST INFILTRATE THEIR BASTION EAST OF SEVERNY ISLAND, FIND, AND SINK THEM BEFORE THEY CAN STRIKE AT THE HOMELAND. IF YOU FAIL THIS MISSION, YOU MAY NOT HAVE A HOME BASE TO RETURN TO.
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO PATROL AREA **RED 637** LOCATE AND SINK THE ENEMY BALLISTIC MISSILE SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+9905
+[MISSION WIN]
+Excellent job on intercepting and destroying Soviet boomers under less than ideal conditions.  BZ to you and your crew!
+[MISSION FAIL]
+Although leadership realizes the difficult nature of prosecuting enemy subs in the shallows of the Kara Sea, your lack of success is likely to have significant consequences.
+[MISSION MISSED]
+Although leadership realizes the difficult nature of prosecuting enemy subs in the shallows of the Kara Sea, your lack of success is likely to have significant consequences.

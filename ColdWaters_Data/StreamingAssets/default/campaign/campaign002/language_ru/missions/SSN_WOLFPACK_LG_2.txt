@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTEL BELIEVES ENEMY CRUISE MISSILE SUBMARINES, HAVING CONDUCTED SUCCESSFUL OPERATIONS AGAINST NATO CONVOYS IN THE NORTH ATLANTIC, WILL NOW ATTEMPT TO TRANSIT THE GIUK GAP AND RETURN TO PORT FOR REPAIRS AND REARMING.
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL AREAS **GREEN 011 AND GREEN 013** BETWEEN ICELAND AND THE UK. 
+LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+1802
+[MISSION WIN]
+Very pleased to see that you dealt with those enemy subs with steadfast resolve, Commander! Remember that for every enemy vessel we eliminate, we are one step closer to winning this war.  
+[MISSION FAIL]
+Commander, your inability to meet the enemy submarine threat with resolve is disappointing.  
+[MISSION MISSED]
+Discouraged to hear you failed to intercept the enemy. Expect better hunting from you next time.

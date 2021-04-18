@@ -1,0 +1,23 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+ONE OF OUR BALLISTIC MISSILE SUBS IS PREPARING TO DEPLOY FROM HOLY LOCH.  YOU MUST CLEAR AND SANITIZE THE BOAT'S PATH TO DEEP WATER.   
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL ALONG THE CONTINENTAL SHELF NORTHWEST OF HOLY LOCH. 
+LOCATE AND SINK ANY ENEMY ATTACK SUBMARINES OPERATING IN THIS AREA.
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+5.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0808	
+[MISSION WIN]
+COMSUBLANT was very happy to hear about your recent success, Commander. I know a certain boomer skipper who owes your crew a few rounds.  
+[MISSION FAIL]
+Commander, your inability to execute your orders may lead to tragic results.  Report to my office immediately upon your return.
+[MISSION MISSED]
+Further search for the enemy deemed unproductive at this time. 

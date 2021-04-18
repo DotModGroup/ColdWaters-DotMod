@@ -1,0 +1,24 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+SOVIET BALLISTIC MISSILE SUBMARINES HAVE SORTIED TO THEIR FIRING POSITIONS IN THE BARENTS SEA. YOU MUST INFILTRATE THEIR BASTION, FIND, AND SINK THEM BEFORE THEY CAN STRIKE AT CONUS TARGETS. THE BOOMERS ARE ESCORTED BY A LARGE SURFACE BATTLEGROUP, POSSIBLY INCLUDING ATTACK SUBMARINES. IF YOU FAIL THIS MISSION, YOU MAY NOT HAVE A HOME BASE TO RETURN TO.
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO PATROL AREA **RED 633** LOCATE AND SINK THE ENEMY BALLISTIC MISSILE SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+9901
+[MISSION WIN]
+Excellent job on intercepting and destroying this critical target.  We owe you and  your crew big time.
+[MISSION FAIL]
+You have committed a critical error at the worst possible time. Your XO has been ordered to take over command, effective immediately.  You are confined to your stateroom for the remainder of this mission.
+[MISSION MISSED]
+You have committed a critical error at the worst possible time. Your XO has been ordered to take over command, effective immediately.  You are confined to your stateroom for the remainder of this mission. 

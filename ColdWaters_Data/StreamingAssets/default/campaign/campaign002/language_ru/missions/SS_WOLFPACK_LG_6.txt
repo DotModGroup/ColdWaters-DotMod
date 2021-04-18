@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE HAS LEARNED THAT THE SOVIETS WILL SOON SEND A WOLFPACK OF DIESEL SUBMARINES FROM THE BALTIC FLEET INTO THE NORTH SEA AND POSSIBLY THE NORTH ATLANTIC, WHERE THEY WILL RAID COMMERCE AND EVENTUALLY REINFORCE THE NORTHERN FLEET.  THESE VESSELS MUST BE STOPPED.
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO AND PATROL AREA **YELLOW 208** NEAR OSLO. 
+LOCATE AND SINK THE ENEMY SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+1706
+[MISSION WIN]
+COMSUBLANT was very happy to hear about your recent success, Commander. The Soviets should be aware that the North Sea is NATO property.  The excellent work of you and your crew is what gets that message across! Well done.
+[MISSION FAIL]
+Commander, we are gaining the upper hand overall but you can do much better.  Step it up or step out.  
+[MISSION MISSED]
+Further search for the enemy deemed unproductive at this time.  
