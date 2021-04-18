@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE INDICATES THAT NUMEROUS ENEMY DIESEL-ELECTRIC SUBS, OPERATING IN A WOLFPACK, ARE HEADED FOR THE NORTH SEA. IT IS VITAL THAT THESE SUBS BE DESTROYED BEFORE THEY ATTACK NATO SHIPPING AND NAVAL TASK FORCES IN THE AREA. YOU ARE ORDERED TO FIND AND DESTROY THESE ENEMY SUBMARINES.
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL AREA **YELLOW 204**  
+LOCATE AND SINK THE ENEMY DIESEL-ELECTRIC SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0705
+[MISSION WIN]
+Great work dealing with those diesel boats, Commander! Our ability to prevail in this conflict absolutely requires that we eliminate the sub threat and get the merchants through.
+[MISSION FAIL]
+Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. Step it up.
+[MISSION MISSED]
+Discouraged to hear that the mission could not be carried through. Remember that time works for the enemy, not for us. Every red ship that makes it into the Atlantic means the thinning out of our resources and weakening our sea lane defenses. Try harder next time.

@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE INDICATES THAT A WOLFPACK OF ENEMY DIESEL-ELECTRIC SUBS WILL SOON TRANSIT THE NORTH SEA IN AN ATTEMPT TO ATTACK SHIPPING IN THE ENGLISH CHANNEL. IF NOT STOPPED, THEY COULD DECIMATE OUR EUROPEAN SUPPLY EFFORTS.  NO OTHER ASW ASSETS ARE AVAILABLE FOR THIS TASK.  IT IS VITAL THAT THESE SUBS BE DESTROYED.  
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL AREA **YELLOW 206**
+LOCATE AND SINK THE ENEMY DIESEL-ELECTRIC SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0704
+[MISSION WIN]
+Excellent job, Commander! Believe me, no one wanted to send a nuke boat into those shallow waters, but we had no other options.  You and your crew performed superbly under very difficult circumstances.  
+[MISSION FAIL]
+Commander, inability to meet the enemy submarine threat with determination will lengthen this war and put a lot of our colleagues in danger.  
+[MISSION MISSED]
+Discouraged to hear that the mission could not be carried out. Remember, every Red sub that gets through is a big threat to our war effort. Try harder next time.
