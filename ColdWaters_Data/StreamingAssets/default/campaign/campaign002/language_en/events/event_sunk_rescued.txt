@@ -1,0 +1,14 @@
+NextAction=ASSIGN_NEW
+Image=campaign/images/sea rescue 1,campaign/images/sea rescue 2
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO ADMITS LOSS OF NUCLEAR SUB</b>
+Color=57,61,73,255
+Sentence1=A NATO spokesman has confirmed Soviet claims that a US nuclear attack submarine has been lost in action. Although details are uncertain, sources close to the Pentagon say loss of life was minimal. Most members of the crew have been safely recovered and are already ashore, thanks to a determined rescue effort.
+Color=218,218,208,255
+Sentence2=The US navy continues to assess the effectiveness of its submarine and naval operations. Despite the risks, maintaining control of the Norwegian Sea and Atlantic remains the top priority. An undisclosed number of additional nuclear attack submarines have been dispatched to reinforce recent losses.

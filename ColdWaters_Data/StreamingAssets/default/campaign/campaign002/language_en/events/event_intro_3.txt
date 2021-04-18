@@ -1,0 +1,15 @@
+NextAction=event_intro_4
+Image=campaign/images/68 soviet preparations
+Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>BREZHNEV<n></b>STRIKES BACK
+Color=57,61,73,255
+Sentence1=At the recent congress of the Polish United Workers Party last week, Soviet Premier Brezhnev stated, "When forces that are hostile to socialism try to turn the development of some socialist country towards capitalism, it becomes not only a problem of the country concerned, but a common problem and concern of all socialist countries." He then went on to throw thinly veiled accusations at West Germany for supporting reformist movements within the socialist bloc.
+Color=218,218,208,255
+Sentence2=A Pentagon spokesman revealed that NATO was aware of a what amounted to a huge mobilization of Pact forces along the East German border partaking in what appeared to be a snap exercise. Meanwhile the US remains fully committed to the conflict in Southeast Asia.

@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/navy_cross
+Music=audio/music/Cold Waters Spotted
+Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=The Secretary of the Navy expresses his heartfelt congratulations and takes great pleasure in awarding <POSTHUMOUSLY> the
+Sentence1=<b><size=22>NAVY CROSS<n>TO<n>CDR <PLAYERNAME><n>COMMANDING OFFICER,<n><PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL></size></b>
+Sentence2=CITATION:<n>For extraordinary heroism and leadership in action against the enemy as Commanding Officer of <PLAYERVESSELNAVY> <PLAYERVESSELNAME> in the vicinity <PLAYERMAPREGION> on <DATE>. Commander <PLAYERNAME>'s outstanding seamanship and skillfull tactics inflicted great damage on the enemy forces and his conduct upheld the highest traditions of the United States Naval Service.

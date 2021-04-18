@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/ASUW_LG_F1.jpg,campaign/images/ASUW_LG_F2.jpg
+Photo=campaign/images/photos/Sverdlov1.jpg,campaign/images/photos/Sverdlov2.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b><ENDLOCATION> ATTACKED</b>|<b>TERROR IN <ENDLOCATION></b>|<b>NATO BASE HIT</b>|<b>REDS HIT <ENDLOCATION></b>
+Color=57,61,73,255
+Sentence1=Numerous large explosions have erupted in and around <ENDLOCATION>. At first assumed to be Soviet air strikes, inside sources later confirmed that the attack was carried out by surface vessels that had managed to sneak past NATO defenses. NATO spokesmen refused to comment on the severity of the attacks, or if any critical facilities had been damaged or destroyed.
+Color=218,218,208,255
+Sentence2=Military analysts have openly questioned allied military planners over what is seen as an embarrassing lapse in the defense of key NATO operations.  Said one official on condition of anonymity, "This attack should not have happened, and we must do more to prevent similiar attacks in the future."

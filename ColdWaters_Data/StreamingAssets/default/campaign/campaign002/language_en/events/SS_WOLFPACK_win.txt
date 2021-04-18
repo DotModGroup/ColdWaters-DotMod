@@ -1,0 +1,15 @@
+NextAction=MAP
+//Image=campaign/images/pontoon.jpg,campaign/images/Convoy.jpg,campaign/images/598_Surf.jpg
+Image=campaign/images/598_Surf.jpg,campaign/images/637_Surf.jpg,campaign/images/637_Surf2.jpg
+Photo=campaign/images/photos/637b.jpg,campaign/images/photos/Unload3.jpg,campaign/images/photos/Port1.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ENEMY WOLFPACKS HIT</b>|<b>MERCHANTS SURVIVE TRANSIT</b>|<b>RED SUBS OVERESTIMATED?</b>|<b>SUPPLIES GETTING TO TROOPS</b>
+Color=57,61,73,255
+Sentence1=Submarine attacks on merchant convoys transiting <ENDLOCATION> have decreased in recent days. An alliance press spokesman provided little additional information, but did state that, "We will make the most of our current good luck, and continue to bring the fight to enemy sub forces."|A modest amount of fresh supplies and equipment have begun to reach front line ground forces. Officials attributed this success to the relative lack of enemy submarine attacks on merchant shipping transiting <ENDLOCATION>. Said one fatigued soldier, "I never thought I'd say this, but thank God for the bloody Navy!"|The Soviet submarine fleet has suffered major losses in the latest day of fighting.  According to one source with a ongoing knowlege of anti-submarine operations, at least three Red submarines have been confirmed sunk, with another two listed as "probable."  As a result, allied convoys have begun arriving at European ports in greater numbers.   
+Color=218,218,208,255
+Sentence2=Although allied forces have started recieving more supplies, military leaders were careful to temper expectations. "Even with more equipment available, the best we can probably do at this point is to hold our current positions," stated one general.|Many commentators wondered aloud if they were witnessing the tide of the naval battle beginning to turn in the allies favor.  "Ask me again in a week or so," responded one Navy leader.  "We need a few more good days like today."|Some analysts were surprised at the Soviet losses, especially the hits taken by what were thought to be nearly undectectable advanced diesel-electric submarines.  "I think both our equipment and our training are much better than many people realize," said one NATO expert.   

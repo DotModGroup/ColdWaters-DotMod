@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/legion_of_merit
+Music=audio/music/Cold Waters Theme
+Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=The Secretary of the Navy takes pleasure in awarding <POSTHUMOUSLY> the
+Sentence1=<b><size=22>LEGION OF MERIT MEDAL<n>TO<n>CDR <PLAYERNAME><n>COMMANDING OFFICER,<n><PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL></size></b>
+Sentence2=FOR:<n>Exceptional and consistently outstanding service as Commanding Officer throughout numerous  patrols during a time of war. His leadership and tactical skills ensured success in his numerous duties and reflect great credit upon himself and the United States Naval Service.

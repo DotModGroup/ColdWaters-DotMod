@@ -1,0 +1,13 @@
+NextAction=event_campaign_win_2
+Image=campaign/images/riot police
+Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 1,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>RED REBELLION</b>
+Sentence1=Tens of thousands of protesters, mostly in the Caucasus, Latvia and Estonia, have spilled into the streets demanding democratic elections and an end to the ongoing conflict with the West. Reports are still sketchy, but witnesses claim the severe crackdown by local authorities have done nothing but incite further protests.
+Sentence2=The political destabilization behind the Iron Curtain has had a noticeable trickle-down effect on the front lines and NATO forces have taken advantage of the situation. Soviet opposition appears to be wavering as defections across the lines into the West are increasing day by day.

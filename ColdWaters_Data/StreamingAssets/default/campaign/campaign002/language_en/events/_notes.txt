@@ -1,0 +1,14 @@
+Color=255,255,255,255 Defines a COLOR32 (global text color setting)
+Font=0 FONT (0 Default, 1 HUD font, 2 map sans, 3 map serif, 4 newspaper serif)
+
+Also supports Rich Text tags: (tags must be nested in order)
+<b></b> BOLD
+<i></i> ITALICS
+<color=#00000000></color> HTML color for in line color changes only (use COLOR32 above for whole sentences)
+<n> or \n = NEW LINE
+<size=20></size> FONT SIZE (Awards/medals pages only as newspapers use best fit to format text size)
+
+Text Colors:
+NewspaperRed=180,71,64,255
+NewspaperDark=57,61,73,255
+NewspaperLight=218,218,208,255

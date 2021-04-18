@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/bronze_star
+Music=audio/music/Cold Waters Spotted
+Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=The Secretary of the Navy expresses his heartfelt congratulations and takes great pleasure in awarding <POSTHUMOUSLY> the
+Sentence1=<b><size=22>BRONZE STAR MEDAL<n>TO<n>CDR <PLAYERNAME><n>COMMANDING OFFICER,<n><PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL></size></b>
+Sentence2=CITATION:<n>Commander <PLAYERNAME> is cited for extraordinary heroism in action against enemies of the United States of America on <DATE>. His unwavering resolve and self-sacrificing devotion to duty in the face of death are worthy of the highest emulation.

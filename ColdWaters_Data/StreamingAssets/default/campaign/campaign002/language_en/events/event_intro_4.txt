@@ -1,0 +1,15 @@
+NextAction=MAP
+Image=campaign/images/pact ground 1,campaign/images/pact ground 2,campaign/images/pact ground 3,campaign/images/pact ground 4,campaign/images/pact ground 5
+Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>BREZHNEV<n></b>STRIKES AGAIN
+Color=57,61,73,255
+Sentence1=Crack Soviet units, supported by massive rocket barrages, smashed through the German border today in a surprise attack that appears to involve both armored units and airborne assaults behind NATO lines. Although prepared for battle, NATO has been caught off guard and is on the retreat.
+Color=218,218,208,255
+Sentence2=The White House announced that a state of war now exists between the US and the USSR, and resolved to support our NATO allies 'whatever the cost may be'. A Pentagon spokesman said that although supply convoys would reach Europe within the week, until then NATO units 'will just have to hold the line'.

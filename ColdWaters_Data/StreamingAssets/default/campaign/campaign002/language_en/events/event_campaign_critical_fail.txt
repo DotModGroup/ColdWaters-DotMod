@@ -1,0 +1,13 @@
+NextAction=event_campaign_critical_fail_2
+Image=campaign/images/nuke launch farm
+Photo=campaign/images/photos/naval pact sub 1,campaign/images/photos/naval pact sub 2,campaign/images/photos/politics 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>THE END IS NIGH</b>
+Sentence1=Soviet nuclear ballistic missile submarines, having successfully taken up positions along the US eastern seaboard, were used as leverage during recent armistice talks. As tensions continue to rise, the inevitable use of tactical nuclear weapons has become a certainty as the crisis continues to spiral out of control.
+Sentence2=With three devastating tactical nuke strikes in Central and Eastern Europe to date, it has become frighteningly clear that the current conflict will not be resolved through diplomatic means. Despite civil unrest and riots breaking out across many major cities throughout globe, most are content to be with loved ones, awaiting one side or the other to unleash their full nuclear arsenal first.

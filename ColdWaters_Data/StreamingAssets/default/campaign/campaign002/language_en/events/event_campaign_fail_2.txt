@@ -1,0 +1,13 @@
+NextAction=event_campaign_fail_3
+Image=campaign/images/cuban missiles
+Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>MISSILES IN CUBA</b>|<b>CUBAN CRISIS II</b>
+Sentence1=In a diplomatic shock force move, the Soviets negotiated the establishment of SS-20 intermediate-range ballistic missile sites in Cuba as part of the armistice agreement. They claim these missiles have been placed to serve as a first-line deterrent against any future hostilities initiated by United States of America or its allies.
+Sentence2=The situation in Central Europe continues to worsen as food shortages spark rioting and further protests amid the uncertainties of what lies ahead. Rumours have been circulating that the dissolution of NATO could bring dire consequences for the future stability of the region.
