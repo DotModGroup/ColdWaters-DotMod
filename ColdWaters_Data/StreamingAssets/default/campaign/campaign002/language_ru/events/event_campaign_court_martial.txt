@@ -1,0 +1,13 @@
+NextAction=END
+Image=campaign/images/port holy loch
+Photo=campaign/images/photos/politics 1,campaign/images/photos/naval sub,campaign/images/photos/cargo 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>WAR CRIMES</b>|<b>UNRESTRICTED SUBMARINE WARFARE?</b>
+Sentence1=Civilian shipping losses and casualties at sea have risen at an alarming rate over recent weeks. Yet despite warnings of such contested regions, civilian vessels can still be found transiting them at their own risk.
+Sentence2=The intensity of the rise has been labelled by analysts as nothing short of deliberate, raising questions as to the conduct of both NATO and Soviet commanders in the region. In response, Congress has vowed to investigate these numerous incidents in order to justify their outcome or identify any wrongful doings.

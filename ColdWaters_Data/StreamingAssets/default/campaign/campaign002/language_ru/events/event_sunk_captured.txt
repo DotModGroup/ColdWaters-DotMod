@@ -1,0 +1,16 @@
+NextAction=event_early_end_1
+Image=campaign/images/gulag
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Loss Gulag
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIETS CAPTURE<n>SUB CREW</b>
+Color=57,61,73,255
+Sentence1=Soviet spokesmen claim to have captured the surviving crew, along with the commanding officer, of a US nuclear powered attack submarine. While they refuse to reveal the exact location and way the crew members were captured, Soviet knowledge of operational details clearly confirms the accuracy of their claim.
+
+Color=218,218,208,255
+Sentence2=Concerns have been raised regarding Soviet treatment of war prisoners. Disturbing reports suggest that significant numbers of officers and enlisted men have been subjected to torture, tried as war criminals or executed. Countless more have allegedly been interned at numerous Gulag labor camps throughout the Soviet Union. The fate of thousands of unaccounted NATO troops and non-combatants will likely not be confirmed until hostilities cease.

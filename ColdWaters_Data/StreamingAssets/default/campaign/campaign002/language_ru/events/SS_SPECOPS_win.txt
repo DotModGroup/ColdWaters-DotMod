@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/marvydo.jpg,campaign/images/coastie.jpg
+Photo=campaign/images/photos/port_security.jpg,campaign/images/photos/port_security1.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIET SUB HIT OFF COAST</b>|<b>RED SUB FOUND NEAR <ENDLOCATION></b>
+Color=57,61,73,255
+Sentence1=The Pentagon today revealed that a Soviet submarine attempting an incursion near <ENDLOCATION>, had been destroyed or driven off by coordinated efforts of NATO surface vessels, submarines and aircraft. The continued cooperation of NATO members was cited as pivotal to the successful outcome of this operation.|A NATO public affairs officer announced today that a Russian submarine, operating near <ENDLOCATION>, had been discovered and attacked by allied units earlier in the week.  Although the spokesman refused to speculate on the intended mission of the enemy vessel, it was clear that it was attempting some sort of covert operation.  
+Color=218,218,208,255
+Sentence2=Ongoing protection of the many NATO allied military installations throughout the theatre remains a high priority. NATO's ability to maintain control of the region is founded on this basis.|Some concern was raised by politicians that an enemy submarine had been allowed to get so close to critical military facilities in the first place.  "We simply must hit these subs before they get anywhere near our bases," said one MP. "Otherwise we may not be so lucky next time."

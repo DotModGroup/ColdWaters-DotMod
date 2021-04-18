@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/MCM.jpg,campaign/images/MCM1.jpg
+Photo=campaign/images/photos/mines1.jpg,campaign/images/photos/port.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b><ENDLOCATION> MINED</b>|<b>WARSHIPS BLOCKADED</b>|<b>SHIPS TRAPPED IN <ENDLOCATION> HARBOR</b>
+Color=57,61,73,255
+Sentence1=Mines have been discovered blocking the port entrance to <ENDLOCATION>, <COUNTRY>. Warships and merchant vessels from several NATO navies have been trapped inside while attempts are made to clear the mines and open a path into the harbor.
+Color=218,218,208,255
+Sentence2=Vulnerability to enemy mining operations has been a significant problem since the onset of the war. Many naval analysts are openly wondering why NATO "seems incapable of stopping this simple, century-old threat."  Meanwhile, critical port facilities and vessels have been taken out of the fight.

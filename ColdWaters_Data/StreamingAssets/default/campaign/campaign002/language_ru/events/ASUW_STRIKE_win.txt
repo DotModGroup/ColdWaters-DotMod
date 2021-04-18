@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/ShipinPort1.jpg,campaign/images/ShipinPort2.jpg
+Photo=campaign/images/photos/unload6.jpg,campaign/images/photos/unload4.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIET SHIPS ATTACKED, SUNK </b>|<b>SAFE TRANSIT BY CONVOYS</b>|<b>CONSTANT CONVOYS</b>
+Color=57,61,73,255
+Sentence1=Convoys from North America are ferrying supplies into Western Europe with minimal losses. This has been attributed to efficient cooperation among NATO naval forces, and the recent destruction of several Russian surface groups which had threatened supply lines. "The convoy system worked in World War I and World War II and it still works today," a spokesman for NATO naval operations said.|A number of Soviet surface ships have been damaged or sunk in recent days as fighting escalates for control of vital sea lines of communication in the Atlantic and Norwegian Sea. An allied military spokesman refused to provide details of the battles, only stating, "Allied losses were minimal, while Soviet losses were probably much greater than they anticipated." 
+Color=218,218,208,255
+Sentence2=Meanwhile in Western Europe, food and material shortages have so far failed to materialize in the unoccupied territories. Authorities urge citizens not to make runs on the banks but instead show restraint, so that the financial system can remain functional despite the ongoing conflict.|The sinking of Russian surface vessels will likely allow for a greater focus on anti-submarine warfare in critical areas.  Western military commentators believe this to be a positive step towards providing a secure and safe transit for the merchant ship fleet.

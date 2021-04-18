@@ -1,0 +1,15 @@
+NextAction=event_intro_4
+Image=campaign/images/cpsu.jpg
+Photo=campaign/images/photos/STANAVFORLANT.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=November 18, 1989
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIETS DEMAND RETURN TO STATUS QUO</b>
+Color=57,61,73,255
+Sentence1=November 25, 1989 - New Soviet president Viktor Chebrikov today demanded that Warsaw Pact states such as Poland and East Germany reverse course and "immediately cease this dangerous flirtation with the immoral and anti-worker ideologies of the decaying West."
+Color=218,218,208,255
+Sentence2=So far, reactions from the West have been muted, with some countries such as France and Italy expressing a strong desire for immediate talks to defuse tensions in the region.  Others, including the United States and the UK, have taken a harder line and talked of the need to bolster NATO's military presence as a deterrent.
