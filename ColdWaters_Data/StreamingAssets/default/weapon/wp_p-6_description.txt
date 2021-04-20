@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SS-N-3A Shaddock
-WeaponDescriptiveName=SS-N-3A Shaddock Cruise Missile
-WeaponDescription=Special: Universal\nThe SS-N-3A Shaddock, or П-6, is a Russian submarine-launched long-range cruise missile. It can be launched by both the Juliett class SSGs and the Echo-II class SSGNs. It required that they be surfaced and had a lengthy preparation time. In addition, the submarine had to stay surfaced until the missiles reached their midpoint course-correction, after which the sub could dive. For gameplay purposes, the land-attack version and the ant-ship version have been combined into a single missile.

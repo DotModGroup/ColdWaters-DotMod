@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SA-7 Grail
-WeaponDescriptiveName=SA-7 Grail MANPADS
-WeaponDescription=The SA-7 Grail, known to the Russian military as the «Стрела-2», is a passive-infared homing MANPADS system. It can often be found in a submarine's conning tower for close-range anti-aircraft defense.

@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SS-N-16 Stallion
-WeaponDescriptiveName=SS-N-16 Stallion ASW Cruise Missile
-WeaponDescription=The Russian-made РПК-6 «Водопад», or SS-N-16 Stallion, is a submarine-launched stand-off ASW cruise missile. It is similar to the SS-N-15 but drops the UGMT-1 homing torpedo.

@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SS-N-14 Silex
-WeaponDescriptiveName=SS-N-14 Silex ASW Cruise Missile
-WeaponDescription=The SS-N-14 Silex, or УРПК-3 «Метель», is a subsonic ASW missile equipped on most Soviet large anti-submarine ships as well as the frigates of the Krivak class. It can be launched to the first convergence zone, and drops an AT-2 homing torpedo. Because it has a larger range than the effective range of a surface ship's sensor, it can use targeting data from any friendly unit through a datalink.

@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SS-N-21 Sampson
-WeaponDescriptiveName=SS-N-21 Sampson Cruise Missile
-WeaponDescription=The SS-N-21 Sampson (Russian: C-10 «Гранат») is a turbojet-powered, submarine launched land attack missile used by the Soviet navy. It resembles the TLAM (Tomahawk Land Attack Missile) in intended mission and delivery method.

@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SA-N-3 Goblet
-WeaponDescriptiveName=SA-N-3 Goblet SAM
-WeaponDescription=Special: Universal\nThe SA-N-3 Goblet, or Shtorm, is a Soviet naval universal SAM missile with similar capabilites to the US RIM-66 Standard missile. It can attack surface ships, aircraft, and incoming missiles.

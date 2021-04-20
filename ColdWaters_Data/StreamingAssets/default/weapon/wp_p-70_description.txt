@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=SS-N-7 Starbright
-WeaponDescriptiveName=SS-N-7 Starbright Cruise Missile
-WeaponDescription=The SS-N-7 Starbright (Russian: П-70 «Аметист») is a Russian made submarine-launched anti-ship cruise missle, and thier first sumbmerged-launched misisle. It could be fired by the Charlie class submarines.
