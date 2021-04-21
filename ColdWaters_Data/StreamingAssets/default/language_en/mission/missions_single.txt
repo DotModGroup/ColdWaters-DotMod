@@ -5,6 +5,7 @@
 <color=Cyan>Beating The Odds</color>
 <color=Cyan>The Bastion Gambit</color>
 <color=Cyan>Stalking The Red Bear</color>
+<color=Cyan>Narvik Caper</color>
 <color=#39CCCC>Action In The North Atlantic</color>
 <color=#39CCCC>Skirmish In The Denmark Strait</color>
 <color=#7FDBFF>Junks On Parade</color>

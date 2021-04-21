@@ -1,6 +1,6 @@
 Designation=FFG
 ShipType=SUBMARINE
-PlayerHUD=hud/surface
+PlayerHUD=hud/default
 
 Length=123.5
 Beam=14

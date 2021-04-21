@@ -1,5 +1,14 @@
 Image=campaign/images/pact naval 2
-PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
+PlayerVessels=usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles
 [COMMANDER NAMES]
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT
+
+//Easy, Normal, Hard, Elite
+StartingPrestige=450,200,100,0
+[Prestige Cost]
+usn_84_ssn_skipjack=0
+usn_84_ssn_permit=200
+usn_84_ssn_sturgeon=450
+usn_84_ssn_narwhal=680
+usn_84_ssn_los_angeles=900

@@ -1,7 +1,10 @@
-Image=campaign/images/pact wolfpack 4
-MissionLocation=Датский пролив
-Briefing=8 ноября 1984г
-Briefing=По данным разведки, в данном районе действует, по крайней мере, одна атомная субмарина НАТО. Действуйте осмотрительно.
+Image=campaign/images/pact wolfpack 1
+MissionLocation=Северная Атлантика
+Briefing=18 октября 1984г
+Briefing=После успешного прорыва в Северную Атлантику, начинается ваша охота за конвоями НАТО.
 Briefing=
-Briefing=Боевая задача:
-Briefing=Сразитесь один на один с вражеской АПЛ
+Briefing=Основная задача:
+Briefing=Потопить вражеские транспорты
+Briefing=
+Briefing=Дополнительная задача:
+Briefing=Потопить корабли сопровождения

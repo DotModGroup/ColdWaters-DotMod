@@ -1,3 +1,5 @@
+//Iron Coffins
+
 Image=campaign/images/pact wolfpack 2
 MissionLocation=GIUK Gap
 Briefing=12 JUN 1984

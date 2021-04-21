@@ -1,5 +1,6 @@
 [Unit Reference]
 ShipClass=Flt-2 Los Angeles
+ShipClassShort=Л-А 2
 Description=Flt-2 Los Angeles-class Nuclear Attack Submarine
 History=This sub-class improves upon the original 688 design with anechoic tiles and increased weapon storage in the form of 12 vertical launch (VLS) tubes in the forward ballast tank that can carry either TASM anti-ship or TLAM land-strike cruise missiles.
 

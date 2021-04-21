@@ -1,3 +1,5 @@
+//Stalking The Red Bear
+
 Image=campaign/images/under ice
 MissionLocation=Somewhere north of Spitsbergen
 Briefing=5 APR 1984

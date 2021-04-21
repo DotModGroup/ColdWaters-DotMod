@@ -1,7 +1,12 @@
-Image=campaign/images/68 pact naval 1
-MissionLocation=Denmark Strait, near Iceland
-Briefing=04 FEB 1968
-Briefing=You've made contact with a Soviet open-ocean ASW group, including a helicopter carrier, that is attempting to break out into the North Atlantic with intent to hunt our Polaris submarines there. 
+//Action In The North Atlantic
+
+Image=campaign/images/pact warship tender 1
+MissionLocation=West of Iceland
+Briefing=25 MAY 1968
+Briefing=Your orders are to intercept a replenishment force suspected to be operating somewhere in the North Atlantic, west of Iceland, where they are supporting aggressive Soviet anti-convoy operations. After several uneventful days spent searching, sonar reports a contact.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink the Moskva
+Briefing=Locate and sink the tenders
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Locate and sink any escorting warships if possible

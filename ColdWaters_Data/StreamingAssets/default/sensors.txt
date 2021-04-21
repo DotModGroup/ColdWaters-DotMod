@@ -325,6 +325,15 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=235
 
+SonarModel=usn_an_bqq_6
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
 //Ships
 
 SonarModel=usn_sqs_23
@@ -622,6 +631,7 @@ RADARRange=55000
 
 RADARModel=wp_mrkp-58
 RADARRange=58000
+RADARVisibility=0.5
 
 RADARModel=wp_snoop_slab
 RADARRange=30400

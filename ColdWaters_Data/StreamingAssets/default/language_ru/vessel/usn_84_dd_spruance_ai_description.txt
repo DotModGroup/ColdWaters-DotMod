@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=ЭМ
 ShipClass=«Спрюэнс»
 Description=Эсминец класса «Спрюэнс» (1984г.)
 Aircraft=2 SH-60F «Си Хок»

@@ -4,6 +4,8 @@ usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new dig
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
 usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit- and Sturgeon class submarines.
 usn_an_bqq_5=AN/BQQ-5=This advanced sonar suite uses a spherical array with the latest digital signal processing techniques and was first introduced in the Los Angeles-class fast attack submarines, and subsequently to the Permit and Sturgeon classes where it replaced the analog BQQ-2 spherical array.
+usn_an_bqq_6=AN/BQQ-6=This is a hull-mounted, sonar suite adopted from the AN/BQQ-5 suite for use on board of Ohio class SSBN. Passive sonar system has 944 hydrophone transducers mounted on a sphere and 100 transducers i two flank arrays. AN/BQS-13 system is an active component of this suite. It has lower capabilities compared to one in AN/BQQ-5 suite.
+
 
 usn_bqr_25=BQR-25=The BQR-25 Towed Array greatly increases the range of passive sonar. It is most effective at slower speeds but suffers from noise saturation above 10 Kts.\n \nThe Towed Array also negates the stern blind arc that is caused by ownship noise.
 usn_tb_16=TB-16=The TB-16 Towed Array greatly increases the range of passive sonar. It is most effective at slower speeds but suffers from noise saturation above 10 Kts.\n \nThe Towed Array also negates the stern blind arc that is caused by ownship noise.
@@ -58,18 +60,6 @@ wp_mgk-600=MGK-600 "Amphora"=Little is known about this integrated spherical son
 wp_mgk-500_ta=TA "Skat"=NATO reporting name: "Shark Tail". This is a passive low-frequency towed array that equips all Soviet submarines of recent construction from the Victor III onwards. While not comparable to American towed array systems, it nevertheless provides the Soviets wih an improved sonar capability which earlier generations were lacking, giving these newer boats something of a quantum leap in capabilities and the threat they provide.
 wp_pelamida="Pelamida"=NATO reporting name: "Shark Tail". This passive low-frequency towed array is a part of MGK-540 "Skat-3" suite that equips Akula class submarines.
 wp_amfora_ta=Little is known about this towed array that equips russian next-generation boats such as the Yasen-class.
-
-
-
-wp_shark_tail=Shark Tail=This is a passive low-frequency towed array that equips all Soviet submarines of recent construction from the Victor III onwards. While not comparable to American towed array systems, it nevertheless provides the Soviets wih an improved sonar capability which earlier generations were lacking, giving these newer boats something of a quantum leap in capabilities and the threat they provide.
-
-
-
-
-
-
-
-
 
 wp_mgk-355=MGK-355 "Polinom"=This is a follow-on to the Moose Jaw that equips the Kirov and Udaloy classes, and gives these ships tremendous capability against even silent US submarines.
 

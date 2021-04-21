@@ -1,5 +1,5 @@
 [Unit Reference]
-Designation=CVN
+Designation=АВ
 ShipClass=«Нимиц»
 Description=Атомный авианосец типа «Нимиц» (1984г.)
 

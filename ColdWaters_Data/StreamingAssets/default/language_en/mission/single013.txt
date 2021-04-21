@@ -1,7 +1,12 @@
-Image=campaign/images/pact wolfpack 3
-MissionLocation=In the Denmark Strait
-Briefing=14 NOV 1984
-Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
+//High Noon
+
+Image=campaign/images/pact specops
+MissionLocation=In the Luzon Strait
+Briefing=21 SEP 2000
+Briefing=Several hours ago, the PLAN launched a series of cruise missile and special forces attacks on our naval bases in Sasebo, Okinawa and Subic Bay. Nav Ops suspects a similar strike using submarines is planned for Guam, our last remaining base in the region.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy escorts
+Briefing=Sink the enemy submarines
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Avoid collateral damage

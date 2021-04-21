@@ -82,6 +82,10 @@ AntiAirMissileLaunchDepth=15
 AntiAirMissileLaunchPoints=-0.01,0.104,-0.33|0.01,0.104,-0.33|-0.017,0.104,-0.33|0.017,0.104,-0.33|-0.01,0.095,-0.33|0.01,0.095,-0.33|-0.017,0.095,-0.33|0.017,0.095,-0.33
 AntiAirMissileLaunchPointsRotation=-20,180,0
 
+ChaffType=wp_chaff
+ChaffProbability=0.12
+NumberChaffLaunched=2
+
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20

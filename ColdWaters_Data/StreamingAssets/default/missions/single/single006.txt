@@ -1,3 +1,5 @@
+//The Bastion Gambit
+
 UseTerrain=TRUE
 //MapCoordinates=3165,1066
 //MapCoordinates=2530,1070
@@ -56,6 +58,6 @@ SonobouyLocations=0,-100|50,100|-50,-100
 //spawn minefields and set detection range
 //Static mines and torpedo mines
 
-PlayerVessels=usn_84_ssn_narwhal,usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_los_angeles
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

@@ -1,3 +1,5 @@
+//The Bastion Gambit
+
 Image=campaign/images/pact ssbn 2
 MissionLocation=In the polar region
 Briefing=01 MAY 1984

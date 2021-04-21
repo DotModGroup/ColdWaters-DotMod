@@ -60,7 +60,7 @@ SubmarineOnly=TRUE
 
 //09-North Cape
 WaypointName=NC1
-WaypointPosition=265.10,107.60,20
+WaypointPosition=265.10,107.60,60
 NorthWaypoints=B1,N1
 SouthWaypoints=NC2,SC4
 EastWaypoints=SC4,B1
@@ -68,7 +68,7 @@ WestWaypoints=NC2,N1
 
 //10-Lofoten Islands
 WaypointName=NC2
-WaypointPosition=119.50,12.70,10
+WaypointPosition=119.50,12.70,60
 NorthWaypoints=NC1,N1,N2
 SouthWaypoints=NC3
 EastWaypoints=NC1,N1
@@ -84,7 +84,7 @@ WestWaypoints=NC4
 
 //12-the western Norwegian coast
 WaypointName=NC4
-WaypointPosition=-45.10,-127.90,10
+WaypointPosition=-45.10,-127.90,60
 NorthWaypoints=NC3,N2,IG6
 SouthWaypoints=NC5,NS1
 EastWaypoints=NC3
@@ -92,7 +92,7 @@ WestWaypoints=NS1,IG6
 
 //13-the southern Norwegian coast
 WaypointName=NC5
-WaypointPosition=-31.40,-231.30,10
+WaypointPosition=-31.40,-231.30,60
 NorthWaypoints=NC4
 SouthWaypoints=NS2
 EastWaypoints=NC6
@@ -123,7 +123,7 @@ WestWaypoints=N4,IG1,IG5,IG6
 
 //17-the Greenland Sea
 WaypointName=N3
-WaypointPosition=90.90,274.00,50
+WaypointPosition=90.90,274.00,80
 NorthWaypoints=P2
 SouthWaypoints=IG1,N2,N1
 EastWaypoints=P2,N1
@@ -304,8 +304,8 @@ WestWaypoints=A5,A6
 
 //42-Jan Mayen
 WaypointName=N4
-WaypointPosition=-30,169,20
+WaypointPosition=-30,169,200
 NorthWaypoints=N3
-SouthWaypoints=IG5,N2
+SouthWaypoints=N2,IG5
 EastWaypoints=N1
 WestWaypoints=IG1

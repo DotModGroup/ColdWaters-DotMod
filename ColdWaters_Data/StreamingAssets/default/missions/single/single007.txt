@@ -1,3 +1,5 @@
+//Stalking The Red Bear
+
 UseTerrain=TRUE
 MapCoordinates=2927,1996
 
@@ -30,6 +32,6 @@ HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_84_ssn_permit,usn_84_ssn_los_angeles,usn_84_ssn_sturgeon,usn_84_ssn_skipjack
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

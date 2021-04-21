@@ -1,11 +1,12 @@
-Image=campaign/images/nato missile land attack
-MissionLocation=Paracel Islands, South China Sea
-Briefing=27 MAR 1999
-Briefing=Perform a strike with cruise missiles to deliver a crushing blow deep in the PRC's backyard.
+//Junks On Parade
+
+Image=campaign/images/plan surface raiders 3
+MissionLocation=In the Taiwan Straits
+Briefing=20 AUG 2000
+Briefing=CINCPAC is directing you to sink a Chinese amphibious group that is headed towards the southern coast of Taiwan and sank a Taiwanese Defence Force patrol vessel. The group includes a number of Russian designed surface and sub-surface vessels.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Add 8 TLAM missiles to stores
-Briefing=Fire 8 TLAMs into the deployment zone
+Briefing=Sink the landing ships
 Briefing=
 Briefing=Secondary Objective:
 Briefing=Engage enemy warships

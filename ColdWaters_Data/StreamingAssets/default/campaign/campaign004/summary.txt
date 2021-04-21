@@ -5,8 +5,10 @@ PlayerVessels=testship,wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ss
 CommanderName=COM NORTHERN FLEET
 CommanderFleetName=GLAVCOM VMF
 
+//Easy, Normal, Hard, Elite
+StartingPrestige=400,200,100,0
 [Prestige Cost]
-testship=0
+testship=7
 wp_68_ss_whiskey=0
 wp_68_ss_romeo=10
 wp_68_ss_foxtrot=20

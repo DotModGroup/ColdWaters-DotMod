@@ -1,10 +1,12 @@
-Image=campaign/images/pact warship tender 1
-MissionLocation=West of Iceland
-Briefing=25 MAY 1968
-Briefing=Your orders are to intercept a replenishment force suspected to be operating somewhere in the North Atlantic, west of Iceland, where they are supporting aggressive Soviet anti-convoy operations. After several uneventful days spent searching, sonar reports a contact.
+//Narvik Caper
+
+Image=campaign/images/pact specops
+MissionLocation=Narvik, Norway
+Briefing=22 APR 1984
+Briefing=Massive enemy military buildup has been observed in the captured port of Narvik. A SEAL team is ordered in to report back and to destroy vital military facilities there, if possible.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Locate and sink the tenders
+Briefing=Insert the special operations team at Narvik
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Locate and sink any escorting warships if possible
+Briefing=Avoid detection

@@ -1,5 +1,6 @@
 [Unit Reference]
 ShipClass=Flt-3 Los Angeles
+ShipClassShort=Л-А 3
 Description=Flt-3 Los Angeles-class Nuclear Attack Submarine
 History=This class is an improved version of the original 688 design that adds improved quieting, the improved BSY-1 combat control system, under-ice capability and increased weapon storage in the form of 12 vertical launch (VLS) tubes in the forward ballast tank that can carry either TASM anti-ship or TLAM land-strike cruise missiles.
 

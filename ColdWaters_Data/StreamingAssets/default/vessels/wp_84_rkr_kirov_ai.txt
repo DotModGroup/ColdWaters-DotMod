@@ -78,13 +78,21 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 
-AntiAirMissileType=wp_m-4
-AntiAirMissilesNumbers=20
-AntiAirMissilesPerTarget=1
-AntiAirMissileReloadTime=16
-AntiAirMissileLaunchDepth=5
-AntiAirMissileLaunchPoints=-0.01872,0.148,0.433|0.01872,0.148,0.433|-0.01872,0.148,-0.385|0.01872,0.148,-0.385
-AntiAirMissileLaunchPointsRotation=-24,0,0|-24,0,0|-24,180,0|-24,180,0
+-AntiAirMissileType=wp_m-4
+-AntiAirMissilesNumbers=20
+-AntiAirMissilesPerTarget=1
+-AntiAirMissileReloadTime=16
+-AntiAirMissileLaunchDepth=5
+-AntiAirMissileLaunchPoints=-0.01872,0.148,0.433|0.01872,0.148,0.433|-0.01872,0.148,-0.385|0.01872,0.148,-0.385
+-AntiAirMissileLaunchPointsRotation=-24,0,0|-24,0,0|-24,180,0|-24,180,0
+
+AntiAirMissileType=wp_s-300
+AntiAirMissilesNumbers=96
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=3
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=-0.065,0.14,0.935|0.025,0.14,0.935|0.065,0.14,0.935|-0.065,0.14,0.88|0.025,0.14,0.88|0.065,0.14,0.88|-0.065,0.14,0.82|0.025,0.14,0.82|0.065,0.14,0.82|-0.065,0.14,0.765|0.025,0.14,0.765|0.065,0.14,0.765
+AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20

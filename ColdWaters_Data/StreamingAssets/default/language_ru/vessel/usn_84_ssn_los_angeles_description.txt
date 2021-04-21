@@ -1,5 +1,5 @@
 [Unit Reference]
-ShipClass=Los Angeles
+ShipClass=«Лос-Анджелес»
 Description=Los Angeles-class Nuclear Attack Submarine
 History=In service since 1976, this class was the first to be designed from the outset with a towed array, and the first to return to the 30+ knot speed of the Skipjacks. Originally designed to screen carrier groups against Soviet submarines, they combine high speed with excellent digital sonar and firecontrol, and the most advanced quieting available. With the addition of Harpoon and Tomahawk missiles, these boats are as capable against enemy shipping as they are against submarines. Their only drawback is their large size, that makes them very expensive and less maneuverable and deep-diving than the earlier Sturgeons.
 

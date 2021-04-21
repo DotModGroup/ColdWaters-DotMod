@@ -37,7 +37,7 @@ ActiveSonarReflection=25
 ActiveSonarModel=wp_mgk-300
 PassiveSonarModel=wp_mgk-300
 TowedArrayModel=FALSE
-AnechoicCoating=FALSE
+AnechoicCoating=TRUE
 RADAR=wp_rlk-101
 RADARSignature=SMALL
 

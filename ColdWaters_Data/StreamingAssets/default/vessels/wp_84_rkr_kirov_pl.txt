@@ -84,7 +84,7 @@ PlayerWarningRange=3300
 JammingRange=4500
 
 AntiAirMissileType=wp_s-300
-AntiAirMissilesNumbers=48
+AntiAirMissilesNumbers=96
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=3
 AntiAirMissileLaunchDepth=15

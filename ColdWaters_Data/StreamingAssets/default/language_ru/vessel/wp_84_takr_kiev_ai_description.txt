@@ -1,7 +1,8 @@
 [Unit Reference]
-ShipClass=Kiev
-Description=Kiev-Class Tactical Aircraft-Carrying Cruiser
-DefensiveWeapons=SA-N-3 SAM\nSA-N-4 SAM
-OffensiveWeapons=SS-N-12 Anti-Ship Missiles\nFRAS-1 ASW Missiles\nAK762 72mm DP Guns\n\533mm ASW Torpedoes\nRBU-6000 ASW Rockets
-Aircraft=14-17 Ka-25 Hormone ASW or Helix helicopters\n12-13 Yak-38MP Forger V/STOL jet fighter-bombers
-History=In service since 1975, these V/STOL carriers are the follow-on design to the Moskva helicopter-cruisers. Intended for the pro-submarine mission, these ships carry an impressive array of anti-ship and anti-air missiles in addition to extensive ASW capabilities. Unlike US Navy carriers, their main offensive strength lies in their battery of cruise-missiles, with the onboard aircraft mostly used for air cover.\n \nThese ships often operate as flagships in strike or hunter-killer groups.
+ShipClass=«Кречет»
+Designation=ТАКР
+Description=Тяжёлый авианесущий крейсер пр. 1143 «Кречет» (1984г)
+Aircraft=14-17 Ка-25\n12-13 Як-38
+History=Авианесущие крейсера проекта 1143 «Кречет» (Классификация НАТО: Kiev-сlass) — серия советских многоцелевых тяжёлых авианесущих крейсеров с ракетным вооружением дальней морской и океанской зоны, которые создавались как преемники вертолётоносцев проекта 1123 «Кондор».
+
+In service since 1975, these V/STOL carriers are the follow-on design to the Moskva helicopter-cruisers. Intended for the pro-submarine mission, these ships carry an impressive array of anti-ship and anti-air missiles in addition to extensive ASW capabilities. Unlike US Navy carriers, their main offensive strength lies in their battery of cruise-missiles, with the onboard aircraft mostly used for air cover.\n \nThese ships often operate as flagships in strike or hunter-killer groups.

@@ -1,7 +1,10 @@
-Image=campaign/images/pact wolfpack 4
-MissionLocation=In the Denmark Strait
-Briefing=8 NOV 1984
-Briefing=At least one NATO attack submarine is reported to be operating in the area. Proceed with caution.
+Image=campaign/images/pact wolfpack 1
+MissionLocation=In the North Atlantic
+Briefing=18 OCT 1984
+Briefing=After successfully breaking out into the North Atlantic your hunt for NATO convoys begins.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Fight a one-on-one duel with an enemy SSN
+Briefing=Sink enemy transport ships
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink enemy escorts

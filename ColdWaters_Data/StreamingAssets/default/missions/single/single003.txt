@@ -1,3 +1,5 @@
+//In The Presence Of Wolves
+
 UseTerrain=TRUE
 MapCoordinates=1548,856
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
@@ -83,6 +85,6 @@ SonobouyLocations=0,-100|50,100|-50,-100
 
 //spawn minefields and set detection range
 //Static mines and torpedo mines
-PlayerVessels=usn_84_ssn_permit,usn_84_ssn_los_angeles,usn_84_ssn_sturgeon,usn_84_ssn_skipjack
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

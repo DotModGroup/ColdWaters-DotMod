@@ -1,7 +1,10 @@
-Image=campaign/images/plan wolfpack 3
-MissionLocation=Near the Paracel Islands
-Briefing=7 AUG 2000
-Briefing=US naval forces continue to challenge the exclusion zone around the Paracel Islands. Weapons free, you are cleared to engage any US naval vessels in the area without warning.
+//Priority Target
+Image=campaign/images/photos/carrier_battle_group.jpeg
+MissionLocation=Rockall
+Briefing=28 SEP 1982
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink enemy warships
+Briefing=You've been sent to North Atlantic to hunt for the NATO carrier battlegroup. After several days of search you've finaly found what
+Briefing=
+Briefing=<b>Primary Objective:</b>
+Briefing=- Sink the carrier
+Briefing=

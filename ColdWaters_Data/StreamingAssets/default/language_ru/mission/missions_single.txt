@@ -5,6 +5,7 @@
 <color=Cyan>Не взирая на шансы</color>
 <color=Cyan>Штурм бастиона</color>
 <color=Cyan>Охота за красным медведем</color>
+<color=Cyan>Высадка в Нарвике</color>
 <color=#39CCCC>Бой в Северной Атлантике</color>
 <color=#39CCCC>Бой в Датском проливе</color>
 <color=#7FDBFF>Парад джонок</color>

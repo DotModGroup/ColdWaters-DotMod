@@ -1,3 +1,5 @@
+//Beating The Odds
+
 Image=campaign/images/pact surface raiders 2
 MissionLocation=In the vicinity of the North Cape
 Briefing=19 MAR 1984

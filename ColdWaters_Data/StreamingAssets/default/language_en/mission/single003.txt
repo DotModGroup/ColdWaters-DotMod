@@ -1,3 +1,5 @@
+//In The Presence Of Wolves
+
 Image=campaign/images/pact wolfpack 5
 MissionLocation=Near the Faeroes
 Briefing=15 MAR 1984

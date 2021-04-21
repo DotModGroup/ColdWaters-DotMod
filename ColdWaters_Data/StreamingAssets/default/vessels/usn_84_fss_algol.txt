@@ -37,6 +37,19 @@ AnechoicCoating=FALSE
 RADAR=FALSE
 RADARSignature=MEDIUM
 
+[Defenses]
+Anti-MissileGunHitProbability=0.015
+Anti-MissileGunRange=2500
+Anti-MissileGunFiringArcStart=0
+Anti-MissileGunFiringArcFinish=0
+Anti-MissileGunRestAngle=0
+Anti-MissileGunUsesRADAR=0
+Anti-MissileRADARRestAngle=0
+
+ChaffType=wp_chaff
+ChaffProbability=0.15
+NumberChaffLaunched=3
+
 [Model]
 ModelFile=ships/civ_ms_sl7/civ_ms_sl7
 
@@ -108,6 +121,12 @@ MeshRADAR=civ_ms_sl7_surfacesearch
 MeshPosition=0,0.487,1.3968
 MeshRotation=0,0,0
 MeshRADAR=civ_ms_sl7_surfacesearch
+
+//fake CIWS
+MeshRotation=0,0,0
+MeshPosition=0,0,0
+MeshCIWSGun=FALSE
+MeshCIWSRADAR=FALSE
 
 //Wake and Smoke
 MeshPosition=0,0,0
