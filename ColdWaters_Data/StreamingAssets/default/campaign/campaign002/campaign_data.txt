@@ -133,21 +133,21 @@ LinksToRegionWaypoint=I2
 //Norway
 //Oslo 4
 Alignment=FRIENDLY
-Function=STRATEGIC_NODE
+Function=NAVAL_BASE
 BaseMapPosition=50.7,-214.4
 LinksToWaypoint=NC6
 LinksToRegionWaypoint=N7
 
 //Bergen 5
 Alignment=FRIENDLY
-Function=STRATEGIC_NODE,INSERTION_TARGET
+Function=INSERTION_TARGET,NAVAL_BASE
 BaseMapPosition=-25.9,-147.5
 LinksToWaypoint=NC4
 LinksToRegionWaypoint=N6
 
 //Trondheim 6
 Alignment=FRIENDLY
-Function=STRATEGIC_NODE,AIRBASE,INSERTION_TARGET
+Function=AIRBASE,INSERTION_TARGET
 BaseMapPosition=67.2,-83.5
 AircraftType=us_p3c_orion
 AircraftTypeInvaded=wp_il-38_may
@@ -160,7 +160,7 @@ LinksToRegionWaypoint=N5
 
 //Andoya 7
 Alignment=FRIENDLY
-Function=AIRBASE,SOSUS_NODE
+Function=AIRBASE,SOSUS_NODE,STRATEGIC_NODE
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
 AircraftType=us_p3c_orion
@@ -173,7 +173,7 @@ LinksToRegionWaypoint=N2
 
 //Narvik 8
 Alignment=FRIENDLY
-Function=STRATEGIC_NODE,AIRBASE,INSERTION_TARGET
+Function=AIRBASE,INSERTION_TARGET
 BaseMapPosition=156.9,9.1
 AircraftType=us_p3c_orion
 AircraftTypeInvaded=wp_tu-142_bear
@@ -185,7 +185,7 @@ LinksToRegionWaypoint=N3
 
 //Spitsbergen 9
 Alignment=FRIENDLY
-Function=SOSUS_NODE
+Function=SOSUS_NODE,STRATEGIC_NODE
 BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
 LinksToWaypoint=N1
@@ -193,14 +193,14 @@ LinksToWaypoint=N1
 //Soviet
 //Murmansk 10
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE
+Function=NAVAL_BASE,AIRBASE,STRATEGIC_NODE
 BaseMapPosition=360,43.8
 AircraftType=wp_tu-142_bear
 AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=10
 AircraftHeadings=300,0
 AircraftSearchRange=700
-MissionTypes=LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
+MissionTypes=SSN_SURGE,SS_SURGE,SURGE,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,ASUW_STRIKE_LG,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SSN_WOLFPACK_LG,SS_PATROL,SS_WOLFPACK,SS_WOLFPACK_LG,SS_SPECOPS,SS_SPECOPS_LG,RESUPPLY_CONVOY
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
@@ -213,15 +213,15 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
-MissionTypes=LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
+MissionTypes=SSN_SURGE,SS_SURGE,LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
 LinksToWaypoint=SC1
 CombatCoords=1234,1234
 
 //Gremikha 12
 Alignment=ENEMY
-Function=NAVAL_BASE
+Function=NAVAL_BASE,STRATEGIC_NODE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSBN_PATROL
+MissionTypes=SSN_SURGE,SS_SURGE,SSBN_PATROL
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
