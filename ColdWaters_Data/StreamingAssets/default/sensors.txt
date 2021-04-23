@@ -71,7 +71,7 @@ SonarBaffle=150
 SonarNoisePerKnot=0.5
 SonarOutput=215
 
-//МГ-10М «Феникс» с полным набором модификаций («Кола», «Алдан» и «Свет») -  - wp_68_ssn_november,wp_68_ssgn_echo2,wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssg_juliet,wp_68_ssb_golf
+//МГ-10М «Феникс» с полным набором модификаций («Кола», «Алдан» и «Свет») - wp_68_ssn_november,wp_68_ssgn_echo2,wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssg_juliet,wp_68_ssb_golf
 SonarModel=wp_mg-10
 SonarType=PASSIVE
 SonarFrequencies=M
@@ -334,6 +334,15 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=usn_bqq_10
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=34
+SonarPassiveSensitivity=46
+SonarBaffle=130
+SonarNoisePerKnot=1
+SonarOutput=235
+
 //Ships
 
 SonarModel=usn_sqs_23
@@ -420,8 +429,54 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=1
 SonarOutput=0
 
-// 3. Другие нации
+// 3. Other nations
+//   3а) UK
+//   3б) Germany
+//AN-407 - knm_84_ss_kobben
+SonarModel=dm_an407
+SonarType=ACTIVE
+SonarFrequencies=H
+SonarActiveSensitivity=24
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=215
 
+//SRS-M1H - knm_84_ss_kobben
+SonarModel=dm_m1h
+SonarType=PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0
+
+//   3в) India
+//   3г) Italy
+//   3д) Canada
+//   3е) China
+//    Hull-mounted
+//----------------------------------------Submarine-------------------------------
+SonarModel=plan_sqc_1
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=37
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+SonarModel=plan_tsm_2233
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+//----------------------------------------Ship-------------------------------
 SonarModel=plan_sjd_3
 SonarType=ACTIVE
 SonarFrequencies=H
@@ -467,6 +522,10 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+//    Towed
+//----------------------------------------Submarine-------------------------------
+
+//----------------------------------------Ship-------------------------------
 SonarModel=plan_ess_1
 SonarType=TOWED
 SonarFrequencies=M,M
@@ -476,59 +535,12 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=1
 SonarOutput=220
 
-SonarModel=plan_tsm_2233
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L,L
-SonarActiveSensitivity=28
-SonarPassiveSensitivity=40
-SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=230
-
-SonarModel=plan_ss_12
-SonarType=DIPPING
-SonarFrequencies=M
-SonarActiveSensitivity=32
-SonarPassiveSensitivity=32
-SonarBaffle=FALSE
-SonarNoisePerKnot=0
-SonarOutput=220
-
-
-SonarModel=plan_sqc_1
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=L,L
-SonarActiveSensitivity=28
-SonarPassiveSensitivity=37
-SonarBaffle=150
-SonarNoisePerKnot=1
-SonarOutput=230
+//   3ж) France
+//   3з) Sweden
+//   3и) Norway
 
 //II.Sonobuoys and dipping
-
-SonarModel=usn_ssq_62
-SonarType=SONOBUOY
-SonarFrequencies=M
-SonarActiveSensitivity=21
-SonarPassiveSensitivity=0
-SonarBaffle=FALSE
-SonarNoisePerKnot=0
-SonarOutput=200
-
-SonarModel=usn_aqs_13
-SonarType=DIPPING
-SonarFrequencies=M
-SonarActiveSensitivity=20
-SonarPassiveSensitivity=20
-SonarBaffle=FALSE
-SonarNoisePerKnot=0
-SonarOutput=220
-
-
-
-
-
-
+//WP SONOBUOYS
 SonarModel=wp_rgb_56
 SonarType=SONOBUOY
 SonarFrequencies=M
@@ -556,6 +568,7 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=0
 
+//Berkut-95 complex - fixed wing ASW sonobuoys - type RGB-1 (Snipe Egg 1), RGB-2 (Snipe Egg 2) and RGB-3 (Snipe Egg 3).
 SonarModel=wp_bm_1
 SonarType=SONOBUOY
 SonarFrequencies=M
@@ -583,6 +596,7 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=200
 
+//WP HELO DIPPING SONARS
 SonarModel=wp_elk_tail
 SonarType=DIPPING
 SonarFrequencies=H
@@ -610,13 +624,43 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=220
 
+//US SONOBUOYS
+SonarModel=usn_ssq_62
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=21
+SonarPassiveSensitivity=0
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200
+
+SonarModel=usn_aqs_13
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=20
+SonarPassiveSensitivity=20
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220
+
+//PLAN SONOBUOYS
+
+//PLAN HELO DIPPING SONARS
+SonarModel=plan_ss_12
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=32
+SonarPassiveSensitivity=32
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220
+
+
 [RADAR]
 //III. Радары
 //   1. СССР
 //-------------------------------------------New---------------------------------
 //----------------------------------------Submarine-------------------------------
-
-
 RADARModel=wp_flag
 RADARRange=30400
 
@@ -633,44 +677,6 @@ RADARModel=wp_mrkp-58
 RADARRange=58000
 RADARVisibility=0.5
 
-RADARModel=wp_snoop_slab
-RADARRange=30400
-
-
-
-**********************************************************************************************
-RADARModel=usn_bps_12
-RADARRange=60000
-
-RADARModel=usn_bps_15
-RADARRange=60000
-
-RADARModel=usn_bps_14_15
-RADARRange=60000
-
-RADARModel=usn_bps_15A
-RADARRange=60000
-
-RADARModel=usn_sps_10
-RADARRange=58000
-
-RADARModel=usn_sps_67
-RADARRange=60000
-
-RADARModel=usn_sps_55
-RADARRange=64000
-
-RADARModel=usn_ln_66
-RADARRange=100000
-
-RADARModel=plan_klc_1
-RADARRange=100000
-
-RADARModel=wp_don_kay
-RADARRange=50500
-
-RADARModel=wp_spin_through
-RADARRange=40500
 
 RADARModel=wp_snoop_head
 RADARRange=40500
@@ -686,7 +692,14 @@ RADARRange=30400
 
 RADARModel=wp_snoop_pair
 RADARRange=44000
+//----------------------------------------Корабельные-------------------------------
+RADARModel=wp_don_kay
+RADARRange=50500
 
+RADARModel=wp_spin_through
+RADARRange=40500
+
+//----------------------------------------Авиационные-------------------------------
 RADARModel=wp_mushroom
 RADARRange=90000
 
@@ -701,6 +714,45 @@ RADARRange=140000
 
 RADARModel=wp_korshun_k
 RADARRange=160000
+
+//   2. США
+
+//----------------------------------------Лодочные-------------------------------
+RADARModel=usn_bps_12
+RADARRange=60000
+
+RADARModel=usn_bps_15
+RADARRange=60000
+
+RADARModel=usn_bps_14_15
+RADARRange=60000
+
+RADARModel=usn_bps_15A
+RADARRange=60000
+
+//----------------------------------------Корабельные-------------------------------
+RADARModel=usn_sps_10
+RADARRange=58000
+
+RADARModel=usn_sps_67
+RADARRange=60000
+
+RADARModel=usn_sps_55
+RADARRange=64000
+//----------------------------------------Авиационные-------------------------------
+RADARModel=usn_ln_66
+RADARRange=100000
+
+//   3. Другие нации
+//----------------------------------------Лодочные-------------------------------
+////THD 1030 Calypso II - knm_84_ss_kobben
+RADARModel=dm_calypso
+RADARRange=37400
+//----------------------------------------Корабельные-------------------------------
+
+//----------------------------------------Авиационные-------------------------------
+RADARModel=plan_klc_1
+RADARRange=100000
 
 RADARModel=plan_aps_504
 RADARRange=140000
