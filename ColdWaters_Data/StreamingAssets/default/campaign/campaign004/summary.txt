@@ -6,9 +6,9 @@ CommanderName=COM NORTHERN FLEET
 CommanderFleetName=GLAVCOM VMF
 
 //Easy, Normal, Hard, Elite
-StartingPrestige=400,200,100,0
+StartingPrestige=400,200,0,0
 [Prestige Cost]
-testship=7
+testship=0
 wp_68_ss_whiskey=0
 wp_68_ss_romeo=10
 wp_68_ss_foxtrot=20

@@ -164,7 +164,7 @@ UnitReferenceLightingAngle=35,140,0
 [Debug Options]
 CampaignDebugOnLoad=FALSE
 EventsDebugOnContinue=FALSE
-UnitReferenceDebugOnSpace=TRUE
+UnitReferenceDebugOnSpace=FALSE
 AutoCameraPanAndZoom=FALSE
 ForceCampaignMissionType=FALSE
 ForceCampaignMissionNumber=FALSE

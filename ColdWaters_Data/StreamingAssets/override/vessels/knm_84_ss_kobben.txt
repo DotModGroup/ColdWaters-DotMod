@@ -32,11 +32,11 @@ EscapeDepth=560
 [Acoustics & Sensors]
 SelfNoise=115
 ActiveSonarReflection=25
-ActiveSonarModel=plan_tsm_2233
-PassiveSonarModel=plan_tsm_2233
+ActiveSonarModel=dm_an407
+PassiveSonarModel=dm_m1h
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_snoop_tray
+RADAR=dm_calypso
 RADARSignature=SMALL
 TowedArrayPosition=0.0718,0,-0.55
 

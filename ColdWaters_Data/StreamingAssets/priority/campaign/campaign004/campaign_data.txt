@@ -111,6 +111,7 @@ BaseMapPosition=-143.10,-37.00
 RelatedSOSUS=FAROESSOUTH,FAROESNORTH
 MissionTypes=AI_PATROL_SSN,AI_PATROL_ASW,AI_PATROL_SS,SSN_WOLFPACK,LANDING_FORCE,SS_SPECOPS,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,ASUW_STRIKE
 LinksToWaypoint=IG5,IG6,N2,IG7
+LinksToRegionWaypoint=I3
 
 //Iceland
 //Reykjavik/Keflavik 2
@@ -334,14 +335,16 @@ SOSUSAlignment=ENEMY
 //Second to last mission is simple RETURN TO BASE
 PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,BERGEN_CONVOY,INSERTION,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
-//This is just probability of reciving mission. Missions are checked consecutively from left to right -nope
+//Sum of frequencies must equal 1
 PlayerMissionFrequency=0.05,0.05,0.1,0.05,0.15,0.2,0.2,0.1,0.1,1.0
+PlayerMissionThreshold=0,0,0,0,0,0,0,0,0,0
 
 CommandoLoadTime=120
 DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
 Mission=BERGEN_CONVOY_0
 Mission=SS_SPECOPS_0
 Mission=LANDING_FORCE_0
+Mission=LANDING_FORCE_1
 Mission=RESUPPLY_CONVOY_0
 Mission=INSERTION_0
 Mission=SUB_RESUPPLY_0

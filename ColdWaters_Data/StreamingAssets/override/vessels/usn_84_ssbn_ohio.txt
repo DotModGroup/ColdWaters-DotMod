@@ -43,7 +43,7 @@ TowedArrayPosition=-0.118,-0.004,-1.157
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48,usn_moss
-TorpedoNumbers=10,6
+TorpedoNumbers=8,2
 TorpedoTubes=5
 NumberOfWires=4
 TubeConfig=1,1,1,1,1
@@ -97,7 +97,7 @@ DamageControlPartyY=-31
 MinCameraDistance=2.0
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_ssbn_ohio
+AssetBundle=bundles/dotmod/vessels/usn/usn_ssbn_ohio
 ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
 
 //Hull and Deck
@@ -108,12 +108,14 @@ MeshHullCollider=usn_ssbn_ohio_coll_hull
 MeshSuperstructureCollider=usn_ssbn_ohio_coll_ss
 
 Material=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_mat.mat
-MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_tx.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
+-MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_tx.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
 -MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_black.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,FALSE
 assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
--MaterialTextures=vessels/textures/usn_ssbn_ohio_tx.png,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
+MaterialTextures=vessels/textures/usn_ssbn_ohio_tx.png,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
 
 Mesh=usn_ssbn_ohio
+-Mesh=usn_ssbn_ohio_missilelids
+
 MeshPosition=0,0,-1.07
 MeshRudder=usn_ssbn_ohio_rudders
 MeshPosition=0,0.17,0.73
@@ -124,8 +126,6 @@ MeshPosition=0,-0.003,-1.2
 MeshProp=usn_ssbn_ohio_prop
 
 
-MeshPosition=0,0,0
-//Mesh=usn_ssbn_ohio_missilelids
 
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
@@ -144,31 +144,31 @@ MeshMast=usn_ssn_los_angeles_radar_mast
 
 ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
 
-VLSLaunchPoints=0.035,0.1,0.48|-0.035,0.1,0.48|0.035,0.1,0.44|-0.035,0.1,0.44|0.035,0.1,0.40|-0.035,0.1,0.40|0.035,0.1,0.36|-0.035,0.1,0.36|0.035,0.1,0.32|-0.035,0.1,0.32|0.035,0.1,0.28|-0.035,0.1,0.28|0.035,0.1,0.24|-0.035,0.1,0.24|0.035,0.1,0.20|-0.035,0.1,0.20|0.035,0.1,0.16|-0.035,0.1,0.16|0.035,0.1,0.12|-0.035,0.1,0.12|0.035,0.1,0.08|-0.035,0.1,0.08|0.035,0.1,0.04|-0.035,0.1,0.04
-VLSLaunchPointsRotation=-90,0,0
-
 [Weapon Systems]
 //Torpedo Mounts
-//Left Side
-MeshRotation=0,340,0
-MeshPosition=-0.09,-0.015,1.075
-TorpedoSpawnPosition=-0.09,-0.015,1.075
-TorpedoEffectPosition=-0.09,-0.015,1.075
+//Port
+-MeshRotation=0,-15,0
+MeshRotation=0,-6,0
 
-MeshPosition=-0.083,-0.04,1.036
-TorpedoSpawnPosition=-0.083,-0.04,1.036
-TorpedoEffectPosition=-0.083,-0.04,1.036
+MeshPosition=-0.09,-0.02,1.04
+TorpedoSpawnPosition=-0.09,-0.02,1.04
+TorpedoEffectPosition=-0.09,-0.02,1.04
 
-//RightSide
-MeshRotation=0,20,0
+MeshPosition=-0.083,-0.042,1.01
+TorpedoSpawnPosition=-0.083,-0.042,1.01
+TorpedoEffectPosition=-0.083,-0.042,1.01
 
-MeshPosition=0.09,-0.015,1.075
-TorpedoSpawnPosition=0.09,-0.015,1.075
-TorpedoEffectPosition=0.09,-0.015,1.075
+//Starboard
+-MeshRotation=0,15,0
+MeshRotation=0,6,0
 
-MeshPosition=0.083,-0.04,1.036
-TorpedoSpawnPosition=0.083,-0.04,1.036
-TorpedoEffectPosition=0.083,-0.04,1.036
+MeshPosition=0.09,-0.02,1.04
+TorpedoSpawnPosition=0.09,-0.02,1.04
+TorpedoEffectPosition=0.09,-0.02,1.04
+
+MeshPosition=0.083,-0.042,1.01
+TorpedoSpawnPosition=0.083,-0.042,1.01
+TorpedoEffectPosition=0.083,-0.042,1.01
 
 //VLS Launch Position
 MeshPosition=0,0,-0.211
@@ -176,12 +176,16 @@ MeshRotation=-90,0,0
 TorpedoSpawnPosition=0,0,-0.211
 TorpedoEffectPosition=0,0,-0.211
 
+VLSLaunchPoints=-0.035,0.1,0.48|0.035,0.1,0.48|-0.035,0.1,0.435|0.035,0.1,0.435|-0.035,0.1,0.395|0.035,0.1,0.395|-0.035,0.1,0.355|0.035,0.1,0.355|-0.035,0.1,0.31|0.035,0.1,0.31|-0.035,0.1,0.27|0.035,0.1,0.27|-0.035,0.1,0.23|0.035,0.1,0.23|-0.035,0.1,0.185|0.035,0.1,0.185|-0.035,0.1,0.14|0.035,0.1,0.14|-0.035,0.1,0.10|0.035,0.1,0.10|-0.035,0.1,0.06|0.035,0.1,0.06|-0.035,0.1,0.02|0.035,0.1,0.02
+VLSLaunchPointsRotation=-90,0,0
+
 //Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.08,-0.9
 MeshNoisemakerMount=FALSE
 
 //Wake
+ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub

@@ -1,0 +1,33 @@
+SkyboxTexture=environment/sky/Dawn_Scattered
+SkyboxDiffuse=environment/cubemap/Dawn_Scattered_IBL
+SkyboxSpecular=environment/cubemap/Dawn_Scattered_Spec
+
+AmbientColor=58,85,85,255
+LightLevel=170,160,150,255
+SurfaceFogColor=77,88,88,255
+SubmergedFogColor=10,46,60,255
+
+SkyColor=0,35,48,255
+OceanColor=1,23,36,255
+ReflectionTint=255,255,255,255
+ReflectionIntensity=0.75
+AboveInscatter=0,35,48,255
+
+SurfaceFogDensity=0.012
+SubmergedFogDensity=0.1
+
+PrimaryLightRotation=5,-92,0
+PrimaryLightIntensity=1
+PrimaryLightColor=248,166,95,255
+
+SecondaryLightRotation=75,-110,0
+SecondaryLightIntensity=1
+SecondaryLightColor=0,35,48,255
+
+ShadowIntensity=1
+OceanShadows=TRUE
+FoamColor=255,255,255,255
+
+//Post Processing Color Filter (cold, normal, warm)
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Blockbuster 15
+PostProcessingUnderwater=Blockbuster 6

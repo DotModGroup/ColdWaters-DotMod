@@ -10,6 +10,7 @@ usn_84_ssbn_ohio
 usn_99_ssn_los_angeles_flt2
 usn_99_ssn_los_angeles_flt3
 usn_99_ssn_seawolf
+usn_04_ssn_virginia
 uk_84_ssn_trafalgar
 wp_68_ssn_november
 wp_68_ssn_victor1

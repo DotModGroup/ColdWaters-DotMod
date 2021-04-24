@@ -1,9 +1,0 @@
-[Unit Reference]
-ShipClass=Ohio
-Description=Ohio-class Balistic Missile Submarine (1984)
-
-History=The Ohio-class forms the new backbone of the US balistic missile fleet submarines after the retirement of the 41 for Freedom.
-
-[Player Ship Instances]
-PlayerClassNames=Ohio,Michigan,Florida,Georgia,Henry M. Jackson
-PlayerClassHullNumbers=SSBN-726,SSBN-727,SSBN-728,SSBN-729,SSBN-730

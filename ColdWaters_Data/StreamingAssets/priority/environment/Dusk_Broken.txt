@@ -1,0 +1,33 @@
+SkyboxTexture=environment/sky/Dusk_Broken
+SkyboxDiffuse=environment/cubemap/Dusk_Broken_IBL
+SkyboxSpecular=environment/cubemap/Dusk_Broken_Spec
+
+AmbientColor=44,49,35,255
+LightLevel=150,130,120,255
+SurfaceFogColor=55,47,41,255
+SubmergedFogColor=10,46,60,255
+
+SkyColor=0,35,48,255
+OceanColor=1,23,36,255
+ReflectionTint=255,255,255,255
+ReflectionIntensity=0.75
+AboveInscatter=0,35,48,255
+
+SurfaceFogDensity=0.02
+SubmergedFogDensity=0.2
+
+PrimaryLightRotation=15,90,0
+PrimaryLightIntensity=0.5
+PrimaryLightColor=249,186,155,255
+
+SecondaryLightRotation=75,-110,0
+SecondaryLightIntensity=1
+SecondaryLightColor=0,35,48,255
+
+ShadowIntensity=0.75
+OceanShadows=TRUE
+FoamColor=255,225,200,255
+
+//Post Processing Color Filter (cold, normal, warm)
+PostProcessingSurface=Blockbuster 15,Blockbuster 15,Blockbuster 15
+PostProcessingUnderwater=Blockbuster 6

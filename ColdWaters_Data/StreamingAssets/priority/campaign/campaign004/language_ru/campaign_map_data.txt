@@ -35,7 +35,7 @@ Color=255,200,0,255
 
 LabelPosition=-175.12,-160
 LabelName=Холи-Лох
-LabelPosition=-125.4,-48.75
+LabelPosition=-140,-18
 LabelName=Торсхавн
 LabelPosition=-210,129.97
 LabelName=Рейкьявик
@@ -47,7 +47,7 @@ LabelPosition=12.7,-149.6
 LabelName=Берген
 LabelPosition=76.5,-108
 LabelName=Трондхейм
-LabelPosition=213.9,39.5
+LabelPosition=215,42
 LabelName=Аннёйа
 LabelPosition=187,8
 LabelName=Нарвик
@@ -83,7 +83,7 @@ LabelName=Ливерпуль
 LabelPosition=-88,-348
 LabelName=Амстердам
 
-LabelPosition=20,-291
+LabelPosition=20,-310
 LabelName=Копенгаген
 
 LabelPosition=0,-330
@@ -383,7 +383,7 @@ LabelPosition=45,-369.2
 LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
 LabelPosition=-50,-369.2
 LabelName=ЗАПАДНАЯ\nГЕРМАНИЯ
-LabelPosition=9,-300
+LabelPosition=9,-275
 LabelName=ДАНИЯ
 Size=26
 LabelPosition=500,-280
