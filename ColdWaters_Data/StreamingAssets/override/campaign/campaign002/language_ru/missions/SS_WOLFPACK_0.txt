@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+SATELLITE PHOTOS INDICATE THAT TWO ULTRA-SILENT KILO CLASS DIESEL-ELECTRIC ATTACK SUBS HAVE RECENTLY DEPARTED MURMANSK, LIKELY FOR A COMBAT PATROL IN THE NORTH ATLANTIC. THEY MUST BE SUNK BEFORE THEY GET THE OPPORTUNITY TO DISRUPT ALLIED OPERATIONS.  
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO PATROL AREA **BLUE 041**  
+LOCATE AND SINK THE ENEMY ATTACK SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0700
+[MISSION WIN]
+Fine work dealing with those Kilos, Commander! Your contribution to the war effort will make life for our boys a lot safer! Keep it up, Commander!
+[MISSION FAIL]
+Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
+[MISSION MISSED]
+Discouraged to hear that the mission could not be carried through. Remember that time works for the enemy, not for us. Try harder next time.

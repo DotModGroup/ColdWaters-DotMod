@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato insertion 1,campaign/images/nato insertion 2
+Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>PEACE TALKS</b>
+Color=57,61,73,255
+Sentence1=Negotiators representing the Warsaw Pact military alliance have expressed a wish to initiate formal armistice talks and begin laying the groundwork for a cessation of hostilities. The Pentagon has issued a statement stating that such talks would be a welcome development in the current crisis. Both sides seem confident that talks will lead to a long-standing agreement between all hostile nations.
+Color=218,218,208,255
+Sentence2=Analysts question the real intentions of Soviet and other Warsaw Pact members. They point out that the ballistic missile submarine threat has failed to materialize so far, making them wonder if they could play a part in a hidden agenda for bolstering Soviet bargaining power during end talks.

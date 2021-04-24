@@ -1,0 +1,15 @@
+NextAction=MAP
+Image=campaign/images/nato naval air 1,campaign/images/nato naval air 2,campaign/images/CV_Air.jpg,campaign/images/Launch1.jpg
+Photo=campaign/images/photos/air nato 3,campaign/images/photos/air nato 6,campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 3,campaign/images/photos/CAW.jpg,campaign/images/photos/FA18.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO AIR SUPERIORITY</b>|<b>NATO ATTACKS HIT HARD</b>|<b>PATH CLEARED FOR CARRIERS</b>|<b>CARRIER AIRCRAFT HIT KEY TARGETS</b>
+Color=57,61,73,255
+Sentence1=In recent days, NATO has stepped up air strikes along the front and deep into enemy territory. Analysts propose this sudden shift in pressure from the air is the direct result of intensified carrier operations throughout the theatre.|NATO officials revealed today that several key Warsaw Pact airfields and air defense systems had been put out of action by airstrikes over the last 24 hours. Although no specifics were provided, it was widely assumed that the attacks originated from allied aircraft carrier groups operating in recently cleared areas of the Norwegian Sea.|Anonymous military sources have confirmed that NATO aircraft carrier battle groups are now operating closer to the front lines, after a week-long effort to eliminate enemy submarines and surface forces in the area. A source confirmed, "Our Navy aircraft are now operating in direct support of front line units and providing much needed help."
+Color=218,218,208,255
+Sentence2=NATO's ability to maintain air superiority in several key strategic regions has provided much needed relief to those holding the lines on the ground. Denying the enemy use of the skies and seas will be pivotal in pushing back their control of the land.|The official Soviet news agency Pravda was quick to counter this information. "Our heroic naval forces are turning the Norwegian Sea into a graveyard of imperialist vessels. We will soon wipe the aggressors from the ocean, and liberate our fellow workers from enslavement by their Western capitalist masters."|Long a goal of NATO military planning, the ability of allied aircraft carrier battle groups to operate in the Norwegian Sea was seen as a key step towards turning back Russian forces. Others questioned the move. "Is the risk of operating there worth the reward?" asked one analyst, "and do we even have a plan to sustain and protect these forces when they are so far forward?
+

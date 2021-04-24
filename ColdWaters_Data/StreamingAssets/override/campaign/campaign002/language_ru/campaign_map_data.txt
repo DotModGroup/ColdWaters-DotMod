@@ -1,0 +1,126 @@
+[LOCATION NAMES AND COUNTRY/REGION]
+LocationName=Holy Loch=Scotland
+LocationName=Torshavn=Faroe Islands
+LocationName=Reykjavik and Keflavik=Iceland
+LocationName=Hofn=Iceland
+LocationName=Oslo=Norway
+LocationName=Bergen=Norway
+LocationName=Trondheim=Norway
+LocationName=Andoya=Norway
+LocationName=Narvik=Norway
+LocationName=Spitsbergen=Spitsbergen
+LocationName=Murmansk=Soviet Union
+LocationName=Archangelsk=Soviet Union
+LocationName=Gremikha=Soviet Union
+
+[CITY TOWN PORT NAMES]
+Color=255,255,255,255
+Outline=TRUE
+Size=10
+Font=2
+
+LabelPosition=-175.12,-185.38
+LabelName=Holy Loch
+LabelPosition=-125.4,-48.75
+LabelName=Torshavn
+LabelPosition=-228.59,129.97
+LabelName=Reykjavik\nKeflavik
+LabelPosition=-181.71,84.17
+LabelName=Hofn
+LabelPosition=53.1,-180.1
+LabelName=Oslo
+LabelPosition=6.7,-149.6
+LabelName=Bergen
+LabelPosition=76.5,-108
+LabelName=Trondheim
+LabelPosition=213.9,39.5
+LabelName=Andoya
+LabelPosition=189.3,6.3
+LabelName=Narvik
+LabelPosition=224.5,280.4
+LabelName=Spitsbergen
+LabelPosition=355.6,23.7
+LabelName=Murmansk
+LabelPosition=474.3,-83.1
+LabelName=Archangelsk
+LabelPosition=420.2,1.7
+LabelName=Gremikha
+LabelPosition=150.8,-213.5
+LabelName=Stockholm
+LabelPosition=265.7,-201.2
+LabelName=Helsinki
+LabelPosition=354,-230.2
+LabelName=Leningrad
+
+[MARKERS]
+Color=0,255,0,255
+Outline=TRUE
+Size=10
+LocationMarkerPosition=-204.16,-185.34
+Color=255,255,255,255
+Size=5
+LocationMarkerPosition=-142.37,-37.5
+LocationMarkerPosition=-254.81,130.94
+LocationMarkerPosition=-192.42,73.73
+LocationMarkerPosition=55.9,-191.8
+LocationMarkerPosition=-13.7,-150.4
+LocationMarkerPosition=77.3,-96.9
+LocationMarkerPosition=186,15.8
+LocationMarkerPosition=177.9,38.4
+LocationMarkerPosition=217.8,268.6
+LocationMarkerPosition=358,32.7
+LocationMarkerPosition=458.1,-72.1
+LocationMarkerPosition=424.6,12.3
+LocationMarkerPosition=343.5,-218.9
+LocationMarkerPosition=162.7,-225.2
+LocationMarkerPosition=265.9,-212.9
+
+[COUNTRY LABELS]
+Color=0,0,0,255
+Outline=FALSE
+Size=12
+Font=2
+LabelPosition=-201.2,103.3
+LabelName=ICELAND
+LabelPosition=-201.2,348.1
+LabelName=GREENLAND
+LabelPosition=-191.1,-281.1
+LabelName=UNITED\nKINGDOM
+LabelPosition=49.9,-160.5
+LabelName=NORWAY
+LabelPosition=130,-153.9
+LabelName=SWEDEN
+LabelPosition=269.8,-138.3
+LabelName=FINLAND
+LabelPosition=151,-374
+LabelName=POLAND
+LabelPosition=43.7,-369.2
+LabelName=EAST\nGERMANY
+LabelPosition=-25.6,-369.2
+LabelName=WEST\nGERMANY
+LabelPosition=9,-276.2
+LabelName=DENMARK
+Size=26
+LabelPosition=477.3,-285.5
+LabelName=SOVIET\nUNION
+
+[OCEANS AND SEAS LABELS]
+Color=43,71,97,255
+Outline=FALSE
+Size=16
+Font=3
+LabelPosition=-379,-23
+LabelName=NORTH ATLANTIC\nOCEAN
+LabelPosition=26.7,53.4
+LabelName=NORWEGIAN SEA
+LabelPosition=-82.1,-252.1
+LabelName=NORTH SEA
+Size=12
+LabelPosition=-248.5,218.6
+LabelName=DENMARK\nSTRAIT
+LabelPosition=396.5,135.5
+LabelName=BARENTS SEA
+LabelPosition=80.8,264.7
+LabelName=GREENLAND SEA
+LabelPosition=195.4,-249.5
+LabelName=BALTIC\nSEA

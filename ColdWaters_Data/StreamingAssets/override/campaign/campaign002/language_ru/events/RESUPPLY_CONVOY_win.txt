@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact landing sunk
+Photo=campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>SOVIET SUPPLIES SUNK</b>|<b>ENEMY CONVOY SUNK</b>|<b>SHIPS TURN AND RUN</b>|<b>NO RESPITE FOR REDS</b>
+Color=57,61,73,255
+Sentence1=A spokesman for NATO naval operations today revealed that an enemy resupply convoy had been successfully repelled by a naval blockade of <ENDLOCATION>, <COUNTRY>. The large convoy of enemy ships was aggressively engaged; numerous ships were sunk and vessels still afloat rapidly turned and withdrew.
+Color=218,218,208,255
+Sentence2=The success of recent NATO naval operations continues to have a significant and lasting impact on the ground war. Initial suggestions that the role of the navy in this conflict would be limited at best have been proven wrong.

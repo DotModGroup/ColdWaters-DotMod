@@ -1,0 +1,15 @@
+NextAction=event_intro_3
+Image=campaign/images/68 vietnam 1,campaign/images/68 vietnam 2
+Photo=campaign/images/photos/politics 2
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ROLLING<n>THUNDER</b>
+Color=57,61,73,255
+Sentence1=Recent heavy air raids by the US in Vietnam, "reiterates the current administration's desire to show strong resolve in the Vietnam conflict on the behalf of South Vietnam", said SecDef McNamara. Meanwhile anti-war protests continue to grow, leading some analysts to believe the US might be seeking a way out of the conflict.
+Color=218,218,208,255
+Sentence2=<b>SALT TALKS CONTINUE</b><n>President Johnson and Premier Brezhnev met today in order to settle the new strategic arms limitation treaty, which would see many older weapons scrapped. Analysts however believe older weapons will be scrapped in favor of procuring newer, more effective weapons.

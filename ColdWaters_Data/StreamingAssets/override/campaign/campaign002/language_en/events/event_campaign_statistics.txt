@@ -1,0 +1,7 @@
+NextAction=CHECK_MISSION
+Image=campaign/images/event_award_background
+Photo=FALSE
+Header=ACHIEVEMENTS TO DATE
+
+Title=Commander <PLAYERNAME><n><PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL>
+Sentence1=Days at war:<n><n>Missions accomplished:<n>Land strikes:<n>Insertions:<n><n>Capital ships sunk:<n>Other warships sunk:<n>Submarines sunk:<n>Merchants sunk:<n>Total sunk:<n><n>Capital ship tonnage:<n>Other warship tonnage:<n>Submarine tonnage:<n>Merchant tonnage:<n>Total tonnage:

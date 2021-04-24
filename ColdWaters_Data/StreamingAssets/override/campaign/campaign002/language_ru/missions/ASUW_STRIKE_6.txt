@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE REPORTS THAT AN ENEMY TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF <COUNTRY>. A NATO CARRIER BATTLEGROUP IS CURRENTLY PROVIDING COVER IN THE REGION AND MUST BE PROTECTED. YOU WILL THEREFORE INTERCEPT AND DESTROY THIS TASK FORCE, ESPECIALLY ANY CAPITAL SHIPS. AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO AND PATROL AREA **BLUE 044** 
+LOCATE AND SINK CAPITAL SHIPS.
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0106
+[MISSION WIN]
+Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder our operations. CINCLANT sends regards to you and your crew.
+[MISSION FAIL]
+Discouraged to hear you lost this opportunity against such a high priority target. Enemy task force will no doubt continue to pose a major threat to our battlegroups.
+[MISSION MISSED]
+Disappointed to hear target was not intercepted. Enemy task force will no doubt continue to pose a major threat to our battlegroups.
