@@ -1,4 +1,4 @@
-//Hornet's nest
+//Hornet's Nest
 
 UseTerrain=TRUE
 MapCoordinates=1393,681
