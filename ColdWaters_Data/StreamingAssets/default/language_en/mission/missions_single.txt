@@ -14,7 +14,7 @@
 <color=Red>Cornered</color>
 <color=Red>Convoy Calamity</color>
 <color=Red>Ambush</color>
-<color=Red>Hornet's nest</color>
+<color=Red>Hornet's Nest</color>
 <color=Red>Priority Target</color>
 <color=Yellow>Territorial Dispute</color>
 <color=Yellow>Shallow Grave</color>

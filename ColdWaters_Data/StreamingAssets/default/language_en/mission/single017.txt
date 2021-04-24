@@ -1,4 +1,4 @@
-//Hornet's nest
+//Hornet's Nest
 Image=campaign/images/Belknap+Knox.png
 MissionLocation=West of UK
 Briefing=15 DEC 1986
