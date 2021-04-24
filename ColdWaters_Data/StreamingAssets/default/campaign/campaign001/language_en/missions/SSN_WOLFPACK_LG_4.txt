@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+AN ENEMY OSCAR OR CHARLIE-CLASS CRUISE MISSILE SUBMARINE IS ATTEMPTING TO BREAK OUT THROUGH THE DENMARK STRAIT IN ORDER TO ATTACK VITAL NORTH ATLANTIC CONVOYS. YOU MUST SINK IT. IT IS BELIEVED TO HAVE ONE OR MORE NUCLEAR ATTACK SUB ESCORTS.
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL AREA **GREEN 312** NW OF ICELAND. 
+LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINE
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+1804
+[MISSION WIN]
+COMSUBLANT was very happy to hear about your recent success, Commander. Your efforts have helped to turn the waters off Iceland into a graveyard for Soviet subs.  Outstanding work.  
+[MISSION FAIL]
+Commander, inability to complete your assignment only serves to prolong this war.  
+[MISSION MISSED]
+Further search for the enemy deemed unproductive at this time.  Your Navy expects better.

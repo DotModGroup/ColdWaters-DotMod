@@ -14,7 +14,7 @@ ReflectionIntensity=0.75
 AboveInscatter=0,35,48,255
 
 SurfaceFogDensity=0.005
-SubmergedFogDensity=0.13
+SubmergedFogDensity=0.06
 
 PrimaryLightRotation=35,180,0
 PrimaryLightIntensity=1.2

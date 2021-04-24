@@ -1,9 +1,10 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-A WOLFPACK OF ENEMY ATTACK SUBMARINES IS RETURNING AFTER HAVING SUCCESSFULLY OPERATED AGAINST NATO SHIPPING IN THE NORTH ATLANTIC CONVOY ROUTES AND WILL NOW ATTEMPT TO TRANSIT THROUGH THE GIUK AREA TOWARDS THEIR HOME BASE WHERE THEY WILL PREPARE FOR NEW OPERATIONS. YOU MUST ATTACK AND SINK THEM BEFORE THEY CAN HAVE A CHANCE TO REARM.
+REPORTS INDICATE THAT THAT SOVIET DIESEL-ELECTRIC ATTACK SUBS ARE INTERDICTING SHIPPING ALONG THE NORWEGIAN COAST.  SEVERAL VITAL CARGO VESSELS HAVE BEEN SUNK WITHIN THE LAST 24 HOURS.  IT IS IMPERATIVE THAT THESE SUBS BE STOPPED BEFORE INFLICTING MORE DAMAGE.  INTELLIGENCE BELIEVES THE PACK MAY CONSIST OF 2 TO 4 SUBMARINES. 
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY ATTACK SUBMARINES
+PATROL AREA **BLUE 049** 
+LOCATE AND SINK ANY ENEMY ATTACK SUBMARINES OPERATING IN THIS ZONE.
 
 3.	(S) SECONDARY OBJECTIVE:
 NONE
@@ -13,9 +14,12 @@ NONE
 5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0703
 [MISSION WIN]
-COMSUBLANT was very happy to hear about your recent success, Commander. The Soviets should be aware that the Atlantic is our waters and that any attempt to operate in it will be forcefully dealt with. The excellent work of you and your crew is what gets that message across! Well done.
+Congratulations on a job well done, Commander! We need to protect those merchants at all costs!  
 [MISSION FAIL]
-Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
+Disappointed to hear you lost this opportunity. Be more aggressive!
 [MISSION MISSED]
-Further search for the enemy deemed unproductive at this time.
+Further search for the enemy submarines deemed unproductive at this time.  Await further instructions.

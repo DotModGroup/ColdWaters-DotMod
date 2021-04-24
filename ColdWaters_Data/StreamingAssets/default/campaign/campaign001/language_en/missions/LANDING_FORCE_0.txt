@@ -13,9 +13,12 @@ LOCATE AND SINK ANY ESCORTING VESSELS IF POSSIBLE
 5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0400
 [MISSION WIN]
-Great job. Pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been repelled.
+Great job. Pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been repelled.  You've dealt the Reds a serious blow.
 [MISSION FAIL]
-Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.
+Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.  
 [MISSION MISSED]
-Discouraged to hear you failed to intercept the enemy landing force. Be more aggressive.
+Discouraged to hear you failed to intercept the enemy landing force. The Soviets have gained a foothold on our back door.  Be more aggressive.  

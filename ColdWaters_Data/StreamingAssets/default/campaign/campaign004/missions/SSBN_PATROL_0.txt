@@ -21,4 +21,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-4
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=plan_ssbn_xia,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack
+EnemyShipClasses=usn_84_ssbn_ohio,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack

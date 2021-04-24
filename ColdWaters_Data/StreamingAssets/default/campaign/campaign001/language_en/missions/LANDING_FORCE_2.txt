@@ -13,9 +13,12 @@ LOCATE AND SINK ANY ESCORTING VESSELS IF POSSIBLE
 5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0402
 [MISSION WIN]
-Great job. Pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been repelled.
+Relieved to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been repelled.  BZ to your crew for a truly heroic effort!
 [MISSION FAIL]
 The anticipated attack on <ENDLOCATION>, <COUNTRY> succeeded in accordance to the enemy's plans. At this morning's Joint Chiefs of Staff meeting, questions were raised by the Secretary as of why this invasion could not be prevented.
 [MISSION MISSED]
-Discouraged to hear you failed to intercept the enemy landing force.
+Discouraged to hear you failed to intercept the enemy landing force.  At this morning's Joint Chiefs of Staff meeting, questions were raised by the Secretary as of why this invasion could not be prevented.

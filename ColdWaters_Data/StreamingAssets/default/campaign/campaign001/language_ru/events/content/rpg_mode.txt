@@ -1,45 +1,49 @@
 [MAIN TEXT]
 =====================================================
 
-Кому: Капитан <PLAYERNAME>
-Тема: Отчёт по экипажу
-От: Старший помощник, <XONAME>
+To: Captain <PLAYERNAME>
+Subject: Crew status
+From: XO, <XONAME>
 
-Товарищ командир, доклад о состоянии экипажа: 
-
-В целом, уровень подготовки экипажа: <color=<SHIP_LEVELCOLOR>><OVERALLCREWQUALITY></color> (<SHIPLEVEL> / <SHIPMAXLEVEL>)
-Опыт экипажа: <SHIPEXP> / <NEXTLEVEL>
+Overall, our crew proficiency level is <color=<SHIP_LEVELCOLOR>><OVERALLCREWQUALITY></color> (<SHIPLEVEL> / <SHIPMAXLEVEL>)
+Crew experience: <SHIPEXP> / <NEXTLEVEL>
 <CREWQUALITYDESCRIPTION>
 
-Подробно по группам:
+Divisions:
 
-БЧ-1 - штурманская: <color=<CREW1_LEVELCOLOR>><CREW1_QUALITY></color> (<CREW1_LEVEL> / <CREWMAXLEVEL>)
- - Скорость анализа движения цели (АДЦ) <color=<CREW1_LEVELCOLOR>><PLAYERTMABONUS></color>
- - Oшибка наведения перископа на пеленг: <color=<CREW1_LEVELCOLOR>><PERISCOPEERRORBONUS></color>
- - Скорость автонаведения перископа: <color=<CREW1_LEVELCOLOR>><PERISCOPESPEEDBONUS></color>
+Fire Control: <color=<CREW1_LEVELCOLOR>><CREW1_QUALITY></color> (<CREW1_LEVEL> / <CREWMAXLEVEL>)
+ - Target motion analysis (TMA) <color=<CREW1_LEVELCOLOR>><PLAYERTMABONUS></color>
+ - Periscope autoposition error: <color=<CREW1_LEVELCOLOR>><PERISCOPEERRORBONUS></color>
+ - Periscope autoposition speed: <color=<CREW1_LEVELCOLOR>><PERISCOPESPEEDBONUS></color>
 
-БЧ-3 - минно-торпедная: <color=<CREW3_LEVELCOLOR>><CREW3_QUALITY></color> (<CREW3_LEVEL> / <CREWMAXLEVEL>)
- - Ускорение перезарядки ТА на <color=<CREW3_LEVELCOLOR>><TUBERELOADBONUS></color> секунд.
-         Перезарядка <TUBERELOAD> секунд.
- - Ускорение перезарядки шумовых патронов на <color=<CREW3_LEVELCOLOR>><NOISEMAKERRELOADBONUS></color> секунд.
- Перезарядка шумовых патронов: <NOISEMAKERRELOAD> секунд.
+Torpedomen: <color=<CREW3_LEVELCOLOR>><CREW3_QUALITY></color> (<CREW3_LEVEL> / <CREWMAXLEVEL>)
+ - Tube reload is <color=<CREW3_LEVELCOLOR>><TUBERELOADBONUS></color> seconds faster.
+ Tube reload <TUBERELOAD> seconds.
+ - Noisemaker reload is <color=<CREW3_LEVELCOLOR>><NOISEMAKERRELOADBONUS></color> seconds faster.
+ Noisemaker reload: <NOISEMAKERRELOAD> seconds.
 
-БЧ-5 — электромеханическая: <color=<CREW5_LEVELCOLOR>><CREW5_QUALITY></color> (<CREW5_LEVEL> / <CREWMAXLEVEL>)
- - Скорость ремонта систем: <color=<CREW5_LEVELCOLOR>><SYSTEMREPAIRBONUS></color>
- - Скорость откачки воды: <color=<CREW5_LEVELCOLOR>>+ <FLOODINGPUMPBONUS></color>
- - Снижение общей шумности лодки на <color=<CREW5_LEVELCOLOR>><SELFNOISEBONUS></color> дб
+Damage Control: <color=<CREW5_LEVELCOLOR>><CREW5_QUALITY></color> (<CREW5_LEVEL> / <CREWMAXLEVEL>)
+ - System repair speed: <color=<CREW5_LEVELCOLOR>><SYSTEMREPAIRBONUS></color>
+ - Water pumping speed: <color=<CREW5_LEVELCOLOR>>+ <FLOODINGPUMPBONUS></color>
+ - Self noise reduction <color=<CREW5_LEVELCOLOR>><SELFNOISEBONUS></color> db
  
-БЧ-7 — радиотехническая:  <color=<CREW7_LEVELCOLOR>><CREW7_QUALITY></color> (<CREW7_LEVEL> / <CREWMAXLEVEL>)
- - Дальность обнаружения радаром: <RADARRANGE> + <color=<CREW7_LEVELCOLOR>><RADARRANGEBONUS></color> км
- - Уменьшение помех от скорости на <color=<CREW7_LEVELCOLOR>><SCREENNOISEBONUS></color>
+Navigation:  <color=<CREW7_LEVELCOLOR>><CREW7_QUALITY></color> (<CREW7_LEVEL> / <CREWMAXLEVEL>)
+ - Radar range: <RADARRANGE> + <color=<CREW7_LEVELCOLOR>><RADARRANGEBONUS></color> km
+ - Signal noise from speed: <color=<CREW7_LEVELCOLOR>>-<SCREENNOISEBONUS></color>
 
 =====================================================
 
 [STATS]
+//Number of levels depends on number of entries, Max level for a division depends on number of levels
 ExpForNextLevel=10000,25000,45000,70000,100000,135000,175000,220000,270000,325000,385000,450000,520000,595000,675000,760000,850000,945000,1045000,1150000,1260000,1375000,1495000,1620000,1750000,1885000,2025000,2170000,2320000,2475000,2635000,2800000,2970000,3145000,3325000,3510000,3700000,3895000,4095000,4300000
+//You can adjust multiplier to ALL bonuses, to reflect changes in number of levels
 BonusMultiplier=1
-XO_Variants=капитан 2-го ранга Смирнов М.Д.,капитан 2-го ранга Баранов В.И.,капитан 2-го ранга Выговский Н.О.,капитан 2-го ранга Склярова П.М.,капитан 3-го ранга Мартынов Н.К.,капитан 3-го ранга Панов Б.М.,капитан 3-го ранга Сафонов А.М.,капитан-лейтенант Ничагин И.Н.
-ExpForMission=Опыт за бой
-NewLevelGained=Повышен уровень экипажа!
-CrewQualities=Специалисты,Профессионалы,Эксперты,Ветераны,Элита,Легенда
-CrewQualitiesDescription=Экипаж в должной мере освоил управление лодкой. Дальнейший опыт наши люди получат в бою.|Наши люди - профессионалы своего дела. Экипаж демонстрирует отличное владение подконтрольной техникой. Поступило несколько рацпредложений по увеличению эффективности систем корабля.|Экипаж досконально изучил матчасть. В системы корабля внесено множество улучшений, что позволяет значительно усилить наш боевой потенциал.|Наши люди - ветераны за плечам которых десятки боевых походов.|Наш экипаж - один из лучших на флоте, а управляемый ими корабль функционирует как единый организм. Наши люди - элита ВМФ.|Наш экипаж по праву считается лучшим из лучших. Наши люди - настоящая легенда ВМФ.
+//XO variants, you can have any number
+XO_Variants=Smith J.,Walker J.,Laizer J.,Armstrong L
+//Just messages
+ExpForMission=Experience gained
+NewLevelGained=Crew proficiency increaced!
+//Crew qualities. You can have any amount. Last quality is ALWAYS last level. You may not be able to reach it with all divisions if number of levels is not multiply of 4
+CrewQualities=Regular,Seasoned,Experts,Veterans,Elite,Legendary
+//Write something in theese phrases to describe your crew
+CrewQualitiesDescription=We have a regular crew.|We have a seasoned crew|We have an expert crew.|We have a veteran crew.|We have an elite crew.|Our crew is a legend of our navy.

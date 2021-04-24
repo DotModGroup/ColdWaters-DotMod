@@ -12,20 +12,20 @@ FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
 UsePresetPositions=TRUE
-PlayerPosition=-20,226
-PlayerHeading=220
+PlayerPosition=-195,188
+PlayerHeading=260
 
 //AI Nav Waypoints
 //Array of Vector 2 positions
 //Must be enough for maximum number of enemy ships
 //Poti or Riga
-EnemyWaypoints=-490,300|-220,270
+EnemyWaypoints=-360,240|-324,140
 //Grisha or Krivak
-EnemyWaypoints=-40,10|-240,90
+EnemyWaypoints=-165,223|-379,287
 //Komsomol or Poltava
-EnemyWaypoints=-430,120|-500,530
+EnemyWaypoints=-387,181|-109,261
 //Andizhan or Partizan
-EnemyWaypoints=-570,370|380,-40
+EnemyWaypoints=-262,141|-286,400
 //Trawler
 EnemyWaypoints=-150,180|0,180|0,120|-150,120
 

@@ -1,9 +1,10 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTEL REPORTS INDICATE A SURFACE BATTLEGROUP HAS SAILED FROM <STARTLOCATION> INTENDING TO ATTEMPT A BREAK OUT INTO THE NORTH ATLANTIC THROUGH <MUSTUSELOCATION0>. INTEL FURTHER BELIEVES THE GROUP INCLUDES ONE OR MORE SVERDLOV GUN CRUISERS THAT ONCE ON STATION WILL RAID NATO SUPPLY CONVOYS. AS BAD WEATHER PREVENTS AIRSTRIKES YOU ARE ORDERED TO INTERCEPT AND DESTROY THIS TASK FORCE.
+SATELLITE PHOTOS SHOW THAT AN ENEMY BATTLEGROUP, ARMED TO THE TEETH WITH CRUISE MISSILES, IS PREPARING TO SAIL FROM <STARTLOCATION>. INTELLIGENCE ESTIMATES THAT IT WILL MAKE A CONSERVATIVE PATROL IN THE VICINITY OF THE NORWEGIAN SEA, PERHAPS APPROACHING NARVIK. ONE OF OUR OWN BATTLEGROUPS IS SET TO ENTER THIS AREA SHORTLY AND THIS FORCE CONSTITUTES A DIRECT THREAT. NO OTHER ASSETS ARE AVAILABLE SO YOU MUST LOCATE THIS GROUP AND SINK AS MANY SHIPS AS POSSIBLE. PREVIOUS RECON INDICATES THE FORCE WILL CONTAIN ONE OR TWO SHIPS ARMED WITH ANTI-SHIP CRUISE MISSILES. CONSIDER THESE YOUR PRIMARY TARGET. AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY CRUISERS
+PATROL AREA **BLUE 044** 
+LOCATE AND SINK THE ENEMY CRUISE-MISSILE SHIPS
 
 3.	(S) SECONDARY OBJECTIVE:
 LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
@@ -13,9 +14,12 @@ LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
 5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0105
 [MISSION WIN]
-Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder trans-Atlantic convoys. CINCLANT sends regards to you and your crew.
+Excellent job, Commander! Your neutralization of these cruise missile carriers will severely reduce the enemy's ability to hinder allied operations. CINCLANT sends regards to you and your crew.
 [MISSION FAIL]
-Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+Discouraged to hear you lost this opportunity against such a high priority target. Enemy task force will no doubt continue to pose a major threat to our forces.
 [MISSION MISSED]
-Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time. Enemy presence in this area will likely hinder trans-Atlantic convoys. New orders will be sent after reassessment of enemy capabilities and assumed intent.
+Disappointed to hear target was not intercepted. Enemy task force will no doubt continue to pose a major threat to our forces in the area.

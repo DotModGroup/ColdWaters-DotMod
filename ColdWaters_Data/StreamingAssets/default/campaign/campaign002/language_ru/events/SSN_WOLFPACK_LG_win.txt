@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/mps1.jpg,campaign/images/637_Surf2.jpg,campaign/images/Convoy3.jpg
+Photo=campaign/images/photos/unload7.jpg,campaign/images/photos/688i2.jpg, campaign/images/photos/port2.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ENEMY SUBS TAKING HITS</b>|<b>CONVOYS ARRIVING IN LARGE NUMBERS</b>|<b>SOVIET SUBS ON THE RUN</b>|<b>SAFE TRIPS FOR MERCHANTS</b>
+Color=57,61,73,255
+Sentence1=Convoys travelling to and from Europe report continuing low levels of enemy submarine encounters.  It is widely assumed that NATO anti-submarine efforts involving attack subs and patrol aircraft are keeping up the pressure on the Soviet Union's beleaguered undersea fleet.|Allied submarine forces are maintaining the upper hand in what is becoming an increasingly one-sided conflict under the sea, according to a U.S. Navy source. "The Russians are taking some serious losses. Their sub fleet can't keep this up forever."|Convoys and amphibious task forces from the United States are landing large amounts of supplies and equipment at a number of ports in the UK and Europe, with some units on their second trip.  Highly successful anti-submarine operations are said to be one of the key reasons for the safe arrival of reinforcements.
+Color=218,218,208,255
+Sentence2=With fewer enemy submarines in the battle, available escort ships can be spread around a larger number of convoys.  This will further increase the throughput of war materials getting to the front lines and enable offensive operations to be conducted.|The growing number of enemy submarine kills was seen as a positive sign, but some commentators remained cautious. "There are still a lot of Red subs out there, and they want to win this as badly as we do."|European ports are becoming clogged with merchant ships, troops and equipment, presenting a tempting target for Soviet bombers.  "We seem to have made good progress on the ability to keep our merchants safe from submarines," said one NATO admiral.  "Let's hope that our air defenses are also up to the task."

@@ -1,9 +1,10 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-AN ENEMY CRUISE MISSILE SUBMARINE IS TRANSTING SOUTHWARD IN THE NORWEGIAN SEA TOWARD THE NORTH ATLANTIC CONVOY ROUTES. YOU MUST SINK IT. THIS ENEMY SUB IS BELIEVED TO BE A DIESEL-ELECTRIC JULIET CLASS. IT MAY HAVE A DIESEL ATTACK SUB ESCORT.
+SATELLITE PHOTOS INDICATE THAT TWO ULTRA-SILENT KILO CLASS DIESEL-ELECTRIC ATTACK SUBS HAVE RECENTLY DEPARTED MURMANSK, LIKELY FOR A COMBAT PATROL IN THE NORTH ATLANTIC. THEY MUST BE SUNK BEFORE THEY GET THE OPPORTUNITY TO DISRUPT ALLIED OPERATIONS.  
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINE
+TRANSIT TO PATROL AREA **BLUE 041**  
+LOCATE AND SINK THE ENEMY ATTACK SUBMARINES
 
 3.	(S) SECONDARY OBJECTIVE:
 NONE
@@ -13,9 +14,12 @@ NONE
 5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0700
 [MISSION WIN]
-Very pleased to see that you dealt with those subs with determination and resolve, Commander! Remember that for every enemy vessel we take out, it means a safer transit for our troops and transports. Good work.
+Fine work dealing with those Kilos, Commander! Your contribution to the war effort will make life for our boys a lot safer! Keep it up, Commander!
 [MISSION FAIL]
-Captain, your recent mission has been evaluated as a failure to meet mission goals. This means more lost tonnage for the convoys and the enemy getting one step closer to closing the Atlantic. We'll have to do better than this, Commander. 
+Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
 [MISSION MISSED]
-Sorry to hear mission goals could not be met. You can’t win them all. For next time, try to plan your approach better. Always remember the balance between strengths and weaknesses.  We have the upper hand.
+Discouraged to hear that the mission could not be carried through. Remember that time works for the enemy, not for us. Try harder next time.

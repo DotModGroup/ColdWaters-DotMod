@@ -1,4 +1,4 @@
-Regions=West Germany,Denmark,Netherlands,Belgium,Sweden,Norway,Iceland
+Regions=West Germany,Denmark,The Netherlands,Belgium,Sweden,Norway,Iceland
 Reykjavik and Keflavik=Iceland
 Hofn=Iceland
 Frankfurt and the Rhine-Main area=West Germany

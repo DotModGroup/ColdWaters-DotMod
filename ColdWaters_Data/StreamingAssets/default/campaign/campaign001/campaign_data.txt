@@ -1,5 +1,5 @@
 [General]
-MapImage=campaign/maps/norwegian_sea_chart.png
+MapImage=campaign/maps/norwegian_sea_chart_1990.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
@@ -202,7 +202,7 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=10
 AircraftHeadings=300,0
 AircraftSearchRange=700
-MissionTypes=LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
+MissionTypes=SSN_SURGE,SURGE,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
@@ -223,7 +223,7 @@ CombatCoords=1234,1234
 Alignment=ENEMY
 Function=NAVAL_BASE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSBN_PATROL
+MissionTypes=SSBN_PATROL,SURGE,SS_SURGE
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
@@ -235,7 +235,7 @@ CombatCoords=1234,1234
 //AircraftPrepTime=15
 //AircraftHeadings=240,260
 //AircraftSearchRange=700
-//MissionTypes=LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
+//MissionTypes=SS_PATROL,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
 //LinksToWaypoint=NC4,NC6,BE1
 //CombatCoords=1234,1234
 
@@ -291,21 +291,35 @@ SOSUSAlignment=FRIENDLY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_WOLFPACK_LG,SS_WOLFPACK_LG,SS_SPECOPS_LG,ASUW_STRIKE_LG,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
-PlayerMissionFrequency=0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1
-PlayerMissionThreshold=0,0,0,0.5,0.6,0,0,0,0,0
+PlayerMissionFrequency=0.0001,0.06,0.065,0.04,0.02,0.04,0.044,0.035,0.001,0.03,0.03,0.175,0.18,0.1299,0.15
+
+PlayerMissionThreshold=0,0.501,0.501,0.55,0.7,0.55,0.55,0.51,0.65,0.65,0.7,0.8,0.8,0.75,0.8
+
+
 
 CommandoLoadTime=120
 
-DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
+DefaultMissionTypes=SURGE
 
+Mission=SURGE_0
+Mission=SURGE_1
+Mission=SURGE_2
+Mission=SURGE_3
+Mission=SURGE_4
 Mission=SS_SPECOPS_0
 Mission=SS_SPECOPS_1
+Mission=SS_SPECOPS_2
+Mission=SS_SPECOPS_3
+Mission=SS_SPECOPS_LG_0
+Mission=SS_SPECOPS_LG_1
 Mission=LANDING_FORCE_0
 Mission=LANDING_FORCE_1
 Mission=LANDING_FORCE_2
+Mission=LANDING_FORCE_3
+Mission=LANDING_FORCE_4
 Mission=RESUPPLY_CONVOY_0
 Mission=INSERTION_0
 Mission=INSERTION_1
@@ -323,31 +337,66 @@ Mission=ASUW_STRIKE_3
 Mission=ASUW_STRIKE_4
 Mission=ASUW_STRIKE_5
 Mission=ASUW_STRIKE_6
+Mission=ASUW_STRIKE_7
+Mission=ASUW_STRIKE_LG_0
+Mission=ASUW_STRIKE_LG_1
+Mission=ASUW_STRIKE_LG_2
+Mission=ASUW_STRIKE_LG_3
 Mission=SS_WOLFPACK_0
 Mission=SS_WOLFPACK_1
 Mission=SS_WOLFPACK_2
 Mission=SS_WOLFPACK_3
 Mission=SS_WOLFPACK_4
 Mission=SS_WOLFPACK_5
+Mission=SS_WOLFPACK_6
+Mission=SS_WOLFPACK_7
+Mission=SS_WOLFPACK_LG_0
+Mission=SS_WOLFPACK_LG_1
+Mission=SS_WOLFPACK_LG_2
+Mission=SS_WOLFPACK_LG_3
+Mission=SS_WOLFPACK_LG_4
+Mission=SS_WOLFPACK_LG_5
+Mission=SS_WOLFPACK_LG_6
 Mission=SSN_WOLFPACK_0
 Mission=SSN_WOLFPACK_1
 Mission=SSN_WOLFPACK_2
 Mission=SSN_WOLFPACK_3
 Mission=SSN_WOLFPACK_4
 Mission=SSN_WOLFPACK_5
+Mission=SSN_WOLFPACK_6
+Mission=SSN_WOLFPACK_7
+Mission=SSN_WOLFPACK_8
+Mission=SSN_WOLFPACK_LG_0
+Mission=SSN_WOLFPACK_LG_1
+Mission=SSN_WOLFPACK_LG_2
+Mission=SSN_WOLFPACK_LG_3
+Mission=SSN_WOLFPACK_LG_4
+Mission=SSN_WOLFPACK_LG_5
+Mission=SSN_WOLFPACK_LG_6
 Mission=RETURN_TO_BASE
 Mission=SSBN_PATROL_0
 Mission=SSBN_PATROL_1
+Mission=SSBN_PATROL_2
+Mission=SSBN_PATROL_3
+Mission=SSBN_PATROL_4
+Mission=SSBN_PATROL_5
 
 [NON-PLAYER MISSIONS]
-Non-PlayerMissionTypes=SS_PATROL,SSN_PATROL,ASW_PATROL
+Non-PlayerMissionTypes=SSN_SURGE,SS_SURGE,SS_PATROL,SSN_PATROL,ASW_PATROL
 //Sum of frequencies must equal 1
-Non-PlayerMissionFrequency=0.3,0.3,0.4
+Non-PlayerMissionFrequency=0.2,0.2,0.2,0.2,0.2
 Non-PlayerMission=SS_PATROL_0
 Non-PlayerMission=SSN_PATROL_0
 Non-PlayerMission=ASW_PATROL_0
 Non-PlayerMission=ASW_PATROL_1
 Non-PlayerMission=ASW_PATROL_2
+Non-PlayerMission=SSN_SURGE_0
+Non-PlayerMission=SSN_SURGE_1
+//Non-PlayerMission=SSN_SURGE_2
+//Non-PlayerMission=SSN_SURGE_3
+Non-PlayerMission=SS_SURGE_0
+Non-PlayerMission=SS_SURGE_1
+//Non-PlayerMission=SS_SURGE_2
 
 [EVENTS]
 Event=event_intro_1=START
@@ -397,25 +446,38 @@ Event=event_award_navy_dsm
 Event=event_award_legion_of_merit
 Event=event_award_purple_heart
 Event=event_award_presidential_citation
+Event=ASW_win
+Event=ASW_fail
 Event=SS_SPECOPS_win
 Event=LANDING_FORCE_win
+Event=LANDING_FORCE1_win
 Event=RESUPPLY_CONVOY_win
 Event=INSERTION_win
 Event=LAND_STRIKE_win
 Event=SS_WOLFPACK_win
+Event=SS_WOLFPACK_LG_win
 Event=SSN_WOLFPACK_win
+Event=SSN_WOLFPACK_LG_win
 Event=SHIP_RESUPPLY_win
 Event=SUB_RESUPPLY_win
 Event=ASUW_STRIKE_win
+Event=ASUW_STRIKE_LG_win
 Event=ASUW_STRIKE_CARRIER_win
 Event=SS_SPECOPS_fail
+Event=SS_SPECOPS_Mine_fail
 Event=LANDING_FORCE_fail
 Event=RESUPPLY_CONVOY_fail
 Event=INSERTION_fail
 Event=LAND_STRIKE_fail
 Event=SS_WOLFPACK_fail
 Event=SSN_WOLFPACK_fail
+Event=SSN_WOLFPACK_Carrier_fail
+Event=SSBN_fail
 Event=SHIP_RESUPPLY_fail
 Event=SUB_RESUPPLY_fail
 Event=ASUW_STRIKE_fail
+Event=ASUW_STRIKE_LG_fail
 Event=ASUW_STRIKE_CARRIER_fail
+Event=SURGE_win
+Event=SURGE_win2
+Event=SURGE_fail

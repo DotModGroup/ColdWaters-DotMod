@@ -13,7 +13,7 @@ ReflectionTint=255,255,255,255
 ReflectionIntensity=0.75
 AboveInscatter=0,35,48,255
 
-SurfaceFogDensity=0.005
+SurfaceFogDensity=0.02
 SubmergedFogDensity=0.16
 
 PrimaryLightRotation=35,180,0

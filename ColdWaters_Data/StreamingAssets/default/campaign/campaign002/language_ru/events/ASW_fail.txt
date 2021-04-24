@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/krivak.jpg
+Photo=campaign/images/photos/naval pact 1,campaign/images/photos/naval pact 2,campaign/images/photos/naval pact 3,campaign/images/photos/naval pact 4,campaign/images/photos/naval pact 5,campaign/images/photos/naval pact 6
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NATO SUBS LOST?</b>|<b>SETBACK IN THE BARENTS?</b>
+Color=57,61,73,255
+Sentence1=Unconfirmed reports from highly placed sources indicate that at least one NATO submarine is overdue and presumed lost with all hands while operating in the Barents Sea.  While normally quick to deny such rumors in the past, American Navy officials have only stated "We do not discuss submarine operations" when asked during today's regular press briefing.
+Color=218,218,208,255
+Sentence2=Some military analysts have questioned the strategy of operating NATO submarines so far forward, where they cannot be supported by other forces.  Others  have suggested that it is critical to deny Russian forces a safe haven, even if it means putting the submarines and their crews at much greater risk.

@@ -1,41 +1,39 @@
-Белое море
-Мезенский залив
-Святоносский залив
-Побережье Баренцева моря
-Баренцево море
-Северная часть Баренцева моря
-Полярный круг
-Полярный круг
-Мыс Нордкап
-Лофотенские острова
-Побережье Норвегии
-Западное побережье Норвегии
-Южное побережье Норвегии
-Скагеррак
-Восточная часть Норвежского моря
-Норвежское море
-Гренландское море
-Датский пролив
-Датский пролив
-Залив Фахсафлоуи
-Исландия
-Северный Фареро-Исландский рубеж
-Южный Фареро-Исландский рубеж
-Банка Роколл
-Северная Атлантика
-Северная Атлантика
-Атлантический океан
-Северная Атлантика
-Атлантический океан
-Атлантический океан
-Балтийское море
-Готланд
-Борнхольм
-Балтийское море
-Каттегат
-Остров Лесё
-Северное море
-Северное море
-Кельтское море
-Западные подходы
-Западные подходы
+the White Sea
+the Soviet Coast
+the Soviet Coast
+the Soviet Coast
+the Barents Sea
+the Barents Sea
+the Polar region
+the Polar region
+the Polar region
+the northern Norwegian coast
+the Norwegian coast
+the Norwegian coast
+the Norwegian coast
+the southern Norwegian coast
+the southern Norwegian coast
+the southern Norwegian coast
+the Norwegian Sea
+the Norwegian Sea
+the Greenland Sea
+the Norwegian Sea
+the Denmark Strait
+the Denmark Strait
+Iceland
+Iceland
+the Iceland-UK Gap
+the Iceland-UK Gap
+Ireland
+the North Atlantic
+the North Atlantic
+the North Atlantic
+the North Atlantic
+the Baltic Sea
+the Baltic Sea
+the Baltic Sea
+the Baltic Sea
+the Baltic Sea
+the Baltic Sea
+the North Sea
+the English Channel

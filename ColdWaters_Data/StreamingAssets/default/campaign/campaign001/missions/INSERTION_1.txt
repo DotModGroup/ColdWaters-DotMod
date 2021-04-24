@@ -1,4 +1,6 @@
 MissionType=INSERTION
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=1
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
@@ -9,7 +11,7 @@ MustUseWaypoints=
 UseAtLeastOneWaypointOf=
 ProhibitedWaypoints=
 PatrolForHours=128,160
-StrategicValue=20
+StrategicValue=30
 MissionEndsWhen=PATROL_END
 MapBehaviour=STATIONARY
 DisruptOnFail=

@@ -4,7 +4,7 @@ SkyboxSpecular=environment/cubemap/Day_Broken_Spec
 
 AmbientColor=121,135,148,255
 LightLevel=255,255,255,255
-SurfaceFogColor=128,143,153,255
+SurfaceFogColor=151,166,179,255
 SubmergedFogColor=10,46,60,255
 
 SkyColor=0,35,48,255
@@ -13,8 +13,8 @@ ReflectionTint=255,255,255,255
 ReflectionIntensity=0.75
 AboveInscatter=0,35,48,255
 
-SurfaceFogDensity=0.005
-SubmergedFogDensity=0.15
+SurfaceFogDensity=0.012
+SubmergedFogDensity=0.1
 
 PrimaryLightRotation=35,180,0
 PrimaryLightIntensity=1

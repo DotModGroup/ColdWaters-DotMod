@@ -1,61 +1,56 @@
 [LOCATION NAMES AND COUNTRY/REGION]
-//Справка:
-//Именительный=страна=Родительный=Дательный=Винительный=Творительный=Предложный
-//Москва=Советский Союз=из Москвы=по Москве=про Москву=с Москвой=в Москве
-//<STARTLOCATION>=<COUNTRY>=<STARTLOCATION_RO>=<STARTLOCATION_DA>=<STARTLOCATION_VI>=<STARTLOCATION_TV>=<STARTLOCATION_PR>
-
-LocationName=Холи Лох=Шотландия=Холи Лох=Холи Лох=Холи Лох=Холи Лох=Холи Лох
-LocationName=Торсхавн=Фарерские острова=Торсхавна=Торсхавну=Торсхавн=Торсхавном=Торсхавне
-LocationName=Рейкьявик=Исландия=Рейкьявика=Рейкьявику=Рейкьявик=Рейкьявиком=Рейкьявике
-LocationName=Хёбн=Исландия=Хёбна=Хёбну=Хёбн=Хёбном=Хёбне
-LocationName=Осло=Норвегия=Осло=Осло=Осло=Осло=Осло
-LocationName=Берген=Норвегия=Бергена=Бергену=Берген=Бергеном=Бергене
-LocationName=Тронхейм=Норвегия=Тронхейма=Тронхейму=Тронхейм=Тронхеймом=Тронхейме
-LocationName=Аннёйа=Норвегия=Аннёйи=Аннёйе=Аннёйю=Аннёйей=Аннёйе
-LocationName=Нарвик=Норвегия=Нарвика=Нарвику=Нарвик=Нарвиком=Нарвике
-LocationName=Шпицберген=Шпицберген=Шпицбергена=Шпицбергену=Шпицберген=Шпицбергеном=Шпицбергене
-LocationName=Мурманск=Советский Союз=Мурманска=Мурманску=Мурманск=Мурманском=Мурманске
-LocationName=Архангельск=Советский Союз=Архангельска=Архангельску=Архангельск=Архангельском=Архангельске
-LocationName=Гремиха=Советский Союз=Гремихи=Гремихе=Гремиху=Гремихой=Гремихе
+LocationName=Holy Loch=Scotland
+LocationName=Torshavn=Faroe Islands
+LocationName=Reykjavik and Keflavik=Iceland
+LocationName=Hofn=Iceland
+LocationName=Oslo=Norway
+LocationName=Bergen=Norway
+LocationName=Trondheim=Norway
+LocationName=Andoya=Norway
+LocationName=Narvik=Norway
+LocationName=Spitsbergen=Spitsbergen
+LocationName=Murmansk=Soviet Union
+LocationName=Archangelsk=Soviet Union
+LocationName=Gremikha=Soviet Union
 
 [CITY TOWN PORT NAMES]
-Color=255,200,0,255
+Color=255,255,255,255
 Outline=TRUE
-Size=14
-Font=4
+Size=10
+Font=2
 
-LabelPosition=-175.12,-200
-LabelName=Холи-Лох
+LabelPosition=-175.12,-185.38
+LabelName=Holy Loch
 LabelPosition=-125.4,-48.75
-LabelName=Торсхавн
-LabelPosition=-210,129.97
-LabelName=Рейкьявик
+LabelName=Torshavn
+LabelPosition=-228.59,129.97
+LabelName=Reykjavik\nKeflavik
 LabelPosition=-181.71,84.17
-LabelName=Хёбн
+LabelName=Hofn
 LabelPosition=53.1,-180.1
-LabelName=Oсло
-LabelPosition=12.7,-149.6
-LabelName=Берген
+LabelName=Oslo
+LabelPosition=6.7,-149.6
+LabelName=Bergen
 LabelPosition=76.5,-108
-LabelName=Трондхейм
+LabelName=Trondheim
 LabelPosition=213.9,39.5
-LabelName=Аннёйа
-LabelPosition=187,8
-LabelName=Нарвик
+LabelName=Andoya
+LabelPosition=189.3,6.3
+LabelName=Narvik
 LabelPosition=224.5,280.4
-LabelName=Шпицберген
+LabelName=Spitsbergen
 LabelPosition=355.6,23.7
-LabelName=Мурманск
+LabelName=Murmansk
 LabelPosition=474.3,-83.1
-LabelName=Архангельск
+LabelName=Archangelsk
 LabelPosition=420.2,1.7
-LabelName=Гремиха
+LabelName=Gremikha
 LabelPosition=150.8,-213.5
-LabelName=Стокгольм
+LabelName=Stockholm
 LabelPosition=265.7,-201.2
-LabelName=Хельсинки
+LabelName=Helsinki
 LabelPosition=354,-230.2
-LabelName=Ленинград
+LabelName=Leningrad
 
 [MARKERS]
 Color=0,255,0,255
@@ -83,89 +78,49 @@ LocationMarkerPosition=265.9,-212.9
 [COUNTRY LABELS]
 Color=0,0,0,255
 Outline=FALSE
-Size=13
-Font=4
+Size=12
+Font=2
 LabelPosition=-201.2,103.3
-LabelName=ИСЛАНДИЯ
+LabelName=ICELAND
 LabelPosition=-201.2,348.1
-LabelName=ГРЕНЛАНДИЯ
+LabelName=GREENLAND
 LabelPosition=-191.1,-281.1
-LabelName=ВЕЛИКОБРИТАНИЯ
+LabelName=UNITED\nKINGDOM
 LabelPosition=49.9,-160.5
-LabelName=НОРВЕГИЯ
+LabelName=NORWAY
 LabelPosition=130,-153.9
-LabelName=ШВЕЦИЯ
+LabelName=SWEDEN
 LabelPosition=269.8,-138.3
-LabelName=ФИНЛЯНДИЯ
+LabelName=FINLAND
 LabelPosition=151,-374
-LabelName=ПОЛЬША
+LabelName=POLAND
 LabelPosition=43.7,-369.2
-LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
+LabelName=EAST\nGERMANY
 LabelPosition=-25.6,-369.2
-LabelName=ЗАПАДНАЯ\nГЕРМАНИЯ
-LabelPosition=9,-300
-LabelName=ДАНИЯ
+LabelName=WEST\nGERMANY
+LabelPosition=9,-276.2
+LabelName=DENMARK
 Size=26
 LabelPosition=477.3,-285.5
-LabelName=\nСОВЕТСКИЙ СОЮЗ
+LabelName=SOVIET\nUNION
 
 [OCEANS AND SEAS LABELS]
 Color=43,71,97,255
-Outline=TRUE
-Size=16
-Font=4
-LabelPosition=-82.1,-252.1
-LabelName=СЕВЕРНОЕ МОРЕ
 Outline=FALSE
+Size=16
+Font=3
 LabelPosition=-379,-23
-LabelName=СЕВЕРНЫЙ АТЛАНТИЧЕСКИЙ\nОКЕАН
-LabelPosition=22.7,53.4
-LabelName=НОРВЕЖСКОЕ МОРЕ
-
+LabelName=NORTH ATLANTIC\nOCEAN
+LabelPosition=26.7,53.4
+LabelName=NORWEGIAN SEA
+LabelPosition=-82.1,-252.1
+LabelName=NORTH SEA
 Size=12
 LabelPosition=-248.5,218.6
-LabelName=ДАТСКИЙ\nПРОЛИВ
+LabelName=DENMARK\nSTRAIT
 LabelPosition=396.5,135.5
-LabelName=БАРЕНЦЕВО МОРЕ
+LabelName=BARENTS SEA
 LabelPosition=80.8,264.7
-LabelName=ГРЕНЛАНДСКОЕ МОРЕ
-Size=14
-LabelPosition=-320,-290
-LabelName=КЕЛЬТСКОЕ\nМОРЕ
-Color=157,168,210,255
-Outline=TRUE
-LabelPosition=190,-255
-LabelName=БАЛТИЙСКОЕ\nМОРЕ
-
-
-//Color=43,71,97,255
-Color=157,168,210,255
-Outline=TRUE
-Size=12
-Font=4
-LabelPosition=477,-15
-LabelName=Мезенский \nзалив
-LabelPosition=426,40
-LabelName=Святоносский \nзалив
-LabelPosition=115,12
-LabelName=Лофотенские \nострова
-LabelPosition=16,-228
-LabelName=Скагеррак
-LabelPosition=-298,143
-LabelName=Залив \nФахсафлоуи
-LabelPosition=170,-308
-LabelName=Готланд
-LabelPosition=98,-336
-LabelName=Борнхольм
-LabelPosition=51,-273
-LabelName=Каттегат
-LabelPosition=55,-250
-LabelName=o. Лесё
-LabelPosition=-350,-70
-LabelName=Банка \nРоколл
-LabelPosition=276,100
-LabelName=Нордкап
-//LabelPosition=-340,-270
-Size=16
-LabelPosition=-440,-200
-LabelName=Западные \nподходы
+LabelName=GREENLAND SEA
+LabelPosition=195.4,-249.5
+LabelName=BALTIC\nSEA
