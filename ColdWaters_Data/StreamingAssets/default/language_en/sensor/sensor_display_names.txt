@@ -29,9 +29,9 @@
 // 1. USSR
 //   1a) Hull-mounted
 //----------------------------------------Submarine-------------------------------
-wp_mars="Mars"=Passive high frequency set that dates back to WWII. Was improved over years but hopelessly outdated by now.
-wp_tamir="Tamir-5L"=NATO reporting name: "Stag Ear". This is a very old high frequency set that equips the Whiskey-class diesel subs. Active only.
-wp_plutoniy="Plutoniy"=NATO reporting name: "Stag Ear". Submarine variant of "Tamir-11" set. Was installed at Whiskey-class diesel subs as a part of their upgrades. Active only.
+wp_mars="Mars-24KIG"=Passive high-frequency set that dates back to WWII. This set was improved over the years, but is hopelessly outdated by now. The Whiskey-class was originally equipped with this set before receiving Trout Cheek during modernization.
+wp_tamir="Tamir-5L"=NATO reporting name: "Perch Gill". This is a very old high-frequency, active-only set that equiped the Whiskey-class diesel subs before their modernization.
+wp_plutoniy="Plutoniy"=NATO reporting name: "Stag Ear". Submarine variant of the active-only "Tamir-11" set. Was installed in Whiskey-class diesel subs as a part of their upgrades.
 wp_mg-200=MG-200 "Arktika"=NATO reporting name: "Pike Jaw". This high frequency set is common among the late 1950's generation where it equips the Foxtrot and November class boats, generally in conjunction with Trout Cheek. It can therefore be assumed that Pike Jaw is likewise a derivative of German wartime designs.="Arktika"
 wp_mg-10=MG-10 "Feniks"=NATO reporting name: "Trout Cheek". This system was derived from the German wartime Balkongerat sonar fitted in the Type XXI. It is comparable to the BQR-2/BQS-4 suite fitted to the Skipjack.="Feniks"
 wp_mgk-100=MGK-100 "Kerch"=NATO reporting name: Active - "Shark Fin", Passive - "Shark Teeth" Active: This medium frequency set equips some Soviet boats of the late 1960's, where it forms the active component of the Shark Teeth passive suite. Passive: This cylindrical low frequency array is fitted on the Victor, Juliet, Tango and Charlie class submarines. It is comparable in performance to the US BQQ-2 and doubles the detection range compared to the earlier Trout Cheek MF array.="Kerch"
@@ -48,7 +48,6 @@ wp_bull_nose=Bull Nose=This is a medium-frequency passive/active array dating fr
 wp_wolf_paw=Wolf Paw=This is an older medium frequency sonar set that equipped many surface ships before the introduction of Bull Nose.
 wp_buck_toe=Buck Toe=Definitely antiquated by 1980's standards, this is a searchlight-style high frequency active array, little better than WW2 active sonars.
 wp_moose_jaw=Moose Jaw=This is a very large low-frequency array first observed on the Moskva's, but which also equips the Kiev class.
-
 wp_mgk-355=MGK-355 "Polinom"=This is a follow-on to the Moose Jaw that equips the Kirov and Udaloy classes, and gives these ships tremendous capability against even silent US submarines.="Polinom"
 
 //   1b) Towed

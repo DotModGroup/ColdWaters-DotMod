@@ -1,5 +1,5 @@
 [General]
-MapImage=campaign/maps/norwegian_sea_chart_1990.png
+MapImage=campaign/maps/norwegian_sea_chart_1990_small.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
@@ -213,7 +213,7 @@ AircraftTypeInvaded=us_p3c_orion
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
-MissionTypes=SSN_SURGE,SS_SURGE,LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
+MissionTypes=SURGE,SSN_SURGE,SS_SURGE,LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
 LinksToWaypoint=SC1
 CombatCoords=1234,1234
 
@@ -221,7 +221,7 @@ CombatCoords=1234,1234
 Alignment=ENEMY
 Function=NAVAL_BASE,STRATEGIC_NODE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSN_SURGE,SS_SURGE,SSBN_PATROL
+MissionTypes=SURGE,SSN_SURGE,SS_SURGE,SSBN_PATROL
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
