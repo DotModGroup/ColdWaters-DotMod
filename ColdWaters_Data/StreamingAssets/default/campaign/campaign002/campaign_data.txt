@@ -193,7 +193,7 @@ LinksToWaypoint=N1
 //Soviet
 //Murmansk 10
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE,STRATEGIC_NODE
+Function=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,INSERTION_TARGET
 BaseMapPosition=360,43.8
 AircraftType=wp_tu-142_bear
 AircraftTypeInvaded=us_p3c_orion
@@ -206,7 +206,7 @@ CombatCoords=1234,1234
 
 //Archangelsk 11
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE
+Function=NAVAL_BASE,AIRBASE,INSERTION_TARGET
 BaseMapPosition=448.6,-68.8
 AircraftType=wp_tu-142_bear
 AircraftTypeInvaded=us_p3c_orion
@@ -219,7 +219,7 @@ CombatCoords=1234,1234
 
 //Gremikha 12
 Alignment=ENEMY
-Function=NAVAL_BASE,STRATEGIC_NODE
+Function=NAVAL_BASE,STRATEGIC_NODE,INSERTION_TARGET
 BaseMapPosition=423.9,21.3
 MissionTypes=SURGE,SSN_SURGE,SS_SURGE,SSBN_PATROL
 LinksToWaypoint=SC3
@@ -227,7 +227,7 @@ CombatCoords=1234,1234
 
 //Leningrad
 //Alignment=ENEMY
-//Function=NAVAL_BASE,AIRBASE
+//Function=NAVAL_BASE,AIRBASE,INSERTION_TARGET
 //BaseMapPosition=321.9,-216.6
 //AircraftType=wp_tu-142_bear
 //AircraftPrepTime=15
