@@ -48,6 +48,7 @@ wp_bull_nose=Bull Nose=This is a medium-frequency passive/active array dating fr
 wp_wolf_paw=Wolf Paw=This is an older medium frequency sonar set that equipped many surface ships before the introduction of Bull Nose.
 wp_buck_toe=Buck Toe=Definitely antiquated by 1980's standards, this is a searchlight-style high frequency active array, little better than WW2 active sonars.
 wp_moose_jaw=Moose Jaw=This is a very large low-frequency array first observed on the Moskva's, but which also equips the Kiev class.
+
 wp_mgk-355=MGK-355 "Polinom"=This is a follow-on to the Moose Jaw that equips the Kirov and Udaloy classes, and gives these ships tremendous capability against even silent US submarines.="Polinom"
 
 //   1b) Towed
