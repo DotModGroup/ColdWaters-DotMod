@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2,1-3
 CombatBehaviour=OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE
-EnemyShipClasses=wp_68_ss_romeo,wp_68_ss_whiskey
+EnemyShipClasses=wp_68_ss_romeo|wp_68_ss_romeo,wp_68_ss_whiskey
 EventWin=SURGE_win
 EventFail=SURGE_fail
