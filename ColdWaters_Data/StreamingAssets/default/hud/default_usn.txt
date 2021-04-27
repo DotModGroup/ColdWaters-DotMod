@@ -130,10 +130,10 @@ TabPanels=hud/uk/tabpanels.png
 
 ConditionsPanel=hud/uk/conditions.png
 ConditionsTextColor=74,163,201,255
-ConditionsPlayer=hud/uk/svp_sub.png
+ConditionsPlayer=hud/default/svp_ownship.png
 ConditionsTorpedo=hud/uk/svp_torpedo.png
 ConditionsWarship=hud/uk/svp_warship.png
-ConditionsSubmarine=hud/uk/svp_ownship.png
+ConditionsSubmarine=hud/default/svp_sub.png
 ConditionsMerchant=hud/uk/svp_merchant.png
 ConditionsBiologic=hud/uk/svp_biologic.png
 ConditionsUnknown=hud/uk/svp_unknown.png
@@ -172,7 +172,7 @@ DamageControlIcon=hud/uk/button_repair.png
 TorpedoTubeSelected=hud/uk/tube_selected.png
 TorpedoTubeUnselected=hud/uk/tube_unselected.png
 TorpedoTubeDestroyed=hud/uk/tube_destroyed.png
-TorpedoTubeWire=hud/uk/tube_wire.png
+TorpedoTubeWire=hud/default/tube_wire.png
 VerticalLaunchSystemTextColor=74,163,201,255
 WeaponHighlight=hud/uk/weapon_type_frame.png
 
