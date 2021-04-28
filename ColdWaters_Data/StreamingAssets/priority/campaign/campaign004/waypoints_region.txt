@@ -19,16 +19,16 @@ Alignment=ENEMY
 ConnectedZones=I1
 InvadedBy=SEA,FRIENDLY,ENEMY
 
-//Frankfurt and the Rhine-Main area
+//Frankfurt and the Rhine-Main area, Berlin
 WaypointName=WG1
-WaypointPosition=1.2,-367.1
+WaypointPosition=60,-368
 Alignment=ENEMY
 ConnectedZones=WG2,WG3
 InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Bremen and Hamburg
 WaypointName=WG2
-WaypointPosition=1.2,-330.8
+WaypointPosition=1.2,-345
 Alignment=ENEMY
 ConnectedZones=D1,WG1,WG3
 InvadedBy=LAND,FRIENDLY,ENEMY
@@ -42,7 +42,7 @@ InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Amsterdam
 WaypointName=ND1
-WaypointPosition=-67.8,-342.1
+WaypointPosition=-67,-335
 Alignment=ENEMY
 ConnectedZones=B1,WG3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
@@ -56,7 +56,7 @@ InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Copenhagen
 WaypointName=D1
-WaypointPosition=41,-300
+WaypointPosition=45,-295
 Alignment=ENEMY
 ConnectedZones=WG2
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
@@ -70,14 +70,14 @@ InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Andoya
 WaypointName=N2
-WaypointPosition=208,30.2
+WaypointPosition=208,27
 Alignment=ENEMY
 ConnectedZones=N1,N3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Narvik
 WaypointName=N3
-WaypointPosition=199,-1.1
+WaypointPosition=199,-4
 Alignment=ENEMY
 ConnectedZones=N2,N4
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
@@ -136,4 +136,74 @@ WaypointName=SN2
 WaypointPosition=478,-58
 Alignment=FRIENDLY
 ConnectedZones=SN1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Portsmouth
+WaypointName=UK1
+WaypointPosition=-212,-302
+Alignment=ENEMY
+ConnectedZones=UK2
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//London
+WaypointName=UK2
+WaypointPosition=-166,-300
+Alignment=ENEMY
+ConnectedZones=UK1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Москва
+WaypointName=SU1
+WaypointPosition=474,-355
+Alignment=FRIENDLY
+ConnectedZones=SU2
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Ленинград
+WaypointName=SU2
+WaypointPosition=354,-230
+Alignment=FRIENDLY
+ConnectedZones=SU1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Смоленск
+WaypointName=SU3
+WaypointPosition=387,-370
+Alignment=FRIENDLY
+ConnectedZones=SU1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Псков
+WaypointName=SU4
+WaypointPosition=319,-298
+Alignment=FRIENDLY
+ConnectedZones=WG1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Таллин
+WaypointName=SU5
+WaypointPosition=266,-253
+Alignment=FRIENDLY
+ConnectedZones=WG1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Рига
+WaypointName=SU6
+WaypointPosition=250,-316
+Alignment=FRIENDLY
+ConnectedZones=WG1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Вильнюс
+WaypointName=SU7
+WaypointPosition=263,-366
+Alignment=FRIENDLY
+ConnectedZones=WG1
+InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Калининград
+WaypointName=SU8
+WaypointPosition=188,-369
+Alignment=FRIENDLY
+ConnectedZones=WG1
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY

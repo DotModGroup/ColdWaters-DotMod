@@ -21,6 +21,8 @@ LocationName=Алта=Норвегия=Алты=Алте=Алту=Алтой=А�
 LocationName=Залив Св. Лаврентия=Канада=Залива Св. Лаврентия=Заливу Св. Лаврентия=Залив Св. Лаврентия=Заливом Св. Лаврентия=Заливе Св. Лаврентия
 LocationName=Ньюпорт=США=Ньюпорта=Ньюпорту=Ньюпорт=Ньюпортом=Ньюпорте
 LocationName=Норфолк=США=Норфолка=Норфолку=Норфолк=Норфолком=Норфолке
+LocationName=Портсмут=Британия=Портсмута=Портсмуту=Портсмут=Портсмутом=Портсмуте
+LocationName=Копенгаген=Дания=Копенгагена=Копенгагену=Копенгаген=Копенгагеном=Копенгагене
 
 [CITY TOWN PORT NAMES]
 
@@ -61,7 +63,7 @@ LabelPosition=150.8,-213.5
 LabelName=Стокгольм
 LabelPosition=265.7,-201.2
 LabelName=Хельсинки
-LabelPosition=354,-230.2
+LabelPosition=354,-210.2
 LabelName=Ленинград
 
 LabelPosition=273,62
@@ -74,20 +76,22 @@ LabelName=<- Ньюпорт
 LabelPosition=-640,-270
 LabelName=<- Норфолк
 
-LabelPosition=-206,-309
+LabelPosition=-173,-326
+LabelName=Лондон
+LabelPosition=-216,-315
 LabelName=Портсмут
-
 LabelPosition=-190,-245
 LabelName=Ливерпуль
-
 LabelPosition=-88,-348
 LabelName=Амстердам
 
 LabelPosition=20,-310
 LabelName=Копенгаген
 
-LabelPosition=0,-330
+LabelPosition=0,-325
 LabelName=Гамбург
+LabelPosition=43,-382
+LabelName=Берлин
 
 
 
@@ -97,6 +101,8 @@ LabelName=Таллин
 LabelPosition=250,-306
 LabelName=Рига
 
+LabelPosition=263,-346
+LabelName=Вильнюс
 
 LabelPosition=188,-356
 LabelName=Калининград
@@ -105,7 +111,7 @@ LabelName=Калининград
 LabelPosition=319,-288
 LabelName=Псков
 
-LabelPosition=387,-372
+LabelPosition=387,-352
 LabelName=Смоленск
 
 LabelPosition=471,-245
@@ -114,7 +120,7 @@ LabelName=Рыбинск
 Color=255,0,0,255
 Size=18
 
-LabelPosition=474,-345
+LabelPosition=474,-335
 LabelName=Москва
 
 //----V Debug V-----
@@ -295,6 +301,15 @@ WaypointName=WA2
 //42-Jan Mayen
 WaypointPosition=-30,169,20
 WaypointName=N4
+
+//43-English Channel
+WaypointPosition=-212,-339,10
+WaypointName=EC1
+
+//44-Strait of Dover(Па-де-Кале)
+WaypointPosition=-160,-343,5
+WaypointName=EC2
+
 </skip>
 
 //----^ Debug ^-----
@@ -334,21 +349,25 @@ LocationMarkerPosition=-88,-340
 //Copenhagen 
 LocationMarkerPosition=61,-302
 
-//Hamburg
+//Hamburg 53°33N 10°00E
 LocationMarkerPosition=0,-334
+//Berlin 52°31N 13°23E
+LocationMarkerPosition=39,-375
 
 
-//Pskov 54°46N 32°02E
+//Pskov 57°49N 28°20E
 LocationMarkerPosition=319,-278
 //Smolensk 54°46N 32°02E
 LocationMarkerPosition=387,-362
 
 //Tallin
 LocationMarkerPosition=262,-235
-//Riga
+//Riga 56°56N 24°06E
 LocationMarkerPosition=250,-296
 //Kaliningrad
 LocationMarkerPosition=188,-348
+//Vilnus 54°41N 25°17E
+LocationMarkerPosition=263,-356
 
 //Rybinsk 58°03N 38°50E
 LocationMarkerPosition=471,-262
@@ -379,15 +398,18 @@ LabelPosition=269.8,-138.3
 LabelName=ФИНЛЯНДИЯ
 LabelPosition=151,-374
 LabelName=ПОЛЬША
-LabelPosition=45,-369.2
-LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
+
 LabelPosition=-50,-369.2
 LabelName=ЗАПАДНАЯ\nГЕРМАНИЯ
-LabelPosition=9,-275
+LabelPosition=9,-288
 LabelName=ДАНИЯ
 Size=26
 LabelPosition=500,-280
 LabelName=\nСОВЕТСКИЙ СОЮЗ
+
+Size=10
+LabelPosition=50,-352
+LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
 
 [OCEANS AND SEAS LABELS]
 Color=43,71,97,255

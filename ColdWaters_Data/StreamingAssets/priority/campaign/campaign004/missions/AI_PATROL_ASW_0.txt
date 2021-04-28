@@ -1,5 +1,10 @@
 //AI mission
+//Small
 MissionType=AI_PATROL_ASW
+AllowedOnlyFor=SS
+ForbiddenFor=
+AllowedOnlyForCostBelow=200
+AllowedOnlyForCostHigherThan=
 AllowedOnlyFor=
 ForbiddenFor=
 AllowedOnlyForCostBelow=
