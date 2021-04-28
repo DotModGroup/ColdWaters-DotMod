@@ -1,5 +1,5 @@
 [General]
-MapImage=campaign/maps/norwegian_sea_chart_1990_small.png
+MapImage=campaign/maps/norwegian_sea_chart_1984.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
@@ -23,7 +23,7 @@ CampaignPoints=600
 CampaignStartPoints=300
 PlayerPositionOnLeavePort=-242,-154
 RPGModeEnabled=TRUE
-UsePrestige=TRUE
+UsePrestige=FALSE
 PrestigeRepairCostMultiplier=0.5
 
 [Sprites and Toolbar]
@@ -223,7 +223,7 @@ CombatCoords=1234,1234
 Alignment=ENEMY
 Function=NAVAL_BASE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSBN_PATROL,SURGE,SS_SURGE
+MissionTypes=SSBN_PATROL,SURGE,SS_SURGE,SSN_SURGE
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
