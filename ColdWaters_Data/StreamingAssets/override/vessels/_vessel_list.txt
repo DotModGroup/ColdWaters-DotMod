@@ -42,6 +42,7 @@ plan_ss_romeo
 plan_ss_ming
 plan_ss_kilo
 plan_ssk_song
+knm_68_ss_kobben
 knm_84_ss_kobben
 usn_84_ddg_adams_ai
 usn_84_ff_knox_ai
