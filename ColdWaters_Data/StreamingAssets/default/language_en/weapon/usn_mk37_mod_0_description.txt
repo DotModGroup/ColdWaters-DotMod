@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=MK37-0
+WeaponDescriptiveName=Mark 37 Mod 0 Torpedo (Mk37-0)
+WeaponDescription=The Mark 37 Mod 0 was the original version of the Mark 37 torpedo. Without any wire guidance, and thus smaller, the torpedo is a knot faster but otherwise is signifcantly less useful than its newer counterpart.

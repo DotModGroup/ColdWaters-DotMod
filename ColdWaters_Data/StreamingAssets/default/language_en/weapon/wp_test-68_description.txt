@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=TEST-68
+WeaponDescriptiveName=TEST-68 ASW Torpedo
+WeaponDescription=Special: ASW, Limited wire guidance\n The TEST-68 was the first wire-guided topredo developed by the Soviet Union. It was first deployed in 1969, and was a much smaller, slower, and shorter-ranged weapon than its sucessor.

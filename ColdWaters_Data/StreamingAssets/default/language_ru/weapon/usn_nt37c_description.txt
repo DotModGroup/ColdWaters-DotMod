@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=NT37C
+WeaponDescriptiveName=NT37C Torpedo
+WeaponDescription=The NT37C is a significantly-upgraded Otto-fueled version of the Mark 37 that was primarily used for export. Canada, Italy, and Isreal, among others, all used this torpedo on thier subs as a primary dual-purpose weapon.
