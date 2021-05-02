@@ -1,5 +1,5 @@
 [Unit Reference]
 ShipClass=Oslo
-Description=Oslo-class Frigate (1984г)
+Description=Oslo-class Frigate
 
 History=PLACEHOLDER! (Doesn't have correct model)\nThe Oslo-class frigate is a Royal Norwegian Navy frigate design, based on the US Navy Dealey-class destroyer escorts. The forward hull was customized to suit Norwegian sea conditions better (higher freeboard) and several sub-systems were European built.

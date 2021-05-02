@@ -1,7 +1,0 @@
-[Unit Reference]
-ShipClass=Kobben
-Description=Kobben-class Diesel-Electric Attack Submarine (Early)
-History=The Kobben class (also known as Type 207) is a customized version of the German Type 205 diesel-electric submarine.
-[Player Ship Instances]
-PlayerClassNames=Kaura,Kinn,Kya,Kobben,Kunna,Ula,Utsira,Utstein,Utvær,Uthaug,Sklinna,Skolpen,Stadt
-PlayerClassHullNumbers=S315,S316,S317,S318,S319,S300,S301,S302,S303,S304,S305,S306,S307

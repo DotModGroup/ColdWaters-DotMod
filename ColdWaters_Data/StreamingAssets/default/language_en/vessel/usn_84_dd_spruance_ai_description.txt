@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Spruance
-Description=Spruance-class (DD-963)                                             Destroyer
+Description=Spruance-class Destroyer
 DefensiveWeapons=RIM-7 Sea Sparrow SAM\n127mm DP guns
 OffensiveWeapons=
 Aircraft=2 SH-60F Seahawk
