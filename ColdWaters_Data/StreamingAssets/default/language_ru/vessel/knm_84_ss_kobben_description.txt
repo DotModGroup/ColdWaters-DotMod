@@ -1,7 +1,10 @@
 [Unit Reference]
-ShipClass=Kobben
-Description=Kobben-class Diesel-Electric Attack Submarine
-History=The Kobben class (also known as Type 207) is a customized version of the German Type 205 diesel-electric submarine. In 1984, they would have been equipped with upgraded NT37C torpedoes.
+ShipClass=«Коббен»
+Designation=ДПЛ
+Description=ДПЛ типа «Коббен»
+
+History=Подводные лодки типа «Коббен» (типа 207, норв. Kobben-klassen) — серия норвежских дизель-электрических подводных лодок 1960-х годов. Являлись модернизированной версией германских подводных лодок типа 205.
+
 [Player Ship Instances]
 PlayerClassNames=Kaura,Kinn,Kya,Kobben,Kunna,Ula,Utsira,Utstein,Utvær,Uthaug,Sklinna,Skolpen,Stadt,Stord,Svenner
 PlayerClassHullNumbers=S315,S316,S317,S318,S319,S300,S301,S302,S303,S304,S305,S306,S307,S308,S309

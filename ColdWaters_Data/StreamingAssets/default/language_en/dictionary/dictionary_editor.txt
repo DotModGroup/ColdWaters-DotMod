@@ -1,12 +1,12 @@
 ﻿[MAP NAMES]
 MapName=North Atlantic All
+MapName=South China Sea All
 MapName=North Atlantic 1984 NATO vs Soviet
 MapName=North Atlantic 1984 Soviet vs NATO
 MapName=North Atlantic 1968 NATO vs Soviet
 MapName=North Atlantic 1968 Soviet vs NATO
-MapName=South China Sea 2000 US vs PLAN
-MapName=South China Sea 2000 PLAN vs US
-MapName=South China Sea 2000 Soviet vs US
+MapName=South China Sea 2000 US vs China
+MapName=South China Sea 2000 China vs US
 
 [ERRORS & WARNINGS]
 NoGroups=ERROR: No groups of vessels set as active. Check at least one box in the Use Group column on the Enemy Tab.
