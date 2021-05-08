@@ -1,0 +1,106 @@
+==Using the Generic Mod Enabler==
+
+1. Ensure that you have a clean, unmodded installation of your game, preferably with the latest patch(es) installed. If you are already running a prior version of the Generic Mod Enabler, disable all enabled mods.
+
+2. Install the Generic Mod Enabler to your game's root folder and run once. You will be asked to enter a mods folder name. Unless your game already uses a folder called MODS, it is recommended that you simply press OK to accept the default MODS name. The chosen folder will be created if it does not already exist. At this point you should take a snapshot of your "clean" game files by selecting the "Generate snapshot of game files" option from the "Tasks..." list. This snapshot can be used to verify the integrity of the game files at a later date, after you have installed and uninstalled mods (see "Further notes on usage" for more information).
+
+3. After downloading a mod, unzip it into a sub-folder under the MODS folder (call the sub-folder what you like, but use something that defines what the mod is). Note that the modder may have already set up the mod to be "JSGME compatible", in which case this step and the following step will be done for you. In such instances follow the installation instructions that come with the mod.
+
+4. Ensure that the unzipped files under the new mod sub-folder replicate the game's folder structure. For example, with Silent Hunter III you should see something like:
+
+- SilentHunterIII
+  + data
+    documentation
+  - MODS
+    - The Mod Name <created at step 3>
+      - data
+        - Menu <etc...>
+  + Support
+
+5. Run JSGME.exe and you should see the mod listed as an available mod. Simply select and press the ">" button, or click and drag from Available Mods to Activated Mods and the mod is installed! 
+
+That's it! Repeat steps 3 to 5 for each additional mod that you want to install and then simply exit the Generic Mod Enabler and load your (now modded) game as usual.
+
+==Further notes on usage==
+
+- MICROSOFT VISTA USERS: If you are running the Generic Mod Enabler on Vista and are having problems with mods "taking" (the usual symptom is that the MODS folder itself is not created when the Generic Mod Enabler is first run), then simply right-click JSGME.exe in Windows Explorer and select "Run as Administrator". Alternatively, right-click JSGME.exe and select "Properties". In the properties window select the "Compatibility" tab and check "Run this program in compatibility mode" and in the box below select "Windows XP (Service Pack 2)". In some instances you may need to apply both solutions.
+
+- You can explore a mod's file contents through Windows Explorer by right clicking an available (not activated) mod and selecting "Explore".
+
+- Selecting a mod and right clicking will bring up a list of all files in the mod's "documentation" folder for viewing.
+
+- Selecting a mod will display a brief description of the mod if the modder has provided a text file with an ".jsgme" extension in either the "documentation" folder or base folder.
+
+- You disable mods by clicking on the enabled mod and pressing the "<" button, or clicking and dragging from Activated Mods to Available Mods. If an enabled mod has had files updated by subsequent enabled mods, you will not be allowed to disable the mod until the subsequent mods are disabled.
+
+- You can disable all mods in one action by pressing the "<<" button (useful for when patching your game or updating JSGME.exe).
+
+- You can enable or disable multiple mods simultaneously by pressing the CTRL or ALT keys when selecting.
+
+- You can import mods by unzipping anywhere onto your hard drive and then dragging and dropping the mod folder onto the Generic Mod Enabler's "Available Mods" list. The folder and contents will be automatically moved into the MODS folder ready for enabling. Nb: press the Control key when you drop the folder into the Generic Mod Enabler and it will be copied instead of moved. Alternatively, you can use the "Import mod..." task.
+
+- You can remove available mods (not activated) from your computer by selecting and pressing the Delete key.
+
+- You can rename mods by selecting and pressing F2.
+
+- You can refresh the mod list at any time by pressing F5.
+
+- You can create new mod folder names by pressing F7.
+
+- You can check the integrity of your game files by selecting the "Compare game files to snapshot" option from the "Tasks..." list at any time. This will compare the current game files against the original snapshot taken at step 2. Any discrepancies will be reported for your information and action.
+
+- To make sharing your mod lists with others easier, you can generate a text file list by selecting the "Export activated mods list" option from the "Tasks..." list. A file titled "Activated mods list.txt" will be saved to your MODS folder.
+
+- You can change the display language of the Generic Mod Enabler by visiting http://www.users.on.net/~jscones/software/products.html and downloading an available language pack. Simply follow the installation instructions included in the language pack.
+
+- MODDERS: You can remove files from the game by including in your package (empty) text files with -remove added to the filename (ie "filename.ext-remove"). Files will be returned when your mod is disabled.
+
+- MODDERS: Add a text file to your "documentation" or base folder with the extension ".jsgme" and the contents (up to 255 characters) will be displayed to the user whenever they click on your mod within the Generic Mod Enabler's interface. This is a great way to quickly "remind" users what your mod does.
+
+- DEVELOPERS: The Generic Mod Enabler accepts a number of command line parameters, giving you the ability to enable and disable mods from your applications. This feature is very useful for setup file builders, who can now, for example, disable all mods automatically prior to installing a mod update. Accepted command line parameters and usage are:
+
+/e "mod 1" "mod 2" .. "mod n"
+This enables the specified mods. Return value (see below) is the number of mods enabled.
+
+/d "mod 1" "mod 2" .. "mod n"
+This disables the specified mods. Return value is the number of mods disabled.
+
+/da
+This disables ALL mods. Return value is the number of mods still enabled.
+
+You cannot combine these switches and /e, /d, or /da must be the first switch passed. In addition to these three switches, there is also:
+
+/h<application handle>
+It is recommended that you include your application's handle for post-message handling as the Generic Mod Enabler will pass it back when it passes its return value.
+
+/x
+If your application opened the Generic Mod Enabler, it will close automatically once processing is finished.
+
+Once the Generic Mod Enabler has handled your request, it will send a message (via SendNotifyMessage) to your application's handle (retrieved from /h) with the wParam being your application's handle and the lParam being the return value.
+
+To accept the message you'll need to define a new windows message in your application:
+
+WM_JSGME : UINT;
+...
+WM_JSGME := RegisterWindowMessage('JSGME');
+
+and then capture the message in your message handler:
+
+...
+if Msg.Message = WM_JSGME then
+<do stuff with Msg.lParam>
+...
+
+If lParam is negative, or not what you are expecting (ie you're trying to disable 5 mods but get a return value of 4), then you need to do further investigation internally; JSGME.ini is an easy file to query for this purpose if you desire.
+
+==How the Generic Mod Enabler works==
+
+When you run the Generic Mod Enabler, all the sub-folder names under the MODS folder are collected and inserted into the "Available Mods" panel. Enabling a mod copies the associated files across into the game folder structure, backing up any files that it overwrites by appending the mod's name to the file extension and moving to a backup folder. This is why it is important that the folders and files under the mod sub-folder must mirror exactly the structure of the game itself. Also, once you enable a mod, it's good practice not to alter files in the source mod sub-folder. If you want to modify or update files in a mod sub-folder, disable the mod first then re-enable again after the files are updated (ie if a newer version of the mod is released).
+
+The Generic Mod Enabler has been tested with European Air War, Panzer Elite, Silent Hunter III/IV, Total War and various other games but should work with just about any moddable game. Simply follow the above instructions replacing "Silent Hunter III" with the name of the game that you wish to mod.
+
+Enjoy!
+
+Jaesen Jones
+JoneSoft
+Email jonesoft@internode.on.net if questions or feedback

@@ -1,0 +1,189 @@
+Generic Mod Enabler v2.6.0 (8 August 2010)
+Written by Jaesen Jones
+Copyright (c) 2003-2010 JoneSoft
+
+Web: http://www.users.on.net/~jscones/software/
+Email: jonesoft@internode.on.net
+
+"Do you have a game that can be "modded"? As you know, the number of "must have" mods for any game can run into the tens, if not hundreds. The Generic Mod Enabler takes most of the hassle out of installing and uninstalling mods from your game. It has been tested with European Air War, Panzer Elite, Silent Hunter III/IV, Total War and various other games but should work with just about any moddable game." 
+
+LICENSE AGREEMENT
+You should carefully read the following terms and conditions before using this software.  Your use of this software indicates your acceptance of this license agreement. 
+
+LICENSE 
+- This License Agreement (the "Agreement") is a legal agreement between you, the end-user, and Jaesen Jones. By using this software or storing this program on a computer hard drive (or other media), you are agreeing to be bound by the terms of this Agreement. 
+
+- Home users and non-profit organisations may install this program and use it FREE for UNLIMITED time. 
+
+- Commercial users, profit, and government organisations may install this program and use it FREE for UNLIMITED time. 
+
+- This software may be distributed freely on online services, bulletin boards, or other electronic media as long as the files are distributed in their entirety. 
+
+- This software may not be distributed on CD-ROM, disk, or other physical media for a fee without the permission of Jaesen Jones.
+
+- You may not alter this software in any way, including changing or removing any messages or windows. 
+
+- You may not decompile, disassemble or reverse-engineer this software. 
+
+COPYRIGHT
+Generic Mod Enabler is Copyright 2003-2010, JoneSoft. You must treat the Software like any other copyrighted material.
+
+DISCLAIMER OF WARRANTY
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SUPPLIED "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OF MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED. 
+
+RELEASE NOTES
+2.6.0
+- Fixed: now correctly disables mods that have [ as the first character in the mod name
+- Added: new enhanced game file compare feature
+- Changed: snapshot/compare feature now based on MD5 sums, not date stamps
+
+2.5.0 (19 June 2010)
+- Added: drag & drop from other processes (ie Windows Explorer, Desktop) now enabled under Microsoft Vista/Windows 7
+- Added: now detects changes to MODS folder contents and refreshes screen automatically
+- Changed: display font now defaults to user's desktop (icon) font
+- Changed: improved handling of -remove directive
+- Changed: improved handling of mod-added folders
+- Changed: numerous (minor) interface modifications
+- Changed: further optimised for use with Microsoft Vista/Windows 7
+
+2.4.0 (7 May 2010)
+- Added ability to copy the list of activated mods to the clipboard
+- Added /s switch for saving mod profiles
+- Added new (online) Help file
+- Now optimised for use with Microsoft Vista and Windows 7
+- Minor modifications to the behaviour of the "Tasks..." menu
+
+2.3.1 (1 November 2009)
+- Now writes JSGME path to JSGME.ini for use by third party apps that interact with JSGME
+- Added /l command line parameter for loading mod profiles
+
+2.3.0 (3 October 2009)
+- Now correctly handles mods that have = as part of the mod folder name
+- Added ability to load and save mod profiles
+- Added search facility
+- Now defaults to "Start in" folder
+- Confirmation dialog no longer appears when disabling all mods using the /da command line switch
+- Modified layout of "Tasks" menu
+- Removed sounds, apart from those connected to warnings or errors
+
+2.2.0 (6 September 2008)
+- Now allows users to change the default MODS folder name when first run
+- Now accepts command line parameters (refer to Help file for more detail)
+- Added ability to import a mod folder from another location
+- Now displays the total number of mods found and number of activated mods in status bar
+- Removed "Delete" button - delete available mods by selecting and pressing the Delete key or Delete context menu option
+
+2.1.0 (10 May 2008)
+- Activated mods that can't be immediately disabled because they have files overwritten by subsequently activated mods now display in a different ("greyed out") colour
+- Minor code enhancements
+
+2.0.1 (30 October 2007)
+- Fixed some case sensitivity problems
+
+2.0.0 (23 October 2007)
+- Now records a snapshot of mod files at the time of enabling and disables based on that snapshot
+- Now warns when a mod adds new folders that were added by previously enabled mods
+- Now supports importing of mods through drag and drop from Windows Explorer, Desktop etc (not supported under Microsoft Vista)
+- Added ability to rename mods by selecting and pressing F2
+- Added ability to create new mod folder names by pressing F7
+- Now plays a sound when enabling or disabling has completed
+- !BACKUP folder now has hidden attribute
+- Now deletes mods to the Recycle Bin
+- Snapshot and comparison files now saved to MODS folder
+- Improved system message handling
+- Many code enhancements
+
+1.7.0 (4 July 2007)
+- Updated interface
+- Now clicking on a mod will display a brief description of the mod, where one exists (see Help file for more information)
+
+1.6.2 (15 June 2007)
+- Now correctly disables/removes read-only files
+- Documentation files now display associated file icon in context menu
+
+1.6.1 (2 June 2007)
+- Now correctly returns removed files where game has recreated after removal
+
+1.6.0 (26 May 2007)
+- Added ability to remove game files via new "-remove" switch
+- Now deletes new folders added by mods, if empty, when disabling
+- Returned ability to read mod documentation by selecting a mod and right clicking
+- Right clicking an available mod now provides option to explore in Windows Explorer
+- Removed ability to open available mod folder(s) in Windows Explorer by double clicking or selecting and pressing "Enter" (replaced by above new feature)
+- Pressing F1 on main screen now brings up help screen
+- Minor code enhancements
+
+1.5.0 (3 February 2007)
+- Now supports different languages
+- Added ability to open available mod folder(s) in Windows Explorer by double clicking or selecting and pressing "Enter"
+- Removed ability to view mod documentation - use new explore feature instead
+- Now enables multiple-selected mods in (correct) ascending order
+- Added ability to refresh mods list by pressing F5
+- Now can continue to use JSGME with the Help screen open
+- Now re-focuses to existing JSGME if attempting to open a new instance
+- Minor code enhancements
+
+1.4.1 (17 June 2006)
+- Updated with new JoneSoft website details
+
+1.4.0 (2 April 2006)
+- Added ability to compare game files at a given time against an original snapshot in order to determine changes
+- Added ability to export the activated mod list to text file
+- Improved removal of empty backup folders left after disabling mods
+
+1.3.4 (12 March 2006)
+- Now only allows one instance to run at any time
+- Reading mod documentation is now extended to enabled mods
+- Added ability to check the internet for updates
+- Minor enhancements to interface and code
+
+1.3.3 (2 September 2005)
+- Changed display font to be more consistent with default Windows XP
+- Minor enhancements to code
+
+1.3.2 (10 July 2005)
+- Added ability to read mod documention. Selecting a mod and right clicking will bring up a list of all files in the mod's "documentation" folder
+
+1.3.1 (29 June 2005)
+- Improved warning message when attempting to enable mods that overwrite previously modded files
+
+1.3.0 (30 May 2005)
+- Fixed problem where new files added by a mod were being "seen" as original game files by subsequent mods
+- Added ability to disable all mods with one click
+- Added ability to enable, disable and delete more than one mod at a time (only recommended for advanced users)
+- Included version info on title bar for easier identification
+- Now saves screen size preferences
+
+1.2.0 (21 May 2005)
+- To avoid game conflicts, backed up files are now stored in a separate backup folder (under MODS folder)
+- Now will not copy any files found in "documentation" folder, which should be used to store the mod's read me files
+
+1.1.5 (20 May 2005)
+- Dialogue box is now resizable
+
+1.1.4 (12 May 2005)
+- Mods no longer need to be disabled in reverse order unless the mod has had files overwritten by subsequent mods
+- Minor tweaks to interface and .ini file management
+
+1.1.3 (7 May 2005)
+- Added drag and drop support
+- Added ability to delete available non-activated mods from user's computer
+
+1.1.2 (6 May 2005)
+- General code improvement
+- Minor form changes
+- Added "Help" and "About" dialogs
+- New icon
+
+1.1.1 (24 April 2005)
+- Now warns when a new mod will update files already altered by a previous mod
+
+1.1.0 (21 April 2005)
+- Initial Release (no prior version was released)
+
+ACKNOWLEDGEMENTS
+Thanks and credit to:
+- Ian "Beery" Cooper who suggested the warning enhancement and who indirectly motivated me to release this tool to the community!
+- Alain, Reece and John "NZ_Wanderer" for raising problems and then testing fixes!
+- The language translators - names can be found in each .lng file.
+- The many users that have provided continued feedback and suggestions.
