@@ -1,6 +1,5 @@
 
 # Ignore base game files
-*.exe
 *.dll
 *.mdb
 *.xml
