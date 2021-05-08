@@ -12,8 +12,8 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=15
-SubmergedSpeed=25
-TelegraphSpeeds=-5,0,5,10,15,20,25
+SubmergedSpeed=26
+TelegraphSpeeds=-5,0,5,10,15,20,26
 AccelerationRate=0.2
 DecelerationRate=0.1
 RudderTurnRate=1
@@ -30,7 +30,7 @@ TestDepth=1320
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=120
+SelfNoise=118
 ActiveSonarReflection=25
 ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
