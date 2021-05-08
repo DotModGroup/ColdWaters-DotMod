@@ -1,0 +1,9 @@
+﻿[Unit Reference]
+ShipClass=Oberon
+Description=Oberon Diesel-Electric Submarine
+History=The Oberon class was a ship class of 27 British-designed submarines operated by five different nations. They were designed as a direct follow-on from the Porpoise class: physical dimensions were the same, but stronger materials were used in hull construction, and updated equipment was fitted. The Oberons operated during the height of the Cold War, with duties including surveillance, tracking of other ships and submarines, delivery and retrieval of special forces personnel, and serving as targets for anti-submarine training.
+
+[Player Ship Instances] 
+
+PlayerClassNames=HMS Oberon,HMS Odin,HMS Orpheus,HMS Olympus,HMS Osiris,HMS Onslaught,HMS Otter,HMS Oracle,HMS Ocelot,HMS Otus,HMS Opossum,HMS Opportune,HMS Onyx
+PlayerClassHullNumbers=S09,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21
