@@ -107,7 +107,13 @@ FLOODING5=-127,106,-77,-38
 DamageControlPartyY=-31
 
 [Model]
-ModelFile=bundles/vessels/wp/wp_ssgn_anchar
+AssetBundle=bundles/vessels/wp/wp_ssgn_anchar_tex
+Material=ships/materials/plan_rice_field
+MaterialTextures=vessels/textures/wp_ssgn_anchar.png,vessels/textures/wp_ssgn_anchar_spec.png,assets/ships/wp_84_ssgn_papa/wp_ssgn_anchar_tex/wp_ssgn_anchar_nm.dds
+
+AssetBundle=bundles/vessels/wp/wp_ssgn_anchar
+ModelFile=assets/resourcesforbundles/vessels/wp/wp_84_ssgn_papa/wp_ssgn_anchar/wp_ssgn_anchar.obj
+
 //Hull and Deck
 
 MeshPosition=0,0,0
@@ -116,9 +122,9 @@ MeshRotation=0,0,0
 MeshHullCollider=wp_ssgn_anchar_coll_hull
 MeshSuperstructureCollider=wp_ssgn_anchar_coll_ss
 
-Material=ships/materials/plan_rice_field
 
-MaterialTextures=vessels/textures/wp_ssgn_anchar.png,vessels/textures/wp_ssgn_anchar_spec.png,bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_nm
+
+
 
 
 -Material=bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_mat
@@ -221,7 +227,8 @@ MeshRotation=0,0,0
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
-CavitationParticle=bundles/vessels/wp/wp_ssgn_anchar/wp_ssgn_anchar_cavitation
+--CavitationParticle=bundles/vessels/wp/wp_ssgn_anchar/wp_ssgn_anchar_cavitation
+CavitationParticle=assets/resourcesforbundles/vessels/wp/wp_84_ssgn_papa/wp_ssgn_anchar/wp_ssgn_anchar_cavitation.prefab
 
 //FunnelSmokeParticle=ships/particles/wp_ssgn_charlie1_bubbles
 --EmergencyBlowParticle=ships/particles/wp_ssgn_anchar_emergency_blow

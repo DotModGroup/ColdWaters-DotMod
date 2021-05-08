@@ -42,7 +42,8 @@ RADAR=wp_rlk-101
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_set-65,wp_saet-60m,wp_53-65,wp_set-40,wp_moss_mg-14
+TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m,wp_set-40,wp_moss_mg-14
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_set-40,wp_moss_mg-14
 //Torpedo Numbers in reality = 4x533mm + 6x400mm
 //Thinking about raising minimal quantity to 20 for playability. 20 torpedoes maximum is stated by deepstorm.ru, but obviously this is an error.
 TorpedoNumbers=4,0,0,2,4

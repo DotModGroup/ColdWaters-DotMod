@@ -3,7 +3,7 @@
 //=     Template for weapon
 *=WeaponObjectReference
 *=WeaponType
-*=Special=Antitorpedo,CannotAttackSurface,LandAttack,RadarGuided,SurfaceLaunched,SwimOut     Note: LandAttack is deprecated but still can be used to mark missilies that will be ignored by the enemy. CannotAttackSurface - forbids vertical wire guidance.
+*=Special=Antitorpedo,CannotAttackSurface,LandAttack,RadarGuided,SurfaceLaunched,SwimOut,NoBoosterRelease     Note: LandAttack is deprecated but still can be used to mark missilies that will be ignored by the enemy. CannotAttackSurface - forbids vertical wire guidance.
 *=MissilePayload
 *=Size
 *=MaxQuantity
@@ -31,6 +31,7 @@
 *=MissileGunVulnerability
 *=MissileChaffVulnerability
 *
+*=IgnitionDelay
 *=MaxLaunchDepth
 *=MaxDepth
 *=FixedRunDepth
@@ -782,6 +783,61 @@ AudioPitch=1.2
 AudioLoop=FALSE
 [/Model]
 
+//=TEST-68 	First Russian wire-guided torpedo; based on the SET-53M.
+WeaponObjectReference=wp_test-68
+WeaponType=TORPEDO
+Special=CannotAttackSurface
+*
+Warhead=150
+SensorRange=875
+SensorAngles=40,15
+*
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.05
+WireBreakOnRunProbability=0.05
+WireBreakSpeedThreshold=15
+*
+MaxLaunchDepth=650
+MaxDepth=650
+*
+WeaponRanges=15300
+WeaponSpeed=29
+TurnRate=20
+MaxPitchAngle=45
+*
+HomeSettings=PASSIVE,ACTIVE
+AttackSettings=STRAIGHT,LEFT,RIGHT
+DepthSettings=DEEP
+*
+WeaponNoiseValues=120,230
+WeaponSprite=hud\sprites\wp_test-68_sprite.png
+MinCameraDistance=0.3
+[Model]
+ModelFile=weapons/assets/wp_test-71
+Material=weapons/assets/wp_test-71_mat
+MaterialTextures=Assets/Textures/wp_test-68_tx.png
+MeshPosition=0,0,0
+MeshWeapon=TEST-71
+MeshWeaponPropRotation=-700
+MeshWeaponProp=TEST-71_propl
+MeshWeaponPropRotation=700
+MeshWeaponProp=TEST-71_propr
+MeshPosition=0,0,-0.0718
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+AudioSource=TorpedoSonarPing
+AudioClip=audio/environment/sonar_ping_short
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.2
+AudioLoop=FALSE
+[/Model]
+
 //=----- Телеуправляемая противолодочная ТЭСТ-71  1971г ----------------------------------------
 //=ССН "Сапфир" - 800м       Масса ВВ	205 кг ТУ только в горизонтальной плоскости. Обрыв кабеля у поверхности
 WeaponObjectReference=wp_test-71
@@ -1308,7 +1364,68 @@ AudioPitch=1.1
 AudioLoop=TRUE
 [/Model]
 
-//=ПКР П-270 Москит   1984г
+//=---------ПКР П-270 Москит   1984г    ----------------------------------------
+WeaponObjectReference=wp_p-270
+WeaponType=MISSILE
+Special=SurfaceLaunched,NoBoosterRelease
+*
+Warhead=320
+SensorRange=10000
+SensorAngles=30,60
+*
+MissileGunVulnerability=0.99
+MissileChaffVulnerability=0.7
+*
+MaxLaunchDepth=14
+WeaponAltitudes=300,7
+CruiseTime=25
+BoosterReleasedAfterSeconds=7
+*
+WeaponRanges=12000,546807
+WeaponSpeed=40,1870
+TurnRate=30
+MaxPitchAngle=27
+*
+HomeSettings=SHIP
+AttackSettings=WIDE,NARROW
+DepthSettings=SKIM
+*
+WeaponSprite=hud/sprites/wp_p-270.png
+WeaponNoiseValues=190,190
+MinCameraDistance=0.3
+ResupplyTime=120
+[Model]
+AssetBundle=bundles/dotmod/weapons/wp/wp_m-11
+ModelFile=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11.obj
+Material=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11_mat.mat
+MaterialTextures=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11_tx.png
+MeshPosition=0,0,0
+MeshWeapon=Storm
+MeshWeaponCanister=Storm
+MeshMissileBooster=FALSE
+
+MeshPosition=0,0,-0.0758
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.06
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.0561
+BoosterParticle=weapons/assets/usn_tasm_boosterrelease
+
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster1.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+//AudioClip=audio/weapons/missile_sustainer
+//AudioClip=audio/weapons/jet_loop
+AudioClip=audio/missile/ssgn1.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
 
 //=----------ПКР Калибр     2011г------------------------------------
 WeaponObjectReference=wp_3m-54
@@ -1659,6 +1776,7 @@ Warhead=0
 SensorRange=0
 SensorAngles=0,0
 *
+IgnitionDelay=3
 MaxLaunchDepth=200
 *
 WeaponAltitudes=15000
@@ -1736,7 +1854,7 @@ MaxLaunchDepth=2
 *
 WeaponAltitudes=180
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=200,3720
 WeaponSpeed=40,972
@@ -1785,7 +1903,7 @@ AudioLoop=TRUE
 //=------------------ПЗРК «Игла» (1983г) -----------------------
 WeaponObjectReference=wp_igla
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=2
 SensorRange=3720
@@ -1802,7 +1920,7 @@ MaxLaunchDepth=2
 *
 WeaponAltitudes=180
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=200,5470
 WeaponSpeed=40,1107
@@ -1851,7 +1969,7 @@ AudioLoop=TRUE
 //=----------------  ЗРК М-11 «Шторм»(1969г.)   --------------------------------
 WeaponObjectReference=wp_m-11
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=120
 SensorRange=60150
@@ -1868,7 +1986,7 @@ MaxLaunchDepth=5
 *
 WeaponAltitudes=350,350
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=6000,60150
 WeaponSpeed=40,1600
@@ -1918,7 +2036,7 @@ AudioLoop=TRUE
 //=----------------  ЗРК «Оса - МА» (1980+г)   --------------------------------
 WeaponObjectReference=wp_m-4
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=18
 SensorRange=16404
@@ -1935,7 +2053,7 @@ MaxLaunchDepth=5
 *
 WeaponAltitudes=250,250
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=2000,16404
 WeaponSpeed=40,971
@@ -1985,7 +2103,7 @@ AudioLoop=TRUE
 //=----------------  ЗРК «Кинжал» (1989г)   --------------------------------
 WeaponObjectReference=wp_kinzhal
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=15
 SensorRange=13120
@@ -2002,7 +2120,7 @@ MaxLaunchDepth=5
 *
 WeaponAltitudes=300,300
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=1640,13120
 WeaponSpeed=40,1652
@@ -2068,7 +2186,7 @@ AudioLoop=TRUE
 //=----------------  ЗРК С-300(1983г.)   --------------------------------
 WeaponObjectReference=wp_s-300
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=133
 SensorRange=82000
@@ -2085,7 +2203,7 @@ MaxLaunchDepth=5
 *
 WeaponAltitudes=300,300
 CruiseTime=0
-BoosterReleasedAfterSeconds=999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=5400,82000
 WeaponSpeed=40,3900
@@ -2319,7 +2437,7 @@ AudioPitch=1
 AudioLoop=TRUE
 [/Model]
 
-//=------Телеуправляемая противолодочная  Мк 37 Mod 0----------------------------------------
+//=------Телеуправляемая противолодочная  Мк 37 Mod 2----------------------------------------
 WeaponObjectReference=usn_mk37
 WeaponType=TORPEDO
 Special=SwimOut
@@ -2377,8 +2495,69 @@ AudioPitch=1.2
 AudioLoop=FALSE
 [/Model]
 
+//=------NT37C Otto-Fueled Mark 37 modification; popular in the export market and used in countries such as Italy, Isreal, and Canada---------------------------------------
+WeaponObjectReference=usn_nt37c
+WeaponType=TORPEDO
+Special=SwimOut
+*
+Warhead=225
+//=Using about a 350% (4.6cm/1.3cm at the same scale [yes, measured with a ruler], estimate based on the arc lengths on the Navy's manual for this torp: https://maritime.org/doc/torpedomk37/, page 1-3 [NOT PAGES 1-3, PAGE 1-3]) would be too much, so I went with a 150% increase instead.
+SensorRange=2500
+SensorAngles=30,15
+*
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.05
+WireBreakOnRunProbability=0.05
+WireBreakSpeedThreshold=12
+*
+//=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
+MaxLaunchDepth=1400
+MaxDepth=1400
+*
+//=Extremely jank math based on averages of performance data on page 3-13 of the above (rounded up a bit) and a 26 knot speed of a regular Mark 37.
+WeaponRanges=22000
+WeaponSpeed=36
+TurnRate=20
+MaxPitchAngle=45
+*
+HomeSettings=PASSIVE,ACTIVE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+*
+WeaponNoiseValues=220,220
+WeaponSprite=hud/sprites/usn_nt37c_sprite.png
+MinCameraDistance=0.3
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_mk37
+Material=weapons/assets/usn_mk48_mat
+MaterialTextures=Textures/usn_nt37c_tx.png
+MeshPosition=0,0,0
+MeshWeapon=Mk37
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=Mk37_propl
+MeshWeaponPropRotation=700
+MeshWeaponProp=Mk37_propr
+MeshPosition=0,0,-0.0302
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+*
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+AudioSource=TorpedoSonarPing
+AudioClip=audio/environment/sonar_ping_short
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.2
+AudioLoop=FALSE
+[/Model]
+
 //=Телеуправляемая  Мк 45   с ядерной БЧ     1963г   сенсор отсутствует
-//=Надо бы поменять на обычную... масса БЧ: до 145 кг.   В реале, радус поражения превышал дистанцию стрельбы....
+//=Надо бы поменять на обычную... масса БЧ: до 145 кг.   В реале, радус поражения превышал дистанцию стрельбы.... < This is not true, see tests Hardtack and Swordfish
 WeaponObjectReference=usn_mk45
 WeaponType=TORPEDO
 Special=SwimOut
@@ -2875,7 +3054,7 @@ AudioLoop=TRUE
 //=----------------  RIM-7M Sea Sparrow(1983г)   --------------------------------
 WeaponObjectReference=usn_rim-7m
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=40
 SensorRange=13120
@@ -2893,7 +3072,7 @@ MaxLaunchDepth=5
 *
 WeaponAltitudes=500,500
 CruiseTime=0
-BoosterReleasedAfterSeconds=99999
+BoosterReleasedAfterSeconds=6
 *
 WeaponRanges=1600,27340
 WeaponSpeed=40,2300

@@ -43,6 +43,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m,wp_set-40,wp_moss_mg-14
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_set-40,wp_moss_mg-14
 TorpedoNumbers=6,2,2,4,4
 TorpedoTubes=7
 NumberOfWires=0
@@ -52,6 +53,13 @@ TubeReloadTime=45
 
 MissileType=wp_p-70
 MissilesPerLauncher=4,4
+
+AntiShipMissileType=wp_p-70
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=1
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.03,0.053,0.53|-0.03,0.053,0.53|0.035,0.065,0.48|-0.035,0.065,0.48|0.035,0.065,0.42|-0.035,0.065,0.42|0.035,0.065,0.37|-0.035,0.065,0.37
+AntiShipMissileLaunchPointsRotation=-57.5,0,0
 
 VLSTorpedoTypes=wp_p-70
 VLSTorpedoNumbers=8

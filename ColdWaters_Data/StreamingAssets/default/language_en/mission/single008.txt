@@ -1,6 +1,6 @@
 //Narvik Caper
 
-Image=campaign/images/pact specops
+Image=campaign/images/nato insertion 3
 MissionLocation=Narvik, Norway
 Briefing=22 APR 1984
 Briefing=Massive enemy military buildup has been observed in the captured port of Narvik. A SEAL team is ordered in to report back and to destroy vital military facilities there, if possible.

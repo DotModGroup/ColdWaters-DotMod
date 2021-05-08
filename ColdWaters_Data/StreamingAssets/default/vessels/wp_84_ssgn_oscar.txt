@@ -53,10 +53,14 @@ TorpedoTubeSize=650,650,533,533,533,533,533
 TubeReloadTime=30
 
 MissileType=wp_rpk-6
-AntiShipMissileType=wp_p-700
-AntiShipMissilePosition=-0.095,0.085,0.474
-AntiShipMissileRotation=-45,0,0
 MissilesPerLauncher=4,4
+
+AntiShipMissileType=wp_p-700
+AntiShipMissileNumbers=24
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.095,0.085,0.72|-0.095,0.085,0.72|0.095,0.085,0.67|-0.095,0.085,0.67|0.095,0.085,0.622|-0.095,0.085,0.622|0.095,0.085,0.572|-0.095,0.085,0.572|0.095,0.085,0.524|-0.095,0.085,0.524|0.095,0.085,0.474|-0.095,0.085,0.474|0.095,0.085,0.426|-0.095,0.085,0.426|0.095,0.085,0.376|-0.095,0.085,0.376|0.095,0.085,0.328|-0.095,0.085,0.328|0.095,0.085,0.278|-0.095,0.085,0.278|0.095,0.085,0.23|-0.095,0.085,0.23|0.095,0.085,0.18|-0.095,0.085,0.18
+AntiShipMissileLaunchPointsRotation=-45,0,0
 
 VLSTorpedoTypes=wp_p-700
 VLSTorpedoNumbers=24

@@ -1,10 +1,10 @@
-//Priority Target
-Image=campaign/images/photos/carrier_battle_group.jpeg
-MissionLocation=Rockall
-Briefing=28 SEP 1982
+//Hornet's Nest
+Image=campaign/images/Belknap+Knox.png
+MissionLocation=West of UK
+Briefing=15 DEC 1986
 Briefing=
-Briefing=You've been sent to North Atlantic to hunt for the NATO carrier battlegroup. After several days of search you've finaly found what
+Briefing=While scouting near UK coasts you've stumbled upon group of NATO vessels returning from exercises. You're outnumbered but the weather favors you, the enemy will not have air support. Engage or widthraw? It is your call captain...
 Briefing=
 Briefing=<b>Primary Objective:</b>
-Briefing=- Sink the carrier
+Briefing=Sink enemy ships and submarines or leave the area.
 Briefing=

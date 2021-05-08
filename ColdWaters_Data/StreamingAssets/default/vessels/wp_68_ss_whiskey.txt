@@ -43,8 +43,9 @@ RADAR=wp_flag
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_set-65,wp_saet-60m,wp_53-65
-TorpedoNumbers=6,2,4
+TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74
+TorpedoNumbers=6,4,2
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533

@@ -56,8 +56,19 @@ TubeReloadTime=0
 
 RBULaunchers=wp_rbu6000_mortar,wp_rbu6000_mortar
 RBUSalvos=8,8
-RBUFiringArcBearingMin=-130,-180,0,130
-RBUFiringArcBearingMax=0,-130,130,180
+RBUFiringArcBearingMin=-155,-160
+RBUFiringArcBearingMax=155,160
+
+MissileType=wp_p-6
+MissilesPerLauncher=8
+
+AntiShipMissileType=wp_p-6
+AntiShipMissileNumbers=16
+AntiShipMissileReloadTime=240
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=-0.1375,0.2285,1.05|0.1375,0.2285,1.05|-0.1025,0.2285,1.05|0.1025,0.2285,1.05|-0.1025,0.235,1.45|0.1025,0.235,1.45|-0.1025,0.235,1.45|0.1025,0.235,1.45
+AntiShipMissileLaunchPointsRotation=-15,0,0
+
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
@@ -67,10 +78,20 @@ Anti-MissileGunFiringArcFinish=0,0,-20,-60,100,100,180,180
 Anti-MissileGunRestAngle=0,0,181,181,0,0,179,179
 Anti-MissileGunUsesRADAR=0,0,1,1,2,2,3,3
 Anti-MissileRADARRestAngle=0,180,0,180
+
+AntiAirMissileType=wp_m-11
+AntiAirMissilesNumbers=96
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=80
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=-0.025,0.27,0.95|0.025,0.27,0.95|0.165,0.305,-0.43|0.115,0.305,-0.43
+AntiAirMissileLaunchPointsRotation=-30,0,0|-30,0,0|-30,180,0|-30,180,0
+
 ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
-NoisemakerName=wp_noisemaker
+
+NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
@@ -206,18 +227,20 @@ MeshRotation=0,0,0
 MeshNavalGunBarrel=wp_takr_kiev_AK726_guns
 NavalGunSpawnPosition=0,0,0.12
 
-MeshRotation=0,0,0
+
 Material=ships/materials/modular_parts
 //Torpedo Mounts
-MeshPosition=-0.75,0.055,-0.833
+MeshRotation=0,-80,0
+MeshPosition=-0.17,0.06,0.9
 MeshTorpedoMount=FALSE
-TorpedoSpawnPosition=0.0216,0.05,0.83
-TorpedoEffectPosition=0,0.0055,0.041
+TorpedoSpawnPosition=-0.17,0.06,0.9
+TorpedoEffectPosition=-0.17,0.06,0.9
 
-MeshPosition=0.75,0.055,-0.833
+MeshRotation=0,80,0
+MeshPosition=-0.17,0.06,0.9
 MeshTorpedoMount=FALSE
-TorpedoSpawnPosition=0.0216,0.0047,0.83
-TorpedoEffectPosition=0,0.0055,0.041
+TorpedoSpawnPosition=-0.17,0.06,0.9
+TorpedoEffectPosition=-0.17,0.06,0.9
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -269,8 +292,6 @@ MeshRotation=0,180,0
 MeshPosition=0.245,0.158,-1.755
 MeshCIWSRADAR=wp_takr_kiev_basstilt
 
-
-
 //RBU
 MeshRotation=335,0,0
 MeshPosition=-0,0.245,1.63
@@ -280,6 +301,25 @@ MeshRotation=335,0,0
 MeshPosition=-0,0.252,1.815
 MeshRBULauncher=wp_takr_kiev_RBU6000
 
+//Fake Missile Mount
+MeshRotation=-15,0,0
+MeshPosition=-0.1375,0.2285,1.05
+MeshMissileMount=FALSE
+MissileEffectPosition=0,0,0
+
+//Fake tubes
+ModelFile=ships/wp_bpk_kara/wp_bpk_kara
+Material=ships/materials/modular_parts
+
+MeshRotation=0,-80,0
+MeshPosition=-0.17,0.06,0.9
+Mesh=wp_bpk_kara_torpedomount
+
+MeshRotation=0,80,0
+MeshPosition=0.17,0.06,0.9
+Mesh=wp_bpk_kara_torpedomount
+
+ModelFile=ships/wp_takr_kiev/wp_takr_kiev
 //Wake and Smoke
 MeshPosition=0,0,0
 MeshRotationn=0,0,0

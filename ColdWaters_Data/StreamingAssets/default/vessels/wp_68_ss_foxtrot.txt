@@ -46,6 +46,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74
 TorpedoNumbers=10,8,4
 NumberOfWires=0
 TorpedoTubes=10

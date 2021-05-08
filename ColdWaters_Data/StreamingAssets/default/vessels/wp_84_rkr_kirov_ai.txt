@@ -54,11 +54,15 @@ TubeConfig=5,5
 TorpedoTubeSize=21
 TubeReloadTime=0
 
-MissileType=wp_urpk-3
+MissileType=wp_rpk-6
+MissilesPerLauncher=5,5
+
 AntiShipMissileType=wp_p-700
-AntiShipMissilePosition=-0.025,0.12,0.64
-AntiShipMissileRotation=-60,0,0
-MissilesPerLauncher=20
+AntiShipMissileNumbers=20
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.065,0.12,0.69|0.025,0.12,0.69|-0.025,0.12,0.69|-0.065,0.12,0.69|0.065,0.12,0.64|0.025,0.12,0.64|-0.025,0.12,0.64|-0.065,0.12,0.64|0.065,0.12,0.59|0.025,0.12,0.59|-0.025,0.12,0.59|-0.065,0.12,0.59|0.065,0.12,0.54|0.025,0.12,0.54|-0.025,0.12,0.54|-0.065,0.12,0.54|0.065,0.12,0.485|0.025,0.12,0.485|-0.025,0.12,0.485|-0.065,0.12,0.485
+AntiShipMissileLaunchPointsRotation=-60,0,0
 
 RBULaunchers=wp_rbu6000_mortar,wp_rbu1000_mortar,wp_rbu1000_mortar
 RBUSalvos=8,6,6
@@ -224,18 +228,44 @@ TorpedoSpawnPosition=0.0216,0.0047,0.0054
 TorpedoEffectPosition=0,0.0055,0.041
 
 //Missile Mounts
+-Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
+-MeshRotation=341,0,0
+-MeshPosition=0,0.1808,1.1198
+-MeshMissileMount=wp_rkr_kirov_asw_launcher
+-Material=ships/materials/modular_parts
+-MeshRotation=0,0,0
+-MeshPosition=0,0,0
+-ChildMesh=wp_rkr_kirov_asw_launcher_parts
+-Material=ships/materials/trans
+-ChildMesh=wp_rkr_kirov_asw_launcher_trans
+-MeshRotation=0,0,0
+-MissileEffectPosition=-0.01,-0.002,-0.055
+
+//Missile Mounts
 Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
 MeshRotation=341,0,0
 MeshPosition=0,0.1808,1.1198
-MeshMissileMount=wp_rkr_kirov_asw_launcher
+Mesh=wp_rkr_kirov_asw_launcher
 Material=ships/materials/modular_parts
-MeshRotation=0,0,0
-MeshPosition=0,0,0
-ChildMesh=wp_rkr_kirov_asw_launcher_parts
+Mesh=wp_rkr_kirov_asw_launcher_parts
 Material=ships/materials/trans
-ChildMesh=wp_rkr_kirov_asw_launcher_trans
-MeshRotation=0,0,0
-MissileEffectPosition=-0.01,-0.002,-0.055
+Mesh=wp_rkr_kirov_asw_launcher_trans
+
+
+
+//Missile Mounts
+MeshRotation=0,-93,0
+//Port tubes
+MeshPosition=-0.16,0.043,-1.552
+MeshMissileMount=FALSE
+MissileEffectPosition=0,0,0
+
+//Starboard tubes
+MeshRotation=0,93,0
+MeshPosition=0.16,0.043,-1.552
+MeshMissileMount=FALSE
+MissileEffectPosition=0,0,0
+
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -299,6 +329,34 @@ MeshRBULauncher=wp_rkr_kirov_RBU1000
 MeshPosition=0.1547,0.149,-0.681
 MeshRBULauncher=wp_rkr_kirov_RBU1000
 
+//Fake tubes
+ModelFile=ships/wp_bpk_kara/wp_bpk_kara
+Material=ships/materials/modular_parts
+
+MeshRotation=0,93,0
+MeshPosition=0.13,0.04,-1.55
+Mesh=wp_bpk_kara_torpedomount
+
+MeshRotation=0,-93,0
+MeshPosition=-0.128,0.04,-1.55
+Mesh=wp_bpk_kara_torpedomount
+
+//Osa launchers
+-AssetBundle=bundles/dotmod/parts/wp_zif122
+-ModelFile=assets/resourcesforbundles/parts/wp_zif122/wp_zif122.obj
+-Material=assets/resourcesforbundles/parts/wp_zif122/wp_zif122_mat.mat
+-MaterialTextures=assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_tx.png,assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_spec.png,assets/resourcesforbundles/parts/wp_zif122/wp_ziff122_nm.png
+-MeshRotation=0,-90,0
+-MeshPosition=-0.12275,0.19,0.283
+-Mesh=zif122_base
+-Mesh=zif122_rot
+
+MeshRotation=0,90,0
+MeshPosition=0.12275,0.19,0.283
+Mesh=zif122_base
+Mesh=zif122_rot
+
+ModelFile=ships/wp_rkr_kirov/wp_rkr_kirov
 //Wake and Smoke
 MeshPosition=0,0,0
 MeshRotationn=0,0,0

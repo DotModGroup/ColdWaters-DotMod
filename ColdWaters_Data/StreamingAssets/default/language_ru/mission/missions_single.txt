@@ -6,6 +6,7 @@
 <color=Cyan>Штурм бастиона</color>
 <color=Cyan>Охота за красным медведем</color>
 <color=Cyan>Высадка в Нарвике</color>
+<color=Cyan>Перехват</color>
 <color=#39CCCC>Бой в Северной Атлантике</color>
 <color=#39CCCC>Бой в Датском проливе</color>
 <color=#7FDBFF>Парад джонок</color>
@@ -16,6 +17,7 @@
 <color=Red>Засада</color>
 <color=Red>Осиное гнездо</color>
 <color=Red>Главная цель</color>
+<color=Red>Погоня</color>
 <color=Yellow>Территориальный спор</color>
 <color=Yellow>Неглубокая могила</color>
 <color=Yellow>Внешняя торговля</color>

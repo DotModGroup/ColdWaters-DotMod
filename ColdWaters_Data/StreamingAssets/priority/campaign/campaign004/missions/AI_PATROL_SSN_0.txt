@@ -2,7 +2,7 @@
 //Small
 MissionType=AI_PATROL_SSN
 AllowedOnlyFor=
-ForbiddenFor=SS
+ForbiddenFor=SS,SSG,SSB
 AllowedOnlyForCostBelow=400
 AllowedOnlyForCostHigherThan=
 HoursToStart=24,48

@@ -1,18 +1,17 @@
-//Shallow Grave
+//Busted
 
 UseTerrain=TRUE
-MapCoordinates=2211,1291
+MapCoordinates=2300,1400
 
-MapNavigationData=campaign/images/maps/south_china_sea_navmap
-MapElevationData=campaign/images/maps/south_china_sea_bathymetry
-WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
-
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
 
 //Environment
-Date=14 NOV 2000
+Date=06 MAY 1985
 Hemisphere=North
-Time=1200
+Time=DAYLIGHT
 UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=LightBreeze
@@ -20,18 +19,18 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1
-CombatBehaviour=OFFENSIVE
-EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles|usn_99_ssn_seawolf|usn_99_ssn_los_angeles_flt3|usn_99_ssn_los_angeles_flt2
-//Ship positions and headings, otherwise build into a formation
+NumberOfEnemyUnits=1-2,2-4
+CombatBehaviour=OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE
+EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ffg_perry_ai|usn_84_ff_knox_ai
 
 //Enemy Aircraft
-NumberOfHelicopters=0
+NumberOfHelicopters=2
 HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=plan_ssn_han
-CommanderName=COM PACIFIC FLEET
-CommanderFleetName=CICPLAN
+PlayerVessels=wp_68_em_kotlin_pl,wp_84_mpk_grisha3_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl,wp_84_bpk_kara_pl,wp_84_takr_kiev_pl,wp_84_rkr_kirov_pl
+
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF

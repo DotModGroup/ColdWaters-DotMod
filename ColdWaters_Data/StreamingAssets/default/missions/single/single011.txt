@@ -1,37 +1,35 @@
-//Junks On Parade
+//Skirmish In The Denmark Strait
 
 UseTerrain=TRUE
-//MapCoordinates=1814,447
-MapCoordinates=1953,1008
-
-MapNavigationData=campaign/images/maps/south_china_sea_navmap
-MapElevationData=campaign/images/maps/south_china_sea_bathymetry
-WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic
-
+MapCoordinates=1372,1575
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
 
 //Environment
-Date=20 AUG 2000
+Date=04 FEB 1968
 Hemisphere=North
-Time=0700
-UsePresetEnvironment=TRUE
-Weather=Broken
+Time=1100
+UsePresetEnvironment=FALSE
+Weather=Clear
 SeaState=LightBreeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-2,2-4,4-6,0-1
-CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,FALSE
-EnemyShipClasses=plan_ddg_sovremenny,plan_ddg_luhu|plan_ddg_luda3|plan_ff_jianghu3,plan_ffg_jiangwei,plan_lst_yukan|plan_lst_yuting|wp_ms_roro|wp_ms_mercur|plan_ap_qiongsha,plan_ssn_han|plan_ssk_song|wp_84_ss_kilo|plan_ss_ming|plan_ss_romeo
+NumberOfEnemyUnits=2-2,1-1,0-1
+CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_68_bpk_kashin_ai|wp_68_em_kotlin_ai,wp_84_pkr_moskva_ai,wp_68_ssn_november|wp_68_ss_foxtrot|wp_68_ss_romeo
+FormationCruiseSpeed=12
 
 //Enemy Aircraft
-NumberOfHelicopters=3
-HelicopterType=plan_z-9
-NumberOfAircraft=2
-AircraftType=plan_y-8x
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
 
-PlayerVessels=usn_99_ssn_seawolf
-CommanderName=COMSUBPAC
-CommanderFleetName=CINCPACFLT
+PlayerVessels=usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

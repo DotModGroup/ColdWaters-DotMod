@@ -51,6 +51,9 @@ TubeConfig=1,1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533,533
 TubeReloadTime=45
 
+MissileType=usn_tasm
+MissilesPerLauncher=4,4
+
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
@@ -128,53 +131,61 @@ MastHeight=0.085
 MeshMast=usn_ssn_seawolf_radar_mast
 
 [Weapon Systems]
-//Torpedo Mounts
+//Missile Mounts
 
 //Tube 1
-MeshPosition=-0.0828,0.0045,0.56
 MeshRotation=0,340,0
+MeshPosition=-0.0828,0.0045,0.56
+MeshMissileMount=FALSE
+MissileEffectPosition=-0.0828,0.0045,0.56
+
+MeshRotation=0,20,0
+MeshPosition=0.0828,0.0045,0.56
+MeshMissileMount=FALSE
+MissileEffectPosition=0.0828,0.0045,0.56
+
+//Torpedo Mounts
+//Port side
+MeshRotation=0,340,0
+//Tube 1
+MeshPosition=-0.0828,0.0045,0.56
 TorpedoSpawnPosition=-0.0828,0.0045,0.56
 TorpedoEffectPosition=-0.0828,0.0045,0.56
 
 //Tube 2
 MeshPosition=-0.0807,-0.016,0.548
-MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.0807,-0.016,0.548
 TorpedoEffectPosition=-0.0807,-0.016,0.548
 
 //Tube 3
 MeshPosition=-0.0727,-0.039,0.53
-MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.0727,-0.039,0.53
 TorpedoEffectPosition=-0.0727,-0.039,0.53
 
 //Tube 4
 MeshPosition=-0.061,-0.0584,0.523
-MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.061,-0.0584,0.523
 TorpedoEffectPosition=-0.061,-0.0584,0.523
 
+//Starboard side
+MeshRotation=0,20,0
 //Tube 5
 MeshPosition=0.0828,0.0045,0.56
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.0828,0.0045,0.56
 TorpedoEffectPosition=0.0828,0.0045,0.56
 
 //Tube 6
 MeshPosition=0.0807,-0.016,0.548
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.0807,-0.016,0.548
 TorpedoEffectPosition=0.0807,-0.016,0.548
 
 //Tube 7
 MeshPosition=0.0727,-0.039,0.53
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.0727,-0.039,0.53
 TorpedoEffectPosition=0.0727,-0.039,0.53
 
 //Tube 8
 MeshPosition=0.061,-0.0584,0.523
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.061,-0.0584,0.523
 TorpedoEffectPosition=0.061,-0.0584,0.523
 

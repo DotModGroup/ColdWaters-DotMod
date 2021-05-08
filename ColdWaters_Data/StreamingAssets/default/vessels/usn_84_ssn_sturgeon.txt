@@ -12,8 +12,8 @@ HullNumbers=FALSE
 
 [Movement]
 SurfaceSpeed=15
-SubmergedSpeed=26
-TelegraphSpeeds=-5,0,5,10,15,20,26
+SubmergedSpeed=25
+TelegraphSpeeds=-5,0,5,10,15,20,25
 AccelerationRate=0.2
 DecelerationRate=0.1
 RudderTurnRate=1
@@ -30,8 +30,7 @@ TestDepth=1320
 EscapeDepth=600
 
 [Acoustics & Sensors]
-//SelfNoise=130
-SelfNoise=118
+SelfNoise=120
 ActiveSonarReflection=25
 ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
@@ -42,6 +41,9 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.089,0.028,-0.63
 
 [Weapon Systems]
+MissileType=usn_ugm84
+MissilesPerLauncher=3,3
+
 TorpedoTypes=usn_mk48,usn_moss,usn_ugm84,usn_tasm,usn_tlam
 TorpedoNumbers=12,3,8,0,0
 TorpedoTubes=4
@@ -49,6 +51,7 @@ NumberOfWires=2
 TubeConfig=1,1,1,1
 TorpedoTubeSize=533,533,533,533
 TubeReloadTime=45
+
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
@@ -129,24 +132,39 @@ MastHeight=0.085
 MeshMast=usn_ssn_sturgeon_radar_mast
 
 [Weapon Systems]
-//Torpedo Mounts
-MeshPosition=-0.0856,-0.0133,0.37
+//Missile Mounts
+
 MeshRotation=0,340,0
+MeshPosition=-0.0856,-0.0133,0.37
+MeshMissileMount=FALSE
+MissileEffectPosition=-0.0856,-0.0133,0.37
+
+MeshRotation=0,20,0
+MeshPosition=0.0856,-0.0133,0.37
+MeshMissileMount=FALSE
+MissileEffectPosition=0.0856,-0.0133,0.37
+
+//Torpedo Mounts
+//Port side
+MeshRotation=0,340,0
+//Tube 1
+MeshPosition=-0.0856,-0.0133,0.37
 TorpedoSpawnPosition=-0.0856,-0.0133,0.37
 TorpedoEffectPosition=-0.0856,-0.0133,0.37
-
+//Tube 2
 MeshPosition=-0.08341,-0.0221,0.364
-MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.08341,-0.0221,0.364
 TorpedoEffectPosition=-0.08341,-0.0221,0.364
 
-MeshPosition=0.0856,-0.0133,0.37
+//Starboard side
 MeshRotation=0,20,0
+//Tube 3
+MeshPosition=0.0856,-0.0133,0.37
 TorpedoSpawnPosition=0.0856,-0.0133,0.37
 TorpedoEffectPosition=0.0856,-0.0133,0.37
 
+//Tube 4
 MeshPosition=0.08341,-0.0221,0.364
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.08341,-0.0221,0.364
 TorpedoEffectPosition=0.08341,-0.0221,0.364
 

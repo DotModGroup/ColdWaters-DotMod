@@ -42,6 +42,9 @@ RADARSignature=SMALL
 TowedArrayPosition=0.108,0.02,-0.673
 
 [Weapon Systems]
+MissileType=usn_tasm
+MissilesPerLauncher=4,4
+
 TorpedoTypes=usn_mk48,usn_moss,usn_ugm84,usn_tasm,usn_tlam
 TorpedoNumbers=16,2,8,0,0
 TorpedoTubes=4
@@ -127,24 +130,38 @@ MastHeight=0.085
 MeshMast=usn_ssn_narwhal_radar_mast
 
 [Weapon Systems]
-//Torpedo Mounts
-MeshPosition=-0.0856,-0.0111,0.46
+//Missile Mounts
+
 MeshRotation=0,340,0
+MeshPosition=-0.0856,-0.0111,0.46
+MeshMissileMount=FALSE
+MissileEffectPosition=-0.0856,-0.0111,0.46
+
+MeshRotation=0,20,0
+MeshPosition=0.0856,-0.0111,0.46
+MeshMissileMount=FALSE
+MissileEffectPosition=0.0856,-0.0111,0.46
+
+//Torpedo Mounts
+//Port side
+MeshRotation=0,340,0
+//Tube 1
+MeshPosition=-0.0856,-0.0111,0.46
 TorpedoSpawnPosition=-0.0856,-0.0111,0.46
 TorpedoEffectPosition=-0.0856,-0.0111,0.46
-
+//Tube 2
 MeshPosition=-0.08341,-0.0315,0.44
-MeshRotation=0,340,0
 TorpedoSpawnPosition=-0.08341,-0.0315,0.44
 TorpedoEffectPosition=-0.08341,-0.0315,0.44
 
-MeshPosition=0.0856,-0.0111,0.46
+//Starboard side
 MeshRotation=0,20,0
+//Tube 3
+MeshPosition=0.0856,-0.0111,0.46
 TorpedoSpawnPosition=0.0856,-0.0111,0.46
 TorpedoEffectPosition=0.0856,-0.0111,0.46
-
+//Tube 4
 MeshPosition=0.08341,-0.0315,0.44
-MeshRotation=0,20,0
 TorpedoSpawnPosition=0.08341,-0.0315,0.44
 TorpedoEffectPosition=0.08341,-0.0315,0.44
 

@@ -1,10 +1,7 @@
-Image=campaign/images/pact wolfpack 1
-MissionLocation=In the North Atlantic
-Briefing=18 OCT 1984
-Briefing=After successfully breaking out into the North Atlantic your hunt for NATO convoys begins.
+Image=campaign/images/pact wolfpack 3
+MissionLocation=In the Denmark Strait
+Briefing=14 NOV 1984
+Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy transport ships
-Briefing=
-Briefing=Secondary Objective:
 Briefing=Sink enemy escorts

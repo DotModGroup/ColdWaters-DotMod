@@ -61,8 +61,14 @@ TorpedoTubeSize=14
 TubeReloadTime=240
 
 MissileType=usn_rur-5
-AntiShipMissileType=usn_ugm84
 MissilesPerLauncher=16
+
+AntiShipMissileType=usn_ugm84
+AntiShipMissileNumbers=4
+AntiShipMissileReloadTime=30
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.021,0.124,0.494|0.021,0.111,0.497
+AntiShipMissileLaunchPointsRotation=-15,0,0
 
 Anti-MissileGunHitProbability=0.015
 Anti-MissileGunRange=2000
@@ -72,6 +78,15 @@ Anti-MissileGunRestAngle=-90,90
 Anti-MissileGunUsesRADAR=0,1
 Anti-MissileRADARRestAngle=-90,90
 Anti-MissileGunParticle=ships/particles/usn_phalanx_burst
+
+
+AntiAirMissileType=usn_rim-7m
+AntiAirMissilesNumbers=8
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=10
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=-0.01,0.104,-0.33|0.01,0.104,-0.33|-0.017,0.104,-0.33|0.017,0.104,-0.33|-0.01,0.095,-0.33|0.01,0.095,-0.33|-0.017,0.095,-0.33|0.017,0.095,-0.33
+AntiAirMissileLaunchPointsRotation=-20,180,0
 
 ChaffType=wp_chaff
 ChaffProbability=0.12

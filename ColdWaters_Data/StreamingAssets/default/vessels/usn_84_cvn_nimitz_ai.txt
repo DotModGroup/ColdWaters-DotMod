@@ -55,20 +55,35 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 
+AntiAirMissileType=usn_rim-7m
+AntiAirMissilesNumbers=160
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=80
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64
+AntiAirMissileLaunchPointsRotation=-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0
+
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=10
 
 [Model]
-ModelFile=bundles/vessels/usn/usn_84_cvn_nimitz
+AssetBundle=bundles/vessels/usn/usn_cvn_nimitz
+ModelFile=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz.obj
+
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
 MeshHullCollider=usn_84_cvn_nimitz_coll_hull
 MeshSuperstructureCollider=usn_84_cvn_nimitz_coll_ss
 
-Material=bundles/vessels/usn/usn_84_cvn_nimitz_tex/usn_84_cvn_nimitz_mat
-MaterialTextures=bundles/vessels/usn/usn_84_cvn_nimitz_tex/usn_84_cvn_nimitz_tx,bundles/vessels/usn/usn_84_cvn_nimitz_tex/usn_84_cvn_nimitz_spec_light,bundles/vessels/usn/usn_84_cvn_nimitz_tex/usn_84_cvn_nimitz_nm
+Material=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_mat.mat
+
+-MaterialTextures=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_tx.dds,assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_spec.dds,assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_nm.dds
+
+MaterialTextures=vessels/textures/usn_84_cvn_nimitz_tx.png,vessels/textures/usn_84_cvn_nimitz_spec.png,vessels/textures/usn_84_cvn_nimitz_nm.png
+
+
 //Меш "Нимица"
 Mesh=usn_84_cvn_nimitz,usn_84_cvn_nimitz_d
 
@@ -186,7 +201,7 @@ MeshPosition=0.21455,0.22949,-2.34101
 MeshCIWSGun=usn_ff_knox_ciws
 
 
-ModelFile=bundles/vessels/usn/usn_84_cvn_nimitz
+ModelFile=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz.obj
 
 //Wake and Smoke
 MeshPosition=0,0,0
@@ -194,7 +209,7 @@ MeshRotation=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
-CavitationParticle=bundles/vessels/usn/usn_84_cvn_nimitz/usn_84_cvn_nimitz_cavitation
+CavitationParticle=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_cavitation.prefab
 //FunnelSmokeParticle=ships/particles/wp_takr_kiev_smokeemitter
 
 

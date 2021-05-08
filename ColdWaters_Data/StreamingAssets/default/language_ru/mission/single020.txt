@@ -1,7 +1,9 @@
-Image=campaign/images/plan wolfpack 1
-MissionLocation=Южно-Китайское море
-Briefing=2 июля 2000
-Briefing=АПЛ США была замечена в Восточно-Китайском море. После нескольких дней поиска обнаружен неопознанный контакт. Возможно это те, на кого вы охотитесь...
+//Погоня
+Image=campaign/images/pact surface raiders 2
+MissionLocation=Норвежское море
+Briefing=06 мая 1985г
+Briefing=Попытка незаметно пересечь рубеж SOSUS не удалась - поисковая группа обнаружила вас и теперь придётся принимать бой.
+Briefing=<b>Боевая задача:</b>
+Briefing=- Потопить корабли противника
 Briefing=
-Briefing=Боевая задача:
-Briefing=Сразитесь один на один с вражеской АПЛ
+Briefing=

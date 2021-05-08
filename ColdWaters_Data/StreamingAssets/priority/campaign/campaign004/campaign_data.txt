@@ -26,6 +26,7 @@ PlayerPositionOnLeavePort=360,81
 RPGModeEnabled=TRUE
 UsePrestige=TRUE
 PrestigeRepairCostMultiplier=0.5
+Loadout=1984
 
 [Sprites and Toolbar]
 SpritePlayer=campaign/images/sprites/icon_wp_ssn.png

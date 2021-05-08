@@ -59,8 +59,14 @@ TorpedoTubeSize=14
 TubeReloadTime=30
 
 MissileType=usn_ugm84
+MissilesPerLauncher=16
+
 AntiShipMissileType=usn_ugm84
-MissilesPerLauncher=8
+AntiShipMissileNumbers=16
+AntiShipMissileReloadTime=22
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.105,0.54
+AntiShipMissileLaunchPointsRotation=-20,0,0
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
@@ -78,14 +84,14 @@ ChaffProbability=0.12
 NumberChaffLaunched=2
 
 AntiAirMissileType=usn_rim-66
-AntiAirMissilesNumbers=32
+AntiAirMissilesNumbers=24
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=5
 AntiAirMissileLaunchPoints=0,0.105,0.54
 AntiAirMissileLaunchPointsRotation=-20,0,0
 
-NoisemakerName=wp_noisemaker
+NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=30
 NoisemakerReloadTime=20
 

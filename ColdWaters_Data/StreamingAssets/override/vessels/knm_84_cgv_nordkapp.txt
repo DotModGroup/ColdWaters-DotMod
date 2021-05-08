@@ -52,10 +52,14 @@ TorpedoTubeSize=14
 TubeReloadTime=30
 
 MissileType=knm_penguin
-AntiShipMissileType=knm_penguin
-AntiShipMissilePosition=-0.09242,0.17651,-0.12715
-AntiShipMissileRotation=-36.6,-43.6,-13.5
 MissilesPerLauncher=3,3
+
+AntiShipMissileType=knm_penguin
+AntiShipMissileNumbers=6
+AntiShipMissileReloadTime=2
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=-0.09242,0.17651,-0.12715
+AntiShipMissileLaunchPointsRotation=-36.6,-43.6,-13.5
 
 Anti-MissileGunHitProbability=0.001
 Anti-MissileGunRange=4000

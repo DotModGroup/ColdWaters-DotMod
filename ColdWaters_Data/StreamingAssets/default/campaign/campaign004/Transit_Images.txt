@@ -1,3 +1,4 @@
+wp_68_ss_whiskey=Whiskey_01.png,Whiskey_02.png,Whiskey_03.png,Whiskey_04.png
 wp_68_ssgn_charlie1=Charlie1_01.png,Charlie1_02.png,Charlie1_03.png,Charlie1_04.png,Charlie1_05.png
 wp_84_ssn_alfa=alfa_01.png,alfa_02.png,alfa_03.png
 wp_84_ssn_victor2=victor2_01.png

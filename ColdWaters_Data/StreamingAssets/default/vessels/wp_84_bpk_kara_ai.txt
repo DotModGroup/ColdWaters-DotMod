@@ -55,7 +55,6 @@ TorpedoTubeSize=21
 TubeReloadTime=0
 
 MissileType=wp_urk-5
-AntiShipMissileType=wp_urk-5
 MissilesPerLauncher=4,4
 
 RBULaunchers=wp_rbu6000_mortar,wp_rbu1000_mortar,wp_rbu6000_mortar,wp_rbu1000_mortar

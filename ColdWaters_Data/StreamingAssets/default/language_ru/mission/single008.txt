@@ -1,6 +1,6 @@
 //Narvik Caper
 
-Image=campaign/images/pact specops
+Image=campaign/images/nato insertion 3
 MissionLocation=Нарвик, Норвегия
 Briefing=22 APR 1984
 Briefing=Вам поставлена задача высадить команду диверсантов вблизи от захваченного Советами Нарвика.

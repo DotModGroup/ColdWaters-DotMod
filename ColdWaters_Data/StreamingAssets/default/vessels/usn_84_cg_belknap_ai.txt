@@ -55,10 +55,14 @@ TorpedoTubeSize=14
 TubeReloadTime=30
 
 MissileType=usn_rur-5
-AntiShipMissileType=usn_ugm84
-AntiShipMissilePosition=-0.09242,0.17651,-0.12715
-AntiShipMissileRotation=-36.6,-43.6,-13.5
 MissilesPerLauncher=10,10
+
+AntiShipMissileType=usn_ugm84
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=-0.09242,0.17651,-0.12715|0.08333,0.18161,-0.49607|-0.10051,0.17757,-0.11609|0.08552,0.17567,-0.49935|-0.10599,0.18229,-0.12691|0.09387,0.17586,-0.49384|-0.10846,0.17601,-0.12318|0.0915,0.1823,-0.4903
+AntiShipMissileLaunchPointsRotation=-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5
 
 Anti-MissileGunHitProbability=0.015
 Anti-MissileGunRange=4000
@@ -228,6 +232,7 @@ MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 Material=ships/materials/flag_signal_us
 MeshOtherFlags=usn_cg_belknap_signals,HIDE
 
+ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
