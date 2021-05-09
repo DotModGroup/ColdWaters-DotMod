@@ -1,5 +1,6 @@
 
 # Ignore base game files
+*.exe
 *.dll
 *.mdb
 *.xml
@@ -22,3 +23,5 @@ ColdWaters_Data/*
 
 # But don't ignore files
 !ColdWaters_Data/Managed/Assembly-CSharp.dll
+!DotModInstaller.exe
+!JSGME/JSGME.exe
