@@ -59,11 +59,6 @@ def main():
     shutil.copytree(mod, modTarget, dirs_exist_ok=True)
     print('Mod installed.')
 
-    #Delete temporary files
-    #os.remove(f'{installDirectory}\\MODS\\!BACKUP\\temp.txt')
-    #os.remove(f'{installDirectory}\\MODS\\!INSTLOGS\\temp.txt')
-    #os.remove(f'{modTarget}\\temp.txt')
-
     #And we're done!
     print(f'\nThis program is completed. Now, navigate to your Cold Waters directory, at {installDirectory}, and run JSGME.exe.')
     print('Enable DotMod first, and then any addons you want over it.')
