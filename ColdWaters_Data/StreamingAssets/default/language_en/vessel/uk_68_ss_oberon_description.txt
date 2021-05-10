@@ -1,9 +1,9 @@
-﻿[Unit Reference]
+[Unit Reference]
 ShipClass=Oberon
-Description=Oberon Diesel-Electric Submarine
-History=The Oberon class was a ship class of 27 British-designed submarines operated by five different nations. They were designed as a direct follow-on from the Porpoise class: physical dimensions were the same, but stronger materials were used in hull construction, and updated equipment was fitted. The Oberons operated during the height of the Cold War, with duties including surveillance, tracking of other ships and submarines, delivery and retrieval of special forces personnel, and serving as targets for anti-submarine training.
+Description=Oberon Class SSK (Early)
 
-[Player Ship Instances] 
+History=First entering service in 1960, the Oberon-class was designed to be a bigger more and more capable version of it's predocessor, the Porpoise-class. A total of 27 boats where built, and saw service with 5 different countries around the world. A total of eight 21" torpedo tubes where mounted in the original design, 6 forward and 2 non-reloadable tubes aft. These would be used solely to defend the boat against attacking escorts. They where later updated with better sonar and the newer Tigerfish torpedo, at the expense of the 2 aft tubes. The last of the class was finally retired in 2000.
 
-PlayerClassNames=HMS Oberon,HMS Odin,HMS Orpheus,HMS Olympus,HMS Osiris,HMS Onslaught,HMS Otter,HMS Oracle,HMS Ocelot,HMS Otus,HMS Opossum,HMS Opportune,HMS Onyx
-PlayerClassHullNumbers=S09,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21
+[Player Ship Instances]
+PlayerClassNames=HMS Oberon,HMS Ocelot,HMS Odin,HMS Olympus,HMS Onslaught,HMS Onyx,HMS Opportune,HMS Opossum,HMS Oracle,HMS Orpheus,HMS Osiris,HMS Otter,HMS Otus
+PlayerClassHullNumbers=S09, S17, S10, S12, S14, S21, S20, S19, S16, S11, S13, S16, S18

@@ -1,54 +1,57 @@
-Designation=SS
+Designation=SSK
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 
-Length=90
-Beam=8.2|4.7
+Length=91
+Beam=9.1
 HullHeight=0.08
-Displacement=485
-Crew=24
-Range=4200
+Displacement=2410
+Crew=68
+Range=11900
 HullNumbers=FALSE
-401,402,403,404,405
 
 [Movement]
 SurfaceSpeed=12
 SubmergedSpeed=17
-AccelerationRate=0.3
+TelegraphSpeeds=-5,0,5,10,13,15,17
+AccelerationRate=0.35
 DecelerationRate=0.08
-RudderTurnRate=1
-TurnRate=3
+RudderTurnRate=0.5
+TurnRate=2.2
 PivotPointTurning=0.256
-DiveRate=6
-SurfaceRate=6
+DiveRate=5
+SurfaceRate=5
 BallastRate=0.25
-Waterline=0.01
-SubmergedAt=0.05
+Waterline=0.0
+SubmergedAt=0.07
 CavitationParameters=20,-100
-PropRotationSpeed=-190,190
-TestDepth=590
-EscapeDepth=560
+PropRotationSpeed=-450,450,450
+TestDepth=650
+EscapeDepth=400
+PeriscopeDepthInFeet=40
+Diesel=TRUE
 
 [Acoustics & Sensors]
-SelfNoise=115
-ActiveSonarReflection=25
-ActiveSonarModel=dm_an407
-PassiveSonarModel=dm_m1h
+SelfNoise=120
+ActiveSonarReflection=22
+ActiveSonarReflection=20
+ActiveSonarModel=uk_187
+PassiveSonarModel=uk_187
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=dm_calypso
+RADAR=uk_1006
 RADARSignature=SMALL
-TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
-TorpedoTypes=usn_nt37c
-TorpedoNumbers=8
-TorpedoTubes=8
+TorpedoTypes=uk_mk8mod4,uk_mk20s
+TorpedoNumbers=8,14
+TorpedoTubes=6
 NumberOfWires=2
-TubeConfig=1,1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533,533
+TubeConfig=1,1,1,1,1,1
+TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45
-NoisemakerName=wp_noisemaker
+
+NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
