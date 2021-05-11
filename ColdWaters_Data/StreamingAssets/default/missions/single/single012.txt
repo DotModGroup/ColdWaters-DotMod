@@ -24,7 +24,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-1,1-2,2-4,4-6,0-1
 CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,FALSE
-EnemyShipClasses=plan_ddg_sovremenny,plan_ddg_luhu|plan_ddg_luda3|plan_ff_jianghu3,plan_ffg_jiangwei,plan_lst_yukan|plan_lst_yuting|wp_ms_roro|wp_ms_mercur|plan_ap_qiongsha,plan_ssn_han|plan_ssk_song|wp_84_ss_kilo|plan_ss_ming|plan_ss_romeo
+EnemyShipClasses=plan_ddg_sovremenny,wp_bpk_84_udaloy_ai|plan_ddg_luda3|plan_ff_jianghu3,plan_ffg_jiangwei,plan_lst_yukan|plan_lst_yuting|wp_ms_roro|wp_ms_mercur|plan_ap_qiongsha,plan_ssn_han|plan_ssk_song|wp_84_ss_kilo|plan_ss_ming|plan_ss_romeo|wp_84_ssn_akula1
 
 //Enemy Aircraft
 NumberOfHelicopters=3
