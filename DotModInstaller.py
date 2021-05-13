@@ -47,7 +47,7 @@ def main():
         return()
     
     #Install JSGME
-    JSGME = '%s/JSGME' % (user)
+    JSGME = '%s/JSGME' % (installDirectory)
     if os.path.exists(f'{installDirectory}\\JSGME.ini'):
         print('JSGME already installed.')
 
@@ -56,7 +56,7 @@ def main():
         print('JSGME installed. Please read through JSGME Help.txt and JoneSoft.txt.')
 
     #Install the mod to JSGME
-    mod = '%s/ColdWaters_Data' % (user)
+    mod = '%s/ColdWaters_Data' % (os.getcwd())
     modTarget = installDirectory + '\\MODS\\DotMod\\ColdWaters_Data'
     if os.path.exists(f'{installDirectory}\\MODS\DotMod'):
         shutil.rmtree(f'{installDirectory}\\MODS\DotMod', ignore_errors=True)
