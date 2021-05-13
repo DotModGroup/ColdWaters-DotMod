@@ -1,6 +1,6 @@
 NextAction=MAP
 Image=campaign/images/CV_Sink.jpg,campaign/images/CV_Sink2.jpg 
-Photo=campaign/images/photos/Alfa.jpg,campaign/images/photos/Sierra.jpg
+Photo=campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 3
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 

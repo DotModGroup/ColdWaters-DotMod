@@ -1,6 +1,6 @@
 NextAction=MAP
 Image=campaign/images/ShipinPort1.jpg,campaign/images/ShipinPort2.jpg
-Photo=campaign/images/photos/unload6.jpg,campaign/images/photos/unload4.jpg
+Photo=campaign/images/photos/unload6.jpg,campaign/images/photos/unload2.jpg
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

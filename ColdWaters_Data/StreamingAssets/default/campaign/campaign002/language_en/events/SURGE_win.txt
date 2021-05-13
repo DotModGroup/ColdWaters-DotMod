@@ -1,5 +1,5 @@
 NextAction=MAP
-Image=campaign/images/Surge_Win.jpg,campaign/images/Surge_Win1.jpg
+Image=campaign/images/Surge_Win.jpg,campaign/images/Surge_Win3.jpg
 Photo=campaign/images/photos/ARG_Arrive.jpg,campaign/images/photos/ARG_Arrive2.jpg
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
