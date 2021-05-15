@@ -182,7 +182,7 @@ PlayerWeaponReloadTime=0.8,1,1.5,2
 EnemyWeaponReloadTime=1,1,1,1
 
 [Difficulty Settings Campaign]
-StartPointsModifier=1.2,1,0.8,0.6
+StartPointsModifier=1,1,1,1
 WinMissionModifier=1.2,1,0.75,0.5
 FailMissionModifier=1.2,1,0.75,0.5
 TonnageSunkModifier=1.2,1,0.75,0.5
