@@ -1,0 +1,22 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLEGENCE SOURCES INDICATE THAT THE DETERIORATING SOVIET POSITION HAS RESULTED IN A DESPERATE ATTEMPT TO TRANSIT AN OLD YANKEE-CLASS SSBN AT SPEED TO THE US COAST TO GAIN LEVERAGE IN ARMS TALKS. YOU MUST SINK THIS BOAT BEFORE IT CAN POSITION ITSELF ALONG THE US COAST. EXPECT A RELATIVLY MODERN ESCORT.
+
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO AND PATROL AREA **GREEN 011** SOUTH OF ICELAND. LOCATE AND SINK THE ENEMY BALLISTIC MISSILE SUBMARINE.
+
+3.	(S) SECONDARY OBJECTIVE:
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+[MISSION WIN]
+Excellent job on intercepting and destroying this crucial target.  You have significantly degraded the enemy's ability to conduct a surprise strategic nuclear attack.
+[MISSION FAIL]
+Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.  
+[MISSION MISSED]
+Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.  

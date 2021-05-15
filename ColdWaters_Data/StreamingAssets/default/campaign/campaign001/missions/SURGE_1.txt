@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-2
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=wp_84_ssgn_oscar,wp_84_ssn_victor3|wp_84_ssn_alfa
+EnemyShipClasses=wp_84_ssgn_charlie2,wp_84_ssn_victor3|wp_84_ssn_alfa
 EventWin=SURGE_win2
 EventFail=SURGE_fail

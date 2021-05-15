@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,0-2,1-1,1-3
 CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,TRUE,TRUE
-EnemyShipClasses=wp_84_skr_krivak1_ai,wp_68_bpk_kashin_ai,wp_vtr_andizhan_mod,wp_bdk_alligator|wp_bdk_ropucha|wp_vtr_amguema
+EnemyShipClasses=wp_84_skr_krivak1_ai,wp_68_bpk_kashin_ai|wp_68_mpk_poti,wp_vtr_andizhan_mod,wp_bdk_alligator|wp_bdk_ropucha|wp_vtr_amguema
 EventWin=LANDING_FORCE1_win
 EventFail=LANDING_FORCE1_win

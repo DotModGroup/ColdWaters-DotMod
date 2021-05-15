@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=0-1,2-4
 CombatBehaviour=OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE
-EnemyShipClasses=wp_84_pkr_moskva_ai,wp_84_bpk_udaloy_ai|wp_68_bpk_kashin_ai|wp_84_bpk_kresta2_ai|wp_84_skr_krivak1_ai
+EnemyShipClasses=wp_84_pkr_moskva_ai|wp_84_mpk_grisha3,wp_84_bpk_udaloy_ai|wp_68_bpk_kashin_ai|wp_84_bpk_kresta2_ai|wp_84_skr_krivak1_ai

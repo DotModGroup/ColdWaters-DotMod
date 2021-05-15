@@ -223,7 +223,7 @@ CombatCoords=1234,1234
 Alignment=ENEMY
 Function=NAVAL_BASE
 BaseMapPosition=423.9,21.3
-MissionTypes=SSBN_PATROL,SURGE,SS_SURGE,SSN_SURGE
+MissionTypes=SSBN_PATROL,SSBN_RUN,SURGE,SS_SURGE,SSN_SURGE
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
@@ -291,12 +291,12 @@ SOSUSAlignment=FRIENDLY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_WOLFPACK_LG,SS_WOLFPACK_LG,SS_SPECOPS_LG,ASUW_STRIKE_LG,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,SSBN_RUN,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_WOLFPACK_LG,SS_WOLFPACK_LG,SS_SPECOPS_LG,ASUW_STRIKE_LG,RETURN_TO_BASE,SSBN_PATROL
 //Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
-PlayerMissionFrequency=0.0001,0.06,0.065,0.04,0.02,0.04,0.044,0.035,0.001,0.03,0.03,0.175,0.18,0.1299,0.15
+PlayerMissionFrequency=0.0001,0.06,0.065,0.04,0.02,0.04,0.02,0.042,0.035,0.001,0.03,0.03,0.175,0.18,0.1299,0.15
 
-PlayerMissionThreshold=0,0.501,0.501,0.55,0.7,0.55,0.55,0.51,0.65,0.65,0.7,0.8,0.8,0.75,0.8
+PlayerMissionThreshold=0,0.501,0.501,0.55,0.7,0.55,0.7,0.55,0.51,0.65,0.65,0.7,0.8,0.8,0.75,0.8
 
 
 
@@ -319,7 +319,6 @@ Mission=LANDING_FORCE_0
 Mission=LANDING_FORCE_1
 Mission=LANDING_FORCE_2
 Mission=LANDING_FORCE_3
-Mission=LANDING_FORCE_4
 Mission=RESUPPLY_CONVOY_0
 Mission=INSERTION_0
 Mission=INSERTION_1
@@ -338,10 +337,14 @@ Mission=ASUW_STRIKE_4
 Mission=ASUW_STRIKE_5
 Mission=ASUW_STRIKE_6
 Mission=ASUW_STRIKE_7
+Mission=ASUW_STRIKE_8
 Mission=ASUW_STRIKE_LG_0
 Mission=ASUW_STRIKE_LG_1
 Mission=ASUW_STRIKE_LG_2
 Mission=ASUW_STRIKE_LG_3
+Mission=SSBN_RUN_0
+Mission=SSBN_RUN_1
+Mission=SSBN_RUN_2
 Mission=SS_WOLFPACK_0
 Mission=SS_WOLFPACK_1
 Mission=SS_WOLFPACK_2
@@ -380,6 +383,7 @@ Mission=SSBN_PATROL_2
 Mission=SSBN_PATROL_3
 Mission=SSBN_PATROL_4
 Mission=SSBN_PATROL_5
+Mission=SSBN_PATROL_6
 
 [NON-PLAYER MISSIONS]
 Non-PlayerMissionTypes=SSN_SURGE,SS_SURGE,SS_PATROL,SSN_PATROL,ASW_PATROL
@@ -392,11 +396,11 @@ Non-PlayerMission=ASW_PATROL_1
 Non-PlayerMission=ASW_PATROL_2
 Non-PlayerMission=SSN_SURGE_0
 Non-PlayerMission=SSN_SURGE_1
-//Non-PlayerMission=SSN_SURGE_2
-//Non-PlayerMission=SSN_SURGE_3
+Non-PlayerMission=SSN_SURGE_2
+Non-PlayerMission=SSN_SURGE_3
 Non-PlayerMission=SS_SURGE_0
 Non-PlayerMission=SS_SURGE_1
-//Non-PlayerMission=SS_SURGE_2
+Non-PlayerMission=SS_SURGE_2
 
 [EVENTS]
 Event=event_intro_1=START
@@ -425,6 +429,7 @@ Event=event_campaign_win=WIN
 Event=event_campaign_win_2
 Event=event_campaign_draw=DRAW
 Event=event_campaign_draw_2
+Event=event_campaign_fail_ssbn
 Event=event_campaign_fail=FAIL
 Event=event_campaign_fail_2
 Event=event_campaign_fail_3
@@ -473,6 +478,8 @@ Event=SS_WOLFPACK_fail
 Event=SSN_WOLFPACK_fail
 Event=SSN_WOLFPACK_Carrier_fail
 Event=SSBN_fail
+Event=SSBN_RUN_fail
+Event=SSBN_RUN_win
 Event=SHIP_RESUPPLY_fail
 Event=SUB_RESUPPLY_fail
 Event=ASUW_STRIKE_fail

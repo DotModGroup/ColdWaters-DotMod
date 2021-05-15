@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-2,1-2,1-1,0-2
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,FALSE
-EnemyShipClasses=wp_84_bpk_udaloy_ai,wp_84_bpk_kresta2_ai|wp_84_bpk_kara_ai|wp_84_skr_krivak1_ai,wp_68_bpk_kashin_ai|wp_84_em_sovremenny_ai,wp_84_takr_kiev_ai,wp_84_ssn_victor3|wp_84_ssn_victor2
+EnemyShipClasses=wp_84_bpk_udaloy_ai,wp_84_bpk_kresta2_ai|wp_84_bpk_kara_ai|wp_84_skr_krivak1_ai,wp_68_bpk_kashin_ai|wp_84_em_sovremenny_ai,wp_84_takr_kiev_ai,wp_84_ssn_victor3|wp_84_ssn_victor2|wp_84_ssn_alfa
 EventWin=ASUW_STRIKE_win
 EventFail=ASUW_STRIKE_fail

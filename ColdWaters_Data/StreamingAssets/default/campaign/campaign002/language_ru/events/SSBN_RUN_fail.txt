@@ -1,0 +1,14 @@
+NextAction=event_campaign_fail_2
+Image=campaign/images/pact france
+Photo=campaign/images/photos/protests 1,campaign/images/photos/protests 2
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>Soviet Boomer Off East Coast?</b>
+Color=57,61,73,255
+Sentence1=Today the United States Navy held a press briefing revealing that a Soviet nuclear ballistic missile submarine had satationed itself somewhere along the East Coast of the United States. The Soviet Union confirmed this when it made threats to launch unless the US ends the war on its terms.
+Color=218,218,208,255
+Sentence2=Protests in the streets of New York and Washington, D.C. seems to indicate that the US people are not willing to suffer a nuclear strike for this cause. In addition, US Communist Party membership is up 200%. It is likely the war will be over soon.
