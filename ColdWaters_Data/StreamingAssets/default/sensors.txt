@@ -30,6 +30,16 @@
 
 //-------------------------------------------New---------------------------------
 //----------------------------------------Submarine-------------------------------
+//Type 187 - Oberon
+SonarModel=uk_187
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,L
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=35
+SonarBaffle=85
+SonarNoisePerKnot=1
+SonarOutput=220
+
 //«Марс» (пассивный) - No users atm
 SonarModel=wp_mars
 SonarType=PASSIVE
@@ -756,3 +766,9 @@ RADARRange=100000
 
 RADARModel=plan_aps_504
 RADARRange=140000
+
+RADARModel=uk_1002
+RADARRange=50000
+
+RADARModel=uk_1006
+RADARRange=80000
