@@ -18,11 +18,10 @@ def main():
     print('\nThank you for choosing DotMod! This program will help you automatically install/update the mod.')
     print('If you have JSGME installed, disable all mods currently enabled, and make sure the game is closed.')
     #Delete old options to prevent starting bugs
-    if not os.path.exists(f'C:\\Users\\{user}\\AppData\\LocalLow\\Killerfish Games\\Cold Waters\\DMD_options.txt'):
-        delOptions = input('Have you used Epic Mod or any other mod that modifies the game\'s code since you last used DotMod? Y/N: ')
-        if os.path.exists(f'C:\\Users\\{user}\\AppData\\LocalLow\\Killerfish Games\\Cold Waters\\options.txt') and delOptions.lower() == 'y':
-            os.remove(f'C:\\Users\\{user}\\AppData\LocalLow\\Killerfish Games\\Cold Waters\\options.txt')
-            print('Please note that this has reset your options.') 
+    delOptions = input('Have you used Epic Mod or any other mod that modifies the game\'s code since you last used DotMod? Y/N: ')
+    if os.path.exists(f'C:\\Users\\{user}\\AppData\\LocalLow\\Killerfish Games\\Cold Waters\\options.txt') and delOptions.lower() == 'y':
+        os.remove(f'C:\\Users\\{user}\\AppData\LocalLow\\Killerfish Games\\Cold Waters\\options.txt')
+        print('Please note that this has reset your options.') 
 
     #Auto-locate; Simply checks likely locations for the game to be installed to       
     if os.path.exists('C:\Program Files (x86)\Steam\steamapps\common\Cold Waters'):
