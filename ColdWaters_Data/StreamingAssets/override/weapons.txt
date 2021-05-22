@@ -4235,13 +4235,13 @@ MeshPosition=0,0,-0.014
 DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
 [/Model]
 
-//wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
-DepthWeaponObjectReference=wp_depth_bomb_500
-DepthWeaponWarhead=500
-DepthWeaponContactExploded=TRUE
+//Mark 54 Depth Bomb for P-3 and S-3
+DepthWeaponObjectReference=usn_mk-54_depth_bomb
+DepthWeaponWarhead=102
+DepthWeaponContactExploded=FALSE
 DepthWeaponDepthExploded=TRUE
 // based on 100kg = 10m damage (not kill) radius, inverse cube law
-DepthWeaponKillRadius=17
+DepthWeaponKillRadius=10
 DepthWeaponSinkRate=0.2
 [Model]
 ModelFile=weapons/assets/rgb-60

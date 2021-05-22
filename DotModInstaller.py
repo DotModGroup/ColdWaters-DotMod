@@ -41,10 +41,12 @@ def main():
         installDirectory = input('Please input the directory of your Cold Waters install:')
 
     #Make sure everything's correct:
-    if input(f'This will install DotMod to {installDirectory}. \nIs that correct? Y/N:').lower() != 'y':
-        print('Program exited without installing.')
-        return()
-    
+    if input(f'This will install the mod to {installDirectory}. \nIs that correct? Y/N:').lower() != 'y':
+        else:
+            installDirectory = input('Please input the directory of your Cold Waters install:')
+            if installDirectory == 'yourmom.com':
+                print('Stealing is bad, Epic')
+
     #Install JSGME
     JSGME = '%s/JSGME' % (installDirectory)
     if os.path.exists(f'{installDirectory}\\JSGME.ini'):

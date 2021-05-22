@@ -30,16 +30,6 @@
 
 //-------------------------------------------New---------------------------------
 //----------------------------------------Submarine-------------------------------
-//Type 187 - Oberon
-SonarModel=uk_187
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=H,L
-SonarActiveSensitivity=30
-SonarPassiveSensitivity=35
-SonarBaffle=85
-SonarNoisePerKnot=1
-SonarOutput=220
-
 //«Марс» (пассивный) - No users atm
 SonarModel=wp_mars
 SonarType=PASSIVE
@@ -287,7 +277,7 @@ SonarNoisePerKnot=1
 SonarOutput=220
 
 
-// 2. США
+// 2. USA
 //   2а) Активные и Пассивные
 
 SonarModel=usn_an_bqr_2
@@ -441,6 +431,16 @@ SonarOutput=0
 
 // 3. Other nations
 //   3а) UK
+//Type 187 - Oberon
+SonarModel=uk_187
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,L
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=35
+SonarBaffle=85
+SonarNoisePerKnot=1
+SonarOutput=220
+
 //   3б) Germany
 //AN-407 - knm_84_ss_kobben
 SonarModel=dm_an407
@@ -462,9 +462,6 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=0
 
-//   3в) India
-//   3г) Italy
-//   3д) Canada
 //   3е) China
 //    Hull-mounted
 //----------------------------------------Submarine-------------------------------
@@ -638,8 +635,17 @@ SonarOutput=220
 SonarModel=usn_ssq_62
 SonarType=SONOBUOY
 SonarFrequencies=M
-SonarActiveSensitivity=21
+SonarActiveSensitivity=20
 SonarPassiveSensitivity=0
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200
+
+SonarModel=usn_ssq_53
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=25
 SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=200
@@ -667,8 +673,8 @@ SonarOutput=220
 
 
 [RADAR]
-//III. Радары
-//   1. СССР
+//III. RADAR
+//   1. USSR
 //-------------------------------------------New---------------------------------
 //----------------------------------------Submarine-------------------------------
 RADARModel=wp_flag
@@ -725,7 +731,7 @@ RADARRange=140000
 RADARModel=wp_korshun_k
 RADARRange=160000
 
-//   2. США
+//   2. USA
 
 //----------------------------------------Лодочные-------------------------------
 RADARModel=usn_bps_12
@@ -750,8 +756,8 @@ RADARRange=60000
 RADARModel=usn_sps_55
 RADARRange=64000
 //----------------------------------------Авиационные-------------------------------
-RADARModel=usn_ln_66
-RADARRange=100000
+RADARModel=usn_an-aps_115
+RADARRange=173000
 
 //   3. Другие нации
 //----------------------------------------Лодочные-------------------------------
