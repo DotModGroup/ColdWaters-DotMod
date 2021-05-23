@@ -22,13 +22,14 @@ PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
 BallastRate=0.25
-Waterline=0.00
-SubmergedAt=0.116
+Waterline=0.04
+//Depth in feet / 225.39
+SubmergedAt=0.168
 CavitationParameters=20,-100
 PropRotationSpeed=-190
 TestDepth=1800
 EscapeDepth=600
-PeriscopeDepthInFeet=33
+PeriscopeDepthInFeet=48
 
 [Acoustics & Sensors]
 SelfNoise=115
@@ -52,8 +53,8 @@ TowedArrayPosition=-0.0923,0.003,-0.762
 [Weapon Systems]
 -TorpedoTypes=uk_sf,uk_tf,usn_moss,usn_tasm,usn_tlam
 -TorpedoNumbers=10,6,5,4,0
-TorpedoTypes=usn_mk48,usn_mk46,usn_moss,usn_tasm,usn_tlam
-TorpedoNumbers=10,6,5,4,0
+TorpedoTypes=uk_tigerfish,usn_moss,usn_tasm,usn_tlam
+TorpedoNumbers=10,6,5,4
 TorpedoTubes=5
 NumberOfWires=3
 TubeConfig=1,1,1,1,1
@@ -109,7 +110,7 @@ DamageControlPartyY=-28
 
 [Model]
 AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
+ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
 
 //Hull and Deck
 MeshPosition=0,0,0
@@ -118,74 +119,80 @@ MeshRotation=0,0,0
 MeshHullCollider=uk_ssn_trafalgar_coll_hull
 MeshSuperstructureCollider=uk_ssn_trafalgar_coll_ss
 
-Material=assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
-MaterialTextures=assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_tx.dds,assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_spec.dds,assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_nm.dds
+Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
+//MaterialTextures=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_tx.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_spec.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_nm.dds
+//MaterialTextures=vessels/textures/uk_ssn_trafalgar_tx.png,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_spec.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_nm.dds
 Mesh=uk_ssn_trafalgar
 
 //Shroud
 Mesh=uk_ssn_trafalgar_shroud
 
-MeshPosition=0,-0.05907,-0.51676
+MeshPosition=0,0,-0.51676
 MeshRudder=uk_ssn_trafalgar_rudder
-MeshPosition=0,-0.04909,0.48381
+
+MeshPosition=0,0.00002,0.48381
 MeshBowPlanes=uk_ssn_trafalgar_bowplanes
-MeshPosition=0,-0.05891,-0.52315
+
+MeshPosition=0,-0.00924,-0.52288
 MeshSternPlanes=uk_ssn_trafalgar_sternplanes
-MeshPosition=0,-0.05682,-0.58952
+
+MeshPosition=0,-0.00771,-0.58952
 MeshProp=uk_ssn_trafalgar_rotor
 
-MeshPosition=-0.0075,-0.02,0.18977
+//Prop for first Trafalgar 
+//MeshProp=uk_ssn_trafalgar_prop
+
+//Masts
 MastHeight=0.1
+MeshPosition=-0.0075,0.045,0.18977
 MeshMast=uk_ssn_trafalgar_mast_periscope
-
-MeshPosition=0.00728,0.008,0.16839
-MastHeight=0.072
+MastHeight=0.1
+MeshPosition=0.00728,0.04,0.16839
 MeshMast=uk_ssn_trafalgar_mast_esm
-
-MeshPosition=-0.00582,0.015,0.16839
-MastHeight=0.065
+MastHeight=0.1
+MeshPosition=-0.00582,0.04,0.16839
 MeshMast=uk_ssn_trafalgar_mast_radar
 
-[Weapon Systems]
-//Torpedo Mounts
 
+[Weapon Systems]
+
+//MissileMount - Bottom tube
+MeshRotation=14,0,0
+MeshPosition=0,-0.07,0.44
+MeshMissileMount=FALSE
+MissileEffectPosition=0,-0.07,0.44
+
+//Torpedo Mounts
 //Port
 MeshRotation=0,-8,0
 //Tube 1
-MeshPosition=-0.052,-0.065,0.44
-TorpedoSpawnPosition=-0.052,-0.065,0.44
-TorpedoEffectPosition=-0.052,-0.065,0.44
+MeshPosition=-0.043,-0.02323,0.525
+TorpedoSpawnPosition=-0.043,-0.02323,0.525
+TorpedoEffectPosition=-0.043,-0.02323,0.525
 
 //Tube 2
-MeshPosition=-0.045,-0.08,0.44
-TorpedoSpawnPosition=-0.045,-0.08,0.44
-TorpedoEffectPosition=-0.045,-0.08,0.44
+MeshPosition=-0.031,-0.03941,0.51
+TorpedoSpawnPosition=-0.031,-0.03941,0.51
+TorpedoEffectPosition=-0.031,-0.03941,0.51
 
 /Bottom
 //Tube 3 
 MeshRotation=14,0,0
-MeshPosition=0,-0.11,0.44
-TorpedoSpawnPosition=0,-0.11,0.44
-TorpedoEffectPosition=0,-0.11,0.44
+MeshPosition=0,-0.07,0.44
+TorpedoSpawnPosition=0,-0.07,0.44
+TorpedoEffectPosition=0,-0.07,0.44
 
 //Starboard
 MeshRotation=0,8,0
 //Tube 4
-MeshPosition=0.052,-0.065,0.44
-TorpedoSpawnPosition=0.052,-0.065,0.44
-TorpedoEffectPosition=0.052,-0.065,0.44
+MeshPosition=0.043,-0.02323,0.525
+TorpedoSpawnPosition=0.043,-0.02323,0.525
+TorpedoEffectPosition=0.043,-0.02323,0.525
 
 //Tube 5
-MeshPosition=0.045,-0.08,0.44
-TorpedoSpawnPosition=0.045,-0.08,0.44
-TorpedoEffectPosition=0.045,-0.08,0.44
-
-
-MeshRotation=0,8,0
-//MissileMount - Tube 5
-MeshPosition=0.045,-0.08,0.44
-MeshMissileMount=FALSE
-MissileEffectPosition=0.045,-0.08,0.44
+MeshPosition=0.031,-0.03941,0.51
+TorpedoSpawnPosition=0.031,-0.03941,0.51
+TorpedoEffectPosition=0.031,-0.03941,0.51
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -193,6 +200,8 @@ MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
 
+AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
+ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
 //Wake
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
@@ -200,7 +209,7 @@ CavitationParticle=ships/particles/usn_ssn_permit_cavitation
 FunnelSmokeParticle=ships/particles/usn_ssn_permit_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_permit_emergency_blow
 
-CavitationParticlePosition=0,-0.055,0.05
+CavitationParticlePosition=0,-0.00589,0.05
 
 ParticleBowWavePosition=0,0,0.65
 ParticlePropWashPosition=0.2,-0.0545,-0.65

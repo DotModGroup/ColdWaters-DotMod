@@ -1,6 +1,10 @@
+//Player mission
+//Small
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
 ForbiddenFor=
+AllowedOnlyForCostBelow=400
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -8,7 +12,7 @@ EndLocation=WAYPOINT
 EndAlignment=
 Speed=8
 MustUseWaypoints=
-UseAtLeastOneWaypointOf=NC2,N1,N3,N2
+UseAtLeastOneWaypointOf=NC2,NC4
 ProhibitedWaypoints=P1,P2
 PatrolForHours=24,72
 StrategicValue=20
@@ -19,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-2,1-2,0-2
+NumberOfEnemyUnits=1-1,1-1,0-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,TRUE,FALSE
-EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_ff_knox_ai,usn_84_ap_super_p|usn_84_fss_algol,usn_84_cvn_nimitz_ai|usn_84_cg_belknap_pl|usn_84_cvn_nimitz_ai
+EnemyShipClasses=usn_84_ff_knox_ai,usn_84_ap_super_p|usn_68_ap_freighter_a,usn_84_ffg_perry_ai
 EventWin=SHIP_RESUPPLY_win
 EventFail=SHIP_RESUPPLY_fail

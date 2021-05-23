@@ -131,7 +131,7 @@ Mesh=usn_cg_belknap_parts,usn_cg_belknap_parts_d
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=ships/materials/crew_soviet
-Mesh=usn_cg_belknap_crew,HIDE
+//Mesh=usn_cg_belknap_crew,HIDE
 
 Material=ships/materials/usn_parts
 MeshRotation=-5,0,0

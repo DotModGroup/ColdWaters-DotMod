@@ -53,29 +53,36 @@ LabelPosition=215,42
 LabelName=Аннёйа
 LabelPosition=187,8
 LabelName=Нарвик
-LabelPosition=224.5,280.4
+LabelPosition=224.5,310
 LabelName=Шпицберген
+LabelPosition=224.5,280.4
+LabelName=Лонгйир
 LabelPosition=474.3,-83.1
 LabelName=Архангельск
 LabelPosition=420.2,1.7
 LabelName=Гремиха
 LabelPosition=150.8,-213.5
 LabelName=Стокгольм
-LabelPosition=265.7,-201.2
+LabelPosition=149,-100
+LabelName=Эстерсунд
+LabelPosition=265,-190
 LabelName=Хельсинки
+LabelPosition=275,-80
+LabelName=Оулу
+LabelPosition=279,-3
+LabelName=Со́данкюля
 LabelPosition=354,-210.2
 LabelName=Ленинград
-
 LabelPosition=273,62
 LabelName=Алта
-
+LabelPosition=162,-42
+LabelName=Му-и-Рана
 LabelPosition=-620,119
 LabelName=<-  Залив     \nСв. Лаврентия
 LabelPosition=-640,-157
 LabelName=<- Ньюпорт
 LabelPosition=-640,-270
 LabelName=<- Норфолк
-
 LabelPosition=-173,-326
 LabelName=Лондон
 LabelPosition=-216,-315
@@ -84,36 +91,28 @@ LabelPosition=-190,-245
 LabelName=Ливерпуль
 LabelPosition=-88,-348
 LabelName=Амстердам
-
 LabelPosition=20,-310
 LabelName=Копенгаген
-
 LabelPosition=0,-325
 LabelName=Гамбург
 LabelPosition=43,-382
 LabelName=Берлин
-
-
-
+LabelPosition=-29,-370
+LabelName=Бремен
+LabelPosition=-124,-365
+LabelName=Брюссель
 LabelPosition=266,-243
 LabelName=Таллин
-
 LabelPosition=250,-306
 LabelName=Рига
-
 LabelPosition=263,-346
 LabelName=Вильнюс
-
 LabelPosition=188,-356
 LabelName=Калининград
-
-
 LabelPosition=319,-288
 LabelName=Псков
-
-LabelPosition=387,-352
+LabelPosition=387,-372
 LabelName=Смоленск
-
 LabelPosition=471,-245
 LabelName=Рыбинск
 
@@ -335,11 +334,21 @@ LocationMarkerPosition=177.9,38.4
 LocationMarkerPosition=217.8,268.6
 LocationMarkerPosition=458.1,-72.1
 LocationMarkerPosition=424.6,12.3
+//Östersund 63°10′N 14°38′E
+LocationMarkerPosition=149,-111
+
 LocationMarkerPosition=343.5,-218.9
 LocationMarkerPosition=162.7,-225.2
+//Helsinki
 LocationMarkerPosition=265.9,-212.9
+//Oulu
+LocationMarkerPosition=275,-89
+//Sodankylä
+LocationMarkerPosition=279,-15
 //Alta
 LocationMarkerPosition=270,72
+//Mo i Rana 66°19N 14°10E
+LocationMarkerPosition=162,-34
 //Portsmouth
 LocationMarkerPosition=-207,-327
 //Liverpool
@@ -353,6 +362,11 @@ LocationMarkerPosition=61,-302
 LocationMarkerPosition=0,-334
 //Berlin 52°31N 13°23E
 LocationMarkerPosition=39,-375
+//Bremen
+LocationMarkerPosition=-29,-343
+
+//Brussel  50°50′N 4°21′E
+LocationMarkerPosition=-110,-376
 
 
 //Pskov 57°49N 28°20E
@@ -396,11 +410,8 @@ LabelPosition=130,-153.9
 LabelName=ШВЕЦИЯ
 LabelPosition=269.8,-138.3
 LabelName=ФИНЛЯНДИЯ
-LabelPosition=151,-374
+LabelPosition=140,-378
 LabelName=ПОЛЬША
-
-LabelPosition=-50,-369.2
-LabelName=ЗАПАДНАЯ\nГЕРМАНИЯ
 LabelPosition=9,-288
 LabelName=ДАНИЯ
 Size=26
@@ -410,6 +421,9 @@ LabelName=\nСОВЕТСКИЙ СОЮЗ
 Size=10
 LabelPosition=50,-352
 LabelName=ВОСТОЧНАЯ\nГЕРМАНИЯ
+
+LabelPosition=-50,-382
+LabelName=ЗАПАДНАЯ ГЕРМАНИЯ
 
 [OCEANS AND SEAS LABELS]
 Color=43,71,97,255

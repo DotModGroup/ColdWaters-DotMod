@@ -54,8 +54,16 @@ TubeConfig=2,2
 TorpedoTubeSize=21
 TubeReloadTime=0
 
-//MissileType=wp_urpk-3
-//MissilesPerLauncher=4,4
+//MissileType=wp_rpk-6
+MissileType=wp_p-270
+MissilesPerLauncher=2,2
+
+AntiShipMissileType=wp_p-270
+AntiShipMissileNumbers=20
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.079,0.122,0.362|-0.079,0.122,0.362|0.104,0.122,0.362|-0.104,0.122,0.362|0.079,0.145,0.355|-0.079,0.145,0.355|0.104,0.145,0.355|-0.104,0.145,0.355
+AntiShipMissileLaunchPointsRotation=-15,0,0
 
 RBULaunchers=wp_rbu6000_mortar,wp_rbu6000_mortar
 RBUSalvos=6,6
@@ -70,9 +78,18 @@ Anti-MissileGunFiringArcFinish=80,-10,150,-100
 Anti-MissileGunRestAngle=0,180,0,180
 Anti-MissileGunUsesRADAR=0,1,0,1
 Anti-MissileRADARRestAngle=0,0
+
 ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
+
+AntiAirMissileType=wp_m-22
+AntiAirMissilesNumbers=48
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=10
+AntiAirMissileLaunchDepth=5
+AntiAirMissileLaunchPoints=0,0.18,0.532|0,0.14,-0.63
+AntiAirMissileLaunchPointsRotation=-30,0,0|-30,180,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
@@ -173,6 +190,20 @@ MeshPosition=0,0.0233,0.009
 MeshRotation=0,0,0
 MeshNavalGunBarrel=wp_em_sovremenny_AK130_gun
 NavalGunSpawnPosition=0,0,0.12
+
+
+//Missile Mounts
+//Port tubes
+MeshRotation=0,-32,0
+MeshPosition=-0.106,0.083,0.04
+MeshMissileMount=FALSE
+MissileEffectPosition=-0.106,0.083,0.04
+
+//Starboard tubes
+MeshRotation=0,32,0
+MeshPosition=0.106,0.083,0.04
+MeshMissileMount=FALSE
+MissileEffectPosition=0.106,0.083,0.04
 
 //Torpedo Mounts
 MeshRotation=0,0,0

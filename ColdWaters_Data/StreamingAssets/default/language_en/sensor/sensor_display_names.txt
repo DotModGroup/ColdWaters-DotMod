@@ -1,5 +1,5 @@
 [SONAR]
-//I. Ñîíàðû
+//I. Sonar
 // 1. USSR
 //   1a) Hull-mounted
 //   1b) Towed
@@ -7,7 +7,7 @@
 //   2a) Hull-mounted
 //   2b) Towed
 // 3. Other nations
-//   3à) UK
+//   3a) UK
 //   3b) Germany
 //   3c) India
 //   3d) Italy
@@ -18,18 +18,17 @@
 //   3i) Norway
 //II.Sonobuoys and dipping
 //  
-//III. Ðàäàðû
+//III. RADAR
 //   1. USSR
 //   2. USA
 //   3. Other nations
 
 //---------------------------------------------------------------------------------------
 
-//I. Ñîíàðû
+//I. Sonar
 // 1. USSR
 //   1a) Hull-mounted
 //----------------------------------------Submarine-------------------------------
-uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
 wp_mars="Mars-24KIG"=Passive high-frequency set that dates back to WWII. This set was improved over the years, but is hopelessly outdated by now. The Whiskey-class was originally equipped with this set before receiving Trout Cheek during modernization.
 wp_tamir="Tamir-5L"=NATO reporting name: "Perch Gill". This is a very old high-frequency, active-only set that equiped the Whiskey-class diesel subs before their modernization.
 wp_plutoniy="Plutoniy"=NATO reporting name: "Stag Ear". Submarine variant of the active-only "Tamir-11" set. Was installed in Whiskey-class diesel subs as a part of their upgrades.
@@ -93,7 +92,8 @@ usn_sqr_19=SQR-19=The SQR-19 Tactical Array SONAR (TACTAS) is a passive towed ar
 
 
 // 3. Other nations
-//   3à) UK
+//   3a) UK
+uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
 //   3b) Germany
 dm_an407=AN-407=Active-only sonar produced in early 70s. Found on submarines built in post-war Germany.
 dm_m1h=SRS-M1H=Passive-only sonar produced in late 60sthat equips submarines built in post-war Germany.
@@ -149,7 +149,7 @@ usn_aqs_13=AQS-13=Active dipping sonar primarily used by the SH-2F ASW helicopte
 plan_ss_12=SS-12=French medium frequency variable depth sonar imported by China for use on helicopters and small patrol craft.
 
 [RADAR]
-//III. Ðàäàðû
+//III. RADAR
 //   1. USSR
 
 //----------------------------------------Submarine-------------------------------
@@ -194,7 +194,7 @@ usn_sps_55=SPS-55=The AN/SPS-55 is a solid state surface search and navigation r
 
 //----------------------------------------Aircraft-------------------------------
 usn_ln_66=LN-66=Helicopter-mounted surface search set for the SH-2F Seasprite helicopter, optimized for over-the-horizon targeting.
-
+usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily for maritime patrol and anti-submarine warfare (ASW) operations. The system uses two antennas, one in the nose and one in the tail of the P-3C Orion aircraft, to provide 360-degree coverage.
 
 //   3. Other nations
 //----------------------------------------Submarine-------------------------------

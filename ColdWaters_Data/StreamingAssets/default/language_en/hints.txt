@@ -1,0 +1,3 @@
+Approaching from behind a target will make them less likely to detect you on sonar due to self noise!
+Cavitation depends on depth. The deeper you are the faster you can go without cavitation.
+In the campaign map you can move at low speed by right clicking and high speed by left clicking.<br>At slower speeds enemy vessels are less likely to detect you.

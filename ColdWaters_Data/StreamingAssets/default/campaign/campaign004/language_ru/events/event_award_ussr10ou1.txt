@@ -8,5 +8,5 @@ Font=0
 Outline=FALSE
 Color=57,61,73,255
 Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
-Sentence1=<size=14>Командир <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ УШАКОВА<n> I СТЕПЕНИ"</size></b>
+Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ УШАКОВА<n> I СТЕПЕНИ"</size></b>
 Sentence2=<n>За проявленную инициативу и решительность в руководстве боевой операцией, в результате чего был разгромлен численно превосходящий противник и полностью выполнена боевая задача.<n>Своими умелыми и храбрыми действиями командир <PLAYERNAME> показывает непоколебимую преданность Родине и поддерживает лучшие традиции военно-морского флота СССР.

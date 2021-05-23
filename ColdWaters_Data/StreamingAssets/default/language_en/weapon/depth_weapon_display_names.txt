@@ -9,8 +9,8 @@ nw_terne_mortar=Terne ASW=This is a Hedgehog-style launcher that employs rockets
 
 [GUNS]
 usn_mark_42_shell=5"/54 Mark 42 Gun=5"/54 Mark 42
-
 usn_mark_75_shell=3"/62 Mark 75 Gun=3"/62 Mark 75
+usn_mark_45_shell=5"/54 Mark 45 Gun=5"/54 Mark 45
 
 wp_6x3_b-38_shell=152mm/57 Guns=152mm/57 B-38
 
@@ -39,5 +39,7 @@ wp_depth_bomb_120=Depth Bomb PLAB-120=PLAB-120 Medium Aerial Dropped Depth Bomb
 wp_depth_bomb_250=Depth Bomb PLAB-250=PLAB-250 Heavy Aerial Dropped Depth Bomb
 
 wp_depth_bomb_500=Depth Bomb KAB-500=KAB-500PL Zagon Guided Heavy Aerial Dropped Depth Bomb
+
+usn_mk-54_depth_bomb=Mk 54=Mk 54 Light Aerial Dropped Depth Bomb
 
 wp_proximity_mine=Proximity Mine=Proximity Mine

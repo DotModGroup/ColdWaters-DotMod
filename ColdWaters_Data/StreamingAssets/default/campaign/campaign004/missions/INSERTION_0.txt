@@ -1,4 +1,5 @@
 //Player mission
+//Against Airbase
 MissionType=INSERTION
 AllowedOnlyFor=
 ForbiddenFor=

@@ -23,7 +23,7 @@ InvadedBy=SEA,FRIENDLY,ENEMY
 WaypointName=WG1
 WaypointPosition=60,-368
 Alignment=ENEMY
-ConnectedZones=WG2,WG3
+ConnectedZones=WG2,WG3,SU8
 InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Bremen and Hamburg
@@ -33,9 +33,9 @@ Alignment=ENEMY
 ConnectedZones=D1,WG1,WG3
 InvadedBy=LAND,FRIENDLY,ENEMY
 
-//North Rhine-Westphalia
+//Bremen
 WaypointName=WG3
-WaypointPosition=-41.2,-361.5
+WaypointPosition=-33,-355
 Alignment=ENEMY
 ConnectedZones=N1,WG1,WG2,ND1,B1
 InvadedBy=LAND,FRIENDLY,ENEMY
@@ -47,9 +47,9 @@ Alignment=ENEMY
 ConnectedZones=B1,WG3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
-//Brussels, Antwerp and Charleroi
+//Brussels
 WaypointName=B1
-WaypointPosition=-94.9,-368.7
+WaypointPosition=-128,-382
 Alignment=ENEMY
 ConnectedZones=ND1,WG3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
@@ -65,35 +65,35 @@ InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 WaypointName=N1
 WaypointPosition=271.7,45
 Alignment=ENEMY
-ConnectedZones=N2
+ConnectedZones=N2,FI3,SN1
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Andoya
 WaypointName=N2
 WaypointPosition=208,27
 Alignment=ENEMY
-ConnectedZones=N1,N3
+ConnectedZones=N1,N3,FI3,N8
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Narvik
 WaypointName=N3
 WaypointPosition=199,-4
 Alignment=ENEMY
-ConnectedZones=N2,N4
+ConnectedZones=N2,N4,FI3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
-//central Norway
+//central Norway, Mo i Rana
 WaypointName=N4
-WaypointPosition=146.7,-46.9
+WaypointPosition=155,-55
 Alignment=ENEMY
-ConnectedZones=N3,N5
+ConnectedZones=N3,N5,S2
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Trondheim
 WaypointName=N5
 WaypointPosition=102.9,-92.8
 Alignment=ENEMY
-ConnectedZones=N4,N6,N7
+ConnectedZones=N4,N6,N7,S2
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Bergen
@@ -107,28 +107,56 @@ InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 WaypointName=N7
 WaypointPosition=29.8,-187.7
 Alignment=ENEMY
-ConnectedZones=N5,N6
+ConnectedZones=N5,N6,S1
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+
+//Spitzbergen (Svalbard), Longyearbyen
+WaypointName=N8
+WaypointPosition=224,258
+Alignment=ENEMY
+ConnectedZones=N2
+InvadedBy=SEA,FRIENDLY,ENEMY
 
 //Stockholm
 WaypointName=S1
 WaypointPosition=139.22,-226.25
 Alignment=ENEMY
-ConnectedZones=S2
+ConnectedZones=S2,N7
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
-//central Sweden
+//central Sweden, Ostersund
 WaypointName=S2
-WaypointPosition=105.9,-179.8
+WaypointPosition=149,-120
 Alignment=ENEMY
-ConnectedZones=S1,N7
-InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+ConnectedZones=S1,N5,N4
+InvadedBy=LAND,FRIENDLY,ENEMY
+
+//Helsinki
+WaypointName=FI1
+WaypointPosition=265,-201
+Alignment=ENEMY
+ConnectedZones=SU2,FI2
+InvadedBy=LAND,FRIENDLY,ENEMY
+
+//Oulu
+WaypointName=FI2
+WaypointPosition=280,-100
+Alignment=ENEMY
+ConnectedZones=FI1,FI3
+InvadedBy=LAND,FRIENDLY,ENEMY
+
+//Sodankyla
+WaypointName=FI3
+WaypointPosition=279,-25
+Alignment=ENEMY
+ConnectedZones=FI2,N1,N2,N3,SN1
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Gremikha
 WaypointName=SN1
 WaypointPosition=424,-14
 Alignment=FRIENDLY
-ConnectedZones=N1,SN1
+ConnectedZones=N1,SN1,FI3
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Archangelsk
@@ -142,56 +170,56 @@ InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 WaypointName=SU1
 WaypointPosition=474,-355
 Alignment=FRIENDLY
-ConnectedZones=SU2
-InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+ConnectedZones=SU3
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Ленинград
 WaypointName=SU2
 WaypointPosition=354,-230
 Alignment=FRIENDLY
-ConnectedZones=SU1
+ConnectedZones=SU4,SU5,FI1
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Смоленск
 WaypointName=SU3
 WaypointPosition=387,-370
 Alignment=FRIENDLY
-ConnectedZones=SU1
-InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+ConnectedZones=SU1,SU4,SU7
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Псков
 WaypointName=SU4
 WaypointPosition=319,-298
 Alignment=FRIENDLY
-ConnectedZones=WG1
-InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+ConnectedZones=SU5,SU6,SU2
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Таллин
 WaypointName=SU5
 WaypointPosition=266,-253
 Alignment=FRIENDLY
-ConnectedZones=WG1
+ConnectedZones=SU6,SU4,SU2
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Рига
 WaypointName=SU6
 WaypointPosition=250,-316
 Alignment=FRIENDLY
-ConnectedZones=WG1
+ConnectedZones=SU8,SU7,SU4,SU5
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Вильнюс
 WaypointName=SU7
 WaypointPosition=263,-366
 Alignment=FRIENDLY
-ConnectedZones=WG1
-InvadedBy=SEA,LAND,FRIENDLY,ENEMY
+ConnectedZones=SU8,SU6,SU4,SU3
+InvadedBy=LAND,FRIENDLY,ENEMY
 
 //Калининград
 WaypointName=SU8
 WaypointPosition=188,-369
 Alignment=FRIENDLY
-ConnectedZones=WG1
+ConnectedZones=WG1,SU7,SU6
 InvadedBy=SEA,LAND,FRIENDLY,ENEMY
 
 //Portsmouth

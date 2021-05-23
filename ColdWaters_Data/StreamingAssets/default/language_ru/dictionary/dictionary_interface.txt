@@ -129,7 +129,7 @@ Menu=Меню
 Hours=Час.
 
 [BRIEFINGS]
-InTheVicinityOf=Недалеко от
+InTheVicinityOf=Район действия:
 DockedAtPort=В доке <PLAYERPORT>
 StoresStatus=ПОЛНОСТЬЮ УКОМПЛЕКТОВАНО
 StoresStatusNeg=ПЕРЕЗАРЯДКА ДОСТУПНА

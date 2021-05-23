@@ -79,7 +79,7 @@ AntiAirMissileLaunchDepth=5
 AntiAirMissileLaunchPoints=0,0.15,-0.68
 AntiAirMissileLaunchPointsRotation=-25,180,0
 
-NoisemakerName=wp_noisemaker
+NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=30
 NoisemakerReloadTime=20
 

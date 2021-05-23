@@ -74,7 +74,7 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 
-NoisemakerName=wp_noisemaker
+NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 

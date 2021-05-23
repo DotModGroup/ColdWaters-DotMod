@@ -214,10 +214,10 @@ WestWaypoints=A1,A2
 //29-the North Atlantic
 WaypointName=A5
 WaypointPosition=-435.2,-82.5,100
-NorthWaypoints=A2,A4,IG4
+NorthWaypoints=A2,A4,IG4,IG7
 SouthWaypoints=A3,A6,WA2
 EastWaypoints=IG4,IG7,WA2
-WestWaypoints=A2,A3,A6
+WestWaypoints=A2,A3,A6,A1,A4
 
 //30-the North Atlantic
 WaypointName=A6
@@ -279,12 +279,15 @@ WaypointName=NS2
 WaypointPosition=-107.00,-314.45,100
 NorthWaypoints=NS1,NC5
 EastWaypoints=NC5
+WestWaypoints=EC2
+SouthWaypoints=EC2
 
 //39-the Celtic Sea
 WaypointName=CS1
-WaypointPosition=-326.00,-320.90,100
+WaypointPosition=-326.00,-320.90,30
 NorthWaypoints=WA2
 WestWaypoints=A6,WA2
+EastWaypoints=EC1
 
 //40-Western Approaches
 WaypointName=WA1
@@ -309,3 +312,16 @@ NorthWaypoints=N3
 SouthWaypoints=N2,IG5
 EastWaypoints=N1
 WestWaypoints=IG1
+
+//43-English Channel
+WaypointName=EC1
+WaypointPosition=-212,-339,20
+EastWaypoints=EC2
+WestWaypoints=CS1
+
+//44-Strait of Dover(Па-де-Кале)
+WaypointName=EC2
+WaypointPosition=-168,-343,20
+NorthWaypoints=NS2
+EastWaypoints=NS2
+WestWaypoints=EC1

@@ -7,7 +7,7 @@ Length=15.9
 Height=4.72
 Weight=5800
 Crew=4
-RADAR=plan_klc_1
+RADAR=usn_ln_66
 RADARSignature=SMALL
 ActiveSonarModel=usn_aqs_13
 PassiveSonarModel=usn_aqs_13
@@ -67,7 +67,7 @@ Length=19.75
 Height=5.2
 Weight=9900
 Crew=4
-RADAR=plan_klc_1
+RADAR=usn_ln_66
 RADARSignature=SMALL
 ActiveSonarModel=usn_aqs_13
 PassiveSonarModel=usn_aqs_13
@@ -124,7 +124,7 @@ AudioPitch=1
 
 
 / P-3C Orion
-AircraftObjectReference=us_p3c_orion
+AircraftObjectReference=usn_p3c
 AircraftType=FIXED WING
 CruiseSpeed=320
 Length=35.6

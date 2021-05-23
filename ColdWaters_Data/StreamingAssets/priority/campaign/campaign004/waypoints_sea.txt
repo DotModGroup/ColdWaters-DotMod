@@ -214,10 +214,10 @@ WestWaypoints=A1,A2
 //29-the North Atlantic
 WaypointName=A5
 WaypointPosition=-435.2,-82.5,100
-NorthWaypoints=A2,A4,IG4
+NorthWaypoints=A2,A4,IG4,IG7
 SouthWaypoints=A3,A6,WA2
 EastWaypoints=IG4,IG7,WA2
-WestWaypoints=A2,A3,A6
+WestWaypoints=A2,A3,A6,A1,A4
 
 //30-the North Atlantic
 WaypointName=A6

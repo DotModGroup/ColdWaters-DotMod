@@ -1,5 +1,5 @@
 NextAction=CHECK_MISSION
-Image=campaign/images/event_award_background
+Image=campaign/images/awards/event_statistics_background.jpg
 Photo=FALSE
 Header=ACHIEVEMENTS TO DATE
 

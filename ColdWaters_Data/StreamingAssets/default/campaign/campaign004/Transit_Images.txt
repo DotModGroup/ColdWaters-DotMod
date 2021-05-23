@@ -1,4 +1,5 @@
 wp_68_ss_whiskey=Whiskey_01.png,Whiskey_02.png,Whiskey_03.png,Whiskey_04.png
+wp_68_ssn_november=November_01.png,November_02.png,November_03.png
 wp_68_ssgn_charlie1=Charlie1_01.png,Charlie1_02.png,Charlie1_03.png,Charlie1_04.png,Charlie1_05.png
 wp_84_ssn_alfa=alfa_01.png,alfa_02.png,alfa_03.png
 wp_84_ssn_victor2=victor2_01.png
@@ -8,4 +9,8 @@ wp_84_ssgn_oscar=Oscar_01.png,Oscar_02.png,Oscar_03.png,Oscar_04.png,Oscar_05.pn
 usn_68_ssn_skipjack=Skipjack68_01.png,Skipjack68_02.png,Skipjack68_03.png,Skipjack68_04.png,Skipjack68_05.png
 usn_84_ssn_skipjack=Skipjack84_01.png,Skipjack84_02.png,Skipjack84_03.png,Skipjack84_04.png,Skipjack84_05.png
 usn_84_cg_belknap_pl=Belknap_01.png,Belknap_02.png,Belknap_03.png,Belknap_04.png,Belknap_05.png
+wp_84_em_sovremenny_pl=Sovremenny_01.png,Sovremenny_02.png,Sovremenny_03.png,Sovremenny_04.png
+wp_84_bpk_kara_pl=Kara_01.png,Kara_02.png,Kara_03.png,Kara_04.png
+wp_84_takr_kiev_pl=Kiev_01.png,Kiev_02.png,Kiev_03.png,Kiev_04.png,Kiev_05.png,Kiev_06.png
+wp_84_rkr_kirov_pl=Kirov_01.png,Kirov_02.png,Kirov_03.png,Kirov_04.png
 testship=testship_01.png,testship_02.png,testship_03.png

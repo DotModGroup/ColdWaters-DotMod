@@ -66,7 +66,7 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=650,650,533,533,533,533,533
 TubeReloadTime=2
 
-VLSTorpedoTypes=wp_s-300,wp_rpk-6
+VLSTorpedoTypes=wp_p-270,wp_p-70
 wp_3m-54,wp_rpk-2-65
 -VLSTorpedoTypes=wp_strela-2,wp_p-120
 -,usn_tasm
@@ -75,8 +75,14 @@ VLSMaxDepthToFire=600
 VLSMaxSpeedToFire=1000
 
 MissileType=wp_rpk-6
+MissilesPerLauncher=5,5
+
 AntiShipMissileType=wp_p-70
-MissilesPerLauncher=1,1
+AntiShipMissileNumbers=24
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.03,0.05,0.25|-0.03,0.05,0.25|0.03,0.05,0.2|-0.03,0.05,0.2|0.03,0.05,0.15|-0.03,0.05,0.15|0.03,0.05,0.1|-0.03,0.05,0.1
+AntiShipMissileLaunchPointsRotation=-90,0,0
 
 [Defenses]
 Anti-MissileGunHitProbability=0.03
@@ -89,7 +95,7 @@ Anti-MissileRADARRestAngle=0
 PlayerWarningRange=3000
 JammingRange=4000
 
-AntiAirMissileType=wp_s-300
+AntiAirMissileType=wp_m-22
 AntiAirMissilesNumbers=16
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=3

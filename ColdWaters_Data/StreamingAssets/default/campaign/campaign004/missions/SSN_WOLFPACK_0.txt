@@ -1,7 +1,9 @@
 //Player mission
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SURFACE
+ForbiddenFor=SURFACE,SS,SSG,SSB,SSGN
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -23,6 +25,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-3
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_narwhal|usn_84_ssn_los_angeles
+EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

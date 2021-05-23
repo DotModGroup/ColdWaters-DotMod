@@ -1,5 +1,6 @@
 [Unit Reference]
 ShipClass=Sovremenny
+Designation=DDG
 Description=Sovremenny-class Destroyer
 DefensiveWeapons=SA-N-7 SAM
 OffensiveWeapons=RBU-1000 ASW Rockets

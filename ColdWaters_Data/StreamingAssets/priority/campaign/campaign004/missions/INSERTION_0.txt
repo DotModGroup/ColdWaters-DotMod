@@ -1,12 +1,12 @@
 //Player mission
+//Against Airbase
 MissionType=INSERTION
 AllowedOnlyFor=
 ForbiddenFor=
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
-EndLocation=NAVAL_BASE
-//AIRBASE
+EndLocation=AIRBASE
 EndAlignment=ENEMY
 Speed=8
 MustUseWaypoints=

@@ -112,8 +112,7 @@ MeshHullCollider=wp_ss_foxtrot_coll_hull
 MeshSuperstructureCollider=wp_ss_foxtrot_coll_ss
 
 Material=ships/wp_ss_foxtrot/wp_ss_foxtrot_mat
-MaterialTextures=vessels/textures/wp_68_ss_foxtrot_tx.png,vessels/textures/wp_68_ss_foxtrot_spec.png,ships/wp_ss_foxtrot/wp_ss_foxtrot_nm
--MaterialTextures=ships/wp_ss_foxtrot/wp_ss_foxtrot_tx,ships/wp_ss_foxtrot/wp_ss_foxtrot_spec,ships/wp_ss_foxtrot/wp_ss_foxtrot_nm
+MaterialTextures=vessels/textures/wp_68_ss_foxtrot_tx.png,ships/wp_ss_foxtrot/wp_ss_foxtrot_spec,ships/wp_ss_foxtrot/wp_ss_foxtrot_nm
 Mesh=wp_ss_foxtrot
 MeshPosition=0,-0.0391,-0.5882
 MeshRudder=wp_ss_foxtrot_rudder

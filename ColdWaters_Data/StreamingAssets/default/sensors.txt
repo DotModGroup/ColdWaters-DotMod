@@ -4,7 +4,7 @@
 // 1. СССР
 //   1а) Активные и Пассивные
 //   1б) Буксируемые
-// 2. США
+// 2. USA
 //   2а) Активные и Пассивные
 //   2б) Буксируемые
 // 3. Другие нации
@@ -20,7 +20,7 @@
 //  
 //III. Радары
 //   1. СССР
-//   2. США
+// 2. USA
 //   3. Другие нации
 
 
@@ -462,6 +462,9 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=0
 
+//   3в) India
+//   3г) Italy
+//   3д) Canada
 //   3е) China
 //    Hull-mounted
 //----------------------------------------Submarine-------------------------------
@@ -715,6 +718,12 @@ RADARRange=50500
 RADARModel=wp_spin_through
 RADARRange=40500
 
+
+RADARModel=wp_mr-300
+RADARRange=59000
+
+RADARModel=wp_mr-310
+RADARRange=61200
 //----------------------------------------Авиационные-------------------------------
 RADARModel=wp_mushroom
 RADARRange=90000
@@ -756,6 +765,9 @@ RADARRange=60000
 RADARModel=usn_sps_55
 RADARRange=64000
 //----------------------------------------Авиационные-------------------------------
+RADARModel=usn_ln_66
+RADARRange=100000
+
 RADARModel=usn_an-aps_115
 RADARRange=173000
 

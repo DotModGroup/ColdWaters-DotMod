@@ -1,9 +1,9 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTEL REPORTS THAT A WOLFPACK OF ENEMY DIESEL-ELECTRIC ATTACK SUBS WILL SAIL WITHIN THE NEXT 7 DAYS AND ATTEMPT TO TRANSIT THE GIUK AREA. THEY MUST BE SUNK BEFORE THEY GET THE OPPORTUNITY TO CAUSE MAYHEM ALONG THE NORTH ATLANTIC CONVOY ROUTES. INTELLIGENCE BELIEVES THE PACK MAY CONSIST OF ONE OR MORE JULIET CLASS CRUISE MISSILE SUBMARINES AND AN ESCORT OF FOXTROT- OR ROMEO-CLASS ATTACK SUBMARINES.
+INTELLIGENCE REPORTS THAT A GROUP OF ENEMY NUCLEAR ATTACK SUBMARINES with cruise missilies WILL leave <color=#CBCB2B><STARTLOCATION></color> soon. They probably pass <color=#52ABBA><MUSTUSELOCATION0></color> on their way and finally will be deployed somewhere in <color=#E6B621><ENDLOCATION></color>
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINES
+LOCATE AND SINK THE ENEMY SUBMARINES
 
 3.	(S) SECONDARY OBJECTIVE:
 NONE
@@ -14,8 +14,8 @@ NONE
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
 [MISSION WIN]
-Very pleased to see that you dealt with those subs with determination and resolve, Commander! Remember that for every enemy vessel we take out, it means a safer transit for our troops and transports. Good work.
+Excellent job on intercepting and destroying this high priority target.
 [MISSION FAIL]
-Captain, your recent mission has been evaluated as a failure to meet mission goals. This means more lost tonnage for the convoys and the enemy getting one step closer to closing the Atlantic. We'll have to do better than this, Commander. 
+Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
 [MISSION MISSED]
-Sorry to hear mission goals could not be met. You can’t win them all. For next time, try to plan your approach better. Always remember the balance between strengths and weaknesses.  We have the upper hand.
+Disappointed to hear target was not intercepted. Be more aggressive.
