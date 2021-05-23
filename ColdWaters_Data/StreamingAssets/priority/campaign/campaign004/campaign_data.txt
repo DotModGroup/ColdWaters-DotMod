@@ -17,7 +17,8 @@ MapSpeedModifier=2
 PlayerStartTelegraphs=2,3,6
 PlayerStartDepths=50,150,600
 TimePenaltyOnPortEnter=4
-PortImage=campaign/images/pact reinforcements
+//PortImage=campaign/images/pact reinforcements
+PortImage=campaign/images/backgrounds/1984_ussr_sub_port.jpg
 TransitImage=campaign/images/pact wolfpack 2
 TimePenaltyOnSunk=12
 DisruptTime=48,72
@@ -91,8 +92,6 @@ SatelliteName=Soviet Satellite
 SatelliteFaction=FRIENDLY
 SatelliteSpeed=12000
 DetectionRange=2000
-
-Debug=Locations
 
 [Locations]
 //UK
@@ -359,19 +358,24 @@ SOSUSAngle=10
 SOSUSDetectionRange=120
 SOSUSAlignment=ENEMY
 
-Debug=PLAYER MISSIONS
 
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,CARRIER_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,BERGEN_CONVOY,INSERTION,RETURN_TO_BASE,SSBN_PATROL
+
 //Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
-PlayerMissionFrequency=0.05,0.05,0.1,0.05,0.15,0.2,0.2,0.1,0.1,1.0
-PlayerMissionThreshold=0,0,0,0,0,0,0,0,0,0
 
-CommandoLoadTime=120
+
+PlayerMissionTypes=SSN_WOLFPACK	,SS_WOLFPACK	,SS_SPECOPS	,CARRIER_STRIKE	,LANDING_FORCE	,RESUPPLY_CONVOY,SHIP_RESUPPLY	,SUB_RESUPPLY	,BERGEN_CONVOY	,INSERTION,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionFrequency=0.05		,	0.05		,	0.1		,	0.05		,	0.15		,		0.2		,	0.2			,	0.1			,		0.1		,		1.0
+PlayerMissionThreshold=	0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,		0		,		0
+PlayerMissionCount=		0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,		0		,		0
+
+FirstMissionTypes=SS_SPECOPS,CARRIER_STRIKE
 DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
+CommandoLoadTime=120
+
 Mission=BERGEN_CONVOY_0
 Mission=SS_SPECOPS_0
 Mission=LANDING_FORCE_0
@@ -388,7 +392,7 @@ Mission=SSN_WOLFPACK_0
 Mission=RETURN_TO_BASE
 Mission=SSBN_PATROL_0
 
-Debug=NON-PLAYER MISSIONS
+missionSelected
 
 [NON-PLAYER MISSIONS]
 Non-PlayerMissionTypes=AI_PATROL_SS,AI_PATROL_SSN,AI_PATROL_ASW,AI_CONVOY_USA-UK
@@ -409,7 +413,6 @@ Non-PlayerMission=AI_CONVOY_USA-UK_0
 Non-PlayerMission=AI_CONVOY_USA-UK_1
 Non-PlayerMission=AI_CONVOY_USA-UK_2
 Non-PlayerMission=AI_CONVOY_USA-UK_3
-Debug=EVENTS
 [EVENTS]
 Event=event_intro_1=START
 //Event=event_intro_2
@@ -487,4 +490,3 @@ Event=SUB_RESUPPLY_fail
 Event=CARRIER_STRIKE_fail
 Event=CARRIER_fail
 Event=BERGEN_CONVOY_fail
-Debug=END
