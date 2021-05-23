@@ -192,7 +192,7 @@ BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
 LinksToWaypoint=N1
 
-//Soviet
+//Soviet Union
 //Murmansk 10
 Alignment=ENEMY
 Function=NAVAL_BASE,AIRBASE
@@ -226,38 +226,6 @@ BaseMapPosition=423.9,21.3
 MissionTypes=SSBN_PATROL,SSBN_RUN,SURGE,SS_SURGE,SSN_SURGE
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
-
-//Leningrad
-//Alignment=ENEMY
-//Function=NAVAL_BASE,AIRBASE
-//BaseMapPosition=321.9,-216.6
-//AircraftType=wp_tu-142_bear
-//AircraftPrepTime=15
-//AircraftHeadings=240,260
-//AircraftSearchRange=700
-//MissionTypes=SS_PATROL,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY
-//LinksToWaypoint=NC4,NC6,BE1
-//CombatCoords=1234,1234
-
-//Sweden
-//Gotland
-//Alignment=FRIENDLY
-//Function=STRATEGIC_NODE,SOSUS_NODE
-//BaseMapPosition=162.90,-274.80
-//RelatedNodes=Berga,Karlskrona
-
-//Berga
-//Region=Sweden
-//Alignment=FRIENDLY
-//Function=STRATEGIC_NODE,SOSUS_NODE
-//BaseMapPosition=128.30,-268.50
-//RelatedNodes=Gotland,Karlskrona
-
-//Karlskrona
-//Alignment=FRIENDLY
-//Function=STRATEGIC_NODE,SOSUS_NODE
-//BaseMapPosition=109.60,-300.00
-//RelatedNodes=Gotland,Berga
 
 [SOSUS]
 SOSUSName=DENMARKSTRAIT
@@ -295,14 +263,12 @@ PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRI
 //Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
 PlayerMissionFrequency=0.0001,0.06,0.065,0.04,0.02,0.04,0.02,0.042,0.035,0.001,0.03,0.03,0.175,0.18,0.1299,0.15
+PlayerMissionThreshold=0,0,0,0.55,0.7,0.55,0.7,0,0,0.65,0.65,0.7,0.8,0.8,0.75,0.8
+PlayerMissionCount=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-PlayerMissionThreshold=0,0.501,0.501,0.55,0.7,0.55,0.7,0.55,0.51,0.65,0.65,0.7,0.8,0.8,0.75,0.8
-
-
-
+FirstMissionTypes=SURGE
+DefaultMissionTypes=SS_WOLFPACK,SSN_WOLFPACK
 CommandoLoadTime=120
-
-DefaultMissionTypes=SURGE
 
 Mission=SURGE_0
 Mission=SURGE_1
@@ -388,7 +354,7 @@ Mission=SSBN_PATROL_6
 [NON-PLAYER MISSIONS]
 Non-PlayerMissionTypes=SSN_SURGE,SS_SURGE,SS_PATROL,SSN_PATROL,ASW_PATROL
 //Sum of frequencies must equal 1
-Non-PlayerMissionFrequency=0.2,0.2,0.2,0.2,0.2
+Non-PlayerMissionFrequency=0.2,0.2,0.1,0.1,0.4
 Non-PlayerMission=SS_PATROL_0
 Non-PlayerMission=SSN_PATROL_0
 Non-PlayerMission=ASW_PATROL_0
@@ -410,19 +376,12 @@ Event=event_intro_4
 Event=event_intro_5
 Event=event_intro_6
 Event=event_intro_7
-//Event=event_nato_invasion_sea=PLAYER_INVASION_SEA
-//Event=event_nato_invasion_land=PLAYER_INVASION_LAND
-//Event=event_nato_invasion_air=PLAYER_INVASION_AIR
 Event=event_pact_invasion_sea=ENEMY_INVASION_SEA
 Event=event_pact_invasion_land=ENEMY_INVASION_LAND
 Event=event_pact_invasion_air=ENEMY_INVASION_AIR
 Event=event_nato_liberation_sea=PLAYER_LIBERATION_SEA
 Event=event_nato_liberation_land=PLAYER_LIBERATION_LAND
 Event=event_nato_liberation_air=PLAYER_LIBERATION_AIR
-//Event=event_pact_liberation_sea=ENEMY_LIBERATION_SEA
-//Event=event_pact_liberation_land=ENEMY_LIBERATION_LAND
-//Event=event_pact_liberation_air=ENEMY_LIBERATION_AIR
-//Event=event_impasse=IMPASSE
 Event=event_armistice_advantage=ARMISTICE_ADVANTAGE
 Event=event_armistice_disadvantage=ARMISTICE_DISADVANTAGE
 Event=event_campaign_win=WIN
