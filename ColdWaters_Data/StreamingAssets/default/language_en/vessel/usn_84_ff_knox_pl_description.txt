@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Knox
 Description=Knox-class Frigate
-
+Aircraft=1 SH-2F Seasprite
 History=This class was originally laid down as second-generation anti-submarine escorts, pairing the very capable SQS-26 sonar with the DASH drone helicopter. Because of poor reliability, the DASH was later replaced with the SH-2F Seasprite LAMPS helicopter, providing the ship with a long-range ASW capability in addition to its ASROC battery. These ships have been refitted with the TACTASS towed array.
 
 [Player Ship Instances]

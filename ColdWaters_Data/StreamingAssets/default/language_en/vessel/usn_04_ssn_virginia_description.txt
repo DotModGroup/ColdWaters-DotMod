@@ -1,10 +1,8 @@
 [Unit Reference]
 ShipClass=Virginia
 Description=Virginia Class Nuclear Attack Submarine 
-
 History=Also known as the SSN-774 class, the Virginia is a class of nuclear-powered fast attack submarines in service with the United States Navy. Virginia Class submarines are designed for a broad spectrum of open-ocean and littoral (shallow coastal water) missions. They are replacing older Los Angeles Class submarines, many of which have already been decommissioned. The Seawolf Class attack submarine was originally intended to succeed the Los Angeles, but production was cancelled after only three submarines were produced due to budgeting restraints at the end of the Cold War, and the final submarine was manufactured in 1995. Virginia Class submarines will be acquired through 2043, and are expected to remain in service past 2060. Based on recent updates to the designs, some of the Virginia Class submarines are expected to still be in service in 2070.
 
 [Player Ship Instances]
 PlayerClassNames=Virginia, Texas, Hawaii, North Carolina
-
 PlayerClassHullNumbers=SSN-774,SSN-775,SSN-776,SSN-777

@@ -1,6 +1,5 @@
 [Unit Reference]
 ShipClass=Udaloy
 Description=Udaloy-class Large Anti-Submarine Ship
-OffensiveWeapons=SS-N-14 ASW Missiles\nAK100 DP Guns\nASW Torpedoes\nRBU-6000 ASW Rockets\nRBU-1000 ASW Rockets
 Aircraft=2 Ka-27 Helix ASW helicopter
 History=The most recent class of large anti-submarine ship, the Udaloy is optimized for ASW to the extent that it no longer features an area-defense SAM system. Compared to the earlier BPK's, these ships feature the larger Horse Jaw bow sonar and Horse Tail variable-depth sonar also found on the Kirov. This in conjunction with their elaborate command and control facilities and the ability to operate twice the number of helicopters make them formidable opponents.
