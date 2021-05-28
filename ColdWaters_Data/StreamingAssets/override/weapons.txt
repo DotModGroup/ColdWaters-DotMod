@@ -2383,7 +2383,7 @@ TurnRate=20
 MaxPitchAngle=15
 *
 HomeSettings=FALSE
-AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=100,200

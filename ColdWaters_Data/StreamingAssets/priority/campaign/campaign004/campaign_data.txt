@@ -175,7 +175,7 @@ LinksToRegionWaypoint=N5
 //Andoya 7
 //INSERTION_LOCATION_7
 Alignment=ENEMY
-Function=AIRBASE,SOSUS_NODE,BERGEN_CONVOY_TARGET,INSERTION_TARGET
+Function=AIRBASE,SOSUS_NODE,BERGEN_CONVOY_TARGET,INSERTION_TARGET,ANDOYA
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
 AircraftType=usn_p3c
@@ -220,7 +220,7 @@ AircraftTypeInvaded=usn_p3c
 AircraftPrepTime=10
 AircraftHeadings=270,0
 AircraftSearchRange=700
-MissionTypes=RETURN_TO_BASE,INSERTION,LAND_STRIKE
+MissionTypes=RETURN_TO_BASE,INSERTION,SOSUS_BREACH,LAND_STRIKE
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
@@ -367,28 +367,34 @@ SOSUSAlignment=ENEMY
 //Sum of frequencies must equal 1
 
 
-PlayerMissionTypes=SSN_WOLFPACK	,SS_WOLFPACK	,SS_SPECOPS	,CARRIER_STRIKE	,LANDING_FORCE	,RESUPPLY_CONVOY,SHIP_RESUPPLY	,SUB_RESUPPLY	,BERGEN_CONVOY	,INSERTION,RETURN_TO_BASE,SSBN_PATROL
-PlayerMissionFrequency=0.05		,	0.05		,	0.1		,	0.05		,	0.15		,		0.2		,	0.2			,	0.1			,		0.1		,		1.0
-PlayerMissionThreshold=	0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,		0		,		0
-PlayerMissionCount=		0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,		0		,		0
+PlayerMissionTypes=SSN_WOLFPACK	,SS_WOLFPACK	,SS_SPECOPS	,CARRIER_STRIKE	,LANDING_FORCE	,RESUPPLY_CONVOY,SHIP_RESUPPLY	,SUB_RESUPPLY	,INSERTION	,BERGEN_CONVOY	,SOSUS_BREACH,	RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionFrequency=0.05		,	0.05		,	0.1		,	0.05		,	0.15		,		0.2		,	0.2			,	0.05		,	0.05	,		0.09	,	1.0
+PlayerMissionThreshold=	0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,	0		,		0		,	0
+PlayerMissionCount=		0		,	0			,	0		,	0			,	0			,		0		,	0			,	0			,	0		,		0		,	0
 
-FirstMissionTypes=SS_SPECOPS,CARRIER_STRIKE
-DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK
+FirstMissionTypes=BERGEN_CONVOY,SHIP_RESUPPLY,RESUPPLY_CONVOY
+DefaultMissionTypes=SSN_WOLFPACK,SS_WOLFPACK,RESUPPLY_CONVOY
 CommandoLoadTime=120
 
 Mission=BERGEN_CONVOY_0
-Mission=SS_SPECOPS_0
-Mission=LANDING_FORCE_0
-Mission=LANDING_FORCE_1
-Mission=RESUPPLY_CONVOY_0
-Mission=INSERTION_0
-Mission=SUB_RESUPPLY_0
-Mission=SHIP_RESUPPLY_0
 Mission=CARRIER_STRIKE_0
 Mission=CARRIER_STRIKE_1
 Mission=CARRIER_STRIKE_2
+Mission=INSERTION_0
+Mission=LANDING_FORCE_0
+Mission=LANDING_FORCE_1
+Mission=LANDING_FORCE_2
+Mission=LANDING_FORCE_3
+Mission=LANDING_FORCE_4
+Mission=LANDING_FORCE_5
+
+Mission=RESUPPLY_CONVOY_0
+Mission=SHIP_RESUPPLY_0
+Mission=SOSUS_BREACH_0
+Mission=SS_SPECOPS_0
 Mission=SS_WOLFPACK_0
 Mission=SSN_WOLFPACK_0
+Mission=SUB_RESUPPLY_0
 Mission=RETURN_TO_BASE
 Mission=SSBN_PATROL_0
 
@@ -400,6 +406,8 @@ Non-PlayerMissionTypes=AI_PATROL_SS,AI_PATROL_SSN,AI_PATROL_ASW,AI_CONVOY_USA-UK
 Non-PlayerMissionFrequency=0.25,0.25,0.25,1
 
 Non-PlayerMission=AI_PATROL_SS_0
+Non-PlayerMission=AI_PATROL_SS_1
+Non-PlayerMission=AI_PATROL_SS_2
 Non-PlayerMission=AI_PATROL_SSN_0
 Non-PlayerMission=AI_PATROL_SSN_1
 Non-PlayerMission=AI_PATROL_SSN_2
@@ -409,6 +417,10 @@ Non-PlayerMission=AI_PATROL_ASW_0
 Non-PlayerMission=AI_PATROL_ASW_1
 Non-PlayerMission=AI_PATROL_ASW_2
 Non-PlayerMission=AI_PATROL_ASW_3
+Non-PlayerMission=AI_PATROL_ASW_4
+Non-PlayerMission=AI_PATROL_ASW_5
+Non-PlayerMission=AI_PATROL_ASW_6
+Non-PlayerMission=AI_PATROL_ASW_7
 Non-PlayerMission=AI_CONVOY_USA-UK_0
 Non-PlayerMission=AI_CONVOY_USA-UK_1
 Non-PlayerMission=AI_CONVOY_USA-UK_2
@@ -469,7 +481,8 @@ Event=event_award_ussr16oRVS2
 Event=event_award_ussr17oRVS1
 Event=event_award_ussr18mo
 Event=SS_SPECOPS_win
-Event=LANDING_FORCE_win
+Event=LANDING_FORCE_occ_win
+Event=LANDING_FORCE_own_win
 Event=RESUPPLY_CONVOY_win
 Event=INSERTION_win
 Event=SS_WOLFPACK_win

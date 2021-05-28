@@ -1,4 +1,5 @@
 //AI mission
+//Norvegian Coast patrol
 MissionType=AI_PATROL_SS
 AllowedOnlyFor=
 ForbiddenFor=CL

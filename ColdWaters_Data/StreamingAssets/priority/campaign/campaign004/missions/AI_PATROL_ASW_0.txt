@@ -1,13 +1,9 @@
 //AI mission
-//Small
+//Small GIUK patrol SS
 MissionType=AI_PATROL_ASW
-AllowedOnlyFor=SS
+AllowedOnlyFor=SS,SSG,SSB
 ForbiddenFor=
 AllowedOnlyForCostBelow=200
-AllowedOnlyForCostHigherThan=
-AllowedOnlyFor=
-ForbiddenFor=
-AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=18,48
 StartLocation=UK_SEAPORT
@@ -16,9 +12,9 @@ EndLocation=WAYPOINT
 EndAlignment=
 Speed=12
 MustUseWaypoints=CS1,WA2,IG7,IG4,IG3,IG2,IG1,NC4,NS1
-UseAtLeastOneWaypointOf=A5,N1
+UseAtLeastOneWaypointOf=
 ProhibitedWaypoints=P1,P2
-PatrolForHours=72,156
+PatrolForHours=4,12
 StrategicValue=0
 MissionEndsWhen=RETURN_HOME
 MapBehaviour=OFFENSIVE
@@ -30,5 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
---EnemyShipClasses=usn_84_cvn_nimitz_ai|usn_84_cvn_nimitz_ai
 EnemyShipClasses=usn_84_ffg_perry_ai|usn_84_ff_knox_ai

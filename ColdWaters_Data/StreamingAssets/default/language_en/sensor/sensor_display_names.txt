@@ -169,6 +169,10 @@ wp_snoop_pair=Snoop Pair=Mast-mounted surface search radar allows submarines to 
 wp_don_kay=Don Kay= Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.
 wp_spin_through=Spin Trough=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.
 
+wp_angara_a=MR-310 Angara-A=NATO reporting name: Head Net C. Soviet air and surface search and fire control radar developed in late 60s.
+wp_fregat=Fregat=Cемейство советских и российских трёхкоординатных РЛС корабельного базирования с облегчённым нестабилизированным антенным постом и системой электронной стабилизации лучей. Первые РЛС этого семейства вступили в строй во второй половине 70-х годов.
+wp_mr-800=МР-800 «Флаг»=По классификации НАТО: Top Pair. Cоветский комплекс дальнего радиолокационного обзора,предназначен для обнаружения воздушных и надводных целей. Комлекс состоит из двух радиолокационных станций, антенны которых расположены в антенном посту тыльными сторонами друг к другу[1]:
+
 //----------------------------------------Aircraft-------------------------------
 wp_mushroom=Short Horn=Helicopter-mounted surface search set for Ka-25BSh, optimized for ASW.
 wp_octopus=Splash Drop=Helicopter-mounted surface search set for Ka-27PL, optimized for ASW.

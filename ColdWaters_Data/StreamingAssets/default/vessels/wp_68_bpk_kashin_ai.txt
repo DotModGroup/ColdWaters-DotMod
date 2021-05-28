@@ -33,7 +33,7 @@ ActiveSonarModel=wp_wolf_paw
 PassiveSonarModel=wp_wolf_paw
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=wp_angara_a
 RADARSignature=MEDIUM
 
 [Weapon Systems]

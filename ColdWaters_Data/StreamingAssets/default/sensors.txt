@@ -722,8 +722,14 @@ RADARRange=40500
 RADARModel=wp_mr-300
 RADARRange=59000
 
-RADARModel=wp_mr-310
+RADARModel=wp_angara_a
 RADARRange=61200
+
+RADARModel=wp_fregat
+RADARRange=64000
+
+RADARModel=wp_mr-800
+RADARRange=65000
 //----------------------------------------Авиационные-------------------------------
 RADARModel=wp_mushroom
 RADARRange=90000

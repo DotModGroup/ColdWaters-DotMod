@@ -1,0 +1,29 @@
+//AI mission
+//UK patrol
+MissionType=AI_PATROL_SSN
+AllowedOnlyFor=
+ForbiddenFor=CL
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
+HoursToStart=24,48
+StartLocation=UK_SEAPORT
+StartAlignment=ENEMY
+EndLocation=WAYPOINT
+EndAlignment=
+Speed=10
+MustUseWaypoints=EC1,CS1,WA2,WA1,IG6,NC4,NS1,NS2
+UseAtLeastOneWaypointOf=
+ProhibitedWaypoints=
+PatrolForHours=4,6
+StrategicValue=5
+MissionEndsWhen=RETURN_HOME
+MapBehaviour=OFFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-2
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=FALSE
+EnemyShipClasses=uk_84_ssn_trafalgar

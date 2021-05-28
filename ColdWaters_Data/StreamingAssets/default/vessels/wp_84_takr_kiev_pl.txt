@@ -37,7 +37,7 @@ ActiveSonarModel=wp_moose_jaw
 PassiveSonarModel=wp_moose_jaw
 TowedArrayModel=wp_mare_tail
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=wp_fregat
 RADARSignature=MEDIUM
 TowedArrayPosition=0,-0.005,-1.8
 

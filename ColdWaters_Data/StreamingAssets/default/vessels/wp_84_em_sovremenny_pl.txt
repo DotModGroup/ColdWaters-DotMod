@@ -37,7 +37,7 @@ ActiveSonarModel=wp_bull_horn
 PassiveSonarModel=wp_bull_horn
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=wp_fregat
 RADARSignature=MEDIUM
 
 [Weapon Systems]

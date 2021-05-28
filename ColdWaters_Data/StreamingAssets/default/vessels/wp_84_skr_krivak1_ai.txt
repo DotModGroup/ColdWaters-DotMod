@@ -34,7 +34,7 @@ ActiveSonarModel=wp_bull_nose
 PassiveSonarModel=wp_bull_nose
 TowedArrayModel=wp_mare_tail
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=wp_angara_a
 RADARSignature=MEDIUM
 
 [Weapon Systems]

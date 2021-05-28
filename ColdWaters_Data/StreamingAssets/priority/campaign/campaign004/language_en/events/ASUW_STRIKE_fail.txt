@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/68 pact surface raiders 1,campaign/images/pact naval 1
+Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/naval pact 1,campaign/images/photos/naval pact 2,campaign/images/photos/naval pact 3,campaign/images/photos/naval pact 4,campaign/images/photos/naval pact 5,campaign/images/photos/naval pact carrier 1,campaign/images/photos/naval pact carrier 2
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>СОКРУШИТЕЛЬНЫЙ УДАР</b>|<b>ВРАГ АТАКУЕТ</b>|<b>КОНВОЙ В АД</b>|<b>РАЗГРОМ КОНВОЯ</b>
+Color=57,61,73,255
+Sentence1=Советская ударная группа действующая в Атлантике нанесла ракетный удар по конвою идущему из США. Количество потопленных судов ещё уточняется, но уже известно что потери очень высоки. Представитель НАТО признал что эта группа предсавляет угрозу судоходству в Северной Атлантике и все попытки перехватить её потерпели неудачу.
+Color=218,218,208,255
+Sentence2=Непрерывное снабжение через Атлантику жизненно важно для ведения войны в Западной Европе. Потеря кораблей и грузов серьёзно снижает способность войск НАТО сдерживать противника.

@@ -238,7 +238,8 @@ ModelFile=ships/wp_ssg_juliet/wp_ssg_juliet
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=ships/particles/wp_ssg_juliet_cavitation
+CavitationParticle=ships/particles/wp_ss_romeo_cavitation
+CavitationParticlePosition=0,-0.01,-0.1
 FunnelSmokeParticle=ships/particles/wp_ssg_juliet_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssg_juliet_emergency_blow
 

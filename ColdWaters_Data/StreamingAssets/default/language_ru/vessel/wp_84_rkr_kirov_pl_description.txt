@@ -7,5 +7,5 @@ History=Тяжёлые атомные ракетные крейсера прое
 
 [Player Ship Instances]
 
-PlayerClassNames=«Киров»,«Фрунзе»,«Калинин»
-PlayerClassHullNumbers=,,
+PlayerClassNames=«Киров»
+PlayerClassHullNumbers=
