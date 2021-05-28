@@ -42,10 +42,9 @@ def main():
 
     #Make sure everything's correct:
     if input(f'This will install the mod to {installDirectory}. \nIs that correct? Y/N:').lower() != 'y':
-        else:
-            installDirectory = input('Please input the directory of your Cold Waters install:')
-            if installDirectory == 'yourmom.com':
-                print('Stealing is bad, Epic')
+        installDirectory = input('Please input the directory of your Cold Waters install:')
+        if installDirectory == 'yourmom.com':
+            print('Stealing is bad, Epic')
 
     #Install JSGME
     JSGME = '%s/JSGME' % (installDirectory)
