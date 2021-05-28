@@ -257,6 +257,10 @@ PlayerMissionFrequency=0.0001,0.06,0.065,0.04,0.02,0.04,0.02,0.042,0.035,0.001,0
 PlayerMissionThreshold=0,0,0,0.55,0.7,0.55,0.7,0,0,0.65,0.65,0.7,0.8,0.8,0.75,0.8
 PlayerMissionCount=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
+FirstMissionTypes=SURGE
+DefaultMissionTypes=SS_WOLFPACK,SSN_WOLFPACK
+CommandoLoadTime=120
+
 Mission=SURGE_0
 Mission=SURGE_1
 Mission=SURGE_2
@@ -272,7 +276,6 @@ Mission=LANDING_FORCE_0
 Mission=LANDING_FORCE_1
 Mission=LANDING_FORCE_2
 Mission=LANDING_FORCE_3
-Mission=LANDING_FORCE_4
 Mission=RESUPPLY_CONVOY_0
 Mission=INSERTION_0
 Mission=INSERTION_1
@@ -288,6 +291,7 @@ Mission=ASUW_STRIKE_4
 Mission=ASUW_STRIKE_5
 Mission=ASUW_STRIKE_6
 Mission=ASUW_STRIKE_7
+Mission=ASUW_STRIKE_8
 Mission=ASUW_STRIKE_LG_0
 Mission=ASUW_STRIKE_LG_1
 Mission=ASUW_STRIKE_LG_2
