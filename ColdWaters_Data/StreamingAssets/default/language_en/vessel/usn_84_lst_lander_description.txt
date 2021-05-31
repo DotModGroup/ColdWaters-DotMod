@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Lander
+Description=Lander ship
+History=Standard landing ship.

@@ -98,6 +98,8 @@ usn_84_ap_super_p
 usn_84_ap_roro
 usn_84_ap_act_1
 usn_84_fss_algol
+usn_84_lst_lander
+usn_84_aor_oiler
 wp_bdk_ropucha
 wp_bdk_alligator
 wp_pb_don

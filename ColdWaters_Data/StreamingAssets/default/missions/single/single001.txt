@@ -14,7 +14,7 @@ VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_all
 Date=15 JUN 1984
 Hemisphere=North
 Time=1200
-UsePresetEnvironment=TRUE
+UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=Calm
 DuctStrength=ZeroStrength
@@ -23,8 +23,8 @@ LayerStrength=ZeroStrength
 //Enemy Ships
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
-EnemyShipClasses=usn_84_cg_ticonderoga_ai
-//,civ_ms_encounter|civ_ms_act_1|civ_ms_sl7|civ_ms_freighter_a|civ_ms_freighter_b|civ_ms_super_p|civ_ms_small_freighter,usn_84_cg_belknap_ai,plan_ptg_huangfeng
+EnemyShipClasses=usn_84_ap_super_p
+//usn_84_cg_ticonderoga_ai,usn_84_ap_super_p,civ_ms_encounter|civ_ms_act_1|civ_ms_sl7|civ_ms_freighter_a|civ_ms_freighter_b|civ_ms_super_p|civ_ms_small_freighter,usn_84_cg_belknap_ai,plan_ptg_huangfeng
 //plan_lst_yukan,usn_99_ssn_los_angeles_flt2,wp_84_bpk_udaloy_ai
 //wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3|wp_84_ssn_victor2|wp_68_ssn_victor1|wp_68_ssn_november
 FormationCruiseSpeed=12

@@ -4,7 +4,7 @@ MissionType=CARRIER_STRIKE
 AllowedOnlyFor=
 ForbiddenFor=
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=400
+AllowedOnlyForCostHigherThan=600
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -26,7 +26,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,2-3,3-5,0-1
 CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE,FALSE,FALSE
-EnemyShipClasses=usn_84_cvn_nimitz_ai,usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_narwhal
-usn_84_ssn_los_angeles
+EnemyShipClasses=usn_84_cvn_nimitz_ai,usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
 EventWin=CARRIER_STRIKE_win
 EventFail=CARRIER_STRIKE_fail

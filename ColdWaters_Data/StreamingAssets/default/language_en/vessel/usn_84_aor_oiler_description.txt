@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Oiler
+Description=Fleet oiler
+History=Fleet oiler designed to resupply ships in open sea.
