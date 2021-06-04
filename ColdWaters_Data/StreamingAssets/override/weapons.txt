@@ -2383,7 +2383,7 @@ TurnRate=20
 MaxPitchAngle=15
 *
 HomeSettings=FALSE
-AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=100,200
@@ -2573,10 +2573,8 @@ Warhead=225
 SensorRange=2500
 SensorAngles=30,15
 *
-WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
-WireBreakOnRunProbability=0.05
-WireBreakSpeedThreshold=12
+//=Not wire guided, based on the Mark 37 Mod 3, not the Mod 0, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.
+WireGuided=FALSE
 *
 //=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
 MaxLaunchDepth=1400
