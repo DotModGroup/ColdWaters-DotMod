@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=R27
+WeaponDescriptiveName=R27 SLBM
+WeaponDescription=The R-27 Zyb (NATO: SS-N-6 Serb), was one of the first Soviet SLBM's capable of being launched while completely submerged. The first and only installations where on the Yankee I-class SSBN starting in 1968, and it was finally withdrawn by 1988, with the SALT treaties.
