@@ -26,7 +26,7 @@ BallastRate=5.25
 Waterline=0.02
 SubmergedAt=0.132
 CavitationParameters=20,-100
-PropRotationSpeed=190,-190
+PropRotationSpeed=19,-19
 TestDepth=100000
 EscapeDepth=1050
 PeriscopeDepthInFeet=41
@@ -66,8 +66,7 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=650,650,533,533,533,533,533
 TubeReloadTime=2
 
-VLSTorpedoTypes=wp_p-270,wp_p-70
-wp_3m-54,wp_rpk-2-65
+VLSTorpedoTypes=wp_3m-54,wp_rpk-2-65
 -VLSTorpedoTypes=wp_strela-2,wp_p-120
 -,usn_tasm
 VLSTorpedoNumbers=40,40

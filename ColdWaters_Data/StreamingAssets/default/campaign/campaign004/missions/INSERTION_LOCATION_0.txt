@@ -1,0 +1,30 @@
+//Holy Loch 0
+//This location is nescessary since game have a bad habit using 0 sometimes...
+UseTerrain=TRUE
+MapCoordinates=1903,773
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Enemy Ships
+NumberOfEnemyUnits=2-2,5-8
+CombatBehaviour=DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE
+EnemyShipClasses=knm_84_ss_kobben|uk_68_ss_oberon|uk_84_ssn_trafalgar|usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles,usn_84_ddg_adams_ai|usn_84_ff_knox_ai|usn_84_ffg_perry_ai|usn_84_cg_belknap_ai|usn_84_cg_ticonderoga_ai|usn_84_dd_spruance_ai
+FormationCruiseSpeed=8
+
+
+MissionPosition=600,-40
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=usn_sh60b
+NumberOfAircraft=1
+AircraftType=usn_p3c
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-380,320,80
+AircraftSearchArea=-560,720,300
+

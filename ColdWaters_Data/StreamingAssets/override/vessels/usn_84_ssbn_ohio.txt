@@ -50,7 +50,7 @@ TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
 TubeReloadTime=45
 
-VLSTorpedoTypes=usn_tlam
+VLSTorpedoTypes=usn_trident_1
 VLSTorpedoNumbers=24
 VLSMaxDepthToFire=105
 VLSMaxSpeedToFire=10

@@ -60,7 +60,7 @@ SubmarineOnly=TRUE
 
 //09-North Cape
 WaypointName=NC1
-WaypointPosition=265.10,107.60,60
+WaypointPosition=265.10,107.60,50
 NorthWaypoints=B1,N1
 SouthWaypoints=NC2,SC4
 EastWaypoints=SC4,B1

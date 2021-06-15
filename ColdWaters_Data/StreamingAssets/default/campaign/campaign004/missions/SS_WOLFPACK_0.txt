@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack
+EnemyShipClasses=uk_68_ss_oberon|knm_84_ss_kobben
 EventWin=SS_WOLFPACK_win
 EventFail=SS_WOLFPACK_fail

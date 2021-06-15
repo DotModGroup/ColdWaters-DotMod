@@ -36,8 +36,12 @@ PrestigeChangeSub=Change vessel
 PrestigeTransferCost=File transfer request? \n(- <PRESTIGECOST> prestige)
 //PrestigeTransferCost=Fill transfer report? \n(- <PRESTIGECOST> prestige)
 PrestigeTransferNotEnough=Not enough prestige.
-PrestigeTransferFlavor=I, <PLAYERNAME>, request to be relinquished of command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and transferred to another vessel.
+PrestigeTransferFlavor=\n<b>TRANSFER REQUEST</b>\n\nI, <PLAYERNAME>, request to be relinquished of command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and transferred to another vessel.\n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 //\n<b>TRANSFER REQUEST</b>\n\nI relinquish command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and request transfer to another vessel.\n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
+
+PrestigeChangeMission=Request Retasking
+PrestigeChangeMissionCost=Fill report? \n(- <MISSIONCOST> prestige)
+PrestigeChangeMissionFlavor=\n<b>REQUEST</b>\n\n\nDue to current circumstances <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> will not be operationally effective on the assigned tasking. Request another unit is assigned and <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> is retasked.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 ReferenceActiveRange=Active Range
 ReferenceTorpedoMaxDepth=Max. Depth
@@ -84,6 +88,22 @@ DepthDeep=Deep
 DepthVeryDeep=Very Deep
 
 ------------------------------ [DotMod options] ------------------------------
+Language=Language
+MetricSystem=Metric system
+Revert=Revert
+
+
+
+ModSettings=Mod Settings
+OverrideFog=Override fog density
+
+UninstallText=The mod's folder will be deleted, the original game code will be restored from a backup, and options.txt will be deleted and re-created to avoid a crash. This will remove your settings.\n\nWould you like to continue?
+
+UninstallDotMod=UninstallDotMod
+Cancel=Cancel
+
+
+
 DynamicDepthDarkening=Dynamic depth darkening
 DynamicDepthDarkeningDesc=Dynamic depth darkening. Reduction of water visibility with depth
 CombatDistanceIncreace=Combat spawn distance increaced by 

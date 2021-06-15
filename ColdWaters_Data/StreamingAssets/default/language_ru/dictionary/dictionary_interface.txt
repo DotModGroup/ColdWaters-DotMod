@@ -38,6 +38,10 @@ PrestigeTransferCost=Подать рапорт о переводе? \n(- <PRESTI
 PrestigeTransferNotEnough=Недостаточно престижа.
 PrestigeTransferFlavor=\n<b>РАПОРТ</b>\n\n\n\nПрошу освободить меня от занимаемой должности командира <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> \n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
+PrestigeChangeMission=Отказаться от миссии
+PrestigeChangeMissionCost=Подать рапорт? \n(- <MISSIONCOST> престижа)
+PrestigeChangeMissionFlavor=\n<b>РАПОРТ</b>\n\n\nВвиду состояния своего корабля и экипажа, а также объективных причин, выполнение текущей задачи для <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> считаю невозможным. Прошу поставить перед <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> другую задачу.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
+
 ReferenceActiveRange=Акт. режим:
 ReferenceTorpedoMaxDepth=Макс. глубина
 ReferenceWireGuided=Телеуправление: Есть
@@ -82,6 +86,27 @@ DepthDeep=Глубоко
 DepthVeryDeep=Очень глубоко
 
 ------------------------------ [DotMod options] ------------------------------
+Language=Язык текста
+MetricSystem=Метрическая система
+Revert=Сброс
+
+CrewVoiceLanguage=Язык озвучки экипажа
+
+DebugLevel=Запись в лог:
+DevMode=Режим разработчика
+ModSettings=DotMod
+OverrideBackground=Замена фона (для скриншотов)
+OverrideFog=Изменение плотности тумана
+LogCampaign=Лог кампании
+LogCombat=Лог боя
+ExtendedCombatLog=Расширенный лог боя
+UninstallText=Вы действительно хотите удалить ДотМод?\nНажатие на кнопку "удалить" приведёт к удалению папки с модом, восстановлению оригинального кода игры и удалению файла options.txt. Настройки игры будут сброшены и вы потеряете все изменения в папке с модом.
+
+ForceReload=Принудительное обновление текста
+UninstallDotMod=Удалить ДотМод
+Cancel=Отмена
+
+
 DynamicDepthDarkening=Динамическое затемнение с глубиной
 DynamicDepthDarkeningDesc=Динамическое затемнение с глубиной. В зависимости от глубины прозрачность воды снижается.
 CombatDistanceIncreace=Увеличение дистанции боя на 
@@ -113,6 +138,7 @@ Place NavMarkerALT=Установить нав. маркер 2
 Delete All NavMarkers=Стереть все маркеры
 Fire SAM=Пуск ЗУР
 ==============================================================
+
 [GENERAL]
 Back=Назад
 Start=Старт
@@ -142,7 +168,7 @@ LeaveCombatWeapons=ВООРУЖЕНИЕ В ЗОНЕ ДЕЙСТВИЯ
 LeaveCombatAircraft=АВИАЦИЯ В ЗОНЕ ДЕЙСТВИЯ
 LeaveCombatFlooding=ЗАТОПЛЕНИЯ ОТСЕКОВ
 LeaveCombatInsertion=ДОСТАВКА СПЕЦНАЗА: <MISSIONSTATUS> ВЫПОЛНЕНО
-LeaveCombatLandStrike=<LANDSTRIKESTATUS>, ЗАДАНИЕ <MISSIONSTATUS> ВЫПОЛНЕНО 
+LeaveCombatLandStrike=<LANDSTRIKESTATUS>, ЗАДАНИЕ <MISSIONSTATUS> ВЫПОЛНЕНО
 NearDeploymentZone=Поблизости зона развертывания миссии.
 
 //MissionWeaponsNeg=Для текущего задания требуется иметь на борту <NUMBER> <WEAPON>.
@@ -378,7 +404,7 @@ Controls=Клавиши
 VideoSettings=Видео
 AudioSettings=Звук
 DefaultControls=По умолчанию
-DefaultCommanderName=Имя командира по умолчанию:
+DefaultCommanderName=Имя командира:
 Difficulty=Сложность
 Easy=Легко
 Normal=Казуальный
@@ -403,9 +429,9 @@ NonMetricUnits=Не метрические единицы
 EventCamera=Камера событий
 InvertMouse=Инвертировать мышь
 FullScreen=Полный экран
-Resolution=Экран
+Resolution=Разрешение экрана
 Shadows=Тени
-VSync=V-Sync
+VSync=Верт. синхронизация
 DetailedOcean=Детализированный океан
 Terrain=Поверхность
 Trees=Деревья
@@ -426,7 +452,7 @@ WorldObjects=Отображение объектов
 MusicInCombat=Музыка в бою
 Volume=Громкость
 Music=Музыка
-CrewVoice=Crew Voice
+CrewVoice=Громкость голоса
 CameraSensitivity=Чувствительность камеры
 Apply=Применить
 

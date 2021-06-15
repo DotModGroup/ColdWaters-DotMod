@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/backgrounds/nato_freighter_narvik_1.png,campaign/images/backgrounds/nato_freighter_narvik_2.png,campaign/images/backgrounds/nato_freighter_narvik_3.png,campaign/images/backgrounds/nato_freighter_narvik_4.png,campaign/images/backgrounds/nato_freighter_narvik_5.png
-Photo=campaign/images/photos/small_freighter_sailing_1.png,campaign/images/photos/small_freighter_sailing_2.png,campaign/images/photos/small_freighter_pier_1.png
+Image=campaign/images/backgrounds/nato_freighter_narvik_1.jpg,campaign/images/backgrounds/nato_freighter_narvik_2.jpg,campaign/images/backgrounds/nato_freighter_narvik_3.jpg,campaign/images/backgrounds/nato_freighter_narvik_4.jpg,campaign/images/backgrounds/nato_freighter_narvik_5.jpg
+Photo=campaign/images/photos/small_freighter_sailing_1.jpg,campaign/images/photos/small_freighter_sailing_2.jpg,campaign/images/photos/small_freighter_pier_1.jpg
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 

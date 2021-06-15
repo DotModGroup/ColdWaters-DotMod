@@ -1,5 +1,5 @@
 //Player mission
-//Small enemy invasion
+//Small enemy liberation
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
 ForbiddenFor=SSB
@@ -9,7 +9,7 @@ HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
 EndLocation=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,KNM_BASE
-EndAlignment=FRIENDLY
+EndAlignment=FRIENDLY_OCCUPIED
 Speed=8
 MustUseWaypoints=
 UseAtLeastOneWaypointOf=
@@ -27,5 +27,5 @@ NumberOfEnemyUnits=0-1,1-2,1-2,1-1
 CombatBehaviour=DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,TRUE,TRUE
 EnemyShipClasses=usn_84_cg_belknap_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ap_roro|usn_68_ap_freighter_a|usn_84_ap_super_p|usn_84_ap_act_1,usn_84_lst_lander
-EventWin=LANDING_FORCE_own_win
+EventWin=LANDING_FORCE_occ_win
 EventFail=LANDING_FORCE_fail

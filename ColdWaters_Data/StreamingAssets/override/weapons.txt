@@ -49,7 +49,7 @@
 *=HomeSettings = ACTIVE,PASSIVE,SHIP,SUBMARINE,LAND,MISSILE,AIRCRAFT
 *=AttackSettings = STRAIGHT,SNAKE,LEFT,RIGHT,WIDE,NARROW,ONE,TWO,THREE,FOUR
 *=DepthSettings = SHALLOW,LEVEL,DEEP,SKIM,POP-UP
-*=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329.03 yards (31 units)
+*=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329,03 yards (31 units)
 *
 *=WeaponNoiseValues
 *=WeaponSprite
@@ -385,12 +385,11 @@ WeaponNoiseValues=120,230
 MinCameraDistance=0.3
 ResupplyTime=15
 [Model]
-AssetBundle=bundles/dotmod/weapons/wp/wp_at-2um_model
-Material=assets/resourcesforbundles/weapons/wp/wp_at-2um/wp_at-2um_mat.mat
-AssetBundle=bundles/dotmod/weapons/wp/wp_rpk-2_81rt_textures
-MaterialTextures=assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_diffuse.png,assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_specular.png,assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_normal.png
+AssetBundle=bundles/dotmod/weapons/wp/wp_rpk-2-65
+Material=assets/resourcesforbundles/weapons/wp/wp_rpk-2-65/wp_rpk-2-65_mat.mat
 AssetBundle=bundles/dotmod/weapons/wp/wp_at-2um_model
 ModelFile=assets/resourcesforbundles/weapons/wp/wp_at-2um/wp_at-2um.obj
+
 MeshPosition=0,0,0
 MeshWeapon=AT-2_um
 MeshWeaponPropRotation=-700
@@ -1268,7 +1267,8 @@ WeaponAltitudes=2200,65,2200
 CruiseTime=32
 BoosterReleasedAfterSeconds=7
 *
-WeaponRanges=15000,120000
+WeaponRanges=15000,555000
+//120000
 WeaponSpeed=40,1060
 TurnRate=60
 MaxPitchAngle=42
@@ -1330,7 +1330,7 @@ MaxPitchAngle=25
 *
 HomeSettings=LAND
 AttackSettings=FALSE
-DepthSettings=SHALLOW
+DepthSettings=SKIM,SHALLOW
 *
 WeaponNoiseValues=190,190
 WeaponSprite=hud/sprites/wp_s-10_sprite.png
@@ -1474,9 +1474,9 @@ MeshWeapon=3M-54
 MeshWeaponCanister=3M-54_Canister
 MeshPosition=0,0,-0.0561
 MeshMissileBooster=3M-54_Booster
-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.058
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.08
 MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 MeshPosition=0,0,-0.0561
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
@@ -1500,10 +1500,10 @@ BoosterParticle=weapons/assets/usn_tasm_boosterrelease
 -MeshPosition=0,0,0
 -BoosterParticle=assets/resourcesforbundles/weapons/usn/usn_siam/usn_siam_boosterrelease.prefab
 
-MeshPosition=0,0,-0.0758
-CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.0758
-MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+-MeshPosition=0,0,-0.0758
+-CavitationParticle=weapons/assets/torpedo_cavitation_particle
+-MeshPosition=0,0,-0.0758
+-MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 MeshPosition=0,0,-0.0561
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
 
@@ -2383,7 +2383,7 @@ TurnRate=20
 MaxPitchAngle=15
 *
 HomeSettings=FALSE
-AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=100,200
@@ -2573,8 +2573,10 @@ Warhead=225
 SensorRange=2500
 SensorAngles=30,15
 *
-//=Not wire guided, based on the Mark 37 Mod 3, not the Mod 2, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.
-WireGuided=FALSE
+WireGuided=TRUE
+WireBreakOnLaunchProbability=0.05
+WireBreakOnRunProbability=0.05
+WireBreakSpeedThreshold=12
 *
 //=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
 MaxLaunchDepth=1400

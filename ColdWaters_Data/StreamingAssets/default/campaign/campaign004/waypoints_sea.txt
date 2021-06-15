@@ -60,7 +60,7 @@ SubmarineOnly=TRUE
 
 //09-North Cape
 WaypointName=NC1
-WaypointPosition=265.10,107.60,60
+WaypointPosition=265.10,107.60,50
 NorthWaypoints=B1,N1
 SouthWaypoints=NC2,SC4
 EastWaypoints=SC4,B1
@@ -107,7 +107,7 @@ WestWaypoints=NC5
 
 //15-the east of Norwegian Sea
 WaypointName=N1
-WaypointPosition=183.80,163.90,80
+WaypointPosition=183.80,163.90,140
 NorthWaypoints=N3,P2,B2
 SouthWaypoints=NC2,NC1
 EastWaypoints=B1,B2,NC1
@@ -115,7 +115,7 @@ WestWaypoints=N3,N2,N4
 
 //16-the Norwegian Sea
 WaypointName=N2
-WaypointPosition=5.20,84.00,200
+WaypointPosition=5.20,84.00,250
 NorthWaypoints=N4,N3
 SouthWaypoints=IG6,NC4,NC3,NC2
 EastWaypoints=N3,N1,NC2,NC3

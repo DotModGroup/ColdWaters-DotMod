@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/pact landing sunk,campaign/images/plan landing sunk
-Photo=campaign/images/photos/infantry pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/naval engagement 1
+Image=campaign/images/pact landing sunk,campaign/images/plan landing sunk,campaign/images/backgrounds/nato_landing_defeated_1.jpg,campaign/images/backgrounds/nato_landing_defeated_2.jpg
+Photo=campaign/images/photos/infantry pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/naval engagement 1,campaign/images/photos/nato_landing_defeated_1.jpg,campaign/images/photos/nato_landing_defeated_2.jpg,campaign/images/photos/nato_landing_defeated_3.jpg,campaign/images/photos/nato_landing_defeated_4.jpg
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

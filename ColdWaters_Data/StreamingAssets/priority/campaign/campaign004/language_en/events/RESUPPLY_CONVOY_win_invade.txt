@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/pact landing 1,campaign/images/pact ground 2,campaign/images/pact ground 2,campaign/images/pact ruined city
-Photo=campaign/images/photos/infantry pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/infantry pact 3,campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5
+Image=campaign/images/pact landing 1,campaign/images/pact ground 2
+Photo=campaign/images/photos/infantry pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/infantry pact 3,campaign/images/photos/infantry pact 4,campaign/images/photos/infantry pact 5,campaign/images/pact ground 2,campaign/images/pact ruined city
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

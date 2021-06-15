@@ -1,5 +1,5 @@
 NextAction=MAP
-Image=campaign/images/nato convoy
+Image=campaign/images/nato convoy,campaign/images/backgrounds/nato_convoy_1_lvs.jpg,campaign/images/backgrounds/nato_convoy_2_lvs.jpg
 Photo=campaign/images/photos/Unload1.jpg,campaign/images/photos/Unload3.jpg,campaign/images/photos/Unload4.jpg,campaign/images/photos/Unload5.jpg,campaign/images/photos/Unload6.jpg
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>

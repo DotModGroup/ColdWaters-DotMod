@@ -68,6 +68,10 @@ NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
+[Campaign]
+PrefferedMissionType=LAND_STRIKE
+PrefferedMissionChance=0.8
+
 [Subsystems]
 LabelPosition=364.3,28
 BOWSONAR=FRONT

@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact wolfpack 2,campaign/images/pact wolfpack 4
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ПОТОПЛЕНА СУБМАРИНА НАТО</b>
+Color=57,61,73,255
+Sentence1=Представитель СССР сегодня заявил что вблизи <ENDLOCATION_RO> была потоплена субмарина НАТО предположительно перевозившая диверсионную группу. Представитель ВМС НАТО не счёл нужным подтвердить или опровергнуть это заявление.
+Color=218,218,208,255
+Sentence2=Способность Советского Союза организовать надёжную защиту побережья, несомненно является весомым фактором в ходе войны. Опора на крепкий тыл существенно облегчает проведение наступательных операций в Европе.

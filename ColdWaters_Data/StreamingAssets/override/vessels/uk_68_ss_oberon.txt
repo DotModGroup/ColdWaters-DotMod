@@ -124,13 +124,12 @@ MeshPosition=0.02008,-0.03655,-0.55055
 MeshProp=uk_ss_oberon_prop_r
 
 MeshRotation=0,0,0
-AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
+
 
 //Masts
-//Material=ships/materials/usn_masts
 AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-Material=assets/resourcesforbundles/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
+ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
+Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
 MeshPosition=0,-0.03,0.05
 MastHeight=0.1
 MeshMast=uk_ssn_trafalgar_mast_periscope
@@ -207,9 +206,8 @@ MeshNoisemakerMount=FALSE
 //MeshRotation=90,0,0
 //-Mesh=TASM_Canister
 
-//ModelFile=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon.obj
-//MeshPosition=0,0,0
-//MeshRotation=0,0,0
+AssetBundle=bundles/vessels/uk/uk_ss_oberon
+ModelFile=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon.obj
 
 //Wake
 -CavitationParticle=ships/particles/wp_ssbn_yankee_cavitation

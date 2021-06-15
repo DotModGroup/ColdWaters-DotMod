@@ -2,7 +2,9 @@
 //Against Airbase
 MissionType=INSERTION
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=SSB,SSGN,SURFACE
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
@@ -21,10 +23,10 @@ DisruptOnPass=TRUE
 InvadeOnFail=
 RequiresStealth=TRUE
 RequiresWeapon=
-NumberOfEnemyUnits=2-3,0-2,1-2
-CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE,FALSE
-EnemyShipClasses=wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai|wp_68_bpk_kanin_ai,wp_84_takr_kiev_ai,wp_84_ss_tango|wp_68_ss_foxtrot
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=testship
 EventWin=INSERTION_win
 EventFail=INSERTION_fail
 

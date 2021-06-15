@@ -24,7 +24,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0
 CavitationParameters=0,0
-PropRotationSpeed=-375,0,375
+PropRotationSpeed=-375,-375,375
 TestDepth=0
 
 [Acoustics & Sensors]

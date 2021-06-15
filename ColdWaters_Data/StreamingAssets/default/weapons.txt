@@ -37,18 +37,19 @@
 *=FixedRunDepth
 *
 *=WeaponAltitudes = CruiseAltitude(yards),ApproachAltitude(yards); If only 1 entry - both equal
-*=CruiseTime
-*=BoosterReleasedAfterSeconds
+*=CruiseTime = (seconds)
+*=BoosterReleasedAfterSeconds = (seconds)
 *
 *=WeaponRanges = RangeInYards,ActiveRangeInYards; If only 1 entry - both equal; Also used for MissileFiringRangeMin(yards), MissileFiringRangeMax(yards)
 *=WeaponSpeed = RunSpeed(knots),ActiveRunSpeed(knots) If only 1 entry - both equal
 *=TurnRate
 *=MaxPitchAngle
-*=NoTurnTime = For missilies. Time after launch on surface(or exiting water), missilie is unable to turn. Default is 5 sec
+*=NoTurnTime = (seconds) - For missilies. Time after launch on surface(or exiting water), missilie is unable to turn. Default is 5 sec
 *
-*=HomeSettings
-*=AttackSettings
-*=DepthSettings
+*=HomeSettings = ACTIVE,PASSIVE,SHIP,SUBMARINE,LAND,MISSILE,AIRCRAFT
+*=AttackSettings = STRAIGHT,SNAKE,LEFT,RIGHT,WIDE,NARROW,ONE,TWO,THREE,FOUR
+*=DepthSettings = SHALLOW,LEVEL,DEEP,SKIM,POP-UP
+*=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329,03 yards (31 units)
 *
 *=WeaponNoiseValues
 *=WeaponSprite
@@ -384,12 +385,11 @@ WeaponNoiseValues=120,230
 MinCameraDistance=0.3
 ResupplyTime=15
 [Model]
-AssetBundle=bundles/dotmod/weapons/wp/wp_at-2um_model
-Material=assets/resourcesforbundles/weapons/wp/wp_at-2um/wp_at-2um_mat.mat
-AssetBundle=bundles/dotmod/weapons/wp/wp_rpk-2_81rt_textures
-MaterialTextures=assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_diffuse.png,assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_specular.png,assets/weapons/wp/wp_rpk-2_81rt/wp_rpk-2_81rt_normal.png
+AssetBundle=bundles/dotmod/weapons/wp/wp_rpk-2-65
+Material=assets/resourcesforbundles/weapons/wp/wp_rpk-2-65/wp_rpk-2-65_mat.mat
 AssetBundle=bundles/dotmod/weapons/wp/wp_at-2um_model
 ModelFile=assets/resourcesforbundles/weapons/wp/wp_at-2um/wp_at-2um.obj
+
 MeshPosition=0,0,0
 MeshWeapon=AT-2_um
 MeshWeaponPropRotation=-700
@@ -1150,6 +1150,7 @@ MaxPitchAngle=27
 HomeSettings=SHIP
 AttackSettings=WIDE,NARROW
 DepthSettings=SKIM,POP-UP
+PopUpDistance=4000
 *
 WeaponSprite=weapons/sprites/wp_ss-n-7_sprite
 WeaponNoiseValues=190,190
@@ -1259,14 +1260,15 @@ SensorRange=50000
 SensorAngles=60,60
 *
 MissileGunVulnerability=0.7
-MissileChaffVulnerability=0.6
+MissileChaffVulnerability=0.5
 *
 MaxLaunchDepth=105
 WeaponAltitudes=2200,65,2200
 CruiseTime=32
 BoosterReleasedAfterSeconds=7
 *
-WeaponRanges=15000,120000
+WeaponRanges=15000,555000
+//120000
 WeaponSpeed=40,1060
 TurnRate=60
 MaxPitchAngle=42
@@ -1328,7 +1330,7 @@ MaxPitchAngle=25
 *
 HomeSettings=LAND
 AttackSettings=FALSE
-DepthSettings=SHALLOW
+DepthSettings=SKIM,SHALLOW
 *
 WeaponNoiseValues=190,190
 WeaponSprite=hud/sprites/wp_s-10_sprite.png
@@ -1367,24 +1369,23 @@ AudioLoop=TRUE
 //=---------ПКР П-270 Москит   1984г    ----------------------------------------
 WeaponObjectReference=wp_p-270
 WeaponType=MISSILE
-Special=SurfaceLaunched,NoBoosterRelease
 *
 Warhead=320
 SensorRange=10000
 SensorAngles=30,60
 *
-MissileGunVulnerability=0.99
-MissileChaffVulnerability=0.7
+MissileGunVulnerability=0.6
+MissileChaffVulnerability=0.6
 *
 MaxLaunchDepth=14
-WeaponAltitudes=300,7
+WeaponAltitudes=300,8
 CruiseTime=25
 BoosterReleasedAfterSeconds=7
 *
-WeaponRanges=12000,546807
+WeaponRanges=10900,131200
 WeaponSpeed=40,1870
-TurnRate=30
-MaxPitchAngle=27
+TurnRate=45
+MaxPitchAngle=15
 *
 HomeSettings=SHIP
 AttackSettings=WIDE,NARROW
@@ -1395,20 +1396,21 @@ WeaponNoiseValues=190,190
 MinCameraDistance=0.3
 ResupplyTime=120
 [Model]
-AssetBundle=bundles/dotmod/weapons/wp/wp_m-11
-ModelFile=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11.obj
-Material=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11_mat.mat
-MaterialTextures=assets/resourcesforbundles/weapons/wp/wp_m-11/wp_m-11_tx.png
+AssetBundle=bundles/dotmod/weapons/wp/wp_p-270
+ModelFile=assets/weapons/wp/wp_p-270/wp_p-270.obj
+Material=assets/weapons/wp/wp_p-270/wp_p-270_mat.mat
+-MaterialTextures=assets/weapons/wp/wp_p-270/wp_p-270_tx.png
 MeshPosition=0,0,0
-MeshWeapon=Storm
-MeshWeaponCanister=Storm
-MeshMissileBooster=FALSE
+MeshWeapon=Moskit
+MeshWeaponCanister=Moskit
+MeshPosition=0,0,-0.0443
+MeshMissileBooster=Moskit_Booster
 
 MeshPosition=0,0,-0.0758
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.06
+MeshPosition=0,0,-0.0758
 MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
-MeshPosition=0,0,-0.0561
+MeshPosition=0,0,-0.0443
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
 
 AudioSource=MissileLaunch
@@ -1472,9 +1474,9 @@ MeshWeapon=3M-54
 MeshWeaponCanister=3M-54_Canister
 MeshPosition=0,0,-0.0561
 MeshMissileBooster=3M-54_Booster
-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.058
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.08
 MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 MeshPosition=0,0,-0.0561
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
@@ -1498,10 +1500,10 @@ BoosterParticle=weapons/assets/usn_tasm_boosterrelease
 -MeshPosition=0,0,0
 -BoosterParticle=assets/resourcesforbundles/weapons/usn/usn_siam/usn_siam_boosterrelease.prefab
 
-MeshPosition=0,0,-0.0758
-CavitationParticle=weapons/assets/torpedo_cavitation_particle
-MeshPosition=0,0,-0.0758
-MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+-MeshPosition=0,0,-0.0758
+-CavitationParticle=weapons/assets/torpedo_cavitation_particle
+-MeshPosition=0,0,-0.0758
+-MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 MeshPosition=0,0,-0.0561
 BoosterParticle=weapons/assets/usn_tasm_boosterrelease
 
@@ -2100,6 +2102,72 @@ AudioPitch=1.1
 AudioLoop=TRUE
 [/Model]
 
+//=----------------  ЗРК «Ураган» (1989г)   --------------------------------
+WeaponObjectReference=wp_m-22
+WeaponType=MISSILE
+Special=NoBoosterRelease
+*
+Warhead=70
+SensorRange=27340
+SensorAngles=60,45
+*
+AntiAircraftHitProbability=0.95
+AntiMissileHitProbability=0.9
+AntiAirInterceptionRadius=35
+AntiAirHeights=10,6560
+MissileGunVulnerability=0.5
+MissileChaffVulnerability=0.7
+*
+MaxLaunchDepth=5
+*
+WeaponAltitudes=300,300
+CruiseTime=0
+BoosterReleasedAfterSeconds=6
+*
+WeaponRanges=1640,27340
+WeaponSpeed=40,1940
+TurnRate=60
+MaxPitchAngle=60
+*
+HomeSettings=MISSILE,AIRCRAFT
+AttackSettings=ONE,TWO
+DepthSettings=SKIM
+*
+WeaponNoiseValues=190,190
+WeaponSprite=hud/sprites/WIP.png
+MinCameraDistance=0.3
+ResupplyTime=10
+[Model]
+AssetBundle=bundles/dotmod/weapons/wp/wp_m-22
+ModelFile=assets/weapons/wp/wp_m-22/wp_m-22.obj
+Material=assets/weapons/wp/wp_m-22/wp_m-22_mat.mat
+-MaterialTextures=assets/weapons/wp/wp_uragan/wp_uragan_tx.dds
+MeshPosition=0,0,0
+MeshWeapon=Uragan
+MeshWeaponCanister=Uragan
+MeshPosition=0,0,-0.02444
+MeshMissileBooster=FALSE
+MeshPosition=0,0,-0.0421
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.0522
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.02445
+BoosterParticle=weapons/assets/usn_ugm84_boosterrelease
+
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
+
 //=----------------  ЗРК «Кинжал» (1989г)   --------------------------------
 WeaponObjectReference=wp_kinzhal
 WeaponType=MISSILE
@@ -2315,7 +2383,7 @@ TurnRate=20
 MaxPitchAngle=15
 *
 HomeSettings=FALSE
-AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=100,200
@@ -2531,7 +2599,7 @@ ResupplyTime=15
 [Model]
 ModelFile=weapons/assets/usn_mk37
 Material=weapons/assets/usn_mk48_mat
-MaterialTextures=Textures/usn_nt37c_tx.png
+MaterialTextures=Assets/Textures/usn_nt37c_tx.png
 MeshPosition=0,0,0
 MeshWeapon=Mk37
 MeshPosition=0,0,0
@@ -2927,6 +2995,9 @@ WeaponObjectReference=usn_tlam
 WeaponType=MISSILE
 *
 Warhead=845
+*
+MissileGunVulnerability=0.7
+MissileChaffVulnerability=0.7
 *
 MaxLaunchDepth=66
 *
@@ -4044,6 +4115,15 @@ DepthWeaponReloadTime=30
 DepthWeaponVelocity=12
 DepthWeaponAccuracy=1
 
+DepthWeaponObjectReference=usn_mark_45_shell
+DepthWeaponWarhead=15
+DepthWeaponRange=100,25400
+DepthWeaponNumberFired=40
+DepthWeaponRateOfFire=3.0
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=8.08
+DepthWeaponAccuracy=1
+
 
 //=   3. China
 
@@ -4242,6 +4322,24 @@ DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
 // based on 100kg = 10m damage (not kill) radius, inverse cube law
 DepthWeaponKillRadius=17
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]
+
+//Mark 54 Depth Bomb for P-3 and S-3
+DepthWeaponObjectReference=usn_mk-54_depth_bomb
+DepthWeaponWarhead=102
+DepthWeaponContactExploded=FALSE
+DepthWeaponDepthExploded=TRUE
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=10
 DepthWeaponSinkRate=0.2
 [Model]
 ModelFile=weapons/assets/rgb-60
