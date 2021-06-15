@@ -50,7 +50,7 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,400,400,533
 TubeReloadTime=30
 
-VLSTorpedoTypes=wp_slbm_r27
+VLSTorpedoTypes=wp_r27
 VLSTorpedoNumbers=12
 VLSMaxDepthToFire=200
 VLSMaxSpeedToFire=10

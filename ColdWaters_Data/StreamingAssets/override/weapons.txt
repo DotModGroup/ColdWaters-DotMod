@@ -1830,7 +1830,7 @@ AudioLoop=TRUE
 
 //=   1d) ICBM
 
-WeaponObjectReference=wp_slbm_r27
+WeaponObjectReference=wp_r27
 WeaponType=MISSILE
 Special=NoBoosterRelease,SLBM
 Warhead=150000000
