@@ -23,5 +23,7 @@ ColdWaters_Data/*
 
 # But don't ignore files
 !ColdWaters_Data/Managed/Assembly-CSharp.dll
+!ColdWaters_Data/Managed/INIFileParser.dll
+!ColdWaters_Data/Managed/INIFileParser.xml
 !DotModInstaller.exe
 !JSGME/JSGME.exe
