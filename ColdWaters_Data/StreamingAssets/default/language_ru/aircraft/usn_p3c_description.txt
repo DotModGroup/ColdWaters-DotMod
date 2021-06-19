@@ -1,4 +1,4 @@
 [Unit Reference]
 AircraftName=P-3C
-AircraftDescriptiveName=Lockheed P-3C Orion
-History=The Lockheed P-3 Orion is a four-engine turboprop anti-submarine and maritime surveillance aircraft developed for the United States Navy and introduced in the 1960s. Lockheed based it on the L-188 Electra commercial airliner. The aircraft is easily distinguished from the Electra by its distinctive tail stinger or "MAD Boom", used for the magnetic detection of submarines.
+AircraftDescriptiveName=Lockheed P-3C «Орион»
+History=Р-3С «Орион» является основным и единственным базовым патрульным самолетом ВМС США с 60-х годов. Он имеет современные бортовые системы поиска, обнаружения и классификации целей, а также разнообразное вооружение для поражения не только подводных лодок, но и надводных кораблей. Р3С создан на базе авиалайнера Lockheed L-188 Electra и по сути является его военной модификацией. Больше всего данных самолётов находятся на службе в Военно-морских силах США и в Морских силах самообороны Японии.

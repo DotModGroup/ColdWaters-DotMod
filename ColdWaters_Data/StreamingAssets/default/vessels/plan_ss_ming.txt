@@ -12,8 +12,8 @@ HullNumbers=plan_356,plan_357,plan_358,plan_359,plan_360,plan_361,plan_362,plan_
 [Movement]
 SurfaceSpeed=15.2
 SubmergedSpeed=18
-AccelerationRate=0.04
-DecelerationRate=0.08
+AccelerationRate=0.4
+DecelerationRate=0.1
 RudderTurnRate=0.5
 TurnRate=2.5
 PivotPointTurning=0.256

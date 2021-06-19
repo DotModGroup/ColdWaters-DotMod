@@ -1,4 +1,4 @@
 [Unit Reference]
-AircraftName=Ka-25BSh Hormone (Early)
-AircraftDescriptiveName=Kamov Ka-25BSh Hormone A (Early)
-History=The Ka-25 naval helicopters are small anti-submarine (Hormone A) and over-the-horizon missile targeting (Hormone B) helicopters first introduced in the mid 1960's. They carry either homing torpedoes or depth charges, and a dipping sonar as well as an assortment of sonobouys. They are covert, and can provide surface ships with targeting data, making them very dangerous foes. This original 1960s version has the original 'Elk Tail' dipping sonar and carries the older AT-1 or more recent AT-2 torpedo. 
+AircraftName=Ка-25ПЛ (1968г)
+AircraftDescriptiveName=Камов Ка-25ПЛ
+History=Ка-25ПЛ (Классификация НАТО: Hormone) — советский противолодочный вертолёт корабельного базирования. Стал первым советским противолодочным вертолётом а также первым советским боевым вертолётом, изначально проектировавшимся под боевое применение (первый сухопутный боевой вертолёт Ми-24 появился несколько позже). Предназначен для поиска и уничтожения атомных подводных лодок бортовыми средствами обнаружения и поражения на удалении около 200 км от корабля базирования. Ранняя версия вооружённая торпедами АТ-1.

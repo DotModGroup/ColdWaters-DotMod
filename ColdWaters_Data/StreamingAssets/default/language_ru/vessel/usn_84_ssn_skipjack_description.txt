@@ -1,9 +1,9 @@
 [Unit Reference]
-ShipClass=Skipjack
-Description=Skipjack-class Nuclear Attack Submarine
-History=In service since 1959, the Skipjacks were the first attack submarines to feature the revolutionary teardrop hull and single-hull construction with a single shaft. Though they have been refitted with quieter propellers and towed arrays, these boats are designed for high speed and lack the silencing and advanced sonars introduced in later classes. One member of this class, the USS Scorpion, sank with all hands near the Azores in 1968.
+ShipClass=«Скипджек»
+Designation=АПЛ
+Description=АПЛ «Скипджек»
+History=Подводные лодки типа «Скипджек» (англ. Skipjack) — серия из шести многоцелевых атомных подводных лодок Военно-морских сил США, крупнейшая серия многоцелевых АПЛ ВМС США до 16 декабря 1964 года, первые атомные лодки с «альбакоровской» формой корпуса и самые быстрые американские лодки до вступления в строй АПЛ типа «Лос-Анджелес».
 
 [Player Ship Instances]
 PlayerClassNames=Skipjack,Scamp,Sculpin,Shark,Snook
-
 PlayerClassHullNumbers=SSN-585,SSN-588,SSN-590,SSN-591,SSN-592

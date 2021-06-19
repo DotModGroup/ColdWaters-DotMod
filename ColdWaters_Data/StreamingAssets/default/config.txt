@@ -8,7 +8,7 @@ GenerateFullLog=TRUE
 
 //=========Modded Parameters===========
 //You can change this string to your mod name and version
-ModVersion=Dot Mod v Alpha 3
+ModVersion=Dot Mod v Alpha 4
 
 //Custom font
 CustomFontBundle=bundles\fonts\custom
@@ -23,15 +23,22 @@ KnuckleSpeed=0.95
 ASRSnakeProbability=0
 
 //Increaces crush depth beyond Test Depth. Crush depth = Test Depth + (Test Depth * (Random value between TestDepthAddition and TestDepthAddition * 1.5))
-//Original game value = 0.5,  Epic Mod value = 0.1
+//Original game value = 0.5
 TestDepthAddition=0.25
 
 //After this time (in seconds) game makes wire break on run checks every minute. Actual time when you're guaranteed your (and AI's) wires will not break on run is 60 sec more 
 //Default is 240
-ReliableWireTime=540
+ReliableWireTime=1540
+
+//Periscope autorotate params
+CameraToBearingSpeed = 2.0
+CameraToBearingError = 1.1
+
+//Works for player as well
+NavalGunsDispersion=0.01
 
 //TRUE - old CW style. To recive patrol award you need to kill required tonnage in single patrol(until you return to base)
-//FALSE - Epic Mod default. To recive patrol award you need to kill required tonnage in single combat 
+//FALSE - To recive patrol award you need to sink required tonnage in single combat 
 AwardsForPatrol=FALSE
 
 //TRUE - Default
@@ -42,12 +49,8 @@ EnemyUseAntiShip=TRUE
 MaxNavMarkersOnMap=30
 
 //*********Debug&Development*********
-
-//if TRUE, shows player local transform coordinates instead time and date on a global map.(Useful for modding, bad for gaming.)
-ShowClickPosition=FALSE
-
-//TRUE - each time you press Space on campaign map, you get 100000 exp
-ExpCheat=FALSE
+//TRUE - enables some additional test modding. Enable on your own risk.
+AddtionalChangesEnabled=TRUE
 
 //If true, enables usage of "Skip Mission(Debug) Key which is used to counter a stuck campaign bug.
 SkipMissionKeyEnabled=TRUE
@@ -59,20 +62,7 @@ ShellColliderEnabled=FALSE
 //Log vessel name when reading its file on game loading. Useful to trace what vessel is causing errors.
 LogVesselNameOnCreation=FALSE
 
-//Works for player as well
-EnemyGunsDispersion=0.01
-
-//Periscope autorotate params
-CameraToBearingSpeed = 2.0
-CameraToBearingError = 1.1
-
-//-------------DotMod--------------
-//TRUE - enables some additional modding. Enable on your own risk.
-AddtionalChangesEnabled=TRUE
-
-//TRUE - Default
-//FALSE - Enemy ship's anti-missile guns will target only missiles locked on that ship. Authorised by Niels ;)
-EnemyAMGassist=FALSE
+//-------------Deprecated--------------
 
 //TRUE - Advanced AM-defence plus auto-chaff
 //FALSE - Manual chaff

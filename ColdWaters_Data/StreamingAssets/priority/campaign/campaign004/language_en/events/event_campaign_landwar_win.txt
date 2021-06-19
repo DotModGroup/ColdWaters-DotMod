@@ -1,5 +1,5 @@
 NextAction=END
-Image=campaign/images/backgrounds/October_Revolution_celebration_1983.jpg
+Image=campaign/images/backgrounds/October_Revolution_celebration_1983.jpg,campaign/images/pact france
 Photo=campaign/images/photos/armor pact 1,campaign/images/photos/infantry pact 2,campaign/images/photos/infantry pact 1
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>

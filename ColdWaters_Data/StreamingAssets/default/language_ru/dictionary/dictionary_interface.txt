@@ -42,6 +42,8 @@ PrestigeChangeMission=Отказаться от миссии
 PrestigeChangeMissionCost=Подать рапорт? \n(- <MISSIONCOST> престижа)
 PrestigeChangeMissionFlavor=\n<b>РАПОРТ</b>\n\n\nВвиду состояния своего корабля и экипажа, а также объективных причин, выполнение текущей задачи для <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> считаю невозможным. Прошу поставить перед <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> другую задачу.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
+PrestigeStatistics=Престиж:
+
 ReferenceActiveRange=Акт. режим:
 ReferenceTorpedoMaxDepth=Макс. глубина
 ReferenceWireGuided=Телеуправление: Есть
@@ -91,6 +93,7 @@ MetricSystem=Метрическая система
 Revert=Сброс
 
 CrewVoiceLanguage=Язык озвучки экипажа
+Russian=Русский
 
 DebugLevel=Запись в лог:
 DevMode=Режим разработчика
@@ -407,8 +410,8 @@ DefaultControls=По умолчанию
 DefaultCommanderName=Имя командира:
 Difficulty=Сложность
 Easy=Легко
-Normal=Казуальный
-Hard=Реалистичный
+Normal=Нормально
+Hard=Сложно(Рекомендуется)
 Elite=Элита
 //WorldScale=Масштаб
 WorldScale=Язык UI:

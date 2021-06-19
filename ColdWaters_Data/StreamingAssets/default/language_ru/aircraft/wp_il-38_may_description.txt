@@ -1,4 +1,4 @@
 [Unit Reference]
-AircraftName=ИЛ-38
-AircraftDescriptiveName=Ильюшин ИЛ-38
-History=Most aptly described as the Soviet equivalent of the US Lockheed P-3, the IL-38 is a medium-range antisubmarine aircraft, derived from the IL-18 turboprop airliner. It is capable of laying huge barriers of sonoboys, and then pressing home the attack with an assortment of depth charges and homing torpedoes.
+AircraftName=Ил-38
+AircraftDescriptiveName=Ильюшин Ил-38
+History=Ил-38 Классификация НАТО: MAY) -  советский противолодочный самолёт средней дальности, разработанный в ОКБ-240 Ильюшина на основе пассажирского Ил-18В. Самолёт предназначен для самостоятельного или совместного с противолодочными кораблями поиска и уничтожения подводных лодок противника, для морской разведки, поисково-спасательных операций, постановки минных заграждений. В боекомплект входят торпеды УМГТ-1.

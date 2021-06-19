@@ -1,4 +1,4 @@
 [Unit Reference]
-AircraftName=TU-142 BEAR-F
-AircraftDescriptiveName=Tupolev TU-142 BEAR-F
-History=The Tu-142M is an ASW and maritime strike derivative of the Tu-95 strategic bomber. While ostensibly performing the same role as the IL-38 MAY, the Tu-142 features much greater range and loiter capability, and carries a much larger payload than the MAY. Their main drawback is their incredibly high noise output, which is loud enough to be tracked on US SOSUS arrays.
+AircraftName=Ту-142
+AircraftDescriptiveName=Туполев Ту-142
+History=Ту-142 (Классификация НАТО: Bear-F) — советский дальний противолодочный самолёт созданный на базе самолёта разведки и целеуказания Ту-95РЦ,. Изначально предназначался для обнаружения и уничтожения ПЛАРБ противника в районах патрулирования. Фактически же применяется для дальней океанской разведки, визуальной или радиотехнической, для дежурства в системе поисково-спасательной службы.

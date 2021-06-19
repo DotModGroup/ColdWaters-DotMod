@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Mk. 20S
 WeaponDescriptiveName=Торпеда Mark 20S "Bidder"
-WeaponDescription=Passive Homing Torpedo of the Royal Navy, developed in the 1950s and in service until replaced by Mark 24 Tigerfish in the 1980s.
+WeaponDescription=Особенности: Малая скорость\nАнглийская 533мм торпеда принятая на вооружение в 1955 году. Основное назначение - борьба с дизельными подводными лодками, так как малая скорость не позволяет эффективно применять её против других целей. 

@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Yu-7
-WeaponDescriptiveName=Yu-7 Torpedo
-WeaponDescription=Chinese copy of the US Mk-46 airdropped passive/active torpedo. Being a smaller weapon, it packs less of a punch, but is carried by helicopters, aircraft and serves as the payload for the CY-1 ASW standoff missile. The guidance system has a range of 1600 yards.
+WeaponDescriptiveName=Торпеда Yu-7
+WeaponDescription=Особенности: Противолодочная\nYu-7 (Ю-7) Китайская малогабаритная противолодочная торпеда калибра 324 мм, разработанная на основе итальянской A244/S, а также американской  Mark 46 Mod 2 выловленной в 1978 году рыбаками в Китайском море. Предназначена для поражения подводных лодок и широко применяется как непосредственно кораблями и авиацией, так и в составе противолодочного комплекса CY-1. Не наводится на надводные цели.

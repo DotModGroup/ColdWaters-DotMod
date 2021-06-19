@@ -141,30 +141,26 @@ plan_ess_1=ESS-1=A Chinese license-built version of the French DUBV-43 variable 
 //II.Sonobuoys and dipping
 //WP SONOBUOYS
 wp_rgb_56=Crow Egg=First generation sonobuoy introduced 1956. 8 to a container. 
-
 wp_rgb_64=Rook Egg 1=Second generation sonobuoy with detection range of 1 to 5 km introduced 1964. 18 to a container. 
-
 wp_rgb_73=Rook Egg 2=Third generation sonobuoy with detection range of 3 to 8 km introduced 1973. Assumed 18 to a container.
 
 //Berkut-95 complex - fixed wing ASW sonobuoys - type RGB-1 (Snipe Egg 1), RGB-2 (Snipe Egg 2) and RGB-3 (Snipe Egg 3).
 
 wp_bm_1=Snipe Egg 1=Non-directional passive sonobuoy.
-
 wp_bm_2=Snipe Egg 2=Directional passive sonobuoy.
-
 wp_bm_3=Snipe Egg 3=Active/passive sonobuoy.
 
 //WP HELO DIPPING SONARS
-wp_elk_tail=Elk Tail=This is the earlier generation VGS-2 Oka dipping sonar used by the Ka-25Bsh ASW helicopter in the 1960s
-
-wp_stork_tail=Stork Tail=This is the later generation VGS-2 Oka-2 Stork Tail dipping sonar used by the Ka-25Bsh ASW helicopter in the 1980s.
-
-wp_lamb_tail=Lamb Tail=This is the advanced Ros-V VGS-3 dipping sonar used by the Ka-27PL ASW helicopter.
+wp_elk_tail=Elk Tail=Ранняя версия опускаемой ГАС ВГС-2 «Ока» устанавливоемой на вертолёте Ка-25ПЛ в 60-х годах.
+wp_stork_tail=Stork Tail=Поздняя версия опускаемой ГАС ВГС-2 «Ока» устанавливоемой на вертолёте Ка-25ПЛ в 80-х годах.
+wp_lamb_tail=Lamb Tail=Опускаемая ГАС ВГС-3 «Рось-В» предназначенная для оснащения противолодочных вертолетов типа Ка-27ПЛ в 80-х годах.
 
 //US SONOBUOYS
 usn_ssq_62=SSQ-62 DICASS=Active sonobuoy.
-
+//US HELO DIPPING SONARS.
 usn_aqs_13=AQS-13=Active dipping sonar primarily used by the SH-2F ASW helicopter.
+usn_aqs_13f=AQS-13F=Active dipping sonar primarily used by the SH-2F ASW helicopter.
+
 
 //PLAN SONOBUOYS
 

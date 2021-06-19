@@ -1,4 +1,4 @@
 [Unit Reference]
-AircraftName=Harbin Z-9
+AircraftName=Z-9
 AircraftDescriptiveName=Harbin Z-9
-History=The Harbin Z-9 is a Chinese variant of the French Eurocopter AS365 Dauphin, manufactured under license. It serves many roles in the PLA, but this version is specialized for ASW duty, with search radar, modern dipping sonar and lightweight torpedoes. It however does not carry sonobuys, which limits its tactical mobility.
+History=Harbin Z-9 — китайский многоцелевой вертолёт. Является лицензионной копией французского вертолёта Aerospatiale Dauphin. Поступил на вооружение НОАК в 1998 году. Он выполняет множество функций в НОАК, данная модификация предназначена для противолодочной борьбы и оснащена современной опускаемой ГАС и малогабаритными торпедами. Однако Z-9 не имеет возможности применять радиогидроакустические буи, что серьёзно ограничивает его эффективность.

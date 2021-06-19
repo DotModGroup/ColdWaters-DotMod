@@ -1,4 +1,4 @@
 [Unit Reference]
-ShipClass=Amguema
-Description=Amguema-class military transport
-History=This is a class of medium-sized icebreaking passenger cargo ships designed to operate in northern climates. Normally under civilian flag they would likely be used as troop transports at the outbreak of hostilities, with each ship being able to carry a respectable 6,600 tons.
+ShipClass=«Амгуэма»
+Description=Военный транспорт типа «Амгуэма»
+History=Ледоколы проекта 550 типа «Амгуэма» — серия советских транспортных ледокольных дизель-электроходов. Суда спроектированы ЦКБ «Айсберг» для работы в северных широтах. Входят в состав гражданского флота, но с началом боевых действий были переоборудованы в военные транспорты. Грузоподъёмность каждого из них составляет солидные 6600 тонн.

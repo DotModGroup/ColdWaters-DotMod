@@ -140,8 +140,10 @@ wp_stork_tail=Stork Tail=This is the later generation VGS-2 Oka-2 Stork Tail dip
 wp_lamb_tail=Lamb Tail=This is the advanced Ros-V VGS-3 dipping sonar used by the Ka-27PL ASW helicopter.
 
 //US SONOBUOYS
-usn_ssq_62=SSQ-62 DICASS=Active sonobuoy.
+usn_ssq_62=SSQ-62 DICASS=Active sonobuoy
+//US HELO DIPPING SONARS.
 usn_aqs_13=AQS-13=Active dipping sonar primarily used by the SH-2F ASW helicopter.
+usn_aqs_13f=AQS-13F=And advanced version of AQS-13 active dipping sonar, used by the SH-60F Seahawk ASW helicopter.
 
 //PLAN SONOBUOYS
 

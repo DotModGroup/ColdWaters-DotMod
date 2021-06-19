@@ -1,4 +1,5 @@
 [Aircraft]
+//--------------------------------------------------------------------------Sh-23f Seasprite--------------------------------------------------------------------------------------------------------
 //SH-2F Seasprite - 1959
 AircraftObjectReference=usn_sh-2f
 AircraftType=HELICOPTER
@@ -59,6 +60,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//-----------------------------------------------------------------------------SH60B Seahawk------------------------------------------------------------------------------------------
 // SH60B Helicopter - 80s
 AircraftObjectReference=usn_sh60b
 AircraftType=HELICOPTER
@@ -69,8 +71,8 @@ Weight=9900
 Crew=4
 RADAR=usn_ln_66
 RADARSignature=SMALL
-ActiveSonarModel=usn_aqs_13
-PassiveSonarModel=usn_aqs_13
+ActiveSonarModel=usn_aqs_13f
+PassiveSonarModel=usn_aqs_13f
 SonobuoyTypes=usn_ssq_62
 SonobuoyNumbers=12
 [Weapon Systems]
@@ -122,8 +124,8 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
-
-/ P-3C Orion
+//-------------------------------------------------------------------------------P-3C Orion----------------------------------------------------------------------------------------
+//P-3C Orion
 AircraftObjectReference=usn_p3c
 AircraftType=FIXED WING
 CruiseSpeed=320
@@ -183,8 +185,8 @@ AudioDistance=2,25
 AudioPitch=1
 [/Model]
 
-//------------------------------------------------------------------------------------------------
-//Ка-27
+//**************************************************************************************************************************************************************************
+//--------------------------------------------------------------------------------Ка-27 Helix---------------------------------------------------------------------------------------
 AircraftObjectReference=wp_helix
 AircraftType=HELICOPTER
 CruiseSpeed=111
@@ -232,6 +234,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//-----------------------------------------------------------------------------Ka-25 Hormone------------------------------------------------------------------------------------------
 //Ка-25
 AircraftObjectReference=wp_hormone
 AircraftType=HELICOPTER
@@ -280,6 +283,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//-----------------------------------------------------------------------------Ka-25 Hormone 68------------------------------------------------------------------------------------------
 AircraftObjectReference=wp_hormone_68
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -327,6 +331,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//---------------------------------------------------------------------------------Mi-14 Haze--------------------------------------------------------------------------------------
 AircraftObjectReference=wp_haze
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -376,6 +381,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//------------------------------------------------------------------------------------Tu-142-----------------------------------------------------------------------------------
 AircraftObjectReference=wp_tu-142_bear
 AircraftType=FIXED WING
 CruiseSpeed=384
@@ -453,7 +459,7 @@ AudioDistance=2,25
 AudioPitch=1
 [/Model]
 
-
+//-------------------------------------------------------------------------------------Il-38----------------------------------------------------------------------------------
 AircraftObjectReference=wp_il-38_may
 AircraftType=FIXED WING
 CruiseSpeed=216
@@ -509,6 +515,7 @@ AudioDistance=2,25
 AudioPitch=1
 [/Model]
 
+//-------------------------------------------------------------------------------IL-38 Early----------------------------------------------------------------------------------------
 AircraftObjectReference=wp_il-38_may_68
 AircraftType=FIXED WING
 CruiseSpeed=216
@@ -564,6 +571,7 @@ AudioDistance=2,25
 AudioPitch=1
 [/Model]
 
+//-------------------------------------------------------------------------Be-12----------------------------------------------------------------------------------------------
 AircraftObjectReference=wp_be-12_mail
 AircraftType=FIXED WING
 CruiseSpeed=173
@@ -611,8 +619,9 @@ AudioDistance=2,25
 AudioPitch=0.9
 [/Model]
 
+//**************************************************************************************************************************************************************************
 //Peoples Liberation Army Navy
-
+//-------------------------------------------------------------------------------------Z-9----------------------------------------------------------------------------------
 AircraftObjectReference=plan_z-9
 AircraftType=HELICOPTER
 CruiseSpeed=106
@@ -672,6 +681,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//----------------------------------------------------------------------------------HELIX (PLAN)-------------------------------------------------------------------------------------
 AircraftObjectReference=plan_helix
 AircraftType=HELICOPTER
 CruiseSpeed=111
@@ -719,6 +729,7 @@ AudioDistance=0.1,16
 AudioPitch=1
 [/Model]
 
+//------------------------------------------------------------------------------Y-8X-----------------------------------------------------------------------------------------
 AircraftObjectReference=plan_y-8x
 AircraftType=FIXED WING
 CruiseSpeed=300

@@ -1,4 +1,4 @@
 [Unit Reference]
 AircraftName=Y-8X
 AircraftDescriptiveName=Shaanxi Y-8X 
-History=The Shaanxi Y-8 is the Chinese variant of the Soviet Antonov An-12 Cub transport. Roughly equivalent to the US C-130, it exists in a multitude of variants, such as this adaption into a capable maritime patrol aircraft that has been fitted with surface search radar, sonobouys and homing torpedoes.
+History=Shaanxi Y-8 — китайский многоцелевой транспортный самолёт производства Shaanxi Aircraft Company. Разработан на базе советского военно-транспортного самолёта Ан-12. Имеет множество модификаций различного назначения. В 1984 году разработана версия Y-8X — базовый патрульный самолёт, оснащённый мощной обзорной РЛС Litton APSO-504, разведывательной аппаратурой, фотоаппаратурой видимого и ИК диапазонов, сбрасываемыми гидроакустическими буями и торпедами.

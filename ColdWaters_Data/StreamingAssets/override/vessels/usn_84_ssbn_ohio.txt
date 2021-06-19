@@ -31,7 +31,7 @@ EscapeDepth=1200
 PeriscopeDepthInFeet=55
 
 [Acoustics & Sensors]
-SelfNoise=117
+SelfNoise=110
 ActiveSonarReflection=34
 ActiveSonarModel=usn_an_bqq_6
 PassiveSonarModel=usn_an_bqq_6

@@ -45,8 +45,8 @@ TowedArrayPosition=-0.086,0.0,-0.617
 MissileType=usn_ugm84
 MissilesPerLauncher=3,3
 
-TorpedoTypes=usn_mk48,usn_moss,usn_ugm84,usn_tasm,usn_tlam
-TorpedoNumbers=12,3,8,0,0
+TorpedoTypes=usn_mk48,usn_moss,usn_ugm84
+TorpedoNumbers=12,3,8
 TorpedoTubes=4
 NumberOfWires=2
 TubeConfig=1,1,1,1

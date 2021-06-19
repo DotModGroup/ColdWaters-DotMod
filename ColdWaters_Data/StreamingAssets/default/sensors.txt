@@ -662,6 +662,15 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=0
 SonarOutput=220
 
+SonarModel=usn_aqs_13f
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=25
+SonarPassiveSensitivity=25
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220
+
 //PLAN SONOBUOYS
 
 //PLAN HELO DIPPING SONARS
