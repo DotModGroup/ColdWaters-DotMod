@@ -52,7 +52,7 @@ MaterialTextures=ships/civ_ms_roro/civ_ms_roro_tx,ships/civ_ms_roro/civ_ms_roro_
 Mesh=civ_ms_roro,civ_ms_roro_d
 MeshPosition=0,-0.0223,-1.1304
 MeshRudder=civ_ms_roro_rudder
-
+MeshPosition=0,0,0
 Material=ships/materials/underside
 Mesh=civ_ms_roro_undersides,civ_ms_roro_undersides_d
 

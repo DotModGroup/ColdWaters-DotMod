@@ -10,7 +10,7 @@ Quit=Выход
 =============================================================
 [DotMod ADDITION]
 QuickMission=Редактор миссии
-Quick Mission=Редактор миссии
+//Quick Mission=Редактор миссии
 
 January=Января
 February=Февраля
@@ -43,6 +43,9 @@ PrestigeChangeMissionCost=Подать рапорт? \n(- <MISSIONCOST> прес
 PrestigeChangeMissionFlavor=\n<b>РАПОРТ</b>\n\n\nВвиду состояния своего корабля и экипажа, а также объективных причин, выполнение текущей задачи для <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> считаю невозможным. Прошу поставить перед <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> другую задачу.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 PrestigeStatistics=Престиж:
+PrestigeForMissionWin=Престиж за выполнение боевой задачи: +<PRESTIGE_VALUE>
+PrestigeForMissionFail=Престиж за провал: -<PRESTIGE_VALUE>
+PrestigeForVessel=Бонус за управление <PLAYERVESSELDESIGNATION> <PLAYERVESSELCLASS>: +<PRESTIGE_VALUE>
 
 ReferenceActiveRange=Акт. режим:
 ReferenceTorpedoMaxDepth=Макс. глубина

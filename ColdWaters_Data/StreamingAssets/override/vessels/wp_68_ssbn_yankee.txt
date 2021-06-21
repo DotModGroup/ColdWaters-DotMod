@@ -43,7 +43,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m,wp_set-40
-Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_set-40
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_moss_mg-14
 TorpedoNumbers=10,4,2,4
 TorpedoTubes=7
 TubeConfig=1,1,1,1,1,1,1
@@ -66,6 +66,10 @@ AntiAirMissileReloadTime=12
 AntiAirMissileLaunchDepth=12
 AntiAirMissileLaunchPoints=0,0.1,0.192
 AntiAirMissileLaunchPointsRotation=-90,0,0
+
+[Campaign]
+PrefferedMissionType=LAND_STRIKE
+PrefferedMissionChance=0.5
 
 [Subsystems]
 LabelPosition=364.3,28
