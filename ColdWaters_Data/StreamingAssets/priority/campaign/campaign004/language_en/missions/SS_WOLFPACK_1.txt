@@ -1,17 +1,22 @@
 [ORDERS]
-1.	(§) ТАКТИЧЕСКАЯ ОБСТАНОВКА:
-Разведка сообщает что для противодействия нашим боевым соединениям действующим в районе <color=#E6B621><ENDLOCATION_RO></color> ВМС НАТО готовит к выходу в море группу дизельных подводных лодок. Лодки выйдут из <color=#CBCB2B><STARTLOCATION_RO></color> в течении суток и направятся в район действия где попытаются устроить засаду на наши корабли. Ваша задача - не допустить прорыва этих лодок к нашим надводным силам.
+1.	(S) TACTICAL SITUATION:
+NAVAL INTELLEGENCE REPORTS THAT THE ENEMY IS PREPARING A SMALL DIESEL SUB TASKFORCE TO PENETRATE OUR CURRENT NAVAL OPS AROUND <color=#E6B621><ENDLOCATION></color>. THE SUBS WILL PROBABLY LEAVE FROM <color=#CBCB2B><STARTLOCATION></color> WITHIN A DAY. THEY WILL THEN TRANSIT TO THE OPAREA AND ATTEMPT TO AMBUSH OUR SHIPS. DUE TO A LACK OF SHIPS, THE FLEET DOES NOT HAVE ENOUGH ASW ESCORTS TO HOLD OFF THIS ATTACK. PREVENT THESE BOATS FROM BREAKING THROUGH.
 
-2.	(§) ОСНОВНАЯ ЗАДАЧА:
-Найти и уничтожить вражеские ДПЛ.
-3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
-Уничтожить субмарины прикрытия.
-4.	(§) Избегать обнаружения патрульными силами противника.
-5.	(§) ППО: Код жёлтый, примение оружия только по опознанному противнику.
-6.	(§) Сохраняйте режим радиомолчания
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE ENEMY SS WOLFPACK.
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE.
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS.
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS.
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED.
+
 [MISSION WIN]
-Отличная работа! Рады слышать о ликвидации данной угрозы.
+Great job! Command is glad to hear of your success.
 [MISSION FAIL]
-Ваша неспособность уничтожить противника дорого обойдётся нашему флоту.
+Your failure will cost our fleet dearly.
 [MISSION MISSED]
-Прекращайте поиски и ожидайте дальнейших приказов.
+You missed the enemy.

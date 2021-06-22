@@ -16,7 +16,6 @@ def main():
     config = configparser.ConfigParser()
     config.read('%s/Installer.ini' % (os.getcwd()))
     modName = config['Settings']['modName']
-    #modName = 'DotMod'
     mod = '%s/ColdWaters_Data' % (os.getcwd())
     
     #Auto-locate; Simply checks likely locations for the game to be installed to       
@@ -31,31 +30,25 @@ def main():
         
     else:
         print('Auto-locate failed.')
-        installDirectory = input('Please input the directory of your Cold Waters install:')
+        installDirectory = input('Please input the directory of your Cold Waters install: ')
 
     #Make sure everything's correct:
-    if input(f'This will install {modName} to {installDirectory}. \nIs that correct? Y/N:').lower() != 'y':
-        installDirectory = input('Please input the directory of your Cold Waters install:')
+    if input(f'This will install {modName} to {installDirectory}. \nIs that correct? Y/N: ').lower() != 'y':
+        installDirectory = input('Please input the directory of your Cold Waters install: ')
         if installDirectory == 'yourmom.com':
             print('Stealing is bad, Epic.')
             input('Press Return to exit.')
             return
         
     modTarget = installDirectory + f'\\MODS\\{modName}\ColdWaters_Data'
-    #modTarget = installDirectory
         
     if modName == 'DotMod':
         #Welcome/Install instructions for the main mod
         print('\nReminder: Only download DotMod from the GitHub page. Any other downloads are *unauthorized* and cannot be verified.')
         print('If you did not download the mod\'s files from the GitHub, close this program at once and run a malware scan.')
+        input('Press Return to continue')
         print('\nThank you for choosing DotMod! This program will help you automatically install/update the mod.')
         print('If you have JSGME installed, disable all mods currently enabled, and make sure the game is closed.')
-        
-        #Delete old options to prevent starting bugs
-        delOptions = input('Have you used Epic Mod or any other mod that modifies the game\'s code since you last used DotMod? Y/N: ')
-        if os.path.exists(f'C:\\Users\\{user}\\AppData\\LocalLow\\Killerfish Games\\Cold Waters\\options.txt') and delOptions.lower() == 'y':
-            os.remove(f'C:\\Users\\{user}\\AppData\LocalLow\\Killerfish Games\\Cold Waters\\options.txt')
-            print('Please note that this has reset your options.')
             
         #Install JSGME
         JSGME = '%s/JSGME' % (installDirectory)
@@ -72,22 +65,19 @@ def main():
             print('Previous version of the mod removed.')
 
     #Install the mod
-    print('Working, please wait...\nThis may take a minute.')
+    print('Working, please wait...\nThis may take some time.')
     shutil.copytree(mod, modTarget, dirs_exist_ok=True)
     print('Mod installed.')
 
     #And we're done!
     if modName == 'DotMod':
         print(f'\nThis program is completed. Now, navigate to your Cold Waters directory, at {installDirectory}, and run JSGME.exe (if you used Epic Mod, this may be called Epic Mod Install) and enable the main mod there.')
-        #print('This program is completed. Now, navigate to your Cold Waters directory, at %s, and run the game.')
         print('Enable the main mod first, and then any addons you want over it.')
         print('Thank you for using DotMod.')
         input('Press Return to exit.')
     else:
         print(f'\nThis program is completed. Now, navigate to your Cold Waters directory, at {installDirectory}, and run JSGME.exe (if you used Epic Mod, this may be called Epic Mod Install) and enable this addon there.')
-        #print('This program is completed. Now, navigate to your Cold Waters directory, at %s, and run the game.')
         print('The installation of this addon is complete. If you experience any crashes, please remove all addons and re-enable them.')
-        #print('The installation of this addon is complete. If you experience any crashes, please remove everything in the priority folder and reinstall.')
         print('Please contact the addon\'s creator if the issue persists.')
         input('Press Return to exit.')
 

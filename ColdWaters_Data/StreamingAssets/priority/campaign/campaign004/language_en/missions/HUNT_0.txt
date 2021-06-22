@@ -1,26 +1,30 @@
 [ORDERS]
-1.	(§) ТАКТИЧЕСКАЯ ОБСТАНОВКА:
-Командование ВМФ развёртывает подводные лодки в Северной Атлантике и в рамках данной операции вам приказано выйти на боевое патрулирование. По прибытии в заданный район вы будете должны, пользуясь данными воздушной и космической разведки самостоятельно произвести поиск противника и атаковать приоритетные цели, такие как транспортные конвои и крупные корабельные соединения.
-Старайтесь избегать встреч с кораблями ПЛО и подводными лодками противника - уничтожение транспортов гораздо больше влияет на ход войны.
+1. (S) TACTICAL SITUATION:
+COMMAND IS DELPOYING SUBMARINES TO THE NORTH ATLANTIC. AS PART OF THIS OPERATION, YOU ARE ORDERED ON COMBAT PATROL. TRANSIT TO AN AREA OF YOUR CHOOSING, AND USING DATA FROM AIR AND SPACE RECONNISANCE, ATTACK AND DESTROY PRIORITY TARGETS, SUCH AS TROOP CONVOYS AND LARGE BATTLEGROUPS.
+ATTEMPT TO AVOID ENCOUNTERS WITH ENEMY ASW PATROLS AND SUBMARINES; THE DESTRUCTION OF THESE TARGETS IS INCONSIQUENTIAL IN THE OVERALL WAR EFFORT AND THEY POSE THE LARGEST THREAT OF ANY ENEMY VESSELS TO YOUR SUBMARINE.
 
-2.	(§) ОСНОВНАЯ ЗАДАЧА:
-Атаковать и уничтожить значимые цели, как то:
- - Авианосцы и линкоры
- - Танкеры и суда снабжения
- - прочие транспортные суда
+2. (S) PRIMARY OBJECTIVE:
+ATTACK AND DESTROY SIGNIFICANT TARGETS, SUCH AS:
+ - CARRIERS AND BATTLESHIPS
+ - TANKERS AND MILITARY SUPPLY VESSELS
+ - TROOP TRANSPORT SHIPS
+ - OTHER TRANSPORT VESELS
 
-3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
-Вы отправляетесь на свободную охоту и можете сами выбирать свою позицию, однако предлагаем вам обратить внимание на некоторые известные маршруты конвоев:
- - Из Бергена в порты Норвегии
- - Из Англии в Берген и европейские порты
- - Из США в Англию
+3. (S) SECONDARY OBJECTVE:
+WHILE COMMAND WILL NOT ORDER YOUR PATROL LOCATION, IT IS HIGHLY SUGGUESTED THAT YOU PATROL ALONG A MAJOR CONVOY ROUTE. THESE INCLUDE THE FOLLOWING:
+ - BERGEN NORTH ALONG THE NORWEIGEN COAST
+ - GREAT BRITAIN TO MAINLAND EUROPE
+ - ATLANTIC COVOYS FROM THE US TO GREAT BRITAIN
  
-4.	(§) Избегать обнаружения патрульными силами противника.
-5.	(§) ППО: Код жёлтый, применение оружия только по опознанному противнику.
-6.	(§) Сохраняйте режим радиомолчания. Следующий сеанс связи не ранее чем через 14 суток.
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.  (S) ROE: WARNING GREEN, WEAPONS FREE ON ENEMY VESSELS.
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
 [MISSION WIN]
-Вы хорошо поработали командир! Завершайте патрулирование.
+You did a good job, captain! 
 [MISSION FAIL]
-Командир, завершайте патрулирование.
+End your patrol. 
 [MISSION MISSED]
-Командир, ваша лодка отзывается из патруля.
+Your boat is being removed from patrol duty.

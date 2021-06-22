@@ -1,18 +1,24 @@
 [ORDERS]
-1.	(§) ТАКТИЧЕСКАЯ ОБСТАНОВКА:
-Флоту поставлена задача своими силами прекратить функционирование Норвежского рубежа СОСУС. Для её выполнения сформирована группа спецназа, которую вы должны скрытно высадить в окрестностях <color=#E6B621>Аннейи</color>. Место высадки отмечено на карте <color=lightblue>синим кругом</color>.
-ВАЖНО: Для принятия на борт группы и её снаряжения вам придётся выгрузить весь дополнительный боекомплект - учитывайте это при планировании миссии и постарайтесь избежать ненужных столкновений.
-2.	(§) ОСНОВНАЯ ЗАДАЧА:
- - 2а) Прибыть в Мурманск и <color=<SEALSONBOARD>>Принять на борт команду спецназа</color>
- - 2б) Скрытно прибыть к месту назначения и произвести высадку
-3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
-- По возможности избегать боя. Принять все меры для обеспечения незаметной высадки.
-4.	(§) Избегать обнаружения патрульными силами противника.
-5.	(§) Применение оружия только для самообороны.
-6.	(§) Сохраняйте режим радиомолчания до завершения миссии.
+1.	(S) TACTICAL SITUATION:
+THE NORWEIGEN SOSUS LINE HAS BEEN PROVIDING OUR NAVAL PLANNERS WITH A NASTY HEADACHE, AND THEREFORE MANY CURRENTLY PLANNED OPERATIONS MUST BE PUT ON HOLD DUE TO THE NEED FOR SUPRISE. THEREFORE, YOU WILL TRANSPORT AND LAND A GROUP OF SPECIALLY-TRAINED SPEC-OPS IN THE VICINITY OF <color = # E6B621> ANNEIA </color>. THE DROP-OFF POINT IS MARKED ON YOUR MAP WITH A BLUE CIRCLE <color = lightblue> </color>.
+NOTE THAT, TO TAKE ON BOARD THE TEAM AND ITS PROVISIONS, YOUR TORPEDO ROOM WILL NEED TO BE COMPLETELY EMPTIED, SO YOU WILL ONLY HAVE THE TORPEDOES IN YOUR TUBES. TAKE THIS INTO ACCOUNT WHEN PLANNING YOUR APPROACH.
+
+2.	(S) PRIMARY OBJECTIVE:
+ARRIVE IN <STARTLOCATION> AND <color = <SEALSONBOARD>>LOAD THE SPEC-OPS TEAM</color>.
+TRANSIT TO <ENDLOCATION> IN SECRET AND DEPLOY THE SPEC-OPS TEAM.
+
+3.	(S) SECONDARY OBJECTIVE:
+AVOID COMBAT IF AT ALL POSSIBLE. TAKE ALL MEASURES NECESSARY TO ENSURE A DISCREET AND STEALTHY DEPLOYMENT.
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING RED, WEAPONS ONLY TO BE USED IN SELF-DEFENSE OR TO ENSURE A SUCCESFUL DEPLOYMENT.
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
 [MISSION WIN]
-Рады слышать что высадка прошла успешно. Надеемся что спецназ не подведёт и мы сможем выходить в Норвежское море необнаруженными.<n>
+Command is glad to hear that the deployment went off without a hitch. Let's hope the team won't let us down, and that the SOSUS line will get knocked out.
 [MISSION FAIL]
-Подобные провалы недопустимы! По возвращении ожидаем от вас подробный доклад.<n>
+Failures of this magnatude are unacceptable. Upon your return to port, we expect a detailed report on why this mission has failed.
 [MISSION MISSED]
-Неспособность дойти от Мурманска до Анейи в заданные сроки вызывает сомнения в вашей профпригодности. Возвращайтесь, Главком ждёт ваших объяснений.<n>
+Your failure to transit from <STARTLOCATION> to <ENDLOCATION> in the alloted time frame is raising questions about your suitibility as a submarine captain.

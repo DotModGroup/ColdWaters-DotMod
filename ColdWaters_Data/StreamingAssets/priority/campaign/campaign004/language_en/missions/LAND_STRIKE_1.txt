@@ -1,18 +1,24 @@
 [ORDERS]
-1.	(§) ТАКТИЧЕСКАЯ ОБСТАНОВКА:
-Флоту поставлена задача вывести из строя авиабазу в <color=#E6B621><ENDLOCATION_PR></color> и для её выполнения вам предстоит нанести по ней ракетный удар. Координаты целей будут введены в ГСН ракет перед стартом и после прохождения точки активации ракеты самостоятельно наведуться на свои цели. Учитывайте наличие вражеских кораблей оснащённых ЗРК - они могут сбить ваши ракеты, что приведёт к провалу всей операции.
-2.	(§) ОСНОВНАЯ ЗАДАЧА:
- - 2а) <color=<REQUIREDWEAPONSONBOARD>>Иметь на борту <WEAPONNUMBERDIGITS> ракет П-700 «Гранит».</color> При отсутствии требуемого количества - прибыть в <STARTLOCATION_VI> и загрузить ракеты.
- - 2б) Прибыть к месту назначения и произвести пуск ракет.
- - 2в) Убедиться что все цели успешно поражены и покинуть район.
-3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
-- По возможности избегать боя. Принять все меры для обеспечения скрытности и внезапности удара.
-4.	(§) Избегать обнаружения патрульными силами противника.
-5.	(§) Применение оружия только для самообороны и обеспечения ракетного удара.
-6.	(§) Сохраняйте режим радиомолчания до завершения миссии.
+1.	(S) TACTICAL SITUATION:
+MILITARY COMMAND HAS TASKED THE NAVY TO DISABLE THE AIRBASE AT <color=#E6B621><ENDLOCATION></color>, AND YOUR BOAT HAS BEEN SELECTED TO PERFORM A PRECISION MISSILE STRIKE ON THE BASE. THE COORDINATES OF TARGETS WILL BE DOWNLINKED INTO YOUR MISSILES BEFORE LAUNCH, AND AFTER PASSING THE ACTIVATION POINT THEY WILL INDEPENDENTLY TARGET THEMSELVES. BE SURE TO LEAVE ROOM BETWEEN THE ACTIVATION POINT AND THE TARGET. CONSIDER THE POSSIBILITY THAT ENEMY SAM-ARMED SHIPS MAY ATTEMPT TO INTERCEPT YOUR MISSILES, WHICH MAY RUIN THE STRIKE'S SUCCESS.
+
+2.	(S) PRIMARY OBJECTIVE:
+<color=<REQUIREDWEAPONSONBOARD>>REARM WITH <WEAPONNUMBER> (<WEAPONNUMBERDIGITS>) <WEAPONREQUIRED> FROM <STARTLOCATION></color>
+TRANSIT TO <ENDLOCATION> AND LAUNCH <WEAPONNUMBER> (<WEAPONNUMBERDIGITS>) MISSILES AT THE TARGET. PLACE THIER ACTIVATION POINT WELL BEFORE THE TARGET TO ENSURE THEY ACTIVATED IN TIME.
+ENSURE ALL TARGETS ARE HIT. IF NOT, YOU ARE INSTRUCTED TO FIRE ANOTHER VOLLEY. THEN, LEAVE THE AREA.
+
+3.	(S) SECONDARY OBJECTIVE:
+AVOID CONTACT WITH ENEMY ASW PATROLS AND SUBMARINES. TAKE ALL MEASURES NECESSARY TO ENSURE THE SECRECY OF THIS OPERATION
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING RED, WEAPONS ONLY TO BE USED IN SELF-DEFENSE OR TO ENSURE A SUCCESFUL STRIKE
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
 [MISSION WIN]
-Спутниковые снимки показывают что цели нанесён серьёзный урон. Превосходная работа, Командир!<n>
+Satellite images show the target has suffered extensive damage. Excellent work, Captain!
 [MISSION FAIL]
-Подобные провалы недопустимы! По возвращении ожидаем от вас подробный доклад.<n>
+Failures of this magnatude are unacceptable. Upon your return to port, we expect a detailed report on why this mission has failed.
 [MISSION MISSED]
-Время упущено и в данный момент нанесение удара потеряло своё значение. Возвращайтесь.<n>
+Due to a shift in short term objectives, this strike is no longer beneficiary.

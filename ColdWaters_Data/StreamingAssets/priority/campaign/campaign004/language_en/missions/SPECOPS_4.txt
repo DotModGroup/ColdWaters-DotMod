@@ -1,18 +1,22 @@
 [ORDERS]
-1.	(§) ТАКТИЧЕСКАЯ ОБСТАНОВКА:
-По данным разведки противник планирует провести диверсионную операцию высадив спецгруппу в нашем тылу. Операция проводится в глубокой секретности и нам неизвестны ни пункт отправления, ни задачи диверсионной группы, однако есть все основания полагать что местом высадки будет <color=#E6B621><ENDLOCATION></color>.
-Подводная лодка с которой будет осуществляться высадка выйдет в море в ближайшие сутки, поэтому не теряйте времени - двигайтесь в указанный район и приступайте к патрулированию.
+1.	(S) TACTICAL SITUATION:
+SIGINT HAS RECIEVED A STRAY UNENCRYPTED COMMUNICATION INDICATING THE ENEMY IS PLANNING A SABOTAGE OPERATION USING A SEAL TEAM BY LANDING AT <color=#E6B621><ENDLOCATION> </color>. WHILE WE DO NOT KNOW THIER MISSION NOR THEIR POINT OF DEPARTURE, WE DO KNOW THAT THEY WILL BE SORTIEING WITHIN THE DAY, SO TRANIST IMMIDATELY TO <color=#E6B621><ENDLOCATION> </color> AND BEGIN A BARRIER PATROL.
 
-2.	(§) ОСНОВНАЯ ЗАДАЧА:
-Обнаружить и уничтожить вражескую лодку с диверсионной группой на борту.
-3.	(§) ДОПОЛНИТЕЛЬНАЯ ЗАДАЧА:
-Уничтожить субмарины прикрытия.
-4.	(§) Избегать обнаружения патрульными силами противника.
-5.	(§) ППО: Код жёлтый, примение оружия только по опознанному противнику.
-6.	(§) Сохраняйте режим радиомолчания
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND DESTROY THE ENEMY SUBMARINE CARRYING SPEC-OPS FORCES.
+
+3.	(S) SECONDARY OBJECTIVE:
+DESTROY ANY OTHER SUBMARINES COVERING FOR THE OPERATION
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
 [MISSION WIN]
-Отличная работа! Вражеские диверсанты отправились на дно вместе с лодкой, а <ENDLOCATION> может спать спокойно. Так держать!
+Good job. More enemy communications indicate you sank the boat carrying the team.
 [MISSION FAIL]
-Вы перехватили лодку, но не смогли её уничтожить. Подобные провалы неприемлимы.
+You failed to prevent them from deploying the team. Command is heavily dissapointed in you.
 [MISSION MISSED]
-Дальнейший поиск лодки считается непродуктивным. За это время она уж точно высадила диверсионную группу и теперь нам остаётся только ждать последствий.
+Further search deemed unproductive. While we do not yet know the results of the raid, due in part to its success, command is heavily dissapointed in your failure.
