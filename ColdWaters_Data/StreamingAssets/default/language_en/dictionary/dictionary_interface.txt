@@ -44,6 +44,10 @@ PrestigeChangeMissionCost=Fill report? \n(- <MISSIONCOST> prestige)
 PrestigeChangeMissionFlavor=\n<b>REQUEST</b>\n\n\nDue to current circumstances <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> will not be operationally effective on the assigned tasking. Request another unit is assigned and <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> is retasked.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 PrestigeStatistics=Prestige:
+PrestigeForMissionWin=Prestige for mission completion: +<PRESTIGE_VALUE>
+PrestigeForMissionFail=Prestige for failure: -<PRESTIGE_VALUE>
+PrestigeForVessel=Bonus for commanding <PLAYERVESSELDESIGNATION> <PLAYERVESSELCLASS>: +<PRESTIGE_VALUE>
+
 
 ReferenceActiveRange=Active Range
 ReferenceTorpedoMaxDepth=Max. Depth
