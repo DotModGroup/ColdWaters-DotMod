@@ -46,12 +46,12 @@ def main():
         #Welcome/Install instructions for the main mod
         print('\nReminder: Only download DotMod from the GitHub page. Any other downloads are *unauthorized* and cannot be verified.')
         print('If you did not download the mod\'s files from the GitHub, close this program at once and run a malware scan.')
-        input('Press Return to continue')
+        input('Press Return to continue. ')
         print('\nThank you for choosing DotMod! This program will help you automatically install/update the mod.')
         print('If you have JSGME installed, disable all mods currently enabled, and make sure the game is closed.')
             
         #Install JSGME
-        JSGME = '%s/JSGME' % (installDirectory)
+        JSGME = '%s/JSGME' % (os.getcwd())
         if os.path.exists(f'{installDirectory}\\JSGME.ini'):
             print('JSGME already installed.')
 
