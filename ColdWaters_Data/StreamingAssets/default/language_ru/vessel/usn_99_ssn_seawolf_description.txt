@@ -1,9 +1,9 @@
 [Unit Reference]
-ShipClass=Seawolf
-Description=Seawolf-class Nuclear Attack Submarine
-History=The Seawolf was designed to be a superlative hunter-killer submarine that could penetrate the heavily guarded Soviet boomer bastions and not only survive there, but to thrive there. The Seawolf features twice the torpedo tubes and twice the weapon load over preceding classes of nuclear attack subs, with better sensors and much better quieting than other submarines. All of this superlative performance came at a tremendous cost however, and only three of the class were built, with SSN-23 becoming a special projects boat.
+ShipClass=«Сивульф»
+Designation=АПЛ
+Description=АПЛ «Сивульф»
+History=«Сивулф» — серия многоцелевых атомных подводных лодок четвёртого поколения ВМС США, построенная в 1989—1998 гг. «Сивулфы» разрабатывались как ответ на появление в советском флоте субмарин нового поколения проекта 971 «Щука-Б» и были призваны заменить подводные лодки типа «Improved Los Angeles». Основной упор при проектировании лодки был сделан на радикальное снижение шумности путём применения звукоизолирующего покрытия нового поколения, отказа от винта в пользу водомётного движителя, разработанного в Великобритании для субмарин типа «Трафальгар», широкого внедрения датчиков шума. «Сивульф» получил в 2 раза больше торпедных аппаратов чем лодки предыдущих классов и больший боекомплект к ним, б́ольшую глубину погружения, высокую скорость и новейший гидроакустический комплекс. Однако все эти улучшения подняли стоимость постройки до заоблачных высот и в итоге состав серии был ограничен тремя кораблями, которые оказались самыми совершенными по комплексу характеристик и самыми дорогими субмаринами из всех построенных ранее.
 
 [Player Ship Instances]
 PlayerClassNames=Seawolf
-
 PlayerClassHullNumbers=SSN-21

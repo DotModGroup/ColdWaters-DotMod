@@ -18,6 +18,9 @@ AboveInscatter=27,21,33,255
 SurfaceFogDensity=0.005
 SubmergedFogDensity=0.2
 
+SurfaceFogDensityAlt=0.015
+SubmergedFogDensityAlt=0.015
+
 PrimaryLightRotation=10,180,0
 PrimaryLightIntensity=0.45
 PrimaryLightColor=148,159,195,255

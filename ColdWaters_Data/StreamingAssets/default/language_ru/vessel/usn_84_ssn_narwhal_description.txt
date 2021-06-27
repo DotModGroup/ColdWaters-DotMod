@@ -1,9 +1,9 @@
 [Unit Reference]
-ShipClass=Narwhal
-Description=Narwhal-class Nuclear Attack Submarine
-History=This is a one-off design intended to take advantage of the very quiet natural circulation S5G plant. This made it into one of the quietest boats until the emergence of the SSN-21 Seawolf in the mid-90's. The sonar and firecontrol equipment is the same as on the Sturgeon class.
+ShipClass=«Нарвал»
+Designation=АПЛ
+Description=АПЛ типа «Нарвал»
+History=«Нарвал» - многоцелевая атомная подводная лодка ВМС США, единственная подводная лодка этого типа. На ней отрабатывались инновационные решения, такие как реакторная установка S5G с естественной циркуляцией, принудительный впрыск забортной воды (более не применялся нигде), способность переключаться между основной и резервной системой подачи забортной воды, главные эжекторы воздуха вместо шумных R-114 в системе охлаждения, и непосредственно спаренные главные двигательные турбины. Малые насосы охлаждающей жидкости имели всего два состояния: включено и выключено. Результатом стал настолько низкий показатель шумности, что повторить его удалось лишь спустя 12 лет на типе «Огайо» а превзойти спустя ещё 13 лет — на субмаринах типа «Сивулф». Реактор же так и остался прототипом и помимо установленного на лодке, существовал лишь ещё один экземпляр — в национальной лаборатории Айдахо, впоследствии послуживший основой создания реакторов S8G, применённых на упомянутом типе «Огайо».
 
 [Player Ship Instances]
 PlayerClassNames=Narwhal
-
 PlayerClassHullNumbers=SSN-671

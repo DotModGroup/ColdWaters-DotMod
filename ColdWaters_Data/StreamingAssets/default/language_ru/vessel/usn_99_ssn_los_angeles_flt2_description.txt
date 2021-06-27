@@ -1,10 +1,10 @@
 [Unit Reference]
-ShipClass=Flt-2 Los Angeles
+ShipClass=«Лос-Анджелес - 2»
+Designation=АПЛ
 ShipClassShort=Л-А 2
-Description=Flt-2 Los Angeles-class Nuclear Attack Submarine
-History=This sub-class improves upon the original 688 design with anechoic tiles and increased weapon storage in the form of 12 vertical launch (VLS) tubes in the forward ballast tank that can carry either TASM anti-ship or TLAM land-strike cruise missiles.
+Description=АПЛ типа «Лос-Анджелес - 2»
+History=АПЛ типа «Лос-Анджелес» второй серии, построенные после 1982 года, оснащены боевой информационной системой CCS Mark 2 и оборудованы 12 вертикальными пусковыми установками для крылатых раке «Томагавк» в вариантах для атаки наземных и надводных целей. Также сохранена возможность пуска ПКР через торпедные аппараты. 
 
 [Player Ship Instances]
 PlayerClassNames=Providence,Pittsburgh,Chicago,Key West,Oklahoma City,Louisville,Helena,Newport News
-
 PlayerClassHullNumbers=SSN-719,SSN-720,SSN-721,SSN-722,SSN-723,SSN-724,SSN-725,SSN-750

@@ -29,11 +29,11 @@ TestDepth=0
 [Acoustics & Sensors]
 SelfNoise=185
 ActiveSonarReflection=25
-ActiveSonarModel=plan_eh_5
-PassiveSonarModel=plan_eh_5
+ActiveSonarModel=knm_ss_105
+PassiveSonarModel=knm_ss_105
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=uk_aws9
 RADARSignature=MEDIUM
 
 [Weapon Systems]

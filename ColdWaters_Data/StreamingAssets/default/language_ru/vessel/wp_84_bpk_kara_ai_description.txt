@@ -1,5 +1,10 @@
 [Unit Reference]
-ShipClass=Kara
-Description=Kara-class Large Anti-Submarine Ship
-Aircraft=1 Ka-25 Hormone ASW helicopter
-History=This class is an enlarged and improved derivative of the Kresta II design. Gas turbines have replaced the earlier steam plants, and the ships carry more extensive command and control spaces. The ASW weapons fit is identical to that of the Kresta II but AA capabilities have been improved with the addition of SA-N-4 launchers amidships. The larger size of the hull has also made it possible to fit these ships with both the Bull Nose bow sonar as well as the Mare Tail variable depth sonar also found on the Krivaks.
+Designation=БПК
+ShipClass=«Беркут-Б»
+Description=БПК пр. 1134-Б «Беркут-Б» (1984г.)
+Aircraft=1 вертолёт Ка-25
+History=Большие противолодочные корабли проекта 1134-Б «Беркут-Б» (Классификация НАТО: Kara) — тип больших противолодочных кораблей, с 1971 года состоящий на вооружении Военно-Морского Флота СССР. «Беркуты-Б» являлись важнейшей составляющей сил дальней противолодочной обороны советского Военно-Морского Флота. До появления больших противолодочных кораблей проекта 1155 они были самыми совершенными надводными противолодочными кораблями в составе флота. \nTODO:Переписать этот кошмар.
+
+[Player Ship Instances]
+PlayerClassNames=«Николаев»,«Азов»,«Очаков»,«Керчь»,«Петропавловск»,«Ташкент»,«Таллин» 
+PlayerClassHullNumbers=,,,,,,

@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/pact landing sunk
-Photo=campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 4
+Image=campaign/images/pact landing sunk,campaign/images/backgrounds/nato_convoy_defeated_1.jpg
+Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/convoy_defeated_1.jpg,campaign/images/photos/convoy_defeated_2.jpg,campaign/images/photos/convoy_defeated_3.jpg,campaign/images/photos/convoy_defeated_4.jpg,campaign/images/photos/convoy_defeated_5.jpg
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 
@@ -9,6 +9,6 @@ Outline=FALSE
 Color=180,71,64,255
 Title=<b>СНАБЖЕНИЯ НЕ БУДЕТ</b>|<b>РАЗГРОМ КОНВОЯ</b>|<b>КОНВОЙ В АД</b>|<b>МОРСКАЯ БЛОКАДА</b>
 Color=57,61,73,255
-Sentence1=Преставитель НАТО заявил, что сегодня усилиями ВМС НАТО сорвана операция противника по доставке военных грузов в <ENDLOCATION_VI> (<COUNTRY>). Конвой из транспортных судов с эскортом предпринял попытку прорыва морской блокады, однако встретив решительное сопротивление, был обращён в бегство. Количество потопленных судов противника уточняется.
+Sentence1=Преставитель СССР заявил, что сегодня усилиями ВМФ СССР сорвана операция противника по доставке военных грузов в <ENDLOCATION_VI> (<COUNTRY>). Конвой из транспортных судов с эскортом предпринял попытку прорыва морской блокады, однако встретив решительное сопротивление, был обращён в бегство. Количество потопленных судов противника уточняется.
 Color=218,218,208,255
-Sentence2=Успех недавних морских операций НАТО продолжает оказывать благотворное влияние на ход войны на суше. Бытовавшее перед войной мнение, что роль флота в конфликте будет ограниченной, оказалось несостоятельным.
+Sentence2=Успех недавних морских операций Советского Союза продолжает оказывать благотворное влияние на ход войны на суше. Бытовавшее перед войной мнение, что роль советского флота в конфликте будет ограниченной, оказалось несостоятельным.

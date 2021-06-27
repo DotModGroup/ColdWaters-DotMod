@@ -94,6 +94,12 @@ usn_sqr_19=SQR-19=The SQR-19 Tactical Array SONAR (TACTAS) is a passive towed ar
 // 3. Other nations
 //   3a) UK
 uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
+uk_2020=Type 2020=Plessey Type 2020 hull-mounted active and passive search and attack sonar.
+
+uk_2026=Sonar Type 2026=Type 2026 was a joint British and Dutch second-generation passive clip-on towed linear array sonar. Compared to its predecessor, Type 2026 had a more sensitive hydrophone, a stronger cable, a new broadband LF processor and an updated narrow-band processor.
+
+//The Type 2046 sonar system was manufactured for the UK by Ferranti and later Thales Underwater Systems and is a towed array passive search sonar. It is fitted to the V-class SSBNs, and some S and T-class SSNs.
+
 //   3b) Germany
 dm_an407=AN-407=Active-only sonar produced in early 70s. Found on submarines built in post-war Germany.
 dm_m1h=SRS-M1H=Passive-only sonar produced in late 60sthat equips submarines built in post-war Germany.
@@ -123,6 +129,9 @@ plan_ess_1=ESS-1=A Chinese license-built version of the French DUBV-43 variable 
 //   3g) France
 //   3h) Sweden
 //   3i) Norway
+knm_tsm_2633=TSM 2633=Thomson-CSF Sintra / Simrad TSM 2633 - Р°РєС‚РёРІРЅРѕ/РїР°СЃСЃРёРІРЅС‹Р№ РіРёРґСЂРѕР»РѕРєР°С‚РѕСЂ СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРјС‹Р№ РЅР° С„СЂРµРіР°С‚Р°С… РєР»Р°СЃСЃР° В«РћСЃР»РѕВ». РЎРѕРІРјРµСЃС‚РЅР°СЏ С„СЂР°РЅС†СѓР·СЃРєРѕ-РЅРѕСЂРІРµР¶СЃРєР°СЏ СЂР°Р·СЂР°Р±РѕС‚РєР°.
+knm_ss_105=Simrad SS 105=Р°РєС‚РёРІРЅРѕ/РїР°СЃСЃРёРІРЅС‹Р№ РіРёРґСЂРѕР»РѕРєР°С‚РѕСЂ РЅРѕСЂРІРµР¶СЃРєРѕР№ С„РёСЂРјС‹ Simrad РїСЂРёРјРµРЅСЏРµРјС‹Р№ РЅР° РїР°С‚СЂСѓР»СЊРЅС‹С… РєРѕСЂР°Р±Р»СЏС… РєР»Р°СЃСЃР° В«РќРѕСЂРґРєР°РїРї
+
 
 //II.Sonobuoys and dipping
 //WP SONOBUOYS
@@ -172,8 +181,8 @@ wp_don_kay=Don Kay= Typical surface-search radar used by ships to detect other v
 wp_spin_through=Spin Trough=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.
 
 wp_angara_a=MR-310 Angara-A=NATO reporting name: Head Net C. Soviet air and surface search and fire control radar developed in late 60s.
-wp_fregat=Fregat=Cемейство советских и российских трёхкоординатных РЛС корабельного базирования с облегчённым нестабилизированным антенным постом и системой электронной стабилизации лучей. Первые РЛС этого семейства вступили в строй во второй половине 70-х годов.
-wp_mr-800=МР-800 «Флаг»=По классификации НАТО: Top Pair. Cоветский комплекс дальнего радиолокационного обзора,предназначен для обнаружения воздушных и надводных целей. Комлекс состоит из двух радиолокационных станций, антенны которых расположены в антенном посту тыльными сторонами друг к другу[1]:
+wp_fregat=Fregat=CРµРјРµР№СЃС‚РІРѕ СЃРѕРІРµС‚СЃРєРёС… Рё СЂРѕСЃСЃРёР№СЃРєРёС… С‚СЂС‘С…РєРѕРѕСЂРґРёРЅР°С‚РЅС‹С… Р Р›РЎ РєРѕСЂР°Р±РµР»СЊРЅРѕРіРѕ Р±Р°Р·РёСЂРѕРІР°РЅРёСЏ СЃ РѕР±Р»РµРіС‡С‘РЅРЅС‹Рј РЅРµСЃС‚Р°Р±РёР»РёР·РёСЂРѕРІР°РЅРЅС‹Рј Р°РЅС‚РµРЅРЅС‹Рј РїРѕСЃС‚РѕРј Рё СЃРёСЃС‚РµРјРѕР№ СЌР»РµРєС‚СЂРѕРЅРЅРѕР№ СЃС‚Р°Р±РёР»РёР·Р°С†РёРё Р»СѓС‡РµР№. РџРµСЂРІС‹Рµ Р Р›РЎ СЌС‚РѕРіРѕ СЃРµРјРµР№СЃС‚РІР° РІСЃС‚СѓРїРёР»Рё РІ СЃС‚СЂРѕР№ РІРѕ РІС‚РѕСЂРѕР№ РїРѕР»РѕРІРёРЅРµ 70-С… РіРѕРґРѕРІ.
+wp_mr-800=РњР -800 В«Р¤Р»Р°РіВ»=РџРѕ РєР»Р°СЃСЃРёС„РёРєР°С†РёРё РќРђРўРћ: Top Pair. CРѕРІРµС‚СЃРєРёР№ РєРѕРјРїР»РµРєСЃ РґР°Р»СЊРЅРµРіРѕ СЂР°РґРёРѕР»РѕРєР°С†РёРѕРЅРЅРѕРіРѕ РѕР±Р·РѕСЂР°,РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ РґР»СЏ РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РІРѕР·РґСѓС€РЅС‹С… Рё РЅР°РґРІРѕРґРЅС‹С… С†РµР»РµР№. РљРѕРјР»РµРєСЃ СЃРѕСЃС‚РѕРёС‚ РёР· РґРІСѓС… СЂР°РґРёРѕР»РѕРєР°С†РёРѕРЅРЅС‹С… СЃС‚Р°РЅС†РёР№, Р°РЅС‚РµРЅРЅС‹ РєРѕС‚РѕСЂС‹С… СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РІ Р°РЅС‚РµРЅРЅРѕРј РїРѕСЃС‚Сѓ С‚С‹Р»СЊРЅС‹РјРё СЃС‚РѕСЂРѕРЅР°РјРё РґСЂСѓРі Рє РґСЂСѓРіСѓ[1]:
 
 //----------------------------------------Aircraft-------------------------------
 wp_mushroom=Short Horn=Helicopter-mounted surface search set for Ka-25BSh, optimized for ASW.
@@ -204,7 +213,10 @@ usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily
 
 //   3. Other nations
 //----------------------------------------Submarine-------------------------------
+uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. 
+
 dm_calypso=THD 1030 Calypso II=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
+uk_aws9=AWS-9=AWS-9 is an export version of Type 996 E/F-Band 3-D surveillance and target identification air/surface search radar used by the U.K. Royal Navy.
 //----------------------------------------Ship-------------------------------
 
 //----------------------------------------Aircraft-------------------------------

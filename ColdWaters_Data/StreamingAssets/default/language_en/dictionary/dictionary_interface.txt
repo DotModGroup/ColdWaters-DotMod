@@ -11,6 +11,7 @@ Quit=Quit
 [MOD ADDITION]
 QuickMission=Mission Editor
 
+
 January=January
 February=February
 March=March
@@ -28,16 +29,16 @@ Mile=n. mi
 SubsystemDiesel=Diesel
 DieselSpace=diesel space
 TubeStores=Tubes
-PrestigeCost=Current Prestige: <PRESTIGE>                         Prestige needed: <PRESTIGE_COST>
+PrestigeCostNoRank=Current Prestige: <PRESTIGE>                        Prestige needed: <PRESTIGE_COST>
+PrestigeCost=<size::24>Current Prestige: <PRESTIGE>                    Prestige needed: <PRESTIGE_COST> <color::<RANKMET>>    Rank required: <REQUIREDRANK></color></size>
 PrestigeInsufficient=Insufficient Prestige to command <DESIGNATION> <VESSELCLASS>
+RankInsufficient=Insufficient rank to command <DESIGNATION> <VESSELCLASS>
 PrestigeCurrent=Prestige: <CURRENTPRESTIGE>
 PrestigeForMission=Prestige earned: <PRESTIGEFORMISSION>\nPrestige: <CURRENTPRESTIGE>
 PrestigeChangeSub=Change vessel
 PrestigeTransferCost=File transfer request? \n(- <PRESTIGECOST> prestige)
-//PrestigeTransferCost=Fill transfer report? \n(- <PRESTIGECOST> prestige)
 PrestigeTransferNotEnough=Not enough prestige.
 PrestigeTransferFlavor=\n<b>TRANSFER REQUEST</b>\n\nI, <PLAYERNAME>, request to be relinquished of command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and transferred to another vessel.\n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
-//\n<b>TRANSFER REQUEST</b>\n\nI relinquish command of <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> and request transfer to another vessel.\n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
 
 PrestigeChangeMission=Request Retasking
 PrestigeChangeMissionCost=Fill report? \n(- <MISSIONCOST> prestige)
@@ -47,7 +48,6 @@ PrestigeStatistics=Prestige:
 PrestigeForMissionWin=Prestige for mission completion: +<PRESTIGE_VALUE>
 PrestigeForMissionFail=Prestige for failure: -<PRESTIGE_VALUE>
 PrestigeForVessel=Bonus for commanding <PLAYERVESSELDESIGNATION> <PLAYERVESSELCLASS>: +<PRESTIGE_VALUE>
-
 
 ReferenceActiveRange=Active Range
 ReferenceTorpedoMaxDepth=Max. Depth
@@ -71,6 +71,8 @@ ReferenceRBUSalvosAbb=salv.
 ReferenceGunRange=Guns range
 ReferenceSAMRange=SAM range
 ReferenceAutoSAMRange=Secondary SAM range
+
+Commander=Commander
 
 COM NORTHERN FLEET=COM NORTHERN FLEET
 GLAVCOM VMF=GLAVCOM VMF
@@ -98,7 +100,7 @@ Language=Language
 MetricSystem=Metric system
 Revert=Revert
 
-
+ReducedVisibility=Reduced Visibility
 
 ModSettings=Mod Settings
 OverrideFog=Override fog density
@@ -476,7 +478,6 @@ MouseWheel=MOUSE WHEEL
 ShiftKey=Shift
 ControlKey=Control
 AltKey=Alt
-
 
 [KEYBIND DISPLAY NAMES: COMMAND=OPTIONS DISPLAYNAME]
 Help=Help

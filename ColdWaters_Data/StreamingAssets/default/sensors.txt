@@ -1,33 +1,32 @@
 [Sonar]
 
-//I. Сонары
-// 1. СССР
-//   1а) Активные и Пассивные
-//   1б) Буксируемые
+[SONAR]
+//I. Sonar
+// 1. USSR
+//   1a) Hull-mounted
+//   1b) Towed
 // 2. USA
-//   2а) Активные и Пассивные
-//   2б) Буксируемые
-// 3. Другие нации
-//   3а) Англия
-//   3б) Германия
-//   3в) Индия
-//   3г) Италия
-//   3д) Канада
-//   3е) Китай
-//   3ж) Франция
-//   3з) Швеция
+//   2a) Hull-mounted
+//   2b) Towed
+// 3. Other nations
+//   3a) UK
+//   3b) Germany
+//   3c) India
+//   3d) Italy
+//   3e) Canada
+//   3f) China
+//   3g) France
+//   3h) Sweden
+//   3i) Norway
 //II.Sonobuoys and dipping
 //  
-//III. Радары
-//   1. СССР
-// 2. USA
-//   3. Другие нации
+//III. RADAR
+//   1. USSR
+//   2. USA
+//   3. Other nations
 
-
-//I. Сонары
-// 1. СССР
-//   1а) Активные и Пассивные
-
+// 1. USSR
+//   1a) Hull-mounted
 //-------------------------------------------New---------------------------------
 //----------------------------------------Submarine-------------------------------
 //«Марс» (пассивный) - No users atm
@@ -206,7 +205,7 @@ SonarOutput=210
 
 //*************************************************
 
-//   1б) Буксируемые
+//   1b) Towed
 
 //----------------------Sub---------------------------------
 SonarModel=wp_mgk-500_ta
@@ -316,6 +315,7 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+//usn_84_ssn_los_angeles,usn_99_ssn_los_angeles_flt2,usn_99_ssn_los_angeles_flt3,usn_99_ssn_seawolf
 SonarModel=usn_an_bqq_5
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,L
@@ -441,6 +441,26 @@ SonarBaffle=85
 SonarNoisePerKnot=1
 SonarOutput=220
 
+//Type 2020 - uk_84_ssn_trafalgar
+SonarModel=uk_2020
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+//Type 2026 - uk_84_ssn_trafalgar
+SonarModel=uk_2026
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=44
+SonarBaffle=FALSE
+SonarNoisePerKnot=3
+SonarOutput=0
+
 //   3б) Germany
 //AN-407 - knm_84_ss_kobben
 SonarModel=dm_an407
@@ -545,9 +565,28 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=1
 SonarOutput=220
 
-//   3ж) France
-//   3з) Sweden
-//   3и) Norway
+//   3g) France
+//   3h) Sweden
+//   3i) Norway
+
+//
+SonarModel=knm_tsm_2633
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M,M
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=28
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+SonarModel=knm_ss_105
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M,M
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=30
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
 
 //II.Sonobuoys and dipping
 //WP SONOBUOYS
@@ -788,11 +827,14 @@ RADARRange=173000
 
 //   3. Другие нации
 //----------------------------------------Лодочные-------------------------------
+RADARModel=uk_t1007
+RADARRange=58000
 ////THD 1030 Calypso II - knm_84_ss_kobben
 RADARModel=dm_calypso
 RADARRange=37400
 //----------------------------------------Корабельные-------------------------------
-
+RADARModel=uk_aws9
+RADARRange=50500
 //----------------------------------------Авиационные-------------------------------
 RADARModel=plan_klc_1
 RADARRange=100000

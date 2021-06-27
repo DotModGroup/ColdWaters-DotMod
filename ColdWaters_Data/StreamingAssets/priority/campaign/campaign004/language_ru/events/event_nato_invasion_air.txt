@@ -1,5 +1,5 @@
 NextAction=MAP
-Image=campaign/images/nato air 1,campaign/images/nato air 2,campaign/images/nato air 3,campaign/images/nato air 4,campaign/images/nato air 5,campaign/images/68 vietnam 1,campaign/images/68 nato air 1,campaign/images/68 nato air 2,campaign/images/73 yom kippur,campaign/images/nato naval air 1,campaign/images/nato naval air 2
+Image=campaign/images/nato air 1,campaign/images/nato air 2,campaign/images/nato air 3,campaign/images/nato air 4,campaign/images/nato air 5,campaign/images/68 vietnam 1,campaign/images/68 nato air 1,campaign/images/68 nato air 2,campaign/images/nato naval air 1,campaign/images/nato naval air 2
 Photo=campaign/images/photos/air nato 1,campaign/images/photos/air nato 2,campaign/images/photos/air nato 3,campaign/images/photos/air nato 4,campaign/images/photos/air nato 5,campaign/images/photos/air nato 6,campaign/images/photos/air nato drop 1,campaign/images/photos/air nato drop 2,campaign/images/photos/nato air 7
 Music=audio/music/Russian_Sub_Sunk_or_Captured.ogg
 Header=<DATE>

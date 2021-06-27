@@ -111,7 +111,7 @@ LabelPosition=188,-356
 LabelName=Калининград
 LabelPosition=319,-288
 LabelName=Псков
-LabelPosition=387,-352
+LabelPosition=387,-372
 LabelName=Смоленск
 LabelPosition=471,-245
 LabelName=Рыбинск
@@ -127,7 +127,7 @@ LabelName=Москва
 Text between this lines is skipped by parser.
 Treat them as mass comment
 </skip>
-
+<skip>
 Color=0,255,255,255
 Size=12
 MarkerSize=5

@@ -75,10 +75,9 @@ wp_horse_tail=Horse Tail=Larger and much more capable than Mare Tail, Horse Tail
 // 2. США
 //   2а) Активные и Пассивные
 //----------------------------------------Лодочные-------------------------------
-usn_an_bqr_2=AN/BQR-2=Derived from the German wartime GHG sonar suite as fitted on the Type XXI electroboot, the BQR-2 is a medium frequency sonar fitted to most USN subs until the Thresher/Permit class. Though adequate for its day, by the 1980's this system is woefully obsolete and nearly blind against all but the oldest Soviet boats.
-usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new digital data processing for much better performance.
+usn_an_bqr_2=AN/BQR-2=Среднечастотная ГАС, разработанная на базе немецкой GHG времён второй мировой. Устанавливалась на ряд американских подводных лодок вплоть до типа «Пермит». К 80-м годам серъёзно устарела и не могла эффективно обнаруживать современные советские лодки.usn_an_bqr_21=AN/BQR-21=Модернизированная версия BQR-2, более эффективная за счёт цифровой обработки данных.
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
-usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit- and Sturgeon class submarines.
+usn_an_bqq_2=AN/BQQ-2=Первый сферический интегрированный гидроакустический комплекс. Устанавливался на АПЛ типа «Пермит» и «Стёрджн».
 usn_an_bqq_5=AN/BQQ-5=This advanced sonar suite uses a spherical array with the latest digital signal processing techniques and was first introduced in the Los Angeles-class fast attack submarines, and subsequently to the Permit and Sturgeon classes where it replaced the analog BQQ-2 spherical array.
 usn_an_bqq_6=AN/BQQ-6=Модификация ГАК AN/BQQ-5 многоцелевых АПЛ, разработанная для ПЛАРБ класса «Огайо». Основу комплекса составляет активно-пассивная гидроакустическая станция AN/BQS-13 с ограниченными, по сравнению с установленной на AN/BQQ-5, возможностями в активном режиме. Пассивная ГАС имеет сферическую антенну диаметром 4,6 м, состоящую из 944 гидрофонов. Малая шумность ПЛАРБ «Огайо» создаёт благоприятные условия для работы станции, поэтому пассивный режим является предпочтительным.
 usn_bqq_10=AN/BQQ-10=The AN/BQQ-10 advanced sonar suite uses a spherical array with the latest digital signal processing techniques using commercial off the shelf components to provide improved performance over the older AN/BQQ-5 system, and allow faster upgrades. 
@@ -104,6 +103,9 @@ usn_sqr_19=SQR-19=Американская корабельная буксиру
 // 3. Другие нации
 //   3а) Англия
 uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
+uk_2020=Type 2020=Plessey Type 2020 hull-mounted active and passive search and attack sonar.
+
+uk_2026=Sonar Type 2026=Type 2026 was a joint British and Dutch second-generation passive clip-on towed linear array sonar. Compared to its predecessor, Type 2026 had a more sensitive hydrophone, a stronger cable, a new broadband LF processor and an updated narrow-band processor.
 //   3б) Германия
 dm_an407=AN-407=Активный гидролокатор начала 70-х годов. Устанавливался на послевоенные лодки произдства ФРГ.
 dm_m1h=SRS-M1H=Пассивная гидроакустическая станция конца 60-х годов.
@@ -137,6 +139,8 @@ plan_ess_1=ESS-1=A Chinese license-built version of the French DUBV-43 variable 
 //   3ж) Франция
 //   3з) Швеция
 //   3и) Норвегия
+knm_tsm_2633=TSM 2633=Thomson-CSF Sintra / Simrad TSM 2633 - активно/пассивный гидролокатор устанавливаемый на фрегатах класса «Осло». Совместная французско-Норвежская разработка.
+knm_ss_105=Simrad SS 105=активно/пассивный гидролокатор норвежской фирмы Simrad применяемый на патрульных кораблях класса «Нордкапп
 
 //II.Sonobuoys and dipping
 //WP SONOBUOYS
@@ -203,11 +207,6 @@ wp_mr-800=МР-800 «Флаг»=По классификации НАТО: Top Pa
 
 //wp_mr-500-MP-500 «Кливер»-По классификации НАТО: Big Net. Двухкоординатный радар дальнего обзора с механическим сканированием по азимуту.
 //wp_mr-600 MP-600 «Восход» По классификации НАТО: Top Sail. Трёхкоординатный радар дальнего обзора с механическим сканированием по азимуту и электронным сканированием по углу места.
-//
-
-//
-
-
 
 РЛС общего обнаружения МР-302 «Рубка»
 РЛС надводных целей «Линь»
@@ -254,7 +253,10 @@ usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily
 
 //   3. Другие нации
 //----------------------------------------Лодочные-------------------------------
+uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. 
+
 dm_calypso=THD 1030 Calypso II=Радиолокационная станция обнаружения надводных целей начала 60-х годов.
+uk_aws9=AWS-9=AWS-9 - экспортная версия английского радара Type 996.
 //----------------------------------------Корабельные-------------------------------
 
 //----------------------------------------Авиационные-------------------------------

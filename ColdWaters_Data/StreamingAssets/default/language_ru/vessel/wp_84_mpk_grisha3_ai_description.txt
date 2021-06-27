@@ -1,5 +1,10 @@
 [Unit Reference]
-ShipClass=Grisha III
-Description=Grisha III-class Small Anti-Submarine Ship
-Aircraft=None
-History=These are small ASW frigates that despite their size feature a heavy ASW armament coupled with a heavy self-defense armament. Their hulls handle rough seas poorly and they are difficult to refuel at sea, which restricts them to patrol and escort duties in coastal waters. Despite these drawbacks they are still capable of causing considerable grief to NATO submarines. Unlike the larger Krivaks, these ships feature a 30mm anti-missile gun as part of their self-defense armament.
+Designation=МПК
+ShipClass=«Альбатрос»
+Description=МПК пр 1124 «Альбатрос»
+
+History=Малые противолодочные корабли проекта 1124 «Альбатрос»,(НАТО: Grisha class corvette)—тип малых противолодочных кораблей, строившихся в 1970-е — 1980-е годы для Военно-Морского Флота СССР в составе двух основных серий (проекты 1124 и 1124М).
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,,,,
+PlayerClassHullNumbers=МПК-31,МПК-33,МПК-47,МПК-3,МПК-139,МПК-190,МПК-198,МПК-202,МПК-113,МПК-10

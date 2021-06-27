@@ -29,18 +29,20 @@ Mile=n. mi
 SubsystemDiesel=Дизель
 DieselSpace=Дизельный отсек
 TubeStores=TA
-PrestigeCost=Престиж: <PRESTIGE>                         Необходимо престижа: <PRESTIGE_COST>
+PrestigeCostNoRank=Престиж: <PRESTIGE>                         Необходимо престижа: <PRESTIGE_COST>
+PrestigeCost=<size::24>Престиж: <PRESTIGE>                     Необходимо престижа: <PRESTIGE_COST> <color::<RANKMET>>    Необходимо звание: <REQUIREDRANK></color></size>
 PrestigeInsufficient=Недостаточно престижа для командования <DESIGNATION> <VESSELCLASS>
+RankInsufficient=Для командования <DESIGNATION> <VESSELCLASS> необходимо звание <REQUIREDRANK>
 PrestigeCurrent=Престиж: <CURRENTPRESTIGE>
 PrestigeForMission=Получено престижа: <PRESTIGEFORMISSION>\nПрестиж: <CURRENTPRESTIGE>
 PrestigeChangeSub=Сменить корабль
 PrestigeTransferCost=Подать рапорт о переводе? \n(- <PRESTIGECOST> престижа)
 PrestigeTransferNotEnough=Недостаточно престижа.
-PrestigeTransferFlavor=\n<b>РАПОРТ</b>\n\n\n\nПрошу освободить меня от занимаемой должности командира <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> \n\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
+PrestigeTransferFlavor=\n<b>РАПОРТ</b>\n\n\n\nПрошу освободить меня от занимаемой должности командира <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> \n\n\n--------------------------------------------------\n\n<DATE>			<PLAYER_RANK> <PLAYERNAME>\n
 
 PrestigeChangeMission=Отказаться от миссии
 PrestigeChangeMissionCost=Подать рапорт? \n(- <MISSIONCOST> престижа)
-PrestigeChangeMissionFlavor=\n<b>РАПОРТ</b>\n\n\nВвиду состояния своего корабля и экипажа, а также объективных причин, выполнение текущей задачи для <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> считаю невозможным. Прошу поставить перед <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> другую задачу.\n\n--------------------------------------------------\n\n<DATE>			<PLAYERNAME>\n
+PrestigeChangeMissionFlavor=\n<b>РАПОРТ</b>\n\n\nВвиду состояния своего корабля и экипажа, а также объективных причин, выполнение текущей задачи для <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> считаю невозможным. Прошу поставить перед <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> другую задачу.\n\n--------------------------------------------------\n\n<DATE>			<PLAYER_RANK> <PLAYERNAME>\n
 
 PrestigeStatistics=Престиж:
 PrestigeForMissionWin=Престиж за выполнение боевой задачи: +<PRESTIGE_VALUE>
@@ -52,6 +54,7 @@ ReferenceTorpedoMaxDepth=Макс. глубина
 ReferenceWireGuided=Телеуправление: Есть
 ReferencePayload=Параметры сбрасываемой торпеды:
 ReferenceMinRange=Минимальная дальность пуска
+//Yes, "at" cause "at xxxm depth"
 ReferenceOn=на
 ReferenceType=Тип: 
 ReferenceTorpedoNumbers=Боекомплект к ТА:
@@ -68,6 +71,8 @@ ReferenceRBUSalvosAbb=злп
 ReferenceGunRange=Дальность орудий
 ReferenceSAMRange=Дальность ЗРК
 ReferenceAutoSAMRange=Дальность ЗРК ПРО
+
+Commander=Командир
 
 GLAVCOM VMF=ГЛАВКОМ ВМФ
 COM NORTHERN FLEET=КОМ. СЕВ. ФЛОТА
@@ -94,6 +99,8 @@ DepthVeryDeep=Очень глубоко
 Language=Язык текста
 MetricSystem=Метрическая система
 Revert=Сброс
+
+ReducedVisibility=Пониженная видимость
 
 CrewVoiceLanguage=Язык озвучки экипажа
 Russian=Русский

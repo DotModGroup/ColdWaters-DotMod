@@ -1,10 +1,10 @@
 [Unit Reference]
-ShipClass=Flt-3 Los Angeles
+ShipClass=«Лос-Анджелес - 3»
+Designation=АПЛ
 ShipClassShort=Л-А 3
-Description=Flt-3 Los Angeles-class Nuclear Attack Submarine
-History=This class is an improved version of the original 688 design that adds improved quieting, the improved BSY-1 combat control system, under-ice capability and increased weapon storage in the form of 12 vertical launch (VLS) tubes in the forward ballast tank that can carry either TASM anti-ship or TLAM land-strike cruise missiles.
+Description=АПЛ типа «Лос-Анджелес - 3»
+History=Дальнейшее развитие АПЛ типа «Лос-Анджелес». Третья серия оснащалась улучшеной системой управления боем BSY-1 и также как и вторая имела установку вертикального пуска. Отличительной особенностью серии стали горизонтальные рули перенсённые с рубки на переднюю часть корпуса. 
 
 [Player Ship Instances]
 PlayerClassNames=San Juan, Pasadena, Albany, Topeka, Miami, Scranton, Alexandria, Asheville, Jefferson City, Annapolis, Springfield, Columbus, Santa Fe, Boise, Montpelier, Charlotte, Hampton, Hartford, Toledo, Tucson, Columbia, Greeneville, Cheyenne
-
 PlayerClassHullNumbers=SSN-751,SSN-752,SSN-753,SSN-754,SSN-755,SSN-756,SSN-757,SSN-758,SSN-759,SSN-760,SSN-761,SSN-762,SSN-763,SSN-764,SSN-765,SSN-766,SSN-767,SSN-768,SSN-769,SSN-770,SSN-771,SSN-772,SSN-773

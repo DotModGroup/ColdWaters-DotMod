@@ -25,6 +25,6 @@ WHILE COMMAND WILL NOT ORDER YOUR PATROL LOCATION, IT IS HIGHLY SUGGUESTED THAT 
 [MISSION WIN]
 You did a good job, captain! 
 [MISSION FAIL]
-End your patrol. 
+End your patrol.
 [MISSION MISSED]
 Your boat is being removed from patrol duty.

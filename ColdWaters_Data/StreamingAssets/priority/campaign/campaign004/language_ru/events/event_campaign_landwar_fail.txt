@@ -1,4 +1,4 @@
-NextAction=END
+NextAction=event_campaign_fail_2
 Image=campaign/images/68 nato victory,campaign/images/usn victory 2
 Photo=campaign/images/photos/riot 1,campaign/images/photos/protests 1,campaign/images/photos/protests 2
 Music=audio/music/Cold Waters Loss Gulag
