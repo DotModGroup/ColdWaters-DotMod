@@ -5,6 +5,7 @@ PlayerVessels=testship,wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ss
 CommanderName=COM NORTHERN FLEET
 CommanderFleetName=GLAVCOM VMF
 
+PrestigeMode=TRUE
 //Easy, Normal, Hard, Elite
 StartingPrestige=400,200,0,0
 LoadoutType=1
