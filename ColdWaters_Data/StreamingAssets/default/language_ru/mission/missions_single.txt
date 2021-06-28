@@ -21,3 +21,10 @@
 <color=Yellow>Территориальный спор</color>
 <color=Yellow>Неглубокая могила</color>
 <color=Yellow>Внешняя торговля</color>
+<color=Cyan>Metal and Ice</color>
+<color=Cyan>The Setting Sun</color>
+<color=Cyan>Opening Shots</color>
+<color=Cyan>Hunters</color>
+<color=Cyan>Polar Glory</color>
+<color=Cyan>Red Waters</color>
+<color=Cyan>Hunting the Arctic Wolf</color>
