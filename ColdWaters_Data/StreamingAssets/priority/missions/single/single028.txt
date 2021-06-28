@@ -1,0 +1,33 @@
+UseTerrain=TRUE
+MapCoordinates=1551,1063
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=6 JAN 1985
+Hemisphere=North
+Time=1600
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,2-3,3-4,1-1
+CombatBehaviour=DEFENSIVE,DEFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=wp_84_takr_kiev_ai,wp_68_kr_sverdlov_ai,wp_84_bpk_udaloy_ai|wp_84_bpk_kresta2_ai|wp_84_bpk_kara_ai,wp_bdk_alligator|wp_bdk_ropucha|wp_vtr_amguema,wp_84_ssn_victor3|wp_84_ss_tango
+FormationCruiseSpeed=12
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_04_ssn_virginia,usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT
