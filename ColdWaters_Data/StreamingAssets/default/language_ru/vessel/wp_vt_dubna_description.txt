@@ -1,4 +1,5 @@
 [Unit Reference]
-ShipClass=Dubna
-Description=Dubna-class fleet oiler
-History=The four ships in this class, built between 1974 to 1979, are small replenishment ships intended to support warships as well as the Soviet fishing fleet. Large kingposts and a constant-tension station transfer fuel and dry stores to ships on either side and over the stern. Compared to US UNREP ships, they are slower and lack helicopter facilities.
+Designation=СО
+ShipClass=«Дубна»
+Description=Танкер типа «Дубна»
+History=Танкеры типа «Дубна» — серия из четырёх средних морских танкеров, строившихся в 1970-х годах в Финляндии для Военно-Морского Флота СССР. Относится к морским судам обеспечения ВМФ. Служат для обеспечения кораблей и подводных лодок дизельным топливом, мазутом, авиационным керосином, моторным маслом, водой и продовольствием.

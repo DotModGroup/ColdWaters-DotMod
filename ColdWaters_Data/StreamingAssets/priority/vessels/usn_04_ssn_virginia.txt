@@ -62,13 +62,13 @@ MissilesPerLauncher=4,4
 MissileType=usn_tasm
 MissilesPerLauncher=4,4
 
-AntiAirMissileType=usn_siam
-AntiAirMissilesNumbers=6
-AntiAirMissilesPerTarget=1
-AntiAirMissileReloadTime=2
-AntiAirMissileLaunchDepth=200
-AntiAirMissileLaunchPoints=0.01,0.05,0.58|-0.004,0.05,0.58|-0.01,0.05,0.58|0.004,0.05,0.58|0.01,0.05,0.59|-0.004,0.05,0.59|-0.01,0.05,0.59|0.004,0.05,0.59
-AntiAirMissileLaunchPointsRotation=-90,0,0
+-AntiAirMissileType=usn_siam
+-AntiAirMissilesNumbers=6
+-AntiAirMissilesPerTarget=1
+-AntiAirMissileReloadTime=2
+-AntiAirMissileLaunchDepth=200
+-AntiAirMissileLaunchPoints=-0.005,0.1,0.465|0.005,0.1,0.465|0.005,0.1,0.455|-0.005,0.1,0.455|0.005,0.1,0.445|-0.005,0.1,0.445
+-AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
@@ -122,8 +122,7 @@ MeshHullCollider=usn_ssn_virginia_coll_hull
 MeshSuperstructureCollider=usn_ssn_virginia_coll_ss
 
 Material=assets/materials/usn_ssn_virginia.mat
-MaterialTextures=Assets/Textures/usn_ssn_virginia_tex.png,Assets/Textures/usn_ssn_virginia_spec.png,FALSE
-//assets/texture/usn_ssn_virginia_nm.png
+MaterialTextures=Assets/Textures/usn_ssn_virginia_tx.png,Assets/Textures/usn_ssn_virginia_spec.png,FALSE
 
 Mesh=usn_ssn_virginia_hull
 Mesh=usn_ssn_virginia_sail

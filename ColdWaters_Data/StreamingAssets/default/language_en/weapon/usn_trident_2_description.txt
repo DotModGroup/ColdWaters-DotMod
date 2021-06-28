@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=D5 Trident II
-WeaponDescriptiveName=UGM-133 Trident II
-WeaponDescription=The UGM-133 Trident II is a development of the proceeding C4 Trident. It is some 10 feet longer (~3 meters), which allows it to carry more warheads at a greater range. Because of it's size, it can only be fitted in the Ohio, Columbia, and Vanguard-class SSBN's. The missile first entered service with the USN in 1990, and has since been exported to the Royal Navy.

@@ -9,4 +9,4 @@ Outline=FALSE
 Color=57,61,73,255
 Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
 Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><PLAYER_RANK> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18>медалью</size><n><n><size=22>"ЗА ОТЛИЧИЕ В ВОИНСКОЙ СЛУЖБЕ<n> II СТЕПЕНИ"</size></b>
-Sentence2=<n>За отвагу и грамотные действия  во время боевого похода.  <DATE> в районе <PLAYERMAPREGION>  <PLAYER_RANK> <PLAYERNAME>, командуя <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL>, решительным ударом причинил значительный ущерб противнику, чем способствовал борьбе против врагов Социалистической Родины.
+Sentence2=<n>За отвагу и грамотные действия  во время боевого похода.  <DATE> в районе <PLAYERMAPREGION>, <PLAYER_RANK_l> <PLAYERNAME>, командуя <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL>, решительным ударом причинил значительный ущерб противнику, чем способствовал борьбе против врагов Социалистической Родины.

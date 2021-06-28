@@ -1,6 +1,7 @@
 [Unit Reference]
-ShipClass=Ugra
-Description=Ugra-class submarine tender
-DefensiveWeapons=57mm AA Guns
-Sensors=Navigation radar only
-History=Completed between 1963 and 1972, these six ships are follow-on design to the earlier Don class. They are designed to maintain and support submarines at sea, and carry weapons, food, water and relief crews in addition to providing extensive repair facilities. Like the Dons, they are intended to operate as flagships in addition to their support role. Because they carry only rudimentary AA weapons for self-defense, they will usually operate with surface escorts.
+Designation=ПБ
+ShipClass=«Югра»
+Description=Плавбазы проекта 1886
+Sensors=Только навигационный радар
+History=Плавбазы проекта 1886 (Классификация НАТО: Ugra) — серия из 6 советских плавучих баз подводных лодок, построенных в период 1963 - 1972 годов в г. Николаеве. Они являются увеличенным вариантом плавбаз проекта 310(«Дон») и имеют более крупную надстройку, которая примыкает к короткой дымовой трубе. На них установлены один 10 - т. и два 6 - тонных крана. Плавучая база могла обслуживать две подводные лодки проекта 629 или проекта 651 или атомную подводную лодку 1-го поколения. На плавучей базе проекта 1886 могли храниться 44 торпеды калибра 533 и 400-мм. Также как и предшествующий класс, эти корабли могли выполнять роль флагмана соединения подводных лодок.
+\nПримечание: Обозначение класса «Югра» не встречается в русскоязычных источниках и по-видимому используется только НАТО. Однако мы будем использовать его в игре для простоты запоминания.

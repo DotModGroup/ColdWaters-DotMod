@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=
 ShipClass=«Юный партизан»
 ShipClassShort=«Партизан»
 Description=Средний сухогрузный транспорт пр.740/2В 

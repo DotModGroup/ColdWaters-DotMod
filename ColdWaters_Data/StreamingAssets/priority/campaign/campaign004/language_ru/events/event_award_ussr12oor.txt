@@ -9,4 +9,4 @@ Outline=FALSE
 Color=57,61,73,255
 Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
 Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><PLAYER_RANK> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ ОКТЯБРЬСКОЙ РЕВОЛЮЦИИ"</size></b>
-Sentence2=<n>За особые отвагу и мужество, проявленные в боях с врагами Советского государства. Во время войны <PLAYER_RANK> <PLAYERNAME>, командуя <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> выполнил множество блестящих атак против сил НАТО, показав при этом качества присущие лучшим сынам Отечества.
+Sentence2=<n>За особые отвагу и мужество, проявленные в боях с врагами Советского государства. Во время войны <PLAYER_RANK_l> <PLAYERNAME>, командуя <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> выполнил множество блестящих атак против сил НАТО, показав при этом качества присущие лучшим сынам Отечества.

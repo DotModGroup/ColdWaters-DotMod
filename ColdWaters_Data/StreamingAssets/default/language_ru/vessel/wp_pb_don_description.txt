@@ -1,7 +1,9 @@
 [Unit Reference]
-ShipClass=Don
-Description=Don-class submarine tender
-DefensiveWeapons=57mm AA Guns
-OffensiveWeapons=100mm Guns
-Sensors=Navigation radar only
-History=Seven of these ships were built between 1958 to 1961. They were designed to support Soviet submarines on distant operations, and as such were given significant self-defence armament and electronic warfare capabilities. The ship has several cranes for transferring weapons and stores, and below decks are workshops for conducting repairs and berths for relief crews. In addition to their support role, they are also intended to serve as flagships for a detachment of submarines.
+Designation=ПБ
+ShipClass=«Дон»
+Description=Плавбаза проекта 310
+Sensors=Только навигационный радар
+History=Плавбазы проекта 310 (Классификация НАТО: Don) — серия из 7 советских плавучих баз подводных лодок, построенных в период 1958 - 1962г. Плавбаза могла обслуживать четыре подводные лодки проекта 611 или проекта 613. Оборудование плавбазы было способно обеспечить навигационный и аварийный ремонт корпуса, механизмов и вооружения и хранение в специальном помещении 42 торпеды калибра 533-мм. В носовой оконечности корабля размещался 100-тонный кран. Помимо непосредственно снабжения, эти корабли могли выполнять роль флагмана соединения подводных лодок.
+\nПримечание: Обозначение класса «Дон» не встречается в русскоязычных источниках и по-видимому используется только НАТО. Однако мы будем использовать его в игре для простоты запоминания.
+
+Семь из этих кораблей были построены в период с 1958 по 1961 год. Они были спроектированы для поддержки советских подводных лодок в дальних операциях и, как таковые, обладали значительными средствами самообороны и средствами радиоэлектронной борьбы. На корабле есть несколько кранов для переброски оружия и запасов, а под палубой - мастерские для проведения ремонта и причалы для спасательных бригад. В дополнение к их вспомогательной роли они также предназначены для использования в качестве флагманов отряда подводных лодок.

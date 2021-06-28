@@ -1,4 +1,5 @@
 [Unit Reference]
-ShipClass=Kazbek
-Description=Kazbek-class fleet oiler
-History=Some 50 of these ships were built as commercial tankers during the 1950's, some being assigned to the Navy since 1960. The class bears a strong resemblance to the wartime US T-2 tankers, but refitted for underway replenishment with a large two-legged mast and smaller cranes for replenishment of dry stores, while refuelling is limited to a single ship using the inefficient stern refuelling method.
+Designation=СО
+ShipClass=«Казбек»
+Description=Танкер пр. 563, тип «Казбек»
+History=Первый послевоенный проект танкера в СССР. Более 60 кораблей этого типа были построены в 50-х годах для коммерческого судоходства. В 60-х часть из них была передана ВМФ для использования в качестве судов поддержки. Помимо заправки кораблей в море, также способны осущестлять перегрузку сухих грузов, для чего оснащены большой двуногой мачтой и дополнительными кранами.

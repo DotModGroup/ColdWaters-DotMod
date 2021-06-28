@@ -1,4 +1,6 @@
 [Unit Reference]
-ShipClass=Chilikin
-Description=Boris Chilikin-class fleet oiler
-History=The six ships in this class, completed between 1967 and 1978, are modern large replenishment/refueling ships comparable to similar ships in western service. The class is outfitted with large kingposts for underway refuelling of two ships at once to either side or astern, and the forward kingpost has a constant-tension station for transferring supplies. Cargo capacity is 13,500 tons of fuel and fresh water, 400 tons of munitions, and 800 tons of stores and provisions.
+Designation=СО
+ShipClass=«Борис Чиликин»
+ShipClassShort=«Чиликин»
+Description=Танкер пр. 1559-В, тип «Борис Чиликин»
+History=Танкеры-заправщики проекта 1559-В, проектный шифр «Морской простор», тип «Борис Чиликин» — серия из шести больших морских танкеров (фактически — танкеров комплексного снабжения), строившихся в 1970-х годах для Военно-Морского Флота СССР. Представляют собой вариант гражданского танкера типа «Великий Октябрь», которые строились для советского торгового флота и на экспорт. Они стали первыми океанскими судами снабжения в ВМФ СССР, способными передавать не только топливо, но и другие грузы. Грузовместимость танкера этого типа составляет 13000 т. котельного и дизельного топлива, 500 т. пресной воды, 400 т. продовольствия, 400 т. боеприпасов и 400 т. других предметов МТО.
