@@ -1,7 +1,7 @@
 Image=campaign/images/pact ssbn
 MissionLocation=Denmark Strait
 Briefing=27 JUNE 1994
-Briefing=Soviet ballistic missile submarines have behan operating under the Arctic ice cap. NATO submarines have found the suspected location of a Typhoon and its escorts. You are ordered to destroy it.
+Briefing=Soviet ballistic missile submarines have been operating under the Arctic ice cap. NATO submarines have found the suspected location of a Typhoon and its escorts. You are ordered to destroy it.
 Briefing=Primary Objective:
 Briefing=Sink the Typhoon
 Briefing=
