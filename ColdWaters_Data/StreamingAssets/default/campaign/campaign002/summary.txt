@@ -3,16 +3,4 @@ PlayerVessels=usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
 [COMMANDER NAMES]
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT
-
-//Easy, Normal, Hard, Elite
-StartingPrestige=400,200,0,0
 LoadoutType=0
-[Prestige Cost]
-wp_68_ss_whiskey=0
-wp_68_ss_romeo=10
-wp_68_ss_foxtrot=20
-wp_68_ssg_juliet=40
-wp_68_ssn_november=100
-wp_68_ssn_victor1=300
-wp_68_ssgn_echo2=120
-wp_68_ssgn_charlie1=200
