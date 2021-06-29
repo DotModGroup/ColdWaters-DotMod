@@ -1,4 +1,4 @@
-MissionType=LANDING_FORCE
+MissionType=ASUW_STRIKE
 HoursToStart=30,40
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
