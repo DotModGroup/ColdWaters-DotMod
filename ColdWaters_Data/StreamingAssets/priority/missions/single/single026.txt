@@ -1,0 +1,33 @@
+UseTerrain=TRUE
+MapCoordinates=1140,1160
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+//Environment
+Date=16 APR 2004
+Hemisphere=North
+Time=1400
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=2-2,1-1,1-2,1-1
+CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_em_sovremenny_ai|wp_68_rkr_kresta1_ai,wp_84_bpk_udaloy_ai,wp_84_bpk_kara_ai|wp_84_bpk_kresta2_ai,wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3
+FormationCruiseSpeed=18
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_04_ssn_virginia,usn_99_ssn_seawolf,usn_99_ssn_los_angeles_flt3,usn_99_ssn_los_angeles_flt2,usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

@@ -1,0 +1,35 @@
+UseTerrain=TRUE
+MapCoordinates=2975,2000
+
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
+
+
+//Environment
+Date=23 APR 2004
+Hemisphere=North
+Time=1300
+UsePresetEnvironment=TRUE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,3-4
+CombatBehaviour=DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE
+EnemyShipClasses=wp_84_ssbn_typhoon,wp_84_ssn_sierra|wp_84_ssn_victor3|wp_84_ssn_akula1
+//Ship positions and headings, otherwise build into a formation
+
+//Enemy Aircraft
+NumberOfHelicopters=0
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=usn_04_ssn_virginia,usn_99_ssn_seawolf,usn_99_ssn_los_angeles_flt3,usn_99_ssn_los_angeles_flt2,usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT
