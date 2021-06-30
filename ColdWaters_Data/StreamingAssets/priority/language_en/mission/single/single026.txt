@@ -1,0 +1,10 @@
+Image=campaign/images/TransitImages/sovremenny_02.jpg
+MissionLocation=East of Iceland
+Briefing=16 FEB 2004
+Briefing=Following hostilities breaking out between the East and West, a Soviet raider group has left Archangel to block convoy routes. 
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink the ASuW Ships
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink the escorting warships
