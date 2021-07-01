@@ -1,7 +1,7 @@
-Image=campaign/images/nato convoy
-MissionLocation=Возле Тайваня
-Briefing=24 декабря 2000
-Briefing=Конвой США пытается доставить на Тайвань военнную технику и боеприпасы. Вам приказано воспрепятствовать этому.
+Image=campaign/images/pact wolfpack 1
+MissionLocation=Северная Атлантика
+Briefing=18 октября 1984г
+Briefing=После успешного прорыва в Северную Атлантику, начинается ваша охота за конвоями НАТО.
 Briefing=
 Briefing=Основная задача:
 Briefing=Потопить вражеские транспорты

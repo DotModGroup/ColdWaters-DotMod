@@ -1,9 +1,13 @@
-//Busted
-Image=campaign/images/pact surface raiders 2
-MissionLocation=Norvegian Sea
-Briefing=06 MAY 1985
-Briefing=You've been detected while crossing SOSUS barrier and must defend yourself.
+//Strike From The Sea
+
+Image=campaign/images/nato missile land attack
+MissionLocation=Paracel Islands, South China Sea
+Briefing=27 MAR 1999
+Briefing=Perform a strike with cruise missiles to deliver a crushing blow deep in the PRC's backyard.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy ships
+Briefing=Add 8 TLAM missiles to stores
+Briefing=Fire 8 TLAMs into the deployment zone
 Briefing=
+Briefing=Secondary Objective:
+Briefing=Engage enemy warships

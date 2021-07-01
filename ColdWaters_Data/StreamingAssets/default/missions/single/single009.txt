@@ -1,4 +1,4 @@
-//Intercept
+//One versus All
 
 UseTerrain=TRUE
 MapCoordinates=870,999

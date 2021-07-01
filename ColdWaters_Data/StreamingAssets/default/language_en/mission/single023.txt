@@ -1,10 +1,10 @@
-Image=campaign/images/nato convoy
-MissionLocation=Near Taiwan
-Briefing=24 DEC 2000
-Briefing=A US convoy is en route to Taiwan to deliver military supplies and equipment. You orders are to prevent the transports from reaching their destination.
+Image=campaign/images/pact wolfpack 1
+MissionLocation=In the North Atlantic
+Briefing=18 OCT 1984
+Briefing=After successfully breaking out into the North Atlantic your hunt for NATO convoys begins.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy transports
+Briefing=Sink enemy transport ships
 Briefing=
 Briefing=Secondary Objective:
 Briefing=Sink enemy escorts

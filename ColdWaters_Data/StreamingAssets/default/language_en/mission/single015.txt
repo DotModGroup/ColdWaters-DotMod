@@ -1,7 +1,11 @@
-Image=campaign/images/pact wolfpack 3
-MissionLocation=In the Denmark Strait
-Briefing=14 NOV 1984
-Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
-Briefing=
+//Red Waters
+
+Image=campaign/images/pact naval 2
+MissionLocation=Denmark Strait
+Briefing=14 MAY 1984
+Briefing=The Red Army has crossed the Fulda Gap and Soviet forces have taken Iceland. With the complete collapse and withdrawal of NATO naval forces near the GIUK Gap, a large raider group has crossed into the Atlantic.
 Briefing=Primary Objective:
-Briefing=Sink enemy escorts
+Briefing=Sink the capital ships
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink the escorting warships

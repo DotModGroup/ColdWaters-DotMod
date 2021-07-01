@@ -1,17 +1,19 @@
-//Ambush
+//Action In The North Atlantic
 
 UseTerrain=TRUE
-MapCoordinates=2381,1287
-
+//MapCoordinates=3165,1066
+//MapCoordinates=2530,1070
+//MapCoordinates=128,128
+MapCoordinates=1071,1447
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
 
 //Environment
-Date=14 NOV 1984
+Date=25 MAY 1968
 Hemisphere=North
-Time=1200
+Time=1100
 UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=LightBreeze
@@ -19,18 +21,43 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1
-CombatBehaviour=OFFENSIVE
-EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_narwhal|usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
+NumberOfEnemyUnits=1-2,1-3,1-2,1-1
+CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE
+EnemyShipClasses=wp_68_bpk_kashin_ai|wp_68_em_kotlin_ai,wp_vt_kazbek|wp_vtr_andizhan_mod,wp_68_rkr_kresta1_ai|wp_68_kr_sverdlov_ai|wp_84_pkr_moskva_ai,wp_68_ssn_november|wp_68_ssn_victor1|wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ss_whiskey
+FormationCruiseSpeed=12
+
 //Ship positions and headings, otherwise build into a formation
+UsePresetPositions=FALSE
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+EnemyWaypoints=0,-100|0,100
+EnemyWaypoints=10,-100|10,100
+EnemyWaypoints=20,-100|20,100
+//EnemyWaypoints=30,-100|30,100
+//EnemyWaypoints=40,-100|40,100
+//EnemyWaypoints=50,-100|50,100
 
 //Enemy Aircraft
 NumberOfHelicopters=0
-HelicopterType=usn_sh-2f
+HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
-CommanderName=COM NORTHERN FLEET
-CommanderFleetName=GLAVCOM VMF
+//Aircraft Search Areas
+//Define a point and radius
+//AircraftSearchArea=-100,-100,100
+//AircraftSearchArea=100,100,100
+//AircraftSearchArea=0,0,300
+
+//Drop passive sonobouys as barriers
+//Array of Vector 2 positions
+SonobouyLocations=0,-100|50,100|-50,-100
+
+//spawn minefields and set detection range
+//Static mines and torpedo mines
+
+PlayerVessels=usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

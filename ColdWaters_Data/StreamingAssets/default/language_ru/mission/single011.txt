@@ -1,7 +1,10 @@
-Image=campaign/images/68 pact naval 1
-MissionLocation=Denmark Strait, near Iceland
-Briefing=04 FEB 1968
-Briefing=You've made contact with a Soviet open-ocean ASW group, including a helicopter carrier, that is attempting to break out into the North Atlantic with intent to hunt our Polaris submarines there. 
+Image=campaign/images/68 pact surface raiders 1
+MissionLocation=Norwegian Sea
+Briefing=16 DEC 1984
+Briefing=A Soviet flotilla consisting of various warships has sortied from Murmansk to interdict trans-Atlantic convoys. Among them is a Sverdlov gun cruiser, destroy the Sverdlov before it can threaten NATO convoys.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink the Moskva
+Briefing=Sink the Sverdlov
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink the escorting warships

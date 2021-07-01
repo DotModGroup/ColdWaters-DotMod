@@ -1,12 +1,12 @@
-//Intercept
+//One versus All
 
-Image=campaign/images/backgrounds/nato_perry_firing.png
+Image=campaign/images/backgrounds/nato_perry_firing_0.jpg
 MissionLocation=In the vicinity of the North Cape
 Briefing=19 MAR 1984
-Briefing=A Sturgeon-class SSN encounters a massive soviet surface strike group off the North Cape. The centerpiece of the group is every fast attack skippers dream: A Kirov-class battlecruiser.
+Briefing=A US surface unit encounters a massive Soviet strike group off the North Cape. The centerpiece of the group is every captian's nightmare: A Kirov-class battlecruiser.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Penetrate the group's ASW defenses and sink the Kirov
+Briefing=Survive
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Survive
+Briefing=Sink as many enemy vessels as possible

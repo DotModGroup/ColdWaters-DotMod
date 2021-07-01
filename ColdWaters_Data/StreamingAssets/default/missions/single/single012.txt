@@ -1,37 +1,35 @@
-//Junks On Parade
+//Opening Shots
 
 UseTerrain=TRUE
-//MapCoordinates=1814,447
-MapCoordinates=1953,1008
-
-MapNavigationData=campaign/images/maps/south_china_sea_navmap
-MapElevationData=campaign/images/maps/south_china_sea_bathymetry
-WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic
-
+MapCoordinates=1140,1160
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=20 AUG 2000
+Date=27 FEB 1984
 Hemisphere=North
-Time=0700
+Time=1400
 UsePresetEnvironment=TRUE
-Weather=Broken
+Weather=Clear
 SeaState=LightBreeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-2,2-4,4-6,0-1
-CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,TRUE,FALSE
-EnemyShipClasses=plan_ddg_sovremenny,wp_bpk_84_udaloy_ai|plan_ddg_luda3|plan_ff_jianghu3,plan_ffg_jiangwei,plan_lst_yukan|plan_lst_yuting|wp_ms_roro|wp_ms_mercur|plan_ap_qiongsha,plan_ssn_han|plan_ssk_song|wp_84_ss_kilo|plan_ss_ming|plan_ss_romeo|wp_84_ssn_akula1
+NumberOfEnemyUnits=2-2,1-1,1-2,1-1
+CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_em_sovremenny_ai|wp_68_rkr_kresta1_ai,wp_84_bpk_udaloy_ai,wp_84_bpk_kara_ai|wp_84_bpk_kresta2_ai,wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3
+FormationCruiseSpeed=18
 
 //Enemy Aircraft
-NumberOfHelicopters=3
-HelicopterType=plan_z-9
-NumberOfAircraft=2
-AircraftType=plan_y-8x
+NumberOfHelicopters=2
+HelicopterType=wp_helix
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
 
-PlayerVessels=usn_99_ssn_seawolf
-CommanderName=COMSUBPAC
-CommanderFleetName=CINCPACFLT
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

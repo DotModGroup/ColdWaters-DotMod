@@ -1,10 +1,9 @@
-Image=campaign/images/68 Pact Naval 1
-MissionLocation=Barents Sea
-Briefing=26 FEB 1985
-Briefing=After a massive incursion by NATO submarines into Soviet submarine bastions, the Red Fleet has deployed the Moskva to hunt down intruders. 
+//Погоня
+Image=campaign/images/pact surface raiders 2
+MissionLocation=Норвежское море
+Briefing=06 мая 1985г
+Briefing=Попытка незаметно пересечь рубеж SOSUS не удалась - поисковая группа обнаружила вас и теперь придётся принимать бой.
+Briefing=<b>Боевая задача:</b>
+Briefing=- Потопить корабли противника
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink the Moskva
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting warships

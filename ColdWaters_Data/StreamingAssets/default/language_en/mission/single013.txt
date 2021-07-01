@@ -1,13 +1,12 @@
-//Strike From The Sea
+//Hunters
 
-Image=campaign/images/nato missile land attack
-MissionLocation=Paracel Islands, South China Sea
-Briefing=27 MAR 1999
-Briefing=Perform a strike with cruise missiles to deliver a crushing blow deep in the PRC's backyard.
+Image=campaign/images/68 Pact Naval 1
+MissionLocation=Barents Sea
+Briefing=26 NOV 1984
+Briefing=After a massive incursion by NATO submarines into Soviet boomer bastions resulting in the destruction of several, the Red Fleet has deployed the Moskva to hunt down the intruders. 
 Briefing=
 Briefing=Primary Objective:
-Briefing=Add 8 TLAM missiles to stores
-Briefing=Fire 8 TLAMs into the deployment zone
+Briefing=Survive
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Engage enemy warships
+Briefing=Sink the Moskva and its escorts

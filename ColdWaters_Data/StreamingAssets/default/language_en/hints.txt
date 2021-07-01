@@ -26,3 +26,4 @@ Enemy escort ships will not contribute to your prestige. You should not use weap
 Remember that decibels are a logarithmic scale. 10 decibels more means twice as loud. This makes a huge difference in the detection of enemy vessels.
 When approaching a target on the campaign map, the only factor that actually matters is your speed when you contact the enemy. The game does not care what direction you come from.
 If you want a realistic experience as opposed to an arcade-y one like Cold Waters', Dangerous Waters on Steam is also a great game. Bit older, but it's great.
+Notching, or travelling perpendicular to a weapon's path, is the most effective way to avoid non-wire-guided torpedoes.

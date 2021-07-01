@@ -1,12 +1,12 @@
-//Action In The North Atlantic
+//Metal and Ice
 
-Image=campaign/images/pact warship tender 1
-MissionLocation=West of Iceland
-Briefing=25 MAY 1968
-Briefing=Your orders are to intercept a replenishment force suspected to be operating somewhere in the North Atlantic, west of Iceland, where they are supporting aggressive Soviet anti-convoy operations. After several uneventful days spent searching, sonar reports a contact.
+Image=campaign/images/pact naval 1
+MissionLocation=North of Narvik
+Briefing=12 NOV 1984
+Briefing=A Soviet battlegroup lead by a Kiev-class CVGN is currently covering for the invasion of Narvik, and its fighters are keeping friendly close-air support out of action. Sink it, or Norway may fall. 
 Briefing=
 Briefing=Primary Objective:
-Briefing=Locate and sink the tenders
+Briefing=Sink the Kiev
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Locate and sink any escorting warships if possible
+Briefing=Sink its escorts

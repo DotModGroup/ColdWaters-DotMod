@@ -1,37 +1,35 @@
-//Cornered
+//Red Waters
 
 UseTerrain=TRUE
-MapCoordinates=1487,1594
-
+MapCoordinates=1580,1540
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
-
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=14 NOV 1984
+Date=14 MAY 2004
 Hemisphere=North
-Time=1200
-UsePresetEnvironment=FALSE
+Time=1500
+UsePresetEnvironment=TRUE
 Weather=Clear
 SeaState=LightBreeze
-DuctStrength=Moderate
-LayerStrength=Moderate
+DuctStrength=VeryWeak
+LayerStrength=Strong
 
 //Enemy Ships
-NumberOfEnemyUnits=1-2,1-2
-CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=TRUE,TRUE
-EnemyShipClasses=usn_84_ff_knox_ai,usn_84_cg_belknap_ai
-//Ship positions and headings, otherwise build into a formation
+NumberOfEnemyUnits=1-1,1-2,1-1,1-1,1-1,2-2,1-1
+CombatBehaviour=DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_rkr_kirov_ai,wp_84_bpk_udaloy_ai,wp_84_bpk_kresta2_ai,wp_84_bpk_kara_ai,wp_84_takr_kiev_ai,wp_84_skr_krivak1_ai,wp_84_ssn_victor3|wp_84_ssn_victor2|wp_84_ssn_sierra
+FormationCruiseSpeed=24
 
 //Enemy Aircraft
-NumberOfHelicopters=2
-HelicopterType=usn_sh-2f
+NumberOfHelicopters=4
+HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
-CommanderName=COM NORTHERN FLEET
-CommanderFleetName=GLAVCOM VMF
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

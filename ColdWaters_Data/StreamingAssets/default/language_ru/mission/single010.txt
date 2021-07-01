@@ -1,11 +1,10 @@
-Image=campaign/images/pact warship tender 1
-MissionLocation=К западу от Исландии
-Briefing=25 мая 1968г
-Briefing=Вам приказано перехватить группу снабжения находящуюся где-то в Северной Атлантике, к западу от Исландии, где она поддерживает операции ВМФ против конвоев из США.
- После нескольких дней поиска, вам удалось её обнаружить...
+Image=campaign/images/pact naval 1
+MissionLocation=North of Narvik
+Briefing=24 FEB 1985
+Briefing=A Soviet fleet consisting of several large warships, including Kiev is covering the invasion of Narvik. Sink the Kiev or the Soviets may take Norway and close the Atlantic.
 Briefing=
-Briefing=Основная задача:
-Briefing=Обнаружить и потопить корабли снабжения
+Briefing=Primary Objective:
+Briefing=Sink the Kiev
 Briefing=
-Briefing=Дополнительная задача:
-Briefing=Потопить корабли сопровождения
+Briefing=Secondary Objective:
+Briefing=Sink the escorting warships

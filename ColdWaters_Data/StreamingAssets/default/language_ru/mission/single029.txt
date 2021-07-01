@@ -1,9 +1,7 @@
-Image=campaign/images/pact naval 2
-MissionLocation=Denmark Strait
-Briefing=14 AUG 1994
-Briefing=The Red Army has crossed the Rhein into France and Soviet forces have taken Iceland. With the complete collapse of NATO naval forces near the GIUK Gap, a large raider group has crossed into the Atlantic.
-Briefing=Primary Objective:
-Briefing=Sink the capital ships
+Image=campaign/images/plan wolfpack 1
+MissionLocation=Южно-Китайское море
+Briefing=2 июля 2000
+Briefing=АПЛ США была замечена в Восточно-Китайском море. После нескольких дней поиска обнаружен неопознанный контакт. Возможно это те, на кого вы охотитесь...
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting warships
+Briefing=Боевая задача:
+Briefing=Сразитесь один на один с вражеской АПЛ

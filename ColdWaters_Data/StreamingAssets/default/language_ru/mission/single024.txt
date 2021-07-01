@@ -1,10 +1,7 @@
-Image=campaign/images/pact naval 1
-MissionLocation=North of Narvik
-Briefing=24 FEB 1985
-Briefing=A Soviet fleet consisting of several large warships, including Kiev is covering the invasion of Narvik. Sink the Kiev or the Soviets may take Norway and close the Atlantic.
+Image=campaign/images/pact wolfpack 4
+MissionLocation=Датский пролив
+Briefing=8 ноября 1984г
+Briefing=По данным разведки, в данном районе действует, по крайней мере, одна атомная субмарина НАТО. Действуйте осмотрительно.
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink the Kiev
-Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting warships
+Briefing=Боевая задача:
+Briefing=Сразитесь один на один с вражеской АПЛ

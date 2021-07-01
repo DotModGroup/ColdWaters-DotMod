@@ -1,10 +1,11 @@
-Image=campaign/images/pact wolfpack 1
-MissionLocation=In the North Atlantic
-Briefing=18 OCT 1984
-Briefing=After successfully breaking out into the North Atlantic your hunt for NATO convoys begins.
-Briefing=
+//Hunting the Arctic Wolf
+
+Image=campaign/images/pact ssbn
+MissionLocation=North of Svalbard
+Briefing=23 APR 1984
+Briefing=Soviet ballistic missile submarines are operating under the Arctic ice cap. SIGINT has intercepted the a communiqué pinpointing the location of a Typhoon and its bastion. You are ordered to intercept and destroy the SSBN.
 Briefing=Primary Objective:
-Briefing=Sink enemy transport ships
+Briefing=Sink the Typhoon
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Sink enemy escorts
+Briefing=Sink the escorting submarines
