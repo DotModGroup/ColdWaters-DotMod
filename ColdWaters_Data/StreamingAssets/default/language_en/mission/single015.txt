@@ -4,6 +4,7 @@ Image=campaign/images/pact naval 2
 MissionLocation=Denmark Strait
 Briefing=14 MAY 1984
 Briefing=The Red Army has crossed the Fulda Gap and Soviet forces have taken Iceland. With the complete collapse and withdrawal of NATO naval forces near the GIUK Gap, a large raider group has crossed into the Atlantic.
+Briefing=
 Briefing=Primary Objective:
 Briefing=Sink the capital ships
 Briefing=

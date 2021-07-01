@@ -4,6 +4,7 @@ Image=campaign/images/pact landing 2
 MissionLocation=Southeast of Iceland
 Briefing=6 MAY 1984
 Briefing=Norway has fallen. Soviet air and naval forces continue to penetrate the GIUK Gap daily to target convoys heading for Europe. Soviet forces have now reached the Rhein, and SOSUS has detected a invasion force heading for Iceland.
+Briefing=
 Briefing=Primary Objective:
 Briefing=Sink the landing ships
 Briefing=
