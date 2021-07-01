@@ -3,7 +3,7 @@
 //=     Template for weapon
 *=WeaponObjectReference
 *=WeaponType
-*=Special=Antitorpedo,CannotAttackSurface,LandAttack,RadarGuided,SurfaceLaunched,SwimOut,NoBoosterRelease     Note: LandAttack is deprecated but still can be used to mark missilies that will be ignored by the enemy. CannotAttackSurface - forbids vertical wire guidance.
+*=Special=Antitorpedo,CannotAttackSurface,LandAttack,RadarGuided,SwimOut,NoBoosterRelease,SLBM     Note: LandAttack is deprecated but still can be used to mark missilies that will be ignored by the enemy. CannotAttackSurface - forbids vertical wire guidance. SLBM - makes land attack missile fly towards landstrike target regardles of waypoint set
 *=MissilePayload
 *=Size
 *=MaxQuantity
@@ -49,7 +49,7 @@
 *=HomeSettings = ACTIVE,PASSIVE,SHIP,SUBMARINE,LAND,MISSILE,AIRCRAFT
 *=AttackSettings = STRAIGHT,SNAKE,LEFT,RIGHT,WIDE,NARROW,ONE,TWO,THREE,FOUR
 *=DepthSettings = SHALLOW,LEVEL,DEEP,SKIM,POP-UP
-*=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329,03 yards (31 units)
+*=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329.03 yards (31 units)
 *
 *=WeaponNoiseValues
 *=WeaponSprite
@@ -389,7 +389,6 @@ AssetBundle=bundles/dotmod/weapons/wp/wp_rpk-2-65
 Material=assets/resourcesforbundles/weapons/wp/wp_rpk-2-65/wp_rpk-2-65_mat.mat
 AssetBundle=bundles/dotmod/weapons/wp/wp_at-2um_model
 ModelFile=assets/resourcesforbundles/weapons/wp/wp_at-2um/wp_at-2um.obj
-
 MeshPosition=0,0,0
 MeshWeapon=AT-2_um
 MeshWeaponPropRotation=-700
@@ -480,7 +479,6 @@ WeaponObjectReference=wp_set-40
 //Warhead=120  warhead - 80kg
 WeaponSprite=hud/sprites/wp_set-40_sprite.png
 WeaponType=TORPEDO
-Special=SurfaceLaunched
 Size=400
 *
 Warhead=300
@@ -1065,7 +1063,6 @@ AudioLoop=FALSE
 //=Минимальная дальность стрельбы 35-70км
 WeaponObjectReference=wp_p-6
 WeaponType=MISSILE
-Special=SurfaceLaunched
 *
 Warhead=1000
 SensorRange=10000
@@ -1528,7 +1525,6 @@ AudioLoop=TRUE
 WeaponObjectReference=wp_urk-5
 WeaponType=MISSILE
 MissilePayload=wp_umgt-1
-Special=SurfaceLaunched
 *
 Warhead=200
 SensorRange=10000
@@ -1718,7 +1714,6 @@ AudioLoop=TRUE
 WeaponObjectReference=wp_urpk-3
 WeaponType=MISSILE
 MissilePayload=wp_at-2
-Special=SurfaceLaunched
 *
 Warhead=0
 SensorRange=0
@@ -1834,12 +1829,128 @@ AudioLoop=TRUE
 [/Model]
 
 //=   1d) ICBM
+WeaponObjectReference=wp_r21
+WeaponType=MISSILE
+Special=SLBM
+Warhead=150000000
+*
+MissileGunVulnerability=1.2
+MissileChaffVulnerability=0
+*
+MaxLaunchDepth=200
+*
+WeaponAltitudes=9999999
+CruiseTime=999999
+BoosterReleasedAfterSeconds=3600
+*
+WeaponRanges=30000,2624672
+WeaponSpeed=40,4500
+TurnRate=30
+MaxPitchAngle=15
+*
+HomeSettings=LAND
+AttackSettings=FALSE
+DepthSettings=FALSE
+*
+WeaponNoiseValues=190,340
+WeaponSprite=hud/sprites/wp_r21_sprite.png
+MinCameraDistance=0.3
+ResupplyTime=60
+[Model]
+AssetBundle=bundles/dotmod/weapons/wp/wp_r21
+Material=assets/weapons/wp/wp_r21/wp_r21_mat.mat
+ModelFile=assets/weapons/wp/wp_r21/wp_r21.fbx
+MeshPosition=0,0,0
+MeshWeapon=wp_r21_warhead
+MeshWeaponCanister=wp_r21
+MeshMissileBooster=wp_r21_booster
+*
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.1
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.1
+BoosterParticle=assets/weapons/wp/wp_r21/wp_r21_boosterrelease.prefab
+*
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
+
+
+WeaponObjectReference=wp_r27
+WeaponType=MISSILE
+Special=NoBoosterRelease,SLBM
+Warhead=150000000
+*
+MissileGunVulnerability=1.2
+MissileChaffVulnerability=0
+*
+MaxLaunchDepth=200
+*
+WeaponAltitudes=9999999,9999999,9999999
+CruiseTime=999999
+BoosterReleasedAfterSeconds=7
+*
+WeaponRanges=30000,2624672
+WeaponSpeed=40,4500
+TurnRate=30
+MaxPitchAngle=15
+*
+HomeSettings=LAND
+AttackSettings=FALSE
+DepthSettings=FALSE
+*
+WeaponNoiseValues=190,340
+WeaponSprite=hud/sprites/r27_slbm_sprite.png
+MinCameraDistance=0.3
+ResupplyTime=60
+[Model]
+AssetBundle=bundles/weapons/wp/wp_r27.unity3d
+Material=assets/materials/wp_r27_slbm.mat
+MaterialTextures=assets/texture/wp_r27_slbm.png
+ModelFile=assets/models/wp_r27_slbm.obj
+MeshPosition=0,0,0.05
+MeshWeapon=r27_slbm_Sphere.003
+MeshPosition=0,0,0.05
+MeshWeaponCanister=r27_slbm_Sphere.003
+MeshWeaponBooster=FALSE
+*
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.1
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.1
+BoosterParticle=weapons/assets/usn_ugm84_boosterrelease
+*
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
+
+
 
 //=   1e) SAM
 //=------------------ПЗРК «Стрела-2» (1968г) -----------------------
 WeaponObjectReference=wp_strela-2
 WeaponType=MISSILE
-Special=SurfaceLaunched
+Special=NoBoosterRelease
 *
 Warhead=2
 SensorRange=3720
@@ -2573,10 +2684,8 @@ Warhead=225
 SensorRange=2500
 SensorAngles=30,15
 *
-WireGuided=TRUE
-WireBreakOnLaunchProbability=0.05
-WireBreakOnRunProbability=0.05
-WireBreakSpeedThreshold=12
+//=Not wire guided, based on the Mark 37 Mod 3, not the Mod 2, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.
+WireGuided=FALSE
 *
 //=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
 MaxLaunchDepth=1400
@@ -2592,7 +2701,7 @@ HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
-WeaponNoiseValues=220,220
+WeaponNoiseValues=155,220
 WeaponSprite=hud/sprites/usn_nt37c_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=15
@@ -2722,7 +2831,6 @@ WeaponSprite=hud/sprites/plan_yu-7_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=15
 [Model]
-
 AssetBundle=bundles/dotmod/weapons/usn/usn_mk46
 ModelFile=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46.obj
 Material=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46_mat.mat
@@ -3120,8 +3228,64 @@ AudioLoop=TRUE
 
 //=   2d) ICBM
 
-//=   2e) SAM
+WeaponObjectReference=usn_trident_1
+WeaponType=MISSILE
+Special=NoBoosterRelease,SLBM
+Warhead=150000000
+*
+MissileGunVulnerability=0.001
+MissileChaffVulnerability=0.0
+*
+MaxLaunchDepth=200
+*
+WeaponAltitudes=25000
+BoosterReleasedAfterSeconds=7
+*
+WeaponRanges=30000,7040000
+WeaponSpeed=40,4500
+TurnRate=30
+MaxPitchAngle=45
+*
+HomeSettings=LAND
+AttackSettings=FALSE
+DepthSettings=FALSE
+*
+WeaponNoiseValues=190,340
+WeaponSprite=hud/sprites/usn_trident_1_sprite.png
+MinCameraDistance=0.4
+ResupplyTime=60
+[Model]
+AssetBundle=bundles/weapons/usn/usn_trident.unity3d
+Material=assets/materials/usn_trident.mat
+MaterialTextures=assets/texture/usn_trident.png
+ModelFile=assets/models/usn_trident.obj
+MeshPosition=0,0,0.05
+MeshWeapon=default
+MeshPosition=0,0,0.05
+MeshWeaponCanister=default
+MeshWeaponBooster=FALSE
+*
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.085
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.085
+BoosterParticle=weapons/assets/usn_ugm84_boosterrelease
+*
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
 
+//=   2e) SAM
 //=----------------  RIM-7M Sea Sparrow(1983г)   --------------------------------
 WeaponObjectReference=usn_rim-7m
 WeaponType=MISSILE
@@ -3194,7 +3358,6 @@ AudioLoop=TRUE
 //=----------------  RIM-66 Standard(198?г)   --------------------------------
 WeaponObjectReference=usn_rim-66
 WeaponType=MISSILE
-Special=SurfaceLaunched
 *
 Warhead=62
 SensorRange=13120
@@ -3263,7 +3426,6 @@ AudioLoop=TRUE
 //=----------------  RIM-67A Standard(198?г)   --------------------------------
 WeaponObjectReference=usn_rim-67a
 WeaponType=MISSILE
-Special=SurfaceLaunched
 *
 Warhead=62
 SensorRange=13120
@@ -3336,7 +3498,6 @@ AudioLoop=TRUE
 //=Yu-1 has no guidance and Yu-1A has passive guidance system
 WeaponObjectReference=plan_yu-1
 WeaponType=TORPEDO
-Special=SurfaceLaunched
 *
 Warhead=400
 SensorRange=880
@@ -3868,7 +4029,6 @@ AudioLoop=FALSE
 //=Масса боевой части, кг	120
 WeaponObjectReference=knm_penguin
 WeaponType=MISSILE
-Special=SurfaceLaunched
 *
 Warhead=240
 SensorRange=19685

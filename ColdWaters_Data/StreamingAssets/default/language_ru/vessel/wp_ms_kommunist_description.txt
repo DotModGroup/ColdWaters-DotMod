@@ -1,4 +1,7 @@
 [Unit Reference]
-ShipClass=Kommunist
-Description=Kommunist-class large cargo ship
-History=Typical large-hatch general cargo ships, 20 ships of this class were built in Poland between 1968-71 for the Soviet merchant marine. Faster than the Poltavas, and well-suited to handle break-bulk cargo such as munitions and vehicles, they would likely see wartime use as fast replenishment transports during a conflict in the Norwegian Sea.
+Designation=ТС
+ShipClass=«Коммунист»
+
+Description=Сухогруз тип B-40
+
+History=Универсальный сухогруз тип "Коммунист". Построено 20 шт. в Польше 1968-71гг. Они быстрее "Полтав" и прекрасно приспособлены для перевозок техники и боеприпасов. В случае военного конфликта они, скорее всего, будут использованы как вспомогательные военные транспорты.

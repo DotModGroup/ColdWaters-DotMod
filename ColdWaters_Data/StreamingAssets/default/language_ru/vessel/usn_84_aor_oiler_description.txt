@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=СО
 ShipClass=Танкер
 Description=Флотский танкер
 History=Военный танкер предназначеный для снабжения кораблей в открытом море.

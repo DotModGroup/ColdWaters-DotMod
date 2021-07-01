@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=
 ShipClass=Траулер пр. 1332
 ShipClassShort=Траулер
 Description=Средний рыболовный траулер тип «Баренцево море»

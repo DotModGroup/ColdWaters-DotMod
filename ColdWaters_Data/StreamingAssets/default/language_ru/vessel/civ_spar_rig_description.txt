@@ -1,4 +1,6 @@
 [Unit Reference]
-ShipClass=Oilrig
-Description=Offshore Drill Rig
-History=Spar rigs have been developed as an alternative to conventional semi-submersible platforms for use in very deep waters. Compared to traditional platforms, they have more inherent stability thanks to their deep draft and large counterweight. Like other drill rigs, they output considerable broadband noise, and their mooring lines present underwater obstacles to contend with.
+Designation=
+ShipClass=Нефтяная платформа
+ShipClassShort=SPAR
+Description=Платформа типа SPAR
+History=Разновидность ППБУ, платформы с подводным основанием цилиндрического типа — самые крупные и самые глубоководные офшорные установки. Состоят из большого цилиндра, поддерживающего типичную верхнюю надстройку буровой. Цилиндрическое основание укреплено на плаву с помощью кабелей и тросов и стабилизирует платформу, учитывая ее перемещения на воде. С помощью системы цепных лебедок SPAR способна горизонтально перемещаться над территорией месторождения. Ввиду больших размеров цилиндрического основания платформы типа SPAR очень стабильны.

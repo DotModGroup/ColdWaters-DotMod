@@ -1,4 +1,12 @@
 [Unit Reference]
-ShipClass=Oilrig
-Description=Offshore Drill Rig
-History=Semi-submersible offshore rigs are popular for use in waters deeper than 1500 feet as fixed structures are no longer practical. They are designed for good stability and seakeeping characteristics, and are designed to be towed from well to well. While engaged in drilling operations, they output substantial broadband noise more than enough to mask even relatively loud contacts.
+Designation=
+ShipClass=Нефтяная платформа
+ShipClassShort=ППБУ
+Description=Полупогружная плавучая буровая установка 
+History=Полупогружна́я плавучая бурова́я установка (ППБУ) — тип плавучих буровых установок, используемый при разведке и добыче углеводородов в открытом море. Представляют из себя верхнее технологическое строение, опирающееся на колонное основание с раздельными понтонами по правому и левому борту. Однако, имеются ППБУ однокорпусные, цилиндрической формы (тип SPAR). Во многих случаях понтоны соединены между собой горизонтальными, а опорные колонны — боковыми трубчатыми распорками. Такая конструкция служит для увеличения структурной прочности основания и поглощения волновых нагрузок. В рабочем положении ППБУ принимает балласт в понтоны и погружается до рабочей осадки, что обеспечивает высокую остойчивость и стабильность. Удержание на точке бурения осуществляется посредством якорения, либо с использованием системы динамического позиционирования (в зависимости от глубины моря в точке бурения). В транспортном положении ППБУ всплывает до транзитной осадки (понтоны остаются частично под водой), что уменьшает сопротивление воды при движении. Перемещение ППБУ осуществляется буксированием, либо самостоятельно при наличии самоходности.
+
+
+Semi-submersible offshore rigs are popular for use in waters deeper than 1500 feet as fixed structures are no longer practical. 
+They are designed for good stability and seakeeping characteristics, and are designed to be towed from well to well. 
+While engaged in drilling operations, they output substantial broadband noise more than enough to mask even relatively loud contacts.
+Используются на глубинах от 60 до 3658м. В зависимости от максимально допустимой глубины моря в точке бурения подразделяются на Midwater (60—1219 м), Deepwater (до 2286 м) и Ultra-deepwater (свыше 2286 м).

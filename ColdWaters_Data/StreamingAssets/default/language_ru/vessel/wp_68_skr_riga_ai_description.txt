@@ -1,7 +1,15 @@
 [Unit Reference]
-ShipClass=Riga
-Description=Riga-class Patrol Ship
-DefensiveWeapons=37mm AA Guns
-OffensiveWeapons=RBU-2500 ASW Rockets
-Aircraft=None
-History=This class was built in the 1950's as a smaller companion to the Kotlin-class destroyers. They feature a relatively heavy gun armament, but were technologically obsolete already when the first unit commissioned. Over the years they have been modernized with somewhat better electronics and anti-submarine rockets, but they remain definite second rate ships. They have very small fuel bunkers and so will primarily be found operating in coastal areas, or as escorts for surface groups operating close to Soviet home waters.
+Designation=СКР
+ShipClass=«Горностай»
+Description=СКР проекта 50-ПЛО типа «Горностай»
+History=Сторожевые корабли проекта 50 типа «Горностай» (Классификация НАТО: Riga class frigate) — военные корабли Военно-морского флота СССР, разработанные после Второй мировой войны. Пришли на замену сторожевикам проекта 42. Почти все корабли проекта 50 были модернизированы в 1959-1960 годах по проекту 50-ПЛО, будучи оснащёнными новым вооружением: бомбомёт МБУ-200 был заменён на две РБУ-2500, двухтрубный торпедный аппарат – на трёхтрубный ТТА-53-50 для стрельбы самонаводящимися противолодочными торпедами, ГАС и РЛС заменены на более совершенные.
+
+This class was built in the 1950's as a smaller companion to the Kotlin-class destroyers. 
+They feature a relatively heavy gun armament, but were technologically obsolete already when the first unit commissioned. 
+Over the years they have been modernized with somewhat better electronics and anti-submarine rockets, but they remain definite second rate ships. 
+They have very small fuel bunkers and so will primarily be found operating in coastal areas, or as escorts for surface groups operating close to Soviet home waters.
+
+Этот класс был построен в 1950-х годах как меньший компаньон по сравнению с эсминцами типа Kotlin. 
+Они имеют относительно тяжелое артиллерийское вооружение, но технологически устарели уже к моменту ввода в строй первого агрегата. 
+С годами они были модернизированы с помощью несколько более совершенной электроники и противолодочных ракет, но они остаются определенно второсортными кораблями. 
+У них очень маленькие топливные бункеры, поэтому их можно будет найти в основном в прибрежных районах или в качестве эскорта для надводных групп, действующих недалеко от советских родных вод.

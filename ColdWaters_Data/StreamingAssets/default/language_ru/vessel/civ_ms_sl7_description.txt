@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=
 ShipClass=Контейнеровоз SL-7
 ShipClassShort=SL-7
 Description=Скоростной контейнеровоз типа SL-7

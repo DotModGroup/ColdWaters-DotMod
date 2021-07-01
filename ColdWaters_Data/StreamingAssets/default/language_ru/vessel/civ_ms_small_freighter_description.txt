@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=
 ShipClass=М. сухогруз
 ShipClassShort=Малый С.
 Description=Малый сухогруз

@@ -1,4 +1,5 @@
 [Unit Reference]
-ShipClass=Blue Whale
-Description=Blue Whale (Balaenoptera musculus)
-History=Up to 30 metres in length and with a maximum recorded weight of 171 tonnes, the blue whale is the largest animal known to have ever existed. Once abundant in the world's oceans, they were hunted nearly to extinction by whalers until protected in 1966. They communicate at very low frequencies, and their song is known to have travelled thousands of miles underwater through the deep sound channel.
+Designation=
+ShipClass=Синий кит
+Description=Синий кит (Balaenoptera musculus)
+History=Синий или голубой кит считается самым крупным животным в мире. Средний вес взрослой особи составляет 100 - 120 тонн, хотя встречаются и экземпляры, достигающие 150-ти тонн. Обычно длина синего кита составляет от 23 до 29 м., причем самцы мельче самок. Их размер колеблется в пределах 24-25 метра. Звуки, издаваемые синим китом, имеют частоту, преимущественно — 8—20 Гц, то есть являются инфразвуками. Их интенсивность почти не бывает ниже 60 децибел, а распространяются они на очень большие расстояния. Зафиксирован обмен сигналами между китами находящимися в 33 км друг от друга. Инфразвуковые сигналы лучше всего подходят для общения в условиях миграций, когда киты движутся в нескольких километрах один от другого.

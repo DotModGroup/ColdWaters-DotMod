@@ -22,7 +22,7 @@ TimePenaltyOnPortEnter=4
 PortImage=campaign/images/backgrounds/1984_ussr_sub_port.jpg
 TransitImage=campaign/images/pact wolfpack 2
 TimePenaltyOnSunk=12
-DisruptTime=48,72
+DisruptTime=140,200
 CampaignPoints=1600
 CampaignStartPoints=800
 PlayerPositionOnLeavePort=360,81
@@ -423,7 +423,7 @@ missionSelected
 [NON-PLAYER MISSIONS]
 Non-PlayerMissionTypes=AI_PATROL_SS,AI_PATROL_SSN,AI_PATROL_ASW,AI_CONVOY_USA-UK
 //Sum of frequencies must equal 1
-Non-PlayerMissionFrequency=0.25,0.25,0.25,1
+Non-PlayerMissionFrequency=0.28,0.28,0.28,1
 
 Non-PlayerMission=AI_PATROL_SS_0
 Non-PlayerMission=AI_PATROL_SS_1

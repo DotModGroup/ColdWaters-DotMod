@@ -48,7 +48,7 @@
 *
 *=HomeSettings = ACTIVE,PASSIVE,SHIP,SUBMARINE,LAND,MISSILE,AIRCRAFT
 *=AttackSettings = STRAIGHT,SNAKE,LEFT,RIGHT,WIDE,NARROW,ONE,TWO,THREE,FOUR
-*=DepthSettings = SHALLOW,LEVEL,DEEP,SKIM,POP-UP
+*=DepthSettings = SHALLOW,LEVEL,DEEP,SKIM,POP-UP,SHIP,LEVEL_SUB,DEEP_SUB,SHALLOW_SUB,VERYDEEP_SUB
 *=PopUpDistance = (yards) - Missile will start its pop up maneuver at this distance. Works only if POP-UP depth setting is present. Default is 2329.03 yards (31 units)
 *
 *=WeaponNoiseValues
@@ -128,7 +128,7 @@ MaxPitchAngle=30
 *
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT
-DepthSettings=SHALLOW
+DepthSettings=SHIP
 *
 WeaponNoiseValues=140,140
 WeaponSprite=hud/sprites/wp_53-65_sprite.png
@@ -178,7 +178,7 @@ MaxPitchAngle=30
 *
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT
-DepthSettings=SHALLOW
+DepthSettings=SHIP
 *
 WeaponNoiseValues=120,120
 WeaponSprite=hud/sprites/wp_53-65_sprite.png
@@ -232,7 +232,7 @@ MaxPitchAngle=30
 *
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT
-DepthSettings=SHALLOW
+DepthSettings=SHIP
 *
 WeaponNoiseValues=140,140
 WeaponSprite=hud/sprites/wp_65-76_sprite.png
@@ -264,7 +264,7 @@ WeaponObjectReference=wp_saet-60m
 WeaponType=TORPEDO
 *
 Warhead=300
-SensorRange=2624
+SensorRange=656
 SensorAngles=40,25
 *
 MaxLaunchDepth=354
@@ -277,7 +277,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=SHALLOW
+DepthSettings=SHIP
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/wp_saet-60m_sprite.png
@@ -330,7 +330,7 @@ MaxPitchAngle=45
 *
 HomeSettings=ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 MinCameraDistance=0.3
@@ -379,7 +379,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 MinCameraDistance=0.3
@@ -436,7 +436,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 MinCameraDistance=0.3
@@ -494,7 +494,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=LEVEL_SUB,DEEP_SUB,SHALLOW_SUB
 *
 WeaponNoiseValues=100,200
 MinCameraDistance=0.3
@@ -543,7 +543,7 @@ MaxPitchAngle=40
 *
 HomeSettings=ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=LEVEL_SUB,DEEP_SUB,SHALLOW_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=weapons/sprites/wp_set-65_sprite
@@ -594,7 +594,8 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+//DepthSettings=DEEP
+DepthSettings=LEVEL_SUB,DEEP_SUB,SHALLOW_SUB,VERYDEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=weapons/sprites/wp_set-65_sprite
@@ -645,7 +646,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,DEEP,SHALLOW
+DepthSettings=LEVEL,DEEP_SUB,SHALLOW_SUB,SHIP
 *
 WeaponNoiseValues=120,230
 WeaponSprite=weapons/sprites/wp_set-65_sprite
@@ -703,7 +704,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,DEEP_SUB,SHALLOW_SUB,SHIP
 *
 WeaponNoiseValues=110,230
 WeaponSprite=hud\sprites\wp_uset-80_sprite.png
@@ -751,7 +752,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,DEEP_SUB,SHALLOW_SUB,SHIP
 *
 WeaponNoiseValues=110,230
 WeaponSprite=hud\sprites\wp_uset-80_sprite.png
@@ -805,7 +806,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=LEVEL_SUB,DEEP_SUB,SHALLOW_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud\sprites\wp_test-68_sprite.png
@@ -861,7 +862,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=LEVEL_SUB,DEEP_SUB,SHALLOW_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud\sprites\wp_test-71_sprite.png
@@ -916,7 +917,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHALLOW,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud\sprites\wp_test-71_sprite.png
@@ -972,7 +973,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHALLOW,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud\sprites\wp_test-71_sprite.png
@@ -2640,7 +2641,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHALLOW,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=weapons/sprites/usn_mk37_sprite
@@ -2824,7 +2825,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP,SHALLOW
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/plan_yu-7_sprite.png
@@ -2882,7 +2883,7 @@ TurnRate=20
 MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
-AttackSettings=STRAIGHT,LEFT,RIGHT
+AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=160,230
@@ -3513,7 +3514,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHIP,DEEP_SUB
 *
 WeaponNoiseValues=140,230
 WeaponSprite=hud/sprites/WIP.png
@@ -3569,7 +3570,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHIP,DEEP_SUB
 *
 WeaponNoiseValues=160,230
 WeaponSprite=weapons/sprites/plan_yu-5_sprite
@@ -3619,7 +3620,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/plan_yu-7_sprite.png
@@ -3831,7 +3832,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHIP,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/uk_mk20s.png
@@ -3879,7 +3880,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=SNAKE,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHIP,DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/uk_tigerfish.png
@@ -3982,7 +3983,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
-DepthSettings=DEEP
+DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
 WeaponSprite=hud/sprites/plan_yu-7_sprite.png

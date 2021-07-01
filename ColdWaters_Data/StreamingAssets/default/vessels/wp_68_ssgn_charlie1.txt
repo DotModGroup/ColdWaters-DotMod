@@ -78,6 +78,10 @@ NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
+[Campaign]
+PrefferedMissionType=RESUPPLY_CONVOY
+PrefferedMissionChance=0.5
+
 [Subsystems]
 LabelPosition=364.3,28
 BOWSONAR=FRONT

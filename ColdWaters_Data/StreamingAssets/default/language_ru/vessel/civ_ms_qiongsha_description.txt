@@ -1,4 +1,5 @@
 [Unit Reference]
+Designation=
 ShipClass=Qiongsha
 Description=Qiongsha-class coastal passenger ship
 History=These are civilian versions of the Qiongsha military transport. Unlike their military brethren, they carry no defensive weaponry, but in all other respects are identical.

@@ -1,7 +1,6 @@
 [Unit Reference]
-ShipClass=Alligator
-Description=Alligator-class landing ship
-DefensiveWeapons=57mm AA Guns\nShoulder-launched SA-7 SAM
-OffensiveWeapons=122mm artillery rocket launcher
-Sensors=Navigation radar only
-History=14 of these ships were completed between 1966 and 1975. Each ship can carry 20 tanks or 40 armored personnel carriers or 300-425 troops or 1000 tons of general cargo. They are built on traditional LST lines with a continuous tank deck served by aft and bow ramps for roll-on, roll-off operations and a shallow draft that permits beaching in order to disembark troops.
+Designation=БДК
+ShipClass=«Тапир»
+Description=Большой десантный корабль проекта 1171 «Тапир»
+Sensors=Только навигационный радар
+History=Большие десантные корабли проекта 1171 «Тапир» (Классификация НАТО: Alligator) — серия советских больших десантных кораблей (БДК) 2-го ранга ближней и дальней морской зоны, строившихся на судостроительном заводе «Янтарь» в Калининграде. Корабли проекта предназначены для высадки морских десантов на необорудованном побережье и переброски морем войск и грузов. Каждый корабль может перевозить 20 танков или 40 бронетранспортеров, или 300-425 военнослужащих, или 1000 тонн сухих грузов.

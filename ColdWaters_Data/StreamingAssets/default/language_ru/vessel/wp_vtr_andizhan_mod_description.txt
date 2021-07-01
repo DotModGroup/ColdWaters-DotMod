@@ -1,5 +1,5 @@
 [Unit Reference]
-Designation=
+Designation=СО
 ShipClass=пр. 1850
 Description=Морской транспорт вооружения проекта 1850
 

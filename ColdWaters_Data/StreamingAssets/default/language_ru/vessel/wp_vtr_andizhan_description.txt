@@ -1,5 +1,5 @@
 [Unit Reference]
-Designation=
+Designation=ТС
 ShipClass=«Андижан»
 Description=Сухогруз пр. 251
 

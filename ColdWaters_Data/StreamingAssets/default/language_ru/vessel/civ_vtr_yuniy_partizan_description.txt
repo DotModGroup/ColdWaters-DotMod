@@ -1,4 +1,7 @@
 [Unit Reference]
-ShipClass=Partizan
-Description=Yuniy Partizan-class military transport
-History=These are small coastal container ships, with 4 in regular service with the Soviet Navy and another 20 under civilian flag which would join the navy in wartime. Their shallow draft makes them well-suited to carry supplies, ammunition, etc. in support of amphibious operations. They would also likely be found resupplying occupied coastal areas.
+Designation=
+ShipClass=«Юный партизан»
+ShipClassShort=«Партизан»
+Description=Средний сухогрузный транспорт пр.740/2В 
+
+History=Теплоходы типа «Юный партизан» являются контейнеровозами ограниченной мореходности грузоподъёмностью до 1900 т.. Строились в 70-х годах для СССР и стран Варшавского договора. Благодаря малой осадке они могут посещать малооборудованные порты с неразвитой инфраструктурой.

@@ -1,4 +1,7 @@
 [Unit Reference]
-ShipClass=Merchant
-Description=Large container ship
-History=These are first-generation container ships, with cargo capacity of about 1900 TEU. Compared to traditional break-bulk cargo ships, containerization enabled these ships to be loaded with a full complement of cargo in a fraction of the time, using much smaller dock crews. They would eventually completely replace the dry cargo ship, to become the predominant type of cargo vessel.
+Designation=ТС
+ShipClass=Контейнеровоз
+ShipClassShort=КНТРВЗ
+Description=Контейнеровоз
+
+History=Контейнеровоз 1-го поколения вместимостью около 1900 TEU (стандартный 20-ти футовый контейнер). Эти суда, предназначенные для перевозки грузов в контейнерах, со временем вытеснили универсальные сухогрузы с морских маршрутов. Некоторое количество таких судов, переоборудованных для перевозки военных грузов, можно встретить во флотах стран Варшавского договора.

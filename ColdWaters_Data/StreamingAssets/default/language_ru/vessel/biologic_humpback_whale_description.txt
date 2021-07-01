@@ -1,4 +1,6 @@
 [Unit Reference]
-ShipClass=Humpback
-Description=Humpback Whale (Megaptera novaeangliae)
-History=The humpback is a baleen whale, belonging to the same family as the blue whale. Like its larger cousin, they too were hunted to the brink of extinction by humans until the international moratorium on whaling in 1966. The species is famous for their long and complex 'songs', the sound of which travels great distances underwater.
+Designation=
+ShipClass=Горбач
+Description=Горбатый кит (Megaptera novaeangliae)
+
+History=Горбач, горбатый кит или длиннорукий полосатик(лат. Megaptera novaeangliae ) - морское млекопитающее семейства полосатиковых китов подотряда усатых китов. Единственный современный вид рода горбатых китов (Megaptera).Своё название получил либо из-за спинного плавника, формой напоминающего горб,либо от привычки при плавании сильно выгибать спину. Горбач — довольно крупный кит. Средняя длина тела взрослой особи: 14,5 м для самок, 13,5 м для самцов. Средняя масса горбатого кита — 30 т. Горбатые киты знамениты своим вокальным репертуаром, который, предположительно, играет важную роль в период размножения — хотя самки горбачей издают разнообразные звуки, продолжительные и мелодичные песни исполняются только самцами. Песня самца горбача состоит из определённой серии частотно-модулированных звуков и «фраз» в диапазоне 40—5000 Гц, которая продолжается от 6 до 35 минут; может повторяться на протяжении нескольких часов и даже дней. Самцы, присоединяющиеся к самкам с детёнышами, по наблюдениям, поют дольше и чаще, чем остальные.

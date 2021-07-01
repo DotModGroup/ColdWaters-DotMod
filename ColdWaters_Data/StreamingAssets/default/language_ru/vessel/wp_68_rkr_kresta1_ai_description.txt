@@ -1,5 +1,13 @@
 [Unit Reference]
+Designation=РКР
+ShipClass=«Беркут»
+Description=РКР проекта 1134 «Беркут» 
+History=Ракетные крейсера проекта 1134 «Беркут» (Классификация НАТО: Kresta I-class)— тип ракетных крейсеров Советского Военно-Морского Флота. Создавались как универсальные корабли ПЛО/ПВО оснащённые ещё и ПКР.
+
+
 ShipClass=Kresta I
 Description=Kresta I-class Guided Missile Cruiser
 DefensiveWeapons=SA-N-1 SAM\nAK-570 57mm AA Guns
-History=This class was designed as a larger and more capable successor to the Kynda-class missile cruisers, which turned out top-heavy and too cramped. The Kresta I is intended for the anti-ship role but has much improved capabilities for anti-air and anti-submarine warfare. If these ships are allowed into the North Atlantic convoy routes they could prove a real threat to NATO as raiders.
+History=This class was designed as a larger and more capable successor to the Kynda-class missile cruisers, which turned out top-heavy and too cramped. 
+The Kresta I is intended for the anti-ship role but has much improved capabilities for anti-air and anti-submarine warfare. 
+If these ships are allowed into the North Atlantic convoy routes they could prove a real threat to NATO as raiders.

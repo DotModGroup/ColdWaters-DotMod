@@ -1,6 +1,6 @@
 [Unit Reference]
-ShipClass=«Кондор»
 Designation=ПКР
+ShipClass=«Кондор»
 Description=Противолодочные крейсер пр. 1123 «Кондор»
 
 Aircraft=18 вертолётов Ка-25

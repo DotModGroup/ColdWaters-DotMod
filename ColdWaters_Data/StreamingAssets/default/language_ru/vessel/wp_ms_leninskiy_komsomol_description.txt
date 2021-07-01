@@ -1,4 +1,8 @@
 [Unit Reference]
-ShipClass=Komsomol
-Description=Leniniskiy Komsomol-class large cargo ship
-History=This class was part of the great Soviet buildup in merchant capability during the early 1960's. Their tweendecker design are especially suited to carrying military equipment and troops and their high speed make them excellent blockade-runners.
+Designation=ТС
+ShipClass=«Ленинский комсомол»
+ShipClassShort=«Комсомол»
+Description=Сухогруз пр.567 типа «Ленинский комсомол»
+History=Универсальный сухогруз тип «Ленинский комсомол» — серия из 25 однотипных океанских турбоходов проекта 567 и 567К, по назначению — многоцелевых сухогрузов твиндечного типа. Суда серии «Ленинский комсомол» — это первые турбоходы торгового флота СССР. Построенные в начале 60-х, они отличались великолепной скоростью, маневренностью и мореходные качествами. Подобные достоинства позволяют использовать их в военное время в качестве блокадопрорывателей.
+
+This class was part of the great Soviet buildup in merchant capability during the early 1960's. Their tweendecker design are especially suited to carrying military equipment and troops and their high speed make them excellent blockade-runners.
