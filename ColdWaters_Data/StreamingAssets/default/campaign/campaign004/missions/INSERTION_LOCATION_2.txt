@@ -2,14 +2,14 @@
 UseTerrain=TRUE
 MapCoordinates=1372,1371
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
-MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=knm_84_ss_kobben,knm_84_cgv_nordkapp,knm_84_ffg_oslo,usn_68_ap_freighter_a|usn_84_ap_act_1|usn_68_ap_freighter_a|usn_84_ap_super_p
+EnemyShipClasses=knm_84_ss_kobben|uk_68_ss_oberon|uk_84_ssn_trafalgar|usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon,knm_84_cgv_nordkapp|knm_84_ffg_oslo,knm_84_ffg_oslo|usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_68_ap_freighter_a|usn_84_ap_act_1|usn_68_ap_freighter_a|usn_84_ap_super_p
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
@@ -29,13 +29,13 @@ EnemyWaypoints=228,422|-302,763
 //Center Patrol 2
 EnemyWaypoints=-523,809|-658,190
 
-MissionPosition=-87,65
+MissionPosition=95,60
 
 //Enemy Aircraft
 NumberOfHelicopters=1
-HelicopterType=wp_haze
+HelicopterType=usn_sh60b
 NumberOfAircraft=1
-AircraftType=wp_be-12_mail
+AircraftType=usn_p3c
 
 //Aircraft Search Areas
 //Define a point and radius
@@ -44,8 +44,9 @@ AircraftSearchArea=-560,720,300
 
 //spawn minefields and set detection range
 
-ProximityMineLocations=-31,155|-211,46
+//ProximityMineLocations=-31,155|-211,46
+ProximityMineLocations=-31,155|75,60
 //number across,number deep,length,depth
-ProximityMineField=30,2,170,50|30,2,120,50
+ProximityMineField=30,4,170,40|30,4,120,10
 ProximityMineFieldAngles=10,-60
 ProximityMineScatter=0.5,0.5

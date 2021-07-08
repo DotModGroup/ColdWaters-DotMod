@@ -2,7 +2,7 @@
 UseTerrain=TRUE
 MapCoordinates=2000,630
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
-MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
@@ -37,10 +37,10 @@ EnemyWaypoints=-134,-265|-380,-313|-190,-292
 MissionPosition=50,-310
 
 //Enemy Aircraft
-NumberOfHelicopters=2
-HelicopterType=wp_haze
+NumberOfHelicopters=0
+HelicopterType=usn_sh-2f
 NumberOfAircraft=0
-AircraftType=wp_il-38_may
+AircraftType=usn_p3c
 
 //Aircraft Search Areas
 //Define a point and radius

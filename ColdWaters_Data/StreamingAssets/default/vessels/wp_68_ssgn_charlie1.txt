@@ -80,7 +80,7 @@ NoisemakerReloadTime=20
 
 [Campaign]
 PrefferedMissionType=RESUPPLY_CONVOY
-PrefferedMissionChance=0.5
+PrefferedMissionChance=0.4
 
 [Subsystems]
 LabelPosition=364.3,28

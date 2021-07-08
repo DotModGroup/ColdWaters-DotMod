@@ -9,8 +9,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
--EnemyShipClasses=knm_84_ss_kobben,knm_84_cgv_nordkapp,knm_84_ffg_oslo,knm_84_ffg_oslo|knm_84_cgv_nordkapp
-EnemyShipClasses=knm_84_ss_kobben,knm_84_cgv_nordkapp,knm_84_ffg_oslo,usn_84_ff_knox_ai
+EnemyShipClasses=knm_84_ss_kobben,knm_84_cgv_nordkapp,knm_84_ffg_oslo,knm_84_ffg_oslo|knm_84_cgv_nordkapp
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

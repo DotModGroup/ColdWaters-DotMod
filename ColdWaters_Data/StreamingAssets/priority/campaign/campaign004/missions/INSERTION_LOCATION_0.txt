@@ -1,7 +1,7 @@
 //Holy Loch 0
 //This location is nescessary since game have a bad habit using 0 sometimes...
 UseTerrain=TRUE
-MapCoordinates=1903,773
+MapCoordinates=1460,520
 
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
@@ -9,30 +9,38 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=knm_84_ss_kobben|uk_68_ss_oberon|uk_84_ssn_trafalgar|usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon,knm_84_cgv_nordkapp|knm_84_ffg_oslo,knm_84_ffg_oslo|usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_68_ap_freighter_a|usn_84_ap_act_1|usn_68_ap_freighter_a|usn_84_ap_super_p
+UsePresetPositions=TRUE
+PlayerPosition=-50,100
+
+PlayerHeading=135
+PlayerDepthInFeet=50
+NumberOfEnemyUnits=1-2,1-2,1-2,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyShipClasses=usn_84_ddg_adams_ai|usn_84_dd_spruance_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_cg_belknap_ai|usn_84_cg_ticonderoga_ai,uk_84_ssn_trafalgar,usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
 FormationCruiseSpeed=8
 
-//Ship positions and headings, otherwise build into a formation
-UsePresetPositions=TRUE
-PlayerPosition=-68,464
-PlayerHeading=180
+//Group 1 - Northern destroyer patrol
+EnemyWaypoints=-200,130|540,-220
+EnemyWaypoints=-200,130|540,-220
 
-//AI Nav Waypoints
-//Array of Vector 2 positions
-//Must be enough for maximum number of enemy ships
-//Lurking Sub
-EnemyWaypoints=120,207|-410,190
-//Outer Patrol
-EnemyWaypoints=-663,303|144,420
-//Second Outer Patrol
-EnemyWaypoints=228,422|-302,763
-//Center Patrol 2
-EnemyWaypoints=-523,809|-658,190
+//Group 2 - Southern frigate patrol
+EnemyWaypoints=-200,-400|700,-10
+EnemyWaypoints=-200,-400|700,-10
 
-MissionPosition=95,60
+//Group 3 - Center cruiser patrol
+EnemyWaypoints=-250,-300|320,120|360,-220
+EnemyWaypoints=-250,-300|320,120|360,-220
+
+//Group 4 - Sub 1
+EnemyWaypoints=-220,420|-50,-900
+
+//Group 5 - Sub 2
+EnemyWaypoints=-150,-900|-220,420
+
+
+
+//Mission position
+MissionPosition=525,25
 
 //Enemy Aircraft
 NumberOfHelicopters=1
@@ -42,8 +50,8 @@ AircraftType=usn_p3c
 
 //Aircraft Search Areas
 //Define a point and radius
-AircraftSearchArea=-380,320,80
-AircraftSearchArea=-560,720,300
+AircraftSearchArea=120,-200,80
+AircraftSearchArea=240,-100,300
 
 //spawn minefields and set detection range
 

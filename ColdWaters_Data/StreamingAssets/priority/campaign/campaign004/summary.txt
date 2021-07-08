@@ -7,14 +7,14 @@ CommanderFleetName=GLAVCOM VMF
 
 PrestigeMode=TRUE
 //Easy, Normal, Hard, Elite
-StartingPrestige=400,200,0,0
+StartingPrestige=200,100,0,0
 LoadoutType=1
 [Prestige Cost]
 testship			=	0		=	0
 wp_68_ss_whiskey	=	0		=	0
 wp_68_ss_romeo		=	10		=	0
 wp_68_ss_foxtrot	=	20		=	0
-wp_68_ssg_juliet	=	40		=	0
+wp_68_ssg_juliet	=	60		=	0
 wp_68_ssb_golf		=	0		=	0
 wp_68_ssn_november	=	100		=	1
 wp_68_ssn_victor1	=	220		=	1

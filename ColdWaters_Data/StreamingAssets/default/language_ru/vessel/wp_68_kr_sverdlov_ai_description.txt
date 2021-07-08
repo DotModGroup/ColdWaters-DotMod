@@ -1,6 +1,10 @@
 [Unit Reference]
-ShipClass=Sverdlov
-Description=Sverdlov-class Light Cruiser
-DefensiveWeapons=100mm DP Guns\n57mm AA Guns
-Aircraft=None
-History=These are the last big-gun warships built after WWII during 1950s. Although obsolete with the advent of anti-ship missiles and jet aircraft, the Soviets still consider them useful for providing artillery support during amphibious operations, and several of the class have been upgraded to serve as flagships in surface strike groups, their large size providing for extensive radar equipment as well as command and control facilities. They could also find use as convoy raiders if allowed to break into the North Atlantic convoy lanes.
+Designation=КРЛ
+ShipClass=«Свердлов»
+Description=Крейсер проекта 68-бис
+
+History=Крейсера проекта 68-бис (Классификация НАТО: Sverdlov) - последняя серия чисто артиллерийских крейсеров в СССР. Могут нести дежурство и вести боевые действия как вблизи побережья, так и в открытом море. Хотя они и устарели в эпоху ракетного оружия, мощная артиллерия главного калибра по прежнему опасна, для любого корабля имевшего неосторожность приблизится на дистанцию выстрела.
+
+[Player Ship Instances]
+PlayerClassNames=«Свердлов»,«Октябрьская Революция»,«Дмитрий Пожарский»,«Александр Невский»,«Мурманск»,«Александр Суворов»,«Адмирал Сенявин»
+PlayerClassHullNumbers=,,,,,,

@@ -80,8 +80,8 @@ NumberOfNoisemakers=40
 NoisemakerReloadTime=20
 
 [Campaign]
-PrefferedMissionType=LAND_STRIKE
-PrefferedMissionChance=0.6
+PrefferedMissionType=LAND_STRIKE,CARRIER_STRIKE
+PrefferedMissionChance=0.45,0.3
 
 [Subsystems]
 LabelPosition=364.3,28

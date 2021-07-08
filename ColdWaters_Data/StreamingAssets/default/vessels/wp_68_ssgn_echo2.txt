@@ -71,7 +71,7 @@ NoisemakerReloadTime=20
 
 [Campaign]
 PrefferedMissionType=LAND_STRIKE
-PrefferedMissionChance=0.8
+PrefferedMissionChance=0.6
 
 [Subsystems]
 LabelPosition=364.3,28
