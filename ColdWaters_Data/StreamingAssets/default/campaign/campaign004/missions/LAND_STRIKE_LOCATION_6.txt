@@ -1,0 +1,44 @@
+//Trondheim 6
+UseTerrain=TRUE
+MapCoordinates=2247,600
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=knm_84_ffg_oslo,knm_84_ffg_oslo|knm_84_cgv_nordkapp,usn_84_ap_roro|usn_84_ap_super_p,nato_ms_small_freighter|usn_84_ap_super_p,knm_84_ss_kobben
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=FALSE
+PlayerPosition=-246,269
+PlayerHeading=170
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//oslo
+EnemyWaypoints=-230,140|-210,30
+//oslo nordkapp
+EnemyWaypoints=-160,0|190,-40
+//Merchant 1
+EnemyWaypoints=-260,320|-180,-50
+//Merchant 2
+EnemyWaypoints=-280,330|-510,290
+//Lurking Sub
+EnemyWaypoints=0,-34|-60,-30|-30,0
+
+//MissionPosition=-170,-80
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=usn_sh-2f
+NumberOfAircraft=1
+AircraftType=usn_p3c
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-560,510,100

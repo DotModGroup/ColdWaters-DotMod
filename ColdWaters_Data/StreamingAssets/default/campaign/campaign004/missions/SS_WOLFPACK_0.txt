@@ -1,6 +1,11 @@
+//Player mission
+//Small
 MissionType=SS_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=CL,SSB,SSBN
+AllowedOnlyForCostBelow=200
+AllowedOnlyForCostHigherThan=
+MissionType=SS_WOLFPACK
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -8,7 +13,7 @@ EndLocation=WAYPOINT
 EndAlignment=
 Speed=8
 MustUseWaypoints=N1
-UseAtLeastOneWaypointOf=B1,NC1,SC3
+UseAtLeastOneWaypointOf=N1,NC1,IG1,N2
 ProhibitedWaypoints=P1,P2
 PatrolForHours=12,24
 StrategicValue=20

@@ -1,7 +1,13 @@
 [Unit Reference]
-ShipClass=Poti
-Description=Poti-class Small Anti-Submarine Ship
-//DefensiveWeapons=AK275 57mm AA Guns
-OffensiveWeapons=RBU-6000 ASW Rockets
-Aircraft=None
-History=These ships are predecessors of the more familiar Grisha class. They were among the first to feature a combined diesel/gas turbine (COGOG) propulsion system and were armed with the then latest sonar and weapons. They are reputed to be good sea boats and while limited in terms of sensors, however the greater than 6000 yard range of their anti-submarine rockets make them dangerous opponents to any sub caught at periscope depth.
+Designation=МПК
+ShipClass=МПК пр 204
+Description= МПК проекта 204 (1968г)
+
+History=Малые противолодочные корабли проекта 204 (Классификация НАТО: Poti class corvette) — малые противолодочные корабли, состоявшие на вооружении Военно-морских сил СССР, Болгарии и Румынии. Являются первыми МПК с газотурбинной установкой и предназначены для уничтожения подводных лодок противника с подводной скоростью движения более 20 узлов и способны прикрывать свои соединения и конвои в прибрежных районах. 
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,
+PlayerClassHullNumbers=MПK-100,MПK-101,MПK-102,MПK-103,MПK-104,MПK-105
+
+These ships are predecessors of the more familiar Grisha class. They were among the first to feature a combined diesel/gas turbine (COGOG) propulsion system and were armed with the then latest sonar and weapons. 
+They are reputed to be good sea boats and while limited in terms of sensors, however the greater than 6000 yard range of their anti-submarine rockets make them dangerous opponents to any sub caught at periscope depth.

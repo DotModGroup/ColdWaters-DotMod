@@ -2,14 +2,14 @@
 UseTerrain=TRUE
 MapCoordinates=2530,1070
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
-MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai,wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai,wp_fv_trawler,wp_vtr_andizhan_mod|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_68_kr_sverdlov_ai,wp_vtr_yuniy_partizan|wp_ms_leninskiy_komsomol|wp_vt_dubna,wp_vtr_yuniy_partizan|wp_ms_leninskiy_komsomol,wp_84_skr_krivak1_ai
+EnemyShipClasses=knm_84_ffg_oslo|knm_84_cgv_nordkapp,usn_84_ff_knox_ai|knm_84_cgv_nordkapp|usn_84_ffg_perry_ai,nato_ms_small_freighter,usn_68_ap_freighter_a|usn_84_ap_super_p|usn_84_ap_roro|usn_84_cg_belknap_ai,usn_68_ap_freighter_a|usn_84_ap_roro|usn_84_ap_super_p,civ_ms_encounter|usn_68_ap_freighter_a,usn_84_ff_knox_ai
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
@@ -39,9 +39,9 @@ MissionPosition=-400,-320
 
 //Enemy Aircraft
 NumberOfHelicopters=2
-HelicopterType=wp_haze
+HelicopterType=usn_sh-2f
 NumberOfAircraft=0
-AircraftType=wp_il-38_may
+AircraftType=usn_p3c
 
 //Aircraft Search Areas
 //Define a point and radius

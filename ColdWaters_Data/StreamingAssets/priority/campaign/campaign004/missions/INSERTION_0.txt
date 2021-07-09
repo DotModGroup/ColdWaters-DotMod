@@ -9,6 +9,8 @@ HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
 EndLocation=AIRBASE
+//AIRBASE
+//UK_NAVAL
 EndAlignment=ENEMY
 Speed=8
 MustUseWaypoints=

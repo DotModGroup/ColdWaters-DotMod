@@ -1,4 +1,5 @@
 //Player mission
+//Small
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
 ForbiddenFor=SURFACE,SS,SSG,SSB,SSGN
@@ -11,7 +12,7 @@ EndLocation=WAYPOINT
 EndAlignment=
 Speed=10
 MustUseWaypoints=P2,P1
-UseAtLeastOneWaypointOf=B2,B1
+UseAtLeastOneWaypointOf=B2,B1,NC1
 ProhibitedWaypoints=
 PatrolForHours=12,24
 StrategicValue=20

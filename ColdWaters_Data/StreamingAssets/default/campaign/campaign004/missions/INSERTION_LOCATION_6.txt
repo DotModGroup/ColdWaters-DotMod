@@ -2,7 +2,7 @@
 UseTerrain=TRUE
 MapCoordinates=2247,774
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
-MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
@@ -20,9 +20,9 @@ PlayerHeading=170
 //AI Nav Waypoints
 //Array of Vector 2 positions
 //Must be enough for maximum number of enemy ships
-//Riga
+//oslo
 EnemyWaypoints=-230,140|-210,30
-//Poti Riga
+//oslo nordkapp
 EnemyWaypoints=-160,0|190,-40
 //Merchant 1
 EnemyWaypoints=-260,320|-180,-50
@@ -34,10 +34,10 @@ EnemyWaypoints=0,-34|-60,-30|-30,0
 MissionPosition=-170,-80
 
 //Enemy Aircraft
-NumberOfHelicopters=1
-HelicopterType=wp_haze
-NumberOfAircraft=0
-AircraftType=wp_il-38_may
+NumberOfHelicopters=2
+HelicopterType=usn_sh-2f
+NumberOfAircraft=1
+AircraftType=usn_p3c
 
 //Aircraft Search Areas
 //Define a point and radius

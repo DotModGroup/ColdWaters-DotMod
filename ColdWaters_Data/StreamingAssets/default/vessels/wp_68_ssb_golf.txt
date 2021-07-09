@@ -1,5 +1,6 @@
 Designation=SSB
 ShipType=SUBMARINE
+PlayerHUD=hud/default
 
 Length=98.4
 Beam=8.2
@@ -10,10 +11,11 @@ Range=20000
 HullNumbers=FALSE
 
 [Movement]
-SurfaceSpeed=16
-SubmergedSpeed=15
-AccelerationRate=0.35
-DecelerationRate=0.18
+SurfaceSpeed=17
+SubmergedSpeed=12.5
+TelegraphSpeeds=-5,0,3,5,8,10,12.5
+AccelerationRate=0.04
+DecelerationRate=0.08
 RudderTurnRate=0.5
 TurnRate=2.2
 PivotPointTurning=0.256
@@ -25,9 +27,12 @@ SubmergedAt=0.111
 CavitationParameters=20,-100
 PropRotationSpeed=-450,450,450
 TestDepth=920
+EscapeDepth-918
+PeriscopeDepthInFeet=40
+Diesel=TRUE
 
 [Acoustics & Sensors]
-//SelfNoise=130
+
 SelfNoise=130
 ActiveSonarReflection=20
 ActiveSonarModel=wp_mg-200
@@ -39,15 +44,71 @@ RADAR=wp_rlk-101
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_set-65
-TorpedoNumbers=22
-TorpedoTubes=6
-TubeConfig=1,1,1,1,1,1
-TorpedoTubeSize=21
+TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
+Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74
+TorpedoNumbers=6,0,0
+TorpedoTubes=7
+TubeConfig=1,1,1,1,3,3,1
+TorpedoTubeSize=533,533,533,533,533,533,533
 TubeReloadTime=30
+
+VLSTorpedoTypes=wp_r21
+VLSTorpedoNumbers=3
+VLSMaxDepthToFire=200
+VLSMaxSpeedToFire=5
+
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
+
+AntiAirMissileType=wp_strela-2
+AntiAirMissilesNumbers=6
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=12
+AntiAirMissileLaunchPoints=0,0.1,0.192
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
+[Campaign]
+PrefferedMissionType=LAND_STRIKE
+PrefferedMissionChance=0.8
+BonusPrestige=20
+
+[Subsystems]
+LabelPosition=364.3,28
+BOWSONAR=FRONT
+LabelPosition=59.9,153.2
+TOWED=FALSE
+LabelPosition=378,211
+PERISCOPE=SAIL
+LabelPosition=209,191
+ESM_MAST=SAIL
+LabelPosition=209,211
+RADAR_MAST=SAIL
+LabelPosition=364.3,49.4
+TUBES=FRONT
+LabelPosition=378,162
+FIRECONTROL=FORE
+LabelPosition=190.8,28
+PUMPS=MID
+LabelPosition=59.9,172.2
+PROPULSION=REAR,AFT
+LabelPosition=59.9,27.7
+RUDDER=REAR
+LabelPosition=59.9,48.7
+PLANES=REAR,FRONT
+LabelPosition=190.8,49
+BALLAST=AFT
+LabelPosition=59.9,193.2
+REACTOR=AFT
+
+[Flooding Display: x,width,ymin,ymax]
+FLOODING1=179,54,-72,-39
+FLOODING2=107,91,-72,-39
+FLOODING3=30,60,-86,-39
+FLOODING4=-33,64,-72,-39
+FLOODING5=-125,118,-72,-39
+DamageControlPartyY=-28
 
 [Model]
 ModelFile=ships/wp_ssb_golf/wp_ssb_golf
@@ -78,8 +139,21 @@ MeshPosition=0.0,-0.0346,-0.5748
 MeshRotation=0,0,0
 MeshProp=wp_ssb_golf_prop_l
 MeshPosition=0,0,0
+
+[Model]
+ModelFile=ships/wp_ssn_november/wp_ssn_november
 Material=ships/materials/wp_masts
-Mesh=wp_ssb_golf_masts
+MeshPosition=0.005,0.020,0.240
+MastHeight=0.085
+MeshMast=wp_ssn_november_periscope
+
+MeshPosition=0,0.011,0.16
+MastHeight=0.085
+MeshMast=wp_ssn_november_esm
+
+MeshPosition=0,0.011,0.202
+MastHeight=0.085
+MeshMast=wp_ssn_november_radar
 
 [Weapon Systems]
 //Torpedo Mounts
@@ -110,15 +184,26 @@ TorpedoEffectPosition=0,0,0.0232
 
 //Tube 5
 MeshRotation=0,0,0
-MeshPosition=0.005,-0.0287,0.6
-TorpedoSpawnPosition=0.005,-0.0287,0.6
+MeshPosition=0.01,-0.015,-0.61
+TorpedoSpawnPosition=0.01,-0.015,-0.61
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 6
 MeshRotation=0,0,0
-MeshPosition=-0.005,-0.0287,0.6
-TorpedoSpawnPosition=-0.005,-0.0287,0.6
-TorpedoEffectPosition=0,0,0.0232
+MeshPosition=-0.01,-0.015,-0.61
+TorpedoSpawnPosition=-0.01,-0.015,-0.61
+TorpedoEffectPosition=0,0,-0.63
+
+VLS Positions
+VLSLaunchPoints=0,0.17,0.12|0,0.17,0.072|0,0.17,0.027
+VLSLaunchPointsRotation=-90,0,0
+
+//VLS Mesh
+MeshPosition=0,0.0785,0.07
+MeshRotation=-90,0,0
+TorpedoSpawnPosition=0,0.0785,0.07
+TorpedoEffectPosition=0,0.0785,0.07
+
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -126,6 +211,7 @@ MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
 //Wake
+ModelFile=ships/wp_ssb_golf/wp_ssb_golf
 MeshPosition=0,0,0
 BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small

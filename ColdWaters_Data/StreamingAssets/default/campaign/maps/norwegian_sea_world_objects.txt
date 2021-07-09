@@ -313,6 +313,62 @@ ChildMeshPosition=20,0,20
 ChildMeshRotation=0,0,0
 
 
+//Holy Loch  -----------------------------------------------
+WorldObject=terrain/scenery/scenery_harbour_murmansk
+WorldObjectCoords=1493,550
+MeshPosition=0,0,0
+MeshRotation=0,-90,0
+
+//target00
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=0,0,0
+ChildMeshRotation=0,0,0
+
+//target01
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=0,0,20
+ChildMeshRotation=0,0,0
+
+//target02
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=0,0,30
+ChildMeshRotation=0,0,0
+
+//target03
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=0,0,40
+ChildMeshRotation=0,0,0
+
+//target04
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=0,0,50
+ChildMeshRotation=0,0,0
+
+//target05
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=20,0,0
+ChildMeshRotation=0,0,0
+
+//target06
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=10,0,30
+ChildMeshRotation=0,0,0
+
+//target07
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=30,0,20
+ChildMeshRotation=0,0,0
+
+//target08
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=10,0,70
+ChildMeshRotation=0,0,0
+
+//target09
+ChildObject=terrain/scenery/landhit
+ChildMeshPosition=20,0,20
+ChildMeshRotation=0,0,0
+
 
 //Test  -----------------------------------------------
 WorldObject=terrain/scenery/scenery_airfield_2

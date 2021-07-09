@@ -23,8 +23,8 @@ PortImage=campaign/images/backgrounds/1984_ussr_sub_port.jpg
 TransitImage=campaign/images/pact wolfpack 2
 TimePenaltyOnSunk=12
 DisruptTime=140,200
-CampaignPoints=1600
-CampaignStartPoints=800
+CampaignPoints=2000
+CampaignStartPoints=1000
 PlayerPositionOnLeavePort=360,81
 RPGModeEnabled=TRUE
 UsePrestige=TRUE
@@ -56,11 +56,12 @@ ContactOverTimeColor4=1,24,76,255
 [Land War]
 UseLandWar=TRUE
 LandWarEndsCampaign=TRUE
+MinDaysToVictory=182
 IconsInOccupiedZonesOnly=FALSE
-HoursToNextGeneralEvent=72
+HoursToNextGeneralEvent=120
 HoursToNextGeneralEventRange=-24,48
-FirstOccupiedTerritory=WG1,WG2,N1
-TerritoryTakebackThreshold=4
+FirstOccupiedTerritory=N1,WG1,WG2
+TerritoryTakebackThreshold=5
 NewFrontProbability=0.35
 
 [Aircraft]
@@ -100,7 +101,7 @@ DetectionRange=2000
 //UK
 //Holy Loch 0
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE
+Function=NAVAL_BASE,AIRBASE,UK_NAVAL
 BaseMapPosition=-224,-198
 AircraftType=usn_p3c
 AircraftTypeInvaded=wp_il-38_may
@@ -154,7 +155,7 @@ LinksToRegionWaypoint=N7
 //Bergen 5
 //INSERTION_LOCATION_5
 Alignment=ENEMY
-Function=STRATEGIC_NODE,NAVAL_BASE,BERGEN,EUROPE_PORT,KNM_BASE,INSERTION_TARGET,//LAND_STRIKE_TARGET
+Function=STRATEGIC_NODE,NAVAL_BASE,BERGEN,EU_SEAPORT,KNM_BASE,INSERTION_TARGET,//LAND_STRIKE_TARGET
 BaseMapPosition=-25.9,-147.5
 MissionTypes=BERGEN_CONVOY,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SS_WOLFPACK,AI_PATROL_SS
 LinksToWaypoint=NC4
@@ -289,7 +290,7 @@ LinksToWaypoint=EC1
 
 //Copenhagen 18
 Alignment=ENEMY
-Function=EUROPE_PORT
+Function=EU_SEAPORT
 BaseMapPosition=57,-305
 MissionTypes=RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,AI_PATROL_SS
 LinksToWaypoint=BE4,BW5
@@ -368,7 +369,7 @@ SOSUSAlignment=ENEMY
 
 
 PlayerMissionTypes=		HUNT	,SSN_WOLFPACK	,SS_WOLFPACK	,SPECOPS	,CARRIER_STRIKE	,LANDING_FORCE	,RESUPPLY_CONVOY,SUB_RESUPPLY	,LAND_STRIKE,SHIP_RESUPPLY	,INSERTION	,BERGEN_CONVOY	,SOSUS_BREACH,	RETURN_TO_BASE,SSBN_PATROL
-PlayerMissionFrequency=	0.01	,	0.05		,	0.05		,	0.1		,	0.05		,	0.15		,		0.19	,	0.15		,	0.05	,	0.05		,	0.05	,		0.09	,	1.0
+PlayerMissionFrequency=	0.05	,	0.05		,	0.05		,	0.1		,	0.05		,	0.15		,		0.19	,	0.11		,	0.05	,	0.05		,	0.05	,		0.09	,	1.0
 PlayerMissionThreshold=	0		,	0			,	0			,	0		,	0			,	0			,		0		,	0			,	0		,	0			,	0		,		0		,	0
 PlayerMissionCount=		0		,	0			,	0			,	0		,	0			,	0			,		0		,	0			,	0		,	0			,	0		,		0		,	0
 
@@ -421,9 +422,9 @@ Mission=SSBN_PATROL_0
 missionSelected
 
 [NON-PLAYER MISSIONS]
-Non-PlayerMissionTypes=AI_PATROL_SS,AI_PATROL_SSN,AI_PATROL_ASW,AI_CONVOY_USA-UK
+Non-PlayerMissionTypes=AI_CONVOY_UK-EU,AI_CONVOY_USA-UK,AI_PATROL_SS,AI_PATROL_SSN,AI_PATROL_ASW
 //Sum of frequencies must equal 1
-Non-PlayerMissionFrequency=0.28,0.28,0.28,1
+Non-PlayerMissionFrequency=0.1,0.15,0.25,0.25,0.25
 
 Non-PlayerMission=AI_PATROL_SS_0
 Non-PlayerMission=AI_PATROL_SS_1
@@ -445,6 +446,8 @@ Non-PlayerMission=AI_CONVOY_USA-UK_0
 Non-PlayerMission=AI_CONVOY_USA-UK_1
 Non-PlayerMission=AI_CONVOY_USA-UK_2
 Non-PlayerMission=AI_CONVOY_USA-UK_3
+Non-PlayerMission=AI_CONVOY_UK-EU_0
+Non-PlayerMission=AI_CONVOY_UK-EU_1
 [EVENTS]
 Event=event_intro_1=START
 //Event=event_intro_2

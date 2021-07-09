@@ -69,8 +69,8 @@ NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
 [Campaign]
-PrefferedMissionType=LAND_STRIKE
-PrefferedMissionChance=0.8
+PrefferedMissionType=LAND_STRIKE,RESUPPLY_CONVOY
+PrefferedMissionChance=0.35,0.15
 
 [Subsystems]
 LabelPosition=364.3,28
