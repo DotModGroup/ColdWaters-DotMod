@@ -1,12 +1,12 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTELLIGENCE REPORTS THAT A GROUP OF ENEMY NUCLEAR ATTACK SUBMARINES with cruise missilies WILL leave <color=#CBCB2B><STARTLOCATION></color> soon. They probably pass <color=#52ABBA><MUSTUSELOCATION0></color> on their way and finally will be deployed somewhere in <color=#E6B621><ENDLOCATION></color>
+NAVAL INTELLEGENCE REPORTS THAT A WOLFPACK OF NATO SUBMARINES, ARMED WITH NUMEROUS CRUISE MISSILES, WIL LEAVE <color=#CBCB2B><STARTLOCATION> </color> WITHIN A DAY TO STRIKE AT OUR SUPPLY LINES. CURRENT INFORMATION INDICATES THEY WILL PASS BY <color=#52ABBA><MUSTUSELOCATION> </color> BEFORE CONTINUING ONTO <color=#E6B621><ENDLOCATION> </color>. INTERCEPT THEM BEFORE THEY HAVE A CHANCE TO ENGAGE FRIENDLTY SHIPPING.
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY SUBMARINES
+LOCATE AND SINK THE WOLFPACK.
 
 3.	(S) SECONDARY OBJECTIVE:
-NONE
+NONE.
 
 4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
 
@@ -14,8 +14,8 @@ NONE
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
 [MISSION WIN]
-Excellent job on intercepting and destroying this high priority target.
+Good work. You kept our transports safe. They're what win wars, after all!
 [MISSION FAIL]
-Discouraged to hear you lost this opportunity against such a high priority target. Better luck next time.
+While command understands that attacking a wolfpack can be difficult, we are nevertheless dissapointed you failed to protect our critical supply transports.
 [MISSION MISSED]
-Disappointed to hear target was not intercepted. Be more aggressive.
+Two-and-a-half hours ago, one of our supply convoys was completely decimated by a co-ordinated missile strike, sinking every transport and leaving few survivors. Command belives this was the work of the wolfpack you failed to intercept.

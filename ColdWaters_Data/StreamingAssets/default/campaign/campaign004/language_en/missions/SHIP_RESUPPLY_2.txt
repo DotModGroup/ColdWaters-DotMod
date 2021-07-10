@@ -1,0 +1,22 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTEL REPORTS THAT THE ENEMY PLANS A LARGE-SCALE UNDERWAY REPLENISHMENT OPRATION IN <color=#E6B621><ENDLOCATION> /color>. THE SUPPLY VESSELS WILL SOON LEAVE FROM <color=#CBCB2B><STARTLOCATION></color>. INTERDICT THIS OPERATION.
+
+2.	(S) PRIMARY OBJECTIVE:
+LOCATE AND SINK THE UNREP FORCE BEFORE IT CAN REPLENISH ENEMY SURFACE COMBATANTS.
+
+3.	(S) SECONDARY OBJECTIVE:
+LOCATE AND SINK ANY NEARBY WARSHIPS IF POSSIBLE.
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+[MISSION WIN]
+Excellent work in finding and destroying the enemies UNREP ships. Continue future operations with the same gutso!
+[MISSION FAIL]
+Command is dissapointed in your failure. The fact that you were unable to deal with unarmed supply ships is bewildering.
+[MISSION MISSED]
+The supply ships have replenished enemy surface combatants and left the area. The oppertunity has passed.

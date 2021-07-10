@@ -1,21 +1,22 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTEL REPORTS THAT A WOLFPACK OF ENEMY DIESEL-ELECTRIC ATTACK SUBS WILL ATTEMPT TO BREAK OUT INTO THE NORTH ATLANTIC WITHIN THE NEXT 7 DAYS WHERE THEY WILL WREAK HAVOC ON VITAL AMERICA TO EUROPE-CONVOYS. YOU ARE ORDERED TO ENGAGE THEM SINKING AS MANY SUBS AS POSSIBLE.
+NAVAL INTELLEGENCE REPORTS THAT THE ENEMY IS PREPARING A SMALL DIESEL SUB TASKFORCE TO PENETRATE OUR CURRENT NAVAL OPS AROUND <color=#E6B621><ENDLOCATION></color>. THE SUBS WILL PROBABLY LEAVE FROM <color=#CBCB2B><STARTLOCATION></color> WITHIN A DAY. THEY WILL THEN TRANSIT TO THE OPAREA AND ATTEMPT TO AMBUSH OUR SHIPS. DUE TO A LACK OF SHIPS, THE FLEET DOES NOT HAVE ENOUGH ASW ESCORTS TO HOLD OFF THIS ATTACK. PREVENT THESE BOATS FROM BREAKING THROUGH.
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY ATTACK SUBMARINES
+LOCATE AND SINK THE ENEMY SS WOLFPACK.
 
 3.	(S) SECONDARY OBJECTIVE:
-NONE
+NONE.
 
-4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS.
 
-5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS.
 
-6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED.
+
 [MISSION WIN]
-Fine work dealing with those boats, Commander! Your contribution to the war effort will make transit for our convoys a lot safer - and supporting the troops on land is what the Navy is about! Keep it up, Commander!
+Great job! Command is glad to hear of your success.
 [MISSION FAIL]
-Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
+Your failure will cost our fleet dearly.
 [MISSION MISSED]
-Discouraged to hear that the mission could not be carried through. Remember that time works for the enemy, not for us. Every red ship that makes it into the Atlantic means the thinning out of our resources and weakening our sea lane defenses. Try harder next time.
+You missed the enemy.

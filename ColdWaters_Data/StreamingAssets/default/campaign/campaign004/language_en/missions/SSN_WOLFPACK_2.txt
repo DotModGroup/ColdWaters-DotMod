@@ -1,12 +1,12 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-SATELLITE RECON HAS SPOTTED SEVERAL ATTACK SUBMARINES BEING READIED TO SAIL FROM <STARTLOCATION>. INTEL BELIEVES THESE SUBMARINES INTEND TO OPERATE AS A WOLFPACK ALONG THE NORTH ATLANTIC CONVOY ROUTES. IT IS IMPERATIVE THESE SSNS ARE SUNK BEFORE THEY CAN STRIKE AT NATO CONVOYS TRANSITING THE NORTH ATLANTIC. NAV OPS ARE COUNTING ON YOU. NO OTHER FRIENDLY UNITS ARE IN A POSITION TO INTERCEPT THE ENEMY IN TIME.
+NAVAL INTELLEGENCE REPORTS THAT A WOLFPACK OF NATO SUBMARINES, ARMED WITH NUMEROUS CRUISE MISSILES, WIL LEAVE <color=#CBCB2B><STARTLOCATION> </color> WITHIN A DAY TO STRIKE AT OUR SUPPLY LINES. CURRENT INFORMATION INDICATES THEY WILL PASS BY <color=#52ABBA><MUSTUSELOCATION> </color> BEFORE CONTINUING ONTO <color=#E6B621><ENDLOCATION> </color>. INTERCEPT THEM BEFORE THEY HAVE A CHANCE TO ENGAGE FRIENDLTY SHIPPING.
 
 2.	(S) PRIMARY OBJECTIVE:
-LOCATE AND SINK THE ENEMY SUBMARINES
+LOCATE AND SINK THE WOLFPACK.
 
 3.	(S) SECONDARY OBJECTIVE:
-NONE
+NONE.
 
 4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
 
@@ -14,8 +14,8 @@ NONE
 
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
 [MISSION WIN]
-Congratulations on a job well done. Sinking those subs keeps our boys safe.
+Good work. You kept our transports safe. They're what win wars, after all!
 [MISSION FAIL]
-Disappointing outcome. Expect better hunting next time.
+While command understands that attacking a wolfpack can be difficult, we are nevertheless dissapointed you failed to protect our critical supply transports.
 [MISSION MISSED]
-Further search deemed unproductive.
+Two-and-a-half hours ago, one of our supply convoys was completely decimated by a co-ordinated missile strike, sinking every transport and leaving few survivors. Command belives this was the work of the wolfpack you failed to intercept.
