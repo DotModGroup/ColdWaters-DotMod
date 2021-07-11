@@ -3,7 +3,7 @@
 Image=campaign/images/pact ssbn
 MissionLocation=North of Svalbard
 Briefing=23 APR 1984
-Briefing=Soviet ballistic missile submarines are operating under the Arctic ice cap. SIGINT has intercepted the a communiqué pinpointing the location of a Typhoon and its bastion. You are ordered to intercept and destroy the SSBN.
+Briefing=Soviet ballistic missile submarines are operating under the Arctic ice cap. SIGINT has intercepted a communiqué pinpointing the location of a Typhoon and its bastion. You are ordered to intercept and destroy the SSBN.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Sink the Typhoon
