@@ -21,7 +21,7 @@ PlayerHeading=90
 //Array of Vector 2 positions
 //Must be enough for maximum number of enemy ships
 //Fjord Patrol
-EnemyWaypoints=-400,490|-590,465|-585,475|400,490
+EnemyWaypoints=-700,490|-890,465|-885,475|700,490
 //Center Patrol 2
 EnemyWaypoints=-800,430|-1200,310
 //Trawler
