@@ -1,37 +1,36 @@
-
 [CAMPAIGN]
-Soviet subs campaign
-Expanding RPG Mode: Prestige system, Player ranks, ability to change mission and player's vessel
-Custom tranzit background for most vessels
-Reykjavik, Narvik and Bergen harbor scenery now has landstrike targets
+Soviet Campaign (1968, 1984)
+Expanded RPG Mode: Prestige system, player ranks, ability to change mission and vessel
+Custom transit backgrounds for most vessels
+Reykjavik, Narvik and Bergen harbor scenery now all have landstrike targets
 
 [GAME]
-Self noises and sensor strength are reworked by Daniil
+Self noise and sensor strength reworked by Daniil
 Bundle import code improved by Yachter
 New loading screen by Yachter
 Loading time on game start improved by Yachter
 New game options by Yachter
-
-Many russian descriptions rewritten and corrected
-New single missions
+New single missions for both sides
+Russian descriptions rewritten and corrected
 
 [GAME MECHANICS]
-Old diesel subs are faster when surfaced
+Old SS boats are faster on the surface
+The AI no longer autodetects weapons if they do not know they are there
 
 [GUI]
-Additional buttons and "Clear to leave" indicator
+Additional buttons
+Clear to Leave indicator
 Panel for player SAM
 Missile and aircraft map icons
-Player current noise is displayed on map
+Player current noise displayed
 
 [MODELS]
 Kobben model
 Ohio model by that_person
 Oberon model by that_person
-Trafalgar model by Yachter
-Missiles models
-
-Nimitz and Anchar models
+Trafalgar model by TheHappyYachter
+Missile models
+Nimitz and Anchar (Papa) models
 SH-60B model
 
 [VESSELS]
@@ -41,3 +40,4 @@ Repainted civilian vessels acting as US auxilary ships
 Added short name for ship to display in GUI
 
 [BUGFIXES]
+Numerous misc. changes and fixes
