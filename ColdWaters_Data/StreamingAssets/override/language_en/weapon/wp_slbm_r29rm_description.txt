@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=R29RM
-WeaponDescriptiveName=R29RM SLBM
-WeaponDescription=The R-29RM (NATO: SS-N-23 Skiff), also known as the "Shtil", was a Soviet SLBM fielded on the Delta IV-class, and could carry 4 MIRV warheads, up to 100kt each. The missile is a development of the previous R-29RL, and is about one-meter longer and wider. Because of this, it has a longer range and can carry more warheads.

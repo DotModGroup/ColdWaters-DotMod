@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=R29RL
-WeaponDescriptiveName=R29RL SLBM
-WeaponDescription=The R-29RL (NATO: SS-N-18 Mod 3 Stingray) was a Soviet SLBM fielded on the Delta III-class SSBNs. It has a significant range advantage over its predecessors, allowing it to be fired from under the Arctic ice caps or the Barents Sea. This meant SSBN's no longer would have to run the GIUK GAP to get to firing positions.

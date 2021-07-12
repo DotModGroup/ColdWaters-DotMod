@@ -1,4 +1,0 @@
-[Weapon Reference]
-WeaponName=R39
-WeaponDescriptiveName=R39 SLBM
-WeaponDescription=The R-39 "Rif" (NATO: SS-N-20 Sturgeon) was a Soviet SLBM only deployed on the Typhoon class SSBNs. It could carry up to 10 MIRV'd warheads of up to 200kt each. The missile remains one of the largest SLBMs ever fielded.

@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Oscar
+Description=Oscar-class Nuclear Cruise Missile Submarine
+History=The Oscar is the sub-surface counterpart to the massive Kirov-class rocket cruisers. At 16,500 tons, this class is larger than any other submarines except the giant Ohio and Typhoon classes. This large size was made necessary by the need to accommodate the same battery of 24 SS-N-19 Shipwreck missiles found on the Kirov. Despite the huge size of these boats, they can move at 30 knots and feature weapons, sensors and silencing on par with those of the Victor III's, making them formidable opponents for any NATO submarine.
+
+[Player Ship Instances]
+PlayerClassNames=Archangelsk,Murmansk
+PlayerClassHullNumbers=K-525,K-206
