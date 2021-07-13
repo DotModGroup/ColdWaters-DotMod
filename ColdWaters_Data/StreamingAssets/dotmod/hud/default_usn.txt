@@ -31,8 +31,22 @@ TorpedoTube650Unselected=hud/uk/tube_650_unselected.png
 TorpedoTube400Selected=hud/uk/tube_400_selected.png
 TorpedoTube400Unselected=hud/uk/tube_400_unselected.png
 
-SAM_Minimized=hud/uk/sam_minimized.png
-SAM_Toolbar=hud/uk/SAM_Panel.png
+//TorpedoSettingShip=hud/uk/icon_search_ship.png
+TorpedoSettingShip=hud/uk/icon_target_ship.png
+TorpedoSettingShallowSub=hud/uk/icon_search_shallow_sub.png
+TorpedoSettingLevelSub=hud/uk/icon_search_level_sub.png
+TorpedoSettingDeepSub=hud/uk/icon_search_deep_sub.png
+TorpedoSettingVeryDeepSub=hud/uk/icon_search_verydeep_sub.png
+
+DivePanelCover=hud/uk/maximized_dive_cover.png
+Guns_Toolbar=hud/uk/maximized_guns.png
+RBU_Toolbar=hud/uk/maximized_rbu.png
+
+GunsOff=hud/uk/icon_guns_off.png
+RBUOff=hud/uk/icon_rbu_off.png
+
+SAM_Minimized=hud/uk/minimized_sam.png
+SAM_Toolbar=hud/uk/maximized_sam.png
 SAMPanelCover=hud/uk/SAM_Panel_auto_cover.png
 FireSAMButton=hud/uk/icon_fire_sam.png
 //FireSAMButton=hud/uk/icon_fire_tube.png
@@ -130,7 +144,8 @@ TabPanels=hud/uk/tabpanels.png
 
 ConditionsPanel=hud/uk/conditions.png
 ConditionsTextColor=74,163,201,255
-ConditionsPlayer=hud/default/svp_ownship.png
+ConditionsPlayerShip=hud/uk/svp_ownship.png
+ConditionsPlayerSub=hud/default/svp_ownship.png
 ConditionsTorpedo=hud/uk/svp_torpedo.png
 ConditionsWarship=hud/uk/svp_warship.png
 ConditionsSubmarine=hud/default/svp_sub.png
@@ -225,12 +240,12 @@ ButtonFireTube=hud/uk/icon_fire_tube.png
 ButtonAutoCenterMap=hud/uk/icon_center_map.png
 
 [Toolbars]
-HelmMaximized=hud/uk/helm_maximized.png
-HelmMinimized=hud/uk/helm_minimized.png
-DiveMaximized=hud/uk/dive_maximized.png
-DiveMinimized=hud/uk/dive_minimized.png
-SensorsMaximized=hud/uk/sensors_maximized.png
-SensorsMinimized=hud/uk/sensors_minimized.png
+HelmMaximized=hud/uk/maximized_helm.png
+HelmMinimized=hud/uk/minimized_helm.png
+DiveMaximized=hud/uk/maximized_dive.png
+DiveMinimized=hud/uk/minimized_dive.png
+SensorsMaximized=hud/uk/maximized_sensors.png
+SensorsMinimized=hud/uk/minimized_sensors.png
 
 [Recognition Manual]
 UnitReferenceMain=hud/uk/unit_ref_main.png

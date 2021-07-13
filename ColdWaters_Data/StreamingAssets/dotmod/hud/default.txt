@@ -38,8 +38,15 @@ TorpedoSettingLevelSub=hud/uk/icon_search_level_sub.png
 TorpedoSettingDeepSub=hud/uk/icon_search_deep_sub.png
 TorpedoSettingVeryDeepSub=hud/uk/icon_search_verydeep_sub.png
 
-SAM_Minimized=hud/uk/sam_minimized.png
-SAM_Toolbar=hud/uk/SAM_Panel.png
+DivePanelCover=hud/uk/maximized_dive_cover.png
+Guns_Toolbar=hud/uk/maximized_guns.png
+RBU_Toolbar=hud/uk/maximized_rbu.png
+
+GunsOff=hud/uk/icon_guns_off.png
+RBUOff=hud/uk/icon_rbu_off.png
+
+SAM_Minimized=hud/uk/minimized_sam.png
+SAM_Toolbar=hud/uk/maximized_sam.png
 SAMPanelCover=hud/uk/SAM_Panel_auto_cover.png
 FireSAMButton=hud/uk/icon_fire_sam.png
 SwitchSAMTargetAircraft=hud/uk/icon_target_aircraft.png
@@ -136,7 +143,8 @@ TabPanels=hud/uk/tabpanels.png
 
 ConditionsPanel=hud/uk/conditions.png
 ConditionsTextColor=74,163,201,255
-ConditionsPlayer=hud/uk/svp_ownship.png
+ConditionsPlayerShip=hud/uk/svp_ownship.png
+ConditionsPlayerSub=hud/uk/svp_ownsub.png
 ConditionsTorpedo=hud/uk/svp_torpedo.png
 ConditionsWarship=hud/uk/svp_warship.png
 ConditionsSubmarine=hud/uk/svp_sub.png
@@ -231,12 +239,12 @@ ButtonFireTube=hud/uk/icon_fire_tube.png
 ButtonAutoCenterMap=hud/uk/icon_center_map.png
 
 [Toolbars]
-HelmMaximized=hud/uk/helm_maximized.png
-HelmMinimized=hud/uk/helm_minimized.png
-DiveMaximized=hud/uk/dive_maximized.png
-DiveMinimized=hud/uk/dive_minimized.png
-SensorsMaximized=hud/uk/sensors_maximized.png
-SensorsMinimized=hud/uk/sensors_minimized.png
+HelmMaximized=hud/uk/maximized_helm.png
+HelmMinimized=hud/uk/minimized_helm.png
+DiveMaximized=hud/uk/maximized_dive.png
+DiveMinimized=hud/uk/minimized_dive.png
+SensorsMaximized=hud/uk/maximized_sensors.png
+SensorsMinimized=hud/uk/minimized_sensors.png
 
 [Recognition Manual]
 UnitReferenceMain=hud/uk/unit_ref_main.png
