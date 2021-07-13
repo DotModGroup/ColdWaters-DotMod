@@ -22,13 +22,13 @@ PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
-Waterline=0
+Waterline=0.02
 SubmergedAt=0.2
 CavitationParameters=20,-100
-PropRotationSpeed=175
+PropRotationSpeed=-175
 TestDepth=40
 EscapeDepth=787
-PeriscopeDepthInFeet=44
+PeriscopeDepthInFeet=0
 
 [Acoustics & Sensors]
 SelfNoise=165
@@ -118,68 +118,144 @@ FLOODING5=-92,48,-77,-49
 DamageControlPartyY=-36
 
 [Model]
-ModelFile=ships/usn_ff_knox/usn_ff_knox
+AssetBundle=bundles/vessels/usn/usn_ffg_perry.unity3d
+ModelFile=assets/models/usn_ffg_perry.fbx
 
 //Hull and Deck
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=usn_ff_knox_coll_hull
-MeshSuperstructureCollider=usn_ff_knox_coll_ss
+MeshHullCollider=usn_ffg_perry_coll_hull
+MeshSuperstructureCollider=usn_ffg_perry_coll_ss
 
-Material=ships/usn_ff_knox/usn_ff_knox_mat
-MaterialTextures=ships/usn_ff_knox/usn_ff_knox_tx,ships/usn_ff_knox/usn_ff_knox_spec,ships/usn_ff_knox/usn_ff_knox_nm
-Mesh=usn_ff_knox,usn_ff_knox_d
-MeshPosition=0,-0.0163,-0.8725
-MeshRudder=usn_ff_knox_rudder
+Material=assets/materials/usn_ffg_perry.mat
+
+Mesh=hull
+Mesh=superstructure
+Mesh=brace_l
+Mesh=brace_r
+Mesh=foremast
+Mesh=mainmast
+Mesh=propshaft
+Mesh=skeg
+Mesh=bridge
+Mesh=casmast
+Mesh=stirmast
+
+MeshPosition=0,-0.07035784,0.6482612
+Mesh=sonardome
+
+MeshPosition=0.0,-0.00930114,-0.8862877
+MeshRudder=rudder
+
+MeshRotation=-6.95,0,0
+MeshPosition=-0.0,-0.06881678,-0.8400785
+MeshProp=prop
 
 MeshPosition=0,0,0
+MeshRotation=0,0,0
 
-Material=ships/materials/boats
-Mesh=usn_ff_knox_boats,usn_ff_knox_boats_d
-
-Material=ships/materials/underside
-Mesh=usn_ff_knox_undersides,usn_ff_knox_undersides_d
-
-Material=ships/materials/trans
-Mesh=usn_ff_knox_trans,usn_ff_knox_trans_d
-
-Material=ships/materials/usn_parts
-Mesh=usn_ff_knox_parts,usn_ff_knox_parts_d
-
-
+//REQUIRED! for "submarines"
 MeshBowPlanes=FALSE
 MeshSternPlanes=FALSE
-Material=ships/materials/usn_parts
-MeshRotation=-5,0,0
-MeshPosition=-0.0,-0.075,-0.8167
-MeshProp=usn_ff_knox_prop
 
+Material=assets/materials/usn_perry_netting.mat
+Mesh=helodeck_netting
+
+Material=assets/materials/usn_perry_railings.mat
+Mesh=railings
+
+AssetBundle=bundles/parts/usn_parts.unity3d
 
 //RADARs
-RADARSpeed=120
-RADARDirection=1
+//Mk 92 STIR
+ModelFile=assets/models/usn_parts_mk92.fbx
+Material=assets/materials/usn_parts_mk92.mat
+MeshPosition=0,0.1796601,-0.05839039
+MeshRotation=0,180,0
+Mesh=usn_parts_mk92_stir_turret
+MeshPosition=0,0.03138018,0.006919574
 MeshRotation=0,0,0
-MeshPosition=0,0.24,0.408
-MeshRADAR=usn_ff_knox_navradar
+ChildMesh=usn_parts_mk92_stir_antenna
 
+//Mk 92 CAS
+MeshPosition=0,0.2366839,0.3340427
+MeshRotation=0,0,0
+Mesh=usn_parts_mk92_cas
+
+//SPS-55
+ModelFile=assets/models/usn_parts_sps-55.fbx
+Material=assets/materials/usn_parts_sps-55.mat
+MeshPosition=0,0.4202,0.1178
+RADARSpeed=75
+MeshRADAR=usn_parts_sps-55,HIDE
+
+//SPS-49
+ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 RADARSpeed=100
-Material=ships/materials/usn_sps_40
-MeshPosition=0,0.345,0.0824
-MeshRADAR=usn_ff_knox_sps_40,HIDE
+Material=ships/materials/usn_sps_49
+MeshPosition=0,0.3122,0.2287
+MeshRADAR=usn_cg_belknap_sps_49,HIDE
 
-RADARSpeed=100
-Material=ships/materials/usn_sps_67
-MeshPosition=0,0.4713,0.0156
-MeshRADAR=usn_ff_knox_sps_67,HIDE
+//Flags
+MeshPosition=0,-0.0952,-0.0642
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 
+//ESM
+//SLQ-32
+ModelFile=assets/models/usn_parts_slq-32.fbx
+Material=assets/materials/usn_parts_slq-32.mat
+MeshRotation=0,90,0
+MeshPosition=0.0513,0.19663,0.3208
+Mesh=slq-32_l
+MeshRotation=0,-90,0
+MeshPosition=-0.0513,0.19663,0.3208
+Mesh=slq-32_l
 
-Material=ships/materials/usn_parts
-
+//Boat
+ModelFile=assets/models/usn_parts_boat.fbx
+Material=assets/materials/usn_parts_boat.mat
+MeshRotation=0,0,0
+MeshPosition=-0.0763,0.1322,-0.03
+Mesh=boat
 
 [Weapon Systems]
+//Mk 13 Missile launcher
+ModelFile=assets/models/usn_parts_mk13.fbx
+Material=assets/materials/usn_parts_mk13.mat
+MeshPosition=0,0.1072005,0.5684557
+MeshRotation=0,0,0
+Mesh=usn_mk13_base
+MeshPosition=0,0.1072005,0.5684557
+Mesh=usn_mk13_turret
+//Offset: MeshPosition=0,0.03180147,-0.005785675
+MeshRotation=-20,0,0
+MeshPosition=0,0.137,0.5627
+Mesh=usn_mk13_arm
+
+//Mk 75 Naval Gun
+ModelFile=assets/models/usn_parts_mk75.fbx
+Material=assets/materials/usn_parts_mk75.mat
+MeshRotation=0,180,0
+MeshPosition=0,0.1510924,-0.2001464
+Mesh=usn_mk75_base
+MeshNavalGun=usn_mk75_turret
+MeshRotation=0,0,0
+MeshPosition=0,0.01455609,0.001164474
+MeshNavalGunBarrel=usn_mk75_barrel
+NavalGunSpawnPosition=0,0,0.078
+
+//Phalanx CIWS
+ModelFile=assets/models/usn_parts_phalanx.fbx
+Material=assets/materials/usn_parts_phalanx.mat
+MeshRotation=0,180,0
+MeshPosition=0,0.1459578,-0.5541307
+Mesh=usn_parts_phalanx_mount
 
 //Торпедные аппараты
+Material=ships/materials/usn_parts
 
 //1й - 3й по левому борту
 MeshRotation=0,-30,0
@@ -211,9 +287,9 @@ TorpedoEffectPosition=0.11085,0.06501,0.04029
 
 //УВП
 MeshRotation=-20,0,0
-MeshPosition=0,0.105,0.54
-TorpedoSpawnPosition=0,0.105,0.54
-TorpedoEffectPosition=0,0.105,0.54
+MeshPosition=0,0.12,0.54
+TorpedoSpawnPosition=0,0.12,0.54
+TorpedoEffectPosition=0,0.12,0.54
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -237,20 +313,20 @@ MeshPosition=0,0.1,0.11
 MeshMast=FALSE
 
 
-
-//Mk 75 Naval Gun
-MeshPosition=0,0.14,-0.23
-MeshNavalGun=usn_ff_knox_127mm_turret
-MeshPosition=0,0.022,0
-MeshNavalGunBarrel=usn_ff_knox_127mm_gun
-NavalGunSpawnPosition=0,0,0.12
-
-//CIWS
-MeshRotation=0,180,0
-MeshPosition=0.006,0.16,-0.5905
-MeshCIWSGun=usn_ff_knox_ciws
-MeshPosition=0,0,0
+ModelFile=ships/usn_cg_belknap/usn_cg_belknap
+Material=ships/materials/usn_parts
+MeshPosition=0,0.167,-0.5553
+MeshCIWSGun=usn_cg_belknap_ciws
+MeshPosition=0,0.167,-0.5553
 MeshCIWSRADAR=FALSE
+
+//Torpedo Launchers
+MeshRotation=0,-30,0
+MeshPosition=-0.08882,0.06382,0.00999
+Mesh=usn_cg_belknap_torpedomount
+MeshRotation=0,30,0
+MeshPosition=0.08882,0.06382,0.00999
+Mesh=usn_cg_belknap_torpedomount
 
 //Wake and Smoke
 MeshPosition=0,0,0
