@@ -8,7 +8,7 @@ GenerateFullLog=TRUE
 
 //=========Modded Parameters===========
 //You can change this string to your mod name and version
-ModVersion=Dot Mod v Alpha 4
+ModVersion=Dot Mod v 0.10
 
 //Custom font
 CustomFontBundle=bundles\fonts\custom
