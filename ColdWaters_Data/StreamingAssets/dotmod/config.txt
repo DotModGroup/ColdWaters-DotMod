@@ -80,11 +80,6 @@ MusicCombatAction=audio/music/Cold Waters Theme
 MusicActionReportVictory=audio/music/Cold Waters Campaign Victory
 MusicActionReportLoss=audio/music/Cold Waters Campaign Loss
 
-[Flags] - deprecated for now
-FlagSoviet=vessels/flags/flag_soviet.png
-FlagSovtorgFlot=vessels/flags/flag_sovtorgflot.png
-FlagSignal=vessels/flags/flag_signal.png
-
 [Acoustics & Weather]
 MaxSurfaceDuctBonus=12
 MaxLayerBonus=12
