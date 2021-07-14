@@ -89,7 +89,7 @@ Ivan Baranov a.k.a. Dot - Started the project and has done work on just about ev
 Dsmirnoff - Accoustics system supervision, advanced coding, research and corrections, additional modeling, work on russian texts
 Masha Sklyarova - Main tester, tactics assesement, work on russian text
 TheHappyYachter - Advanced coding, modeling
-HobbitJack - Campaign 002, English translation, cleanup and package management, support, community management and outreach
+HobbitJack - Campaign 002, English translation, cleanup and package management, support, community management, and outreach
 Lorenzo a.k.a. Electric Boat - Modeling
 that_person - Campaign 001, modeling
 Minsk CVGH - Additional Russian translation
