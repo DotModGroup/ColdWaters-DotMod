@@ -1,0 +1,54 @@
+[CAMPAIGN]
+Soviet Campaign (1968, 1984)
+Expanded RPG Mode: Prestige system, player ranks, ability to change mission and vessel
+Custom transit backgrounds for most vessels
+Reykjavik, Narvik and Bergen harbor scenery now all have landstrike targets
+
+[GAME]
+Self noise and sensor strength reworked by Daniil
+Bundle import code improved by Yachter
+New loading screen by Yachter
+Loading time on game start improved by Yachter
+New game options by Yachter
+New single missions for both sides
+Russian descriptions rewritten and corrected
+
+[GAME MECHANICS]
+Old SS boats are faster on the surface
+The AI no longer autodetects weapons if they do not know they are there
+
+[GUI]
+Additional buttons:
+ + Increace depth 100m
+ + Decreace depth 100m
+ + Go to max missile launch depth
+ + Deploy chaff button
+ 
+Clear to Leave indicator
+Panel for player SAM
+Missile and aircraft map icons
+Player current noise displayed
+
+[MODELS]
+Kobben model
+Ohio model by that_person
+Oberon model by that_person
+Trafalgar model by TheHappyYachter
+Weapon models
+ + high quality models by Lorenzo:
+    65-76, AT-2, UMGT-1 and Mk-48 mod 5 torpedoes
+    RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
+	
+(EM) Nimitz model
+(EM) Anchar (Papa) models by Max Panow
+(EM) SH-60B model by Syoma Ivanov
+
+[VESSELS]
+Repainted civilian vessels acting as US auxilary ships
+Retextured most of the soviet submarines to have brighter textures and darher top side
+
+[QOL]
+Added short name for ship to display in GUI
+
+[BUGFIXES]
+Numerous misc. changes and fixes
