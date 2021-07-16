@@ -3,7 +3,7 @@ Presenting: DotMod for Cold Waters.
 This is an attempt to create a more organized mod that is closer to vanilla vessel and weapons characteristics than other, currently-existing mods. This also generally results in more realistic sensor comparisons.
 While DM incorporates some stuff from EM made by our developers (and other items which we have the right to use), it is built from the ground up on the base game to avoid many of the flaws found in that mod, some of which would take more time to fix than re-do from scratch.
 
-This is an early Beta release, and will be tweaked and improved based on feedback and additional sources where possible. We encourage you to join our Discord at: https://discord.gg/EMGvdu4skp to help us further tweak the mod to give gthe best possible experience. We also hope you enjoy it as much as we enjoy working on it!
+This is an early Beta release, and will be tweaked and improved based on feedback and additional sources where possible. We encourage you to join our Discord at: https://discord.gg/EMGvdu4skp to help us further tweak the mod to give the best possible experience. We also hope you enjoy it as much as we enjoy working on it!
 
 We still in the process of creating documentation. Expect that with the final release of the mod.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
