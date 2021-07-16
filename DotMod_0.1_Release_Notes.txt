@@ -97,7 +97,7 @@ ghostdog688 - Coordination, presentation, PR
 Goldmaster11 - Testing
 -----------
 Our team also wants thank several people for their help and inspiration:
-Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd alos like to thank you for that Marmoset material that kept our ships hidden by fog. 
+Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
 Oleg Vygovsky - You've showed that impossible is actually possible and provided info and support
 Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additionally, thanks for the info and support through the years.
 Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
