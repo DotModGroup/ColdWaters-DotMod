@@ -20,6 +20,7 @@ Changelog (INCOMPLETE):
 Many models are still WIP and requires remodel/retexturing
 Norwegian surface ships are kitbash placeholders
 SAM trails are placeholders and require replacement
+Event files for 1984 USSR (004) in English still need translation. A hotfix will go out for this as soon as possible.
 
 [CAMPAIGN]
 Soviet Campaign (1984)
