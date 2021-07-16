@@ -59,7 +59,7 @@ Player current noise displayed on tacmap
 
 [MODELS]
 Kobben model
-Ohio model by that_person
+Ohio model by that_person and TheHappyYachter
 Oberon model by that_person
 Trafalgar model by TheHappyYachter
 Weapon models by Dot, TheHappyYachter and that_person
@@ -98,6 +98,7 @@ Goldmaster11 - Testing
 -----------
 Our team also wants thank several people for their help and inspiration:
 Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
+Gsmith93-We thank you for your incredible 1990 campaign! It gave us such a good base to work off of and saved us so much time.
 Oleg Vygovsky - You've showed that impossible is actually possible and provided info and support
 Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additionally, thanks for the info and support through the years.
 Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
