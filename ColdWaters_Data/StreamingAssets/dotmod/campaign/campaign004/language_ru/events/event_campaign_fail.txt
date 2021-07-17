@@ -1,4 +1,4 @@
-NextAction=event_campaign_fail_2
+﻿NextAction=event_campaign_fail_2
 Image=campaign/images/68 nato victory
 Photo=campaign/images/photos/riot 1,campaign/images/photos/riot 2,campaign/images/photos/protests 1,campaign/images/photos/protests 2
 Music=audio/music/Cold Waters Campaign Loss
@@ -9,5 +9,5 @@ Font=0
 Outline=FALSE
 Color=180,71,64,255
 Title=<b>РАСПАД ОВД</b>
-Sentence1=Czechoslovakian, Polish and East German governments have made direct contact with NATO's political leadership, asking for an immediate separate peace. The peace offer was accompanied by a plea towards NATO to guarantee the future independence of these regions from communist pressure.
-Sentence2=In general terms, acceptance of this offer could mean NATO will oblige itself to assist in forcing Soviet troops out of these respective territories. Furthermore, the displacement of hundreds of thousands of civilians across Europe poses a massive humanitarian crisis for NATO, as well as other nations, to resolve.
+Sentence1=Правительства Чехословакии, Польши и ГДР начали переговоры с политическим руководством НАТО с целью заключения немедленного сепаратного мира. Предложение сопровождалось призывом к НАТО гарантировать будущую независимость этих регионов от коммунистического давления.
+Sentence2=Принятие этого предложения может означать, что НАТО возьмет на себя обязательство помочь в вытеснении советских войск с этих соответствующих территорий. Более того, перемещение сотен тысяч мирных жителей из Восточной в Западную Европу приведёт к гуманитарной катастрофе, которую необходимо будет разрешить странам-участникам НАТО.

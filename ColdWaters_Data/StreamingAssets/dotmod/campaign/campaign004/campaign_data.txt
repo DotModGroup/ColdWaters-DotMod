@@ -10,9 +10,9 @@ MapHeightInNM=1800
 MapTimeCompression=3600
 Hemisphere=NORTH
 EquatorYValue=0
-//JulianStartDate=2447983.5
-JulianStartDate=2446040.5
-StartDateRange=30
+//2445896.5 = 15 jul 1984
+JulianStartDate=2445896.5
+StartDateRange=15
 MapSpeedModifier=2
 PlayerStartTelegraphs=2,3,6
 PlayerStartDepths=50,150,600
@@ -450,9 +450,12 @@ Non-PlayerMission=AI_CONVOY_UK-EU_0
 Non-PlayerMission=AI_CONVOY_UK-EU_1
 [EVENTS]
 Event=event_intro_1=START
-//Event=event_intro_2
-//Event=event_intro_3
-//Event=event_intro_4
+Event=event_intro_2
+Event=event_intro_3
+Event=event_intro_4
+Event=event_intro_5
+Event=event_intro_6
+Event=event_intro_7
 
 Event=BERGEN_CONVOY_win
 Event=BERGEN_CONVOY_fail

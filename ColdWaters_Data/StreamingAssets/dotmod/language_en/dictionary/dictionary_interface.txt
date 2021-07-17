@@ -157,6 +157,9 @@ Yes=YES
 Labels=Labels
 Menu=Menu
 Hours=Hours
+Loading=Loading
+LoadingWeapon=Loading Weapon Model for
+LoadingVesselData=Loading Vessel Data for
 
 [BRIEFINGS]
 InTheVicinityOf=In the vicinity of

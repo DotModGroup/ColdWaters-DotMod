@@ -166,6 +166,9 @@ Yes=ДА
 Labels=Метки
 Menu=Меню
 Hours=Час.
+Loading=Загрузка
+LoadingWeapon=Загрузка оружия
+LoadingVesselData=Загрузка
 
 [BRIEFINGS]
 InTheVicinityOf=Район действия:
