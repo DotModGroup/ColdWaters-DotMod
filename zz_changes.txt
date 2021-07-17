@@ -1,8 +1,9 @@
-Changelog (INCOMPLETE):
 [KNOWN ISSUES/WIP]
 Many models are still WIP and requires remodel/retexturing
 Norwegian surface ships are kitbash placeholders
 SAM trails are placeholders and require replacement
+Event files for 1984 USSR (004) in English still need translation. A hotfix will go out for this as soon as possible.
+Not all playble surface ships have deployable towed arrays
 
 [CAMPAIGN]
 Soviet Campaign (1984)
@@ -16,15 +17,19 @@ Bundle import code improved by TheHappyYachter
 New loading screen by TheHappyYachter
 Loading time on game start improved by TheHappyYachter
 New game options by TheHappyYachter
-New single missions for both sides
+New single missions (More coming!)
 Russian descriptions rewritten and corrected
-(EM) Russian voiceover by Evgeny Mas ak Ramius
+(EM) Russian voiceover by Evgeny Mas a.k.a. Ramius
 
 [GAME MECHANICS]
+Player SAMs can target enemy aircraft and missiles, and, depending on the type of missile, also surface ships for a long-range ASuW weapon. They are, of course, not very effective in this role.
 Old SS boats are faster on the surface
 The AI no longer autodetects weapons if they do not know they are there
 Fully functional surface to air missilies with ability to switch target type
-Secondary SAM that works in automatically and targets approaching missiles
+Secondary SAM that works automatically and targets approaching missiles
+Civilian vessels will mask a submarine's noise
+CIWS will target aircraft
+(EM) Deployable towed arrays
 
 [GUI]
 Additional buttons:
@@ -41,12 +46,12 @@ Player current noise displayed on tacmap
 
 [MODELS]
 Kobben model
-Ohio model by that_person
+Ohio model by that_person and TheHappyYachter
 Oberon model by that_person
 Trafalgar model by TheHappyYachter
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by Lorenzo:
-    65-76, AT-2, UMGT-1 and Mk-48 mod 5 torpedoes
+    65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
 	
 (EM) Nimitz model
@@ -61,51 +66,6 @@ Retextured most of the soviet submarines to have brighter textures and darker to
 Added short name for ship to display in GUI
 1km circles on tactical map (Note that these do *NOT* adjust when using the Imperial system)
 (EM) additional info while draging weapon waypoint
-
-[BUGFIXES]
-Numerous misc. changes and fixes
-
-[CAMPAIGN]
-Soviet Campaign (1968, 1984)
-Expanded RPG Mode: Prestige system, player ranks, ability to change mission and vessel
-Custom transit backgrounds for most vessels
-Reykjavik, Narvik and Bergen harbor scenery now all have landstrike targets
-
-[GAME]
-Self noise and sensor strength reworked by Daniil
-Bundle import code improved by Yachter
-New loading screen by Yachter
-Loading time on game start improved by Yachter
-New game options by Yachter
-New single missions for both sides //You'll have to wait for the full release!
-Russian descriptions rewritten and corrected
-
-[GAME MECHANICS]
-Old SS boats are faster on the surface
-The AI no longer autodetects weapons if they do not know they are there
-Civilian vessels will mask a submarine's noise
-
-[GUI]
-Additional buttons
-Clear to Leave indicator
-Panel for player SAM
-Missile and aircraft map icons
-Player current noise displayed
-
-[MODELS]
-Kobben model
-Ohio model by that_person
-Oberon model by that_person
-Trafalgar model by TheHappyYachter
-Missile models
-Nimitz and Anchar (Papa) models
-SH-60B model
-
-[VESSELS]
-Repainted civilian vessels acting as US auxilary ships
-
-[QOL]
-Added short name for ship to display in GUI
 
 [BUGFIXES]
 Numerous misc. changes and fixes
