@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/awards/wp_background.jpg
+Photo=campaign/images/awards/ussr5mu.png
+Music=audio/music/Cold Waters Spotted
+Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
+Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><PLAYER_RANK> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"МЕДАЛЬЮ УШАКОВА"</size></b>
+Sentence2=За смелые и решительные действия проявленные во время несения боевой службы. Под его командованием <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> в длительном боевом походе нанесла серьёзный урон врагу, потопив несколько кораблей противника общим тоннажем более 100 тыс. тонн. Родина и партия высоко оценивают подвиг <PLAYERVESSELHULL>, её командира и экипажа.

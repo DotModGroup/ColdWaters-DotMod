@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato air 1,campaign/images/nato air 2,campaign/images/nato air 3,campaign/images/nato air 4,campaign/images/nato air 5
+Photo=campaign/images/photos/explosions 2,campaign/images/photos/air nato 1,campaign/images/photos/air nato 2,campaign/images/photos/air nato 4,campaign/images/photos/ruins 1,campaign/images/photos/air nato 5
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>УДАРЫ С ВОЗДУХА</b>|<b>ВОЗДУШНОЕ ПРЕВОСХОДСТВО НАТО</b>
+Color=57,61,73,255
+Sentence1=<b><ENDLOCATION>, <COUNTRY>:</b> Опираясь на хорошо оснащённые авиабазы, авиация НАТО завоевала и прочно удерживает господство в воздухе. Под прикрытием многочисленных воздушных патрулей, ударные самолёты НАТО действуют практически в полигонных условиях, серьёзно осложняя жизнь войскам ОВД.
+
+Color=218,218,208,255
+Sentence2=Взгляд с другой стороны. Выдержка из советской газеты «Известия»:<n>По сообщениям из Генштаба обстановка очень тяжёлая: Воздушные подступы к авиабазам надёжно блокированы истребительной авиацией врага, а развитая система ПВО исключает возможность ракетного удара. "К сожалению, на данный момент эти базы для нас неуязвимы" - признал представитель Генштаба.

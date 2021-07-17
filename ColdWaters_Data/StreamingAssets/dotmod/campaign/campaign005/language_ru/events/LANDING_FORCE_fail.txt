@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato convoy,campaign/images/nato insertion 1,campaign/images/nato ground 2
+Photo=campaign/images/photos/landing us 1,campaign/images/photos/landing us 2,campaign/images/photos/landing us 3,campaign/images/photos/infantry us 1,campaign/images/photos/infantry nato 6,campaign/images/photos/armor us 1
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ВТОРЖЕНИЕ С МОРЯ</b>|<b>ШТУРМ <ENDLOCATION_RO></b>|<b>НАТО АТАКУЕТ</b>|<b>ДЕСАНТ НАТО в <ENDLOCATION_PR></b>
+Color=57,61,73,255
+Sentence1=<b><COUNTRY>:</b> ВМС НАТО провели успешную десантную операцию, результатом которой оказался захват плацдарма в районе <ENDLOCATION_RO>. Сообщается об упорном сопротивлении советских войск, преодолеть, которое удалось только после высадки основных сил десантной группы. 
+Color=218,218,208,255
+Sentence2=Потеря <ENDLOCATION_RO> стала тяжёлым ударом для ОВД. Десант, закрепившийся на береговом плацдарме, представляет собой угрозу которую невозможно игнорировать, а это означает, что для её парирования придётся перебросить силы так необходимые на основном направлении. Всё это осложнит для СССР ведение кампании в Европе и может привести к потере инициативы.

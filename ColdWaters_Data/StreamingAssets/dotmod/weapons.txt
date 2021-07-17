@@ -4121,7 +4121,7 @@ DepthWeaponLaunchParticle=weapons/assets/rbu_launchFlare
 [/Model]
 
 DepthWeaponObjectReference=wp_rbu2500_mortar
-DepthWeaponWarhead=25
+DepthWeaponWarhead=30
 DepthWeaponRange=300,2750
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE
@@ -4145,7 +4145,7 @@ DepthWeaponLaunchParticle=weapons/assets/rbu_launchFlare
 [/Model]
 
 DepthWeaponObjectReference=wp_rbu6000_mortar
-DepthWeaponWarhead=25
+DepthWeaponWarhead=40
 DepthWeaponRange=1000,6500
 DepthWeaponContactExploded=TRUE
 DepthWeaponDepthExploded=TRUE

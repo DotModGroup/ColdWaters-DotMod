@@ -1,5 +1,6 @@
 wp_68_ss_whiskey=Whiskey_01.jpg,Whiskey_02.jpg,Whiskey_03.jpg,Whiskey_04.jpg
 wp_68_ss_romeo=Romeo_01.jpg,Romeo_02.jpg,Romeo_03.jpg,Romeo_04.jpg,Romeo_05.jpg,Romeo_06.jpg
+wp_68_ss_foxtrot=Foxtrot_01.jpg,Foxtrot_02.jpg,Foxtrot_03.jpg,Foxtrot_04.jpg
 wp_68_ssg_juliet=Juliet_01.jpg,Juliet_02.jpg,Juliet_03.jpg,Juliet_04.jpg
 wp_84_ss_kilo=Kilo_01.jpg,Kilo_02.jpg,Kilo_03.jpg,Kilo_04.jpg
 wp_68_ssn_november=November_01.jpg,November_02.jpg,November_03.jpg

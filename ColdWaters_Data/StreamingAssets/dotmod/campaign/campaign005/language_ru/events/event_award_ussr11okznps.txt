@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/awards/wp_background.jpg
+Photo=campaign/images/awards/ussr11okzn.png
+Music=audio/music/lost7.ogg
+Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
+Sentence1=<size=14>Командир <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><PLAYER_RANK> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ КРАСНОГО ЗНАМЕНИ"</size></b>
+Sentence2=ЦИТАТА:<n>За мужество и отвагу, проявленные при исполнении воинского  долга, командиру <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERVESSELNAME> (посмертно). <DATE> в районе <PLAYERMAPREGION>, <PLAYER_RANK_l> <PLAYERNAME> ценой своей жизни выполнил особо важное задание во имя защиты Родины и сохранил при этом большую часть своего экипажа.

@@ -1,0 +1,16 @@
+NextAction=MAP
+Image=campaign/images/nato naval air 1,campaign/images/nato naval air 2,campaign/images/68 nato naval air 1
+Photo=campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 3,campaign/images/photos/naval nato carrier 4,campaign/images/photos/air nato 3,campaign/images/photos/air nato 6,campaign/images/photos/CAW.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ВОЗДУШНОЕ ПРЕВОСХОДСТВО НАТО</b>|<b>ВВС АТАКУЕТ</b>|<b>УДАР С НЕБЕС</b>
+
+Color=57,61,73,255
+Sentence1=В последние дни, США нанёсли ряд мощных воздушных ударов на фронтах и в тылу территории занятой войсками стран Варшавского Договора. Эксперты считают, что такое внезапное усиление давления с воздуха связано с успешными действиями авианесущих группировок НАТО развёрнутых в северных водах.
+
+Color=218,218,208,255
+Sentence2=Способность НАТО удерживать превосходство в воздухе в ключевых стратегических регионах, оказала столь необходимую помощь наземным войскам. Господство ВВС США в воздухе и на море способствует победе на земле.

@@ -1,0 +1,13 @@
+NextAction=event_campaign_win_2
+Image=campaign/images/pact surface raiders 3,campaign/images/pact surface raiders 2,campaign/images/pact naval 1,campaign/images/pact naval 2
+Photo=campaign/images/photos/naval engagement 1
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ПЕТЛЯ ЗАТЯГИВАЕТСЯ</b>|<b>БЛОКАДА ВЕЛИКОБРИТАНИИ</b>
+Sentence1=Советский флот захватил инициативу и полностью контролирует Северную Атлантику и Норвежское Море. Трансатлантические конвои все ещё пытаются прорваться сквозь советскую блокаду, но всё возрастающие потери приведут к тому что вскоре эти попытки прекратятся.
+Sentence2=Находящиеся в изгнании политические лидеры оккупированных стран выразили серьезную озабоченность по поводу риска продвижения «железного занавеса» дальше на запад. Слухи о том что оккупация станет постоянной привели к тому, что десятки тысяч беженцев в панике устремились в Западную Европу.

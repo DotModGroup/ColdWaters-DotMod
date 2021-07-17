@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/nato convoy,campaign/images/backgrounds/nato_convoy_1_lvs.jpg,campaign/images/backgrounds/nato_convoy_2_lvs.jpg
+Photo=campaign/images/photos/Unload1.jpg,campaign/images/photos/Unload3.jpg,campaign/images/photos/Unload4.jpg,campaign/images/photos/Unload5.jpg,campaign/images/photos/Unload6.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>КОНВОЙ ПРИБЫЛ</b>|<b>НАТО СНАБЖАЕТ ВОЙСКА</b>|<b>СНАБЖЕНИЕ МОРЕМ</b>|<b>УКРЕПЛЯЯ ПОЗИЦИИ</b>
+Color=57,61,73,255
+Sentence1=Конвои снабжения НАТО продолжают доставлять грузы в Западную Европу с минимальными потреями. Один из таких конвоев недавно доставил необходимые грузы и вооружение в <ENDLOCATION_VI>. Это обусловлено высокой эффективностью и слаженностью действий ВМС НАТО. "Система конвоев работала в Первую Мировую, работала во Вторую Мировую и продолжает работать до сих пор" - прокомментировал ситуацию представитель ВМС НАТО. 
+Color=218,218,208,255
+Sentence2=Тем временем в Западной Европе: Силы НАТО продолжают сдерживать натиск стран Варшавского Договора. Большую роль в этой войне играет непрерывное снабжение армейских частей, которое позволяет им сохранять высокую боеспособность несмотря на постоянные атаки противника.

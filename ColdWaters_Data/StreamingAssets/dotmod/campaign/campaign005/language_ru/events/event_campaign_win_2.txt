@@ -1,0 +1,13 @@
+NextAction=END
+Image=campaign/images/backgrounds/October_Revolution_celebration_1983.jpg
+Photo=campaign/images/photos/politics 1,campaign/images/photos/politics 2,campaign/images/photos/politics 3
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>ПОБЕДА СОВЕТСКОГО СОЮЗА</b>
+Sentence1=Призрак ядерного Армагеддона, наконец-то растаял когда враждующие блоки сели за стол переговров. Советский Союз имеет очень сильные позиции и многие аналитики пророчат расширение ОВД вплоть до границ Франции...
+Sentence2=Тем временем в Москве готовятся к параду в честь победы, а мирные жители просто радуются окончанию войны и ждут возвращения с фронта своих родных и близких.

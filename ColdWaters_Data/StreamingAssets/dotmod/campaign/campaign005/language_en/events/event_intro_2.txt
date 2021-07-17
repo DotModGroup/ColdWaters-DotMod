@@ -1,0 +1,16 @@
+NextAction=event_intro_3
+Image=campaign/images/88 soviet factory
+Photo=campaign/images/photos/politics 4
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+ForwardDate=7,14
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>Brezhnev's Legacy - Stagnation and Paranoia</b>
+Color=57,61,73,255
+Sentence1=ANALYSIS - The death of General Secretary Leonid Brezhnev is sure to result in considerable debate behind the Kremlin walls. The last decade has been one of stagnation and increased bureaucratization of the Soviet Colossus. 
+While reform is needed, internal resistance is heavy. A softening of internal policies is feared to send a signal of the socialist republic yielding to the power of capitalism.
+Color=218,218,208,255
+Sentence2=An unnamed diplomatic source was quoted in a recent Time article, stating that: "The constant provocations from the Reagan administration have created an elevated and permanent anxiety concerning American aggression within the Politburo. President Reagan should think this over. It is dangerous."

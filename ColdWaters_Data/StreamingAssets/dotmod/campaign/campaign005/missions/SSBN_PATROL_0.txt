@@ -1,0 +1,24 @@
+//Last mission
+MissionType=SSBN_PATROL
+HoursToStart=12,48
+StartLocation=NAVAL_BASE
+StartAlignment=ENEMY
+EndLocation=WAYPOINT
+EndAlignment=
+Speed=10
+MustUseWaypoints=
+UseAtLeastOneWaypointOf=N1,N2
+ProhibitedWaypoints=
+PatrolForHours=48,72
+StrategicValue=20
+MissionEndsWhen=PATROL_END
+MapBehaviour=DEFENSIVE
+DisruptOnFail=
+DisruptOnPass=
+InvadeOnFail=
+RequiresStealth=
+RequiresWeapon=
+NumberOfEnemyUnits=1-1,1-4
+CombatBehaviour=DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE
+EnemyShipClasses=usn_84_ssbn_ohio,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack

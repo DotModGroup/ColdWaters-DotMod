@@ -1,0 +1,15 @@
+NextAction=MAP
+Image=campaign/images/awards/wp_background1.jpg
+Photo=campaign/images/awards/blank.png
+Music=audio/music/Cold Waters Spotted
+Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
+Sentence1=<size=14>Командиру <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><POSTHUMOUSLY> присваевается внеочередное воинское звание </size><n><n><b><n><n><size=22><PLAYER_RANK></size></b><n><n><n>
+Sentence2=<PLAYERVESSELNAME>, Партия поздравляет вас с повышением и желает дальнейших успехов на службе Родине!
+
+Вариант:<n>       <b>ВЫПИСКА ИЗ ПРИКАЗА</b><n><size=14>ВЕРХОВНОГО ГЛАВНОКОМАНДУЮЩЕГО<n>ВООРУЖЕННЫМИ СИЛАМИ СССР<n>№12</size> <n><n>                                    от <DATE>г.
+с1:У читывая заслуги храбрость и т.д присваевается бла-бла-бла
