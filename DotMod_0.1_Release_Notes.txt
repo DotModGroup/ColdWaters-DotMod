@@ -21,6 +21,7 @@ Many models are still WIP and requires remodel/retexturing
 Norwegian surface ships are kitbash placeholders
 SAM trails are placeholders and require replacement
 Event files for 1984 USSR (004) in English still need translation. A hotfix will go out for this as soon as possible.
+Not all playble surface ships have deployable towed arrays
 
 [CAMPAIGN]
 Soviet Campaign (1984)
@@ -34,16 +35,19 @@ Bundle import code improved by TheHappyYachter
 New loading screen by TheHappyYachter
 Loading time on game start improved by TheHappyYachter
 New game options by TheHappyYachter
-New single missions for both sides
+New single missions (More coming!)
 Russian descriptions rewritten and corrected
 (EM) Russian voiceover by Evgeny Mas a.k.a. Ramius
 
 [GAME MECHANICS]
+Player SAMs can target enemy aircraft and missiles, and, depending on the type of missile, also surface ships for a long-range ASuW weapon. They are, of course, not very effective in this role.
 Old SS boats are faster on the surface
 The AI no longer autodetects weapons if they do not know they are there
 Fully functional surface to air missilies with ability to switch target type
 Secondary SAM that works automatically and targets approaching missiles
 Civilian vessels will mask a submarine's noise
+CIWS will target aircraft
+(EM) Deployable towed arrays
 
 [GUI]
 Additional buttons:
@@ -65,7 +69,7 @@ Oberon model by that_person
 Trafalgar model by TheHappyYachter
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by Lorenzo:
-    65-76, AT-2, UMGT-1 and Mk-48 mod 5 torpedoes
+    65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
 	
 (EM) Nimitz model
