@@ -2567,7 +2567,7 @@ TurnRate=20
 MaxPitchAngle=45
 *
 HomeSettings=SHIP
-AttackSettings=STRAIGHT
+AttackSettings=STRAIGHT,SNAKE
 DepthSettings=SHALLOW
 *
 WeaponNoiseValues=140,140
