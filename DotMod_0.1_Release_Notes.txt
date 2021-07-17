@@ -73,7 +73,7 @@ Weapon models by Dot, TheHappyYachter and that_person
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
 	
 (EM) Nimitz model
-(EM) Anchar (Papa) models by Max Panow
+(EM) Anchar (Papa) model by Max Panow
 (EM) SH-60B model by Syoma Ivanov
 
 [VESSELS]
