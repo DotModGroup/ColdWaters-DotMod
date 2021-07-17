@@ -39,7 +39,7 @@ ExpForNextLevel=10000,25000,45000,70000,100000,135000,175000,220000,270000,32500
 //You can adjust multiplier to ALL bonuses, to reflect changes in number of levels
 BonusMultiplier=1
 //XO variants, you can have any number
-XO_Variants=Smith J.,Walker J.,Laizer J.,Armstrong L
+XO_Variants=John S.,John W.,Louis A.,Jack U.,Alex P.,Owen B.,Quinn P.,Luke W.
 //Just messages
 ExpForMission=Experience gained
 NewLevelGained=Crew proficiency increaced!
