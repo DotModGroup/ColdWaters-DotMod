@@ -1,10 +1,10 @@
 Approaching from behind a target will make them less likely to detect you due to sonar baffles.
-Cavitation depends on depth. The deeper you are the faster you can go without cavitation. The formula for calulating speed to cavitation depth is (20 * speed) - 100.
+Cavitation depends on depth. The deeper you are the faster you can go without cavitation. The formula for calulating speed to cavitation depth (when using feet) is (20 * speed) - 100.
 In the campaign map you can move at low speed by right clicking and high speed by left clicking. At slower speeds enemy vessels are less likely to detect you upon entering battle.
 Shooting wire-guided torpedoes such that they approach a target from a different direction than a straight shot, called dog-legging, will likely result in innacurate counter-launches.
 Many missiles have minimum firing distances. Be sure to plan missile attacks so that this isn't a problem. You can find these minimum distances in the Unit Reference.
 Attacking from under a thermal layer can significantly increase your chances of remaining undetected for longer. This, in turn, can increase your chances of a sucessful attack.
-Some submarines have a MANPADS to allow them to shot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. RADAR mast is not necessary, but will help to aim.
+Some submarines have a MANPADS to allow them to shot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. The RADAR mast is not necessary, but will help you aim.
 Many ship-mounted SAM systems can also target other ships. This can be a long-range option for engaging enemy ships in lieu of guns.
 Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will have significantly more capabilities in anti-missile defence.
 Many newer vessels have towed arrays. Deploying these, by default with backspace, will significantly increase sensor detection range. It will also cover your baffles.

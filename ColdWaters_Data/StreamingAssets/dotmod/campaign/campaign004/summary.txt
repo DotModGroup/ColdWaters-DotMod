@@ -32,7 +32,7 @@ wp_84_ssn_sierra	=	800		=	3
 wp_84_ssn_akula1	=	1000	=	3
 wp_84_ssgn_oscar	=	1200	=	3
 wp_84_em_sovremenny_pl=	0		=	0
-wp_84_bpk_udaloy_pl	=	200		=	0
+wp_84_bpk_udaloy_pl	=	400		=	0
 wp_84_bpk_kara_pl	=	800		=	0
 wp_84_takr_kiev_pl	=	1000	=	0
 wp_84_rkr_kirov_pl	=	1200	=	0
