@@ -1,4 +1,4 @@
-Image=campaign/images/TransitImages/sovremenny_02.jpg
+Image=campaign/images/TransitBackgrounds/sovremenny_02.jpg
 MissionLocation=East of Iceland
 Briefing=16 DEC 1994
 Briefing=Following hostilities breaking out between the east and west, a Soviet raider group has left Archangel to block convoy routes. 

@@ -38,6 +38,7 @@ TorpedoSettingLevelSub=hud/uk/icon_search_level_sub.png
 TorpedoSettingDeepSub=hud/uk/icon_search_deep_sub.png
 TorpedoSettingVeryDeepSub=hud/uk/icon_search_verydeep_sub.png
 
+GunsMinimized=hud/uk/minimized_guns.png
 DivePanelCover=hud/uk/maximized_dive_cover.png
 Guns_Toolbar=hud/uk/maximized_guns.png
 RBU_Toolbar=hud/uk/maximized_rbu.png
@@ -340,8 +341,6 @@ MainCameraFieldOfView=30
 //DiveToolbarOffset=0,0
 //SensorToolbarOffset=0,0
 
-
-
 //3 видимые панели справа от миникарты по вертикали
 ToolbarsPos=0,0,0
 ForceAllToolbarsOn=TRUE
@@ -356,3 +355,4 @@ SAM_ToolbarOffset=331,-130
 //HelmToolbarOffset=361,-346
 //DiveToolbarOffset=700,-346
 //SensorToolbarOffset=1039,-346
+//SAM_ToolbarOffset=361,-276

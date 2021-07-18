@@ -56,6 +56,13 @@ TubeReloadTime=30
 MissileType=usn_rur-5
 MissilesPerLauncher=8
 
+AntiShipMissileType=usn_ugm84
+AntiShipMissileNumbers=16
+AntiShipMissileReloadTime=22
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=-0.025,0.15,-0.68|0.025,0.15,-0.68
+AntiShipMissileLaunchPointsRotation=-25,180,0
+
 [Defenses]
 Anti-MissileGunHitProbability=0.015
 Anti-MissileGunRange=2500
@@ -71,12 +78,12 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 
-AntiAirMissileType=usn_rim-7m
+AntiAirMissileType=usn_rim-66
 AntiAirMissilesNumbers=40
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=5
-AntiAirMissileLaunchPoints=0,0.15,-0.68
+AntiAirMissileLaunchPoints=-0.025,0.15,-0.68|0.025,0.15,-0.68
 AntiAirMissileLaunchPointsRotation=-25,180,0
 
 NoisemakerName=surf_noisemaker
@@ -459,7 +466,6 @@ MeshPosition=0,0.14,-0.21
 MeshRotation=270,0,0
 Mesh=Mk37
 
-
 ModelFile=ships/plan_ddg_luda3/plan_ddg_luda3
 Material=ships/materials/modular_parts
 MeshPosition=0,0.117,0.565
@@ -473,7 +479,7 @@ MeshCIWSGun=FALSE
 MeshPosition=0,0,0
 MeshCIWSRADAR=FALSE
 
-
+ModelFile=ships/plan_ddg_luda3/plan_ddg_luda3
 
 //Wake and Smoke
 MeshPosition=0,0,0

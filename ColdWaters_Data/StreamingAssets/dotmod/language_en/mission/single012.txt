@@ -1,6 +1,6 @@
 //Opening Shots
 
-Image=campaign/images/TransitImages/sovremenny_02.jpg
+Image=campaign/images/TransitBackgrounds/sovremenny_02.jpg
 MissionLocation=East of Iceland
 Briefing=27 FEB 1984
 Briefing=Following hostilities breaking out between the East and West, a Soviet raider group has left Archangelsk to interdict convoy routes. 

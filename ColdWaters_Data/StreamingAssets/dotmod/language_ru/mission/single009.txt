@@ -1,5 +1,5 @@
 //Перехват
-Image=campaign/images/backgrounds/nato_perry_firing.png
+Image=campaign/images/backgrounds/nato_perry_firing_0.jpg
 MissionLocation=Северная Атлантика
 Briefing=11 февраля 1986г
 Briefing=Разведка обнаружила боевую группу противника поблизости. Вам приказано оставить ордер и идти на перехват.

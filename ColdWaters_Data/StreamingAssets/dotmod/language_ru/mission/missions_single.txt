@@ -2,7 +2,7 @@
 <color=Cyan>Дуэль</color>
 <color=Cyan>Волчья стая</color>
 <color=Cyan>Железные Гробы</color>
-<color=Cyan>Не взирая на шансы</color>
+<color=Cyan>Невзирая на шансы</color>
 <color=Cyan>Штурм бастиона</color>
 <color=Cyan>Охота за красным медведем</color>
 <color=Cyan>Высадка в Нарвике</color>
