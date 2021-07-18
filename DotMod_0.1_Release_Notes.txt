@@ -5,7 +5,7 @@ While DM incorporates some stuff from EM made by our developers (and other items
 
 This is an early Beta release, and will be tweaked and improved based on feedback and additional sources where possible. We encourage you to join our Discord at: https://discord.gg/EMGvdu4skp to help us further tweak the mod to give the best possible experience. We also hope you enjoy it as much as we enjoy working on it!
 
-We still in the process of creating documentation. Expect that with the final release of the mod.
+We are still in the process of creating documentation. Expect that with the final release of the mod.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 [INSTALATION INSTRUCTIONS]
 WINDOWS:
