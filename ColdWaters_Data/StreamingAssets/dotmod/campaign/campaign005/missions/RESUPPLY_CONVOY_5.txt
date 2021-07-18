@@ -2,9 +2,9 @@
 //Large
 MissionType=RESUPPLY_CONVOY
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL
+ForbiddenFor=SS,SSG,SSB
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=550
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=UK_SEAPORT
 StartAlignment=ENEMY

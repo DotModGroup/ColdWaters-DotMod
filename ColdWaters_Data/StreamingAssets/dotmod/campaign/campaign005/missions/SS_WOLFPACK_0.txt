@@ -3,7 +3,7 @@
 MissionType=SS_WOLFPACK
 AllowedOnlyFor=
 ForbiddenFor=CL,SSB,SSBN
-AllowedOnlyForCostBelow=200
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 MissionType=SS_WOLFPACK
 HoursToStart=0,24

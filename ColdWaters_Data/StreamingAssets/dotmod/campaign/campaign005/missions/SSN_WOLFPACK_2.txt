@@ -2,9 +2,9 @@
 //Large
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SURFACE,SS,SSG,SSB,SSGN,SSBN
+ForbiddenFor=CL,SS,SSG,SSB,SSGN,SSBN
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=550
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

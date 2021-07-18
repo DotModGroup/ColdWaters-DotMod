@@ -3,7 +3,7 @@
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
 ForbiddenFor=SSB
-AllowedOnlyForCostBelow=400
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE

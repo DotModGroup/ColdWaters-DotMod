@@ -3,7 +3,7 @@
 MissionType=AI_PATROL_ASW
 AllowedOnlyFor=SS,SSG,SSB
 ForbiddenFor=
-AllowedOnlyForCostBelow=200
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=18,48
 StartLocation=NAVAL_BASE

@@ -3,7 +3,7 @@
 MissionType=AI_PATROL_SSN
 AllowedOnlyFor=
 ForbiddenFor=SS,SSG,SSB,CL
-AllowedOnlyForCostBelow=400
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=24,48
 StartLocation=NAVAL_BASE

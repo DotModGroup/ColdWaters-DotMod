@@ -3,8 +3,8 @@
 MissionType=CARRIER_STRIKE
 AllowedOnlyFor=
 ForbiddenFor=
-AllowedOnlyForCostBelow=400
-AllowedOnlyForCostHigherThan=50
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

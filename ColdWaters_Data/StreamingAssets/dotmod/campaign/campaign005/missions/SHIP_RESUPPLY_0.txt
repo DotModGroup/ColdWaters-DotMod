@@ -3,7 +3,7 @@
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
 ForbiddenFor=
-AllowedOnlyForCostBelow=390
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE

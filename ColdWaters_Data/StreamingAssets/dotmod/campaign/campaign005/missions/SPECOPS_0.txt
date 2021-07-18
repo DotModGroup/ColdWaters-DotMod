@@ -3,7 +3,7 @@
 MissionType=SPECOPS
 AllowedOnlyFor=
 ForbiddenFor=SSB,CL
-AllowedOnlyForCostBelow=200
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
