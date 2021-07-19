@@ -122,7 +122,7 @@ MeshHullCollider=usn_ssn_virginia_coll_hull
 MeshSuperstructureCollider=usn_ssn_virginia_coll_ss
 
 Material=assets/materials/usn_ssn_virginia.mat
-MaterialTextures=Assets/Textures/usn_ssn_virginia_tx.png,Assets/Textures/usn_ssn_virginia_spec.png,FALSE
+MaterialTextures=textures/usn_ssn_virginia_tx.png,textures/usn_ssn_virginia_spec.png,FALSE
 
 Mesh=usn_ssn_virginia_hull
 Mesh=usn_ssn_virginia_sail
