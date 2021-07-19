@@ -23,6 +23,7 @@ SAM trails are placeholders and require replacement
 Event files for 1984 USSR (004) in English still need translation. A hotfix will go out for this as soon as possible.
 Not all playble surface ships have deployable towed arrays
 P-6 missile is used as substitute for P-35 and P-500 until they get their own models
+Mobile decoys on surface ships will float in the air during time compression (Found by Who_Even_Knows)
 
 [CAMPAIGN]
 Soviet Campaign (1984)
