@@ -118,53 +118,6 @@ FLOODING5=-92,48,-77,-49
 DamageControlPartyY=-36
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_ffg_perry.unity3d
-ModelFile=assets/models/usn_ffg_perry.fbx
-
-//Hull and Deck
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-
-MeshHullCollider=usn_ffg_perry_coll_hull
-MeshSuperstructureCollider=usn_ffg_perry_coll_ss
-
-Material=assets/materials/usn_ffg_perry.mat
-
-Mesh=hull
-Mesh=superstructure
-Mesh=brace_l
-Mesh=brace_r
-Mesh=foremast
-Mesh=mainmast
-Mesh=propshaft
-Mesh=skeg
-Mesh=bridge
-Mesh=casmast
-Mesh=stirmast
-
-MeshPosition=0,-0.07035784,0.6482612
-Mesh=sonardome
-
-MeshPosition=0.0,-0.00930114,-0.8862877
-MeshRudder=rudder
-
-MeshRotation=-6.95,0,0
-MeshPosition=-0.0,-0.06881678,-0.8400785
-MeshProp=prop
-
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-
-//REQUIRED! for "submarines"
-MeshBowPlanes=FALSE
-MeshSternPlanes=FALSE
-
-Material=assets/materials/usn_perry_netting.mat
-Mesh=helodeck_netting
-
-Material=assets/materials/usn_perry_railings.mat
-Mesh=railings
-
 AssetBundle=bundles/parts/usn_parts.unity3d
 
 //RADARs
@@ -312,7 +265,6 @@ MeshMast=FALSE
 MeshPosition=0,0.1,0.11
 MeshMast=FALSE
 
-
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 Material=ships/materials/usn_parts
 MeshPosition=0,0.167,-0.5553
@@ -350,24 +302,62 @@ ParticleBowWavePosition=0,-0.075,0.88
 ParticlePropWashPosition=0,-0.044,-0.98
 ParticleHullFoamPosition=0,0,0.39
 
-
--ParticleHullFoamParameters=80,0.35,0.35,0.055,0,0,0.25
--ParticleHullFoamParameters=200,0.25,0.25,0.006,0,0,0.25
--ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
 ParticleHullFoamParameters=10,0.45,0.35,0.1,0,0,0.25
 
-
 ParticleSternFoamPosition=0,0,-0.767
--ParticleSternFoamParameters=145,0.35,0.2,0.025,0.01,0,0.25
--ParticleSternFoamParameters=160,0.25,0.1,0.004,0.01,0,0.5
 ParticleSternFoamParameters=125,0.45,0.20,0.025,0.055,0,0.25
 KelvinWaves=3.2,3.2
 
-
-
 ParticleSternFoamParameters=160,0.4,0.125,0.025,0.055,0.0,0.25
 
+AssetBundle=bundles/vessels/usn/usn_ffg_perry.unity3d
+ModelFile=assets/models/usn_ffg_perry.fbx
 
+//Hull and Deck
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+MeshHullCollider=usn_ffg_perry_coll_hull
+MeshSuperstructureCollider=usn_ffg_perry_coll_ss
+
+Material=assets/materials/usn_ffg_perry.mat
+
+Mesh=hull
+Mesh=superstructure
+Mesh=brace_l
+Mesh=brace_r
+Mesh=foremast
+Mesh=mainmast
+Mesh=propshaft
+Mesh=skeg
+Mesh=bridge
+Mesh=casmast
+Mesh=stirmast
+
+MeshPosition=0,-0.07035784,0.6482612
+Mesh=sonardome
+
+MeshPosition=0.0,-0.00930114,-0.8862877
+MeshRudder=rudder
+
+MeshRotation=-6.95,0,0
+MeshPosition=-0.0,-0.06881678,-0.8400785
+MeshProp=prop
+
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+//REQUIRED! for "submarines"
+MeshBowPlanes=FALSE
+MeshSternPlanes=FALSE
+
+Material=assets/materials/usn_perry_netting.mat
+Mesh=helodeck_netting
+
+Material=assets/materials/usn_perry_railings.mat
+Mesh=railings
+
+[Audio]
 EngineAudioClip=audio/units/destroyer_turbine.ogg
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20
@@ -380,4 +370,3 @@ PingAudioClip=audio/environment/sonar_ping
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
 PingAudioPitch=1
-
