@@ -160,6 +160,9 @@ Hours=Hours
 Loading=Loading
 LoadingWeapon=Loading Weapon Model for
 LoadingVesselData=Loading Vessel Data for
+ValidatingFile=Validating File (first run only)
+ValidationFailed=File validation failed due to non-vanilla file at path
+ApplicationQuitting=The application will now exit.
 
 [BRIEFINGS]
 InTheVicinityOf=In the vicinity of

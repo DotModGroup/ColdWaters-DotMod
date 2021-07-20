@@ -169,6 +169,9 @@ Hours=Час.
 Loading=Загрузка
 LoadingWeapon=Загрузка оружия
 LoadingVesselData=Загрузка
+ValidatingFile=Проверка файла (только при первом запуске)
+ValidationFailed=Ошибка проверки файла в
+ApplicationQuitting=Приложение будет закрыто
 
 [BRIEFINGS]
 InTheVicinityOf=Район действия:
