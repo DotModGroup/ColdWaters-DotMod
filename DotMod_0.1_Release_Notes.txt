@@ -8,7 +8,7 @@ This is an early Beta release, and will be tweaked and improved based on feedbac
 We are still in the process of creating documentation. Expect that with the final release of the mod.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 [INSTALATION INSTRUCTIONS]
-WINDOWS:
+WINDOWS (NOT WINDOWS 7 OR PRIOR):
 Download the release .zip from the GitHub page. Extract the contents of the .zip file into a folder somewhere where you can find it.
 Then, navigate to the Cold Waters directory in which you wish to install the mod in File Explorer. Right click on the address bar and select "Copy as text."
 Return to where you extracted the mod, and launch DotModInstaller.exe. Follow the instructions present in the installer.
