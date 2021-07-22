@@ -66,9 +66,11 @@ Player current noise displayed on tacmap
 
 [MODELS]
 Kobben model
-Ohio model by that_person and TheHappyYachter
+Ohio model converted by that_person and TheHappyYachter
+Ticonderoga model converted by that_person and TheHappyYachter
 Oberon model by that_person
 Trafalgar model by TheHappyYachter
+Oliver Hazard Perry model by TheHappyYachter
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by Lorenzo:
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
