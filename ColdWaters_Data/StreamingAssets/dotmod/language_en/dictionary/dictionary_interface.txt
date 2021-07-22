@@ -110,7 +110,11 @@ UninstallText=The mod's folder will be deleted, the original game code will be r
 UninstallDotMod=UninstallDotMod
 Cancel=Cancel
 
-
+LoadingWeapon=Loading Weapon Model for
+LoadingVesselData=Loading Vessel Data for
+ValidatingFile=Validating File (first run only)
+ValidationFailed=File validation failed due to non-vanilla file at path
+ApplicationQuitting=The application will now exit.
 
 DynamicDepthDarkening=Dynamic depth darkening
 DynamicDepthDarkeningDesc=Dynamic depth darkening. Reduction of water visibility with depth
@@ -120,6 +124,16 @@ CombatDistanceIncreaceSurf=Surface combat spawn distance increaced by
 CombatDistanceIncreaceSurfDesc=Surface combat spawn distance increaced by flat amount. Works only when player controls surface ship, and enemy have surface ships too. Expands previous option.
 
 ShowWakebubles=Display wakebubles on Tac map
+CrewVoiceLanguage=Crew Voice Language
+SeeAlso=Coming Soon:
+DebugLevel=Debug Level
+ForceReload=Force Database Reload
+DevMode=Developer Mode
+OverrideBackground=Override Museum Background
+LogCombat=Log Combat
+TruthIsOutThere=Truth Tools
+LogCampaign=Log Campaign
+ExtendedCombatLog=Extended Combat Log
 
 ------------------------------ [DotMod keys] ------------------------------
 Increase Depth=Increase Depth
@@ -158,11 +172,6 @@ Labels=Labels
 Menu=Menu
 Hours=Hours
 Loading=Loading
-LoadingWeapon=Loading Weapon Model for
-LoadingVesselData=Loading Vessel Data for
-ValidatingFile=Validating File (first run only)
-ValidationFailed=File validation failed due to non-vanilla file at path
-ApplicationQuitting=The application will now exit.
 
 [BRIEFINGS]
 InTheVicinityOf=In the vicinity of
@@ -200,10 +209,12 @@ UnitReferenceHeader=UNIT REFERENCE
 SelectVesselHeader=SELECT VESSEL
 BriefingHeader=BRIEFING
 OrdersHeader=ORDERS
+CampaignHeader=CAMPAIGN
 NewCampaignHeader=NEW CAMPAIGN
 LoadCampaignHeader=LOAD CAMPAIGN
 OptionsHeader=OPTIONS
 IncomingMessageHeader=INCOMING MESSAGE
+CreditsHeader=CREDITS
 
 [COMMANDS]
 Battlestations=All hands man Battlestations

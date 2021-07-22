@@ -120,7 +120,7 @@ NotReady=Conn, fire control, <TUBE> not ready to fire
 FireTube=Shoot tube <TUBE>, aye sir
 
 [XO]
-InDeploymentZone=In Spec Ops deployment zone, come to a stop above <FEET> to deploy
+InDeploymentZone=In Spec Ops deployment zone, come to a stop above 100 <FEET> to deploy
 CompartmentStatus=<CONDITION> in the <COMPARTMENT>! Damage control parties, lay to the <COMPARTMENT>!
 MasterContact=Contact <ORIGINAL> upgraded to <CONTACT>
 CommandoDeployed=Spec Ops team is away
