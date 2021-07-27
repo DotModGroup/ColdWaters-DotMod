@@ -1,0 +1,74 @@
+<size=40>Programming and Design</size>
+Dr. Paul Sincock
+
+<size=40>Lead Art Design</size>
+Nils Dücker
+
+<size=40>2D Art and Visual Effects</size>
+Przemek Starkiewicz
+
+<size=40>Music and Sound Effects</size>
+Aleksi Aubry-Carlson
+
+<size=40>Additional Art</size>
+Constantin Simion
+Simon Alenius
+
+<size=40>Additional Story and Writing</size>
+Olof Kjölstadt
+
+<size=40>Crew Voices Courtesey of:</size>
+Neal Stevens - <i>subsim.com</i>
+
+<size=24>Dive Officer: Vaughn "Artao" Stegeman
+Watch Officer: Jeff "Sparky" Garland
+Helmsman: Wei-Ting "Tingo" Tang
+Sonarman: Charlie "FPSChazly" Murphy
+Torpedo Room: Jack "Navigator857" Frost
+Fire Control: Owen "Sledgehammer 427" Myers
+Executive Officer: Kris Glenn</size>
+
+<size=40>Special Thanks</size>
+<size=24>Ryan Crierie, Robert Schmidtt, Mark Hessburg, CaptainX3, Shaftoe, Aussie Mantis, Daft, Digital, Lin Zhongrui, Outerexodus, Raimus, SiegDerMaus, Silent_and_Violent, Space_MiG, The Bandit, WhiskeyPinata, VehnRa, Wilky</size>
+
+<size=40>Bibliography</size>
+<size=24>Friedman, N. (1994). US Submarines Since 1945
+Annapolis, MD: Naval Institute Press
+
+Vego, M. (1992). Soviet Naval Tactics
+Annapolis, MD: Naval Institute Press
+
+Polmar, N. (1983).Guide to the Soviet Navy. 3rd Ed.
+Annapolis, MD: Naval Institute Press
+
+Polmar, N., Breyer, S. (1978).Guide to the Soviet Navy. 2nd Ed.
+Annapolis, MD: Naval Institute Press
+
+Polmar, N., Moore, K. (2004). Cold War Submarines
+Dulles, VA: Potomac Books Inc.
+
+Jordan, J. (1992). Soviet Warships 1945 to the Present
+London, UK: Arms and Armour Press
+
+Jordan, J. (1989). Soviet Warships 1945 to the Present
+London, UK: Arms and Armour Press
+
+Jordan, J. (1982). Guide to the Modern Soviet Navy
+London, UK: Salamander Books Ltd.
+
+Jordan, J., Miller, D. (1987). Modern Submarine Warfare
+London, UK: Salamander Books Ltd.
+
+Miller, D. (1982). Modern Submarines
+London, UK: Salamander Books Ltd.
+
+Clancy, T. (1993). Submarine
+London, UK: Harper Collins Publishers
+
+Sontag, S. Drew, C. (1998). Blind Man's Bluff
+London, UK: Random House UK Ltd.
+
+Sasgen, P. (2009). Stalking the Red Bear
+New York, NY: St. Martins' Press</size>
+
+<size=50>© 2017 Killerfish Games</size>

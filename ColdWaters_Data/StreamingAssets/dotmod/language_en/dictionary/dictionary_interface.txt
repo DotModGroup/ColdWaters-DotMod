@@ -418,6 +418,10 @@ VeryStrong=Very strong
 
 [ERROR]
 FatalError=FATAL ERROR:
+CloseGame=Close Game (Safe Option)
+TryContinue=Try to Continue (Might Crash or Freeze)
+HelpForum=Visit Our Discord #Tech_Support for Help
+GitIssues=Log an Issue on our GitHub
 
 [OPTIONS]
 GameSettings=Game
