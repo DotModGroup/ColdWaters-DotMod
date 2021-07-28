@@ -26,6 +26,7 @@ Waterline=0.01
 SubmergedAt=0.05
 CavitationParameters=20,-100
 PropRotationSpeed=-190
+PeriscopeDepthInFeet=25
 TestDepth=590
 EscapeDepth=560
 
@@ -133,15 +134,15 @@ ModelFile=ships/plan_ssn_han/plan_ssn_han
 //Masts
 Material=ships/materials/usn_masts
 MeshPosition=0,-0.015,0.075
-MastHeight=0.085
+MastHeight=0.065
 MeshMast=plan_ssn_han_periscope
 
 MeshPosition=0,-0.015,0.065
-MastHeight=0.085
+MastHeight=0.065
 MeshMast=plan_ssn_han_esm
 
 MeshPosition=0,-0.015,0.045
-MastHeight=0.085
+MastHeight=0.065
 MeshMast=plan_ssn_han_radar
 
 ModelFile=assets/resourcesforbundles/vessels/knm/knm_ss_kobben/knm_ss_kobben.obj
