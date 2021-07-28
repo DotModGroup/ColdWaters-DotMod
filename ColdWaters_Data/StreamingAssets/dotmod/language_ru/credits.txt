@@ -1,37 +1,37 @@
 <size=40>Программирование и дизайн</size>
 Dr. Paul Sincock
 
-<size=40>Ведущий арт-дизайн</size>
+<size=40>Главный арт-дизайнер</size>
 Nils Dücker
 
-<size=40>2D искусство и визуальные эффекты</size>
+<size=40>2D графика и визуальные эффекты</size>
 Przemek Starkiewicz
 
 <size=40>Музыка и звуковые эффекты</size>
 Aleksi Aubry-Carlson
 
-<size=40>Дополнительное искусство</size>
+<size=40>Дополнительные работы по графике</size>
 Constantin Simion
 Simon Alenius
 
-<size=40>Дополнительная история и письмо</size>
+<size=40>Дополнительные работы по текстам</size>
 Olof Kjölstadt
 
 <size=40>Голоса экипажа:</size>
 Neal Stevens - <i>subsim.com</i>
 
-<size=24>Офицер по дайвингу: Vaughn "Artao" Stegeman
+<size=24>Офицер группы балласта и горизонтальных рулей: Vaughn "Artao" Stegeman
 Вахтенный офицер: Jeff "Sparky" Garland
 Рулевой: Wei-Ting "Tingo" Tang
-Оператор сонара: Charlie "FPSChazly" Murphy
-Номер Торпедо: Jack "Navigator857" Frost
-Управление огнем: Owen "Sledgehammer 427" Myers
-Исполнительный директор: Kris Glenn</size>
+Гидроакустик: Charlie "FPSChazly" Murphy
+Торпедист: Jack "Navigator857" Frost
+Управление вооружением: Owen "Sledgehammer 427" Myers
+Старший помощник командира: Kris Glenn</size>
 
 <size=40>Специальная благодарность</size>
 <size=24>Ryan Crierie, Robert Schmidtt, Mark Hessburg, CaptainX3, Shaftoe, Aussie Mantis, Daft, Digital, Lin Zhongrui, Outerexodus, Raimus, SiegDerMaus, Silent_and_Violent, Space_MiG, The Bandit, WhiskeyPinata, VehnRa, Wilky</size>
 
-<size=40>Список используемой литературы</size>
+<size=40>Список использованной литературы</size>
 <size=24>Friedman, N. (1994). US Submarines Since 1945
 Annapolis, MD: Naval Institute Press
 

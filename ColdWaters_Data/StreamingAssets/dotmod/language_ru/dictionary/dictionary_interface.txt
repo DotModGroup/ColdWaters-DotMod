@@ -417,9 +417,9 @@ VeryStrong=Очень сильный
 [ERROR]
 FatalError=ФАТАЛЬНАЯ ОШИБКА:
 CloseGame=Закрыть игру (безопасный вариант)
-TryContinue=Попробуйте продолжить (возможен сбой или зависание)
-HelpForum=Посетите наш Discord #Tech_Support для получения помощи
-GitIssues=Зарегистрируйте проблему на нашем GitHub
+TryContinue=Попробовать продолжить (возможен сбой или зависание)
+HelpForum=Посетить наш Discord канал #Tech_Support для получения помощи
+GitIssues=Добавить запись о проблеме на нашем GitHub
 
 [OPTIONS]
 GameSettings=Игра
