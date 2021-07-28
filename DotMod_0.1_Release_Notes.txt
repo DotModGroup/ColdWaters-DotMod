@@ -88,6 +88,7 @@ Retextured most of the soviet submarines to have brighter textures and darker to
 Added short name for ship to display in GUI
 1km circles on tactical map (Note that these do *NOT* adjust when using the Imperial system)
 (EM) additional info while draging weapon waypoint
+The first launch will run a scan for modified files that could cause an issue. This will increase the loading time of the first launch.
 
 [BUGFIXES]
 Numerous misc. changes and fixes
