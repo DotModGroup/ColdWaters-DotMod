@@ -66,6 +66,7 @@ Player current noise displayed on tacmap
 
 [MODELS]
 Kobben model
+Charles F. Adams kitbash by Senia
 Ohio model converted by that_person and TheHappyYachter
 Ticonderoga model converted by that_person and TheHappyYachter
 Oberon model by that_person
