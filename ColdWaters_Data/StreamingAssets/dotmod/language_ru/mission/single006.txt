@@ -1,10 +1,10 @@
 Image=campaign/images/pact ssbn 2
 MissionLocation=In the polar region
-Briefing=01 MAY 1984
-Briefing=Satellite data has revealed that a Soviet boomer is lurking deep within its bastion, where it lies protected by layers upon layers of surface warships and hunter-killer subs. You must penetrate the bastion defenses, find that boomer, and sink it.
+Briefing=01 мая 1984
+Briefing=Данные со спутника показали, что советская подводная лодка с крылатыми ракетами скрывается глубоко, под защитой множества надводных кораблей и подводных лодок атакующего класса. Вы должны преодолеть эту защиту, найти эту лодку с крылатыми ракетами, и потопить её.
 Briefing=
-Briefing=Primary Objective:
-Briefing=Locate and sink any SSBNs
+Briefing=Основная задача:
+Briefing=Найти и потопить ПЛАРБ.
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Locate and sink any escorting vessels if possible
+Briefing=Дополнительная задача:
+Briefing=Найти и потопить корабли эскорта, если это возможно.

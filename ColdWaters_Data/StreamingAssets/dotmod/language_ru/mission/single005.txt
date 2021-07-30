@@ -1,10 +1,10 @@
 Image=campaign/images/pact surface raiders 2
 MissionLocation=In the vicinity of the North Cape
-Briefing=19 MAR 1984
-Briefing=A Sturgeon-class SSN encounters a massive soviet surface strike group off the North Cape. The centerpiece of the group is every fast attack skippers dream: A Kirov-class battlecruiser.
+Briefing=19 марта 1984
+Briefing=АПЛ класса Sturgeon встречается с крупной советской надводной ударной группой у мыса Нордкап. В центре группы находится мечта каждого капитана: ракетный крейсер «Орлан».
 Briefing=
-Briefing=Primary Objective:
-Briefing=Penetrate the group's ASW defenses and sink the Kirov
+Briefing=Основная задача:
+Briefing=Проникнуть сквозь противолодочную оборону противника и потопить ракетный крейсер «Орлан»
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Survive
+Briefing=Дополнительная задача:
+Briefing=Выжить
