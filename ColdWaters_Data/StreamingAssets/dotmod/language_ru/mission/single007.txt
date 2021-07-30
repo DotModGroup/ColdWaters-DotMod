@@ -1,7 +1,7 @@
 Image=campaign/images/under ice
 MissionLocation=Somewhere north of Spitsbergen
-Briefing=5 APR 1984
-Briefing=Hunt and kill a Soviet Typhoon-class boomer and evade its high-tech escorts.
+Briefing=5 апреля 1984
+Briefing=Найдите и потопите советскую ТРПКСН «Акула». Её будут охранять новейшие корабли сопровождения, постарайтесь их избегать.
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink the Typhoon
+Briefing=Основная задача:
+Briefing=Потопить «Акулу».
