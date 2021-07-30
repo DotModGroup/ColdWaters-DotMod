@@ -107,6 +107,7 @@ that_person - Campaign 001, modeling
 Minsk CVGH - Additional Russian translation
 ghostdog688 - Coordination, presentation, PR
 Goldmaster11 - Testing
+Russian_Wolf - Russian Translations
 -----------
 Our team also wants thank several people for their help and inspiration:
 Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
