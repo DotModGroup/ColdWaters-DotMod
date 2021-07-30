@@ -1,9 +1,9 @@
 Image=campaign/images/pact ssbn
 MissionLocation=Denmark Strait
-Briefing=27 JUNE 1994
-Briefing=Soviet ballistic missile submarines have been operating under the Arctic ice cap. NATO submarines have found the suspected location of a Typhoon and its escorts. You are ordered to destroy it.
-Briefing=Primary Objective:
-Briefing=Sink the Typhoon
+Briefing=27 июня 1994
+Briefing=Советские подводные лодки с баллистическими ракетами находились под ледяной шапкой Арктики. Подводные лодки НАТО обнаружили предполагаемое местоположение «Акулы» и её сопровождающих. Вам приказано уничтожить её.
+Briefing=Основная задача:
+Briefing=Потопите «Акулу»
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting submarines
+Briefing=Дополнительная задача:
+Briefing=Потопите подводные лодки сопровождения

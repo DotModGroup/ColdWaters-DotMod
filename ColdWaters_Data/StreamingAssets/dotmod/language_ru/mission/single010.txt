@@ -1,10 +1,10 @@
 Image=campaign/images/pact naval 1
 MissionLocation=North of Narvik
-Briefing=24 FEB 1985
-Briefing=A Soviet fleet consisting of several large warships, including Kiev is covering the invasion of Narvik. Sink the Kiev or the Soviets may take Norway and close the Atlantic.
+Briefing=24 февраля 1985
+Briefing=Советский флот, состоящий из нескольких крупных кораблей, включая тяжёлый авианесущий крейсер «Кречет», прикрывает вторжение на Нарвик. Потопите «Кречет» или советы могут взять Норвегию и закрыть Атлантику.
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink the Kiev
+Briefing=Основная задача:
+Briefing=Потопить «Кречет»
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting warships
+Briefing=Дополнительная задача:
+Briefing=Потопить корабли эскорта

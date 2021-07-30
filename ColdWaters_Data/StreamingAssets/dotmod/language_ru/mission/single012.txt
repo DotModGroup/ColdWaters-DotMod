@@ -1,10 +1,10 @@
 Image=campaign/images/TransitBackgrounds/sovremenny_02.jpg
 MissionLocation=East of Iceland
-Briefing=16 DEC 1994
-Briefing=Following hostilities breaking out between the east and west, a Soviet raider group has left Archangel to block convoy routes. 
+Briefing=16 декабря 1994
+Briefing=После начала боевых действий между востоком и западом, сответская атакующая группа вышла из Архангельска, чтобы перекрыть маршруты конвоев.
 Briefing=
-Briefing=Primary Objective:
-Briefing=Sink the ASuW Ships
+Briefing=Основная задача:
+Briefing=Потопите корабли с ПКР и тяжёлым пушечным вооружением
 Briefing=
-Briefing=Secondary Objective:
-Briefing=Sink the escorting warships
+Briefing=Дополнительная задача:
+Briefing=Потопите корабли эскорта
