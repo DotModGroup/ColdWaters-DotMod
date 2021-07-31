@@ -103,7 +103,7 @@ usn_sqr_19=SQR-19=Американская корабельная буксиру
 // 3. Другие нации
 //   3а) Англия
 uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
-uk_187=Type 187=A British active and passive set that was mounted on the modernized Oberon-class submarines.
+uk_2051=Type 2051=A British active and passive set that was mounted on the modernized Oberon-class submarines.
 uk_2020=Type 2020=Plessey Type 2020 hull-mounted active and passive search and attack sonar.
 
 uk_2026=Sonar Type 2026=Type 2026 was a joint British and Dutch second-generation passive clip-on towed linear array sonar. Compared to its predecessor, Type 2026 had a more sensitive hydrophone, a stronger cable, a new broadband LF processor and an updated narrow-band processor.

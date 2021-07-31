@@ -441,18 +441,8 @@ SonarBaffle=85
 SonarNoisePerKnot=1
 SonarOutput=220
 
-//Type 187 - Early Oberon
-SonarModel=uk_187
-SonarType=ACTIVE/PASSIVE
-SonarFrequencies=H,L
-SonarActiveSensitivity=30
-SonarPassiveSensitivity=35
-SonarBaffle=85
-SonarNoisePerKnot=1
-SonarOutput=220
-
-//Type 2052
-SonarModel=uk_2052
+//Type 2051- Oberon
+SonarModel=uk_2051
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,L
 SonarActiveSensitivity=23
