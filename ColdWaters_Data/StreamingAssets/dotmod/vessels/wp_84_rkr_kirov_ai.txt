@@ -54,8 +54,11 @@ TubeConfig=5,5
 TorpedoTubeSize=21
 TubeReloadTime=0
 
-MissileType=wp_rpk-6
-MissilesPerLauncher=5,5
+MissileType=wp_urpk-3
+MissilesPerLauncher=2
+
+//MissileType=wp_rpk-6
+//MissilesPerLauncher=5,5
 
 AntiShipMissileType=wp_p-700
 AntiShipMissileNumbers=20
@@ -227,44 +230,46 @@ MeshTorpedoMount=FALSE
 TorpedoSpawnPosition=0.0216,0.0047,0.0054
 TorpedoEffectPosition=0,0.0055,0.041
 
-//Missile Mounts
--Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
--MeshRotation=341,0,0
--MeshPosition=0,0.1808,1.1198
--MeshMissileMount=wp_rkr_kirov_asw_launcher
--Material=ships/materials/modular_parts
--MeshRotation=0,0,0
--MeshPosition=0,0,0
--ChildMesh=wp_rkr_kirov_asw_launcher_parts
--Material=ships/materials/trans
--ChildMesh=wp_rkr_kirov_asw_launcher_trans
--MeshRotation=0,0,0
--MissileEffectPosition=-0.01,-0.002,-0.055
-
+//-----------------¡-Metel-¡------------------
 //Missile Mounts
 Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
 MeshRotation=341,0,0
 MeshPosition=0,0.1808,1.1198
-Mesh=wp_rkr_kirov_asw_launcher
+MeshMissileMount=wp_rkr_kirov_asw_launcher
 Material=ships/materials/modular_parts
-Mesh=wp_rkr_kirov_asw_launcher_parts
+MeshRotation=0,0,0
+MeshPosition=0,0,0
+ChildMesh=wp_rkr_kirov_asw_launcher_parts
 Material=ships/materials/trans
-Mesh=wp_rkr_kirov_asw_launcher_trans
+ChildMesh=wp_rkr_kirov_asw_launcher_trans
+MeshRotation=0,0,0
+MissileEffectPosition=-0.01,-0.002,-0.055
 
+//-----------------¡-RPK-6-¡------------------
+////Fake Missile Mount
+//Material=ships/wp_rkr_kirov/wp_rkr_kirov_mat
+//MeshRotation=341,0,0
+//MeshPosition=0,0.1808,1.1198
+//Mesh=wp_rkr_kirov_asw_launcher
+//Material=ships/materials/modular_parts
+//Mesh=wp_rkr_kirov_asw_launcher_parts
+//Material=ships/materials/trans
+//Mesh=wp_rkr_kirov_asw_launcher_trans
 
+////Missile Mounts
+//MeshRotation=0,-93,0
+////Port tubes
+//MeshPosition=-0.16,0.043,-1.552
+//MeshMissileMount=FALSE
+//MissileEffectPosition=0,0,0
 
-//Missile Mounts
-MeshRotation=0,-93,0
-//Port tubes
-MeshPosition=-0.16,0.043,-1.552
-MeshMissileMount=FALSE
-MissileEffectPosition=0,0,0
+////Starboard tubes
+//MeshRotation=0,93,0
+//MeshPosition=0.16,0.043,-1.552
+//MeshMissileMount=FALSE
+//MissileEffectPosition=0,0,0
 
-//Starboard tubes
-MeshRotation=0,93,0
-MeshPosition=0.16,0.043,-1.552
-MeshMissileMount=FALSE
-MissileEffectPosition=0,0,0
+//-----------------^-RPK-6-^------------------
 
 
 //Noisemaker Mount

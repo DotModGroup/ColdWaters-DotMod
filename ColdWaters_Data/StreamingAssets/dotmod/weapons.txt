@@ -2864,7 +2864,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHALLOW,DEEP,DEEP_SUB
 *
 WeaponNoiseValues=160,230
 WeaponSprite=weapons/sprites/usn_mk48_sprite
@@ -2919,7 +2919,7 @@ MaxPitchAngle=45
 *
 HomeSettings=PASSIVE,ACTIVE
 AttackSettings=STRAIGHT,LEFT,RIGHT
-DepthSettings=LEVEL,SHALLOW,DEEP
+DepthSettings=LEVEL,SHALLOW,DEEP,DEEP_SUB
 *
 WeaponNoiseValues=160,230
 WeaponSprite=hud/sprites/usn_mk48_adcap_sprite.png
