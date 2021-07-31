@@ -431,7 +431,7 @@ SonarOutput=0
 
 // 3. Other nations
 //   3а) UK
-//Type 187 - Oberon
+//Type 187 - Early Oberon
 SonarModel=uk_187
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=H,L
@@ -440,6 +440,26 @@ SonarPassiveSensitivity=35
 SonarBaffle=85
 SonarNoisePerKnot=1
 SonarOutput=220
+
+//Type 187 - Early Oberon
+SonarModel=uk_187
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,L
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=35
+SonarBaffle=85
+SonarNoisePerKnot=1
+SonarOutput=220
+
+//Type 2052
+SonarModel=uk_2052
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=23
+SonarPassiveSensitivity=36
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
 
 //Type 2020 - uk_84_ssn_trafalgar
 SonarModel=uk_2020

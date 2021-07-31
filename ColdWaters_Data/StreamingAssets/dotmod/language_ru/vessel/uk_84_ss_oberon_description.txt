@@ -1,0 +1,9 @@
+[Unit Reference]
+Designation=ДЭПЛ
+ShipClass=«Оберон (модернизированный)»
+Description=ДЭПЛ типа «Оберон»
+History=Подводные лодки типа «Оберон» (Oberon class)—серия британских дизель-электрических подводных лодок. Считались одними из наиболее малошумных подводных лодок своего времени. Всего было построено 29 подводных лодок этого типа.
+
+[Player Ship Instances] 
+PlayerClassNames=HMS "Оберон", HMS "Один", HMS "Орфей", HMS "Олимп", HMS "Осирис", HMS "Онслот"
+PlayerClassHullNumbers=S09, S10, S11, S12, S13, S14
