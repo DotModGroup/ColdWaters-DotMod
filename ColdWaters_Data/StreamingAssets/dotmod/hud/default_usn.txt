@@ -26,6 +26,9 @@ TacticalNavpointColorAlt=200,50,50,255
 TacticalMapAircraftIcon=hud/uk/icon_aircraft.png
 TacticalMapHelicopterIcon=hud/uk/icon_helicopter.png
 
+TorpedoTubeRearIndicator=hud/uk/icon_rear_tube.png
+TorpedoTubeRearPosition=-175,5
+TorpedoTubeRearSize=30,15
 TorpedoTube650Selected=hud/uk/tube_650_selected.png
 TorpedoTube650Unselected=hud/uk/tube_650_unselected.png
 TorpedoTube400Selected=hud/uk/tube_400_selected.png
@@ -84,8 +87,8 @@ LoadSAMButton=hud/uk/icon_load_tube.png
 
 [Additional]
 StoresHudStaticColor=74,163,201,255
-//StoresLoadTimeTextOffset=20,-14
-StoresLoadTimeTextOffset=0,-14
+StoresLoadTimeTextOffset=20,-14
+//StoresLoadTimeTextOffset=0,-14
 StoresTotalQuantityTextOffset=6,6
 StoresNoisemakerQuantityTextOffset=-47,5
 StoresWiresNumberTextOffset=-8,2

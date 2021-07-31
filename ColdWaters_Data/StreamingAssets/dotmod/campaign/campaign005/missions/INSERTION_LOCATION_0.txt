@@ -6,7 +6,6 @@ MapCoordinates=1460,520
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
 
 //Enemy Ships
 UsePresetPositions=TRUE

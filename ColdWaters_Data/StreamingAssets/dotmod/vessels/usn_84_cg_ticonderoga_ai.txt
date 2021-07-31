@@ -62,8 +62,8 @@ AntiShipMissileType=usn_ugm84
 AntiShipMissileNumbers=8
 AntiShipMissileReloadTime=2
 AntiShipMissileLaunchDepth=10
-AntiAirMissileLaunchPoints=-0.019,0.145,0.8237866|0.016,0.145,0.8237866|0.019,0.135,-0.7291328|-0.0154,0.135,-0.7291328
-AntiAirMissileLaunchPointsRotation=-25,0,0|-25,0,0|-25,180,0|-25,180,0
+AntiShipMissileLaunchPoints=-0.105,0.112,-1.045|-0.105,0.101,-1.045|-0.105,0.112,-1.059|-0.105,0.101,-1.059|-0.073,0.112,-1.074|-0.073,0.101,-1.074|-0.073,0.112,-1.088|-0.073,0.101,-1.088
+AntiShipMissileLaunchPointsRotation=-35,-90,0|-35,-90,0|-35,-90,0|-35,-90,0|-35,90,0|-35,90,0|-35,90,0|-35,90,0
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
@@ -85,8 +85,8 @@ AntiAirMissilesNumbers=68
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=25
-VLSLaunchPoints=-0.019,0.145,0.8237866|0.016,0.145,0.8237866|0.019,0.135,-0.7291328|-0.0154,0.135,-0.7291328
-VLSLaunchPointsRotation=-25,0,0|-25,0,0|-25,180,0|-25,180,0
+AntiAirMissileLaunchPoints=-0.019,0.145,0.8237866|0.016,0.145,0.8237866|0.019,0.135,-0.7291328|-0.0154,0.135,-0.7291328
+AntiAirMissileLaunchPointsRotation=-25,0,0|-25,0,0|-25,180,0|-25,180,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
@@ -329,16 +329,17 @@ MeshProp=usn_84_cg_ticonderoga_prop_s
 
 //Missile Mounts
 MeshRotation=-25,0,0
-MeshPosition=-0.02069,0.13777,0.54753
+MeshPosition=-0.019,0.145,0.8237866
 MeshMissileMount=FALSE
 MeshRotation=0,0,0
 MissileEffectPosition=0,0,0
 
 MeshRotation=-25,180,0
-MeshPosition=0.02687,0.1288,-0.81201
+MeshPosition=0.019,0.135,-0.7291328
 MeshMissileMount=FALSE
 MeshRotation=0,0,0
 MissileEffectPosition=0,0,0
+
 
 //Noisemaker Mount
 MeshRotation=0,0,0
