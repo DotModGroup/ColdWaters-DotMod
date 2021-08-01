@@ -1,5 +1,6 @@
 [Unit Reference]
 Designation=ТС
 ShipClass=Малый транспорт
+ShipClassShort=М. транспорт
 Description=Малый транспорт
 History=Малый военный транспорт используемый странами НАТО для перевозки военных грузов в прибрежных водах.
