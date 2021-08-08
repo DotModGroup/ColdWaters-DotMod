@@ -7,7 +7,7 @@
 <color=Cyan>Охота за красным медведем</color>
 <color=Cyan>Высадка в Нарвике</color>
 <color=Cyan>Перехват</color>
-<color=Cyan>Металл и лёд</color>
+<color=Cyan>Лёд и сталь</color>
 <color=Cyan>Заходящее солнце</color>
 <color=Cyan>Открывая огонь</color>
 <color=Cyan>Охотники</color>
