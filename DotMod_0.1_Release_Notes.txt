@@ -39,6 +39,8 @@ Loading time on game start improved by TheHappyYachter
 New game options by TheHappyYachter
 New single missions (More coming!)
 Russian descriptions rewritten and corrected
+Soviet campaign made from scratch
+A lot of soviet subs are playable
 (EM) Russian voiceover by Evgeny Mas a.k.a. Ramius
 
 [GAME MECHANICS]
@@ -86,14 +88,19 @@ Repainted civilian vessels acting as US auxilary ships
 Retextured most of the soviet submarines to have brighter textures and darker top side
 
 [QOL]
+Same hud could be used by submarine and player surface ship
 Added short name for ship to display in GUI
 1km circles on tactical map (Note that these do *NOT* adjust when using the Imperial system)
 (EM) additional info while draging weapon waypoint
 The first launch will run a scan for modified files that could cause an issue. This will increase the loading time of the first launch.
+Visibility (murky/clear water) settings in game options.
+(EM) Language and voiceover settings in options.
+Reworked options (by TheHappyYachter) 
 
 [BUGFIXES]
 Numerous misc. changes and fixes
 Enemy helicopters now see surfaced player
+Fixed drift oh hud elements when switching the huds
 
 [CREDITS]
 DotMod team:
