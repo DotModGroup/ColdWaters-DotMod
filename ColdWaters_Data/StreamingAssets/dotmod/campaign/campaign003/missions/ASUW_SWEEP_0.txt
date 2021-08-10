@@ -1,4 +1,8 @@
 MissionType=ASUW_SWEEP
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=1
+AllowedOnlyfor=
+ForbiddenFor=FFG
 HoursToStart=16,36
 StartLocation=WAYPOINT
 StartAlignment=

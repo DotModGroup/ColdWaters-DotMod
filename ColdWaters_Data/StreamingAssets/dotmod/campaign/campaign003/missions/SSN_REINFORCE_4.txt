@@ -1,4 +1,8 @@
 MissionType=SSN_REINFORCE
+AllowedOnlyForCostBelow=
+AllowedOnlyForCostHigherThan=1
+AllowedOnlyfor=
+ForbiddenFor=FFG
 HoursToStart=16,36
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
