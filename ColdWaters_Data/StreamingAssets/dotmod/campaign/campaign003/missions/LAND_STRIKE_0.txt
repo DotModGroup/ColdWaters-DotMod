@@ -1,6 +1,4 @@
 MissionType=LAND_STRIKE
-AllowedOnlyfor=
-ForbiddenFor=Surface
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
