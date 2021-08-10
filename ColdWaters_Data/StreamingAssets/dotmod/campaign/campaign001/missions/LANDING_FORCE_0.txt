@@ -1,8 +1,6 @@
 MissionType=LANDING_FORCE
 AllowedOnlyfor=
 ForbiddenFor=FFG,FF
-AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=1
 HoursToStart=8,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
