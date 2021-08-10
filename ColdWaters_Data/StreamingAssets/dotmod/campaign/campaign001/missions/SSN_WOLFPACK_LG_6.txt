@@ -1,6 +1,6 @@
 MissionType=SSN_WOLFPACK_LG
 AllowedOnlyfor=
-ForbiddenFor=Surface
+ForbiddenFor=SURFACE
 HoursToStart=46,50
 StartLocation=WAYPOINT
 StartAlignment=
