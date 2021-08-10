@@ -1,4 +1,6 @@
 MissionType=SURGE
+AllowedOnlyfor=
+ForbiddenFor=
 HoursToStart=6,12
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
