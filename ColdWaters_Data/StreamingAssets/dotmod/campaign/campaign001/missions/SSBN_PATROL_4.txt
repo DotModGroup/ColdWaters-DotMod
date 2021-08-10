@@ -1,6 +1,6 @@
 MissionType=SSBN_PATROL
 AllowedOnlyfor=
-ForbiddenFor=Surface
+ForbiddenFor=SURFACE
 HoursToStart=0,2
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
