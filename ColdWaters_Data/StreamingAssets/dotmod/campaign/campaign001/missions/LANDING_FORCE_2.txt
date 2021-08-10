@@ -1,6 +1,4 @@
 MissionType=LANDING_FORCE
-AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=1
 AllowedOnlyfor=
 ForbiddenFor=FFG,FF
 HoursToStart=8,24
