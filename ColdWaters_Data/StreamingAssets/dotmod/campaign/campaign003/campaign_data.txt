@@ -23,9 +23,6 @@ CampaignPoints=600
 CampaignStartPoints=200
 PlayerPositionOnLeavePort=492,-262
 RPGModeEnabled=TRUE
-UsePrestige=TRUE
-PrestigeRepairCostMultiplier=0.5
-PrestigeMissionChangeCost=40,60,100,150
 
 [Sprites and Toolbar]
 SpritePlayer=campaign/images/sprites/icon_us_ssn.png
