@@ -1,6 +1,4 @@
 MissionType=SSN_REINFORCE
-AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=1
 AllowedOnlyfor=
 ForbiddenFor=Surface
 HoursToStart=16,36
