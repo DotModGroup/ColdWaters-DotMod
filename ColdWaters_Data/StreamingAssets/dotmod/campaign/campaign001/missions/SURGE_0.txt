@@ -1,6 +1,6 @@
 MissionType=SURGE
 AllowedOnlyfor=
-ForbiddenFor=Surface
+ForbiddenFor=SURFACE
 HoursToStart=3,8
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
