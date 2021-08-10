@@ -1,4 +1,6 @@
 MissionType=ASUW_STRIKE_LG
+AllowedOnlyfor=
+ForbiddenFor=FFG,FF
 HoursToStart=22,28
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

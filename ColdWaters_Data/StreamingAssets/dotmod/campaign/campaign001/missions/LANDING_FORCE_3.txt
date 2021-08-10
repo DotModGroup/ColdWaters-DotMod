@@ -1,4 +1,6 @@
 MissionType=LANDING_FORCE
+AllowedOnlyfor=
+ForbiddenFor=
 HoursToStart=12,20
 StartLocation=WAYPOINT
 StartAlignment=

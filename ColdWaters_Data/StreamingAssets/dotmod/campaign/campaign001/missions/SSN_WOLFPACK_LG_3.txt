@@ -1,4 +1,6 @@
 MissionType=SSN_WOLFPACK_LG
+AllowedOnlyfor=
+ForbiddenFor=FFG
 HoursToStart=0,24
 StartLocation=WAYPOINT
 StartAlignment=

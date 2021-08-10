@@ -1,4 +1,6 @@
 MissionType=SSN_WOLFPACK_LG
+AllowedOnlyfor=
+ForbiddenFor=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

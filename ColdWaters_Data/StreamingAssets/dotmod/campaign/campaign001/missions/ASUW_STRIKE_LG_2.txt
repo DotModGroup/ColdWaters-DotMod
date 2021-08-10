@@ -1,6 +1,8 @@
 MissionType=ASUW_STRIKE_LG
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=1
+AllowedOnlyfor=
+ForbiddenFor=FFG,FF
 HoursToStart=24,36
 StartLocation=WAYPOINT
 StartAlignment=

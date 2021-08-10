@@ -1,6 +1,8 @@
 MissionType=ASUW_STRIKE
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=1
+AllowedOnlyfor=
+ForbiddenFor=Surface
 HoursToStart=10,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

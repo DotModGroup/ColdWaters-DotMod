@@ -1,6 +1,8 @@
 MissionType=SSN_WOLFPACK
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=1
+AllowedOnlyfor=
+ForbiddenFor=FFG
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY

@@ -1,4 +1,6 @@
 MissionType=SSN_WOLFPACK
+AllowedOnlyfor=
+ForbiddenFor=
 HoursToStart=0,24
 StartLocation=WAYPOINT
 StartAlignment=
