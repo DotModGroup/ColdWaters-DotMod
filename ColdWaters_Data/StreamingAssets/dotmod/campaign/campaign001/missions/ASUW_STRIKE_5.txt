@@ -1,7 +1,4 @@
 MissionType=ASUW_STRIKE
-AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=1
-AllowedOnlyfor=
 ForbiddenFor=FFG,FF
 HoursToStart=10,24
 StartLocation=NAVAL_BASE
