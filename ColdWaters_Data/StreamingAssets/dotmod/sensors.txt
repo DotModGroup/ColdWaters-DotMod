@@ -431,6 +431,16 @@ SonarOutput=0
 
 // 3. Other nations
 //   3а) UK
+//Type 184 - Type 21 FFG
+SonarModel=uk_type184
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=23
+SonarPassiveSensitivity=36
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
 //Type 187 - Early Oberon
 SonarModel=uk_187
 SonarType=ACTIVE/PASSIVE
@@ -769,7 +779,7 @@ RADARRange=30400
 
 RADARModel=wp_snoop_pair
 RADARRange=44000
-//----------------------------------------Корабельные-------------------------------
+//----------------------------------------Ship-------------------------------
 RADARModel=wp_don_kay
 RADARRange=50500
 
@@ -788,7 +798,7 @@ RADARRange=64000
 
 RADARModel=wp_mr-800
 RADARRange=65000
-//----------------------------------------Авиационные-------------------------------
+//----------------------------------------Aircraft-------------------------------
 RADARModel=wp_mushroom
 RADARRange=90000
 
@@ -806,7 +816,7 @@ RADARRange=160000
 
 //   2. USA
 
-//----------------------------------------Лодочные-------------------------------
+//----------------------------------------Submarine-------------------------------
 RADARModel=usn_bps_12
 RADARRange=60000
 
@@ -819,7 +829,7 @@ RADARRange=60000
 RADARModel=usn_bps_15A
 RADARRange=60000
 
-//----------------------------------------Корабельные-------------------------------
+//----------------------------------------Ship-------------------------------
 RADARModel=usn_sps_10
 RADARRange=58000
 
@@ -828,24 +838,28 @@ RADARRange=60000
 
 RADARModel=usn_sps_55
 RADARRange=64000
-//----------------------------------------Авиационные-------------------------------
+//----------------------------------------Aircraft-------------------------------
 RADARModel=usn_ln_66
 RADARRange=100000
 
 RADARModel=usn_an-aps_115
 RADARRange=173000
 
-//   3. Другие нации
-//----------------------------------------Лодочные-------------------------------
+//   3. Other natons
+//----------------------------------------Submarine-------------------------------
 RADARModel=uk_t1007
 RADARRange=58000
+
+RADARModel=uk_type992
+RADARRange=64000
+
 ////THD 1030 Calypso II - knm_84_ss_kobben
 RADARModel=dm_calypso
 RADARRange=37400
-//----------------------------------------Корабельные-------------------------------
+//----------------------------------------Ship-------------------------------
 RADARModel=uk_aws9
 RADARRange=50500
-//----------------------------------------Авиационные-------------------------------
+//----------------------------------------Aircraft-------------------------------
 RADARModel=plan_klc_1
 RADARRange=100000
 

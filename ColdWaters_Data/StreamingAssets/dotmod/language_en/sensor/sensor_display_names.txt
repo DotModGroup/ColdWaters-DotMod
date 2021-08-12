@@ -93,6 +93,7 @@ usn_sqr_19=SQR-19=The SQR-19 Tactical Array SONAR (TACTAS) is a passive towed ar
 
 // 3. Other nations
 //   3a) UK
+uk_type184=Type 184=A British active and passive set that was mounted on the Type 21 frigate.
 uk_187=Type 187=A British active and passive set that was mounted on the Oberon-class submarines.
 uk_2051=Type 2051=A British active and passive set that was mounted on the modernized Oberon-class submarines.
 uk_2020=Type 2020=Plessey Type 2020 hull-mounted active and passive search and attack sonar.
@@ -215,7 +216,7 @@ usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily
 //   3. Other nations
 //----------------------------------------Submarine-------------------------------
 uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. 
-
+uk_type992=Type 992Q=The Type 992Q is a medium-range, general-purpose radar that operates both as a search radar and a target designation radar.
 dm_calypso=THD 1030 Calypso II=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 uk_aws9=AWS-9=AWS-9 is an export version of Type 996 E/F-Band 3-D surveillance and target identification air/surface search radar used by the U.K. Royal Navy.
 //----------------------------------------Ship-------------------------------
