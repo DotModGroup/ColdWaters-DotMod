@@ -1,3 +1,4 @@
+usn_68_ssn_nautilus
 usn_68_ssn_skipjack
 usn_68_ssn_permit
 usn_68_ssn_sturgeon
@@ -14,7 +15,6 @@ usn_04_ssn_virginia
 uk_68_ss_oberon
 uk_84_ss_oberon
 uk_84_ssn_trafalgar
-uk_84_ffg_type21
 wp_68_ssn_november
 wp_68_ssn_victor1
 wp_68_ssgn_echo2

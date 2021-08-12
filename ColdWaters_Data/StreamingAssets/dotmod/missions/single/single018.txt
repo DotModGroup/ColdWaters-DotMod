@@ -30,6 +30,6 @@ HelicopterType=wp_helix
 NumberOfAircraft=1
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+PlayerVessels=usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT
