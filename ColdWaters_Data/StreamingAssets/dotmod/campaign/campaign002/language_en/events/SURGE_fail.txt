@@ -1,5 +1,5 @@
 NextAction=MAP
-Image=campaign/images/pact wolfpack 1,campaign/images/pact wolfpack 5,campaign/images/pact wolfpack 6,campaign/images/pact missile attack
+Image=campaign/images/pact wolfpack 1,campaign/images/pact wolfpack 5,campaign/images/pact wolfpack 6,campaign/images/pact wolfpack 1
 Photo=campaign/images/photos/naval nato 3,campaign/images/photos/naval sub
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
