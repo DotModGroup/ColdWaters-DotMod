@@ -1116,7 +1116,7 @@ ChildMeshPosition=33.254,0,-61.144
 ChildMeshRotation=0,282.080,0
 
 ChildObject=terrain/scenery/landhit
-ChildMeshPosition=36.868,0,-60.445
+ChildMeshPosition=36.868,0.5,-60.445
 ChildMeshRotation=0,282.080,0
 
 ChildObject=terrain/scenery/landhit
