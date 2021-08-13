@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=GWS.24 Seacat
+WeaponDescriptiveName=GWS.24 Seacat SAM
+WeaponDescription=Seacat was a British short-range surface-to-air missile system intended to replace the ubiquitous Bofors 40 mm gun aboard warships of all sizes. It was the world's first operational shipboard point-defence missile system, and was designed so that the Bofors guns could be replaced with minimum modification to the recipient vessel and (originally) using existing fire-control systems.

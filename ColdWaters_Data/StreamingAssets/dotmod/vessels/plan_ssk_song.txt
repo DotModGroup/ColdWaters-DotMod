@@ -37,16 +37,36 @@ TowedArrayModel=FALSE
 AnechoicCoating=TRUE
 RADAR=wp_snoop_tray
 RADARSignature=SMALL
-TowedArrayPosition=0.0718,0,-0.55
+//TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
-TorpedoTypes=plan_yu-5,wp_moss_mg-74
-TorpedoNumbers=10,2
+MissileType=plan_cy-1
+MissilesPerLauncher=2,2
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=4
+AntiShipMissileReloadTime=2
+AntiShipMissileLaunchDepth=400
+AntiShipMissileLaunchPoints=-0.016,-0.007,0.51|0.016,-0.007,0.51
+AntiShipMissileLaunchPointsRotation=0,0,0
+
+
+TorpedoTypes=plan_yu-5,plan_cy-1,plan_c-801,wp_moss_mg-74
+TorpedoNumbers=8,4,4,2
 TorpedoTubes=6
 NumberOfWires=2
 TubeConfig=1,1,1,1,1,1
-TorpedoTubeSize=21
+TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45
+
+AntiAirMissileType=wp_igla
+AntiAirMissilesNumbers=8
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=25
+AntiAirMissileLaunchPoints=-0.004,0.14,0.278
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
@@ -55,7 +75,7 @@ NoisemakerReloadTime=20
 LabelPosition=364.3,28
 BOWSONAR=FRONT
 LabelPosition=59.9,193.2
-TOWED=REAR
+TOWED=FALSE
 LabelPosition=409.7,193.3
 PERISCOPE=SAIL
 LabelPosition=409.7,151.4
@@ -63,28 +83,28 @@ ESM_MAST=SAIL
 LabelPosition=409.7,171.9
 RADAR_MAST=SAIL
 LabelPosition=364.3,49.4
-TUBES=FRONT,FORE
-LabelPosition=201,193.2
+TUBES=FRONT
+LabelPosition=241.8,28
 FIRECONTROL=FORE
-LabelPosition=201,172.2
-PUMPS=AFT,MID
+LabelPosition=230,172.2
+PUMPS=AFT
 LabelPosition=59.9,27.7
-PROPULSION=AFT,REAR
+PROPULSION=REAR
 LabelPosition=59.9,172.2
 RUDDER=REAR
 LabelPosition=59.9,48.7
 PLANES=REAR,SAIL
 LabelPosition=190.8,49
 BALLAST=MID
-LabelPosition=190.8,28
-REACTOR=MID
+LabelPosition=230,193.2
+REACTOR=AFT
 
 [Flooding Display: x,width,ymin,ymax]
-FLOODING1=158,83,-77,-32
-FLOODING2=77,76,-83,-28
-FLOODING3=-2,78,-84,-26
-FLOODING4=-70,54,-80,-31
-FLOODING5=-129,59,-78,-34
+FLOODING1=167,85,-77,-32
+FLOODING2=86,77,-77,-28
+FLOODING3=8,80,-77,-26
+FLOODING4=-60,56,-77,-31
+FLOODING5=-119,62,-77,-34
 DamageControlPartyY=-28
 
 [Model]
@@ -113,61 +133,74 @@ MeshPosition=0,0,0
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=plan_ssk_song_hullnumber
 
-Material=ships/materials/usn_masts
-MeshPosition=0.005,0.075,0.217
-MastHeight=0.085
-MeshMast=plan_ssk_song_periscope
 
-MeshPosition=-0.0,0.075,0.1676
-MastHeight=0.085
-MeshMast=plan_ssk_song_esm_mast
+ModelFile=ships/plan_ssn_han/plan_ssn_han
+Material=ships/materials/wp_masts
 
-MeshPosition=-0.0025,0.075,0.1913
+MeshPosition=0.004,0.055,0.278
 MastHeight=0.085
-MeshMast=plan_ssk_song_radar_mast
+MeshMast=plan_ssn_han_periscope
+
+MeshPosition=0.004,0.055,0.251
+MastHeight=0.085
+MeshMast=plan_ssn_han_esm
+
+MeshPosition=-0,0.055,0.2313
+MastHeight=0.085
+MeshMast=plan_ssn_han_radar
+
+ModelFile=ships/plan_ssk_song/plan_ssk_song
 
 [Weapon Systems]
-//Torpedo Mounts
 
-//Tube 1
-MeshPosition=-0.0113,0.005,0.52
+//Tube 1 - Missile Mount
+MeshPosition=-0.016,0.005,0.51
+MeshMissileMount=FALSE
+MissileEffectPosition=-0.016,0.005,0.51
+
+//Tube 4 - Missile Mount
+MeshPosition=0.016,0.005,0.51
+MeshMissileMount=FALSE
+MissileEffectPosition=0.016,0.005,0.51
+
+//Torpedo Mounts
 MeshRotation=0,0,0
-TorpedoSpawnPosition=-0.0113,-0.005,0.52
-TorpedoEffectPosition=-0.0113,-0.005,0.52
+
+//Port Side
+//Tube 1
+MeshPosition=-0.016,0.005,0.51
+TorpedoSpawnPosition=-0.016,0.005,0.51
+TorpedoEffectPosition=-0.016,0.005,0.51
 
 //Tube 2
-MeshPosition=0,0.005,0.526
-MeshRotation=0,0,0
-TorpedoSpawnPosition=0,-0.005,0.526
-TorpedoEffectPosition=0,-0.005,0.526
+MeshPosition=-0.016,-0.007,0.51
+TorpedoSpawnPosition=-0.016,-0.007,0.51
+TorpedoEffectPosition=-0.016,-0.007,0.51
 
 //Tube 3
-MeshPosition=0.0113,0.005,0.52
-MeshRotation=0,0,0
-TorpedoSpawnPosition=0.0113,-0.005,0.52
-TorpedoEffectPosition=0.0113,-0.005,0.52
+MeshPosition=-0.016,-0.019,0.51
+TorpedoSpawnPosition=-0.016,-0.019,0.51
+TorpedoEffectPosition=-0.016,-0.019,0.51
 
+//Starboard Side
 //Tube 4
-MeshPosition=-0.0113,-0.0053,0.52
-MeshRotation=0,0,0
-TorpedoSpawnPosition=-0.0113,-0.0053,0.52
-TorpedoEffectPosition=-0.0113,-0.0053,0.52
+MeshPosition=0.016,0.005,0.51
+TorpedoSpawnPosition=0.016,0.005,0.51
+TorpedoEffectPosition=0.016,0.005,0.51
 
 //Tube 5
-MeshPosition=0,-0.0053,0.526
-MeshRotation=0,0,0
-TorpedoSpawnPosition=0,-0.0053,0.526
-TorpedoEffectPosition=0,-0.0053,0.526
+MeshPosition=0.016,-0.007,0.51
+TorpedoSpawnPosition=0.016,-0.007,0.51
+TorpedoEffectPosition=0.016,-0.007,0.51
 
 //Tube 6
-MeshPosition=0.0113,-0.0053,0.52
-MeshRotation=0,0,0
-TorpedoSpawnPosition=0.0113,-0.0053,0.52
-TorpedoEffectPosition=0.0113,-0.0053,0.52
+MeshPosition=0.016,-0.019,0.51
+TorpedoSpawnPosition=0.016,-0.019,0.51
+TorpedoEffectPosition=0.016,-0.019,0.51
 
 //Noisemaker Mount
 MeshRotation=0,0,0
-MeshPosition=0,-0.056,-0.533
+MeshPosition=0.015,-0.005,-0.45
 MeshNoisemakerMount=FALSE
 
 //Wake

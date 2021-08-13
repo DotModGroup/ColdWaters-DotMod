@@ -26,13 +26,17 @@ TacticalNavpointColorAlt=200,50,50,255
 TacticalMapAircraftIcon=hud/uk/icon_aircraft.png
 TacticalMapHelicopterIcon=hud/uk/icon_helicopter.png
 
-TorpedoTubeRearIndicator=hud/uk/icon_rear_tube.png
-TorpedoTubeRearPosition=-175,5
-TorpedoTubeRearSize=30,15
-TorpedoTube650Selected=hud/uk/tube_650_selected.png
-TorpedoTube650Unselected=hud/uk/tube_650_unselected.png
-TorpedoTube400Selected=hud/uk/tube_400_selected.png
-TorpedoTube400Unselected=hud/uk/tube_400_unselected.png
+//Deprecated
+//TorpedoTubeRearIndicator=hud/uk/icon_rear_tube.png
+//TorpedoTubeRearPosition=-175,5
+//TorpedoTubeRearSize=30,15
+//TorpedoTube650Selected=hud/uk/tube_650_selected.png
+//TorpedoTube650Unselected=hud/uk/tube_650_unselected.png
+//TorpedoTube400Selected=hud/uk/tube_400_selected.png
+//TorpedoTube400Unselected=hud/uk/tube_400_unselected.png
+
+
+TubeGUIFolder=hud/uk
 
 //TorpedoSettingShip=hud/uk/icon_search_ship.png
 TorpedoSettingShip=hud/uk/icon_target_ship.png

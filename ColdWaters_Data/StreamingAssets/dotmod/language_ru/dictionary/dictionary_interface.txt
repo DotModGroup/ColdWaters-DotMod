@@ -25,6 +25,8 @@ October=Октября
 November=Ноября
 December=Декабря
 
+RearTube=Кормовой ТА
+
 Mile=n. mi
 SubsystemDiesel=Дизель
 DieselSpace=Дизельный отсек

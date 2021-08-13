@@ -3834,6 +3834,13 @@ WeaponSprite=weapons/sprites/plan_cy-1_sprite
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]
+ModelFile=weapons/assets/usn_tasm
+Material=weapons/assets/usn_tasm_mat
+MaterialTextures=weapons/assets/usn_tasm_tx
+MeshPosition=0,0,0
+MeshWeaponCanister=TASM_Canister
+
+
 ModelFile=weapons/assets/plan_cy-1
 Material=weapons/assets/plan_cy-1_mat
 MaterialTextures=weapons/assets/plan_cy-1_tx
@@ -4107,6 +4114,116 @@ AudioLoop=FALSE
 [/Model]
 
 //=   4b) Missiles
+WeaponObjectReference=uk_exocet
+WeaponType=MISSILE
+Warhead=405
+SensorRange=19685
+SensorAngles=40,15
+MissileGunVulnerability=0.5
+MissileChaffVulnerability=0.7
+MaxLaunchDepth=200
+WeaponAltitudes=150,7.5
+CruiseTime=25
+BoosterReleasedAfterSeconds=7
+WeaponRanges=8000,120000
+WeaponSpeed=40,540
+TurnRate=40
+MaxPitchAngle=30
+HomeSettings=SHIP
+AttackSettings=WIDE,NARROW
+DepthSettings=SKIM,POP-UP
+WeaponNoiseValues=190,190
+WeaponSprite=weapons/sprites/plan_c-801_sprite
+MinCameraDistance=0.3
+ResupplyTime=30
+[Model]
+ModelFile=weapons/assets/plan_c-801
+Material=weapons/assets/plan_c-801_mat
+//MaterialTextures=weapons/assets/plan_c-801_tx
+MaterialTextures=weapons/assets/usn_ugm84_tx
+MeshPosition=0,0,0
+MeshWeapon=c-801
+MeshWeaponCanister=c-801_canister
+MeshPosition=0,0,-0.0342
+MeshMissileBooster=c-801_booster
+MeshPosition=0,0,-0.0421
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+MeshPosition=0,0,-0.0682
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-0.0337
+BoosterParticle=weapons/assets/plan_c-801_boosterrelease
+
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
+
+WeaponObjectReference=uk_seacat
+WeaponType=MISSILE
+Special=NoBoosterRelease
+Warhead=40
+SensorRange=13120
+SensorAngles=30,30
+AntiAircraftHitProbability=0.8
+AntiMissileHitProbability=0.7
+AntiAirInterceptionRadius=60
+AntiAirHeights=8,16600
+MissileGunVulnerability=0.3
+MissileChaffVulnerability=1.2
+MaxLaunchDepth=5
+WeaponAltitudes=500,500
+CruiseTime=0
+BoosterReleasedAfterSeconds=6
+WeaponRanges=1600,27340
+WeaponSpeed=40,2300
+TurnRate=60
+MaxPitchAngle=45
+HomeSettings=MISSILE,AIRCRAFT,SHIP
+AttackSettings=ONE,TWO
+DepthSettings=SKIM
+WeaponNoiseValues=190,190
+WeaponSprite=hud/sprites/usn_rim-66_sprite.png
+MinCameraDistance=0.3
+ResupplyTime=30
+[Model]
+AssetBundle=bundles/dotmod/weapons/usn/usn_sparrow
+ModelFile=assets/resourcesforbundles/weapons/usn/usn_sparrow/usn_sparrow.obj
+Material=assets/resourcesforbundles/weapons/usn/usn_sparrow/usn_sparrow_mat.mat
+MaterialTextures=assets/resourcesforbundles/weapons/usn/usn_sparrow/usn_sparrow_tx.dds
+MeshPosition=0,0,0
+MeshWeapon=RIM7
+MeshWeaponCanister=RIM7
+MeshMissileBooster=FALSE
+MeshPosition=0,0,-0.05
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+-MeshPosition=0,0,-0.0758
+MeshPosition=0,0,-0.048
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
+MeshPosition=0,0,-100.02638
+BoosterParticle=weapons/assets/usn_ugm84_boosterrelease
+AudioSource=MissileLaunch
+AudioClip=audio/missile/ssgn-booster3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=FALSE
+AudioSource=MissileEngine
+AudioClip=audio/missile/ssgn3.ogg
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.1
+AudioLoop=TRUE
+[/Model]
+
 //=   4c) ASR
 //=   4d) ICBM
 
@@ -4464,7 +4581,15 @@ DepthWeaponAccuracy=1
 
 
 //=   4. UK
-
+//=Naval Guns
+DepthWeaponObjectReference=uk_mark_8_shell
+DepthWeaponWarhead=15
+DepthWeaponRange=100,25900
+DepthWeaponNumberFired=40
+DepthWeaponRateOfFire=1.5
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=8.08
+DepthWeaponAccuracy=1
 
 //=   5. Norway
 //=RBU
