@@ -74,6 +74,7 @@ Ticonderoga model converted by that_person and TheHappyYachter
 Oberon model by that_person
 Trafalgar model by TheHappyYachter
 Oliver Hazard Perry model by TheHappyYachter
+Type 21 Frigate model by TheHappyYachter
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by Lorenzo:
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
@@ -116,6 +117,7 @@ ghostdog688 - Coordination, presentation, PR
 Goldmaster11 - Testing
 Russian_Wolf - Russian Translations
 Kevin DDSSTT - Texture art for new vessel models
+Steel Shark - UI Sprites and Textures
 -----------
 Our team also wants thank several people for their help and inspiration:
 Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
