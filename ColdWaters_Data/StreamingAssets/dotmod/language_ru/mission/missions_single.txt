@@ -9,11 +9,11 @@
 <color=Cyan>Перехват</color>
 <color=Cyan>Лёд и сталь</color>
 <color=Cyan>Заходящее солнце</color>
-<color=Cyan>Открывая огонь</color>
+<color=Cyan>Первые выстрелы</color>
 <color=Cyan>Охотники</color>
 <color=Cyan>Полярная слава</color>
 <color=Cyan>Красные воды</color>
-<color=Cyan>Охота на Арктического Волка</color>
+<color=Cyan>Охота на акулу</color>
 <color=#39CCCC>Бой в Северной Атлантике</color>
 <color=#39CCCC>Бой в Датском проливе</color>
 <color=#7FDBFF>Парад джонок</color>

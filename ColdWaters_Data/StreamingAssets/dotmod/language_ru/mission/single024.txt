@@ -1,7 +1,10 @@
 Image=campaign/images/pact wolfpack 4
 MissionLocation=Датский пролив
-Briefing=8 ноября 1984г
+
+Briefing=<DATE>г.
 Briefing=По данным разведки, в данном районе действует, по крайней мере, одна атомная субмарина НАТО. Действуйте осмотрительно.
 Briefing=
 Briefing=Боевая задача:
 Briefing=Сразитесь один на один с вражеской АПЛ
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

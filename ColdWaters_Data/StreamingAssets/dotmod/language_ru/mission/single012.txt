@@ -1,10 +1,14 @@
 Image=campaign/images/TransitBackgrounds/sovremenny_02.jpg
-MissionLocation=East of Iceland
-Briefing=16 декабря 1994
-Briefing=После начала боевых действий между востоком и западом, сответская атакующая группа вышла из Архангельска, чтобы перекрыть маршруты конвоев.
+MissionLocation=К западу от Исландии
+
+Briefing=<color::Cyan>НАТО</color>
+Briefing=<DATE>г.
+Briefing=После начала боевых действий между СССР и НАТО, советские корабельные ударные группы в Атлантике заняли позиции на маршрутах конвоев. Одну из таких групп вам предстоит обезвредить.
 Briefing=
 Briefing=Основная задача:
-Briefing=Потопите корабли с ПКР и тяжёлым пушечным вооружением
+Briefing=Потопите корабли с ПКР («Сарыч», «Беркут»)
 Briefing=
 Briefing=Дополнительная задача:
 Briefing=Потопите корабли эскорта
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

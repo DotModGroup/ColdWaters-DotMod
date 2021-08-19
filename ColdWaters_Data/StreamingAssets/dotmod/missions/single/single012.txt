@@ -8,7 +8,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=27 FEB 1984
+Date=16 JUL 1984
 Hemisphere=North
 Time=1400
 UsePresetEnvironment=TRUE
@@ -20,7 +20,7 @@ LayerStrength=Moderate
 //Enemy Ships
 NumberOfEnemyUnits=2-2,1-1,1-2,1-1
 CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE,FALSE
+EnemyUnitMissionCritical=TRUE,FALSE,FALSE,FALSE,FALSE
 EnemyShipClasses=wp_84_em_sovremenny_ai|wp_68_rkr_kresta1_ai,wp_84_bpk_udaloy_ai,wp_84_bpk_kara_ai|wp_84_bpk_kresta2_ai,wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3
 FormationCruiseSpeed=18
 

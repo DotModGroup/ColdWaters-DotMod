@@ -51,7 +51,7 @@ MapHemisphere=North
 MapDefaultYear=1968
 MapDefaultCoords=2030,1187
 PlayerCommand=COMSUBLANT|CINCLANTFLT
-PlayerVessels=usn_68_ssn_nautilus,usn_68_ssn_sturgeon,usn_68_ssn_permit,usn_68_ssn_skipjack
+PlayerVessels=usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
 HelicopterTypes=wp_hormone_68,wp_haze
 AircraftTypes=wp_tu-142_bear,wp_il-38_may_68,wp_be-12_mail
 

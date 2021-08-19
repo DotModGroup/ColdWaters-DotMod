@@ -1,10 +1,11 @@
 //Перехват
 Image=campaign/images/backgrounds/nato_perry_firing_0.jpg
 MissionLocation=Северная Атлантика
-Briefing=11 февраля 1986г
+
+Briefing=<DATE>г.
 Briefing=Разведка обнаружила боевую группу противника поблизости. Вам приказано оставить ордер и идти на перехват.
 Briefing=
 Briefing=<b>Боевая задача:</b>
 Briefing=- Потопить корабли противника
 Briefing=
-Briefing=
+Briefing=Корабль игрока: <PLAYERSUBMARINES>

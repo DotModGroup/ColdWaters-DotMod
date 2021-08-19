@@ -1,9 +1,10 @@
 //Погоня
 Image=campaign/images/pact surface raiders 2
 MissionLocation=Норвежское море
-Briefing=06 мая 1985г
-Briefing=Попытка незаметно пересечь рубеж SOSUS не удалась - поисковая группа обнаружила вас и теперь придётся принимать бой.
+
+Briefing=<DATE>г.
+Briefing=Попытка незаметно пересечь рубеж СОСУС не удалась - поисковая группа обнаружила вас и теперь придётся принимать бой.
 Briefing=<b>Боевая задача:</b>
 Briefing=- Потопить корабли противника
 Briefing=
-Briefing=
+Briefing=Корабль игрока: <PLAYERSUBMARINES>

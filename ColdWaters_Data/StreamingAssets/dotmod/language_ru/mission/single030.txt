@@ -1,6 +1,7 @@
 Image=campaign/images/nato convoy
 MissionLocation=Возле Тайваня
-Briefing=24 декабря 2000
+
+Briefing=<DATE>г.
 Briefing=Конвой США пытается доставить на Тайвань военнную технику и боеприпасы. Вам приказано воспрепятствовать этому.
 Briefing=
 Briefing=Основная задача:
@@ -8,3 +9,5 @@ Briefing=Потопить вражеские транспорты
 Briefing=
 Briefing=Дополнительная задача:
 Briefing=Потопить корабли сопровождения
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

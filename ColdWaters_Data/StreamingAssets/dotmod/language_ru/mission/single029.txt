@@ -1,7 +1,10 @@
 Image=campaign/images/plan wolfpack 1
 MissionLocation=Южно-Китайское море
-Briefing=2 июля 2000
+
+Briefing=<DATE>г.
 Briefing=АПЛ США была замечена в Восточно-Китайском море. После нескольких дней поиска обнаружен неопознанный контакт. Возможно это те, на кого вы охотитесь...
 Briefing=
 Briefing=Боевая задача:
 Briefing=Сразитесь один на один с вражеской АПЛ
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

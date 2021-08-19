@@ -1,8 +1,12 @@
 //Testing Grounds
 Image=campaign/images/under ice
 MissionLocation=Местоположение засекречено
-Briefing=15 декабря 1984г
+
+Briefing=<color::Blue>Тестовая миссия</color>
+Briefing=<DATE>г.
 Briefing=Вы прибыли в предписанную зону для проведения испытаний корабельных систем и вооружения.
 Briefing=
 Briefing=Боевая задача:
 Briefing=Выполнить необходимые тесты.
+Briefing=
+Briefing=Корабль/лодка игрока: <PLAYERSUBMARINES>

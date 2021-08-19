@@ -1,7 +1,10 @@
 Image=campaign/images/nato submarine
 MissionLocation=Норвежское море, к востоку от Исландии
-Briefing=15 декабря 1984г
+
+Briefing=<DATE>г.
 Briefing=После нескольких непримечательных дней, сонар обнаружил одиночный контакт.
 Briefing=
 Briefing=Боевая задача:
 Briefing=Сразитесь один на один с вражеской АПЛ
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

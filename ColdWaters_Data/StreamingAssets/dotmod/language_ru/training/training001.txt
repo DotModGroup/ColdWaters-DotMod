@@ -9,3 +9,4 @@ Briefing=- Настройка камеры.
 Briefing=- Используйте перископ.
 Briefing=- Введение в тактическую карту.
 Briefing=- Пуск торпед.
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

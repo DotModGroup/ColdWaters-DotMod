@@ -1,8 +1,8 @@
 //Narvik Caper
-
 Image=campaign/images/nato insertion 3
 MissionLocation=Нарвик, Норвегия
-Briefing=22 APR 1984
+
+Briefing=<DATE>г.
 Briefing=Вам поставлена задача высадить команду диверсантов вблизи от захваченного Советами Нарвика.
 Briefing=
 Briefing=Боевая задача:
@@ -10,3 +10,5 @@ Briefing=Высадите спецназ в отмеченой зоне
 Briefing=(Необходимо загрузить спецназ перед миссиией)
 Briefing=
 Briefing=Избегайте обнаружения
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

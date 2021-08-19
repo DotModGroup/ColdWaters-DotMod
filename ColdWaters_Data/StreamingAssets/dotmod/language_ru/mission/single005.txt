@@ -1,10 +1,13 @@
 Image=campaign/images/pact surface raiders 2
-MissionLocation=In the vicinity of the North Cape
-Briefing=19 марта 1984
-Briefing=АПЛ класса Sturgeon встречается с крупной советской надводной ударной группой у мыса Нордкап. В центре группы находится мечта каждого капитана: ракетный крейсер класса «Орлан».
+MissionLocation=В районе мыса Нордкап
+
+Briefing=<DATE>г.
+Briefing=АПЛ класса «Стёрджн» встречается с крупной советской надводной ударной группой у мыса Нордкап. В центре группы находится мечта каждого капитана: ракетный крейсер класса «Орлан».
 Briefing=
 Briefing=Основная задача:
 Briefing=Проникнуть сквозь противолодочную оборону противника и потопить «Орлан»
 Briefing=
 Briefing=Дополнительная задача:
 Briefing=Выжить
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

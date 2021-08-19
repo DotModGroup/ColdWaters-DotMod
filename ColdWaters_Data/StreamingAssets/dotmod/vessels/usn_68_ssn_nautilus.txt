@@ -31,7 +31,7 @@ TestDepth=700
 EscapeDepth=600
 
 [Acoustics & Sensors]
-SelfNoise=142
+SelfNoise=146
 ActiveSonarReflection=20
 ActiveSonarModel=usn_an_bqs_4
 PassiveSonarModel=usn_an_bqr_2

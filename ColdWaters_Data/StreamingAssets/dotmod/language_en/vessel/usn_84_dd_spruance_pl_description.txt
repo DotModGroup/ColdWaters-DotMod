@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Spruance
+Description=Spruance-class Destroyer
+Aircraft=2 SH-60F Seahawk
+History=The Spruance-class destroyer was developed by the United States to replace the many World War II–built Allen M. Sumner- and Gearing-class destroyers and was the primary destroyer built for the U.S. Navy during the 1970s and 1980s. First commissioned in 1975, the class was designed with gas-turbine propulsion, a flight deck and hangar for up to two medium-lift helicopters, all-digital weapons systems, and automated 127 mm (5-inch) guns. Serving for three decades, the Spruance class was originally designed to escort a carrier group with a primary ASW mission, and later had a land strike capability added with the addition of the Tomahawk cruise missile.
+[Player Ship Instances]
+PlayerClassNames=Spruance,Paul F. Foster,Kinkaid,Hewitt,Elliot,Arthur W. Radford,Peterson,Caron,David R. Ray,Oldendorf,John Young,Comte de Grasse,O’Brien,Merrill,Briscoe,Stump,Conolly,Moosbrugger,John Hancock,Nicholson,John Rodgers,Leftwich,Cushing,Harry W. Hill,O’Bannon,Thorn,Deyo,Ingersoll,Fife,Fletcher,Hayler
+PlayerClassHullNumbers=DD-963,DD-964,DD-965,DD-966,DD-967,DD-968,DD-969,DD-970,DD-971,DD-972,DD-973,DD-974,DD-975,DD-976,DD-977,DD-978,DD-979,DD-980,DD-981,DD-982,DD-983,DD-984,DD-985,DD-986,DD-987,DD-988,DD-989,DD-990,DD-991,DD-992,DD-997

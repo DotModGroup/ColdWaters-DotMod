@@ -56,7 +56,7 @@ NavalGunFiringArcBearingMax=140,140,-30,-30
 NavalGunRestAngle=0,0,180,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
-NavalGunShellNumbers=1250
+NavalGunShellNumbers=2200
 
 
 [Defenses]

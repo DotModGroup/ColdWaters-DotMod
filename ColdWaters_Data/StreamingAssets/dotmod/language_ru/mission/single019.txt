@@ -1,6 +1,7 @@
 Image=campaign/images/plan surface raiders 3
 MissionLocation=In the Taiwan Straits
-Briefing=20 AUG 2000
+
+Briefing=<DATE>г.
 Briefing=CINCPAC is directing you to sink a Chinese amphibious group that is headed towards the southern coast of Taiwan and sank a Taiwanese Defence Force patrol vessel. The group includes a number of Russian designed surface and sub-surface vessels.
 Briefing=
 Briefing=Primary Objective:
@@ -8,3 +9,5 @@ Briefing=Sink the landing ships
 Briefing=
 Briefing=Secondary Objective:
 Briefing=Engage enemy warships
+Briefing=
+Briefing=Ћодка игрока: <PLAYERSUBMARINES>

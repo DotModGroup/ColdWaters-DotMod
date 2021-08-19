@@ -1,7 +1,13 @@
 Image=campaign/images/under ice
-MissionLocation=Somewhere north of Spitsbergen
-Briefing=5 апреля 1984
-Briefing=Найдите и потопите советскую ТРПКСН «Акула». Её будут охранять новейшие корабли сопровождения, постарайтесь их избегать.
+MissionLocation=К северу от Шпицбергена
+
+Briefing=<DATE>г.
 Briefing=
+Briefing=Найдите и потопите советский ТРПКСН класса «Акула». По данным разведки её сопровождают новейшие АПЛ, поэтому соблюдайте осторожность.
 Briefing=Основная задача:
-Briefing=Потопить «Акулу».
+Briefing=Потопите «Акулу»
+Briefing=
+Briefing=Дополнительная задача:
+Briefing=Потопите подводные лодки сопровождения
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

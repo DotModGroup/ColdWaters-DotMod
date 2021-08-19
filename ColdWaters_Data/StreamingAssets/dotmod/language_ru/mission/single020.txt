@@ -1,5 +1,6 @@
 Image=campaign/images/nato missile land attack
 MissionLocation=Возле Парасельских островов
+
 Briefing=27 марта 1999
 Briefing=Вам приказано нанести удар по объектам во вражеском тылу. Координаты целей заложены в ГСН ракет, вам остаётся только запустить их.
 Briefing=
@@ -9,3 +10,5 @@ Briefing=Запустить 8 КР «Томагавк»
 Briefing=
 Briefing=Дополнительная задача:
 Briefing=Потопить вражеские корабли
+Briefing=
+Briefing=Лодка игрока: <PLAYERSUBMARINES>

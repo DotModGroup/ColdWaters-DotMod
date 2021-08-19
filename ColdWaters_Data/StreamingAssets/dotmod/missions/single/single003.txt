@@ -20,7 +20,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 
 //Environment
-Date=15 MAR 1984
+Date=15 SEP 1984
 Hemisphere=North
 Time=2200
 UsePresetEnvironment=TRUE
