@@ -26,6 +26,7 @@
 //---------------------------------------------------------------------------------------
 
 //I. Sonar
+nav_sonar=Navigation sonar found on ships not equiped with dedicated sonar systems.
 // 1. USSR
 //   1a) Hull-mounted
 //----------------------------------------Submarine-------------------------------

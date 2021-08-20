@@ -28,6 +28,15 @@
 // 1. USSR
 //   1a) Hull-mounted
 //-------------------------------------------New---------------------------------
+//Dummy sonar for playable ships
+SonarModel=nav_sonar
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=22
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=200
 //----------------------------------------Submarine-------------------------------
 //«Марс» (пассивный) - No users atm
 SonarModel=wp_mars

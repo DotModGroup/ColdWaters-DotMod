@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Iowa
+Description=Iowa-class Battleship(1984)
+
+History=Iowa is a class of United States battleships. They were designed as "fast" battleships, able to rely on an even mix of speed and firepower, and capable of sailing at the same speed as the carrier force. During their modernization in the 1980s Iowas were equipped with four Phalanx CIWS mounts, Harpoon and Tomahawk missile launchers.
+
+[Player Ship Instances]
+PlayerClassNames=Iowa,New Jersey,Missouri,Wisconsin
+PlayerClassHullNumbers=BB-61,BB-62,BB-63,BB-64

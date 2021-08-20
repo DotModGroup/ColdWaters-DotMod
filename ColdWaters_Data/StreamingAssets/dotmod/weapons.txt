@@ -4464,6 +4464,15 @@ DepthWeaponAccuracy=1
 //=   2. USA
 
 //Naval Guns
+DepthWeaponObjectReference=usn_mark_7_shell
+DepthWeaponWarhead=28
+DepthWeaponRange=100,41622
+DepthWeaponNumberFired=3
+DepthWeaponRateOfFire=0.1
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=5.2
+DepthWeaponAccuracy=0.8
+
 DepthWeaponObjectReference=usn_mark_42_shell
 DepthWeaponWarhead=15
 DepthWeaponRange=100,25900

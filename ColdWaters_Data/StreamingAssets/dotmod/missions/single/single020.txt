@@ -7,6 +7,16 @@ MapElevationData=campaign/images/maps/south_china_sea_bathymetry
 WorldObjectsData=campaign/maps/south_china_sea_world_objects
 VesselsAndTraffic=campaign/maps/south_china_sea_traffic
 
+//Environment
+Date=27 MAR 1999
+Hemisphere=North
+Time=0700
+UsePresetEnvironment=FALSE
+Weather=Broken
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE

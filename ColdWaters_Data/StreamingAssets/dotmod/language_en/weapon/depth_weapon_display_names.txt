@@ -8,6 +8,8 @@ plan_type87_mortar=Type 87=This is a Hedgehog-style launcher that employs rocket
 nw_terne_mortar=Terne ASW=This is a Hedgehog-style launcher that employs rockets to throw depth charges in a preset pattern over great ranges. Maximum range is about 1750 yards.
 
 [GUNS]
+usn_mark_7_shell=16"/50 Mark 7 Guns=16"/50 Mark 7
+
 uk_mark_8_shell=4.5" Mark 8 Meduim Caliber Gun=4.5" Mk 8
 
 usn_mark_42_shell=5"/54 Mark 42 Gun=5"/54 Mark 42

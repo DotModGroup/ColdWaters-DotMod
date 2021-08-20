@@ -8,7 +8,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=14 MAY 2004
+Date=11 MAR 1985
 Hemisphere=North
 Time=1500
 UsePresetEnvironment=TRUE

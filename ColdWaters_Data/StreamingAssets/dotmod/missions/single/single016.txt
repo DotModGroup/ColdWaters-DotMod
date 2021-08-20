@@ -10,7 +10,7 @@ VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 
 //Environment
-Date=23 APR 1984
+Date=23 APR 1985
 Hemisphere=North
 Time=1300
 UsePresetEnvironment=TRUE

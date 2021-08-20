@@ -10,7 +10,7 @@ VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
 
 
 //Environment
-Date=14 NOV 1984
+Date=24 DEC 2000
 Hemisphere=North
 Time=1200
 UsePresetEnvironment=FALSE
