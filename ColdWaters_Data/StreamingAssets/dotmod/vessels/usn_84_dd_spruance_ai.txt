@@ -46,8 +46,8 @@ RADAR=usn_sps_67
 
 [Weapon Systems]
 NavalGuns=usn_mark_42_shell,usn_mark_42_shell
-NavalGunFiringArcBearingMin=60,-60
-NavalGunFiringArcBearingMax=-60,60
+NavalGunFiringArcBearingMin=30,-160
+NavalGunFiringArcBearingMax=-30,160
 NavalGunRestAngle=180,0
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
