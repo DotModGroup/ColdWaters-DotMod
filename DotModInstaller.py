@@ -3,7 +3,7 @@
 
 #Imports
 #------------
-#File path checking and user-getting for killing bad options
+#File path checking
 import os
 #File tree copying and removal
 import shutil
