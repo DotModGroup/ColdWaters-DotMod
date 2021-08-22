@@ -7,7 +7,7 @@ Displacement=4100
 HullHeight=0.1
 Crew=176
 Range=4500
-HullNumbers=S015.png,S020.png,S027.png,S065.png,S074.png,S154.png
+HullNumbers=Perry_60.png
 AircraftNumbers=1
 AircraftTypes=usn_sh60b
 
@@ -260,6 +260,12 @@ MeshRudder=rudder
 MeshRotation=-6.95,0,0
 MeshPosition=-0.0,-0.06881678,-0.8400785
 MeshProp=prop
+
+MeshPosition=0,0,0
+MeshRotation=-90,0,0
+
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=hullnumbers
 
 MeshPosition=0,0,0
 MeshRotation=0,0,0
