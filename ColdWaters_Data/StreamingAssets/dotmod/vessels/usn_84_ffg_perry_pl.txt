@@ -273,17 +273,16 @@ MeshPosition=0,0.167,-0.5553
 MeshCIWSRADAR=FALSE
 
 //Torpedo Launchers
-MeshRotation=0,0,0
+MeshRotation=0,-30,0
 MeshPosition=-0.0891,0.0728,-0.0959
-MeshTorpedoMount=usn_cg_belknap_torpedomount
-TorpedoSpawnPosition=-0.10752,0.07162,0.04253
-TorpedoEffectPosition=-0.10752,0.07162,0.04253
+Mesh=usn_cg_belknap_torpedomount
+MeshRotation=0,30,0
 MeshPosition=0.0891,0.0728,-0.0959
-MeshTorpedoMount=usn_cg_belknap_torpedomount
-TorpedoSpawnPosition=0.10752,0.07162,0.04253
-TorpedoEffectPosition=0.10752,0.07162,0.04253
+Mesh=usn_cg_belknap_torpedomount
+
 
 //Wake and Smoke
+MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
