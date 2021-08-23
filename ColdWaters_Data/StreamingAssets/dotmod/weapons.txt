@@ -4468,10 +4468,12 @@ DepthWeaponObjectReference=usn_mark_7_shell
 DepthWeaponWarhead=28
 DepthWeaponRange=100,41622
 DepthWeaponNumberFired=3
-DepthWeaponRateOfFire=0.1
+DepthWeaponRateOfFire=0.15
 DepthWeaponReloadTime=30
 DepthWeaponVelocity=5.2
-DepthWeaponAccuracy=0.8
+DepthWeaponAccuracy=1.5
+DepthWeaponTrainRate=0.2
+DepthWeaponMortarPositions=-0.036,0,0.036
 
 DepthWeaponObjectReference=usn_mark_42_shell
 DepthWeaponWarhead=15

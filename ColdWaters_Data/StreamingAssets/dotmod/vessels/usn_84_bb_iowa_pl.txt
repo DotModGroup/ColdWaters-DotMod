@@ -130,7 +130,7 @@ FLOODING5=-92,48,-77,-49
 DamageControlPartyY=-36
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_bb_iowa
+AssetBundle=bundles/dotmod/vessels/usn/usn_bb_iowa
 ModelFile=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa.fbx
 
 //Hull and Deck
@@ -146,12 +146,13 @@ MaterialTextures=vessels/textures/usn_bb_iowa_tx.png,textures/usn_ssn_virginia_s
 MeshBowPlanes=FALSE
 MeshSternPlanes=FALSE
 
-Mesh=usn_bb_iowa_hull_MeshPart0,HIDE
-Mesh=usn_bb_iowa_hull_MeshPart1,HIDE
-Mesh=usn_bb_iowa_superstructure_MeshPart0,usn_bb_iowa_superstructure_d
-Mesh=usn_bb_iowa_superstructure_MeshPart1,HIDE
-Mesh=usn_bb_iowa_railings_MeshPart0
-Mesh=usn_bb_iowa_railings_MeshPart1
+Mesh=usn_bb_iowa_hull
+Mesh=usn_bb_iowa_details_1
+Mesh=usn_bb_iowa_details_2
+Mesh=usn_bb_iowa_superstructure_1,usn_bb_iowa_superstructure_d
+Mesh=usn_bb_iowa_superstructure_2,HIDE
+Mesh=usn_bb_iowa_railings_1
+Mesh=usn_bb_iowa_railings_2
 
 MeshPosition=-0.04,-0.05,-1.04
 MeshRudder=usn_bb_iowa_left_rudder
@@ -200,14 +201,14 @@ MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.12
+NavalGunSpawnPosition=0,0,0.195
 
 MeshPosition=0,0.132,0.745
 MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.12
+NavalGunSpawnPosition=0,0,0.195
 
 MeshRotation=0,180,0
 MeshPosition=0,0.11,-0.46
@@ -215,7 +216,7 @@ MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.12
+NavalGunSpawnPosition=0,0,0.195
 
 //RADARs
 RADARDirection=1
@@ -314,7 +315,7 @@ MeshPosition=0,0.3,0
 MeshMast=FALSE
 MeshPosition=0,0,0
 
-AssetBundle=bundles/vessels/usn/usn_bb_iowa
+AssetBundle=bundles/dotmod/vessels/usn/usn_bb_iowa
 ModelFile=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa.fbx
 //Wake and Smoke
 MeshPosition=0,0,0

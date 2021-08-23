@@ -100,11 +100,7 @@ MeshRotation=0,0,0
 MeshHullCollider=usn_ssn_nautilus_coll_hull
 MeshSuperstructureCollider=usn_ssn_nautilus_coll_ss
 
-AssetBundle=bundles/vessels/usn/usn_ssn_virginia.unity3d
-Material=assets/materials/usn_ssn_virginia.mat
-
-AssetBundle=bundles/vessels/usn/usn_ssn_nautilus
-ModelFile=assets/vessels/usn/usn_ssn_nautilus/nautilus.fbx
+Material=assets/vessels/usn/usn_ssn_nautilus/usn_ssn_nautilus_mat.mat
 MaterialTextures=vessels/textures/usn_ssn_nautilus_tex.png,textures/usn_ssn_virginia_spec.png,FALSE
 
 Mesh=usn_ssn_nautilus_hull
