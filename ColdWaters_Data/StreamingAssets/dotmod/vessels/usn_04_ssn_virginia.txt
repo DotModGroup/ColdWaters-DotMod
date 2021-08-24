@@ -173,7 +173,7 @@ MeshProp=usn_ssn_virginia_prop
 //ModelFile=weapons/assets/usn_mk48
 //Material=weapons/assets/usn_mk48_mat
 //MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.058,-0.016,0.7
+//MeshPosition=-0.068,-0.016,0.68
 //MeshRotation=0,-5,0
 //Mesh=Mk48
 
@@ -181,7 +181,7 @@ MeshProp=usn_ssn_virginia_prop
 //ModelFile=weapons/assets/usn_mk48
 //Material=weapons/assets/usn_mk48_mat
 //MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.055,-0.0322,0.68
+//MeshPosition=-0.059,-0.04,0.65
 //MeshRotation=0,-5,0
 //Mesh=Mk48
 
@@ -189,7 +189,7 @@ MeshProp=usn_ssn_virginia_prop
 //ModelFile=weapons/assets/usn_mk48
 //Material=weapons/assets/usn_mk48_mat
 //MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.058,-0.016,0.7
+//MeshPosition=0.068,-0.016,0.68
 //MeshRotation=0,5,0
 //Mesh=Mk48
 
@@ -197,7 +197,7 @@ MeshProp=usn_ssn_virginia_prop
 //ModelFile=weapons/assets/usn_mk48
 //Material=weapons/assets/usn_mk48_mat
 //MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.055,-0.0322,0.68
+//MeshPosition=0.059,-0.04,0.65
 //MeshRotation=0,5,0
 //Mesh=Mk48
 
@@ -509,36 +509,39 @@ ModelFile=assets/models/usn_ssn_virginia.fbx
 //Missile Mounts
 MeshRotation=-90,0,0
 
-MeshPosition=-0.0108,0.0717,0.656
-MeshMissileMount=FALSE
-MissileEffectPosition=-0.0108,0.0717,0.656
+//Missile Mounts
+MeshRotation=-90,0,0
 
-MeshPosition=0.0108,0.0717,0.656
+MeshPosition=-0.068,-0.016,0.68
 MeshMissileMount=FALSE
-MissileEffectPosition=0.0108,0.0717,0.656
+MissileEffectPosition=-0.068,-0.016,0.68
+
+MeshPosition=0.068,-0.016,0.68
+MeshMissileMount=FALSE
+MissileEffectPosition=0.068,-0.016,0.68
 
 //Torpedo Mounts
 //Left Side
 MeshRotation=0,340,0
 
-MeshPosition=-0.058,-0.016,0.7
-TorpedoSpawnPosition=-0.058,-0.016,0.7
-TorpedoEffectPosition=-0.058,-0.016,0.7
+MeshPosition=-0.068,-0.016,0.68
+TorpedoSpawnPosition=-0.068,-0.016,0.68
+TorpedoEffectPosition=-0.068,-0.016,0.68
 
-MeshPosition=-0.055,-0.0322,0.68
-TorpedoSpawnPosition=-0.055,-0.0322,0.68
-TorpedoEffectPosition=-0.055,-0.0322,0.68
+MeshPosition=-0.059,-0.04,0.65
+TorpedoSpawnPosition=-0.059,-0.04,0.65
+TorpedoEffectPosition=-0.059,-0.04,0.65
 
 //RightSide
 MeshRotation=0,20,0
 
-MeshPosition=0.058,-0.016,0.7
-TorpedoSpawnPosition=0.058,-0.016,0.7
-TorpedoEffectPosition=0.058,-0.016,0.7
+MeshPosition=0.068,-0.016,0.68
+TorpedoSpawnPosition=0.068,-0.016,0.68
+TorpedoEffectPosition=0.068,-0.016,0.68
 
-MeshPosition=0.055,-0.0322,0.68
-TorpedoSpawnPosition=0.055,-0.0322,0.68
-TorpedoEffectPosition=0.055,-0.0322,0.68
+MeshPosition=0.059,-0.04,0.65
+TorpedoSpawnPosition=0.059,-0.04,0.65
+TorpedoEffectPosition=0.059,-0.04,0.65
 
 VLSLaunchPoints=0.034,0.1,0.6245|0.013,0.1,0.6245|-0.013,0.1,0.6245|-0.034,0.1,0.6245|0.034,0.1,0.641|0.013,0.1,0.641|-0.013,0.1,0.641|-0.034,0.1,0.641|0.0165,0.1,0.6575|-0.0165,0.1,0.6575|-0.0165,0.1,0.674|0.0165,0.1,0.674
 VLSLaunchPointsRotation=-90,0,0
