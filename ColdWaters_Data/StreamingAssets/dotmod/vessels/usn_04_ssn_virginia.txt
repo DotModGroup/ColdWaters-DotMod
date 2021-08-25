@@ -501,9 +501,6 @@ MeshPosition=-0,0.069,0.52
 MastHeight=0.085
 MeshMast=usn_ssn_seawolf_radar_mast
 
-AssetBundle=bundles/vessels/usn/usn_ssn_virginia.unity3d
-ModelFile=assets/models/usn_ssn_virginia.fbx
-
 [Weapon Systems]
 
 //Missile Mounts
@@ -592,3 +589,6 @@ PingAudioClip=audio/environment/sonar_ping_lf
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
 PingAudioPitch=1
+
+AssetBundle=bundles/vessels/usn/usn_ssn_virginia.unity3d
+ModelFile=assets/vessels/usn/usn_ssn_virginia/usn_ssn_virginia.fbx
