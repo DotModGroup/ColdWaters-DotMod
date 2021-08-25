@@ -101,7 +101,7 @@ MeshHullCollider=usn_ssn_nautilus_coll_hull
 MeshSuperstructureCollider=usn_ssn_nautilus_coll_ss
 
 Material=assets/vessels/usn/usn_ssn_nautilus/usn_ssn_nautilus_mat.mat
-MaterialTextures=vessels/textures/usn_ssn_nautilus_tex.png,FALSE,FALSE
+MaterialTextures=vessels/textures/usn_ssn_nautilus_tex.png,vessels/textures/usn_ssn_nautilus_spec.png,vessels/textures/usn_ssn_nautilus_nm.png
 
 Mesh=usn_ssn_nautilus_hull
 
