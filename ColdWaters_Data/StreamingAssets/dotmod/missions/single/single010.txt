@@ -1,7 +1,7 @@
 //Metal and Ice
 
 UseTerrain=TRUE
-MapCoordinates=2500,1180
+MapCoordinates=2410,1185
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects

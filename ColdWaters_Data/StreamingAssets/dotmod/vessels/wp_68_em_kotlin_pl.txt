@@ -84,6 +84,14 @@ Anti-MissileRADARRestAngle=0
 PlayerWarningRange=1500
 JammingRange=1500
 
+AntiAirMissileType=wp_strela-2
+AntiAirMissilesNumbers=16
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=10
+AntiAirMissileLaunchPoints=0,0.19,0.37
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
 ChaffType=wp_chaff
 ChaffProbability=0.99
 NumberChaffLaunched=2

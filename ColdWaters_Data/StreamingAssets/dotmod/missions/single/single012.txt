@@ -1,7 +1,7 @@
 //Opening Shots
 
 UseTerrain=TRUE
-MapCoordinates=1140,1160
+MapCoordinates=1660,1540
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects

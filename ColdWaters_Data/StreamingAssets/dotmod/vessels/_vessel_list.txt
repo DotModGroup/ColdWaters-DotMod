@@ -46,12 +46,13 @@ plan_ss_kilo
 plan_ssk_song
 plan_ssbn_xia
 knm_84_ss_kobben
-usn_84_ddg_adams_ai
 usn_84_ff_knox_ai
 usn_84_ffg_perry_ai
+usn_84_ddg_adams_ai
+usn_84_dd_spruance_ai
 usn_84_cg_belknap_ai
 usn_84_cg_ticonderoga_ai
-usn_84_dd_spruance_ai
+usn_84_bb_iowa_ai
 usn_84_cvn_nimitz_ai
 usn_84_ff_knox_pl
 usn_84_ffg_perry_pl

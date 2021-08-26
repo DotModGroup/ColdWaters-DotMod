@@ -93,7 +93,8 @@ MapHemisphere=North
 MapDefaultYear=2000
 MapDefaultCoords=1694,655
 PlayerCommand=COM PACIFIC FLEET|CICPLAN
-PlayerVessels=plan_ssn_han
+PlayerVessels=plan_ssk_song,plan_ssn_han
+//,wp_84_ssn_alfa,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_84_ss_tango,wp_84_ss_kilo
 HelicopterTypes=usn_sh-2f,usn_sh60b
 AircraftTypes=FALSE
 

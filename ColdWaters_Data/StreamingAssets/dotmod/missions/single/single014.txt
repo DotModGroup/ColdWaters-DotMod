@@ -1,14 +1,14 @@
 //Polar Glory
 
 UseTerrain=TRUE
-MapCoordinates=1740,1145
+MapCoordinates=1770,1140
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 //Environment
-Date=6 MAY 1984
+Date=6 MAY 1985
 Hemisphere=North
 Time=1600
 UsePresetEnvironment=TRUE

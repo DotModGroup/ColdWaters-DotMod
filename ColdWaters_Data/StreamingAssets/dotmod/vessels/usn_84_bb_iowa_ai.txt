@@ -1,6 +1,5 @@
 Designation=BB
-ShipType=SUBMARINE
-PlayerHUD=hud/default
+ShipType=CAPITAL
 
 Length=167
 Beam=17
@@ -9,7 +8,6 @@ Displacement=57540
 Crew=1800
 Range=15000
 HullNumbers=FALSE
-usn_027,usn_028,usn_029,usn_030,usn_031,usn_032,usn_033,usn_034
 
 [Movement]
 SurfaceSpeed=32
@@ -51,18 +49,15 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1220
 
-TorpedoTypes=usn_moss
-TorpedoNumbers=16
-TorpedoTubes=3
-NumberOfWires=0
-TubeConfig=1,1,1
-TorpedoTubeSize=533,533,533
-TubeReloadTime=30
+MissileType=usn_ugm84
+MissilesPerLauncher=16
 
-VLSTorpedoTypes=usn_tasm,usn_tlam
-VLSTorpedoNumbers=16,16
-VLSMaxDepthToFire=30
-VLSMaxSpeedToFire=40
+AntiShipMissileType=usn_ugm84
+AntiShipMissileNumbers=16
+AntiShipMissileReloadTime=22
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=-0.11,0.24,0.013|0.11,0.24,0.013|-0.11,0.24,-0.003|0.11,0.24,-0.003|-0.11,0.24,-0.022|0.11,0.24,-0.022|-0.11,0.24,-0.039|0.11,0.24,-0.039|-0.116,0.232,0.013|0.116,0.232,0.013|-0.116,0.232,-0.003|0.116,0.232,-0.003|-0.116,0.232,-0.022|0.116,0.232,-0.022|-0.116,0.232,-0.039|0.116,0.232,-0.039
+AntiShipMissileLaunchPointsRotation=-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0
 
 [Defenses]
 
@@ -80,14 +75,6 @@ JammingRange=4000
 ChaffType=wp_chaff
 ChaffProbability=0.5
 NumberChaffLaunched=2
-
-AntiAirMissileType=usn_ugm84
-AntiAirMissilesNumbers=16
-AntiAirMissilesPerTarget=2
-AntiAirMissileReloadTime=3
-AntiAirMissileLaunchDepth=30
-AntiAirMissileLaunchPoints=-0.11,0.24,0.013|0.11,0.24,0.013|-0.11,0.24,-0.003|0.11,0.24,-0.003|-0.11,0.24,-0.022|0.11,0.24,-0.022|-0.11,0.24,-0.039|0.11,0.24,-0.039|-0.116,0.232,0.013|0.116,0.232,0.013|-0.116,0.232,-0.003|0.116,0.232,-0.003|-0.116,0.232,-0.022|0.116,0.232,-0.022|-0.116,0.232,-0.039|0.116,0.232,-0.039
-AntiAirMissileLaunchPointsRotation=-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-90,0|-33,90,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
@@ -143,9 +130,6 @@ MeshSuperstructureCollider=usn_bb_iowa_coll_ss
 Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_mat.mat
 MaterialTextures=vessels/textures/usn_bb_iowa_tx.png,vessels/textures/usn_ssn_virginia_spec.png,FALSE
 
-MeshBowPlanes=FALSE
-MeshSternPlanes=FALSE
-
 Mesh=usn_bb_iowa_hull
 Mesh=usn_bb_iowa_details_1
 Mesh=usn_bb_iowa_details_2
@@ -191,6 +175,15 @@ Mesh=usn_bb_iowa_rangefinders
 Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_whaleboats_mat.mat
 MaterialTextures=textures/usn_whaleboat_tx.png,vessels/textures/usn_ssn_virginia_spec.png,FALSE
 Mesh=usn_bb_iowa_whaleboats
+
+
+//Missile Mounts
+MeshRotation=-33,-90,0
+MeshPosition=-0.11,0.24,0.013
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=0,0,0
+
 
 //Naval Guns
 Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_mk7_mat.mat
@@ -272,48 +265,11 @@ Material=ships/materials/flag_us
 MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 //---------------------------------------------------------------------------------
 
-//Tube imitators
-//Левый борт
-MeshRotation=0,180,0
-//Tube 1
-MeshPosition=-0.006,0.082,-1.243
-TorpedoSpawnPosition=-0.006,0.082,-1.243
-TorpedoEffectPosition=-0.006,0.082,-1.243
-//Tube 2
-MeshPosition=0.006,0.082,-1.243
-TorpedoSpawnPosition=0.006,0.082,-1.243
-TorpedoEffectPosition=0.006,0.082,-1.243
-
-//Thomahawk launchers
-//VLS
-MeshRotation=-15,0,0
-MeshPosition=0.027,0.1554,0.7148
-TorpedoSpawnPosition=0.027,0.1554,0.7148
-TorpedoEffectPosition=0.027,0.1554,0.7148
-VLSLaunchPoints=-0.092,0.236,-0.178|0.092,0.236,-0.178|-0.102,0.236,-0.184|0.102,0.236,-0.184|-0.096,0.229,-0.172|0.096,0.229,-0.172|-0.105,0.229,-0.179|0.105,0.229,-0.179|-0.09,0.236,-0.111|0.09,0.236,-0.111|-0.1,0.236,-0.117|0.1,0.236,-0.117|-0.093,0.229,-0.105|0.093,0.229,-0.105|-0.103,0.229,-0.111|0.103,0.229,-0.111|-0.098,0.248,0.108|0.098,0.255,0.147|-0.098,0.248,0.12|0.098,0.255,0.159|-0.092,0.241,0.108|0.092,0.248,0.147|-0.092,0.241,0.120|0.092,0.248,0.159|-0.098,0.248,0.147|0.093,0.258,0.108|-0.098,0.248,0.159|0.093,0.258,0.12|-0.092,0.241,0.147|0.093,0.248,0.108|-0.092,0.241,0.159|0.093,0.248,0.12
-VLSLaunchPointsRotation=-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,-30,0|-44,30,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0|-44,90,0|-44,-90,0
-
 //Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.011,-1.106
 MeshNoisemakerMount=FALSE
 
-
-MeshRotation=0,0,0
-//Masts
-// ANY mesh could be used to defihe mast position. We don't need actual masts on surface ship. I just used FALSE since it will not write in game log (In Epic Mod 2.21+)
-MastHeight=0.001
-
-//1 - Periscope
-MeshPosition=0,0.28,0.18
-MeshMast=FALSE
-//2 - ESM
-MeshPosition=0,0.092,-0.362
-MeshMast=FALSE
-//3 - RADAR
-MeshPosition=0,0.3,0
-MeshMast=FALSE
-MeshPosition=0,0,0
 
 AssetBundle=bundles/dotmod/vessels/usn/usn_bb_iowa
 ModelFile=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa.fbx
@@ -322,7 +278,6 @@ MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
-_small
 
 //CavitationParticle=ships/particles/usn_cg_belknap_cavitation
 CavitationParticle=ships/particles/wp_takr_kiev_cavitation

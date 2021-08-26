@@ -1,7 +1,7 @@
 //The Setting Sun
 
 UseTerrain=TRUE
-MapCoordinates=2180,2000
+MapCoordinates=2140,1250
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
