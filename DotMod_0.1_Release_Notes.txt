@@ -2,6 +2,7 @@ Presenting: DotMod for Cold Waters.
 
 This is an attempt to create a more organized mod that is closer to vanilla vessel and weapons characteristics than other, currently-existing mods. This also generally results in more realistic sensor comparisons.
 While DM incorporates some stuff from EM made by our developers (and other items which we have the right to use), it is built from the ground up on the base game to avoid many of the flaws found in that mod, some of which would take more time to fix than re-do from scratch.
+(EM) - that marks features also working in EM
 
 This is an early Beta release, and will be tweaked and improved based on feedback and additional sources where possible. We encourage you to join our Discord at: https://discord.gg/DrmztcDYYf to help us further tweak the mod to give the best possible experience. We also hope you enjoy it as much as we enjoy working on it!
 
@@ -127,6 +128,8 @@ Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additio
 Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
 Evgeny Mas - Your voiceover adds an incredible amount of immersion to playing Russian vessels.
 Steel Shark - We're still using the HUD you made for EM, even if it's tweaked a little. Nice work.
+Epic - Credits for ideas on chaff and WH behaviour and assistance in WH parameters setup, shkwal sprie and several medals sprites and edited parameters of the wake trals. It was fun to improve EM, but sadly your attitude eventually drive all content makers from the project.
+
 Special thanks is also given to model makers who have uploaded thier models for anyone to use, especially on 3D Warehouse!
 
 [DISTRIBUTION]
