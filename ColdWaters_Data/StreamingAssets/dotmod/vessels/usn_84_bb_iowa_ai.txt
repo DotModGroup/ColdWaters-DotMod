@@ -128,7 +128,7 @@ MeshHullCollider=usn_bb_iowa_coll_hull
 MeshSuperstructureCollider=usn_bb_iowa_coll_ss
 
 Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_mat.mat
-MaterialTextures=vessels/textures/usn_bb_iowa_tx.png,vessels/textures/usn_ssn_virginia_spec.png,FALSE
+MaterialTextures=vessels/textures/usn_bb_iowa_tx.png,vessels/textures/usn_bb_iowa_spec.png,vessels/textures/usn_bb_iowa_nm.png
 
 Mesh=usn_bb_iowa_hull
 Mesh=usn_bb_iowa_details_1
@@ -187,21 +187,23 @@ MissileEffectPosition=0,0,0
 
 //Naval Guns
 Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_mk7_mat.mat
-MaterialTextures=textures/usn_mk-7_gun_tx.png,vessels/textures/usn_ssn_virginia_spec.png,FALSE
+MaterialTextures=textures/usn_mk-7_gun_tx1.png,textures/usn_mk-7_gun_spec.png,textures/usn_mk-7_gun_nm.png
 MeshRotation=0,0,0
 MeshPosition=0,0.1,0.993
 MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.195
+NavalGunSpawnPosition=0,0,0.12
 
+Material=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa_mk7_mat.mat
+MaterialTextures=textures/usn_mk-7_gun_tx.png,textures/usn_mk-7_gun_spec.png,textures/usn_mk-7_gun_nm.png
 MeshPosition=0,0.132,0.745
 MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.195
+NavalGunSpawnPosition=0,0,0.12
 
 MeshRotation=0,180,0
 MeshPosition=0,0.11,-0.46
@@ -209,7 +211,7 @@ MeshNavalGun=usn_bb_iowa_mk7_turret
 MeshRotation=0,0,0
 MeshPosition=0,0.013,0.05
 MeshNavalGunBarrel=usn_bb_iowa_mk7_barrels
-NavalGunSpawnPosition=0,0,0.195
+NavalGunSpawnPosition=0,0,0.12
 
 //RADARs
 RADARDirection=1
