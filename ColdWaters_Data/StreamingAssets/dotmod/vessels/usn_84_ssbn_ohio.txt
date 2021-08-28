@@ -111,7 +111,7 @@ Material=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_mat.mat
 -MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_tx.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
 -MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_black.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,FALSE
 assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
-MaterialTextures=vessels/textures/usn_ssbn_ohio_tx.png,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
+MaterialTextures=vessels/textures/usn_ssbn_ohio_tx.png,vessels/textures/usn_ssbn_ohio_spec.png,vessels/textures/usn_ssbn_ohio_nm.png
 
 Mesh=usn_ssbn_ohio
 -Mesh=usn_ssbn_ohio_missilelids
