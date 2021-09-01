@@ -1,0 +1,139 @@
+Presenting: DotMod for Cold Waters.
+
+This is an attempt to create a more organized mod that is closer to vanilla vessel and weapons characteristics than other, currently-existing mods. This also generally results in more realistic sensor comparisons.
+While DM incorporates some stuff from EM made by our developers (and other items which we have the right to use), it is built from the ground up on the base game to avoid many of the flaws found in that mod, some of which would take more time to fix than re-do from scratch.
+(EM) - that marks features also working in EM
+
+This is an early Beta release, and will be tweaked and improved based on feedback and additional sources where possible. We encourage you to join our Discord at: https://discord.gg/DrmztcDYYf to help us further tweak the mod to give the best possible experience. We also hope you enjoy it as much as we enjoy working on it!
+
+We are still in the process of creating documentation. Expect that with the final release of the mod.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+[INSTALATION INSTRUCTIONS]
+WINDOWS (NOT WINDOWS 7 OR PRIOR):
+Download the release .zip from the GitHub page. Extract the contents of the .zip file into a folder somewhere where you can find it.
+Then, navigate to the Cold Waters directory in which you wish to install the mod in File Explorer. Right click on the address bar and select "Copy as text."
+Return to where you extracted the mod, and launch DotModInstaller.exe. Follow the instructions present in the installer.
+Then, the mod should be installed to Jone Soft Generic Mod Enabler (JSGME), which may be called "EpicModInstall" if you used that mod prior to DotMod. Launch that and enable DotMod, as well as any addons you have installed alongside DotMod.
+Launch ColdWaters, and if the loading screen appears, you have done everything correctly. Enjoy!
+
+Changelog (INCOMPLETE):
+[KNOWN ISSUES/WIP]
+Many models are still WIP and requires remodel/retexturing
+Norwegian surface ships are kitbash placeholders
+SAM trails are placeholders and require replacement
+Event files for 1984 USSR (004) in English still need translation. A hotfix will go out for this as soon as possible.
+Not all playble surface ships have deployable towed arrays
+P-6 missile is used as substitute for P-35 and P-500 until they get their own models
+Mobile decoys on surface ships will float in the air during time compression (Found by Who_Even_Knows)
+
+[CAMPAIGN]
+Soviet Campaign (1984)
+Expanded RPG Mode: Prestige system, player ranks, ability to change mission and vessel
+Custom transit backgrounds for most vessels
+Reykjavik, Narvik and Bergen harbor scenery now all have landstrike targets
+
+[GAME]
+Self noise and sensor strength reworked by Daniil
+Bundle import code improved by TheHappyYachter
+New loading screen by TheHappyYachter
+Loading time on game start improved by TheHappyYachter
+New game options by TheHappyYachter
+New single missions (More coming!)
+Russian descriptions rewritten and corrected
+Soviet campaign made from scratch
+A lot of soviet subs are playable
+(EM) Russian voiceover by Evgeny Mas a.k.a. Ramius
+
+[GAME MECHANICS]
+Player SAMs can target enemy aircraft and missiles, and, depending on the type of missile, also surface ships for a long-range ASuW weapon. They are, of course, not very effective in this role.
+Old SS boats are faster on the surface
+The AI no longer autodetects weapons if they do not know they are there
+Fully functional surface to air missilies with ability to switch target type
+Secondary SAM that works automatically and targets approaching missiles
+Civilian vessels will mask a submarine's noise
+CIWS will target aircraft
+(EM) Deployable towed arrays
+
+[GUI]
+Additional buttons:
+ + Increase depth by 100m
+ + Decrease depth by 100m
+ + Go to max missile launch depth
+ + Deploy chaff button
+ 
+Clear to Leave indicator (Next to the button to go active)
+Panel for player SAM
+Aircraft map icons (non-clickable)
+Missile map icons (clickable)
+Player current noise displayed on tacmap
+
+[MODELS]
+Kobben model
+Charles F. Adams kitbash by Senia
+Ohio model converted by that_person and TheHappyYachter
+Ticonderoga model converted by that_person and TheHappyYachter
+Oberon model by that_person
+Trafalgar model by TheHappyYachter
+Oliver Hazard Perry model by TheHappyYachter
+Type 21 Frigate model by TheHappyYachter
+Weapon models by Dot, TheHappyYachter and that_person
+ + high quality models by Lorenzo:
+    65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
+    RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
+	
+(EM) Nimitz model
+(EM) Anchar (Papa) model by Max Panow
+(EM) SH-60B model by Syoma Ivanov
+
+[VESSELS]
+Repainted civilian vessels acting as US auxilary ships
+Retextured most of the soviet submarines to have brighter textures and darker top side
+
+[QOL]
+Same hud could be used by submarine and player surface ship
+Added short name for ship to display in GUI
+1km circles on tactical map (Note that these do *NOT* adjust when using the Imperial system)
+(EM) additional info while draging weapon waypoint
+The first launch will run a scan for modified files that could cause an issue. This will increase the loading time of the first launch.
+Visibility (murky/clear water) settings in game options.
+(EM) Language and voiceover settings in options.
+Reworked options (by TheHappyYachter) 
+
+[BUGFIXES]
+Numerous misc. changes and fixes
+Enemy helicopters now see surfaced player
+Fixed drift oh hud elements when switching the huds
+
+[CREDITS]
+DotMod team:
+Ivan Baranov a.k.a. Dot - Started the project and has done work on just about everything.
+Dsmirnoff - Accoustics system supervision, advanced coding, research and corrections, additional modeling, work on russian texts
+Masha Sklyarova - Main tester, tactics assesement, work on russian text
+TheHappyYachter - Advanced coding, modeling
+HobbitJack - Campaign 002, English translation, cleanup and package management, support, community management, and outreach
+Lorenzo a.k.a. Electric Boat - Modeling
+that_person - Campaign 001, modeling
+Minsk CVGH - Additional Russian translation
+ghostdog688 - Coordination, presentation, PR
+Goldmaster11 - Testing
+Russian_Wolf - Russian Translations
+Kevin DDSSTT - Texture art for new vessel models
+Steel Shark - UI Sprites and Textures
+-----------
+Our team also wants thank several people for their help and inspiration:
+Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
+Gsmith93-We thank you for your incredible 1990 campaign! It gave us such a good base to work off of and saved us so much time.
+Oleg Vygovsky - You've showed that impossible is actually possible and provided info and support
+Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additionally, thanks for the info and support through the years.
+Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
+Evgeny Mas - Your voiceover adds an incredible amount of immersion to playing Russian vessels.
+Steel Shark - We're still using the HUD you made for EM, even if it's tweaked a little. Nice work.
+Epic - Credits for ideas on chaff and WH behaviour and assistance in WH parameters setup, shkwal sprie and several medals sprites and edited parameters of the wake trals. It was fun to improve EM, but sadly your attitude eventually drive all content makers from the project.
+
+Special thanks is also given to model makers who have uploaded thier models for anyone to use, especially on 3D Warehouse!
+
+[DISTRIBUTION]
+If planning to distribute the main mod without modification, you may do so under the condition that you link to the GitHub page and not to any mirror, torrent, or other distribution.
+If planning to distribute the main mod with modification, you may do so under the condition that you also provide a link to the unmodified version found on the GitHub and not to any mirror, torrent, or other distribution.
+If planning to distribute a modification to the main mod separately from the main mod, no restrictions are provided on your work. However, you are encouraged to provide a link to the GitHub. You may include DotModInstaller.exe as well as a configuration .ini file to allow the modification to be automatically installed to JSGME.
+You may copy, edit, delete, add, etc. content under the condition that you do not do so in order to distribute with or for Epic Mod. (Yes Epic, this applies to you. Don't say we didn't warn you.)

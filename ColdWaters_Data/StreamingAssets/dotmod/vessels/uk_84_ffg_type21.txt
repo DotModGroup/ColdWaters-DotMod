@@ -80,6 +80,9 @@ MeshRotation=0,0,0
 MeshHullCollider=FALSE
 MeshSuperstructureCollider=FALSE
 
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=uk_ffg_type21_hullnumbers
+
 Material=assets/materials/uk_ffg_type21_hull.mat
 Mesh=uk_ffg_type21_hull
 
@@ -109,6 +112,17 @@ Mesh=uk_ffg_type21_railings
 
 AssetBundle=bundles/parts/uk_parts.unity3d
 
+Material=assets/materials/uk_parts_boats_tx.mat
+ModelFile=assets/models/uk_parts_boat1.fbx
+MeshPosition=0.07227933,0.1498643,-0.2552175
+MeshRotation=0,0,0
+Mesh=uk_parts_boat1
+
+ModelFile=assets/models/uk_parts_boat2.fbx
+MeshPosition=-0.06825768,0.1499679,-0.2615497
+MeshRotation=0,0,0
+Mesh=uk_parts_boat2
+
 //RADARs
 ModelFile=assets/models/uk_parts_type912.fbx
 Material=assets/materials/uk_parts_type912.mat
@@ -135,7 +149,7 @@ RADARDirection=1
 MeshRotation=0,0,0
 MeshPosition=-0.03934211,0.2821364,0.1756762
 ModelFile=assets/models/uk_parts_type1006.fbx
-Material=FALSE
+Material=assets/materials/uk_parts_type1006.mat
 MeshRADAR=uk_parts_type1006
 
 MeshPosition=-0.02856594,0.4184937,0.136299
@@ -144,7 +158,7 @@ MeshRADAR=uk_parts_type1006
 RADARSpeed=80
 MeshPosition=0.0197,0.4394,0.1361
 ModelFile=assets/models/uk_parts_type992.fbx
-Material=FALSE
+Material=assets/materials/uk_parts_type992.mat
 MeshRADAR=uk_parts_type992
 
 [Weapon Systems]
@@ -163,7 +177,7 @@ NavalGunSpawnPosition=0,0,0.089
 
 //Missiles
 ModelFile=assets/models/uk_parts_seacat.fbx
-//Material=assets/materials/uk_parts_seacat_launcher.mat
+Material=assets/materials/uk_seacat_missile.mat
 
 MeshPosition=0,0.161,-0.4623
 MeshRotation=0,180,0
@@ -171,6 +185,7 @@ Mesh=uk_parts_seacat_base
 Mesh=uk_parts_seacat_turret
 MeshRotation=0,0,0
 MeshPosition=0,0,0
+Material=assets/materials/uk_parts_seacat_launcher.mat,assets/materials/uk_seacat_missile.mat
 ChildMesh=uk_parts_seacat_arms
 
 ModelFile=assets/models/uk_parts_exocet_launcher.fbx

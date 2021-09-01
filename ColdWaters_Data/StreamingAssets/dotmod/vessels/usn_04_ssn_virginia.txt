@@ -131,7 +131,7 @@ Mesh=usn_ssn_virginia_chin_sonar
 Mesh=usn_ssn_virginia_stern_plane_stubs
 Mesh=usn_ssn_virginia_prop_shroud
 
-MeshPosition=0,0.04039,-0.68763
+MeshPosition=0,0.0415,-0.68763
 MeshRudder=usn_ssn_virginia_rudder
 
 MeshPosition=0,0,0.6311721
@@ -140,9 +140,8 @@ MeshBowPlanes=usn_ssn_virginia_bow_planes
 MeshPosition=0,0.00015,-0.69788
 MeshSternPlanes=usn_ssn_virginia_stern_planes
 
-MeshPosition=0,0,-0.79421
+MeshPosition=0,0,-0.81
 MeshProp=usn_ssn_virginia_prop
-
 
 //ESM Mast
 //ModelFile=ships/usn_ssn_seawolf/usn_ssn_seawolf
