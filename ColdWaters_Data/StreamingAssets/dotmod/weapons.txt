@@ -2967,7 +2967,8 @@ SensorAngles=60,15
 MaxLaunchDepth=1200
 MaxDepth=1200
 *
-WeaponRanges=16404,12805
+WeaponRanges=16404
+//,12805
 WeaponSpeed=43
 TurnRate=20
 MaxPitchAngle=45
@@ -3259,7 +3260,7 @@ SensorAngles=0,0
 WeaponAltitudes=15000
 BoosterReleasedAfterSeconds=3600
 *
-WeaponRanges=4000,24059
+WeaponRanges=4000,10560
 WeaponSpeed=40,612
 TurnRate=10
 MaxPitchAngle=60
