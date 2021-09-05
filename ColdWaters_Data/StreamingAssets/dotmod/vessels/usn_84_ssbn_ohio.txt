@@ -1,6 +1,6 @@
 Designation=SSBN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_sun
+PlayerHUD=hud/default_usn
 
 Length=170
 Beam=13
