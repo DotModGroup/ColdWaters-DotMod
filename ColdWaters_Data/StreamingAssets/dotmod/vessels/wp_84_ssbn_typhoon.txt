@@ -24,7 +24,7 @@ Waterline=0.04
 SubmergedAt=0.25
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
-TestDepth=1050
+TestDepth=1900
 
 [Acoustics & Sensors]
 //SelfNoise=130
