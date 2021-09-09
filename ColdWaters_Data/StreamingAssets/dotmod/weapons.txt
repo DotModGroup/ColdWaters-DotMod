@@ -2961,8 +2961,8 @@ WeaponObjectReference=usn_mk50
 WeaponType=TORPEDO
 *
 Warhead=100
-SensorRange=3500
-SensorAngles=80,25
+SensorRange=2000
+SensorAngles=60,15
 *
 MaxLaunchDepth=1800
 MaxDepth=3600
