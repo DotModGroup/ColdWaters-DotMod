@@ -43,7 +43,7 @@ RADAR=wp_mrk-50
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71m,wp_uset-80,wp_53-65k,wp_moss_mg-74
+TorpedoTypes=wp_test-71,wp_uset-80,wp_53-65k,wp_moss_mg-74
 TorpedoNumbers=8,6,4,6
 TorpedoTubes=6
 NumberOfWires=1
