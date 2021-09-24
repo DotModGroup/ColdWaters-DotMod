@@ -1,7 +1,8 @@
-usn_68_ssn_nautilus
 usn_68_ssn_skipjack
+usn_68_ssn_nautilus
 usn_68_ssn_permit
 usn_68_ssn_sturgeon
+usn_ss_barbel
 usn_84_ssn_skipjack
 usn_84_ssn_permit
 usn_84_ssn_sturgeon
