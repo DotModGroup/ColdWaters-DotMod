@@ -1,13 +1,15 @@
-usn_68_ssn_nautilus
 usn_68_ssn_skipjack
+usn_68_ssn_nautilus
 usn_68_ssn_permit
 usn_68_ssn_sturgeon
+usn_68_ss_barbel
 usn_84_ssn_skipjack
 usn_84_ssn_permit
 usn_84_ssn_sturgeon
 usn_84_ssn_narwhal
 usn_84_ssn_los_angeles
 usn_84_ssbn_ohio
+usn_84_ss_barbel
 usn_99_ssn_los_angeles_flt2
 usn_99_ssn_los_angeles_flt3
 usn_99_ssn_seawolf

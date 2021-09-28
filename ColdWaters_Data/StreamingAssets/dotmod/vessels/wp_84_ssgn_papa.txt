@@ -28,7 +28,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=150,-150
 TestDepth=1312
 EscapeDepth=600
-PeriscopeDepthInFeet=40
+PeriscopeDepthInFeet=32
 
 [Acoustics & Sensors]
 SelfNoise=133
@@ -45,7 +45,7 @@ RADARSignature=SMALL
 TorpedoTypes=wp_set-65m,wp_saet-60m,wp_53-65k,wp_rpk-2,wp_moss_mg-74
 TorpedoNumbers=4,2,2,2,2
 TorpedoTubes=5
-NumberOfWires=4
+NumberOfWires=0
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
 TubeReloadTime=30
@@ -111,65 +111,59 @@ FLOODING5=-127,106,-77,-38
 DamageControlPartyY=-31
 
 [Model]
-AssetBundle=bundles/vessels/wp/wp_ssgn_anchar_tex
-Material=ships/materials/plan_rice_field
-MaterialTextures=vessels/textures/wp_ssgn_anchar.png,vessels/textures/wp_ssgn_anchar_spec.png,assets/ships/wp_84_ssgn_papa/wp_ssgn_anchar_tex/wp_ssgn_anchar_nm.dds
+//Periscopes
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/materials/wp_masts
+MeshPosition=0,0.0013,0.2287
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_periscope
+//Mesh=wp_ssn_alfa_periscope
 
-AssetBundle=bundles/vessels/wp/wp_ssgn_anchar
-ModelFile=assets/resourcesforbundles/vessels/wp/wp_84_ssgn_papa/wp_ssgn_anchar/wp_ssgn_anchar.obj
+MeshPosition=0,0.0013,0.1856
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_esm
+//Mesh=wp_ssn_alfa_esm
+
+MeshPosition=0,0.0013,0.1659
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_radar
+//Mesh=wp_ssn_alfa_radar
+
+AssetBundle=bundles/vessels/wp_ssgn_papa.unity3d
+ModelFile=assets/models/wp_ssgn_papa.fbx
 
 //Hull and Deck
 
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=wp_ssgn_anchar_coll_hull
-MeshSuperstructureCollider=wp_ssgn_anchar_coll_ss
+MeshHullCollider=wp_ssgn_papa_coll_hull
+MeshSuperstructureCollider=wp_ssgn_papa_coll_ss
 
+Material=assets/materials/wp_ssgn_papa.mat
 
+Mesh=wp_ssgn_papa_hull
 
+MeshPosition=0,-0.02703447,-0.6237358
+MeshRudder=wp_ssgn_papa_rudder
 
+MeshPosition=0,-0.05749665,0.5959273
+MeshBowPlanes=wp_ssgn_papa_planes_fwd
 
+MeshPosition=0,-0.03493461,-0.6411962
+MeshSternPlanes=wp_ssgn_papa_planes_aft
 
--Material=bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_mat
+MeshPosition=0,-0.0349346,-0.7030594
+MeshGenericPlanes=wp_ssgn_papa_planes_centre=STERN
 
--MaterialTextures=bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_tx,bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_spec,bundles/vessels/wp/wp_ssgn_anchar_tex/wp_ssgn_anchar_nm
-
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-Mesh=wp_ssgn_anchar
-
-MeshPosition=0,0,-0.74149
-MeshRudder=wp_ssgn_anchar_rudder
-MeshPosition=0,-0.02623,0.38866
-MeshBowPlanes=wp_ssgn_anchar_bowplanes
-MeshPosition=0,-0.00264,-0.75421
-MeshSternPlanes=wp_ssgn_anchar_sternplanes
-
-MeshPosition=-0.03826,-0.00103,-0.88641
-MeshProp=wp_ssgn_anchar_prop_r
-MeshPosition=0.03826,-0.00103,-0.88641
-MeshProp=wp_ssgn_anchar_prop_l
-
-//Periscopes
-ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
-Material=ships/materials/wp_masts
-MeshPosition=0,0.030,0.057
-MastHeight=0.085
-MeshMast=wp_ssn_alfa_periscope
-
-MeshPosition=0,0.020,-0.022
-MastHeight=0.085
-MeshMast=wp_ssn_alfa_esm
-
-MeshPosition=0,0.020,0.011
-MastHeight=0.085
-MeshMast=wp_ssn_alfa_radar
-
-VLSLaunchPoints=0.045,0.06,0.44|-0.045,0.06,0.44|0.045,0.06,0.37|-0.045,0.06,0.37|0.045,0.06,0.3|-0.045,0.06,0.3|0.045,0.06,0.23|-0.045,0.06,0.23|0.045,0.06,0.16|-0.045,0.06,0.16
-VLSLaunchPointsRotation=-40,0,0
+MeshPosition=0.03617202,-0.03493459,-0.7656507
+MeshProp=wp_ssgn_papa_prop_right
+MeshPosition=-0.03617202,-0.03493459,-0.7656507
+MeshProp=wp_ssgn_papa_prop_left
 
 [Weapon Systems]
+VLSLaunchPoints=-0.06,0.0242,0.6385|0.06,0.0242,0.6385|-0.06,0.0242,0.5865|0.06,0.0242,0.5865|-0.06,0.0242,0.5345|0.06,0.0242,0.5345|-0.06,0.0242,0.4711|0.06,0.0242,0.4711|-0.06,0.0242,0.4081|0.06,0.0242,0.4081
+VLSLaunchPointsRotation=-40,0,0
 
 //Missile Mounts
 MeshRotation=-40,0,0
@@ -188,27 +182,27 @@ MeshRotation=0,0,0
 
 //Tube 1
 MeshRotation=0,0,0
-MeshPosition=0.01879,0.05574,0.505
-TorpedoSpawnPosition=0.01879,0.05574,0.50
-TorpedoEffectPosition=0.01879,0.05574,0.5
+MeshPosition=-0.0121,0.0228,0.6
+TorpedoSpawnPosition=-0.0121,0.0228,0.6
+TorpedoEffectPosition=-0.0121,0.0228,0.6
 
 //Tube 2
 MeshRotation=0,0,0
-MeshPosition=-0.01879,0.05574,0.51
-TorpedoSpawnPosition=-0.01879,0.05574,0.5
-TorpedoEffectPosition=-0.01879,0.05574,0.5
+MeshPosition=-0.0121,0.0071,0.6
+TorpedoSpawnPosition=-0.0121,0.0071,0.6
+TorpedoEffectPosition=-0.0121,0.0071,0.6
 
 //Tube 3
 MeshRotation=0,0,0
-MeshPosition=0.01879,0.03741,0.51
-TorpedoSpawnPosition=0.01879,0.03741,0.51
-TorpedoEffectPosition=0.01879,0.03741,0.51
+MeshPosition=0.0121,0.0228,0.6
+TorpedoSpawnPosition=0.0121,0.0228,0.6
+TorpedoEffectPosition=0.0121,0.0228,0.6
 
 //Tube 4
 MeshRotation=0,0,0
-MeshPosition=-0.01879,0.03741,0.51
-TorpedoSpawnPosition=-0.01879,0.03741,0.51
-TorpedoEffectPosition=-0.01879,0.03741,0.51
+MeshPosition=0.0121,0.0071,0.6
+TorpedoSpawnPosition=0.0121,0.0071,0.6
+TorpedoEffectPosition=0.0121,0.0071,0.6
 
 //VLS Launch Position
 MeshPosition=0.045,0.0795,0.4716
@@ -221,25 +215,17 @@ MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
-
-MeshPosition=0,0,0
-ModelFile=bundles/vessels/wp/wp_ssgn_anchar
-
-MeshPosition=0,0,0
-MeshRotation=0,0,0
 //Wake
 MeshPosition=0,0,0
+MeshRotation=0,0,0
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
---CavitationParticle=bundles/vessels/wp/wp_ssgn_anchar/wp_ssgn_anchar_cavitation
-CavitationParticle=assets/resourcesforbundles/vessels/wp/wp_84_ssgn_papa/wp_ssgn_anchar/wp_ssgn_anchar_cavitation.prefab
-
-//FunnelSmokeParticle=ships/particles/wp_ssgn_charlie1_bubbles
---EmergencyBlowParticle=ships/particles/wp_ssgn_anchar_emergency_blow
-
-ModelFile=ships/wp_ssn_victor2/wp_ssn_victor2
-EmergencyBlowParticle=ships/particles/wp_ssn_victor2_emergency_blow
---ModelFile=bundles/vessels/wp/wp_ssgn_anchar/wp_ssgn_anchar
+//CavitationParticle=assets/prefabs/wp_ssgn_papa_cavitation.prefab
+//EmergencyBlowParticle=assets/prefabs/wp_ssgn_papa_emergencyblow.prefab
+ModelFile=ships/wp_ssgn_oscar/wp_ssgn_oscar
+CavitationParticle=ships/particles/wp_ssgn_oscar_cavitation
+FunnelSmokeParticle=ships/particles/wp_ssgn_oscar_bubbles
+EmergencyBlowParticle=ships/particles/wp_ssgn_oscar_emergency_blow
 ParticleBowWavePosition=0,0,0.62
 ParticlePropWashPosition=0,-0.033,-0.82
 
@@ -250,6 +236,9 @@ ParticleSternFoamPosition=0,0,-0.692
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
 KelvinWaves=1.9,1.9
 
+ModelFile=assets/models/wp_ssgn_papa.fbx
+
+[Audio]
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20

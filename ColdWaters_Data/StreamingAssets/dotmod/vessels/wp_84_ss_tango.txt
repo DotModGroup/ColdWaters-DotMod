@@ -13,7 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=13
 SubmergedSpeed=15
-TelegraphSpeeds=-5,0,5,10,12,14,15
+TelegraphSpeeds=-5,0,3,5,8,10,15
 AccelerationRate=0.45
 DecelerationRate=0.1
 RudderTurnRate=0.5
@@ -43,7 +43,7 @@ RADAR=wp_mrk-50
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71m,wp_uset-80,wp_53-65k,wp_moss_mg-74
+TorpedoTypes=wp_test-71,wp_uset-80,wp_53-65k,wp_moss_mg-74
 TorpedoNumbers=8,6,4,6
 TorpedoTubes=6
 NumberOfWires=1
