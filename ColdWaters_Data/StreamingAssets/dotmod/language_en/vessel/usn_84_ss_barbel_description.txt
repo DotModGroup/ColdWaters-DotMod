@@ -1,9 +1,0 @@
-[Unit Reference]
-ShipClass=Barbel
-Description=Barbel-class Diesel-Electric Attack Submarine
-History=The Barbel-class submarines, the last diesel-electric propelled attack submarines built by the United States Navy, incorporated numerous, radical engineering improvements over previous classes. They were the first production warships built with the teardrop-shape hull first tested on the experimental USS Albacore, and the first to combine the control room, attack center, and conning tower in the same space in the hull. This class of submarine became part of the United States Navy's fleet in 1959 and was taken out of service 1988–1990, leaving the Navy with an entirely nuclear-powered submarine fleet. The boats were refitted with the TB-12 STASS in the late 70s.
-
-[Player Ship Instances]
-PlayerClassNames=Barbel,Blueback,Bonefish
-
-PlayerClassHullNumbers=SS-580,SS-581,SS-582
