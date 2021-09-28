@@ -19,14 +19,14 @@ def main():
     mod = '%s/ColdWaters_Data' % (os.getcwd())
     
     #Auto-locate; Simply checks likely locations for the game to be installed to       
-    if os.path.exists('C:/Program Files (x86)/Steam/steamapps/common/Cold Waters'):
-        installDirectory = 'C:/Program Files (x86)/Steam/steamapps/common/Cold Waters'
+    if os.path.exists('C:\Program Files (x86)\Steam\steamapps\common\Cold Waters'):
+        installDirectory = 'C:\Program Files (x86)\Steam\steamapps\common\Cold Waters'
         
-    elif os.path.exists('D:/Steam/steamapps/common/Cold Waters'):
-        installDirectory = 'D:/Steam/steamapps/common/Cold Waters'
+    elif os.path.exists('D:\Steam\steamapps\common\Cold Waters'):
+        installDirectory = 'D:\Steam\steamapps\common\Cold Waters'
         
-    elif os.path.exists('D:/Games/steamapps/common/Cold Waters'):
-        installDirectory = 'D:/Games/steamapps/common/Cold Waters'
+    elif os.path.exists('D:\Games\steamapps\common\Cold Waters'):
+        installDirectory = 'D:\Games\steamapps\common\Cold Waters'
         
     else:
         print('Auto-locate failed.')
@@ -35,8 +35,12 @@ def main():
     #Make sure everything's correct:
     if input(f'This will install {modName} to {installDirectory}. \nIs that correct? Y/N: ').lower() != 'y':
         installDirectory = input('Please input the directory of your Cold Waters install: ')
+        if installDirectory == 'yourmom.com':
+            print('Stealing is bad, Epic.')
+            input('Press Return to exit.')
+            return
         
-    modTarget = installDirectory + f'/MODS/{modName}/ColdWaters_Data'
+    modTarget = installDirectory + f'\\MODS\\{modName}\ColdWaters_Data'
         
     if modName == 'DotMod':
         #Welcome/Install instructions for the main mod
@@ -48,7 +52,7 @@ def main():
             
         #Install JSGME
         JSGME = '%s/JSGME' % (os.getcwd())
-        if os.path.exists(f'{installDirectory}/JSGME.ini'):
+        if os.path.exists(f'{installDirectory}\\JSGME.ini'):
             print('JSGME already installed.')
 
         else:
@@ -56,8 +60,8 @@ def main():
             print('JSGME installed. Please read through JSGME Help.txt and JoneSoft.txt.')
 
     #Remove the old files
-        if os.path.exists(f'{installDirectory}/MODS/{modName}'):
-            shutil.rmtree(f'{installDirectory}/MODS/{modName}', ignore_errors=True)
+        if os.path.exists(f'{installDirectory}\\MODS\{modName}'):
+            shutil.rmtree(f'{installDirectory}\\MODS\{modName}', ignore_errors=True)
             print('Previous version of the mod removed.')
 
     #Install the mod

@@ -2,8 +2,8 @@ Designation=BB
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 
-Length=270
-Beam=33
+Length=167
+Beam=17
 HullHeight=0.12
 Displacement=57540
 Crew=1800
