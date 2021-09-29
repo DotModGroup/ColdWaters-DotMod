@@ -43,7 +43,7 @@ RADARSignature=SMALL
 TowedArrayPosition=0,0.122,-0.72
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71mke,wp_65-76,wp_uset-80,wp_shkval,wp_rpk-6,wp_moss_mg-74
+TorpedoTypes=wp_test-71m,wp_65-76,wp_uset-80,wp_shkval,wp_rpk-6,wp_moss_mg-74
 TorpedoNumbers=8,6,8,2,8,8
 TorpedoTubes=8
 NumberOfWires=4
