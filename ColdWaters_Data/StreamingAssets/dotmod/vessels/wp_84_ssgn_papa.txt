@@ -22,7 +22,7 @@ PivotPointTurning=0.256
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
-Waterline=0.04
+Waterline=0
 SubmergedAt=0.175
 CavitationParameters=20,-100
 PropRotationSpeed=150,-150
@@ -114,20 +114,17 @@ DamageControlPartyY=-31
 //Periscopes
 ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
 Material=ships/materials/wp_masts
-MeshPosition=0,0.0013,0.2287
+MeshPosition=0,0.0013,0.2371
 MastHeight=0.085
 MeshMast=wp_ssn_alfa_periscope
-//Mesh=wp_ssn_alfa_periscope
 
-MeshPosition=0,0.0013,0.1856
+MeshPosition=0,0.0013,0.2179
 MastHeight=0.085
 MeshMast=wp_ssn_alfa_esm
-//Mesh=wp_ssn_alfa_esm
 
-MeshPosition=0,0.0013,0.1659
+MeshPosition=0,0.0013,0.1667
 MastHeight=0.085
 MeshMast=wp_ssn_alfa_radar
-//Mesh=wp_ssn_alfa_radar
 
 AssetBundle=bundles/vessels/wp_ssgn_papa.unity3d
 ModelFile=assets/models/wp_ssgn_papa.fbx
