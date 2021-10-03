@@ -126,8 +126,7 @@ Mesh=uk_ssn_trafalgar_sail
 MeshPosition=0,-0.05906722,-0.5147324
 Mesh=uk_ssn_trafalgar_rudder_stubs
 
-MeshPosition=0,-0.05906722,-0.5167608
-MeshRudder=uk_ssn_trafalgar_rudder
+
 
 MeshPosition=0,-0.04908841,0.4838081
 Mesh=uk_ssn_trafalgar_bow_stubs
@@ -169,6 +168,13 @@ MeshMast=uk_ssn_trafalgar_mast_esm
 MastHeight=0.1
 MeshPosition=-0.005822441,0.1131,0.1683896
 MeshMast=uk_ssn_trafalgar_mast_radar
+
+//Rudder and Depth Decal
+MeshPosition=0,-0.05906722,-0.5167608
+MeshRudder=uk_ssn_trafalgar_rudder
+MeshPosition=0,0,0
+Material=assets/materials/uk_ssn_trafalgar_rudderdecal.mat
+ChildMesh=uk_ssn_trafalgar_rudder_decal
 
 [Weapon Systems]
 
