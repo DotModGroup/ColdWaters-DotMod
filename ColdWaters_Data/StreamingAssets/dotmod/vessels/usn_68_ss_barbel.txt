@@ -93,15 +93,15 @@ DamageControlPartyY=-28
 [Model]
 ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
 Material=ships/materials/usn_masts
-MeshPosition=0.005,0.075,0.217
+MeshPosition=0.005,0.015,0.217
 MastHeight=0.085
 MeshMast=usn_ssn_skipjack_periscope
 
-MeshPosition=-0.0,0.075,0.1676
+MeshPosition=-0.0,0.020,0.1676
 MastHeight=0.085
 MeshMast=usn_ssn_skipjack_esm_mast
 
-MeshPosition=-0.0025,0.075,0.1913
+MeshPosition=-0.0025,0.020,0.1913
 MastHeight=0.085
 MeshMast=usn_ssn_skipjack_radar_mast
 
