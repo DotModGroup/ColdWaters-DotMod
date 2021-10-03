@@ -117,30 +117,28 @@ MeshSuperstructureCollider=usn_ss_barbel_ss_collider
 
 Material=assets/materials/usn_ss_barbel.mat
 
-Mesh=Capstan_P
-Mesh=Capstan_S
-Mesh=Deck
-Mesh=E_Trunk_A
-Mesh=E_Trunk_F
-Mesh=Hatch_A
-Mesh=Hatch_F
-Mesh=Hull
-Mesh=Sail
-Mesh=Ladders
-Mesh=Tail
-Mesh=TT_Doors
+Mesh=usn_84_ss_barbel_capstans
+Mesh=usn_84_ss_barbel_deck
+Mesh=usn_84_ss_barbel_hull
+Mesh=usn_84_ss_barbel_lantirns_sail
+Mesh=usn_84_ss_barbel_sail
+Mesh=usn_84_ss_barbel_seanchor
+Mesh=usn_84_ss_barbel_tail
+Mesh=usn_84_ss_barbel_trunks
 
-MeshPosition=0,-0.04311538,-0.4184878
-MeshRudder=Rudder
+MeshPosition=0,-0.02558046,-0.418489
+MeshRudder=usn_84_ss_barbel_rudder
+MeshPosition=0,0,0
+ChildMesh=usn_84_ss_barbel_lantirns_stern
 
-MeshPosition=0,0.05414868,0.2339165
-MeshBowPlanes=DP_Sail
+MeshPosition=0,0.04664705,0.228822
+MeshBowPlanes=usn_84_ss_barbel_diving_planes_sail
 
-MeshPosition=0,-0.04366829,-0.4228549
-MeshSternPlanes=DP_Stern
+MeshPosition=0,-0.04389195,-0.4228549
+MeshSternPlanes=usn_84_ss_barbel_diving_planes_stern
 
-MeshPosition=0,-0.04366842,-0.4666086
-MeshProp=Propeller.001
+MeshPosition=0,-0.04389193,-0.4650671
+MeshProp=usn_84_ss_barbel_propeller
 
 [Weapon Systems]
 //Torpedo Mounts
