@@ -2611,8 +2611,8 @@ WireBreakOnLaunchProbability=0.05
 WireBreakOnRunProbability=0.05
 WireBreakSpeedThreshold=12
 *
-MaxLaunchDepth=984
-MaxDepth=984
+MaxLaunchDepth=1000
+MaxDepth=1000
 *
 WeaponRanges=23000,9952
 WeaponSpeed=17,26
