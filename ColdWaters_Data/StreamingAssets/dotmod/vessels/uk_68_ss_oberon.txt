@@ -131,9 +131,12 @@ MeshRotation=0,0,0
 
 
 //Masts
-AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
-Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
+//AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
+AssetBundle=bundles/vessels/uk_ssn_trafalgar.unity3d
+//ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
+ModelFile=assets/models/uk_ssn_trafalgar.fbx
+//Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
+Material=assets/materials/uk_ssn_trafalgar.mat
 MeshPosition=0,-0.03,0.05
 MastHeight=0.1
 MeshMast=uk_ssn_trafalgar_mast_periscope
