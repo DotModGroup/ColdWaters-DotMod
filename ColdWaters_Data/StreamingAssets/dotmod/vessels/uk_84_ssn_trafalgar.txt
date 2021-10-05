@@ -29,7 +29,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=-190
 TestDepth=1800
 EscapeDepth=600
-PeriscopeDepthInFeet=48
+PeriscopeDepthInFeet=40
 
 [Acoustics & Sensors]
 SelfNoise=115
@@ -98,6 +98,7 @@ FLOODING5=-128,59,-77,-32
 DamageControlPartyY=-28
 
 [Model]
+AssetBundle=bundles/dotmodgenericresources.unity3d
 AssetBundle=bundles/vessels/uk_ssn_trafalgar.unity3d
 ModelFile=assets/models/uk_ssn_trafalgar.fbx
 
@@ -224,11 +225,11 @@ MeshNoisemakerMount=FALSE
 //Wake
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=ships/particles/usn_ssn_permit_cavitation
+CavitationParticle=assets/effects/uk_ssn_trafalgar_cavitation.prefab
 FunnelSmokeParticle=ships/particles/usn_ssn_permit_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_permit_emergency_blow
 
-CavitationParticlePosition=0,-0.00589,0.05
+CavitationParticlePosition=0,0,0
 
 ParticleBowWavePosition=0,0,0.65
 ParticlePropWashPosition=0.2,-0.0545,-0.65
