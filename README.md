@@ -10,9 +10,9 @@ Come join our community on Discord, we are mostly English language but have supp
 
 DotMod's latest release can be found at: https://github.com/Dot-M134/ColdWaters-DotMod/releases or the Bleeding Edge version can be downloaded by clicking the Green "Code" button in the top right of this page.
 
-Bleeding Edge is our latest in-work code so may break at times, the releases are more stable but you have to wait longer for the new toys.
+Bleeding Edge is our latest in-work code so may break at times. Releases are more stable, but you will have to wait longer for updates.
 
-For upcoming features check out the Showcase channel on our Discord!
+For upcoming features check out the #showcase channel on our Discord!
 
 ## Features
 
