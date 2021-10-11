@@ -70,15 +70,15 @@ NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
 [Model]
-AssetBundle=bundles/vessels/uk/uk_ffg_type21.unity3d
+AssetBundle=bundles/vessels/uk_ffg_type21.unity3d
 ModelFile=assets/models/uk_ffg_type21.fbx
 
 //Hull and Deck
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=FALSE
-MeshSuperstructureCollider=FALSE
+MeshHullCollider=uk_ffg_type21_coll_hull
+MeshSuperstructureCollider=uk_ffg_type21_coll_ss
 
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=uk_ffg_type21_hullnumbers
@@ -131,17 +131,11 @@ MeshPosition=0,0.2206302,0.175372
 MeshRotation=0,0,0
 Mesh=uk_parts_type912_base
 Mesh=uk_parts_type912_turret
-MeshRotation=0,0,0
-MeshPosition=0,0.01026384,0
-ChildMesh=uk_parts_type912_dish
 
 MeshPosition=0,0.1965879,-0.3208919
 MeshRotation=0,180,0
 Mesh=uk_parts_type912_base
 Mesh=uk_parts_type912_turret
-MeshRotation=0,0,0
-MeshPosition=0,0.01026384,0
-ChildMesh=uk_parts_type912_dish
 
 RADARSpeed=100
 RADARDirection=1
@@ -236,7 +230,7 @@ ParticleSternFoamParameters=160,0.35,0.2,0.005,0.01,0,0.5
 KelvinWaves=3.2,3.2
 
 //Load Damage Meshes
-AssetBundle=bundles/vessels/uk/uk_ffg_type21.unity3d
+AssetBundle=bundles/vessels/uk_ffg_type21.unity3d
 ModelFile=assets/models/uk_ffg_type21.fbx
 
 EngineAudioClip=audio/units/turbine_small
