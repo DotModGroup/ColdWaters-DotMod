@@ -1,10 +1,8 @@
 [Unit Reference]
-Designation=АПЛ
-ShipClass=«Трафальгар»
-Description=АПЛ класса «Трафальгар» (1984г)
-
-History=Подводные лодки типа «Трафальгар» (англ. Trafalgar) — серия британских атомных многоцелевых ракетно-торпедных подводных лодок. Явились дальнейшим развитием подводных лодок типа «Суифтшюр».
+ShipClass=Trafalgar (1980s)
+Description=Trafalgar Class Nuclear Attack Submarine (1980s)
+History=The Trafalgar class were designed in the early 1970s during the Cold War as a refinement of the preceding Swiftsure class. Including HMS Dreadnought, the Trafalgar class are the fifth class of nuclear-powered fleet submarines to enter service with the Royal Navy. The first of the class, HMS Trafalgar, was ordered on 7 April 1977 and completed in 1983. The last, HMS Triumph, was ordered on 3 January 1986 and completed in 1991. All seven boats of the class were built and completed by Vickers Shipbuilding and Engineering at the Barrow-in-Furness shipyard.\nThe first 3 boats of the Trafalgar-class were completed by 1985 with their original sensor fit of Sonar 2020 and Sonar 2026.
 
 [Player Ship Instances]
-PlayerClassNames=HMS «Trafalgar»,HMS «Turbulent»,HMS «Tireless»,HMS «Torbay»,HMS «Trenchant»,HMS «Talent»,HMS «Triumph»
-PlayerClassHullNumbers=S107,S87,S88,S90,S91,S92,S93
+PlayerClassNames=HMS Trafalgar,HMS Turbulent,HMS Tireless
+PlayerClassHullNumbers=S107, S87, S88

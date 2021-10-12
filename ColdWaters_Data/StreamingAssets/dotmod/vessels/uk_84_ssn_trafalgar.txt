@@ -3,7 +3,7 @@ ShipType=SUBMARINE
 PlayerHUD=hud/default
 
 Length=85.4
-Beam=9.8
+Beam=9.9
 HullHeight=0.07
 Displacement=5300
 Crew=130
@@ -27,7 +27,7 @@ Waterline=0
 SubmergedAt=0.168
 CavitationParameters=20,-100
 PropRotationSpeed=-190
-TestDepth=1968
+TestDepth=1800
 EscapeDepth=600
 PeriscopeDepthInFeet=40
 
@@ -43,16 +43,16 @@ RADARSignature=SMALL
 TowedArrayPosition=0,-0.008,-0.62
 
 [Weapon Systems]
-TorpedoTypes=uk_tigerfish,usn_moss,usn_tasm,usn_tlam
-TorpedoNumbers=10,6,5,4
+TorpedoTypes=uk_tigerfish,uk_mk8mod4,usn_moss,usn_ugm84,usn_tlam
+TorpedoNumbers=10,5,5,5,5
 TorpedoTubes=5
 NumberOfWires=3
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
 TubeReloadTime=45
 
-MissileType=usn_tasm
-AntiShipMissileType=usn_tasm
+MissileType=usn_ugm84
+AntiShipMissileType=usn_ugm84
 MissilesPerLauncher=4
 AntiShipMissilePosition=-0.06,-0.0021,0.323
 AntiShipMissileRotation=0,-20,0
@@ -126,8 +126,6 @@ Mesh=uk_ssn_trafalgar_sail
 
 MeshPosition=0,-0.05906722,-0.5147324
 Mesh=uk_ssn_trafalgar_rudder_stubs
-
-
 
 MeshPosition=0,-0.04908841,0.4838081
 Mesh=uk_ssn_trafalgar_bow_stubs

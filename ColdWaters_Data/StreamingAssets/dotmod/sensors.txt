@@ -490,6 +490,46 @@ SonarBaffle=FALSE
 SonarNoisePerKnot=3
 SonarOutput=0
 
+//Type 2074 - uk_99_ssn_trafalgar
+SonarModel=uk_2074_towed
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=50
+SonarBaffle=FALSE
+SonarNoisePerKnot=3
+SonarOutput=0
+
+//Type 2076 - uk_04_ssn_trafalgar
+SonarModel=uk_2076_towed
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=54
+SonarBaffle=FALSE
+SonarNoisePerKnot=3
+SonarOutput=0
+
+//Type 2074 - uk_99_ssn_trafalgar
+SonarModel=uk_2074
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=40
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
+//Type 2076 - uk_04_ssn_trafalgar
+SonarModel=uk_2076
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=34
+SonarPassiveSensitivity=46
+SonarBaffle=130
+SonarNoisePerKnot=1
+SonarOutput=235
+
 //   3б) Germany
 //AN-407 - knm_84_ss_kobben
 SonarModel=dm_an407

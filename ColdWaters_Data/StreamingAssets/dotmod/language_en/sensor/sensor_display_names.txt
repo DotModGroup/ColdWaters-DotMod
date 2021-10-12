@@ -102,7 +102,10 @@ uk_2020=Type 2020=Plessey Type 2020 hull-mounted active and passive search and a
 uk_2026=Sonar Type 2026=Type 2026 was a joint British and Dutch second-generation passive clip-on towed linear array sonar. Compared to its predecessor, Type 2026 had a more sensitive hydrophone, a stronger cable, a new broadband LF processor and an updated narrow-band processor.
 
 //The Type 2046 sonar system was manufactured for the UK by Ferranti and later Thales Underwater Systems and is a towed array passive search sonar. It is fitted to the V-class SSBNs, and some S and T-class SSNs.
-
+uk_2074=Sonar Type 2074=Sonar 2074 was a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.
+uk_2074_towed=Sonar Type 2074=Sonar 2074 was a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.
+uk_2076=Sonar Type 2076=Sonar 2076 is a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.
+uk_2076_towed=Sonar Type 2076=Sonar 2076 is a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.
 //   3b) Germany
 dm_an407=AN-407=Active-only sonar produced in early 70s. Found on submarines built in post-war Germany.
 dm_m1h=SRS-M1H=Passive-only sonar produced in late 60sthat equips submarines built in post-war Germany.
