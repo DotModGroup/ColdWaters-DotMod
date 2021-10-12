@@ -3,7 +3,7 @@ ShipType=SUBMARINE
 PlayerHUD=hud/default
 
 Length=85.4
-Beam=9.9
+Beam=9.8
 HullHeight=0.07
 Displacement=5300
 Crew=130
@@ -27,7 +27,7 @@ Waterline=0
 SubmergedAt=0.168
 CavitationParameters=20,-100
 PropRotationSpeed=-190
-TestDepth=1800
+TestDepth=1968
 EscapeDepth=600
 PeriscopeDepthInFeet=40
 
