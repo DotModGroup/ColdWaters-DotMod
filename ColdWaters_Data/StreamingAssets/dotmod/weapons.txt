@@ -4475,6 +4475,7 @@ DepthWeaponVelocity=5.96
 DepthWeaponAccuracy=1.5
 DepthWeaponTrainRate=0.2
 DepthWeaponMortarPositions=-0.036,0,0.036
+DepthWeaponAudioClip=audio/guns/mk7.ogg
 
 //Mark 42 - 45° checked
 DepthWeaponObjectReference=usn_mark_42_shell
