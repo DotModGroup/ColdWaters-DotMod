@@ -1,4 +1,4 @@
-//Diesel Boat Battle
+//Silent Killers
 
 Image=campaign/images/pact wolfpack 5
 MissionLocation=North-East of the Faroe Islands
