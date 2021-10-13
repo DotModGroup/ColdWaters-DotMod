@@ -1,0 +1,9 @@
+//Busted
+Image=campaign/images/pact surface raiders 2
+MissionLocation=Norvegian Sea
+Briefing=06 MAY 1985
+Briefing=You've been detected while crossing SOSUS barrier and must defend yourself.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Sink enemy ships
+Briefing=

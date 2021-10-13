@@ -1,20 +1,18 @@
-//High Noon
+//Territorial Dispute
 
 UseTerrain=TRUE
-//MapCoordinates=2827,459
-//MapCoordinates=2784,1392
-MapCoordinates=2076,802
+MapCoordinates=1498,607
 
 MapNavigationData=campaign/images/maps/south_china_sea_navmap
 MapElevationData=campaign/images/maps/south_china_sea_bathymetry
 WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic
+VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
 
 
 //Environment
-Date=21 SEP 2000
+Date=7 AUG 2000
 Hemisphere=North
-Time=2200
+Time=1200
 UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=LightBreeze
@@ -22,18 +20,18 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=3-4,3-4
+NumberOfEnemyUnits=1-2,1-2
 CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=plan_ss_kilo|plan_ssk_song,plan_ssn_han|plan_ss_ming
+EnemyUnitMissionCritical=TRUE,TRUE
+EnemyShipClasses=usn_84_ff_knox_ai,usn_84_cg_belknap_ai
 //Ship positions and headings, otherwise build into a formation
 
 //Enemy Aircraft
-NumberOfHelicopters=0
-HelicopterType=wp_helix
+NumberOfHelicopters=2
+HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_99_ssn_los_angeles_flt3
-CommanderName=COMSUBPAC
-CommanderFleetName=CINCPACFLT
+PlayerVessels=plan_ssn_han
+CommanderName=COM PACIFIC FLEET
+CommanderFleetName=CICPLAN

@@ -1,0 +1,10 @@
+//Priority Target
+Image=campaign/images/photos/carrier_battle_group.jpeg
+MissionLocation=Rockall
+Briefing=28 SEP 1982
+Briefing=
+Briefing=You have been ordered to the North Atlantic to hunt for a NATO carrier battlegroup. After several days of searching you've found what you're looking for.
+Briefing=
+Briefing=<b>Primary Objective:</b>
+Briefing=- Sink the carrier
+Briefing=

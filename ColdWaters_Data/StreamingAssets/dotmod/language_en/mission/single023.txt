@@ -1,10 +1,12 @@
-Image=campaign/images/pact wolfpack 1
-MissionLocation=In the North Atlantic
-Briefing=18 OCT 1984
-Briefing=After successfully breaking out into the North Atlantic your hunt for NATO convoys begins.
+//Boomer on the Loose
+
+Image=campaign/images/pact ssbn 2
+MissionLocation=West of the UK
+Briefing=12 JUNE 1968
+Briefing=Highly placed CIA intelligence reports that, as a response to the deteriorating war situation, top Soviet officials have decided to move an SSB of either the Golf or Yankee class off of the west coast to threaten a depressed-trajectory attack against US targets in order to sue for favorable peace terms. Sink the boomer and send a message to the Reds that we won't let them do that.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy transport ships
+Briefing=Locate and sink the ballistic missile submarine
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Sink enemy escorts
+Briefing=Locate and sink any escorting submarines if possible

@@ -1,0 +1,7 @@
+Image=campaign/images/plan wolfpack 1
+MissionLocation=In the East China Sea
+Briefing=2 JUL 2000
+Briefing=A US attack submarine has been located in the East China Sea. After several days of searching, an unknown contact might be just what you are hunting.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Fight a one-on-one duel with an enemy SSN

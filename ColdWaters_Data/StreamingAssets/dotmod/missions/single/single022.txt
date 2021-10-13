@@ -1,18 +1,16 @@
-//Cornered
+//Diesel Boat Battle
 
 UseTerrain=TRUE
-MapCoordinates=1487,1594
-
+MapCoordinates=1524,1003
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
-
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
 
 //Environment
-Date=14 NOV 1984
+Date=02 MAY 1968
 Hemisphere=North
-Time=1200
+Time=0600
 UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=LightBreeze
@@ -20,18 +18,18 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-2,1-2
-CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=TRUE,TRUE
-EnemyShipClasses=usn_84_ff_knox_ai,usn_84_cg_belknap_ai
-//Ship positions and headings, otherwise build into a formation
+NumberOfEnemyUnits=1-2,3-3
+CombatBehaviour=DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=TRUE,FALSE
+EnemyShipClasses=wp_68_ssg_juliet,wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ss_whiskey
+FormationCruiseSpeed=16
 
 //Enemy Aircraft
-NumberOfHelicopters=2
-HelicopterType=usn_sh-2f
+NumberOfHelicopters=0
+HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
-CommanderName=COM NORTHERN FLEET
-CommanderFleetName=GLAVCOM VMF
+PlayerVessels=usn_68_ss_barbel,usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+CommanderName=COMSUBLANT
+CommanderFleetName=CINCLANTFLT

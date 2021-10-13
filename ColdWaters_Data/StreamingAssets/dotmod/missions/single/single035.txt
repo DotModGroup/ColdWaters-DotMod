@@ -1,0 +1,37 @@
+//Foreign Trade
+
+UseTerrain=TRUE
+MapCoordinates=2170,1029
+
+MapNavigationData=campaign/images/maps/south_china_sea_navmap
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+WorldObjectsData=campaign/maps/south_china_sea_world_objects
+VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
+
+
+//Environment
+Date=24 DEC 2000
+Hemisphere=North
+Time=1200
+UsePresetEnvironment=FALSE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+//Enemy Ships
+NumberOfEnemyUnits=1-3,1-2,3-5
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE
+EnemyShipClasses=usn_84_ff_knox_ai,usn_84_cg_belknap_ai,civ_ms_encounter|usn_84_ap_act_1|usn_84_fss_algol|usn_68_ap_freighter_a|civ_ms_freighter_b|usn_84_ap_super_p|usn_84_ap_roro
+//Ship positions and headings, otherwise build into a formation
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=usn_sh-2f
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+PlayerVessels=plan_ssn_han
+CommanderName=COM PACIFIC FLEET
+CommanderFleetName=CICPLAN

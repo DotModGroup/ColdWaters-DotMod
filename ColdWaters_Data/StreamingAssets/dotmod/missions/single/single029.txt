@@ -1,16 +1,15 @@
-//Shallow Grave
+//Ambush
 
 UseTerrain=TRUE
-MapCoordinates=2211,1291
+MapCoordinates=2381,1287
 
-MapNavigationData=campaign/images/maps/south_china_sea_navmap
-MapElevationData=campaign/images/maps/south_china_sea_bathymetry
-WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
-
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
 
 //Environment
-Date=2 JUL 2000
+Date=8 NOV 1984
 Hemisphere=North
 Time=1200
 UsePresetEnvironment=FALSE
@@ -23,7 +22,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles|usn_99_ssn_seawolf|usn_99_ssn_los_angeles_flt3|usn_99_ssn_los_angeles_flt2
+EnemyShipClasses=usn_84_ssn_narwhal|usn_84_ssn_skipjack|usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
 //Ship positions and headings, otherwise build into a formation
 
 //Enemy Aircraft
@@ -32,6 +31,6 @@ HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=plan_ssn_han
-CommanderName=COM PACIFIC FLEET
-CommanderFleetName=CICPLAN
+PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF

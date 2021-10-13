@@ -1,20 +1,18 @@
-//High Noon
+//Shallow Grave
 
 UseTerrain=TRUE
-//MapCoordinates=2827,459
-//MapCoordinates=2784,1392
-MapCoordinates=2076,802
+MapCoordinates=2211,1291
 
 MapNavigationData=campaign/images/maps/south_china_sea_navmap
 MapElevationData=campaign/images/maps/south_china_sea_bathymetry
 WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic
+VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
 
 
 //Environment
-Date=21 SEP 2000
+Date=2 JUL 2000
 Hemisphere=North
-Time=2200
+Time=1200
 UsePresetEnvironment=FALSE
 Weather=Clear
 SeaState=LightBreeze
@@ -22,18 +20,18 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=3-4,3-4
-CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=plan_ss_kilo|plan_ssk_song,plan_ssn_han|plan_ss_ming
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles|usn_99_ssn_seawolf|usn_99_ssn_los_angeles_flt3|usn_99_ssn_los_angeles_flt2
 //Ship positions and headings, otherwise build into a formation
 
 //Enemy Aircraft
 NumberOfHelicopters=0
-HelicopterType=wp_helix
+HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_99_ssn_los_angeles_flt3
-CommanderName=COMSUBPAC
-CommanderFleetName=CINCPACFLT
+PlayerVessels=plan_ssn_han
+CommanderName=COM PACIFIC FLEET
+CommanderFleetName=CICPLAN

@@ -16,6 +16,11 @@
 <color=Cyan>Hunting the Arctic Wolf</color>
 <color=#39CCCC>Action in the North Atlantic</color>
 <color=#39CCCC>Skirmish in the Denmark Strait</color>
+<color=#39CCCC>Coastal Convoy Chance</color>
+<color=#39CCCC>Amphib Ambush</color>
+<color=#39CCCC>GIUK Intercept</color>
+<color=#39CCCC>Diesel Boat Battle</color>
+<color=#39CCCC>Boomer on the Loose</color>
 <color=#7FDBFF>Junks on Parade</color>
 <color=#7FDBFF>Strike from the Sea</color>
 <color=#7FDBFF>High Noon</color>

@@ -1,37 +1,37 @@
-//Foreign Trade
+//Hornet's Nest
 
 UseTerrain=TRUE
-MapCoordinates=2170,1029
-
-MapNavigationData=campaign/images/maps/south_china_sea_navmap
-MapElevationData=campaign/images/maps/south_china_sea_bathymetry
-WorldObjectsData=campaign/maps/south_china_sea_world_objects
-VesselsAndTraffic=campaign/maps/south_china_sea_traffic_us
-
+MapCoordinates=1393,681
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
 
 //Environment
-Date=24 DEC 2000
+Date=15 DEC 1984
 Hemisphere=North
-Time=1200
-UsePresetEnvironment=FALSE
-Weather=Clear
+Time=DAYLIGHT
+UsePresetEnvironment=TRUE
+Weather=Rain
 SeaState=LightBreeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-3,1-2,3-5
-CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,TRUE
-EnemyShipClasses=usn_84_ff_knox_ai,usn_84_cg_belknap_ai,civ_ms_encounter|usn_84_ap_act_1|usn_84_fss_algol|usn_68_ap_freighter_a|civ_ms_freighter_b|usn_84_ap_super_p|usn_84_ap_roro
-//Ship positions and headings, otherwise build into a formation
+NumberOfEnemyUnits=1-1,1-1,1-1,2-5
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyShipClasses=usn_84_dd_spruance_ai,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit
+FormationCruiseSpeed=12
 
 //Enemy Aircraft
-NumberOfHelicopters=2
-HelicopterType=usn_sh-2f
+NumberOfHelicopters=0
+HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=plan_ssn_han
-CommanderName=COM PACIFIC FLEET
-CommanderFleetName=CICPLAN
+PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
+
+CommanderName=COM NORTHERN FLEET
+CommanderFleetName=GLAVCOM VMF
+
+OtherVessels=usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_dd_spruance_ai,usn_84_cvn_nimitz_ai,wp_fv_trawler,civ_fv_trawler,civ_ms_small_freighter,civ_ms_freighter_a,civ_ms_freighter_b,civ_ms_super_p,civ_ms_roro,civ_ms_mercur,civ_ms_encounter,civ_ms_act_1,civ_ms_medium_tanker,civ_ms_sl7,civ_ms_leninskiy_komsomol,civ_ms_poltava,civ_ms_kommunist,civ_vtr_amguema,civ_vtr_andizhan,civ_vtr_yuniy_partizan,civ_ms_old_small_freighter,civ_ms_qiongsha,civ_oilrig,civ_spar_rig,biologic_humpback_whale,biologic_blue_whale
