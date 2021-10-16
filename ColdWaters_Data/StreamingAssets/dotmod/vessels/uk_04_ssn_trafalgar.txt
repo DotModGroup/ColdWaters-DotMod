@@ -40,7 +40,7 @@ TowedArrayModel=uk_2076_towed
 AnechoicCoating=TRUE
 RADAR=uk_t1007
 RADARSignature=SMALL
-TowedArrayPosition=0,-0.008,-0.62
+TowedArrayPosition=-0.1087,-0.0585,-0.5507
 
 [Weapon Systems]
 TorpedoTypes=uk_spearfish,usn_moss,usn_tlam
