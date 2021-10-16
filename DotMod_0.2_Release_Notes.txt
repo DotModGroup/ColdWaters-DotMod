@@ -108,6 +108,8 @@ Fixed drift oh hud elements when switching the huds
 Single Mission Fixes
 Campaign Waypoint Fixes (THIS WILL BREAK YOUR SAVES FROM 0.2a AND EARLIER)
 Corrected Speeds on some Vessels
+Corrected issues with Ohio Model parts in wrong position
+Corrected issue with Trafalgar Towed Array Position
 
 [CREDITS]
 DotMod team:
