@@ -70,19 +70,20 @@ Player current noise displayed on tacmap
 [MODELS]
 Kobben model (Kitbash of a Tango)
 Charles F. Adams kitbash by Senia
-Ohio model converted by that_person and TheHappyYachter
+Ohio model by ElectricBoat, textures by KevinDDSSTT
 Ticonderoga model converted by that_person and TheHappyYachter
 Oberon model by that_person
-Trafalgar model by TheHappyYachter
-Oliver Hazard Perry model by TheHappyYachter
-Type 21 Frigate model by TheHappyYachter
+Trafalgar model by TheHappyYachter, textures by KevinDDSSTT
+Oliver Hazard Perry model by TheHappyYachter, textures by KevinDDSSTT
+Type 21 Frigate model by TheHappyYachter, textures by KevinDDSSTT
+Nimitz model by TheHappyYachter, textures by KevinDDSSTT
+Papa model by ElectricBoat, textures by KevinDDSSTT
+Barbel model by ElectricBoat, textures by KevinDDSSTT
+Nautilus model converted by that_person and TheHappyYachter, textures by KevinDDSSTT
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by Lorenzo:
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
-	
-(EM) Nimitz model
-(EM) Anchar (Papa) model by Max Panow
 (EM) SH-60B model by Syoma Ivanov
 
 [VESSELS]
@@ -96,13 +97,17 @@ Added short name for ship to display in GUI
 (EM) additional info while draging weapon waypoint
 The first launch will run a scan for modified files that could cause an issue. This will increase the loading time of the first launch.
 Visibility (murky/clear water) settings in game options.
-(EM) Language and voiceover settings in options.
-Reworked options (by TheHappyYachter) 
+Reworked options (by TheHappyYachter)
+Improved Dev Mode Options
+Improved sounds for Iowa
 
 [BUGFIXES]
 Numerous misc. changes and fixes
 Enemy helicopters now see surfaced player
 Fixed drift oh hud elements when switching the huds
+Single Mission Fixes
+Campaign Waypoint Fixes (THIS WILL BREAK YOUR SAVES FROM 0.2a AND EARLIER)
+Corrected Speeds on some Vessels
 
 [CREDITS]
 DotMod team:
@@ -119,6 +124,7 @@ Goldmaster11 - Testing
 Russian_Wolf - Russian Translations
 Kevin DDSSTT - Texture art for new vessel models
 Steel Shark - UI Sprites and Textures
+Misfit - Sounds for USN Sonars and Mk7 Guns
 -----------
 Our team also wants thank several people for their help and inspiration:
 Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 

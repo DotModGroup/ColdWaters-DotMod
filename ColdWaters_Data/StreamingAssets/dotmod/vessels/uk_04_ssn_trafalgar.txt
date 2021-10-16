@@ -103,7 +103,7 @@ MeshRotation=0,0,0
 MeshHullCollider=uk_ssn_trafalgar_coll_hull
 MeshSuperstructureCollider=uk_ssn_trafalgar_coll_ss
 
-Material=assets/materials/uk_ssn_trafalgar.mat
+Material=assets/materials/uk_99_ssn_trafalgar.mat
 
 Mesh=uk_ssn_trafalgar
 

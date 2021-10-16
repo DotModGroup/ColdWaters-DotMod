@@ -8,7 +8,7 @@ HullHeight=0.08
 Displacement=18750
 Crew=155
 Range=15000
-HullNumbers=FALSE
+HullNumbers=usn_ssbn_726.png,usn_ssbn_727.png,usn_ssbn_728.png,usn_ssbn_729.png,usn_ssbn_730.png,usn_ssbn_731.png,usn_ssbn_732.png,usn_ssbn_733.png,usn_ssbn_734.png,usn_ssbn_735.png
 
 [Movement]
 SurfaceSpeed=17
@@ -97,37 +97,6 @@ DamageControlPartyY=-31
 MinCameraDistance=2.0
 
 [Model]
-AssetBundle=bundles/dotmod/vessels/usn/usn_ssbn_ohio
-ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
-
-//Hull and Deck
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-
-MeshHullCollider=usn_ssbn_ohio_coll_hull
-MeshSuperstructureCollider=usn_ssbn_ohio_coll_ss
-
-Material=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_mat.mat
--MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_tx.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
--MaterialTextures=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_black.dds,assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_spec.dds,FALSE
-assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio_nm.dds
-MaterialTextures=vessels/textures/usn_ssbn_ohio_tx.png,vessels/textures/usn_ssbn_ohio_spec.png,vessels/textures/usn_ssbn_ohio_nm.png
-
-Mesh=usn_ssbn_ohio
--Mesh=usn_ssbn_ohio_missilelids
-
-MeshPosition=0,0,-1.07
-MeshRudder=usn_ssbn_ohio_rudders
-MeshPosition=0,0.17,0.73
-MeshBowPlanes=usn_ssbn_ohio_fairwaterplanes
-MeshPosition=0,-0.003,-1.101
-MeshSternPlanes=usn_ssbn_ohio_sternplanes
-MeshPosition=0,-0.003,-1.2
-MeshProp=usn_ssbn_ohio_prop
-
-
-
-[Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
 MeshPosition=0,0.095,0.6970
@@ -142,12 +111,50 @@ MeshPosition=0,0.085,0.7287
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_radar_mast
 
-ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
+AssetBundle=bundles/vessels/usn_ssbn_ohio.unity3d
+ModelFile=assets/models/usn_ssbn_ohio.fbx
+
+//Hull and Deck
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+MeshHullCollider=usn_ssbn_ohio_collider_hull
+MeshSuperstructureCollider=usn_ssbn_ohio_collider_ss
+
+Material=assets/materials/usn_ssbn_ohio.mat
+
+Mesh=usn_84_ssbn_ohio_hull
+
+MeshPosition=0,-0.06672429,-1.571043
+MeshRudder=usn_84_ssbn_ohio_rudder
+MeshPosition=0,0,0
+ChildMesh=usn_84_ssbn_ohio_lantirns_stern
+Material=assets/materials/usn_ssbn_ohio_depthdecals.mat
+ChildMesh=usn_84_ssbn_ohio_rudderdecals
+
+Mesh=usn_84_ssbn_ohio_decals
+
+MeshPosition=0,0.0933928,0.3139431
+Material=assets/materials/usn_ssbn_ohio.mat
+MeshBowPlanes=usn_84_ssbn_ohio_diving_planes_sail
+
+MeshPosition=0,0,0
+Mesh=usn_84_ssbn_ohio_sail_body
+Mesh=usn_84_ssbn_ohio_tass_fairing
+
+MeshPosition=0,-0.06672432,-1.600184
+MeshSternPlanes=usn_84_ssbn_ohio_diving_plane_stern
+
+MeshPosition=0,-0.06672433,-1.641717
+MeshProp=usn_84_ssbn_ohio_propeller
+
+MeshPosition=0,0,0
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=usn_84_ssbn_ohio_hullnumbers
 
 [Weapon Systems]
 //Torpedo Mounts
 //Port
--MeshRotation=0,-15,0
 MeshRotation=0,-6,0
 
 MeshPosition=-0.09,-0.02,1.04
@@ -159,7 +166,6 @@ TorpedoSpawnPosition=-0.083,-0.042,1.01
 TorpedoEffectPosition=-0.083,-0.042,1.01
 
 //Starboard
--MeshRotation=0,15,0
 MeshRotation=0,6,0
 
 MeshPosition=0.09,-0.02,1.04
@@ -179,13 +185,13 @@ TorpedoEffectPosition=0,0,-0.211
 VLSLaunchPoints=-0.035,0.1,0.48|0.035,0.1,0.48|-0.035,0.1,0.435|0.035,0.1,0.435|-0.035,0.1,0.395|0.035,0.1,0.395|-0.035,0.1,0.355|0.035,0.1,0.355|-0.035,0.1,0.31|0.035,0.1,0.31|-0.035,0.1,0.27|0.035,0.1,0.27|-0.035,0.1,0.23|0.035,0.1,0.23|-0.035,0.1,0.185|0.035,0.1,0.185|-0.035,0.1,0.14|0.035,0.1,0.14|-0.035,0.1,0.10|0.035,0.1,0.10|-0.035,0.1,0.06|0.035,0.1,0.06|-0.035,0.1,0.02|0.035,0.1,0.02
 VLSLaunchPointsRotation=-90,0,0
 
+
 //Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.08,-0.9
 MeshNoisemakerMount=FALSE
 
 //Wake
-ModelFile=assets/vessels/usn/usn_ssbn_ohio/usn_ssbn_ohio.obj
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 BowWaveParticle=ships/particles/bowwave_sub
@@ -200,8 +206,6 @@ ParticleBowWavePosition=0,-0.01,1.26
 ParticlePropWashPosition=0,-0.01,-1.23
 
 ParticleHullFoamPosition=0,0,0.97
--ParticleHullFoamParameters=50,0.40,0.1,0.011,0,0,0.25
--ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
 ParticleHullFoamParameters=20,0.45,0.45,0.055,0,0,0.25
 
 ParticleSternFoamPosition=0,0,-0.77
