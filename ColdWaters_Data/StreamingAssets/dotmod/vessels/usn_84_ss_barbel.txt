@@ -40,7 +40,7 @@ TowedArrayModel=usn_bqr_25
 AnechoicCoating=FALSE
 RADAR=usn_bps_12
 RADARSignature=SMALL
-MeshPosition=0.085,-0.043,-0.46
+TowedArrayPosition=0.085,-0.043,-0.46
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48,usn_moss
