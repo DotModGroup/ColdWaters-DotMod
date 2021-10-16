@@ -22,13 +22,13 @@ PivotPointTurning=0.256
 DiveRate=3
 SurfaceRate=3
 BallastRate=0.25
-Waterline=0.06
+Waterline=0
 SubmergedAt=0.173
 CavitationParameters=20,-100
 PropRotationSpeed=-200
 TestDepth=1300
 EscapeDepth=600
-PeriscopeDepthInFeet=55
+PeriscopeDepthInFeet=45
 
 [Acoustics & Sensors]
 SelfNoise=110
@@ -39,7 +39,7 @@ TowedArrayModel=usn_tb_23
 AnechoicCoating=FALSE
 RADAR=usn_bps_15A
 RADARSignature=SMALL
-TowedArrayPosition=-0.118,-0.004,-1.157
+TowedArrayPosition=-0.1218,-0.0666,-1.6421
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48,usn_moss
@@ -99,15 +99,15 @@ MinCameraDistance=2.0
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
-MeshPosition=0,0.095,0.6970
+MeshPosition=0,0.0336,0.2916
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_periscope
 
-MeshPosition=0,0.09,0.6836
+MeshPosition=0,0.0336,0.2792
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_esm_mast
 
-MeshPosition=0,0.085,0.7287
+MeshPosition=0,0.0336,0.2704
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_radar_mast
 
@@ -200,17 +200,18 @@ CavitationParticle=ships/particles/wp_ssgn_yasen_cavitation
 FunnelSmokeParticle=ships/particles/usn_ssn_los_angeles_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_los_angeles_emergency_blow
 
-CavitationParticlePosition=0,0,-0.27282
+CavitationParticlePosition=0,-0.06672433,-0.728
 
-ParticleBowWavePosition=0,-0.01,1.26
-ParticlePropWashPosition=0,-0.01,-1.23
+ParticleBowWavePosition=0,0,0.698
+ParticlePropWashPosition=0,0,-1.699
 
-ParticleHullFoamPosition=0,0,0.97
+ParticleHullFoamPosition=0,0,0
 ParticleHullFoamParameters=20,0.45,0.45,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,0,-0.77
+ParticleSternFoamPosition=0,0,-1.443
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.5
-KelvinWaves=4.43,4.43
+
+KelvinWaves=3,2.3
 
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC
