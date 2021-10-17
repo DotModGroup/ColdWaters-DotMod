@@ -81,7 +81,7 @@ Papa model by ElectricBoat, textures by KevinDDSSTT
 Barbel model by ElectricBoat, textures by KevinDDSSTT
 Nautilus model converted by that_person and TheHappyYachter, textures by KevinDDSSTT
 Weapon models by Dot, TheHappyYachter and that_person
- + high quality models by Lorenzo:
+ + high quality models by ElectricBoat:
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
 (EM) SH-60B model by Syoma Ivanov
@@ -118,7 +118,7 @@ Dsmirnoff - Accoustics system supervision, advanced coding, research and correct
 Masha Sklyarova - Main tester, tactics assesement, work on russian text
 TheHappyYachter - Advanced coding, modeling
 HobbitJack - Campaign 002, English translation, cleanup and package management, support, community management, and outreach
-Lorenzo a.k.a. Electric Boat - Modeling
+Electric Boat - Modeling
 that_person - Campaign 001, modeling, single missions
 Minsk CVGH - Additional Russian translation
 ghostdog688 - Coordination, presentation, PR
