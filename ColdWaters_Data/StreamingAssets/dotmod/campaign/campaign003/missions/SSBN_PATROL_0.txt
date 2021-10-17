@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-1,2-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE,FALSE
-EnemyShipClasses=plan_ssbn_xia,wp_14_ssn_yasen,wp_84_ssn_akula1
+EnemyShipClasses=plan_ssbn_xia,wp_04_ssn_yasen,wp_84_ssn_akula1

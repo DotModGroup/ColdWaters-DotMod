@@ -11,6 +11,7 @@ Many newer vessels have towed arrays. Deploying these, by default with backspace
 While American passive sonar is almost universally superior to its contemporary Soviet system, Soviet active systems are generally more powerful as compared to American systems.
 Older vessels do not have towed arrays to cover their baffles. This is especially helpful in 1968, where attacking from the baffles can avoid a long and drawn out knife fight.
 The Mark 37 torpedo is very slow. When attacking an enemy SSN, it is wise to sneak behind the target and fire from the baffles.
+The Tigerfish Mod 0 (Mark 24) is an objectively awful torpedo with a 60% wire break chance on launch and barely enough speed to catch older SSNs at full clip. Always use the Mark VIII if you can against surface targets.
 Even older Soviet vessels have anechoic coating. When attacking any vessel with anechoic coating, using active sonar on your torpedo will drastically reduce detection range.
 Any surface vessel with sonar will detect torpedoes long before they're able to hit. If using a straight-running torpedo, it is recommended to close in quite a bit before firing.
 Enemy vessels will conduct torpedo turns regardless of whether or not you have been detected. Remember this when planning attacks with both acoustic and non-acoustic torpedoes.
