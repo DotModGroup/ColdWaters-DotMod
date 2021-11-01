@@ -46,7 +46,6 @@ MissileType=usn_ugm84
 MissilesPerLauncher=3,3
 
 TorpedoTypes=usn_mk48,usn_moss,usn_ugm84
-Loadout_1=usn_mk48_adcap,usn_moss,usn_ugm84
 TorpedoNumbers=12,3,8
 TorpedoTubes=4
 NumberOfWires=2
