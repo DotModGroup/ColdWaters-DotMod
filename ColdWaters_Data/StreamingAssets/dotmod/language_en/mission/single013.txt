@@ -3,7 +3,7 @@
 Image=campaign/images/68 Pact Naval 1
 MissionLocation=Barents Sea
 Briefing=26 NOV 1984
-Briefing=After a massive incursion by NATO submarines into Soviet boomer bastions resulting in the destruction of several, the Red Fleet has deployed the Moskva to hunt down the intruders. 
+Briefing=After a massive incursion by NATO submarines into Soviet boomer bastions resulting in the destruction of several SSBNs including one Typhoon, the Red Fleet has deployed the Moskva to hunt down the intruders. 
 Briefing=
 Briefing=Primary Objective:
 Briefing=Survive

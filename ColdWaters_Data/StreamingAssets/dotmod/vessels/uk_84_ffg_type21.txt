@@ -171,7 +171,7 @@ NavalGunSpawnPosition=0,0,0.089
 
 //Missiles
 ModelFile=assets/models/uk_parts_seacat.fbx
-Material=assets/materials/uk_seacat_missile.mat
+Material=assets/materials/uk_parts_seacat_launcher.mat
 
 MeshPosition=0,0.161,-0.4623
 MeshRotation=0,180,0

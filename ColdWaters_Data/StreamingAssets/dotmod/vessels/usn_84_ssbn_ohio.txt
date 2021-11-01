@@ -4,7 +4,7 @@ PlayerHUD=hud/default_usn
 
 Length=170
 Beam=13
-HullHeight=0.08
+HullHeight=0.191558
 Displacement=18750
 Crew=155
 Range=15000
@@ -22,13 +22,13 @@ PivotPointTurning=0.256
 DiveRate=3
 SurfaceRate=3
 BallastRate=0.25
-Waterline=0
+Waterline=0.057639
 SubmergedAt=0.173
 CavitationParameters=20,-100
 PropRotationSpeed=-200
 TestDepth=1300
 EscapeDepth=600
-PeriscopeDepthInFeet=45
+PeriscopeDepthInFeet=55
 
 [Acoustics & Sensors]
 SelfNoise=110
@@ -39,7 +39,7 @@ TowedArrayModel=usn_tb_23
 AnechoicCoating=FALSE
 RADAR=usn_bps_15A
 RADARSignature=SMALL
-TowedArrayPosition=-0.1218,-0.0666,-1.6421
+TowedArrayPosition=-0.1222712000,-0.0000000347,-1.2376670000
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48,usn_moss
@@ -99,15 +99,15 @@ MinCameraDistance=2.0
 [Model]
 ModelFile=ships/usn_ssn_los_angeles/usn_ssn_los_angeles
 Material=ships/materials/usn_masts
-MeshPosition=0,0.0336,0.2916
+MeshPosition=0.0045,0.0994,0.6948
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_periscope
 
-MeshPosition=0,0.0336,0.2792
+MeshPosition=0.006,0.0994,0.682
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_esm_mast
 
-MeshPosition=0,0.0336,0.2704
+MeshPosition=-0.006,0.0994,0.682
 MastHeight=0.1
 MeshMast=usn_ssn_los_angeles_radar_mast
 
@@ -115,8 +115,8 @@ AssetBundle=bundles/vessels/usn_ssbn_ohio.unity3d
 ModelFile=assets/models/usn_ssbn_ohio.fbx
 
 //Hull and Deck
-MeshPosition=0,0,0
-MeshRotation=0,0,0
+MeshPosition=0.0000000000,0.0000000000,0.0000000000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 
 MeshHullCollider=usn_ssbn_ohio_collider_hull
 MeshSuperstructureCollider=usn_ssbn_ohio_collider_ss
@@ -125,7 +125,8 @@ Material=assets/materials/usn_ssbn_ohio.mat
 
 Mesh=usn_84_ssbn_ohio_hull
 
-MeshPosition=0,-0.06672429,-1.571043
+MeshPosition=0.0000000000,0.0000000069,-1.1709240000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshRudder=usn_84_ssbn_ohio_rudder
 MeshPosition=0,0,0
 ChildMesh=usn_84_ssbn_ohio_lantirns_stern
@@ -134,47 +135,53 @@ ChildMesh=usn_84_ssbn_ohio_rudderdecals
 
 Mesh=usn_84_ssbn_ohio_decals
 
-MeshPosition=0,0.0933928,0.3139431
 Material=assets/materials/usn_ssbn_ohio.mat
+MeshPosition=0.0000000649,0.1601171000,0.7140626000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshBowPlanes=usn_84_ssbn_ohio_diving_planes_sail
 
-MeshPosition=0,0,0
+MeshPosition=0.0000000000,0.0000000000,0.0000000000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 Mesh=usn_84_ssbn_ohio_sail_body
 Mesh=usn_84_ssbn_ohio_tass_fairing
 
-MeshPosition=0,-0.06672432,-1.600184
+MeshPosition=0.0000000000,-0.0000000208,-1.2000650000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshSternPlanes=usn_84_ssbn_ohio_diving_plane_stern
 
-MeshPosition=0,-0.06672433,-1.641717
+MeshPosition=0.0000000000,0.0000000000,-1.2415980000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshProp=usn_84_ssbn_ohio_propeller
 
-MeshPosition=0,0,0
+MeshPosition=0.0000000000,0.0000000000,0.0000000000
+MeshRotation=0.0000000000,0.0000000000,0.0000000000
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=usn_84_ssbn_ohio_hullnumbers
 
 [Weapon Systems]
 //Torpedo Mounts
 //Port
-MeshRotation=0,-6,0
+MeshRotation=0.0000000000,-15.0000000000,0.0000000000
+MeshPosition=-0.0671524000,-0.0226598100,0.8966767000
+TorpedoSpawnPosition=-0.0671524000,-0.0226598100,0.8966767000
+TorpedoEffectPosition=-0.0671524000,-0.0226598100,0.8966767000
 
-MeshPosition=-0.09,-0.02,1.04
-TorpedoSpawnPosition=-0.09,-0.02,1.04
-TorpedoEffectPosition=-0.09,-0.02,1.04
-
-MeshPosition=-0.083,-0.042,1.01
-TorpedoSpawnPosition=-0.083,-0.042,1.01
-TorpedoEffectPosition=-0.083,-0.042,1.01
+MeshRotation=0.0000000000,-15.0000000000,0.0000000000
+MeshPosition=-0.0607184500,-0.0431507200,0.8856888000
+TorpedoSpawnPosition=-0.0607184500,-0.0431507200,0.8856888000
+TorpedoEffectPosition=-0.0607184500,-0.0431507200,0.8856888000
 
 //Starboard
-MeshRotation=0,6,0
+MeshRotation=0.0000000000,15.0000000000,0.0000000000
+MeshPosition=0.0671524000,-0.0226598100,0.8966767000
+TorpedoSpawnPosition=0.0671524000,-0.0226598100,0.8966767000
+TorpedoEffectPosition=0.0671524000,-0.0226598100,0.8966767000
 
-MeshPosition=0.09,-0.02,1.04
-TorpedoSpawnPosition=0.09,-0.02,1.04
-TorpedoEffectPosition=0.09,-0.02,1.04
+MeshRotation=0.0000000000,15.0000000000,0.0000000000
+MeshPosition=0.0607184500,-0.0431507200,0.8856888000
+TorpedoSpawnPosition=0.0607184500,-0.0431507200,0.8856888000
+TorpedoEffectPosition=0.0607184500,-0.0431507200,0.8856888000
 
-MeshPosition=0.083,-0.042,1.01
-TorpedoSpawnPosition=0.083,-0.042,1.01
-TorpedoEffectPosition=0.083,-0.042,1.01
 
 //VLS Launch Position
 MeshPosition=0,0,-0.211
@@ -182,9 +189,8 @@ MeshRotation=-90,0,0
 TorpedoSpawnPosition=0,0,-0.211
 TorpedoEffectPosition=0,0,-0.211
 
-VLSLaunchPoints=-0.035,0.1,0.48|0.035,0.1,0.48|-0.035,0.1,0.435|0.035,0.1,0.435|-0.035,0.1,0.395|0.035,0.1,0.395|-0.035,0.1,0.355|0.035,0.1,0.355|-0.035,0.1,0.31|0.035,0.1,0.31|-0.035,0.1,0.27|0.035,0.1,0.27|-0.035,0.1,0.23|0.035,0.1,0.23|-0.035,0.1,0.185|0.035,0.1,0.185|-0.035,0.1,0.14|0.035,0.1,0.14|-0.035,0.1,0.10|0.035,0.1,0.10|-0.035,0.1,0.06|0.035,0.1,0.06|-0.035,0.1,0.02|0.035,0.1,0.02
+VLSLaunchPoints=0.0301879900,0.0268368800,0.4352449000|-0.0301880500,0.0268368800,0.4352449000|0.0301879900,0.0268368800,0.3915903000|-0.0301880500,0.0268368800,0.3915903000|0.0301879900,0.0268368800,0.3473419000|-0.0301880500,0.0268368800,0.3473419000|0.0301879900,0.0268368800,0.3036874000|-0.0301880500,0.0268368800,0.3036874000|0.0301879900,0.0268368800,0.2607332000|-0.0301880500,0.0268368800,0.2607332000|0.0301879900,0.0268368800,0.2170786000|-0.0301880500,0.0268368800,0.2170786000|0.0301879900,0.0268368800,0.1728302000|-0.0301880500,0.0268368800,0.1728302000|0.0301879900,0.0268368800,0.1291756000|-0.0301880500,0.0268368800,0.1291756000|0.0301879900,0.0268368800,0.0851573200|-0.0301880500,0.0268368800,0.0851573200|0.0301879900,0.0268368800,0.0415028000|-0.0301880500,0.0268368800,0.0415028000|0.0301879900,0.0268368800,-0.0027456770|-0.0301880500,0.0268368800,-0.0027456770|0.0301879900,0.0268368800,-0.0464001900|-0.0301880500,0.0268368800,-0.0464001900
 VLSLaunchPointsRotation=-90,0,0
-
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -200,18 +206,18 @@ CavitationParticle=ships/particles/wp_ssgn_yasen_cavitation
 FunnelSmokeParticle=ships/particles/usn_ssn_los_angeles_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_los_angeles_emergency_blow
 
-CavitationParticlePosition=0,-0.06672433,-0.728
+CavitationParticlePosition=0,0,-0.309
 
-ParticleBowWavePosition=0,0,0.698
-ParticlePropWashPosition=0,0,-1.699
+ParticleBowWavePosition=0,0,1.123
+ParticlePropWashPosition=0,0,-1.318
 
 ParticleHullFoamPosition=0,0,0
 ParticleHullFoamParameters=20,0.45,0.45,0.055,0,0,0.25
 
-ParticleSternFoamPosition=0,0,-1.443
+ParticleSternFoamPosition=0,0,-1.318
 ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.5
 
-KelvinWaves=3,2.3
+KelvinWaves=4,4
 
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC

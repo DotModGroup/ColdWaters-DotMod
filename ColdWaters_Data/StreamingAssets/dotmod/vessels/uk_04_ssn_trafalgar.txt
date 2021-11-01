@@ -103,7 +103,7 @@ MeshRotation=0,0,0
 MeshHullCollider=uk_ssn_trafalgar_coll_hull
 MeshSuperstructureCollider=uk_ssn_trafalgar_coll_ss
 
-Material=assets/materials/uk_99_ssn_trafalgar.mat
+Material=assets/materials/uk_04_ssn_trafalgar.mat
 
 Mesh=uk_ssn_trafalgar
 
@@ -168,6 +168,9 @@ MeshRudder=uk_ssn_trafalgar_rudder
 MeshPosition=0,0,0
 Material=assets/materials/uk_ssn_trafalgar_rudderdecal.mat
 ChildMesh=uk_ssn_trafalgar_rudder_decal
+
+Material=assets/materials/uk_ssn_trafalgar_flankarray.mat
+Mesh=uk_ssn_trafalgar_flankarray
 
 [Weapon Systems]
 //Torpedo Mounts
