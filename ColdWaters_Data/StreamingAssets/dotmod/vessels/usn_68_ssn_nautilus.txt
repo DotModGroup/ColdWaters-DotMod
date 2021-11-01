@@ -22,8 +22,8 @@ PivotPointTurning=0.226
 DiveRate=6
 SurfaceRate=6
 BallastRate=0.25
-Waterline=0.014
-SubmergedAt=0.12
+Waterline=-0.02
+SubmergedAt=0.008
 CavitationParameters=20,-100
 PropRotationSpeed=-190,-190
 PeriscopeDepthInFeet=35
@@ -90,8 +90,23 @@ LabelPosition=190.8,28
 REACTOR=MID
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_ssn_nautilus
-ModelFile=assets/vessels/usn/usn_ssn_nautilus/nautilus.fbx
+ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
+
+Material=ships/materials/usn_masts
+MeshPosition=0.005,0.043,0.15
+MastHeight=0.065
+MeshMast=usn_ssn_skipjack_periscope
+
+MeshPosition=-0.0,0.067,0.12
+MastHeight=0.065
+MeshMast=usn_ssn_skipjack_esm_mast
+
+MeshPosition=-0.0025,0.052,0.16
+MastHeight=0.065
+MeshMast=usn_ssn_skipjack_radar_mast
+
+AssetBundle=bundles/vessels/usn_ssn_nautilus.unity3d
+ModelFile=assets/models/usn_ssn_nautilus.obj
 
 //Hull and Deck
 MeshPosition=0,0,0
@@ -100,8 +115,7 @@ MeshRotation=0,0,0
 MeshHullCollider=usn_ssn_nautilus_coll_hull
 MeshSuperstructureCollider=usn_ssn_nautilus_coll_ss
 
-Material=assets/vessels/usn/usn_ssn_nautilus/usn_ssn_nautilus_mat.mat
-MaterialTextures=vessels/textures/usn_ssn_nautilus_tex.png,vessels/textures/usn_ssn_nautilus_spec.png,vessels/textures/usn_ssn_nautilus_nm.png
+Material=assets/materials/usn_ssn_nautilus.mat
 
 Mesh=usn_ssn_nautilus_hull
 
@@ -134,69 +148,6 @@ Mesh=usn_ssn_nautilus_rudder_stubs
 
 MeshPosition=0,0,0
 Mesh=usn_ssn_nautilus_stern_plane_stubs
-
-//Tube 1
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.0065,-0.024,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-//Tube 2
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.0065,-0.024,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-//Tube 3
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.0065,-0.034,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-//Tube 4
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.0065,-0.034,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-//Tube 5
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.0065,-0.044,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-//Tube 6
-//ModelFile=weapons/assets/usn_mk37
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.0065,-0.044,0.64
-//MeshRotation=0,0,0
-//Mesh=Mk37
-
-ModelFile=ships/usn_ssn_skipjack/usn_ssn_skipjack
-
-Material=ships/materials/usn_masts
-MeshPosition=0.005,0.043,0.15
-MastHeight=0.065
-MeshMast=usn_ssn_skipjack_periscope
-
-MeshPosition=-0.0,0.067,0.12
-MastHeight=0.065
-MeshMast=usn_ssn_skipjack_esm_mast
-
-MeshPosition=-0.0025,0.052,0.16
-MastHeight=0.065
-MeshMast=usn_ssn_skipjack_radar_mast
 
 [Weapon Systems]
 //Torpedo Mounts
@@ -259,7 +210,7 @@ PropWashParticle=ships/particles/bowwave_small
 FunnelSmokeParticle=ships/particles/usn_ssn_skipjack_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_skipjack_emergency_blow
 
-ParticleBowWavePosition=0,0,0.68
+ParticleBowWavePosition=0,0,0.72
 ParticlePropWashPosition=0,-0.035,-0.7271934
 
 ParticleHullFoamPosition=0,0,0.262
@@ -283,7 +234,3 @@ PingAudioClip=audio/environment/sonar_ping
 PingAudioRollOff=LOGARITHMIC
 PingAudioDistance=1,50
 PingAudioPitch=1
-
-AssetBundle=bundles/vessels/usn/usn_ssn_nautilus
-ModelFile=assets/vessels/usn/usn_ssn_nautilus/nautilus.fbx
-VesselModelName=usn_ssn_nautilus

@@ -22,14 +22,14 @@ PivotPointTurning=0.256
 DiveRate=6
 SurfaceRate=6
 BallastRate=0.25
-Waterline=0.04
+Waterline=0
 //Depth in feet / 225.39
 SubmergedAt=0.168
 CavitationParameters=20,-100
 PropRotationSpeed=-190
 TestDepth=1800
 EscapeDepth=600
-PeriscopeDepthInFeet=48
+PeriscopeDepthInFeet=40
 
 [Acoustics & Sensors]
 SelfNoise=115
@@ -40,19 +40,19 @@ TowedArrayModel=uk_2026
 AnechoicCoating=TRUE
 RADAR=uk_t1007
 RADARSignature=SMALL
-TowedArrayPosition=0,-0.008,-0.62
+TowedArrayPosition=-0.1087,-0.0585,-0.5507
 
 [Weapon Systems]
-TorpedoTypes=uk_tigerfish,usn_moss,usn_tasm,usn_tlam
-TorpedoNumbers=10,6,5,4
+TorpedoTypes=uk_tigerfish,uk_mk8mod4,usn_moss,usn_ugm84,usn_tlam
+TorpedoNumbers=10,5,5,5,5
 TorpedoTubes=5
 NumberOfWires=3
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
 TubeReloadTime=45
 
-MissileType=usn_tasm
-AntiShipMissileType=usn_tasm
+MissileType=usn_ugm84
+AntiShipMissileType=usn_ugm84
 MissilesPerLauncher=4
 AntiShipMissilePosition=-0.06,-0.0021,0.323
 AntiShipMissileRotation=0,-20,0
@@ -60,7 +60,6 @@ AntiShipMissileRotation=0,-20,0
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=20
-
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -99,8 +98,9 @@ FLOODING5=-128,59,-77,-32
 DamageControlPartyY=-28
 
 [Model]
-AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
+AssetBundle=bundles/dotmodgenericresources.unity3d
+AssetBundle=bundles/vessels/uk_ssn_trafalgar.unity3d
+ModelFile=assets/models/uk_ssn_trafalgar.fbx
 
 //Hull and Deck
 MeshPosition=0,0,0
@@ -109,40 +109,71 @@ MeshRotation=0,0,0
 MeshHullCollider=uk_ssn_trafalgar_coll_hull
 MeshSuperstructureCollider=uk_ssn_trafalgar_coll_ss
 
-Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
-//MaterialTextures=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_tx.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_spec.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_nm.dds
-//MaterialTextures=vessels/textures/uk_ssn_trafalgar_tx.png,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_spec.dds,assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_nm.dds
+Material=assets/materials/uk_84_ssn_trafalgar.mat
+
 Mesh=uk_ssn_trafalgar
 
 //Shroud
 Mesh=uk_ssn_trafalgar_shroud
 
-MeshPosition=0,0,-0.51676
-MeshRudder=uk_ssn_trafalgar_rudder
+MeshPosition=0,0.02883586,0.3099537
+MeshScale=0.7977148,0.7977148,0.7977148
+Mesh=uk_ssn_trafalgar_51r
 
-MeshPosition=0,0.00002,0.48381
+MeshPosition=0,-0.09642436,-0.407236
+MeshScale=1,1,1
+Mesh=uk_ssn_trafalgar_sail
+
+MeshPosition=0,-0.05906722,-0.5147324
+Mesh=uk_ssn_trafalgar_rudder_stubs
+
+MeshPosition=0,-0.04908841,0.4838081
+Mesh=uk_ssn_trafalgar_bow_stubs
+
+MeshPosition=0,-0.04908841,0.4838081
 MeshBowPlanes=uk_ssn_trafalgar_bowplanes
 
-MeshPosition=0,-0.00924,-0.52288
+MeshPosition=0,-0.05890547,-0.5056447
+Mesh=uk_ssn_trafalgar_stern_stubs
+
+MeshPosition=0,-0.05890547,-0.5231503
 MeshSternPlanes=uk_ssn_trafalgar_sternplanes
 
-MeshPosition=0,-0.00771,-0.58952
+MeshPosition=0,-0.05681977,-0.5895222
 MeshProp=uk_ssn_trafalgar_rotor
+
+//Static Masts
+MeshPosition=0.007278051,0.0921,0.1897698
+Mesh=uk_ssn_trafalgar_mast_optronic
+MeshPosition=0.007278051,0.1097,0.1497939
+Mesh=uk_ssn_trafalgar_mast_snort_1
+MeshPosition=0,0.111,0.1390843
+Mesh=uk_ssn_trafalgar_mast_snort_2
+MeshPosition=0,0.1098,0.1228447
+Mesh=uk_ssn_trafalgar_mast_snort_3
+MeshPosition=-0.00727807,0.0823,0.1497939
+Mesh=uk_ssn_trafalgar_mast_comms_3
 
 //Prop for first Trafalgar 
 //MeshProp=uk_ssn_trafalgar_prop
 
 //Masts
 MastHeight=0.1
-MeshPosition=-0.0075,0.045,0.18977
+MeshPosition=-0.007278051,0.08182,0.1897698
 MeshMast=uk_ssn_trafalgar_mast_periscope
 MastHeight=0.1
-MeshPosition=0.00728,0.04,0.16839
+MeshPosition=0.007278051,0.1045,0.1683896
 MeshMast=uk_ssn_trafalgar_mast_esm
 MastHeight=0.1
-MeshPosition=-0.00582,0.04,0.16839
+MeshPosition=-0.005822441,0.1131,0.1683896
 MeshMast=uk_ssn_trafalgar_mast_radar
 
+//Rudder and Depth Decal
+MeshPosition=0,-0.05906722,-0.5167608
+MeshRudder=uk_ssn_trafalgar_rudder
+MeshPosition=0,0,0
+Material=assets/materials/uk_ssn_trafalgar_rudderdecal.mat
+ChildMesh=uk_ssn_trafalgar_rudder_decal
 
 [Weapon Systems]
 
@@ -189,17 +220,14 @@ MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
-
-AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
 //Wake
 BowWaveParticle=ships/particles/bowwave_sub
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=ships/particles/usn_ssn_permit_cavitation
+CavitationParticle=assets/effects/uk_ssn_trafalgar_cavitation.prefab
 FunnelSmokeParticle=ships/particles/usn_ssn_permit_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_permit_emergency_blow
 
-CavitationParticlePosition=0,-0.00589,0.05
+CavitationParticlePosition=0,0,0
 
 ParticleBowWavePosition=0,0,0.65
 ParticlePropWashPosition=0.2,-0.0545,-0.65

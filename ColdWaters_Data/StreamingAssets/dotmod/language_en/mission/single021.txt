@@ -1,12 +1,12 @@
-//High Noon
+//GIUK Intercept
 
-Image=campaign/images/pact specops
-MissionLocation=In the Luzon Strait
-Briefing=21 SEP 2000
-Briefing=Several hours ago, the PLAN launched a series of cruise missile and special forces attacks on our naval bases in Sasebo, Okinawa and Subic Bay. Nav Ops suspects a similar strike using submarines is planned for Guam, our last remaining base in the region.
+Image=campaign/images/pact wolfpack 6
+MissionLocation=East of the Faroe Islands
+Briefing=02 MAY 1968
+Briefing=Less than 24 hours ago Warsaw Pact forces smashed into West Germany and sank several ASW patrols off Iceland. A Soviet nuclear submarine wolfpack has been triangulated to the vicinity of the Faroe Islands, moving into the North Altantic to block trans-Altantic convoys. You must sink this group or desperatly needed reinforcements could be sunk.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink the enemy submarines
+Briefing=Locate and sink the missile submarines
 Briefing=
 Briefing=Secondary Objective:
-Briefing=Avoid collateral damage
+Briefing=Locate and sink any escorting submarines if possible

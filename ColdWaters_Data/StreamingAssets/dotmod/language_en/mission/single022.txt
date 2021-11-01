@@ -1,7 +1,12 @@
-Image=campaign/images/pact wolfpack 3
-MissionLocation=In the Denmark Strait
-Briefing=14 NOV 1984
-Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
+//Silent Killers
+
+Image=campaign/images/pact wolfpack 5
+MissionLocation=North-East of the Faroe Islands
+Briefing=23 APR 1968
+Briefing=A Soviet diesel-electric wolfpack, including at least one Juliett class missile submarine, is returning from a succesful operation against NATO convoys en route to Europe. These convoys carry much needed supplies to the frontline in West Germany, and are the lifeline for the NATO war effort. Destroy this wolfpack before it can return to port for another deadly patrol.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy escorts
+Briefing=Locate and sink the missile submarines
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Locate and sink any escorting submarines if possible

@@ -13,6 +13,7 @@ VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 Date=23 FEB 1985
 Hemisphere=North
 Time=1300
+ForceIce=TRUE
 UsePresetEnvironment=TRUE
 Weather=Clear
 SeaState=LightBreeze

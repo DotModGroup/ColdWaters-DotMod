@@ -1,37 +1,58 @@
-//Hornet's Nest
+//Strike From The Sea
 
 UseTerrain=TRUE
-MapCoordinates=1393,681
-MapNavigationData=campaign/images/maps/norwegian_sea_navmap
-MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
-WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_nato
+MapCoordinates=1481,527
+MapNavigationData=campaign/images/maps/south_china_sea_navmap
+MapElevationData=campaign/images/maps/south_china_sea_bathymetry
+WorldObjectsData=campaign/maps/south_china_sea_world_objects
+VesselsAndTraffic=campaign/maps/south_china_sea_traffic
 
 //Environment
-Date=15 DEC 1984
+Date=27 MAR 1999
 Hemisphere=North
-Time=DAYLIGHT
-UsePresetEnvironment=TRUE
-Weather=Rain
+Time=0700
+UsePresetEnvironment=FALSE
+Weather=Broken
 SeaState=LightBreeze
 DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,2-5
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
-EnemyShipClasses=usn_84_dd_spruance_ai,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit
-FormationCruiseSpeed=12
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler,plan_ss_ming|plan_ddg_sovremenny|plan_ddg_luhu|plan_ddg_luda3|plan_ddg_luda|plan_ffg_jiangwei|plan_ff_jianghu3|plan_ff_jianghu|plan_ff_chengdu|civ_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-154,352
+PlayerHeading=150
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//N/S East flank
+EnemyWaypoints=52,194|27,534
+//North Patrol
+EnemyWaypoints=-44,512|-376,476
+//West Patrol
+EnemyWaypoints=-376,300|-560,240
+//South Patrol
+EnemyWaypoints=-324,121|260,121
 
 //Enemy Aircraft
-NumberOfHelicopters=0
-HelicopterType=wp_helix
-NumberOfAircraft=0
-AircraftType=wp_il-38_may
+NumberOfHelicopters=1
+//plan_helix
+HelicopterType=plan_z-9
+NumberOfAircraft=1
+AircraftType=plan_y-8x
 
-PlayerVessels=wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ssgn_oscar,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_charlie1,wp_68_em_kotlin_pl,wp_84_skr_krivak1_pl,wp_84_bpk_udaloy_pl
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=86,400,200
+AircraftSearchArea=-440,290,200
 
-CommanderName=COM NORTHERN FLEET
-CommanderFleetName=GLAVCOM VMF
-
-OtherVessels=usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles,usn_84_ff_knox_ai,usn_84_cg_belknap_ai,usn_84_dd_spruance_ai,usn_84_cvn_nimitz_ai,wp_fv_trawler,civ_fv_trawler,civ_ms_small_freighter,civ_ms_freighter_a,civ_ms_freighter_b,civ_ms_super_p,civ_ms_roro,civ_ms_mercur,civ_ms_encounter,civ_ms_act_1,civ_ms_medium_tanker,civ_ms_sl7,civ_ms_leninskiy_komsomol,civ_ms_poltava,civ_ms_kommunist,civ_vtr_amguema,civ_vtr_andizhan,civ_vtr_yuniy_partizan,civ_ms_old_small_freighter,civ_ms_qiongsha,civ_oilrig,civ_spar_rig,biologic_humpback_whale,biologic_blue_whale
+PlayerVessels=usn_99_ssn_seawolf,usn_99_ssn_los_angeles_flt3,usn_99_ssn_los_angeles_flt2
+CommanderName=COMSUBPAC
+CommanderFleetName=CINCPACFLT

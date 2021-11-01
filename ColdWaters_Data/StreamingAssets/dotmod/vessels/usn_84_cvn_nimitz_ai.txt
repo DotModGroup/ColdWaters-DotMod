@@ -63,148 +63,196 @@ AntiAirMissileLaunchDepth=15
 AntiAirMissileLaunchPoints=0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64|0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.31803,0.29,1.64
 AntiAirMissileLaunchPointsRotation=-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0
 
-
-
-
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
 NoisemakerReloadTime=10
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_cvn_nimitz
-ModelFile=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz.obj
+AssetBundle=bundles/dotmodgenericresources.unity3d
+AssetBundle=bundles/vessels/usn_cvn_nimitz.unity3d
+ModelFile=assets/models/usn_cvn_nimitz.fbx
 
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=usn_84_cvn_nimitz_coll_hull
-MeshSuperstructureCollider=usn_84_cvn_nimitz_coll_ss
+MeshHullCollider=usn_cvn_nimitz_coll_hull
+MeshSuperstructureCollider=usn_cvn_nimitz_coll_ss
 
-Material=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_mat.mat
+Material=assets/materials/usn_cvn_nimitz.mat
 
--MaterialTextures=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_tx.dds,assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_spec.dds,assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_nm.dds
+Mesh=usn_cnv_nimitz_hull
+Mesh=usn_cvn_nimitz_flightdeck
+Mesh=usn_cvn_nimitz_superstructure
 
-MaterialTextures=vessels/textures/usn_84_cvn_nimitz_tx.png,vessels/textures/usn_84_cvn_nimitz_spec.png,vessels/textures/usn_84_cvn_nimitz_nm.png
+MeshPosition=-0.1006533,-0.04675449,-2.166916
+MeshRudder=usn_cvn_nimitz_rudder_left
 
+MeshPosition=0.1006533,-0.04675449,-2.166916
+MeshRudder=usn_cvn_nimitz_rudder_right
 
-//Меш "Нимица"
-Mesh=usn_84_cvn_nimitz,usn_84_cvn_nimitz_d
-
-//Меш авиагруппы
-//Mesh=Mesh=usn_84_cvn_nimitz_airwing,usn_84_cvn_nimitz_airwing_d
-Mesh=usn_84_cvn_nimitz_airwing,HIDE
-
-//Меши рулей
-MeshPosition=-0.11629,-0.0,-2.12
-MeshRudder=usn_84_cvn_nimitz_rudder
-
-MeshPosition=0.1154,-0.0,-2.12
-MeshRudder=usn_84_cvn_nimitz_rudder
-
-//Бортовой номер
 MeshPosition=0,0,0
 Material=ships/materials/hullnumbers/hullnumber
-MeshHullNumber=usn_84_cvn_nimitz_hullnumber
+MeshHullNumber=usn_cvn_nimitz_hullnumbers
 
-Material=ships/materials/modular_parts
-//Меш доп. деталей
-MeshPosition=0,0,0
-Mesh=usn_84_cvn_nimitz_extra,usn_84_cvn_nimitz_extra_d
+AssetBundle=bundles/parts/usn_props.unity3d
 
-MeshPosition=-0.27414,-0.09375,-1.90221
-MeshProp=usn_84_cvn_nimitz_prop
+ModelFile=assets/models/usn_props_e2c.fbx
+Material=assets/materials/usn_props_e2c.mat
+MeshPosition=0.031,0.258,-0.74
+MeshRotation=0,-90,0
+Mesh=usn_props_e2c_folded
+MeshPosition=0.1137,0.258,-1.216
+MeshRotation=0,-90,0
+Mesh=usn_props_e2c_folded
 
-MeshPosition=-0.11168,-0.09002,-2.02495
-MeshProp=usn_84_cvn_nimitz_prop
-
-MeshPosition=0.11168,-0.09002,-2.02495
-MeshProp=usn_84_cvn_nimitz_prop
-
-MeshPosition=0.27414,-0.09375,-1.90221
-MeshProp=usn_84_cvn_nimitz_prop
-
-//Flags
-ModelFile=ships/wp_takr_kiev/wp_takr_kiev
-MeshPosition=0.317,0.168,-0.95
-MeshRotation=270,90,0
-Material=ships/materials/flag_us
-MeshMainFlag=wp_takr_kiev_animatedflag,HIDE
-
-//RADARs
-
-MeshRotation=0,0,0
-
-RADARSpeed=120
-RADARDirection=1
-
-Material=ships/materials/modular_parts
-MeshPosition=0.44552,0.76528,-0.6392
-MeshRADAR=wp_takr_kiev_flatradar,HIDE
-
-MeshPosition=0.37263,0.76126,-0.7125
-MeshRADAR=wp_takr_kiev_flatradar,HIDE
-
+ModelFile=assets/models/usn_props_a6.fbx
+Material=assets/materials/usn_props_a6.mat
+MeshPosition=0.327,0.258,-0.043
+MeshRotation=0,-90,0
+Mesh=Grumman+A-6E+Intruder
+MeshPosition=0.327,0.258,-0.162
+MeshRotation=0,-90,0
+Mesh=Grumman+A-6E+Intruder
+MeshPosition=0.004,0.258,2.088
+MeshRotation=0,-30,0
+Mesh=Grumman+A-6E+Intruder
+MeshPosition=-0.007,0.258,2.288
+MeshRotation=0,30,0
+Mesh=Grumman+A-6E+Intruder
+MeshPosition=-0.016,0.258,0.419
+MeshRotation=0,-10,0
+Mesh=Grumman+A-6E+Intruder
+MeshPosition=0.041,0.258,0.102
+MeshRotation=0,-10,0
+Mesh=Grumman+A-6E+Intruder
 
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
+Material=ships/materials/modular_parts
 
+MeshScale=1.25,1.25,1.25
+MeshRotation=0,0,0
+MeshPosition=-0.2158,-0.1148,-1.7477
+MeshProp=usn_cg_belknap_prop_l
+
+MeshPosition=-0.1004,-0.11,-2.0519
+MeshProp=usn_cg_belknap_prop_l
+
+MeshPosition=0.1004,-0.11,-2.0519
+MeshProp=usn_cg_belknap_prop_r
+
+MeshPosition=0.2158,-0.1148,-1.7477
+MeshProp=usn_cg_belknap_prop_r
+
+MeshScale=1,1,1
+
+//RADARs
+RADARDirection=1
 RADARSpeed=100
 Material=ships/materials/usn_sps_48
-MeshPosition=0.43804,0.63368,-0.5512
+MeshPosition=0.39188,0.5776,-0.8348
 MeshRADAR=usn_cg_belknap_sps_48,HIDE
 
 RADARSpeed=100
 Material=ships/materials/usn_sps_49
-MeshPosition=0.41853,0.67321,-0.84161
+MeshPosition=0.4481,0.5296,-1.2104
 MeshRADAR=usn_cg_belknap_sps_49,HIDE
 
+ModelFile=ships/wp_takr_kiev/wp_takr_kiev
+RADARSpeed=120
+MeshRotation=0,0,0
+MeshPosition=0.4081,0.6761,-0.9947
+Material=ships/materials/modular_parts
+MeshRADAR=wp_takr_kiev_flatradar,HIDE
+
+MeshPosition=0.4081,0.6692,-0.9131
+MeshRADAR=wp_takr_kiev_flatradar,HIDE
 
 [Weapon Systems]
-//Naval Guns
-
-//Torpedo Mounts
-
 //Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.011,-1.106
 MeshNoisemakerMount=FALSE
 
-ModelFile=ships/wp_takr_kiev/wp_takr_kiev
-//Missile Defense CIWS Guns and RADARs
-Material=ships/materials/modular_parts
+AssetBundle=bundles/parts/usn_parts.unity3d
 
-MeshRotation=0,0,0
-MeshPosition=-0.265,0.176,0.85
-MeshCIWSRADAR=wp_takr_kiev_basstilt
-
-MeshRotation=0,180,0
-MeshPosition=-0.245,0.158,-1.755
-MeshCIWSRADAR=wp_takr_kiev_basstilt
-
-ModelFile=ships/usn_ff_knox/usn_ff_knox
-Material=ships/materials/usn_parts
-
-//Передний правый
+//Phalanx CIWS
+//Bases
+ModelFile=assets/models/usn_parts_phalanx.fbx
+Material=assets/materials/usn_parts_phalanx.mat
 MeshRotation=0,90,0
-MeshPosition=0.31803,0.28106,1.53324
-MeshCIWSGun=usn_ff_knox_ciws
+MeshPosition=0.264,0.1863,1.42
+Mesh=usn_parts_phalanx_mount
 
-//Передний левый
 MeshRotation=0,-90,0
-MeshPosition=-0.33805,0.2188,1.62364
-MeshCIWSGun=usn_ff_knox_ciws
+MeshPosition=-0.288,0.204,1.5314
+Mesh=usn_parts_phalanx_mount
 
-//Задний левый
 MeshRotation=0,-90,0
-MeshPosition=-0.37078,0.20497,-2.2116
-MeshCIWSGun=usn_ff_knox_ciws
+MeshPosition=-0.288,0.204,-2.007
+Mesh=usn_parts_phalanx_mount
 
-//Эадний
 MeshRotation=0,180,0
-MeshPosition=0.21455,0.22949,-2.34101
-MeshCIWSGun=usn_ff_knox_ciws
+MeshPosition=0,0.081,-2.3442
+Mesh=usn_parts_phalanx_mount
 
+//Stbd Phalanx
+ModelFile=ships/usn_cg_belknap/usn_cg_belknap
+Material=ships/materials/usn_parts
+MeshPosition=0.264,0.2063,1.42
+MeshRotation=0,90,0
+MeshCIWSGun=usn_cg_belknap_ciws
+MeshCIWSRADAR=FALSE
 
-ModelFile=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz.obj
+//Port Forward Phalanx
+MeshPosition=-0.288,0.224,1.5314
+MeshRotation=0,-90,0
+MeshCIWSGun=usn_cg_belknap_ciws
+MeshCIWSRADAR=FALSE
+
+//Port Aft Phalanx
+MeshPosition=-0.288,0.224,-2.007
+MeshRotation=0,-90,0
+MeshCIWSGun=usn_cg_belknap_ciws
+MeshCIWSRADAR=FALSE
+
+//Aft Phalanx
+MeshPosition=0,0.101,-2.3442
+MeshRotation=0,180,0
+MeshCIWSGun=usn_cg_belknap_ciws
+MeshCIWSRADAR=FALSE
+
+ModelFile=assets/models/usn_parts_mk29.fbx
+Material=assets/materials/usn_parts_mk29.mat
+
+//Stbd Aft Sea Sparrow
+MeshRotation=0,-45,0
+MeshPosition=0.3134,0.2188,-2.2149
+Mesh=usn_parts_mk29_base
+Mesh=usn_parts_mk29_pedestal
+MeshRotation=20,0,0
+MeshPosition=0,0.02177729,0.0004514355
+ChildMesh=usn_parts_mk29_launcher
+
+//Port Aft Sea Sparrow
+MeshRotation=0,45,0
+MeshPosition=-0.2841,0.2055,-2.1523
+Mesh=usn_parts_mk29_base
+Mesh=usn_parts_mk29_pedestal
+MeshRotation=20,0,0
+MeshPosition=0,0.02177729,0.0004514355
+ChildMesh=usn_parts_mk29_launcher
+
+//Stbd Fwd Sea Sparrow
+MeshRotation=0,-135,0
+MeshPosition=0.273,0.2055,1.533
+Mesh=usn_parts_mk29_base
+Mesh=usn_parts_mk29_pedestal
+MeshRotation=20,0,0
+MeshPosition=0,0.02177729,0.0004514355
+ChildMesh=usn_parts_mk29_launcher
+
+AssetBundle=bundles/vessels/usn_cvn_nimitz.unity3d
+ModelFile=assets/models/usn_cvn_nimitz.fbx
 
 //Wake and Smoke
 MeshPosition=0,0,0
@@ -212,11 +260,8 @@ MeshRotation=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
-CavitationParticle=assets/resourcesforbundles/vessels/usn/usn_cvn_nimitz/usn_84_cvn_nimitz_cavitation.prefab
-//FunnelSmokeParticle=ships/particles/wp_takr_kiev_smokeemitter
+CavitationParticle=assets/effects/usn_cvn_nimitz_cavitation.prefab
 
-
-//Так и не разобрался на что это влияет
 MeshPosition=0,0,0.742
 MeshHullWake=plan_ap_qiongsha_hullwake
 MeshPosition=0,0,-0.578
@@ -226,18 +271,16 @@ MeshSternWake=plan_ap_qiongsha_sternwake
 ParticleBowWavePosition=0,0,2.35
 ParticlePropWashPosition=0,-0.056,-2.2
 ParticleHullFoamPosition=0,0,1.95
-//ParticleHullFoamParameters = Длинна пены, Интенсивность пены,расстояние между волнами (или частота появления), массштаб спрайта пены, скорость движения пены (ага, сама назад плывёт), Отклонение пены влево-вправо, какой-то неведомый рандомайз размера и направления..
 ParticleHullFoamParameters=500,0.55,0.45,0.008,0,0,0.25
 ParticleSternFoamPosition=0,0,-2.5
 ParticleSternFoamParameters=400,0.35,0.28,0.006,0.01,0,0.5
 KelvinWaves=6.5,9.0
 
-//EngineAudioClip=audio/units/turbine_large
+[Audio]
 EngineAudioClip=audio/units/Nimitz_turbine.ogg
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,25
 EngineAudioPitchRange=0.7,1.1
-//PropAudioClip=audio/units/ship_propeller
 PropAudioClip=audio/units/Nimitz_propeller.ogg
 PropAudioRollOff=LOGARITHMIC
 PropAudioDistance=1,20

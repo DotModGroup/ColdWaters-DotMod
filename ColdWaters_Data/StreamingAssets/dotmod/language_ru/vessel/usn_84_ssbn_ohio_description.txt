@@ -5,6 +5,5 @@ Description=ПЛАРБ «Огайо» (1984г.)
 History=ПЛАРБ типа «Огайо» (англ. Ohio class SSBN/SSGN) — серия из 18 американских стратегических атомных подводных лодок третьего поколения, вступивших в строй с 1981 по 1997 год. С 2002 года единственный тип ракетоносцев, находящихся на вооружении ВМС США. Каждая лодка вооружена 24 межконтинентальными баллистическими ракетами «Трайдент», оснащёнными разделяющимися головными частями с индивидуальным наведением. Лодки типа «Огайо» составляют основу стратегических наступательных ядерных сил США и постоянно выходят на боевое патрулирование, проводя в море 60 % времени.
 
 [Player Ship Instances]
-
-PlayerClassNames=Alabama,Alaska,Nevada,Tennessee,Pennsylvania,West Virginia,Kentucky,Maryland,Nebraska,Rhode Island,Maine,Wyoming,Louisiana
-PlayerClassHullNumbers=SSBN-731,SSBN-732,SSBN-733,SSBN-734,SSBN-735,SSBN-736,SSBN-737,SSBN-738,SSBN-739,SSBN-740,SSBN-741,SSBN-742,SSBN-743
+PlayerClassNames=Ohio,Michigan,Florida,Georgia,Henry M. Jackson
+PlayerClassHullNumbers=SSBN-726,SSBN-727,SSBN-728,SSBN-729,SSBN-730

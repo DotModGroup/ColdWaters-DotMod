@@ -1,9 +1,7 @@
-//Busted
-Image=campaign/images/pact surface raiders 2
-MissionLocation=Norvegian Sea
-Briefing=06 MAY 1985
-Briefing=You've been detected while crossing SOSUS barrier and must defend yourself.
+Image=campaign/images/pact wolfpack 3
+MissionLocation=In the Denmark Strait
+Briefing=14 NOV 1984
+Briefing=A NATO ASW patrol has pursued you into the Denmark Strait. Now it is time to go on the offensive.
 Briefing=
 Briefing=Primary Objective:
-Briefing=Sink enemy ships
-Briefing=
+Briefing=Sink enemy escorts

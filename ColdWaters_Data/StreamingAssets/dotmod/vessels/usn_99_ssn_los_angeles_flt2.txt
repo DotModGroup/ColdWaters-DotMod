@@ -26,7 +26,7 @@ Waterline=0.05
 SubmergedAt=0.172
 CavitationParameters=20,-100
 PropRotationSpeed=-190
-TestDepth=950
+TestDepth=1200
 EscapeDepth=600
 PeriscopeDepthInFeet=49
 

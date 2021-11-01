@@ -387,7 +387,7 @@ FrequencyAbbreviatedVL=VL
 FrequencyAbbreviatedL=L
 FrequencyAbbreviatedM=M
 FrequencyAbbreviatedH=H
-ReferenceTestDepth=Test Depth:
+ReferenceTestDepth=Max Depth:
 ReferenceWires=Number of wires:
 
 [Sea States]

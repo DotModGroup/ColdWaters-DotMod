@@ -24,6 +24,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-2
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=wp_84_ssgn_charlie2,wp_84_ssn_victor3|wp_84_ssn_sierra
+EnemyShipClasses=wp_84_ssgn_charlie2,wp_84_ssn_victor3
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

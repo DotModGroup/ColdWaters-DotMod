@@ -27,7 +27,7 @@ SubmergedAt=0.114
 CavitationParameters=20,-100
 PropRotationSpeed=-150
 TestDepth=1312
-EscapeDepth=1050
+EscapeDepth=1200
 PeriscopeDepthInFeet=30
 
 [Acoustics & Sensors]

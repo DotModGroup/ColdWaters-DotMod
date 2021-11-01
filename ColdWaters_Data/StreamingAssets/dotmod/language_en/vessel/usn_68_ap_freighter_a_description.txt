@@ -2,4 +2,4 @@
 ShipClass=US Large Cargo
 ShipClassShort=Large Cargo
 Description=US large cargo ship
-History=These are large, powerful ships capable of hauling breakbulk cargo as well as standard 20 foot containers. A 24.000 SHP steam plant gives a service speed of 21 knots. A number of them used by US to transport military goods.
+History=These are large, powerful ships capable of hauling breakbulk cargo as well as standard 20 foot containers. A 24,000 SHP steam plant gives a service speed of 21 knots. A number of them used by US to transport military goods.

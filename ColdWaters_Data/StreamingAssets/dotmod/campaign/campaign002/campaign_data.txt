@@ -259,6 +259,7 @@ PlayerMissionCount=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 FirstMissionTypes=SURGE
 DefaultMissionTypes=SS_WOLFPACK,SSN_WOLFPACK
+FailsafeMissionType=ASUW_STRIKE
 CommandoLoadTime=120
 
 Mission=SURGE_0
@@ -295,7 +296,6 @@ Mission=ASUW_STRIKE_8
 Mission=ASUW_STRIKE_LG_0
 Mission=ASUW_STRIKE_LG_1
 Mission=ASUW_STRIKE_LG_2
-Mission=ASUW_STRIKE_LG_3
 Mission=SSBN_RUN_0
 Mission=SSBN_RUN_1
 Mission=SSBN_RUN_2

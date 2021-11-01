@@ -93,10 +93,26 @@ FLOODING5=-164,49,-71,-43
 DamageControlPartyY=-31
 
 [Model]
+//Masts
+AssetBundle=bundles/vessels/uk_ssn_trafalgar.unity3d
+ModelFile=assets/models/uk_ssn_trafalgar.fbx
+Material=assets/materials/uk_84_ssn_trafalgar.mat
 
-AssetBundle=bundles/vessels/uk/uk_ss_oberon
-//ModelFile=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon.obj
-ModelFile=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon.fbx
+MeshRotation=0,0,0
+MeshPosition=0,0.0967,0.0336
+MastHeight=0.085
+MeshMast=uk_ssn_trafalgar_mast_periscope
+
+MeshPosition=0,0.1193,0.0185
+MastHeight=0.085
+MeshMast=uk_ssn_trafalgar_mast_esm
+
+MeshPosition=0,0.1193,0.0077
+MastHeight=0.085
+MeshMast=uk_ssn_trafalgar_mast_radar
+
+AssetBundle=bundles/vessels/uk_ss_oberon.unity3d
+ModelFile=assets/models/uk_ss_oberon.fbx
 
 MeshPosition=0,0,0
 MeshRotation=0,0,0
@@ -104,47 +120,24 @@ MeshRotation=0,0,0
 MeshHullCollider=uk_ss_oberon_coll_hull
 MeshSuperstructureCollider=uk_ss_oberon_coll_ss
 
-Material=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon_mat.mat
-//MaterialTextures=vessels/textures/uk_ss_oberon_tx.png,textures/usn_ssn_virginia_spec.png,FALSE
+Material=assets/materials/uk_ss_oberon.mat
 Mesh=uk_ss_oberon
-//Mesh=uk_ss_oberon_tube_covers
-//Mesh=uk_ss_oberon_sonar187
 Mesh=uk_ss_oberon_sonar2051
 
-
-MeshPosition=0,-0.00022,-0.60249
+MeshPosition=0.0000000000,-0.0006629963,-0.6345799000
 MeshRudder=uk_ss_oberon_rudder
 
-MeshPosition=0,0.01882,0.45729
+MeshPosition=0.0000000000,0.0195716700,0.4761834000
 MeshBowPlanes=uk_ss_oberon_bowplanes
 
-MeshPosition=0,-0.03635,-0.57387
+MeshPosition=0.0000000000,-0.0383566600,-0.6051322000
 MeshSternPlanes=uk_ss_oberon_sternplanes
 
-MeshPosition=-0.02008,-0.03655,-0.55055
+MeshPosition=-0.0211502600,-0.0384698400,-0.5794581000
 MeshProp=uk_ss_oberon_prop_l
 
-MeshPosition=0.02008,-0.03655,-0.55055
+MeshPosition=0.0201910900,-0.0384698400,-0.5794581000
 MeshProp=uk_ss_oberon_prop_r
-
-MeshRotation=0,0,0
-
-
-//Masts
-AssetBundle=bundles/vessels/uk/uk_ssn_trafalgar
-ModelFile=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar.obj
-Material=assets/vessels/uk/uk_ssn_trafalgar/uk_ssn_trafalgar_mat.mat
-MeshPosition=0,-0.03,0.05
-MastHeight=0.1
-MeshMast=uk_ssn_trafalgar_mast_periscope
-
-MeshPosition=0,0,0.01
-MastHeight=0.1
-MeshMast=uk_ssn_trafalgar_mast_esm
-
-MeshPosition=0,0,-0.03
-MastHeight=0.085
-MeshMast=uk_ssn_trafalgar_mast_radar
 
 [Weapon Systems]
 
@@ -153,69 +146,42 @@ MeshRotation=0,0,0
 
 //Port side
 //Tube 1
-MeshPosition=-0.016,-0.015,0.54
-TorpedoSpawnPosition=-0.016,-0.015,0.54
-TorpedoEffectPosition=-0.016,-0.015,0.54
+MeshPosition=-0.0199296900,-0.0136104300,0.5168914000
+TorpedoSpawnPosition=-0.0199296900,-0.0136104300,0.5168914000
+TorpedoEffectPosition=-0.0199296900,-0.0136104300,0.5168914000
 
 //Tube 2
-MeshPosition=-0.014,-0.034,0.54
-TorpedoSpawnPosition=-0.014,-0.034,0.54
-TorpedoEffectPosition=-0.014,-0.034,0.54
+MeshPosition=-0.0184976200,-0.0339023400,0.5168914000
+TorpedoSpawnPosition=-0.0184976200,-0.0339023400,0.5168914000
+TorpedoEffectPosition=-0.0184976200,-0.0339023400,0.5168914000
 
 //Tube 3
-MeshPosition=-0.012,-0.05,0.53
-TorpedoSpawnPosition=-0.012,-0.05,0.53
-TorpedoEffectPosition=-0.012,-0.05,0.53
+MeshPosition=-0.0137240400,-0.0519670800,0.5168914000
+TorpedoSpawnPosition=-0.0137240400,-0.0519670800,0.5168914000
+TorpedoEffectPosition=-0.0137240400,-0.0519670800,0.5168914000
 
 //Starboard side
 //Tube 4
-MeshPosition=0.016,-0.015,0.54
-TorpedoSpawnPosition=0.016,-0.015,0.54
-TorpedoEffectPosition=0.016,-0.015,0.54
+MeshPosition=0.0199296300,-0.0136104300,0.5168914000
+TorpedoSpawnPosition=0.0199296300,-0.0136104300,0.5168914000
+TorpedoEffectPosition=0.0199296300,-0.0136104300,0.5168914000
 
 //Tube 5
-MeshPosition=0.014,-0.034,0.54
-TorpedoSpawnPosition=0.014,-0.034,0.54
-TorpedoEffectPosition=0.014,-0.034,0.54
+MeshPosition=0.0184976000,-0.0339023400,0.5168914000
+TorpedoSpawnPosition=0.0184976000,-0.0339023400,0.5168914000
+TorpedoEffectPosition=0.0184976000,-0.0339023400,0.5168914000
 
 //Tube 6
-MeshPosition=0.012,-0.05,0.53
-TorpedoSpawnPosition=0.012,-0.05,0.53
-TorpedoEffectPosition=0.012,-0.05,0.53
-
-//Stern tubes
-//MeshRotation=0,180,0
-//Tube 7
-//MeshPosition=-0.011,0.01,-0.59
-//TorpedoSpawnPosition=-0.011,0.01,-0.59
-//TorpedoEffectPosition=-0.011,0.01,-0.59
-
-//Tube 8
-//MeshPosition=0.011,0.01,-0.59
-//TorpedoSpawnPosition=0.011,0.01,-0.59
-//TorpedoEffectPosition=0.011,0.01,-0.59
+MeshPosition=0.0137240300,-0.0519670800,0.5168914000
+TorpedoSpawnPosition=0.0137240300,-0.0519670800,0.5168914000
+TorpedoEffectPosition=0.0137240300,-0.0519670800,0.5168914000
 
 //Noisemaker Mount
 MeshRotation=0,0,0
 MeshPosition=0,-0.056,-0.24
 MeshNoisemakerMount=FALSE
 
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshRotation=0,0,0
-
-//MeshPosition=0,0.08,-0.57
-
-//MeshRotation=90,0,0
-//-Mesh=TASM_Canister
-
-AssetBundle=bundles/vessels/uk/uk_ss_oberon
-ModelFile=assets/vessels/uk/uk_ss_oberon/uk_ss_oberon.fbx
-
 //Wake
--CavitationParticle=ships/particles/wp_ssbn_yankee_cavitation
--CavitationParticle=ships/particles/wp_ssgn_echo2_cavitation
 CavitationParticle=ships/particles/plan_ss_ming_cavitation
 MeshPosition=0,0,-0.6496
 BowWaveParticle=ships/particles/bowwave_small
@@ -229,7 +195,6 @@ ParticleBowWavePosition=0,0,0.6
 ParticlePropWashPosition=0,-0.008,-0.6
 
 ParticleHullFoamPosition=0,0,0.24
--ParticleHullFoamParameters=40,0.25,0.25,0.055,0,0,0.25
 ParticleHullFoamParameters=40,0.25,0.25,0.006,0,0,0.25
 
 ParticleSternFoamPosition=0,0,-0.6
