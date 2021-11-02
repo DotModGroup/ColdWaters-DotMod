@@ -23,7 +23,8 @@ DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
 Waterline=0
-SubmergedAt=0.175
+//SubmergedAt=0.175
+SubmergedAt=0.124
 CavitationParameters=20,-100
 PropRotationSpeed=150,-150
 TestDepth=1312
@@ -226,6 +227,8 @@ ModelFile=ships/wp_ssgn_oscar/wp_ssgn_oscar
 CavitationParticle=ships/particles/wp_ssgn_oscar_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssgn_oscar_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssgn_oscar_emergency_blow
+
+CavitationParticlePosition=0,-0.03493459,0.309
 ParticleBowWavePosition=0,0,0.62
 ParticlePropWashPosition=0,-0.033,-0.82
 
