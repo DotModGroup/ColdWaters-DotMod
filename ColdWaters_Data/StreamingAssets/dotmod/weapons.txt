@@ -4763,7 +4763,8 @@ CountermeasureObjectReference=usn_noisemaker
 CountermeasureType=NOISEMAKER
 Lifetime=120
 SinkRate=0.01
-NoiseStrength=150
+//NoiseStrength=150
+NoiseStrength=250
 CountermeasureDescription=Standard USN noisemaker countermeasure.
 [Model]
 ModelFile=countermeasures/assets/noisemaker
@@ -4780,7 +4781,8 @@ CountermeasureObjectReference=wp_noisemaker
 CountermeasureType=NOISEMAKER
 Lifetime=120
 SinkRate=0.01
-NoiseStrength=150
+//NoiseStrength=150
+NoiseStrength=250
 CountermeasureDescription=Standard Soviet noisemaker countermeasure.
 [Model]
 ModelFile=countermeasures/assets/noisemaker
@@ -4798,7 +4800,8 @@ CountermeasureObjectReference=surf_noisemaker
 CountermeasureType=NOISEMAKER
 Lifetime=120
 SinkRate=0
-NoiseStrength=230
+//NoiseStrength=230
+NoiseStrength=250
 CountermeasureDescription=Noisemaker countermeasure for surface vessels.
 [Model]
 ModelFile=countermeasures/assets/noisemaker
