@@ -4834,7 +4834,8 @@ CountermeasureObjectReference=knuckle
 CountermeasureType=KNUCKLE
 Lifetime=8
 SinkRate=0
-NoiseStrength=100
+//NoiseStrength=100
+NoiseStrength=200
 CountermeasureDescription=FALSE
 CountermeasureParticle=countermeasures/assets/knuckle_fx
 [Model]
