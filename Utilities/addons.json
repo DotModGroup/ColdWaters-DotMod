@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "Test1",
+      "enabled": false,
+      "url": "crapURL1",
+      "definitionUrl":  "blah1"
+    },
+    {
+      "name": "Test2",
+      "enabled": false,
+      "url": "crapURL2",
+      "definitionUrl": "blah2"
+    }
+  ]
+}
