@@ -2,11 +2,11 @@
   "content": [
     {
       "relativePath": "test1_1.txt",
-      "hash": ""
+      "hash": "f72556581675ce7da89feba5040924e5a6f8167b"
     },
     {
       "relativePath": "test1_2.txt",
-      "hash": ""
+      "hash": "7ab2e1d62de50a7f36c640956a8a6bdfd614d438"
     }
   ]
 }
