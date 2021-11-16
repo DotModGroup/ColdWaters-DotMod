@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "name": "Test1",
+      "name": "Test Addon 1",
       "enabled": false,
-      "url": "crapURL1",
-      "definitionUrl":  "blah1"
+      "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon1/",
+      "definitionUrl": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon1/test_addon_1_definition.json"
     },
     {
-      "name": "Test2",
+      "name": "Test Addon 2",
       "enabled": false,
-      "url": "crapURL2",
-      "definitionUrl": "blah2"
+      "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon2/",
+      "definitionUrl": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon1/test_addon_2_definition.json"
     }
   ]
 }
