@@ -33,7 +33,8 @@ for line in file:
         weapon_name = line[30:]
         weapon += line
 
-    elif line.startswith("[/Model]") and weapon is not None:
+    elif (line.startswith('[/Model]') and weapon is not None) or \
+    (line.startswith('DepthWeaponAccuracy') and weapon_type == 'depthweapon_'):
         weapon += line
         file_save = open(
             "%s\\%s%s.txt" % (save_location, weapon_type, weapon_name[0:-1]),
