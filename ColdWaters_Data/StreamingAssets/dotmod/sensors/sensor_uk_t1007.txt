@@ -1,0 +1,2 @@
+RADARModel=uk_t1007
+RADARRange=58000

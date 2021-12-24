@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=usn_84_ffg_perry_ai|usn_84_ff_knox_ai
+EnemyShipClasses=usn_84_ffg_perry_ai|usn_84_ff_knox_ai|knm_84_ffg_oslo

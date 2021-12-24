@@ -1,0 +1,17 @@
+CountermeasureName=USN Noisemaker
+CountermeasureObjectReference=usn_noisemaker
+CountermeasureType=NOISEMAKER
+Lifetime=120
+SinkRate=0.01
+//NoiseStrength=150
+NoiseStrength=250
+CountermeasureDescription=Standard USN noisemaker countermeasure.
+[Model]
+ModelFile=countermeasures/assets/noisemaker
+Material=weapons/assets/usn_mk48_mat
+MaterialTextures=weapons/assets/usn_mk48_tx
+MeshPosition=0,0,0
+MeshCountermeasure=Noisemaker
+MeshPosition=0,0,0
+CountermeasureParticle=countermeasures/assets/noisemaker_fx
+[/Model]

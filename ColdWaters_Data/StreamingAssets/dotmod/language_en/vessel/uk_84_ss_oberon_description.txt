@@ -4,5 +4,5 @@ Description=Oberon Class SSK
 History=First entering service in 1960, the Oberon-class was designed to be a bigger more and more capable version of it's predocessor, the Porpoise-class. A total of 27 boats where built, and saw service with 5 different countries around the world. A total of eight 21" torpedo tubes where mounted in the original design, 6 forward and 2 non-reloadable tubes aft. These would be used solely to defend the boat against attacking escorts. They where later updated with better sonar and the newer Tigerfish torpedo, at the expense of the 2 aft tubes. The last of the class was finally retired in 2000.
 
 [Player Ship Instances]
-PlayerClassNames=HMS Oberon,HMS Ocelot,HMS Odin,HMS Olympus,HMS Onslaught,HMS Onyx,HMS Opportune,HMS Opossum,HMS Oracle,HMS Orpheus,HMS Osiris,HMS Otter,HMS Otus
+PlayerClassNames=Oberon,Ocelot,Odin,Olympus,Onslaught,Onyx,Opportune,Opossum,Oracle,Orpheus,Osiris,Otter,Otus
 PlayerClassHullNumbers=S09, S17, S10, S12, S14, S21, S20, S19, S16, S11, S13, S16, S18

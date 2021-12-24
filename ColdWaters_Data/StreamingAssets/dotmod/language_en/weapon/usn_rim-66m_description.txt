@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=RIM-66M-5
+WeaponDescriptiveName=RIM-66M-5 Standard Missile 2 MR
+WeaponDescription=Special: Surface-to-Air & Anti-Ship Missile\nThe RIM-66M-5 (SM-2MR Block IIIB) is the version of the Standard missile two medium range (SM-2MR) entered serive in 1998, with the USN aboard Ticonderoga class cruisers, and Arleigh Burke class destroyers. The missile is specifically designed for the Aegis Combat System and the Mk41 Vertical launch system. The Block IIIB missiles differ from earlier blocks by the addition of the MK 45 MOD 9 target detecting device, for improved performance against low altitude targets, and dual semi-active/infrared seeker for terminal homing. The dual seeker is intended for use in high-ECM environments, against targets over the horizon or with a small radar cross section. The seeker was originally developed for the canceled AIM-7R Sparrow air-to-air missile.

@@ -2,11 +2,11 @@ NextAction=MAP
 Image=campaign/images/awards/wp_background.jpg
 Photo=campaign/images/awards/ussr13ol.png
 Music=audio/music/Cold Waters Spotted
-Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
 
 Font=0
 Outline=FALSE
 Color=57,61,73,255
-Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
-Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ ЛЕНИНА"</size></b>
-Sentence2=ЦИТАТА:<n> За особо важные заслуги в защите социалистического Отечества и укреплении обороноспособности Союза ССР. В ходе войны командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERNAME> выполнил ряд боевых операций, обеспечивших превосходство КСФ на морском театре и продвижение сухопутных войск Советского Союза вглубь территории врага, понёсшего крупные потери из-за  нерегулярного снабжения частей.
+Title=<n> <b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b> <n><n> of <DATE>
+Sentence1=<size=14>The commander <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=18></size><n><n><size=22>the"ORDER OF LENIN"</size></b>
+Sentence2=QUOTE:<n> For particularly important services in the defense of the socialist Fatherland and strengthening the defense capability of the USSR. During the war, the commander of <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> <PLAYERNAME> carried out a number of combat operations that ensured the superiority of the CSF in the naval theater and the advance of the Soviet Union's ground forces deep into enemy territory, which suffered heavy losses due to irregular supply of units.

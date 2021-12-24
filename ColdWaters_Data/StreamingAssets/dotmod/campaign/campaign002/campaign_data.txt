@@ -57,14 +57,21 @@ NewFrontProbability=0.3
 [Aircraft]
 AircraftName=usn_p3c
 AircraftFaction=FRIENDLY
-AircraftPatrolSpeed=250
+AircraftPatrolSpeed=328
 AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png
 
-AircraftName=wp_il-38_may
+AircraftName=wp_il-38_may_68
 AircraftFaction=ENEMY
-AircraftPatrolSpeed=250
+AircraftPatrolSpeed=310
+AircraftPatrolRange=700
+AircraftDetectionRange=300
+AircraftSprite=campaign/images/sprites/icon_orion.png
+
+AircraftName=wp_be-12_mail
+AircraftFaction=ENEMY
+AircraftPatrolSpeed=384
 AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png

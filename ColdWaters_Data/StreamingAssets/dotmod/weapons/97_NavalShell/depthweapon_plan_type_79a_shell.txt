@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=plan_type_79a_shell
+DepthWeaponWarhead=10
+DepthWeaponRange=100,24000
+DepthWeaponNumberFired=26
+DepthWeaponRateOfFire=1.2
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=5.2
+DepthWeaponAccuracy=1

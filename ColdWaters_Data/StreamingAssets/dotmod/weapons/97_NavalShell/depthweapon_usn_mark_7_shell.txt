@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=usn_mark_7_shell
+DepthWeaponWarhead=32
+DepthWeaponRange=100,41622
+DepthWeaponNumberFired=3
+DepthWeaponRateOfFire=0.15
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=5.96
+DepthWeaponAccuracy=1.5

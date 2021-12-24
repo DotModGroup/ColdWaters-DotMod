@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,4-5,2-3,0-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,TRUE,FALSE,FALSE
-EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ap_roro|usn_84_ap_act_1,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ssn_los_angeles|usn_84_ssn_skipjack
+EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ap_roro|usn_84_ap_act_1,usn_84_ff_knox_ai|usn_84_ffg_perry_ai|uk_84_ffg_type21,usn_84_ssn_los_angeles|usn_84_ssn_skipjack

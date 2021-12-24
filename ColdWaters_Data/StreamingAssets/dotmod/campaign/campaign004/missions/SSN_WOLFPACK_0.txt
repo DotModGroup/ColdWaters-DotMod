@@ -2,7 +2,7 @@
 //Small
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SURFACE,SS,SSG,SSB,SSGN,SSBN
+ForbiddenFor=SSB,SSG,SSBN,SSGN,CL,CGN
 AllowedOnlyForCostBelow=400
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24

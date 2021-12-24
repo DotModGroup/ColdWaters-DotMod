@@ -2,12 +2,12 @@ NextAction=MAP
 Image=campaign/images/awards/wp_background.jpg
 Photo=campaign/images/awards/ussr15oRVS3.png
 Music=audio/music/Cold Waters Spotted
-Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
 
 Font=0
 Outline=FALSE
 Color=57,61,73,255
-Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
-Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=22>ОРДЕНОМ <n><n>«За службу Родине в Вооружённых Силах СССР»<n> III СТЕПЕНИ</size></b>
+Title=<n><b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b><n><n>Dated <DATE>
+Sentence1=<size=14>The Commander of <PLAYERVESSELHULL> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=22>THE ORDER <n><n>"For Service to the Motherland in the Armed Forces of the USSR"<n> III DEGREE</size></b>
 
-Sentence2=<n>Командир <PLAYERNAME> награждается за успехи в боевой и политической подготовке, в поддержании высокой боевой готовности экипажа и освоении новой боевой техники, что способствовало успешному выполнению <PLAYERVESSELHULL> ряда важных заданий.
+Sentence2=<n>The commander of <PLAYERVESSELHULL> is awarded for success in combat and political training, in maintaining high combat readiness of the crew and mastering new military equipment, which contributed to the successful completion of a number of important tasks.

@@ -67,23 +67,23 @@ NewFrontProbability=0.35
 [Aircraft]
 AircraftName=usn_p3c
 AircraftFaction=ENEMY
-AircraftPatrolSpeed=180
+AircraftPatrolSpeed=250
 AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png
 
 AircraftName=wp_il-38_may
 AircraftFaction=FRIENDLY
-AircraftPatrolSpeed=150
-AircraftPatrolRange=600
+AircraftPatrolSpeed=250
+AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png
 
 AircraftName=wp_tu-142_bear
 AircraftFaction=FRIENDLY
-AircraftPatrolSpeed=200
-AircraftPatrolRange=900
-AircraftDetectionRange=350
+AircraftPatrolSpeed=250
+AircraftPatrolRange=700
+AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_bear.png
 
 [Satellites]
@@ -413,7 +413,6 @@ Mission=SS_WOLFPACK_1
 Mission=SSN_WOLFPACK_0
 Mission=SSN_WOLFPACK_1
 Mission=SSN_WOLFPACK_2
-
 Mission=SUB_RESUPPLY_0
 Mission=SUB_RESUPPLY_1
 Mission=RETURN_TO_BASE

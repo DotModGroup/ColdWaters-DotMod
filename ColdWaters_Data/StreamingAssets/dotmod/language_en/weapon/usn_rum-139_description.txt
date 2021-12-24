@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=RUM-139
+WeaponDescriptiveName=RUM-139 VL-ASROC ASW Rocket
+WeaponDescription=Surface ship-vertical launched stand-off ASW rocket that flies on an unguided ballistic trajectory and drops a homing Mk-46 lightweight torpedo. The VL-ASROC as increased range over the earlier RUR-5 ASROC

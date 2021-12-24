@@ -1,0 +1,16 @@
+DepthWeaponObjectReference=usn_mk-54_depth_bomb
+DepthWeaponWarhead=102
+DepthWeaponContactExploded=FALSE
+DepthWeaponDepthExploded=TRUE
+// based on 100kg = 10m damage (not kill) radius, inverse cube law
+DepthWeaponKillRadius=10
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]

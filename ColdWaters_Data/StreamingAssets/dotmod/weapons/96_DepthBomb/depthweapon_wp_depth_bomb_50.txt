@@ -1,0 +1,15 @@
+DepthWeaponObjectReference=wp_depth_bomb_50
+DepthWeaponWarhead=50
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=TRUE
+DepthWeaponKillRadius=8
+DepthWeaponSinkRate=0.2
+[Model]
+ModelFile=weapons/assets/rgb-60
+Material=weapons/assets/usn_moss_mat
+MaterialTextures=weapons/assets/usn_moss_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=RGB-60
+MeshPosition=0,0,-0.014
+DepthWeaponBubblesParticle=weapons/assets/rbu_bubbles
+[/Model]

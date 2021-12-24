@@ -1,8 +1,8 @@
 //Player mission
 //Hardcoded. Only against NORWAYSPITSBERGEN SOSUS
 MissionType=SOSUS_BREACH
-AllowedOnlyFor=
-ForbiddenFor=SSB,SSBN,SURFACE
+AllowedOnlyFor=SS
+ForbiddenFor=SSB,SSBN,SSGN,SSG,SURFACE
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,0

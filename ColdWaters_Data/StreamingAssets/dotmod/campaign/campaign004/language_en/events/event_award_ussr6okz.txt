@@ -2,11 +2,11 @@ NextAction=MAP
 Image=campaign/images/awards/wp_background.jpg
 Photo=campaign/images/awards/ussr6okz.png
 Music=audio/music/Cold Waters Spotted
-Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
 
 Font=0
 Outline=FALSE
 Color=57,61,73,255
-Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
-Sentence1=<size=14>Командир <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> награждается </size><n><n><b><size=18></size><n><n><size=22>"ОРДЕНОМ КРАСНОЙ ЗВЕЗДЫ"</size></b>
-Sentence2=За личное мужество и отвагу, проявленные при исполнении воинского долга, отличную организацию и умелое руководство боевыми действиями <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> на коммуникациях врага, в результате которых противнику был нанесён значительный урон.
+Title=<n> <b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b> <n><n> of <DATE>
+Sentence1=<size=14>The commander <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=18></size><n><n><size=22>the"ORDER OF THE RED STAR"</size></b>
+Sentence2=For personal courage and bravery shown in the performance of military duty, excellent organization and skillful leadership of combat operations <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> on enemy communications, as a result of which significant damage was inflicted on the enemy.

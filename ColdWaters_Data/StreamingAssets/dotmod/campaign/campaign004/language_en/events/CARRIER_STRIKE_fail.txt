@@ -7,10 +7,10 @@ Header=<DATE>
 Font=0
 Outline=FALSE
 Color=180,71,64,255
-Title=<b>ВОЗДУШНОЕ ПРЕВОСХОДСТВО НАТО</b>|<b>ВВС АТАКУЕТ</b>|<b>УДАР С НЕБЕС</b>
+Title=<b>NATO AIR SUPERIORITY</b>/<b>AIR FORCE ATTACKS</b>|<b>A BLOW FROM HEAVEN</b>
 
 Color=57,61,73,255
-Sentence1=В последние дни, США нанёсли ряд мощных воздушных ударов на фронтах и в тылу территории занятой войсками стран Варшавского Договора. Эксперты считают, что такое внезапное усиление давления с воздуха связано с успешными действиями авианесущих группировок НАТО развёрнутых в северных водах.
+Sentence1=In recent days, the United States has launched a series of powerful air strikes on the fronts and in the rear of the territory occupied by the troops of the Warsaw Pact countries. Experts believe that such a sudden increase in air pressure is due to the successful actions of NATO aircraft carrier groups deployed in northern waters.
 
 Color=218,218,208,255
-Sentence2=Способность НАТО удерживать превосходство в воздухе в ключевых стратегических регионах, оказала столь необходимую помощь наземным войскам. Господство ВВС США в воздухе и на море способствует победе на земле.
+Sentence2=NATO's ability to maintain air superiority in key strategic regions has provided much-needed assistance to ground forces. The dominance of the US Air Force in the air and at sea contributes to victory on the ground.

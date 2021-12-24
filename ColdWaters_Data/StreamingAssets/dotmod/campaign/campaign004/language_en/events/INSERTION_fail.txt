@@ -8,7 +8,7 @@ Outline=FALSE
 Color=180,71,64,255
 Title=<b>MASSIVE AIRSTRIKES</b>|<b>NATO AIR SUPERIORITY</b>
 Color=57,61,73,255
-Sentence1=<b><ENDLOCATION>, <COUNTRY>:</b> Опираясь на хорошо оснащённые авиабазы, авиация НАТО завоевала и прочно удерживает господство в воздухе. Под прикрытием многочисленных воздушных патрулей, ударные самолёты НАТО действуют практически в полигонных условиях, серьёзно осложняя жизнь войскам ОВД.
+Sentence1=<b><ENDLOCATION>, <COUNTRY>:Relying on well-equipped air bases, NATO aviation has won and firmly holds air supremacy. Under the cover of numerous air patrols, NATO strike aircraft operate almost in landfill conditions, seriously complicating the life of the ATS troops.
 
 Color=218,218,208,255
-Sentence2=Взгляд с другой стороны. Выдержка из советской газеты «Известия»:<n>По сообщениям из Генштаба обстановка очень тяжёлая: Воздушные подступы к авиабазам надёжно блокированы истребительной авиацией врага, а развитая система ПВО исключает возможность ракетного удара. "К сожалению, на данный момент эти базы для нас неуязвимы" - признал представитель Генштаба.
+Sentence2= View from the other side. Excerpt from the Soviet newspaper Izvestia:<n>According to reports from the General Staff, the situation is very difficult: The air approaches to the air bases are reliably blocked by enemy fighter aircraft, and the developed air defense system excludes the possibility of a missile strike. "Unfortunately, at the moment these bases are invulnerable to us," the representative of the General Staff admitted.

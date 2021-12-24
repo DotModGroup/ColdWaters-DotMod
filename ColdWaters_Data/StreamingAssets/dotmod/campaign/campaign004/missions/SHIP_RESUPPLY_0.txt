@@ -2,7 +2,7 @@
 //Small
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=FF,SSB,SSBN,DD
 AllowedOnlyForCostBelow=390
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24

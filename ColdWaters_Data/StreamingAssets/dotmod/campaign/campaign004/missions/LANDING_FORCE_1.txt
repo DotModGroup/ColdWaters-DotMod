@@ -2,7 +2,7 @@
 //Medium enemy liberation
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL
+ForbiddenFor=SS,SSB,DD,FF,FFG
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=400
 HoursToStart=0,24

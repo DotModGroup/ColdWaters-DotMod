@@ -1,0 +1,57 @@
+WeaponObjectReference=usn_nt37c
+WeaponType=TORPEDO
+Special=SwimOut
+*
+Warhead=225
+//=Using about a 350% (4.6cm/1.3cm at the same scale [yes, measured with a ruler], estimate based on the arc lengths on the Navy's manual for this torp: https://maritime.org/doc/torpedomk37/, page 1-3 [NOT PAGES 1-3, PAGE 1-3]) would be too much, so I went with a 150% increase instead.
+SensorRange=2500
+SensorAngles=30,15
+*
+//=Not wire guided, based on the Mark 37 Mod 3, not the Mod 2, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.
+WireGuided=FALSE
+*
+//=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
+MaxLaunchDepth=1400
+MaxDepth=1400
+*
+//=Extremely jank math based on averages of performance data on page 3-13 of the above (rounded up a bit) and a 26 knot speed of a regular Mark 37.
+WeaponRanges=22000
+WeaponSpeed=36
+TurnRate=20
+MaxPitchAngle=45
+*
+HomeSettings=PASSIVE,ACTIVE
+AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
+DepthSettings=LEVEL,SHALLOW,DEEP
+*
+WeaponNoiseValues=155,220
+WeaponSprite=hud/sprites/usn_nt37c_sprite.png
+MinCameraDistance=0.3
+ResupplyTime=15
+[Model]
+ModelFile=weapons/assets/usn_mk37
+Material=weapons/assets/usn_mk48_mat
+MaterialTextures=textures/usn_nt37c_tx.png
+MeshPosition=0,0,0
+MeshWeapon=Mk37
+MeshPosition=0,0,0
+MeshWeaponPropRotation=-700
+MeshWeaponProp=Mk37_propl
+MeshWeaponPropRotation=700
+MeshWeaponProp=Mk37_propr
+MeshPosition=0,0,-0.0302
+CavitationParticle=weapons/assets/torpedo_cavitation_particle
+*
+AudioSource=TorpedoEngine
+AudioClip=audio/weapons/torpedo_in_water_loop
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1
+AudioLoop=TRUE
+AudioSource=TorpedoSonarPing
+AudioClip=audio/environment/sonar_ping_short
+AudioRollOff=LOGARITHMIC
+AudioDistance=1,25
+AudioPitch=1.2
+AudioLoop=FALSE
+[/Model]

@@ -1,0 +1,6 @@
+[Unit Reference]
+ShipClass=Ticonderoga (Late)
+Designation=CG
+Description=Ticonderoga-class Guided Missile Cruiser (Late)
+Aircraft=2 Sikorsky SH-60B Seahawk
+History=The Ticonderoga-class cruiser's design was based on that of the Spruance-class destroyer. The Ticonderoga class introduced a new generation of guided missile warships based on the Aegis phased array radar that is capable of simultaneously scanning for threats, tracking targets, and guiding missiles to interception. When they were designed, they had the most powerful electronic warfare equipment in the U.S. Navy, as well as the most advanced underwater surveillance system. These ships were one of the first classes of warships to be built in modules, rather than being assembled from the bottom up

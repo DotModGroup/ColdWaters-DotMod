@@ -2,7 +2,7 @@
 //Medium
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SURFACE,SS,SSG,SSB,SSGN,SSBN
+ForbiddenFor=SSB,SSG,SSBN,SSGN,CL,CGN
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=200
 HoursToStart=0,24

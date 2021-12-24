@@ -47,5 +47,5 @@ NewLevelGained=Crew proficiency increased!
 CrewQualities=Regular,Seasoned,Experts,Veterans,Elite,Legendary
 //Write something in theese phrases to describe your crew
 CrewQualitiesDescription=We have a regular crew.|We have a seasoned crew|We have an expert crew.|We have a veteran crew.|We have an elite crew.|Our crew is a legend of our navy.
-PlayerRanks=kapitan-leytenant,kapitan 3rd rank,kapitan 2nd rank,kapitan 1st rank,kontr-admiral
+PlayerRanks=Kapitan-Leytenant,Kapitan 3rd Rank,Kapitan 2nd Rank,Kapitan 1st Rank,Kontr-Admiral
 AwardsNeededForRank=0,2,5,8,16

@@ -8,7 +8,6 @@ Outline=FALSE
 Color=180,71,64,255
 Title=<b>WAR BENEATH THE WAVES</b>|<b>SUBS VS SUBS</b>|<b>SUBMARINES SUNK</b>
 Color=57,61,73,255
-Sentence1=По сообщениям из Генштаба, в результате решительных действий сил Северного Флота была сорвана операция ВМС НАТО. Подробности не разглашаются, однако известно, что благодаря действиям советских подводников, потоплены АПЛ НАТО, под ударами которых оказались суда снабжения ВМФ.
-
+Sentence1=According to reports from the General Staff, as a result of the decisive actions of the forces of the Northern Fleet, the operation of the NATO Navy was disrupted. Details were not disclosed, however, it is known that thanks to the actions of Soviet submariners, NATO submarines were sunk, under the blows of which the Navy supply vessels were.
 Color=218,218,208,255
-Sentence2=Потеря атомных ракетоносцев, безусловно заставит НАТО дважды подумать о проведении подобных операций в дальнейшем. Между тем, ВМФ СССР продолжает демонстрировать свою способность сохранять контроль над ситуацией и решать задачи снабжения флота в море.
+Sentence2=The loss of nuclear missile carriers will certainly make NATO think twice about conducting such operations in the future. Meanwhile, the Soviet Navy continues to demonstrate its ability to maintain control over the situation and solve the tasks of supplying the fleet at sea.

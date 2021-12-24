@@ -2,7 +2,7 @@
 //Large
 MissionType=SS_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=CL,SSB,SSBN
+ForbiddenFor=CL,SSB,SSBN,CGN
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=200
 HoursToStart=0,24
@@ -26,6 +26,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=2-4
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=uk_68_ss_oberon|knm_84_ss_kobben
+EnemyShipClasses=uk_84_ss_oberon|knm_84_ss_kobben
 EventWin=SS_WOLFPACK_win
 EventFail=SS_WOLFPACK_fail

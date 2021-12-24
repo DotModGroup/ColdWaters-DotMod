@@ -1,7 +1,0 @@
-NextAction=CHECK_MISSION
-Image=campaign/images/awards/event_statistics_background.jpg
-Photo=FALSE
-Header=ACHIEVEMENTS TO DATE
-
-Title=<PLAYER_RANK> <PLAYERNAME><n><CAPTAIN> of <PLAYERVESSELNAVY> <PLAYERVESSELNAME>, <PLAYERVESSELHULL>
-Sentence1=Days at war:<n><n>Missions accomplished:<n>Land strikes:<n>SEAL insertions:<n><n>Capital ships sunk:<n>Other warships sunk:<n>Submarines sunk:<n>Merchants sunk:<n>Total sunk:<n><n>Capital ship tonnage:<n>Other warship tonnage:<n>Submarine tonnage:<n>Merchant tonnage:<n>Total tonnage:<n><n><PRESTIGE_STAT>

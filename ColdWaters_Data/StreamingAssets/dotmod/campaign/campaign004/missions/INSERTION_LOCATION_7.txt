@@ -6,7 +6,7 @@ MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+NumberOfEnemyUnits=1-1,1-1,0-1,0-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
 EnemyShipClasses=knm_84_ss_kobben,knm_84_cgv_nordkapp,knm_84_ffg_oslo,knm_84_ffg_oslo|knm_84_cgv_nordkapp

@@ -2,7 +2,7 @@
 //Medium
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL
+ForbiddenFor=SSB,CL,CGN,FF
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24

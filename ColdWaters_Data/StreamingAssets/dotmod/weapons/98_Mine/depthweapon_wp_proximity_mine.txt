@@ -1,0 +1,15 @@
+DepthWeaponObjectReference=wp_proximity_mine
+IsProximityMine=TRUE
+DepthWeaponWarhead=260
+DepthWeaponContactExploded=TRUE
+DepthWeaponDepthExploded=FALSE
+DepthWeaponKillRadius=10
+DepthWeaponSinkRate=0
+[Model]
+ModelFile=weapons/assets/wp_mine
+Material=weapons/assets/wp_umgt-1_mat
+MaterialTextures=weapons/assets/wp_umgt-1_tx
+MeshPosition=0,0,0
+MeshDepthWeapon=influence_mine
+MeshPosition=0,0,0
+[/Model]

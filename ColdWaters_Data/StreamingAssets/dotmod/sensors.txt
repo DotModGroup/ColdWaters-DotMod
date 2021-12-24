@@ -1,5 +1,3 @@
-[Sonar]
-
 [SONAR]
 //I. Sonar
 // 1. USSR

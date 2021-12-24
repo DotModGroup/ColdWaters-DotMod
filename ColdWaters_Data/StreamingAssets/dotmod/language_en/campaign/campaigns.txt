@@ -2,4 +2,3 @@
 <color=#39CCCC>NATO North Atlantic 1968</color>
 <color=#7FDBFF>NATO South China Sea 2000</color>
 <color=Red>USSR North Atlantic 1984</color>
-<color=Red>Surface Fleet</color>

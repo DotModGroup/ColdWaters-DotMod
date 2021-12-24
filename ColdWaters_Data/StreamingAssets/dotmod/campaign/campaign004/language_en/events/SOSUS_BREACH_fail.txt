@@ -6,9 +6,8 @@ Header=<DATE>
 Font=0
 Outline=FALSE
 Color=180,71,64,255
-Title=<b>СОСУС В ДЕЙСТВИИ</b>|<b>НЕПРЕОДОЛИМЫЙ БАРЬЕР</b>
+Title=<b>SOSUS IN ACTION</b>|<b>AN INSURMOUNTABLE BARRIER</b>
 Color=57,61,73,255
-Sentence1=<b>По сообщениям пресс-службы НАТО, советская подводная лодка пытавшаяся прорваться в Норвежское море была обнаружена и потоплена противолодочными силами НАТО. Первоначально лодка была обнаружена системой СОСУС, после чего на неё были наведены противолодочные корабли и многоцелевые АПЛ.
-
+Sentence1=According to the Reuters wire service, a Soviet submarine trying to break into the Norwegian Sea was discovered and apparently sunk by NATO anti-submarine forces. Initially, the boat was detected by the SOSUS system, after which anti-submarine ships and multi-purpose submarines were directed to intercept it.
 Color=218,218,208,255
-Sentence2=Пресс-секретарь НАТО подчеркнул важность бесперебойного функционирования системы СОСУС: "Чтобы эффективно защищать наши конвои в Атлантике, мы должны знать когда русские попытаются к ним прорваться - а для этого нам нужен СОСУС".
+Sentence2=A NATO spokesman stressed the importance of the smooth functioning of the SOSUS system: "To effectively protect our convoys in the Atlantic, we need to know when the Russians will try to break through to them - and for this we need a SOSUS."

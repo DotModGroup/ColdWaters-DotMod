@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=GWS.30 Sea Dart
+WeaponDescriptiveName=GWS.30 Sea Dart SAM
+WeaponDescription=Sea Dart was a Royal Navy surface-to-air missile system designed in the 1960s and entering service in 1973. It was fitted to the Type 42 destroyers, Type 82 destroyer and Invincible-class aircraft carrier. Originally developed by Hawker Siddeley, the missile was built by British Aerospace after 1977. It was withdrawn from service in 2012.\nThe system a number of confirmed successful engagements in combat, including six aircraft, a helicopter and an anti-ship missile. It is believed to be the first ship-borne SAM system to destroy an AShM in combat.\nThe Sea Dart was also operated by the Argentinean Navy on their pair of Type 42 Destroyers.

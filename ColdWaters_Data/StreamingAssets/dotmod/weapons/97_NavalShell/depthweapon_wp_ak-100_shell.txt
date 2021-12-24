@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=wp_ak-100_shell
+DepthWeaponWarhead=10
+DepthWeaponRange=100,23500
+DepthWeaponNumberFired=20
+DepthWeaponRateOfFire=1
+DepthWeaponReloadTime=10
+DepthWeaponVelocity=5.2
+DepthWeaponAccuracy=1

@@ -2,7 +2,7 @@
 //Small
 MissionType=RESUPPLY_CONVOY
 AllowedOnlyFor=
-ForbiddenFor=SSB
+ForbiddenFor=SSB,SSBN
 AllowedOnlyForCostBelow=400
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24

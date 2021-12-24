@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=uk_mark_8_shell
+DepthWeaponWarhead=15
+DepthWeaponRange=100,25900
+DepthWeaponNumberFired=40
+DepthWeaponRateOfFire=1.5
+DepthWeaponReloadTime=30
+DepthWeaponVelocity=8.08
+DepthWeaponAccuracy=1

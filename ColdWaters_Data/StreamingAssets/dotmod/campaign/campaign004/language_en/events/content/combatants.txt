@@ -1,11 +1,11 @@
-FRIENDLY=NATO|Allied forces|Allies|West
-ENEMY=Soviets|Reds|Warsaw Pact|Pact|The Pact|Commies|Communists|East|Russia
+FRIENDLY=Soviets|Warsaw Pact|Russia
+ENEMY=NATO|West
 
-FRIENDLY_SINGULAR=NATO|West
-ENEMY_SINGULAR=Warsaw Pact|Pact|The Pact|East|Russia|Bear
+ENEMY_SINGULAR=NATO|West
+FRIENDLY_SINGULAR=Warsaw Pact|Russia
 
-FRIENDLY_PREFIX=NATO|Allied forces|Allies|West|We
-ENEMY_PREFIX=Soviets|Reds|Warsaw Pact|Pact|The Pact|Commies|Communists|East|Russia
+ENEMY_PREFIX=NATO|West
+FRIENDLY_PREFIX=Soviets|Warsaw Pact|Russia
 
-FRIENDLY_SUFFIX=NATO|Allied forces|Allies|West|Us
-ENEMY_SUFFIX=Soviets|Reds|Warsaw Pact|Pact|The Pact|Commies|Communists|East|Russia|The Bear
+ENEMY_SUFFIX=NATO|Allied forces|Allies|West|Us
+FRIENDLY_SUFFIX=Soviets|Warsaw Pact|Russia

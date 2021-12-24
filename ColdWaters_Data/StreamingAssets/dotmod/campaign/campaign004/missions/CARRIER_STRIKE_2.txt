@@ -2,7 +2,7 @@
 //Large
 MissionType=CARRIER_STRIKE
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=FF,FFG,DD
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=600
 HoursToStart=0,24

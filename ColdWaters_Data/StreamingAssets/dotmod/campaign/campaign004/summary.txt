@@ -1,6 +1,5 @@
 Image=campaign/images/pact landing 1
-//PlayerVessels=testship,wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssb_golf,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssbn_yankee,wp_68_ssgn_charlie1,wp_84_ss_tango,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ss_kilo,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_oscar,wp_84_em_sovremenny_pl,wp_84_bpk_udaloy_pl,wp_84_bpk_kara_pl,wp_84_takr_kiev_pl,wp_84_rkr_kirov_pl
-PlayerVessels=wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssb_golf,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssbn_yankee,wp_68_ssgn_charlie1,wp_84_ss_tango,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ss_kilo,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_oscar
+PlayerVessels=wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssb_golf,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssbn_yankee,wp_68_ssgn_charlie1,wp_84_ss_tango,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ss_kilo,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_oscar,wp_68_em_kotlin_pl,wp_84_mpk_grisha3_pl,wp_84_skr_krivak1_pl,wp_68_kr_sverdlov_pl,wp_84_bpk_udaloy_pl,wp_84_bpk_kara_pl,wp_84_em_sovremenny_pl,wp_84_rkr_kirov_pl
 
 [COMMANDER NAMES]
 CommanderName=COM NORTHERN FLEET
@@ -32,11 +31,14 @@ wp_84_ssn_victor3		=	600		=	3
 wp_84_ssn_sierra		=	800		=	3
 wp_84_ssn_akula1		=	1000	=	3
 wp_84_ssgn_oscar		=	1200	=	3
-wp_84_em_sovremenny_pl	=	0		=	0
-wp_84_bpk_udaloy_pl		=	400		=	0
-wp_84_bpk_kara_pl		=	800		=	0
-wp_84_takr_kiev_pl		=	1000	=	0
-wp_84_rkr_kirov_pl		=	1200	=	0
+wp_68_em_kotlin_pl		=	0		=	0
+wp_84_mpk_grisha3_pl	=	200		=	0
+wp_84_skr_krivak1_pl	=	400		=	1
+wp_68_kr_sverdlov_pl	=	600		=	1
+wp_84_bpk_kara_pl		=	400		=	2
+wp_84_bpk_udaloy_pl		=	600		=	2
+wp_84_em_sovremenny_pl	=	800		=	2
+wp_84_rkr_kirov_pl		=	1200	=	3
 usn_84_ssn_skipjack		=	0
 usn_84_ssn_permit		=	120
 usn_84_ssn_sturgeon		=	360

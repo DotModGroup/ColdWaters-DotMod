@@ -1,6 +1,6 @@
 MissionType=BERGEN_CONVOY
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=FF,FFG,DD
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=12,24

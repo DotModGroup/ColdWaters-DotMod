@@ -1,7 +1,7 @@
 //Player mission
 //Large
 MissionType=SUB_RESUPPLY
-AllowedOnlyFor=
+AllowedOnlyFor=SS,SSG,SSGN,SSN,SSK,DDG,FFG,CG
 ForbiddenFor=CL,SSB,SSBN
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=400

@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=wp_6x3_b-38_shell
+DepthWeaponWarhead=20
+DepthWeaponRange=100,33000
+DepthWeaponNumberFired=3
+DepthWeaponRateOfFire=0.1
+DepthWeaponReloadTime=10
+DepthWeaponVelocity=5.3
+DepthWeaponAccuracy=1

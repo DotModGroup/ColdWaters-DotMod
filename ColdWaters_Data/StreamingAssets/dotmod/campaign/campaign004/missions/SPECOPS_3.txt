@@ -2,7 +2,7 @@
 //Large
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL,DDGS
+ForbiddenFor=SSB,CL,FF,SS,DD
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=550
 HoursToStart=0,24

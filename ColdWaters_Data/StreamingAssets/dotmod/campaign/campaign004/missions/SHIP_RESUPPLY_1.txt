@@ -2,7 +2,7 @@
 //Medium
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
-ForbiddenFor=
+ForbiddenFor=FF,SSB,SSBN,FFG,DD
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=40
 HoursToStart=0,24

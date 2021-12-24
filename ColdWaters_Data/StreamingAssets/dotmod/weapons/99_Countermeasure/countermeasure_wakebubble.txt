@@ -1,0 +1,11 @@
+CountermeasureName=WakeBubble
+CountermeasureObjectReference=wakebubble
+CountermeasureType=WAKEBUBBLE
+Lifetime=580
+WakeBubbleDropInterval=20
+DisplayIconsOnDebug=TRUE
+SinkRate=0
+NoiseStrength=0
+CountermeasureDescription=FALSE
+[Model]
+[/Model]

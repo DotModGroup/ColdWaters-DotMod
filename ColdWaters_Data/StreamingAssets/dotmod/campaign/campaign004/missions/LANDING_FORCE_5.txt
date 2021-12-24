@@ -2,7 +2,7 @@
 //Large enemy liberation
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL,DDGS
+ForbiddenFor=SS,SSB,CL,DD,FF,FFG
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=550
 HoursToStart=0,24

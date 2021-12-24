@@ -2,7 +2,7 @@
 //Small enemy liberation
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
-ForbiddenFor=SSB
+ForbiddenFor=SSB,DD,FF,FFG
 AllowedOnlyForCostBelow=400
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24

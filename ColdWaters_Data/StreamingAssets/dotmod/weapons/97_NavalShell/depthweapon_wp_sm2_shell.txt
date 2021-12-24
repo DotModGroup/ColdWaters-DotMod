@@ -1,0 +1,8 @@
+DepthWeaponObjectReference=wp_sm2_shell
+DepthWeaponWarhead=15
+DepthWeaponRange=100,30363
+DepthWeaponNumberFired=2
+DepthWeaponRateOfFire=0.1
+DepthWeaponReloadTime=5
+DepthWeaponVelocity=5.3
+DepthWeaponAccuracy=1

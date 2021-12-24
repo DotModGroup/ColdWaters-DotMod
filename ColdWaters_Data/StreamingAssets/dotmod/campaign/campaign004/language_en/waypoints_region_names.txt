@@ -21,3 +21,4 @@ Ostersund=Sweden
 Helsinki=Finland
 Oulu=Finland
 Sodankyla=Finland
+<end>

@@ -1,0 +1,17 @@
+CountermeasureName=Surface Noisemaker
+CountermeasureObjectReference=surf_noisemaker
+CountermeasureType=NOISEMAKER
+Lifetime=120
+SinkRate=0
+//NoiseStrength=230
+NoiseStrength=250
+CountermeasureDescription=Noisemaker countermeasure for surface vessels.
+[Model]
+ModelFile=countermeasures/assets/noisemaker
+Material=weapons/assets/wp_soviet_torps_mat
+MaterialTextures=weapons/assets/wp_soviet_torps_tx
+MeshPosition=0,0,0
+MeshCountermeasure=Noisemaker
+MeshPosition=0,0,0
+CountermeasureParticle=countermeasures/assets/noisemaker_fx
+[/Model]

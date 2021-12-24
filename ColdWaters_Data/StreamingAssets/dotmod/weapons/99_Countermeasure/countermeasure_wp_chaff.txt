@@ -1,0 +1,15 @@
+CountermeasureName=Chaff
+CountermeasureObjectReference=wp_chaff
+CountermeasureType=CHAFF
+Lifetime=20
+SinkRate=0
+NoiseStrength=100
+ManualChaffReload=5
+ManualChaffJamTime=10
+JamKillTimer=11
+EMPPulseReload=30
+CountermeasureDescription=Aerial bursting chaff.
+[Model]
+MeshPosition=0,0,0
+CountermeasureParticle=countermeasures/assets/chaff_burst
+[/Model]

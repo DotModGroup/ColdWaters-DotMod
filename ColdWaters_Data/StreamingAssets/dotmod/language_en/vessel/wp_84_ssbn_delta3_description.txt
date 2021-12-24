@@ -2,3 +2,7 @@
 ShipClass=Delta III
 Description=Delta III-class Nuclear Ballistic Missile Submarine
 History=The various iterations of the turtlebacked Delta class have formed the bulk of the Soviet ballistic missile submarine deterrent since the early 1970s. This subgroup of 14 boats was enlarged in order to fire the larger MIRVed SS-N-18 missile, and has been redesigned for greater quieting, although all Delta class have proven to be comparatively loud SSBNs. These are the first submarines with the ability to fire any number of missiles in a single salvo.
+
+[Player Ship Instances]
+PlayerClassNames=,,,,,,Borisoglebsk,Zelenograd,Petropavlovsk-Kamchatskiy,Podolsk,,Svyatoy Georgiy Pobedonosets,Orenburg,Ryazan
+PlayerClassHullNumbers=K-441,K-424,K-455,K-449,K-490,K-487,K-496,K-506,K-211,K-223,K-180,K-433,K-129,K-44

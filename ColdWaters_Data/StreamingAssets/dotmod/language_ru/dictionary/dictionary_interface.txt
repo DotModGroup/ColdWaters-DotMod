@@ -200,7 +200,11 @@ Hours=Час
 
 [OTHER]
 Posthumously=посмертно
-NavyPrefixUSS=USS
+NavyPrefixUSN=USS
+NavyPrefixUK=HMS
+NavyPrefixPLAN=
+NavyPrefixWP=
+NavyPrefixKNM=HNoMS
 SUBMARINE=подводная лодка
 WARSHIP=военный корабль
 

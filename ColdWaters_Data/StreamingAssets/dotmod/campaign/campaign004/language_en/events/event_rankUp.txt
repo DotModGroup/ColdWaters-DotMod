@@ -2,14 +2,14 @@ NextAction=MAP
 Image=campaign/images/awards/wp_background1.jpg
 Photo=campaign/images/awards/blank.png
 Music=audio/music/Cold Waters Spotted
-Header=ПРЕЗИДИУМ ВЕРХОВНОГО СОВЕТА СССР<n>МОСКВА
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
 
 Font=0
 Outline=FALSE
 Color=57,61,73,255
-Title=<n>       <b>УКАЗОМ ПРЕЗИДИУМА ВЕРХОВНОГО СОВЕТА СССР</b> <n><n>                                    от <DATE>г.
-Sentence1=<size=14>Командиру <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <n><POSTHUMOUSLY> присваевается внеочередное воинское звание </size><n><n><b><n><n><size=22><PLAYER_RANK></size></b><n><n><n>
-Sentence2=<PLAYERVESSELNAME>, Партия поздравляет вас с повышением и желает дальнейших успехов на службе Родине!
+Title=<n><b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b> <n><n>Dated <DATE>
+Sentence1=<size=14>The commander of <PLAYERVESSELHULL> <PLAYERNAME> <n><POSTHUMOUSLY> is assigned an extraordinary military rank </size><n><n><b><n><n><size=22><PLAYER_RANK></size></b><n><n><n>
+Sentence2=<PLAYERNAME>, the Party congratulates you on your promotion and wishes you further success in the service of the Motherland!
 
-Вариант:<n>       <b>ВЫПИСКА ИЗ ПРИКАЗА</b><n><size=14>ВЕРХОВНОГО ГЛАВНОКОМАНДУЮЩЕГО<n>ВООРУЖЕННЫМИ СИЛАМИ СССР<n>№12</size> <n><n>                                    от <DATE>г.
-с1:У читывая заслуги храбрость и т.д присваевается бла-бла-бла
+Option:<n> <b>EXTRACT FROM THE ORDER</b><n><size=14>OF THE SUPREME COMMANDER<n>ARMED FORCES OF THE USSR<n>No.12</size> <n><n> from <DATE>
+from 1:Considering merit, bravery, etc. is assigned blah-blah-blah
