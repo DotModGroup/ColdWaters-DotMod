@@ -71,15 +71,17 @@ Player current noise displayed on tacmap
 Kobben model (Kitbash of a Tango)
 Charles F. Adams kitbash by Senia
 Ohio model by ElectricBoat, textures by KevinDDSSTT
-Ticonderoga model converted by that_person and TheHappyYachter
+Ticonderoga model  by ElectricBoat, customised by TheHappyYachter and with textures by Kevin DDSSTT (Team effort!)
 Oberon model by that_person
 Trafalgar model by TheHappyYachter, textures by KevinDDSSTT
 Oliver Hazard Perry model by TheHappyYachter, textures by KevinDDSSTT
 Type 21 Frigate model by TheHappyYachter, textures by KevinDDSSTT
+Type 42 Destroyer model by TheHappyYachter, textures by KevinDDSSTT
 Nimitz model by TheHappyYachter, textures by KevinDDSSTT
 Papa model by ElectricBoat, textures by KevinDDSSTT
 Barbel model by ElectricBoat, textures by KevinDDSSTT
 Nautilus model converted by that_person and TheHappyYachter, textures by KevinDDSSTT
+Gearing model by TheHappyYachter, textures by KevinDDSSTT
 Weapon models by Dot, TheHappyYachter and that_person
  + high quality models by ElectricBoat:
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
