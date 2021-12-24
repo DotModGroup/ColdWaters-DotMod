@@ -92,6 +92,7 @@ NumberOfNoisemakers=20
 NoisemakerReloadTime=20
 
 [Model]
+AssetBundle=bundles/dotmodgenericresources.unity3d
 //Belknap Parts
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 Material=ships/materials/usn_parts

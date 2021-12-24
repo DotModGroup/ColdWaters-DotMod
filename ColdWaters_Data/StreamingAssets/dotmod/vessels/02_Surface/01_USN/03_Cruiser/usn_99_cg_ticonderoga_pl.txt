@@ -137,6 +137,7 @@ FLOODING5=-92,48,-77,-49
 DamageControlPartyY=-36
 
 [Model]
+AssetBundle=bundles/dotmodgenericresources.unity3d
 //Belknap Parts
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
 Material=ships/materials/usn_parts
