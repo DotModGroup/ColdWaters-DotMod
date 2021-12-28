@@ -6,5 +6,5 @@ Aircraft=2 Sikorsky SH-60B Seahawk
 History=The Ticonderoga-class cruiser's design was based on that of the Spruance-class destroyer. The Ticonderoga class introduced a new generation of guided missile warships based on the Aegis phased array radar that is capable of simultaneously scanning for threats, tracking targets, and guiding missiles to interception. When they were designed, they had the most powerful electronic warfare equipment in the U.S. Navy, as well as the most advanced underwater surveillance system. These ships were one of the first classes of warships to be built in modules, rather than being assembled from the bottom up
 
 [Player Ship Instances]
-PlayerClassNames=Ticonderoga,Yorktown
-PlayerClassHullNumbers=CG-47,CG-28,CG-48
+PlayerClassNames=Bunker Hill,Mobile Bay,Antieta,Leyte Gulf,San Jacinto,Lake Champlain,Philippine Sea,Princeton,Normandy,Monterey,Chancellorsville,Cowpens,Gettysburg,Chosin,Hué City,Shiloh,Anzio,Vicksburg,Lake Erie,Cape St. George,Vella Gulf,Port Royal
+PlayerClassHullNumbers=CG-52,CG-53,CG-54,CG-55,CG-56,CG-57,CG-58,CG-59,CG-60,CG-61,CG-62,CG-63,CG-64,CG-65,CG-66,CG-67,CG-68,CG-69,CG-70,CG-71,CG-72,CG-73
