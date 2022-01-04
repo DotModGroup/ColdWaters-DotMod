@@ -40,4 +40,4 @@ Foreach-Object {
     $data.Add($weapon)
 }
 
-$data | ConvertTo-Json -depth 5 | Out-File "website/content/weapons.json"
+$data | ConvertTo-Json -depth 5 | Out-File ( New-Item -Path "website/content/weapons.json" -Force)
