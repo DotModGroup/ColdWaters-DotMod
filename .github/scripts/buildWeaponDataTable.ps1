@@ -26,17 +26,17 @@ Foreach-Object {
 
     try{
         $sprite = Get-Item -Path "main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)"
-        $log.Add("SUCCESS: Got sprite from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
+        $log.Add("$(Get-Date) -  SUCCESS: Got sprite from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
         If(!(test-path "website/media/weapons")) {
             New-Item -ItemType Directory -Force -Path "website/media/weapons"
-            $log.Add("DIRECTORY: Created website/media/weapons")
+            $log.Add("$(Get-Date) -  DIRECTORY: Created website/media/weapons")
         }
-        $sprite.CopyTo("website/media/weapons/$($sprite.Name)")
         $weapon.Sprite = $sprite.Name
-        $log.Add("SUCCESS: Copied sprite to website/media/weapons")
+        $sprite.CopyTo("website/media/weapons/$($sprite.Name)")
+        $log.Add("$(Get-Date) -  SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
-        $log.Add("ERROR: Failed to copy Sprite for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
+        $log.Add("$(Get-Date) -  ERROR: Failed to copy Sprite for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
     }
 
     try{
@@ -53,7 +53,7 @@ Foreach-Object {
         }
     }
     catch{
-        $log.Add("ERROR: Failed to get Description for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weapon.ObjectReference)_description.txt")
+        $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weapon.ObjectReference)_description.txt")
     }
 
     $data.Add($weapon)
