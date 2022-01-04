@@ -4,18 +4,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout DotMod Repo
+        uses: actions/checkout@v2
         with:
           path: main
           token: ${{ secrets.ORG_ACCESS_TOKEN }}
-      - uses: actions/checkout@v2
+      - name: Checkout DotMod Website Repo
+        uses:  actions/checkout@v2
         with:
           path: website
           repository: DotModGroup/DotModGroup.github.io
           token: ${{ secrets.ORG_ACCESS_TOKEN }}
-      - run: |
-          cd website
-          date > generated.txt
+      - name: Build Weapon Data Table
+        shell: pwsh
+        run: |
+          ./main/.github/scripts/buildWeaponDataTable.ps1
+      - name: Commit Website Repo Changes
+        run: |
+          date > website/lastupdate.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
