@@ -26,7 +26,13 @@ Foreach-Object {
 
     try{
         $sprite = Get-Item -Path "main/ColdWaters_Data/StreamingAssets/dotmod/${weapon.Sprite}"
+        $log.Add("SUCCESS: Got sprite from main/ColdWaters_Data/StreamingAssets/dotmod/${weapon.Sprite}")
+        If(!(test-path "website/media/weapons")) {
+            New-Item -ItemType Directory -Force -Path "website/media/weapons"
+            $log.Add("DIRECTORY: Created website/media/weapons")
+        }
         $sprite.CopyTo("website/media/weapons")
+        $log.Add("SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
         $log.Add("ERROR: Failed to copy Sprite for ${weapon.ObjectReference} from main/ColdWaters_Data/StreamingAssets/dotmod/${weapon.Sprite}")
