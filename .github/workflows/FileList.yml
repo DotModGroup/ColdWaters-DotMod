@@ -24,3 +24,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         directory: website
+        repository: DotModGroup/DotModGroup.github.io
