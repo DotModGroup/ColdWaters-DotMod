@@ -21,7 +21,8 @@ jobs:
           ./main/.github/scripts/buildWeaponDataTable.ps1
       - name: Commit Website Repo Changes
         run: |
-          date > website/lastupdate.txt
+          cd website
+          date > lastupdate.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
