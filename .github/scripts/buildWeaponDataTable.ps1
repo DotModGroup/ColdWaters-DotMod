@@ -32,6 +32,7 @@ Foreach-Object {
             $log.Add("DIRECTORY: Created website/media/weapons")
         }
         $sprite.CopyTo("website/media/weapons/$($sprite.Name)")
+        $weapon.Sprite = $sprite.Name
         $log.Add("SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
