@@ -31,7 +31,7 @@ Foreach-Object {
             New-Item -ItemType Directory -Force -Path "website/media/weapons"
             $log.Add("DIRECTORY: Created website/media/weapons")
         }
-        $sprite.CopyTo("website/media/weapons")
+        $sprite.CopyTo("website/media/weapons/${sprite.Name}")
         $log.Add("SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
