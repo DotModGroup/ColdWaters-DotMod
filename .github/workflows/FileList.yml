@@ -1,24 +1,16 @@
 name: File List
-
-on: [push]
-
+on: push
 jobs:
-  copy-files:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout DotMod Repo
-      uses: actions/checkout@v2
-      with:
-        path: dotmod
-    - name: Checkout DMG Website Repo
-      uses: actions/checkout@v2
-      with:
-        repository: DotModGroup/DotModGroup.github.io
-        path: website
-    - name : Write Data
-      run: |
-        cd website
-        date > generated.txt
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        repository: website
+      - uses: actions/checkout@v2
+        with:
+          repository: DotModGroup/DotModGroup.github.io
+      - run: |
+          date > generated.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
