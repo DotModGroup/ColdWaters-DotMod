@@ -19,9 +19,11 @@ Foreach-Object {
             $weapon.ObjectReference = $line.Split("=")[1].Trim()
         }
         elseif ($line.StartsWith('WeaponSprite') ){
-            $weapon.ObjectReference = $line.Split("=")[1].Trim()
+            $weapon.Sprite = $line.Split("=")[1].Trim()
         }
     }
+
+    Copy-Item -Path "main/ColdWaters_Data/StreamingAssets/dotmod/hud/sprites/${weapon.Sprite}" -Destination "website/media/weapons/${weapon.Sprite}"
 
     $content = Get-Content "main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/${weapon.ObjectReference}_description.txt"
     $lines = $content.Split("\n")
