@@ -19,9 +19,6 @@ jobs:
       run: |
         cd website
         date > generated.txt
-    - name: Commit & Push changes
-      uses: actions-js/push@master
+    - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        github_token: ${{ secrets.ORG_ACCESS_TOKEN }}
-        directory: website
-        repository: DotModGroup/DotModGroup.github.io
+        repository: website
