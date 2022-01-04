@@ -44,10 +44,10 @@ Foreach-Object {
 
         Foreach ($line in $lines) {
             if ($line.StartsWith('WeaponName') ){
-                $weapon.ObjectReference = $line.Split("=")[1].Trim()
+                $weapon.Name = $line.Split("=")[1].Trim()
             }
             elseif ($line.StartsWith('WeaponDescription') ){
-                $weapon.ObjectReference = $line.Split("=")[1].Trim()
+                $weapon.Description = $line.Split("=")[1].Trim()
             }
         }
     }
