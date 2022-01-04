@@ -7,7 +7,7 @@
 
 $data = @()
 
-Get-ChildItem "main/ColdWaters_Data/StreamingAssets/dotmod/weapons" -Filter weapon_*.txt | 
+Get-ChildItem "main/ColdWaters_Data/StreamingAssets/dotmod/weapons" -Filter weapon_*.txt -Recurse | 
 Foreach-Object {
     $content = Get-Content $_.FullName
     $lines = $content.Split("\n")
@@ -41,5 +41,3 @@ Foreach-Object {
 }
 
 ConvertTo-Json -InputObject $data -Depth 5 | Out-File ( New-Item -Path "website/content/weapons.json" -Force)
-
-Write-Output $data
