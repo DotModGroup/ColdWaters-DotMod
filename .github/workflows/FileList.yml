@@ -6,9 +6,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          path: main
+          token: ${{ secrets.ORG_ACCESS_TOKEN }}
+      - uses: actions/checkout@v2
+        with:
+          path: website
           repository: DotModGroup/DotModGroup.github.io
           token: ${{ secrets.ORG_ACCESS_TOKEN }}
       - run: |
+          cd website
           date > generated.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
