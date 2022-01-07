@@ -56,4 +56,4 @@ Foreach-Object {
 }
 $tablestring = $tablestring + "</tbody>"
 $outstring = $content[0] + $tablestring + "<!--split-->" + $content[2]
-$outstring | Out-File ( New-Item -Path "weaponguide.html" -Force)
+$outstring | Out-File ( New-Item -Path "website/weaponguide.html" -Force)
