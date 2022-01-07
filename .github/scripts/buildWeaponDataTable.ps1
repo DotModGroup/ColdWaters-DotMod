@@ -1,65 +1,60 @@
-﻿Class Weapon{
-    [String]$ObjectReference
-    [String]$Name
-    [String]$Sprite
-    [String]$Description
-}
+$content = Get-Content -Path .\weaponguide.html -Delimiter "<!--split-->"
+$tablestring = "<tbody>"
 
 $log = New-Object System.Collections.Generic.List[String]
 $data = New-Object System.Collections.Generic.List[Weapon]
 
 Get-ChildItem "main/ColdWaters_Data/StreamingAssets/dotmod/weapons" -Filter weapon_*.txt -Recurse | 
 Foreach-Object {
-    $content = Get-Content $_.FullName
-    $lines = $content.Split("\n")
-
-    $weapon = New-Object Weapon
+    $weaponFile = Get-Content $_.FullName
 
     Foreach ($line in $lines) {
         if ($line.StartsWith('WeaponObjectReference') ){
-            $weapon.ObjectReference = $line.Split("=")[1].Trim()
+            $weaponObjectReference = $line.Split("=")[1].Trim()
         }
         elseif ($line.StartsWith('WeaponSprite') ){
-            $weapon.Sprite = $line.Split("=")[1].Trim()
+            $weaponSprite = $line.Split("=")[1].Trim()
         }
     }
 
     try{
-        $sprite = Get-Item -Path "main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)"
-        $log.Add("$(Get-Date) -  SUCCESS: Got sprite from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
+        $sprite = Get-Item -Path "main/ColdWaters_Data/StreamingAssets/dotmod/$($weaponSprite)"
+        $log.Add("$(Get-Date) -  SUCCESS: Got sprite from main/ColdWaters_Data/StreamingAssets/dotmod/$($weaponSprite)")
         If(!(test-path "website/media/weapons")) {
             New-Item -ItemType Directory -Force -Path "website/media/weapons"
             $log.Add("$(Get-Date) -  DIRECTORY: Created website/media/weapons")
         }
-        $weapon.Sprite = $sprite.Name
+        $weaponSprite = $sprite.Name
         $sprite.CopyTo("website/media/weapons/$($sprite.Name)")
         $log.Add("$(Get-Date) -  SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
         $log.Add("$(Get-Date) -  ERROR: Failed to copy Sprite for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
+        $weaponSprite = "WIP.png"
     }
 
-    try{
-        $content = Get-Content "main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weapon.ObjectReference)_description.txt"
+     try{
+        $content = Get-Content "main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weaponObjectReference)_description.txt"
         $lines = $content.Split("\n")
 
-        Foreach ($line in $lines) {
-            if ($line.StartsWith('WeaponName') ){
-                $weapon.Name = $line.Split("=")[1].Trim()
+        For ($i = 0; $i -lt $lines.Count; $i++) {
+            $weaponDescription = ""
+            if ($lines[$i].StartsWith('WeaponName') ){
+                $weaponName = $lines[$i].Split("=")[1].Trim()
             }
-            elseif ($line.StartsWith('WeaponDescription') ){
-                $weapon.Description = $line.Split("=")[1].Trim()
+            elseif ($lines[$i].StartsWith('WeaponDescription') ){
+                $weaponDescription = $lines[$i].Split("=")[1].Trim()
+            }
+            elseif ($weaponDescription -ne ""){
+                $weaponDescription = $weaponDescription + "<br/>" + $lines[$i] 
             }
         }
     }
     catch{
         $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weapon.ObjectReference)_description.txt")
     }
-
-    $data.Add($weapon)
-
+    $tablestring = $tablestring + "<tr><td>$($WeaponObjectReference)</td><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription)</td></tr>"
 }
-
-ConvertTo-Json -InputObject $data -Depth 5 | Out-File ( New-Item -Path "website/content/weapons.json" -Force)
-
-$log | Out-File ( New-Item -Path "website/logs/buildWeaponDataTable.log" -Force)
+$tablestring = $tablestring + "</tbody>"
+$outstring = $content[0] + $tablestring + "<!--split-->" + $content[2]
+$outstring | Out-File ( New-Item -Path "weaponguide.html" -Force)
