@@ -7,6 +7,8 @@ Get-ChildItem "main/ColdWaters_Data/StreamingAssets/dotmod/weapons" -Filter weap
 Foreach-Object {
     $weaponFile = Get-Content $_.FullName
 
+    $log.Add("$(Get-Date) -  File: Got file $($_.FullName)")
+
     Foreach ($line in $lines) {
         if ($line.StartsWith('WeaponObjectReference') ){
             $weaponObjectReference = $line.Split("=")[1].Trim()
