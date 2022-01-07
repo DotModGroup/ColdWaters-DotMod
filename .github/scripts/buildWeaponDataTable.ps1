@@ -9,6 +9,8 @@ Foreach-Object {
 
     $log.Add("$(Get-Date) -  File: Got file $($_.FullName)")
 
+    $lines = $weaponFile.Split("\n")
+
     Foreach ($line in $lines) {
         if ($line.StartsWith('WeaponObjectReference') ){
             $weaponObjectReference = $line.Split("=")[1].Trim()
