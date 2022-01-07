@@ -1,4 +1,4 @@
-$content = Get-Content -Path .\website\weaponguide.html -Delimiter "<!--split-->"
+﻿$content = Get-Content -Path .\weaponguide.html -Delimiter "<!--split-->"
 $tablestring = "<tbody>"
 
 $log = New-Object System.Collections.Generic.List[String]
@@ -28,7 +28,7 @@ Foreach-Object {
         $log.Add("$(Get-Date) -  SUCCESS: Copied sprite to website/media/weapons")
     }
     catch{
-        $log.Add("$(Get-Date) -  ERROR: Failed to copy Sprite for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weapon.Sprite)")
+        $log.Add("$(Get-Date) -  ERROR: Failed to copy Sprite for $($weaponObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weaponSprite)")
         $weaponSprite = "WIP.png"
     }
 
@@ -50,10 +50,12 @@ Foreach-Object {
         }
     }
     catch{
-        $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weapon.ObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weapon.ObjectReference)_description.txt")
+        $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weaponObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weaponObjectReference)_description.txt")
     }
     $tablestring = $tablestring + "<tr><td>$($WeaponObjectReference)</td><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription)</td></tr>"
 }
 $tablestring = $tablestring + "</tbody>"
-$outstring = $content[0] + $tablestring + "<!--split-->" + $content[2]
+$outstring = "$($content[0])<!--split-->$($tablestring)<!--split-->$($content[$content.Count-1])"
 $outstring | Out-File ( New-Item -Path "website/weaponguide.html" -Force)
+
+$log | Out-File ( New-Item -Path "website/logs/buildWeaponDataTable.log" -Force)
