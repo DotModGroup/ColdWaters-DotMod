@@ -10,9 +10,11 @@ Foreach-Object {
     Foreach ($line in $lines) {
         if ($line.StartsWith('WeaponObjectReference') ){
             $weaponObjectReference = $line.Split("=")[1].Trim()
+            $log.Add("$(Get-Date) -  SUCCESS: Got weapon $($weaponObjectReference)")
         }
         elseif ($line.StartsWith('WeaponSprite') ){
             $weaponSprite = $line.Split("=")[1].Trim()
+            $log.Add("$(Get-Date) -  SUCCESS: Got sprite $($weaponSprite)")
         }
     }
 
