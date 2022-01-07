@@ -1,4 +1,4 @@
-$content = Get-Content -Path .\weaponguide.html -Delimiter "<!--split-->"
+$content = Get-Content -Path .\website\weaponguide.html -Delimiter "<!--split-->"
 $tablestring = "<tbody>"
 
 $log = New-Object System.Collections.Generic.List[String]
