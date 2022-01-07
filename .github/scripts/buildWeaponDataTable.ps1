@@ -2,7 +2,6 @@ $content = Get-Content -Path .\website\weaponguide.html -Delimiter "<!--split-->
 $tablestring = "<tbody>"
 
 $log = New-Object System.Collections.Generic.List[String]
-$data = New-Object System.Collections.Generic.List[Weapon]
 
 Get-ChildItem "main/ColdWaters_Data/StreamingAssets/dotmod/weapons" -Filter weapon_*.txt -Recurse | 
 Foreach-Object {
