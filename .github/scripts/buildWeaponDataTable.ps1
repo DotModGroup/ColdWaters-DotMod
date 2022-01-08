@@ -45,7 +45,7 @@ Foreach-Object {
                 $log.Add("$(Get-Date) -  SUCCESS: Got Name $($weaponName)")
             }
             elseif ($lines[$i].StartsWith('WeaponDescription') ){
-                $weaponDescription = $lines[$i].Split("=")[1].Trim()
+                $weaponDescription = $lines[$i].Split("=")[1].Trim().Split('\n')
                 $log.Add("$(Get-Date) -  SUCCESS: Got Description $($weaponDescription)")
             }
         }
