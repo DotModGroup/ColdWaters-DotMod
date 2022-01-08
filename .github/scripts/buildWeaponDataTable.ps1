@@ -27,8 +27,8 @@ Foreach-Object {
             $log.Add("$(Get-Date) -  DIRECTORY: Created website/media/weapons")
         }
         $weaponSprite = $sprite.Name
-        $sprite.CopyTo("website/media/weapons/$($sprite.Name)")
-        $log.Add("$(Get-Date) -  SUCCESS: Copied sprite to website/media/weapons")
+        $sprite.CopyTo("website/media/weapons/$($sprite.Name)", $true)
+        $log.Add("$(Get-Date) -  SUCCESS: Copied sprite to website/media/weapons/$($sprite.Name)")
     }
     catch{
         $log.Add("$(Get-Date) -  ERROR: Failed to copy Sprite for $($weaponObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/$($weaponSprite)")
