@@ -40,12 +40,13 @@ Foreach-Object {
         $lines = $content.Split("\n")
 
         For ($i = 0; $i -lt $lines.Count; $i++) {
-            $weaponDescription = ""
             if ($lines[$i].StartsWith('WeaponDescriptiveName') ){
                 $weaponName = $lines[$i].Split("=")[1].Trim()
+                $log.Add("$(Get-Date) -  SUCCESS: Got Name $($weaponName)")
             }
             elseif ($lines[$i].StartsWith('WeaponDescription') ){
                 $weaponDescription = $lines[$i].Split("=")[1].Trim()
+                $log.Add("$(Get-Date) -  SUCCESS: Got Description $($weaponDescription)")
             }
         }
     }
