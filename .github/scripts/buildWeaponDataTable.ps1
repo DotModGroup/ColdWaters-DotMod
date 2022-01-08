@@ -37,8 +37,8 @@ Foreach-Object {
 
      try{
         $content = Get-Content "main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weaponObjectReference)_description.txt"
-        $lines = $content.Split("\n")
-
+        #$lines = $content.Split("\n")
+        $lines = $content -split [Environment]::NewLine
         For ($i = 0; $i -lt $lines.Count; $i++) {
             if ($lines[$i].StartsWith('WeaponDescriptiveName') ){
                 $weaponName = $lines[$i].Split("=")[1].Trim()
@@ -130,8 +130,8 @@ $beginning = @"
                 <table id="myTable">
 					<thead>
 						<tr class="header">
-							<th>WeaponName</th>
-							<th>WeaponSprite</th>
+							<th style='width: 15%'>WeaponName</th>
+							<th style='width: 15%'>WeaponSprite</th>
 							<th>WeaponDescription</th>
 						</tr>
 					</thead>
