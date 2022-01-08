@@ -77,6 +77,11 @@ $beginning = @"
     <!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
+    <style>
+        th {font-size: 24px; background: #0B1D33; color: #FFF}
+        tr:nth-child(even) {background: #CCC}
+        tr:nth-child(odd) {background: #FFF}
+    </style>
 	<![endif]-->
 </head>
 
@@ -130,9 +135,9 @@ $beginning = @"
                 <table id="myTable">
 					<thead>
 						<tr class="header">
-							<th style='width: 15%'>WeaponName</th>
-							<th style='width: 15%'>WeaponSprite</th>
-							<th>WeaponDescription</th>
+							<th style='width: 15%'>Name</th>
+							<th style='width: 15%'>Image</th>
+							<th>Description</th>
 						</tr>
 					</thead>
 					<!--split-->
