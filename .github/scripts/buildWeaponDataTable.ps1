@@ -41,21 +41,18 @@ Foreach-Object {
 
         For ($i = 0; $i -lt $lines.Count; $i++) {
             $weaponDescription = ""
-            if ($lines[$i].StartsWith('WeaponName') ){
+            if ($lines[$i].StartsWith('WeaponDescriptiveName') ){
                 $weaponName = $lines[$i].Split("=")[1].Trim()
             }
             elseif ($lines[$i].StartsWith('WeaponDescription') ){
                 $weaponDescription = $lines[$i].Split("=")[1].Trim()
-            }
-            elseif ($weaponDescription -ne ""){
-                $weaponDescription = $weaponDescription + "<br/>" + $lines[$i] 
             }
         }
     }
     catch{
         $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weaponObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weaponObjectReference)_description.txt")
     }
-    $tablestring = $tablestring + "<tr><td>$($WeaponObjectReference)</td><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription)</td></tr>"
+    $tablestring = $tablestring + "<tr><td>$($WeaponObjectReference)</td><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription.Replace("\n","<br/>"))</td></tr>"
 }
 
 $beginning = @"
