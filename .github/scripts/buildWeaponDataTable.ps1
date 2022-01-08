@@ -53,7 +53,8 @@ Foreach-Object {
     catch{
         $log.Add("$(Get-Date) -  ERROR: Failed to get Description for $($weaponObjectReference) from main/ColdWaters_Data/StreamingAssets/dotmod/language_en/weapon/$($weaponObjectReference)_description.txt")
     }
-    $tablestring = $tablestring + "<tr><td>$($WeaponObjectReference)</td><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription.Replace("\n","<br/>"))</td></tr>"
+
+    $tablestring = $tablestring + "<tr><td>$($weaponName)</td><td><img src='https://github.com/DotModGroup/DotModGroup.github.io/raw/main/media/weapons/$($weaponSprite)?raw=true' alt='$($weaponSprite)'></td><td>$($weaponDescription)</td></tr>"
 }
 
 $beginning = @"
@@ -129,10 +130,9 @@ $beginning = @"
                 <table id="myTable">
 					<thead>
 						<tr class="header">
-							<th style="width:15%;">WeaponObjectReference</th>
-							<th style="width:15%;">WeaponName</th>
-							<th style="width:15%;">WeaponSprite</th>
-							<th style="width:55%;">WeaponDescription</th>
+							<th>WeaponName</th>
+							<th>WeaponSprite</th>
+							<th>WeaponDescription</th>
 						</tr>
 					</thead>
 					<!--split-->
