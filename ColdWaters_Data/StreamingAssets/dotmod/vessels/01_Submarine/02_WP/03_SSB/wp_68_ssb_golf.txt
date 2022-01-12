@@ -121,7 +121,10 @@ MeshHullCollider=wp_ssb_golf_coll_hull
 MeshSuperstructureCollider=wp_ssb_golf_coll_ss
 
 Material=ships/wp_ssb_golf/wp_ssb_golf_mat
-MaterialTextures=ships/wp_ssb_golf/wp_ssb_golf_tx,ships/wp_ssb_golf/wp_ssb_golf_spec,ships/wp_ssb_golf/wp_ssb_golf_nm
+MaterialTextures=vessels/textures/wp_ssb_golf_tx.png,ships/wp_ssb_golf/wp_ssb_golf_spec,ships/wp_ssb_golf/wp_ssb_golf_nm
+MaterialTextures=vessels/textures/wp_ssb_golf_txr.png,ships/wp_ssb_golf/wp_ssb_golf_spec,ships/wp_ssb_golf/wp_ssb_golf_nm
+//MaterialTextures=ships/wp_ssb_golf/wp_ssb_golf_tx,ships/wp_ssb_golf/wp_ssb_golf_spec,ships/wp_ssb_golf/wp_ssb_golf_nm
+
 Mesh=wp_ssb_golf
 MeshPosition=0,-0.0391,-0.6025
 MeshRudder=wp_ssb_golf_rudder
