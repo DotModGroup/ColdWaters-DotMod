@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/awards/wp_background.jpg
+Photo=campaign/images/awards/RUS_distinction_in_service_1st_class.png
+Music=audio/music/Cold Waters Spotted
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
+ 
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n><b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b><n><n>Dated <DATE>
+Sentence1=<size=14>Commander <PLAYERVESSELHULL> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=18>medal</size><n><n><size=22>"FOR DISTINCTION IN MILITARY SERVICE<n> I DEGREE"</size></b>
+Sentence2=Commanding <PLAYERVESSELHULL>, he bravely engaged in battle with superior enemy forces, but thanks to his high training and tactical skill, he managed to win, making a significant contribution to the fight against the enemies of the Fatherland.

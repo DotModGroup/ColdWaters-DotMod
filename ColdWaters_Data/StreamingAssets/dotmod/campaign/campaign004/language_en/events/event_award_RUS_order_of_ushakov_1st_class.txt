@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/awards/wp_background.jpg
+Photo=campaign/images/awards/RUS_order_of_ushakov_1st_class.png
+Music=audio/music/Cold Waters Spotted
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
+ 
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n> <b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b> <n><n> of <DATE>
+Sentence1=<size=14>The commander <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=18></size><n><n><size=22>"THE ORDER OF USHAKOV<n> I DEGREE"</size></b>
+Sentence2=<n>For showing initiative and determination in leading a combat operation, as a result of which a numerically superior enemy was defeated and the combat mission was fully completed.<n>With his skillful and brave actions, the commander of <PLAYERNAME> shows unwavering devotion to the Motherland and supports the best traditions of the USSR Navy.

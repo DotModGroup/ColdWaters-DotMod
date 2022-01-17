@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/awards/wp_background.jpg
+Photo=campaign/images/awards/RUS_medal_for_courage.png
+Music=audio/music/Cold Waters Spotted
+Header=PRESIDIUM OF THE SUPREME SOVIET OF THE USSR<n>MOSCOW
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=<n> <b>DECREE of the PRESIDIUM of THE SUPREME SOVIET of THE USSR</b> <n><n> of <DATE>
+Sentence1=<size=14>Commander <PLAYERVESSELDESIGNATION> <PLAYERVESSELNAVY> <PLAYERVESSELHULL> <PLAYERVESSELNAME> <PLAYERNAME> <n><POSTHUMOUSLY> is awarded </size><n><n><b><size=18></size><n><n><size=22>"MEDAL FOR BRAVERY"</size></b>
+Sentence2 = For courage shown in attacks on the enemy's sea communications. Thanks to the skilful actions of the commander and crew of <PLAYERVESSELDESIGNATION> <PLAYERVESSELHULL> in the combat campaign, the enemy suffered serious losses. The Motherland and the party highly appreciate the contribution of the <PLAYERVESSELHULL> crew to achieving victory!
