@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=uk_68_ss_oberon
+EnemyShipClasses=uk_84_ss_oberon
