@@ -1,8 +1,8 @@
 Image=campaign/images/pact missile attack
-MissionLocation=Training exercise
-Briefing=Attack and destroy a stationary target using missiles.
+MissionLocation=Учебное задание
+Briefing=Атакуйте и уничтожьте неподвижную цель с помощью ракет.
 Briefing=
-Briefing=Things to practice:
-Briefing=- Set weapon stores and tube loadout.
-Briefing=- Reloading tubes in combat.
-Briefing=- Firing missiles.
+Briefing=Практические занятия:
+Briefing=- Выбор боекомплекта и выкладки торпедных аппаратов.
+Briefing=- Перезарядка ТА во время боя.
+Briefing=- Пуск ракет.

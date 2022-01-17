@@ -57,16 +57,16 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46,usn_moss
+TorpedoTypes=usn_mk46_mod_5,usn_moss
 TorpedoNumbers=12,6
 TorpedoTubes=7
 NumberOfWires=4
 TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533
-TubeReloadTime=30
+TubeReloadTime=180
 
-VLSTorpedoTypes=usn_rur-5,usn_ugm84
-VLSTorpedoNumbers=8,8
+VLSTorpedoTypes=usn_84_rur-5,usn_ugm84
+VLSTorpedoNumbers=16,8
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 

@@ -51,9 +51,9 @@ TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=30
+TubeReloadTime=180
 
-MissileType=usn_rur-5
+MissileType=usn_84_rur-5
 MissilesPerLauncher=8
 
 AntiShipMissileType=usn_ugm84

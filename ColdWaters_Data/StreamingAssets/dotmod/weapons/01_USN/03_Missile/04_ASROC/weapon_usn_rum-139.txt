@@ -1,6 +1,6 @@
 WeaponObjectReference=usn_rum-139
 WeaponType=MISSILE
-MissilePayload=usn_mk46
+MissilePayload=usn_mk46_mod_5
 
 Warhead=0
 SensorRange=0
@@ -9,7 +9,7 @@ SensorAngles=0,0
 WeaponAltitudes=15000
 BoosterReleasedAfterSeconds=3600
 
-WeaponRanges=4000,21945
+WeaponRanges=2950,21945
 WeaponSpeed=40,667
 TurnRate=10
 MaxPitchAngle=60

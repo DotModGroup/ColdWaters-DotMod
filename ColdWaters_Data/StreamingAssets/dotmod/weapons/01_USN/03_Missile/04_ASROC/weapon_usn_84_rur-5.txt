@@ -1,6 +1,6 @@
-WeaponObjectReference=usn_rur-5
+WeaponObjectReference=usn_84_rur-5
 WeaponType=MISSILE
-MissilePayload=usn_mk46
+MissilePayload=usn_mk46_mod_5
 *
 Warhead=0
 SensorRange=0
@@ -19,7 +19,7 @@ AttackSettings=FALSE
 DepthSettings=FALSE
 *
 WeaponNoiseValues=190,190
-WeaponSprite=hud/sprites/usn_rur-5_sprite.png
+WeaponSprite=hud/sprites/usn_84_rur-5_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]

@@ -23,7 +23,7 @@ AttackSettings=FALSE
 DepthSettings=LEVEL,SHALLOW,DEEP
 *
 WeaponNoiseValues=120,140
-WeaponSprite=weapons/sprites/usn_mk45_sprite
+WeaponSprite=hud/sprites/usn_mk45_sprite.png
 WireBreakSpeedThreshold=15
 MinCameraDistance=0.3
 ResupplyTime=60

@@ -7,7 +7,7 @@ Displacement=4100
 HullHeight=0.1
 Crew=176
 Range=4500
-HullNumbers=Perry_60.png
+HullNumbers=FFG-8.png,FFG-28.png,FFG-29.png,FFG-32.png,FFG-33.png,FFG-36.png,FFG-37.png,FFG-38.png,FFG-39.png,FFG-40.png,FFG-41.png,FFG-42.png,FFG-43.png,FFG-45.png,FFG-46.png,FFG-47.png,FFG-48.png,FFG-49.png,FFG-50.png,FFG-51.png
 AircraftNumbers=1
 AircraftTypes=usn_sh60b
 
@@ -51,12 +51,12 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46
-TorpedoNumbers=6
+TorpedoTypes=usn_mk46_mod_5
+TorpedoNumbers=24
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=30
+TubeReloadTime=180
 
 MissileType=usn_ugm84
 MissileLauncherBearingMin=-165
@@ -98,7 +98,7 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 
-AntiAirMissileType=usn_rim-66
+AntiAirMissileType=usn_rim-66e
 AntiAirMissilesNumbers=24
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10

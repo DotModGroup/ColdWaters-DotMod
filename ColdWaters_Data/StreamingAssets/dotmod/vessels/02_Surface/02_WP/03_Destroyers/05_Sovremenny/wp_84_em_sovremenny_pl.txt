@@ -61,7 +61,7 @@ TorpedoNumbers=8,8,8
 TorpedoTubes=5
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
-TubeReloadTime=45
+TubeReloadTime=210
 
 VLSTorpedoTypes=wp_p-270
 VLSTorpedoNumbers=8

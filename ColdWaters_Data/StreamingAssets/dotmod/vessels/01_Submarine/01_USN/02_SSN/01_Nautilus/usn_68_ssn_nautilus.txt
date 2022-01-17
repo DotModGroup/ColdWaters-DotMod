@@ -42,7 +42,7 @@ RADARSignature=SMALL
 //TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
-TorpedoTypes=usn_mk37,usn_mk16,usn_mk45
+TorpedoTypes=usn_mk37_mod2,usn_mk16,usn_mk45
 TorpedoNumbers=13,11,0
 TorpedoTubes=6
 NumberOfWires=1

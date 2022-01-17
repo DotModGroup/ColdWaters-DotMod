@@ -20,7 +20,7 @@ Click  <color=grey><b>>>></b></color>  in the title bar above to continue.
 <b>Zoom:</b> use <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
 
 Following commands cycle camera through different objects:
-<KEY:Camera To Player> - player submarine
+<KEY:Camera To Player> - player ship
 <KEY:Camera To Selected Contact> - current contact
 <KEY:Camera To Weapon> - torpedoes and missiles
 <KEY:Camera To Aircraft> - aircraft
@@ -41,9 +41,9 @@ Press <KEY:Periscope> to raise your periscope. Once raised and ready to use, an 
 Pan the periscope until it is facing north (0 on the camera bearing indicator) and the target ship is in the crosshairs.
 Press <KEY:Help> now to learn more about using the periscope.
 
-Use <KEY:Mark Target> to mark the target with laser rangefinding. The target will immediately be classified and updated data about the target is shown in the middle column above the mini-map (bottom left). Target is also accurately plotted on the mini-map.
+Use <KEY:Mark Target> to mark the target with laser rangefinding. The target will immediately be classified, updated data about the target will be shown in the middle column above the mini-map (bottom left). Target will also be accurately plotted on the mini-map.
 
-The mini-map displays your submarine, contacts, torpedoes and will be used to set weapon waypoints.
+The mini-map displays your ship, contacts, torpedoes and will be used to set weapon waypoints.
 [/TRAINING 3]
 
 [TRAINING 4]
@@ -51,11 +51,11 @@ The mini-map displays your submarine, contacts, torpedoes and will be used to se
 Map Controls:
 <b>Pan Map:</b> <LEFTCLICK> on the mini-map and drag the mouse.
 <b>Zoom Map:</b> Position mouse over map and <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
-<b>Centre Map:</b> <KEY:Centre Map> will position your submarine in the centre of the map, <KEY:Auto Centre Map> locks it there.
+<b>Centre Map:</b> <KEY:Centre Map> will position your ship in the centre of the map, <KEY:Auto Centre Map> locks it there.
 <b>Maximise Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
 <b>Hide Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it.
 
-<LEFTCLICK> on your submarine icon moves camera to your submarine.
+<LEFTCLICK> on your ship icon moves camera to your ship.
 <LEFTCLICK> on a contact icon selects that contact or if already selected, moves camera to it.
 <LEFTCLICK> on a torpedo icon moves camera to it.
 
@@ -66,12 +66,12 @@ Use <KEY:Help> now to learn more about the tactical map, then press <KEY:Perisco
 <b>Firing a Torpedo</b>
 Use <KEY:Event Camera> to turn on the event camera for your upcoming torpedo attack.
 
-We will be firing a non-homing dumbfire Mark16 torpedo.
-Your target is not moving and several thousand yards directly north of your stationary submarine.
+We will be firing a Mark37 torpedo.
+Your target is not moving and about a thousand yards directly north of your stationary submarine.
  
 To fire a torpedo;
 <b>1) Select Tube</b>
-Torpedo tubes at the bottom left indicate that all 4 tubes are loaded and ready to fire. Use <KEY:Next Tube> or <LEFTCLICK> a torpedo icon to select which tube to fire (highlighted in red).
+Torpedo tubes at the bottom right indicate that all 4 tubes are loaded and ready to fire. Use <KEY:Next Tube> or <LEFTCLICK> a torpedo icon to select which tube to fire (highlighted in red).
 
 <b>2) Place Waypoint</b>
 Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint. Bearing and Range to the waypoint are displayed and a blue line now appears on the mini-map which follows your mouse pointer.
@@ -89,11 +89,11 @@ If it misses or ship doesn't sink, fire another remembering to select a loaded t
 When ready, leave combat by using <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
 The following options are available:
 
-1) <DICTIONARY:AbandonShip> - may be attempted if your submarine is still intact and is currently above escape depth. If below escape depth, this option is not available.
+1) <DICTIONARY:AbandonShip> - may be attempted if your ship is still intact and is currently above escape depth. If below escape depth, this option is not available.
 
 2) <DICTIONARY:OptionsHeader> - opens the game options to edit game settings as per the main menu.
 
-3) <DICTIONARY:ExitMission> - end combat and go to the After Action Report. This option is available if you have broken contact with all enemy forces, there are no torpedoes or missiles nearby and any flooding your submarine has sustained is under control. If your submarine reaches the map boundary, this option is always available.
+3) <DICTIONARY:ExitMission> - end combat and go to the After Action Report. This option is available if you have broken contact with all enemy forces, there are no torpedoes or missiles nearby and any flooding your ship has sustained is under control. If your ship reaches the map boundary, this option is always available.
 
 4) <DICTIONARY:Back> - return to combat
 

@@ -48,7 +48,7 @@ TorpedoTubes=2
 NumberOfWires=0
 TubeConfig=1,1
 TorpedoTubeSize=400,400
-TubeReloadTime=30
+TubeReloadTime=180
 
 NavalGuns=wp_6x3_b-38_shell,wp_6x3_b-38_shell,wp_6x3_b-38_shell,wp_6x3_b-38_shell
 NavalGunFiringArcBearingMin=-140,-140,30,30

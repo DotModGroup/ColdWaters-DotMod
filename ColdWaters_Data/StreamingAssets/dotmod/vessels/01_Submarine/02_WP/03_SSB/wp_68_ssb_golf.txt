@@ -27,7 +27,7 @@ SubmergedAt=0.111
 CavitationParameters=20,-100
 PropRotationSpeed=-450,450,450
 TestDepth=920
-EscapeDepth-918
+EscapeDepth=918
 PeriscopeDepthInFeet=40
 Diesel=TRUE
 

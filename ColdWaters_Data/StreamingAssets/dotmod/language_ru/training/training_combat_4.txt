@@ -1,83 +1,83 @@
 [TRAINING 1]=6
-<b>Data Panel - Ownship</b>
-Above the mini-map is the Data Panel which contains 3 columns of data (left to right).
-1) Ownship data
-2) Contact Data
-3) Weapon data (torpedo on a wire)
+<b>Панель данных - ваше судно</b>
+Над мини-картой находится панель данных, в которой содержатся 3 колонки с данными (слева направо).
+1) Данные о вашем судне
+2) Данные о контакте
+3) Данные об оружии (торпеде, управляемой по проводу)
 
-For this mission we'll just focus on the first column which displays your vessel's;
-<b>CSE</b> Course
-<b>SPD</b> Speed
-<b>DEP</b> Depth
-<b>RUD</b> Rudder
-<b>PLN</b> Planes
-<b>BAL</b> Ballast
+Для этой миссии мы сосредоточимся на первой колонке, которая отображает следующие параметры вашего корабля:
+<b>КРС</b> Курс
+<b>СКР</b> Скорость
+<b>ГЛБ</b> Глубину
+<b>РУЛ</b> Положение рулей направления
+<b>УГЛ</b> Положение рулей глубины
+<b>БАЛ</b> Балласт
 
-As you adjust your submarine's rudder, planes and ballast, the settings will be diplayed here as will your submarine's current course, speed and depth.
+Когда вы будете изменять положение рулей направления и глубины, а также ваш балласт - установленные значения этих параметров будут отображаться здесь, так же, как и значения курса, скорости и глубины вашей подводной лодки.
 [/TRAINING 1]
 
 [TRAINING 2]
-<b>Speed and Steering</b>
-<b>Speed</b>
-Use <KEY:Increase Power> and <KEY:Decrease Power> to adjust your speed.
-Message log at bottom right shows your current speed setting.
-Now use <KEY:Increase Power> to bring your speed up to Ahead Flank.
+<b>Скорость и маневрирование</b>
+<b>Скорость</b>
+Используйте <KEY:Increase Power> и <KEY:Decrease Power>, чтобы изменять вашу скорость.
+Сообщение справа внизу показывает, какую скорость вы установили.
+Используйте <KEY:Increase Power>, чтобы выставить скорость на Полный Вперёд (максимальное положение).
 
-<b>Steering</b>
-Use <KEY:Rudder Left> and <KEY:Rudder Right> to steer your vessel.
-Rudder is set in 5 degree increments to a minimum of -30 degrees (left) and +30 degrees (right).
-Now use <KEY:Rudder Left> to bring your rudder hard over to -30 degrees port.
+<b>Маневрирование</b>
+Используйте <KEY:Rudder Left> и <KEY:Rudder Right>, чтобы повернуть ваше судно.
+Рули направления устанавливаются с шагом в 5 градусов с минимальным отклонением в -30 градусов (влево) и максимумальным в +30 градусов (вправо).
+Используйте <KEY:Rudder Left>, чтобы выставить рули направления на -30 (30 градусов лево руля).
 
-Your submarine should now be turning in a circle, note the Data Panel's left-most column reflecting your changing course and current rudder setting.
+Теперь ваша ПЛ должна поворачивать по кругу, обратите внимание на крайнюю левую колонку на панели данных, в ней можно увидеть, как ваш курс изменяется, а также текущее положение рулей направления.
 [/TRAINING 2]
 
 [TRAINING 3]
-<b>Depth Control</b>
-<color=red><b><i>WARNING: Commander, you are expected to navigate your vessel safely and are not to exceed 1000 ft depth</i></b></color>
+<b>Управление глубиной</b>
+<color=red><b><i>ВНИМАНИЕ: Командир, вы должны управлять вашим судном аккуратно и не превышать глубину 300 метров</i></b></color>
 
-Dive Planes: Use <KEY:Planes Down> and <KEY:Planes Up> change depth with dive planes.
-Planes are set in 5 degree increments to a minimum of -30 degrees (down) and +30 degrees (up) and require some forward movement to function.
-Set your planes back to 0 in order to level out.
+Рули глубины: Используйте <KEY:Planes Down> и <KEY:Planes Up>, чтобы изменить глубину, используя рули глубины.
+Рули глубины устанавливаются с шагом в 5 градусов с минимальным отклонением в -30 градусов (вниз) и максимальным в +30 градусов (вверх), и требуют движения вперёд (или назад) для функционирования.
+Установите ваши рули глубины на 0, чтобы выровнять глубину.
 
-Ballast: Use <KEY:Ballast Down> and <KEY:Ballast Up> change depth using ballast.
-Ballast is set in 5 unit increments to a minimum of -30 (down) and +30 (up) and does not require any forward movement to function.
-Depth changes with ballast are much slower than with planes.
+Балласт: Используйте <KEY:Ballast Down> и <KEY:Ballast Up>, чтобы изменить глубину, используя балласт.
+Балласт устанавливается с шагом в 5 единиц с минимальным значением в -30 (вниз) и максимальным в +30 (вверх) и не требует никакого движения вперёд (или назад) для функционирования.
+Изменение глубины с помощью балласта намного медленнее, чем с помощью рулей глубины.
 
-<b>Straight & Level</b>
-Use <KEY:Level Submarine> to quickly set rudder, planes and ballast settings to 0.
+<b>Идти прямо и выровнять глубину</b>
+Используйте <KEY:Level Submarine>, чтобы быстро установить значения рулей глубины, рулей направления и балласта на 0.
 
-<b>Holding Navigation Keys</b>
-Rather than tapping keys to change rudder, planes, ballast and speed, you may hold then release at the desired setting.
+<b>Зажатие кнопок навигации</b>
+Вместо многократного нажатия на клавиши, чтобы изменить значения скорости, балласта, рулей глубины и направления, вы можете зажимать эти клавиши и отпускать, когда достигнуто желаемое значение.
 [/TRAINING 3]
 
 [TRAINING 4]
-<b>Emergency Blow</b>
-Experiment with navigating your submarine as well as changing depth and speed. Be sure not to exceed 1000 ft depth.
+<b>Аварийное продутие балласта</b>
+Поэкспериментируйте над управлением вашей подводной лодки - изменением направления и глубины. Убедитесь, что не превышаете глубину в 300 м.
 
-When ready, take your submarine down to about 200 ft depth and level it out.
+Когда будете готовы - займите глубину примерно 60 м и выровняйте её.
 
-<b>Emergency Blow</b>
-In an emergency situation you can use <KEY:Blow Ballast> to blow emergency ballast in order to surface as quickly as possible.
+<b>Аварийное продутие балласта</b>
+В случае экстренной ситуации, вы можете использовать <KEY:Blow Ballast>, чтобы продуть авариийный балласт и всплыть как можно быстрее.
 
-Use <KEY:Blow Ballast> now. Set your speed to Flank and dive planes to 30 in conjunction with blowing ballast to dramatically assist with the rate of surfacing.
+Нажмите на <KEY:Blow Ballast>. Установите вашу скорость на Полный Вперёд и рули глубины на значение 30 в сочетании с продувкой балласта для значительного ускорения процесса всплытия.
 
-Once on the surface, level out your planes.
+Как только окажетесь на поверхности, выровняйте рули глубины.
 [/TRAINING 4]
 
 [TRAINING 5]
-<b>Compressed Air</b>
-Blowing emergency ballast depletes reserves of compressed air. Once on the surface, air is available to replenish these reserves, but it takes time.
+<b>Сжатый воздух</b>
+Продутие аварийного балласта расходует запасы сжатого воздуха. Когда вы находитесь на поверхности, есть доступ к воздуху, который восполнит эти резервы, но на это потребуется некоторое время.
 
-Gradually the ballast indicator will count down to 0 at which time the compressed air is replenished and your submarine is able to dive again and use emergengy ballast once more.
+Постепенно индикатор балласта понизится до 0, в этот момент запасы сжатого воздуха восполнены и ваша ПЛ может снова погрузиться и, при необходимости, ещё раз использовать продувку аварийного балласта.
 
-Note that from the time of blowing emergency ballast until compressed air reserves are restored, ballast settings cannot be changed.
+Обратите внимание, что с момента продувки аварийного балласта нельзя изменить параметр балласта, пока запасы сжатого воздуха не будут восстановлены.
 [/TRAINING 5]
 
 [TRAINING 6]
-<b>Ending Combat</b>
-To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+<b>Окончание боя</b>
+Чтобы выйти из боя используйте <KEY:Cancel or Quit> для выхода в меню миссии и завершения миссии (автоматически скрывает эту панель).
 
-Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+Попав в меню миссии, нажмите <LEFTCLICK> на <DICTIONARY:ExitMission>, чтобы завершить эту миссию и просмотреть отчёт о боевых действиях.
 
-When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+После завершения просмотра отчета о боевых действиях, нажмите <LEFTCLICK> на <DICTIONARY:Continue> или <KEY:Continue>.
 [/TRAINING 6]

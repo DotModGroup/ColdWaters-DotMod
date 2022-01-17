@@ -1,15 +1,15 @@
 [TRAINING 1]=1
-<b>Submarine Lost</b>
-Your submarine has been destroyed.
-Thankfully this was only a training simulation.
+<b>Подводная лодка потеряна</b>
+Ваша подводная лодка уничтожена.
+К счастью, это была всего лишь тренировочная симуляция.
 
-Upon destruction, the HUD is disabled.
-Use <KEY:Cancel or Quit> to enter the mission menu and end the mission.
+При разрушении вашего корабля HUD отключается.
+Используйте <KEY:Cancel or Quit>, чтобы войти в меню миссии и завершить миссию.
 
-In the mission menu you may:
-1) <LEFTCLICK> <DICTIONARY:AbandonShip>. If your sub is intact and above escape depth you and your crew may survive yet, otherwise nothing happens.
-2) <LEFTCLICK> <DICTIONARY:Quit> to end this mission.
+В меню миссии вы можете:
+1) <LEFTCLICK> <DICTIONARY:AbandonShip>. Если ваш корабль цел и находится выше глубины эвакуации, вы и ваша команда еще можете выжить, иначе ничего не произойдет.
+2) <LEFTCLICK> <DICTIONARY:Quit> чтобы закончить эту миссию.
 
-Either of these options will take you to the After Action Report.
-When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+Любой из этих вариантов приведет вас к отчёту о боевых действиях.
+Закончив просмотр отчета о действиях, <LEFTCLICK> <DICTIONARY:Continue> или <KEY:Continue>.
 [/TRAINING 1]

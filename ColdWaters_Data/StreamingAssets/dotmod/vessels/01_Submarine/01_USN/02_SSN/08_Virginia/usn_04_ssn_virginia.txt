@@ -139,24 +139,20 @@ MeshSuperstructureCollider=usn_ssn_virginia_coll_ss
 Material=assets/materials/usn_ssn_virginia.mat
 
 Mesh=usn_ssn_virginia_hull
-Mesh=usn_ssn_virginia_sail
-Mesh=usn_ssn_virginia_chin_sonar
-Mesh=usn_ssn_virginia_stern_plane_stubs
-Mesh=usn_ssn_virginia_prop_shroud
 
-MeshPosition=-0.0000000047,0.0000000000,-0.6886794000
+MeshPosition=-0.0000000048,0.0000000000,-0.6886793000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshRudder=usn_ssn_virginia_rudder
 
-MeshPosition=0.0000000000,0.0134932900,0.5998856000
+MeshPosition=0.0000000000,0.0141406000,0.5982633000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshBowPlanes=usn_ssn_virginia_bow_planes
 
-MeshPosition=-0.0000000008,0.0000863793,-0.6980175000
+MeshPosition=0.0000000000,0.0000863793,-0.6980175000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshSternPlanes=usn_ssn_virginia_stern_planes
 
-MeshPosition=0.0000000000,0.0000000000,0.0000000000
+MeshPosition=0.0000000000,0.0000000000,-0.7940243000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshProp=usn_ssn_virginia_prop
 

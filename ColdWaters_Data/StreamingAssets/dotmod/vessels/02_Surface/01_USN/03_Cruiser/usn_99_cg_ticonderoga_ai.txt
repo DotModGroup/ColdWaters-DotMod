@@ -31,11 +31,11 @@ Diesel=TRUE
 [Acoustics & Sensors]
 SelfNoise=185
 ActiveSonarReflection=25
-ActiveSonarModel=usn_sqs_26
-PassiveSonarModel=usn_sqs_26
+ActiveSonarModel=usn_sqs_53
+PassiveSonarModel=usn_sqs_53
 TowedArrayModel=usn_sqr_19
 AnechoicCoating=FALSE
-RADAR=usn_sps_67
+RADAR=usn_spy_1b
 RADARSignature=SMALL
 TowedArrayPosition=-0.03,0.02,-1.0562134
 
@@ -47,12 +47,12 @@ NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=30
+TubeReloadTime=180
 
 MissileType=usn_rum-139
 MissilesPerLauncher=12,12
@@ -363,8 +363,8 @@ MeshHullWake=usn_cg_belknap_hullwake
 MeshPosition=0,0,-0.6962134
 MeshSternWake=usn_cg_belknap_sternwake
 
-ParticleBowWavePosition=0,0,1.3237866
-ParticlePropWashPosition=0,-0.0685,-0.9012134
+ParticleBowWavePosition=0,0,1.1237866
+ParticlePropWashPosition=0,0.02,-1.3012134
 
 ParticleHullFoamPosition=0,0,0.9637866
 ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25

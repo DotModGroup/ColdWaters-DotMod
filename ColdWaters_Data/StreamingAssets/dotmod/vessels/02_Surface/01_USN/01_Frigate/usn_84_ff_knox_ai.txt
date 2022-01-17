@@ -48,22 +48,22 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
 //INFO: Ракета RGM-84A была принята на вооружение ВМС США в 1977 году после начала строительства серии фрегатов. Две ячейки ПУ Mk 16 переделали для стрельбы ракетами Harpoon (боезапас 12 ракет ASROC и 4 ракеты «Гарпун»).
-MissileType=usn_rur-5
-MissilesPerLauncher=12
+MissileType=usn_84_rur-5
+MissilesPerLauncher=16
 
 AntiShipMissileType=usn_ugm84
-AntiShipMissileNumbers=4
+AntiShipMissileNumbers=8
 AntiShipMissileReloadTime=30
 AntiShipMissileLaunchDepth=5
 AntiShipMissileLaunchPoints=0.021,0.124,0.494|0.021,0.111,0.497
 AntiShipMissileLaunchPointsRotation=-15,0,0
 
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=18
 TorpedoTubes=4
 TubeConfig=1,1,1,1
 TorpedoTubeSize=12
-TubeReloadTime=30
+TubeReloadTime=180
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015

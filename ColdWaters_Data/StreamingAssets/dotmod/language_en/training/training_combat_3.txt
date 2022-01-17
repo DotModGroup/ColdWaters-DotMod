@@ -29,18 +29,18 @@ Edit weapon settings. For this attack it is recommended to use the WIDE sensor c
 <b>2) Place Waypoint</b>
 Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint as was done for firing torpedoes.
 
-Move your mouse pointer onto the mini-map, placing it directly in front your submarine (north) until the waypoint's bearing readout displays 0 and the range is between 8 to 10 KYD (missiles do have a minimum range). Use <MOUSEWHEEL> or <KEY:Zoom Out> to zoom out the mini-map if needed. Map can be panned and zoomed while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+Move your mouse pointer onto the mini-map, placing it directly in front your submarine (north) until the waypoint's bearing readout displays 0 and the range is between 8 to 13 KYD (missiles do have a minimum range). Use <MOUSEWHEEL> or <KEY:Zoom Out> to zoom out the mini-map if needed. Map can be panned and zoomed while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
 
 When ready, <RIGHTCLICK> to set the waypoint and fire.
 Your missile will launch and run to the waypoint where it will go active and seek a target. If it cannot find a target the missile will self-destruct, making it crucial to place the waypoint in front of your target.
 
 If all went well, your missile should launch to the north and strike the target.
-If it misses or ship doesn't sink, fire another remembering to select a loaded tube, set the waypoint's bearing to 0 and range of 8 to 10 KYD.
+If it misses or ship doesn't sink, fire another remembering to select a loaded tube, set the waypoint's bearing to 0 and range of 8 to 13 KYD.
 [/TRAINING 2]
 
 [TRAINING 3]
 <b>Target Practice</b>
-Two other target ships are nearby, approximately at bearing 350 and 010.
+Two other target ships are nearby, approximately at bearing 355 and 004.
 Be sure not to place the waypoint past the target (or missile will overshoot before going active) or too close to the target such that it is outside the missile's sensor cone.
 
 Try sinking these other targets with missiles and experiment with changing the weapon settings.

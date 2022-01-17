@@ -18,9 +18,9 @@ At the beginning of any mission you are presented with this screen showing your 
 <DICTIONARY:AttemptClosure> (disabled for training purposes)
 In actual combat, can be used to close in and start combat at about the range indicated. <LEFTCLICK> on the range value to change it.
 However it this not always successful and your starting range might already be below the minimum range or you may be detected by the enemy when closing.
-Is best used to start combat at long range for missile attacks or shorter range for torpedo attacks.
+It's best used to start combat at long range for missile attacks or shorter range for torpedo attacks.
 
-<DICTIONARY:VesselStatus> displays your vessels weapon loadout, weapon stores and damage control. Here you can change your loadout for the mission, to be discussed later in Training Mission #4.
+<DICTIONARY:VesselStatus> displays your vessel's weapon loadout, weapon stores and damage control. Here you can change your loadout for the mission, to be discussed later in Training Mission #3.
 
 <DICTIONARY:Battlestations> begins the mission.
 When ready <LEFTCLICK> <DICTIONARY:Battlestations> to enter the mission.

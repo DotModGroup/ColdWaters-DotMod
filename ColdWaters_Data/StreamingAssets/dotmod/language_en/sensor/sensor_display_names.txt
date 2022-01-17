@@ -79,6 +79,7 @@ usn_bqq_10=AN/BQQ-10=The AN/BQQ-10 advanced sonar suite uses a spherical array w
 usn_sqs_23=SQS-23=The SQS-23 was a long range, azimuth-scanning type of search and attack sonar used for search, search-analyze, attack-RDT, attack-SDT and hand-key applications.
 usn_sqs_26=SQS-26=This is a very powerful low-frequency array introduced by the US Navy in the 1960's, intended for convergence zone operation.
 usn_sqs_56=SQS-56=The SQS-56 is a modern hull-mounted sonar found on Perry-class frigates which features digital implementation, system control by a built-in mini computer, and an advanced display system. Computer controlled functions provide a system that is extremely flexible and easy to operate. The computer is also used to provide automated fault detection and localization with a built-in training capability. The sonar is an active/passive, preformed beam, digital sonar providing panoramic echo ranging and panoramic (DIMUS) passive surveillance. A single operator can search, track, classify and designate multiple targets from the active system while simultaneously maintaining anti-torpedo surveillance on the passive display.
+usn_sqs_53=AN/SQS-53=The AN/SQS-53 is a computer-controlled surface-ship sonar that has both active and passive operating capabilities providing precise information for ASW weapons control and guidance.
 
 //   2b) Towed
 //----------------------------------------Submarine-------------------------------
@@ -212,6 +213,9 @@ usn_bps_15A=BPS-15A=Mast-mounted surface search radar allows submarines to detec
 usn_sps_10=AN/SPS-10=American, medium range, C-Band surface search radar. Entered service in late 50-s. It is used for the detection, ranging and tracking of surface contacts and to a limited extent, air contacts as well.
 usn_sps_67=SPS-67=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.
 usn_sps_55=SPS-55=The AN/SPS-55 is a solid state surface search and navigation radar. It was originally developed for a frigates, but it was also installed on numerous cruisers and destroyers. It is primarily used to detect other ships, coastlines and navigation hazards but can also detect a raised mast of a submarine.
+usn_spy_1a=AN/SPY-1A=The AN/SPY-1A is a multi-function, phased array, 3D air search radar that provides search, detection, tracking, and discrimination data of air and surface targets. It is the main fire control radar for the Aegis Combat System, which equiped on early Aegis ships
+usn_spy_1b=AN/SPY-1B=The AN/SPY-1B is the model adopts VLSI resulting in increased performance and reduced size and weight.
+usn_spy_1d=AN/SPY-1D=The AN/SPY-1D was first installed on USS Arleigh Burke in 1991, with all antenna in a single deckhouse. It is a variant of the -1B to fit the Arleigh Burke class using the UYK-43 computer, with the main antenna also used as missile uplinks, thus eliminate the need of separate missile uplink in earlier models, and the UYA-4 display in earlier models is replaced by UYQ-21 display.
 
 //----------------------------------------Aircraft-------------------------------
 usn_ln_66=LN-66=Helicopter-mounted surface search set for the SH-2F Seasprite helicopter, optimized for over-the-horizon targeting.

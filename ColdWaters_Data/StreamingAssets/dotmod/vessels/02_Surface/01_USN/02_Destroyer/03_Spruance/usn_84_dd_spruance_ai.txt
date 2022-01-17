@@ -52,19 +52,19 @@ NavalGunRestAngle=180,0
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=12
 TorpedoTubes=6
 NumberOfWires=3
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=240
+TubeReloadTime=180
 
-MissileType=usn_rur-5
+MissileType=usn_84_rur-5
 MissilesPerLauncher=16
 
 AntiShipMissileType=usn_ugm84
-AntiShipMissileNumbers=4
+AntiShipMissileNumbers=8
 AntiShipMissileReloadTime=30
 AntiShipMissileLaunchDepth=5
 AntiShipMissileLaunchPoints=0.021,0.156,0.57|0.021,0.144,0.575

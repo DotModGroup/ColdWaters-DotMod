@@ -1,103 +1,103 @@
 [TRAINING 1]=6
-<b>Welcome Commander</b>
-It is time to begin combat training.
+<b>Добро пожаловать, командир</b>
+Пора начинать боевую подготовку.
 
-<i>Remember use <KEY:Help> to re-open this training panel, or if this panel is already open, <KEY:Help> will open Help. Opening Help during combat pauses combat (and hides this panel).</i>
+<i>Не забудьте использовать <KEY:Help>, чтобы снова открыть эту обучающую панель, или, если эта панель уже открыта, <KEY:Help> откроет справку. Открытие справки во время боя приостанавливает бой (и скрывает эту панель).</i>
 
-Use  <color=grey><b>>>></b></color>  and   <color=grey><b><<<</b></color>  in title bar above to navigate tutorial forward or back.
-<i>Instructions in italics are optional.</i>
+Используйте  <color=grey><b>>>></b></color>  и   <color=grey><b><<<</b></color>  в строке заголовка выше, чтобы перемещаться по руководству вперед или назад.
+<i>Инструкции, выделенные курсивом, необязательны.</i>
 
-Click  <color=grey><b>>>></b></color>  in the title bar above to continue.
+Нажмите  <color=grey><b>>>></b></color>  в строке заголовка выше, чтобы продолжить.
 [/TRAINING 1]
 
 [TRAINING 2]
-<b>Camera Controls</b>
-<b>Pan Camera:</b> use <KEY:Drag Camera> or <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> and <KEY:Camera Down>. Camera can move above and below water.
+<b>Управление камерой</b>
+<b>Вращение камеры:</b> используйте <KEY:Drag Camera> или <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> и <KEY:Camera Down>. Камера может перемещаться над и под водой.
 
-<b>Camera Bearing Indicator</b> in upper middle of screen displays true bearing (direction) camera is facing.
-0=north, 90=east, 180=south and 270=west.
+<b>Индикатор азимута камеры</b> в верхней части экрана показывает истинный азимут (направление), в котором находится камера.
+0=север, 90=восток, 180=юг и 270=запад.
 
-<b>Zoom:</b> use <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
+<b>Приближение:</b> используйте <MOUSEWHEEL> или <KEY:Zoom In> and <KEY:Zoom Out>.
 
-Following commands cycle camera through different objects:
-<KEY:Camera To Player> - player submarine
-<KEY:Camera To Selected Contact> - current contact
-<KEY:Camera To Weapon> - torpedoes and missiles
-<KEY:Camera To Aircraft> - aircraft
+Горячие клавиши для перемещения камеры между разными объектами:
+<KEY:Camera To Player> - корабль игрока
+<KEY:Camera To Selected Contact> - текущий контакт
+<KEY:Camera To Weapon> - торпеды и ракеты
+<KEY:Camera To Aircraft> - авиация
 
-Try using <KEY:Camera To Player>, <KEY:Camera To Selected Contact> and <KEY:Camera To Aircraft> now (no weapons have been fired yet). Note that the target ship is not visible! If the exact position of a contact is not known, it is not displayed in the world. We will reveal the ship with the periscope during the next step.
+Попробуйте использовать <KEY:Camera To Player>, <KEY:Camera To Selected Contact> и <KEY:Camera To Aircraft> сейчас (из оружия еще не стреляли). Обратите внимание, что целевой корабль не виден! Если точное положение контакта неизвестно, он не отображается в мире. Мы обнаружим корабль с помощью перископа на следующем шаге.
 
-Next use <KEY:Camera To Aircraft>. Freeze camera with <KEY:Still Camera>, then use <KEY:Still Camera> again to return to following.
+Далее используйте <KEY:Camera To Aircraft>. Заморозьте камеру <KEY:Still Camera>, потом нажмите <KEY:Still Camera> снова, чтобы вернуться к отслеживанию.
 
-<KEY:Event Camera> toggles the event camera on/off as indicated by the icon in upper right. The event camera will automatically focus on events of interest such as weapons firing and impacting.
+<KEY:Event Camera> включает/выключает камеру событий, как показано значком в правом верхнем углу. Камера событий автоматически фокусируется на важных событиях, таких как стрельба и попадание оружия.
 
-When ready, return camera to your submarine with <KEY:Camera To Player>.
+Когда будете готовы, верните камеру на подводную лодку при помощи <KEY:Camera To Player>.
 [/TRAINING 2]
 
 [TRAINING 3]
-<b>Periscope</b>
-Press <KEY:Periscope> to raise your periscope. Once raised and ready to use, an icon appears in the upper right. Use <KEY:Periscope View> to enter the periscope view. Periscope view can by panned with <RIGHTCLICK> and dragging or using <KEY:Camera Left> and <KEY:Camera Right>.
+<b>Перископ</b>
+Нажмите <KEY:Periscope> чтобы поднять ваш перископ. После поднятия и готовности к использованию в правом верхнем углу появляется значок. Используйте <KEY:Periscope View> для входа в перископный вид. В перископном виде камеру можно двигать влево-вправо, используя <RIGHTCLICK> и перемещение мыши, или с использованием клавиш <KEY:Camera Left> и <KEY:Camera Right>.
 
-Pan the periscope until it is facing north (0 on the camera bearing indicator) and the target ship is in the crosshairs.
-Press <KEY:Help> now to learn more about using the periscope.
+Перемещайте перископ до тех пор, пока он не будет направлен на север (0 на индикаторе азимута камеры), а целевой корабль не окажется в перекрестии прицела.
+Нажмите <KEY:Help>, чтобы узнать больше об использовании перископа.
 
-Use <KEY:Mark Target> to mark the target with laser rangefinding. The target will immediately be classified and updated data about the target is shown in the middle column above the mini-map (bottom left). Target is also accurately plotted on the mini-map.
+Используйте <KEY:Mark Target> для обозначения цели с помощью лазерного дальномера. Цель будет немедленно классифицирована, а обновленные данные о цели будут показаны в средней колонке над мини-картой (внизу слева). Цель также будет точно отображаться на мини-карте.
 
-The mini-map displays your submarine, contacts, torpedoes and will be used to set weapon waypoints.
+Мини-карта отображает ваш корабль, контакты, торпеды и будет использоваться для установки точек наведения оружия.
 [/TRAINING 3]
 
 [TRAINING 4]
-<b>Tactical Map/Mini-Map</b>
-Map Controls:
-<b>Pan Map:</b> <LEFTCLICK> on the mini-map and drag the mouse.
-<b>Zoom Map:</b> Position mouse over map and <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
-<b>Centre Map:</b> <KEY:Centre Map> will position your submarine in the centre of the map, <KEY:Auto Centre Map> locks it there.
-<b>Maximise Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
-<b>Hide Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it.
+<b>Тактическая карта/Мини-карта</b>
+Управление картой:
+<b>Переместить карту:</b> <LEFTCLICK> на мини-карте и перемещайте мышью.
+<b>Масштабировать карту:</b> Наведите курсор на карту и <MOUSEWHEEL> или <KEY:Zoom In> и <KEY:Zoom Out>.
+<b>Центрировать карту:</b> <KEY:Centre Map> разместит ваш корабль в центре карты, <KEY:Auto Centre Map> заблокирует его в этом положении.
+<b>Расширить карту:</b> <KEY:Tactical Map> переключает полноэкранную карту (автоматически скрывает мини-карту).
+<b>Скрыть карту:</b> <LEFTCLICK> в верхней части мини-карты скрывает/восстанавливает её.
 
-<LEFTCLICK> on your submarine icon moves camera to your submarine.
-<LEFTCLICK> on a contact icon selects that contact or if already selected, moves camera to it.
-<LEFTCLICK> on a torpedo icon moves camera to it.
+<LEFTCLICK> по значку вашего корабля перемещает камеру на ваш корабль.
+<LEFTCLICK> по значку контакта выбирает этот контакт или, если он уже выбран, перемещает камеру к нему.
+<LEFTCLICK> по значку торпеды перемещает камеру к ней.
 
-Use <KEY:Help> now to learn more about the tactical map, then press <KEY:Periscope View> to leave periscope view if you have not already done so.
+Используйте <KEY:Help>, чтобы узнать больше о тактической карте, далее нажмите <KEY:Periscope View>, чтобы выйти из перископного вида, если вы ещё этого не сделали.
 [/TRAINING 4]
 
 [TRAINING 5]
-<b>Firing a Torpedo</b>
-Use <KEY:Event Camera> to turn on the event camera for your upcoming torpedo attack.
+<b>Запуск торпеды</b>
+Используйте <KEY:Event Camera>, чтобы включить камеру событий для предстоящей торпедной атаки.
 
-We will be firing a non-homing dumbfire Mark16 torpedo.
-Your target is not moving and several thousand yards directly north of your stationary submarine.
- 
-To fire a torpedo;
-<b>1) Select Tube</b>
-Torpedo tubes at the bottom left indicate that all 4 tubes are loaded and ready to fire. Use <KEY:Next Tube> or <LEFTCLICK> a torpedo icon to select which tube to fire (highlighted in red).
+Мы будем запускать торпеду "Mark37".
+Ваша цель не движется и находится примерно в тысяче метров прямо к северу от вашей неподвижной подводной лодки.
 
-<b>2) Place Waypoint</b>
-Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint. Bearing and Range to the waypoint are displayed and a blue line now appears on the mini-map which follows your mouse pointer.
+Чтобы запустить торпеду;
+<b>1) Выберите торпедный аппарат</b>
+Торпедные аппараты внизу справа показывают, что все 4 аппарата заряжены и готовы к стрельбе. Используйте <KEY:Next Tube> или <LEFTCLICK> по иконке торпеды, чтобы выбрать торпедны аппарат для стрельбы (выделен красным).
 
-Simply move your mouse pointer around the mini-map, placing it directly over the target, the readout bearing should display approximately 0.
+<b>2) Поставьте точку наведения оружия</b>
+Убедитесь, что ваша подводная лодка видна на мини-карте, и используйте <KEY:Fire Tube>, чтобы войти в режим установки точки наведения. Отобразятся азимут и расстояние до путевой точки, а на мини-карте появится синяя линия, которая следует за указателем мыши.
 
-<RIGHTCLICK> to set the waypoint and fire. Map can be panned, zoomed and centred while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+Просто переместите указатель мыши по мини-карте, поместив его прямо над целью, пеленг на показаниях должен показывать приблизительно 0.
 
-If all went well, your torpedo should run north and strike the target.
-If it misses or ship doesn't sink, fire another remembering to select a loaded tube and set the waypoint's bearing to 0.
+<RIGHTCLICK>, чтобы установить точку наведения и выстрелить. Карту можно двигать, масштабировать и центрировать при перетаскивании путевой точки и, при необходимости, использовать <KEY:Cancel or Quit>, чтобы выйти из режима установки точки наведения.
+
+Если все пойдет хорошо, ваша торпеда должна пойти на север и поразить цель.
+Если она промажет, или корабль не тонет после одного попадания, выстрелите ещё одну, не забыв выбрать заряженный торпедны аппарат и установив точку наведения с пеленгом 0.
 [/TRAINING 5]
 
 [TRAINING 6]
-<b>Ending Combat</b>
-When ready, leave combat by using <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
-The following options are available:
+<b>Окончание боя</b>
+Когда будете готовы, выйдите из боя, нажав <KEY:Cancel or Quit>, чтобы войти в меню миссии и завершить миссию (автоматически скрывает эту панель).
+Доступны следующие варианты:
 
-1) <DICTIONARY:AbandonShip> - may be attempted if your submarine is still intact and is currently above escape depth. If below escape depth, this option is not available.
+1) <DICTIONARY:AbandonShip> - может быть предпринята попытка, если ваш корабль все ещё цел и в настоящее время находится выше глубины эвакуации. Если ниже глубины эвакуации, эта опция недоступна.
 
-2) <DICTIONARY:OptionsHeader> - opens the game options to edit game settings as per the main menu.
+2) <DICTIONARY:OptionsHeader> - открывает меню опций для редактирования настроек игры, такое же, как в главном меню.
 
-3) <DICTIONARY:ExitMission> - end combat and go to the After Action Report. This option is available if you have broken contact with all enemy forces, there are no torpedoes or missiles nearby and any flooding your submarine has sustained is under control. If your submarine reaches the map boundary, this option is always available.
+3) <DICTIONARY:ExitMission> - завершите бой и перейдите к отчёту о боевых действиях. Эта опция доступна, если вы прервали контакт со всеми силами противника, поблизости нет торпед или ракет и на вашем судне нет неконтроллируемых затоплений. Если ваш корабль достигает границы карты, эта опция всегда доступна.
 
-4) <DICTIONARY:Back> - return to combat
+4) <DICTIONARY:Back> - вернуться в бой.
 
-Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+Оказавшись в меню миссии, нажмите <LEFTCLICK> <DICTIONARY:ExitMission>, чтобы завершить эту миссию и посмотреть отчёт о боевых действиях.
 
-When finished viewing After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+Когда закончите просматривать отчёт о боевых действиях, <LEFTCLICK> <DICTIONARY:Continue> или <KEY:Continue>.
 [/TRAINING 6]

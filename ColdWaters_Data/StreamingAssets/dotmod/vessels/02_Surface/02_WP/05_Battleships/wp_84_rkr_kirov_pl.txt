@@ -65,7 +65,7 @@ TorpedoTubes=11
 NumberOfWires=0
 TubeConfig=1,1,1,1,1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533,533,533,533,533
-TubeReloadTime=45
+TubeReloadTime=210
 
 VLSTorpedoTypes=wp_p-700
 VLSTorpedoNumbers=20

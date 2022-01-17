@@ -48,7 +48,7 @@ NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
-MissileType=usn_rur-5
+MissileType=usn_68_rur-5
 MissilesPerLauncher=12
 
 AntiShipMissileType=usn_ugm84
@@ -63,7 +63,7 @@ TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=30
+TubeReloadTime=180
 
 [Defenses]
 NoisemakerName=surf_noisemaker

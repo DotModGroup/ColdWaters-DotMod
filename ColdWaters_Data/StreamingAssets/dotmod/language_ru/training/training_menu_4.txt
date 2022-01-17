@@ -5,13 +5,13 @@
 [/TRAINING_MENU 2]
 
 [TRAINING_MENU 3]
-<b>Vessel Assignment</b>
-You have been automatically assigned a Sturgeon class submarine for this mission.
+<b>Назначение судна</b>
+Для выполнения этой миссии вам автоматически была назначена подводная лодка класса «Sturgeon» (Стерджен).
 
 <LEFTCLICK> <DICTIONARY:Accept>
 [/TRAINING_MENU 3]
 
 [TRAINING_MENU 4]
-<b>Exit Briefing</b>
-<LEFTCLICK> <DICTIONARY:Battlestations> to begin the mission.
+<b>Завершение брифинга</b>
+Нажмите <LEFTCLICK> на <DICTIONARY:Battlestations>, чтобы начать миссию.
 [/TRAINING_MENU 4]

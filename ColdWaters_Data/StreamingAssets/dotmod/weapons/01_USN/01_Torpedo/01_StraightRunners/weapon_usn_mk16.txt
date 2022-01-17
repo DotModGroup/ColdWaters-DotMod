@@ -18,7 +18,7 @@ AttackSettings=STRAIGHT
 DepthSettings=SHALLOW
 *
 WeaponNoiseValues=140,140
-WeaponSprite=weapons/sprites/usn_mk16_sprite
+WeaponSprite=hud/sprites/usn_mk16_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]

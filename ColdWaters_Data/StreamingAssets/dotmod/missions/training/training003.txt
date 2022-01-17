@@ -29,7 +29,7 @@ PlayerDepthInFeet=45
 PlayerTelegraph=1
 //Only used in training mode
 EnemyPositionsX=0,-20,20
-EnemyPositionsZ=80,100,120
+EnemyPositionsZ=180,230,270
 EnemyHeadings=90,-45,230
 
 //AI Nav Waypoints

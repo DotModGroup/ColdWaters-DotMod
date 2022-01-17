@@ -9,7 +9,7 @@ MaxLaunchDepth=1200
 MaxDepth=1200
 *
 WeaponRanges=8000
-WeaponSpeed=43
+WeaponSpeed=35
 TurnRate=20
 MaxPitchAngle=45
 *
@@ -25,6 +25,7 @@ ResupplyTime=15
 AssetBundle=bundles/dotmod/weapons/usn/usn_mk46
 ModelFile=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46.obj
 Material=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46_mat.mat
+MaterialTextures=vessels/textures/usn_mk46_tx.png
 MeshPosition=0,0,0
 MeshWeapon=mk46
 MeshWeaponPropRotation=-700

@@ -1,57 +1,57 @@
 [TRAINING 1]=4
-<b>Reloading Tubes In Combat</b>
-On the Briefing page you just left, you learned how to change the weapons on board and place them in tubes ready to fire prior to combat.
-Once in combat, stores cannot be changed but tubes can be reloaded.
+<b>Перезарядка торпедных аппаратов в бою</b>
+Во время брифинга к этой миссии вы научились изменять боекомплект на борту и выбирать заряженное в ТА оружие перед сражением.
+Когда вы в бою, боекомплект нельзя изменить, но торпедные аппараты можно перезаряжать.
 
-Use <KEY:Help> now to learn about missile settings.
+Используйте <KEY:Help>, чтобы узнать про настройку ракет.
 
-Select tube #1 by either <LEFTCLICK> on the weapon in the tube or use <KEY:Next Tube>.
-Selected tube is highlighted in red.
-Tap <KEY:Load Tube> until a TASM icon is shown again in tube #1.
-Wait a few seconds and an actual TASM begins to slide into the tube.
-Message log notifies you once it is fully loaded and ready to fire.
+Выберите ТА #1, нажав <LEFTCLICK> на оружие в ТА, или используя <KEY:Next Tube>.
+Выбранный ТА выделен красным.
+Нажимайте <KEY:Load Tube>, пока иконка ракеты "Томагавк" не появится в ТА #1.
+Подождите несколько секунд, и "Томагавк" начнёт заряжаться.
+Когда он полностью зарядится и будет готов к стрельбе, вас уведомит сообщение.
 
-<b>Time Compression</b>
-Use <KEY:Time Compression> to toggle time compression on/off to quickly load the TASM.
-Once the TASM is fully loaded continue to the next tutorial step.
+<b>Ускорение времени</b>
+Используйте <KEY:Time Compression>, чтобы включить/выключить ускорение времени, это позволит промотать время, пока заряжается "Томагавк".
+Когда вы зарядите "Томагавк", переходите к следующему этапу обучения.
 [/TRAINING 1]
 g
 [TRAINING 2]
-<b>Firing a Missile</b>
-We will fire a UGM-84 missile.
-Your target is not moving and directly north of your stationary submarine.
+<b>Пуск ракеты</b>
+Мы будем запускать ракету "Гарпун".
+Ваша цель не движется и находится строго на север от вашей неподвижной подводной лодки.
 
-To fire a missile;
-<b>1) Select Tube</b>
-Select a tube containing a UGM-84 (or TASM) by either <LEFTCLICK> on the weapon in the tube or use <KEY:Next Tube>. Selected tube is highlighted in red.
-Edit weapon settings. For this attack it is recommended to use the WIDE sensor cone.
+Чтобы выстрелить ракетой:
+<b>1) Выберите ТА</b>
+Выберите ТА, в котором заряжен "Гарпун" (или "Томагавк"), нажимая <LEFTCLICK> по оружию в ТА или используя <KEY:Next Tube>. Выбранный ТА выделен красным.
+Настройте оружие. Для этой атаки рекомендуем использовать ШИРОКИЙ конус сенсора.
 
-<b>2) Place Waypoint</b>
-Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set the waypoint as was done for firing torpedoes.
+<b>2) Поставьте точку наведения</b>
+Убедитесь, что ваша субмарина видна на мини-карте и используйте <KEY:Fire Tube>, чтобы установить точку наведения также, как мы это делали с торпедами.
 
-Move your mouse pointer onto the mini-map, placing it directly in front your submarine (north) until the waypoint's bearing readout displays 0 and the range is between 8 to 10 KYD (missiles do have a minimum range). Use <MOUSEWHEEL> or <KEY:Zoom Out> to zoom out the mini-map if needed. Map can be panned and zoomed while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+Двигайте ваш курсор по мини-карте, поместив его прямо по курсу вашей ПЛ (на север), пока пеленг точки наведения не будет показывать 0, а дальность - между 7 и 12 Км (ракеты имеют минимальную дистанцию пуска). Используйте <MOUSEWHEEL> или <KEY:Zoom Out>, чтобы уменьшить масштаб карты, если это необходимо. Можно изменять масштаб и положение карты пока вы ставите точку наведения и, если это необходимо, вы можете нажать <KEY:Cancel or Quit>, чтобы отменить установку точки наведения.
 
-When ready, <RIGHTCLICK> to set the waypoint and fire.
-Your missile will launch and run to the waypoint where it will go active and seek a target. If it cannot find a target the missile will self-destruct, making it crucial to place the waypoint in front of your target.
+Когда будете готовы, нажмите <RIGHTCLICK>, чтобы установить точку наведения и выстрелить.
+Ваша ракета будет запущена и полетит к точке наведения, где будет активирована и начнёт искать цель. Если ракета не сможет найти цель, ракета самоуничтожится, поэтому важно ставить точку наведения перед целью.
 
-If all went well, your missile should launch to the north and strike the target.
-If it misses or ship doesn't sink, fire another remembering to select a loaded tube, set the waypoint's bearing to 0 and range of 8 to 10 KYD.
+Если всё прошло хорошо, ваша ракета должна полететь на север и поразить цель.
+Если она промахнётся, или корабль не потонет, выпустите ещё одну, не забыв выбрать заряженный торпедный аппарат и установив точку наведения на пеленг 0 и дальность между 7 и 12 Км.
 [/TRAINING 2]
 
 [TRAINING 3]
-<b>Target Practice</b>
-Two other target ships are nearby, approximately at bearing 350 and 010.
-Be sure not to place the waypoint past the target (or missile will overshoot before going active) or too close to the target such that it is outside the missile's sensor cone.
+<b>Учебная стрельба</b>
+Поблизости находятся ещё два корабля в качестве мишеней, примерно на пеленгах 355 и 004.
+Убедитесь, что не выставляете точку наведения за целью (в таком случае ракета перелетит цель до того, как активируется), или слишком близко от цели, из-за чего цель окажется за пределами конуса сенсора наведения.
 
-Try sinking these other targets with missiles and experiment with changing the weapon settings.
-Use <KEY:Load Tube> to reload more missiles if needed.
+Попытайтесь потопить эти цели с помощью ракет и поэкспериментируйте, изменяя настройки оружия.
+Используйте <KEY:Load Tube>, чтобы зарядить больше ракет, если это необходимо.
 [/TRAINING 3]
 
 [TRAINING 4]
-<b>Ending Combat</b>
-To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+<b>Окончание боя</b>
+Чтобы выйти из боя используйте <KEY:Cancel or Quit> для выхода в меню миссии и завершения миссии (автоматически скрывает эту панель).
 
-Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+Попав в меню миссии, нажмите <LEFTCLICK> на <DICTIONARY:ExitMission>, чтобы завершить эту миссию и просмотреть отчёт о боевых действиях.
 
-When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+После завершения просмотра отчета о боевых действиях, нажмите <LEFTCLICK> на <DICTIONARY:Continue> или <KEY:Continue>.
 [/TRAINING 4]

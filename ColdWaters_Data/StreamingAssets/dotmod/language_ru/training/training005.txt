@@ -1,8 +1,8 @@
 Image=campaign/images/pact naval 1
-MissionLocation=Training exercise
-Briefing=Locate, identify and track an unknown contact.
+MissionLocation=Учебное задание
+Briefing=Обнаружьте, идентифицируйте и отследите неизвестный контакт.
 Briefing=
-Briefing=Things to practice:
-Briefing=- Detecting and classifying contacts.
-Briefing=- Target Motion Analysis (TMA).
-Briefing=- Building a firing solution.
+Briefing=Практические занятия:
+Briefing=- Обнаружение и классификация контактов.
+Briefing=- Анализ Движения Цели (АДЦ).
+Briefing=- Повышение точности решения цели.

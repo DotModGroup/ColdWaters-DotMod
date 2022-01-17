@@ -370,6 +370,15 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=220
 
+SonarModel=usn_sqs_53
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=39
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220
+
 SonarModel=usn_sqs_56
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,L
@@ -885,6 +894,15 @@ RADARRange=60000
 
 RADARModel=usn_sps_55
 RADARRange=64000
+
+RADARModel=usn_spy_1a
+RADARRange=68000
+
+RADARModel=usn_spy_1b
+RADARRange=74000
+
+RADARModel=usn_spy_1d
+RADARRange=76000
 //----------------------------------------Aircraft-------------------------------
 RADARModel=usn_ln_66
 RADARRange=100000

@@ -3,7 +3,7 @@
 Image=campaign/images/backgrounds/nato_perry_firing_0.jpg
 MissionLocation=In the vicinity of the North Cape
 Briefing=19 MAR 1984
-Briefing=A US surface unit encounters a massive Soviet strike group off the North Cape. The centerpiece of the group is every captian's nightmare: A Kirov-class battlecruiser.
+Briefing=A US surface unit encounters a massive Soviet strike group off the North Cape. The centerpiece of the group is every captain's nightmare: A Kirov-class battlecruiser.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Survive

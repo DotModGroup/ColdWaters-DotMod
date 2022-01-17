@@ -49,7 +49,7 @@ TorpedoNumbers=18
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=14
-TubeReloadTime=30
+TubeReloadTime=180
 
 MissileType=knm_penguin
 MissilesPerLauncher=3,3

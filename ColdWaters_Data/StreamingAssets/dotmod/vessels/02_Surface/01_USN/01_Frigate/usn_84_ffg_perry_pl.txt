@@ -8,7 +8,7 @@ Displacement=4100
 HullHeight=0.1
 Crew=176
 Range=4500
-HullNumbers=FALSE
+HullNumbers=FFG-8.png,FFG-28.png,FFG-29.png,FFG-32.png,FFG-33.png,FFG-36.png,FFG-37.png,FFG-38.png,FFG-39.png,FFG-40.png,FFG-41.png,FFG-42.png,FFG-43.png,FFG-45.png,FFG-46.png,FFG-47.png,FFG-48.png,FFG-49.png,FFG-50.png,FFG-51.png
 
 [Movement]
 SurfaceSpeed=29
@@ -50,14 +50,14 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46
-TorpedoNumbers=6
+TorpedoTypes=usn_mk46_mod_5
+TorpedoNumbers=24
 TorpedoTubes=7
 TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533
-TubeReloadTime=5
+TubeReloadTime=180
 
-VLSTorpedoTypes=usn_ugm84,usn_rim-66
+VLSTorpedoTypes=usn_ugm84,usn_rim-66e
 VLSTorpedoNumbers=16,24
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=400

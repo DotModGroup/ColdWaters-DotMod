@@ -24,7 +24,7 @@ AttackSettings=STRAIGHT,LEFT,RIGHT,SNAKE
 DepthSettings=LEVEL,SHALLOW,DEEP,DEEP_SUB
 *
 WeaponNoiseValues=130,230
-WeaponSprite=weapons/sprites/usn_mk48_sprite
+WeaponSprite=hud/sprites/usn_mk48_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]

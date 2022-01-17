@@ -5,7 +5,7 @@ Use <KEY:Help> now to read about torpedo settings and wire-guiding.
 Let's practice:
 Use <KEY:Tactical Map> to switch to full screen map.
 Use <KEY:Fire Tube> and drag mouse to set waypoint approximately:
-Bearing: 0 Range 20 KYD
+Bearing: 0 Range: 20 KYD
 <RIGHTCLICK> to place waypoint and fire.
 
 Third column above mini-map shows this wire-guided torpedo's data:
@@ -14,7 +14,7 @@ Third column above mini-map shows this wire-guided torpedo's data:
 <b>RNG</b> Range
 <b>BRG</b> Bearing - direction from your submarine to the weapon
 <b>RTE</b> Range To Enable - distance from weapon to its waypoint
-<b>TTR</b> Time To Run - seconds left for weapon to run
+<b>TTR</b> Time To Run - time left for weapon to run
 
 Note the "1" next to the torpedo icon on the tactical map, this is the tube/wire number.
 [/TRAINING 1]
@@ -22,7 +22,7 @@ Note the "1" next to the torpedo icon on the tactical map, this is the tube/wire
 [TRAINING 2]
 <b>Move Waypoint</b>
 <i>If torpedo 1 reached its waypoint and is aready active:
-Fire another torpedo at Bearing:0 Range 20 KYD</i>
+Fire another torpedo at Bearing:0 Range: 20 KYD</i>
 
 <LEFTCLICK> to pick up the waypoint (may need to zoom map if other icons are nearby).
 Drag waypoint about with mouse pointer, say to:
@@ -39,7 +39,7 @@ Once the torpedo reaches its waypoint it:
 
 [TRAINING 3]
 <b>Steer Torpedo</b>
-One torpedo has reached its waypoint and is enabled:
+Once torpedo has reached its waypoint and is enabled:
 Use <KEY:Steer Torpedo Left> and <KEY:Steer Torpedo Right> to change direction. Torpedo will continue straight unless tube setting is used to set another search pattern.
 
 Use <KEY:Steer Torpedo Shallow> and <KEY:Steer Torpedo Deep> to change depth. Depth can also be adjusted by setting the tube's setting to RUN LEVEL, RUN SHALLOW or RUN DEEP. <i>Opening the Conditions Tab with <KEY:Conditions> will show current depth of the torpedo.</i>

@@ -5,31 +5,31 @@
 [/TRAINING_MENU 2]
 
 [TRAINING_MENU 3]
-<b>Vessel Assignment</b>
-You have been automatically assigned a Sturgeon class submarine for this mission.
+<b>Назначение судна</b>
+Для выполнения этой миссии вам автоматически была назначена подводная лодка класса «Sturgeon» (Стерджен).
 
 <LEFTCLICK> <DICTIONARY:Accept>
 [/TRAINING_MENU 3]
 
 [TRAINING_MENU 4]
-<b>Weapons Loadout</b>
-For this mission we will modfy your weapon loadout and which weapons will be ready in the tubes for combat.
+<b>Выкладка вооружения</b>
+Для этой миссии мы изменим боекомплект и вооружение, заряженное в торпедные аппараты.
 
-<LEFTCLICK> <DICTIONARY:VesselStatus> or <KEY:Stores> to view your vessel's weapon stores.
+Нажмите <LEFTCLICK> на <DICTIONARY:VesselStatus> или <KEY:Stores>, чтобы просмотреть ваш боекомплект.
 
-<b>Changing Loadout</b>
-<LEFTCLICK> <DICTIONARY:UnloadWeapon> 4 times to remove 4 MK48 torpedoes from your stores. You should now have 4 MK48 in your stores plus an additional (4) in the torpedo tubes for a total of 19/23 weapons on board.
+<b>Изменение выкладки вооружения</b>
+Нажмите <LEFTCLICK> на <DICTIONARY:UnloadWeapon> 4 раза, чтобы убрать 4 торпеды Mk 48 из вашего боекомплекта. Теперь у вас должно быть 4 Mk 48 в боекомплекте и ещё (4), заряженных в торпедные аппараты, и, соответственно, всего 19/23 вооружения на борту.
 
-<LEFTCLICK> on the TASM missile icon or it's name to select it.
-<LEFTCLICK> <DICTIONARY:LoadWeapon> 4 times to add 4 TASM missiles to your stores. You should now have 4 TASM in your stores with (0) in the torpedo tubes for a total of 23/23 weapons on board.
+Нажмите <LEFTCLICK> на иконку ПКР "Томагавк" или на название этих ракет, чтобы их выбрать.
+Нажмите <LEFTCLICK> на <DICTIONARY:LoadWeapon> 4 раза, чтобы добавить 4 ракеты "Томагавк" в ваш боекомплект. Теперь у вас должно быть 4 ПКР "Томагавк" в боекомплекте и (0) в торпедных аппаратах, что в итоге составляет 23/23 вооружения на борту.
 
-<b>Loading Tubes</b>
-Currently there are 4 MK48 in the tubes as indicated by the icons in the tubes and the (4) listed next to the MK48 icon.
-Tap <KEY:Load Tube> continuously to cycle through the weapon in tube #1. Stop when a UGM-84 is loaded, UGM-84 should read 7 (1) to indicate of the 7v UGM-84 on board, 1 is in the tubes and the icon in tube #1 should be a UGM-84.
+<b>Заряжание торпедных аппаратов</b>
+Сейчас в торпедных аппаратах находятся 4 торпеды Mk 48, что можно понять по иконкам торпед в ТА и цифрой (4) рядом с иконкой Mk 48 в списке вооружения.
+Нажимайте <KEY:Load Tube>, чтобы менять заряженное в ТА #1 оружие. Остановитесь, когда будет заряжена ракета "Гарпун" - в списке вооружения рядом с ПКР "Гарпун" должно значиться 7 (1), что означает наличие 7 ракет "Гарпун" в боекомплекте и 1 заряженной в торпедный аппарат, а также в ТА #1 должна быть иконка ракеты "Гарпун".
 
-<LEFTCLICK> the weapon in tube #2 (or use <KEY:Next Tube>) and use <KEY:Load Tube> to place a UGM-84 in tube #2.
-Repeat this for tubes #3 and #4, but in these load a TASM into each.
-When finished you should have UGM-84 6 (2) and TASM 2 (2) listed along with 2 UGM-84 icons in tubes and 2 TASM icons in tubes.
+Нажмите <LEFTCLICK> на оружие в ТА #2 (или используйте <KEY:Next Tube>) и используйте <KEY:Load Tube>, чтобы зарядить ракету "Гарпун" в ТА #2.
+Повторите это же для ТА #3 и #4, но зарядите в них ракеты "Томагавк".
+Когда закончите, у вас должно быть ПКР "Гарпун" 6 (2) и ПКР "Томагавк" 2 (2) в списке вооружений, а также должны отображаться 2 иконки ракет "Гарпун" и 2 иконки ракет "Томагавк" в торпедных аппаратах.
 
-Once you have this loadout <LEFTCLICK> <DICTIONARY:Battlestations> to begin the mission.
+Когда у вас будет данная выкладка, нажмите <LEFTCLICK> на <DICTIONARY:Battlestations>, чтобы начать миссию.
 [/TRAINING_MENU 4]

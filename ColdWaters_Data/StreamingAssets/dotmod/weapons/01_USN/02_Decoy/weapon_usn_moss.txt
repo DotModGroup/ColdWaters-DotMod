@@ -16,7 +16,7 @@ AttackSettings=STRAIGHT
 DepthSettings=LEVEL
 *
 WeaponNoiseValues=100,200
-WeaponSprite=weapons/sprites/usn_moss_sprite
+WeaponSprite=hud/sprites/usn_moss_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]
