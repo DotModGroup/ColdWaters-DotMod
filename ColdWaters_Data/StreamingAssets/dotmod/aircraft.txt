@@ -1,4 +1,4 @@
-[Aircraft]
+[Aircraft] 
 //--------------------------------------------------------------------------Sh-23f Seasprite--------------------------------------------------------------------------------------------------------
 //SH-2F Seasprite - 1959
 AircraftObjectReference=usn_sh-2f
@@ -43,14 +43,15 @@ MeshSpeed=100
 MeshAircraftProp=usn_sh-2f_tailrotor
 
 Hardpoints=0.0133,-0.0133,-0.0145|-0.0133,-0.0133,-0.0145
-ModelFile=weapons/assets/plan_yu-7
-Material=weapons/assets/plan_yu-7_mat
-MaterialTextures=weapons/assets/plan_yu-7_tx
+AssetBundle=bundles/dotmod/weapons/usn/usn_mk46
+ModelFile=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46.obj
+Material=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46_mat.mat
+MaterialTextures=vessels/textures/usn_mk46_tx.png
 MeshRotation=0,0,0
 MeshPosition=0.0133,-0.0133,-0.0145
-MeshHardpoint=Yu-7
+MeshHardpoint=mk46_h
 MeshPosition=-0.0133,-0.0133,-0.0145
-MeshHardpoint=Yu-7
+MeshHardpoint=mk46_h
 
 HoverParticle=aircraft/heli_hover
 
@@ -76,7 +77,7 @@ PassiveSonarModel=usn_aqs_13f
 SonobuoyTypes=usn_ssq_62
 SonobuoyNumbers=12
 [Weapon Systems]
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=2
 DepthBomb=FALSE
 DepthBombNumbers=0
@@ -143,7 +144,7 @@ SonobuoyNumbers=40
 
 
 [Weapon Systems]
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=2
 DepthBomb=wp_depth_bomb
 DepthBombNumbers=30
