@@ -15,7 +15,7 @@
     {
       "name": "HUD Adjustments",
       "enabled": false,
-      "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/HUD_Adjustments/",
+      "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/Hud_Adjustments/",
       "definitionUrl": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/Hud_Adjustments/hud_adjustments_definition.json"
     }
   ]
