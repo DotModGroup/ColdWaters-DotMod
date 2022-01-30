@@ -11,6 +11,12 @@
       "enabled": false,
       "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon2/",
       "definitionUrl": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/TestAddon2/test_addon_2_definition.json"
+    },
+    {
+      "name": "HUD Adjustments",
+      "enabled": false,
+      "url": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/HUD_Adjustments/",
+      "definitionUrl": "https://raw.githubusercontent.com/DotModGroup/ColdWaters-DotMod/main/Addons/HUD_Adjustments/hud_adjustments_definition.json"
     }
   ]
 }
