@@ -128,7 +128,7 @@ ghostdog688 - Coordination, presentation, PR
 Goldmaster11 - Testing
 Russian_Wolf - Russian Translations
 Kevin DDSSTT - Texture art for new vessel models
-Steel Shark - UI Sprites and Textures
+Steel Shark - UI Sprites, Textures, and HUD
 Misfit - Sounds for USN Sonars and Mk7 Guns
 -----------
 Our team also wants thank several people for their help and inspiration:
@@ -138,8 +138,11 @@ Oleg Vygovsky - You've showed that impossible is actually possible and provided 
 Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additionally, thanks for the info and support through the years.
 Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
 Evgeny Mas - Your voiceover adds an incredible amount of immersion to playing Russian vessels.
-Steel Shark - We're still using the HUD you made for EM, even if it's tweaked a little. Nice work.
-Epic - Credits for ideas on chaff and WH behaviour and assistance in WH parameters setup, shkwal sprie and several medals sprites and edited parameters of the wake trals. It was fun to improve EM, but sadly your attitude eventually drive all content makers from the project.
+Epic - Credits for ideas on chaff and WH behaviour and assistance in WH parameters setup, Shkval sprite and several medals sprites and edited parameters of the wake trals. It was fun to improve EM, but sadly your attitude eventually drove all content makers from the project.
+
+Electric Boat would like to thank by name the following:
+George Bieda (Windjammers Arts) and TheFloatingDrydock - For all the drawings that constitute my main reference for all US Navy vessels, and
+Boris Volkhov (Polar Bear Productions) - For static scale models and drawings that are my constant and most precious source of reference for all soviet submarines.
 
 Special thanks is also given to model makers who have uploaded thier models for anyone to use, especially on 3D Warehouse!
 
