@@ -295,7 +295,7 @@ MineHazardColor=255,136,154,255
 PortColor=255,136,154,255
 
 PlayerColor=255,255,255,255
-EnemyColor=255,136,154,255
+EnemyColor=74,163,201,255
 NeutralColor=2,181,99,255
 VesselTrails=255,255,255,255
 TorpedoOnWire=255,255,255,255
