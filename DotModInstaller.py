@@ -13,7 +13,6 @@ import configparser
 
 # Good programming practices
 def main():
-    user = os.getlogin()
     config = configparser.ConfigParser()
     config.read("%s/Installer.ini" % (os.getcwd()))
     mod_name = config["Settings"]["mod_name"]
