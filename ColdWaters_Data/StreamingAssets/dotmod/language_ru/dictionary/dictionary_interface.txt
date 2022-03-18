@@ -27,6 +27,11 @@ December=Декабря
 
 RearTube=Кормовой ТА
 
+RpgNeutralTonnage=Тоннаж нейтралов
+RpgNeutralCasualties=Потоплено + повреждено нейтралов
+RpgCampaignPoints=Очки кампании
+RpgPatrolPoints=Очки похода
+
 Mile=n. mi
 SubsystemDiesel=Дизель
 DieselSpace=Дизельный отсек
