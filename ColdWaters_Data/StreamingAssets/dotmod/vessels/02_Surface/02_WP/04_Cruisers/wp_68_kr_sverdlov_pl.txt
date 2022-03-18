@@ -16,8 +16,8 @@ SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,10,18,25,33
 AccelerationRate=0.12
 DecelerationRate=0.06
-RudderTurnRate=0.5
-TurnRate=0.3
+RudderTurnRate=0.7
+TurnRate=0.45
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
@@ -25,7 +25,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0.2
 CavitationParameters=20,-200
-PropRotationSpeed=-250,250
+PropRotationSpeed=250,-250
 TestDepth=40.51
 EscapeDepth=787
 PeriscopeDepthInFeet=1
@@ -75,7 +75,7 @@ ChaffProbability=0.99
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=30
 NoisemakerReloadTime=20
 
 [Subsystems]
@@ -348,12 +348,17 @@ MeshSternWake=wp_kr_sverdlov_sternwake
 
 //Ocean surface particles
 ParticleBowWavePosition=0,0,1.525
-ParticlePropWashPosition=0,-0.091,-1.257
-ParticleHullFoamPosition=0,0,1.019
-ParticleHullFoamParameters=400,0.55,0.45,0.007,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.57
-ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
-KelvinWaves=5.5,5.5
+ParticlePropWashPosition=0,-0.091,-1.357
+
+ParticleHullFoamPosition=0,0,1.375
+ParticleHullFoamParameters=65,0.22,0.407,0.055,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=187.63,0.418,0.2926,0.00627,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=150.1,0.308,0.2156,0.004004,0.0,0,3.0
+KelvinWaves=4.85,5.3
 
 EngineAudioClip=audio/units/turbine_large
 EngineAudioRollOff=LOGARITHMIC

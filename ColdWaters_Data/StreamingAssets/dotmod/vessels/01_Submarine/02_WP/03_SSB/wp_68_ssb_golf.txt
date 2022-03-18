@@ -58,8 +58,8 @@ VLSMaxDepthToFire=200
 VLSMaxSpeedToFire=5
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=15
+NoisemakerReloadTime=32
 
 AntiAirMissileType=wp_strela-2
 AntiAirMissilesNumbers=6

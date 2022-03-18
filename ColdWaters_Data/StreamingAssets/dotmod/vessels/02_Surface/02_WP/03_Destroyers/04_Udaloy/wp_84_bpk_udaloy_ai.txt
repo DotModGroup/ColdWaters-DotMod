@@ -18,7 +18,7 @@ TelegraphSpeeds=-5,0,5,10,18,25,35
 AccelerationRate=0.09
 DecelerationRate=0.03
 RudderTurnRate=0.5
-TurnRate=0.8
+TurnRate=0.5
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=0
@@ -30,7 +30,7 @@ PropRotationSpeed=-350,350
 TestDepth=0
 
 [Acoustics & Sensors]
-SelfNoise=175
+SelfNoise=170
 ActiveSonarReflection=25
 ActiveSonarModel=wp_mgk-355
 PassiveSonarModel=wp_mgk-355
@@ -279,11 +279,16 @@ MeshSternWake=wp_bpk_udaloy_sternwake
 
 //Ocean surface particles
 ParticleBowWavePosition=0,0,1.1
-ParticlePropWashPosition=0,-0.075,-0.854
-ParticleHullFoamPosition=0,0,0.57
-ParticleHullFoamParameters=200,0.45,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.0
-ParticleSternFoamParameters=160,0.45,0.20,0.004,0.055,0,0.5
+ParticlePropWashPosition=0,-0.075,-1.07
+
+ParticleHullFoamPosition=0,0,0.825
+ParticleHullFoamParameters=65,0.19,0.3515,0.0475,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=157.05,0.361,0.2527,0.005415,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=125.64,0.266,0.1862,0.003458,0.0,0,3.0
 KelvinWaves=3.85,3.85
 
 EngineAudioClip=audio/units/turbine_small

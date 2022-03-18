@@ -3,7 +3,7 @@ ShipType=SUBMARINE
 PlayerHUD=hud/default_usn
 
 Length=108
-Beam=10
+Beam=12
 HullHeight=0.08
 Displacement=9138
 Crew=129
@@ -18,7 +18,7 @@ AccelerationRate=0.27
 DecelerationRate=0.08
 RudderTurnRate=0.75
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
@@ -55,8 +55,8 @@ MissileType=usn_tasm
 MissilesPerLauncher=4,4
 
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=22
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -203,15 +203,18 @@ PropWashParticle=ships/particles/bowwave_small
 FunnelSmokeParticle=ships/particles/usn_ssn_seawolf_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_seawolf_emergency_blow
 
-ParticleBowWavePosition=0,0,0.72
+ParticleBowWavePosition=0,0,0.74
 ParticlePropWashPosition=0,-0.033,-0.81
 
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.7
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.34,2.34
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=143.38,0.30,0.21,0.0039,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=114.71,0.18,0.126,0.00225,0.0,0,3.0
+KelvinWaves=3.51,2.34
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

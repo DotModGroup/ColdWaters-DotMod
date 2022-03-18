@@ -1,8 +1,9 @@
 [Unit Reference]
-ShipClass=Trafalgar (1990s)
-Description=Trafalgar Class Nuclear Attack Submarine (1990s)
-History=The Trafalgar class were designed in the early 1970s during the Cold War as a refinement of the preceding Swiftsure class. Including HMS Dreadnought, the Trafalgar class are the fifth class of nuclear-powered fleet submarines to enter service with the Royal Navy. The first of the class, HMS Trafalgar, was ordered on 7 April 1977 and completed in 1983. The last, HMS Triumph, was ordered on 3 January 1986 and completed in 1991. All seven boats of the class were built and completed by Vickers Shipbuilding and Engineering at the Barrow-in-Furness shipyard.\nIn the 1990s the Trafalgar-class recieved a mid-life upgrade, being fitted with the integrated Sonar 2074 suite. This was a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array. The Spearfish Heavyweight Torpedo was also introduced to replace the much derided Tigerfish.
+ShipClass=«Трафальгар» (1999 г.)
+Designation=АПЛ
+Description=АПЛ типа «Трафальгар» (1999 г.)
+History=АПЛ типа «Трафальгар» были разработаны во время Холодной войны в начале 1970-х как развитие предыдущего типа «Суифтшюр». Считая с  АПЛ «Дредноут», «Трафальгар» был пятым типом атомных подводных лодок, поступившим на вооружение Королевского Флота. Первая лодка в серии, «Трафальгар», была заложена в 1977 году и вступила в строй в 1983, последняя - «Триумф», в 1986 и 1991 соответственно. Все 7 АПЛ были построенны Vickers Shipbuilding and Engineering на верфях в Барроу-ин-Фернесс. В 1990-е прошли модернизацию, в ходе которой получили БИУС Sonar 2074. Она включала в себя набор активных и пассивных систем, работающих на высоких, средних и низких частотах, включающий в себя носовую ГАС, бортовые шумопеленгаторы, сматываемую и не-сматываемую ГПБА. Помимо этого, на вооружение была принята торпеда <<Спирфиш>>, заменившая проблемную <<Тайгерфиш>>.
 
 [Player Ship Instances]
 PlayerClassNames=Trafalgar,Turbulent,Tireless,Torbay,Trenchant,Talent,Triumph
-PlayerClassHullNumbers=S107, S87, S88,S90, S91, S92, S93
+PlayerClassHullNumbers=S107, S87, S88, S90, S91, S92, S93

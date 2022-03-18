@@ -1,4 +1,5 @@
 [Unit Reference]
-ShipClass=Gearing
-Description=FRAM I Gearing-class Destroyer
-History=The Gearing class was a series of 98 destroyers built for the U.S. Navy during and shortly after World War II. The Gearing design was a minor modification of the Allen M. Sumner class, whereby the hull was lengthened by 14 ft (4.3 m) at amidships, which resulted in more fuel storage space and increased the operating range. In the late 1950s and early 1960s, 79 of the Gearing-class destroyers underwent extensive modernization overhauls, known as FRAM I, which were designed to convert them from an anti-aircraft destroyer to an anti-submarine warfare platform. FRAM I and FRAM II conversions were completed 1960-1965. Eventually all but three Gearings received FRAM conversions.
+Designation=ЭМ
+ShipClass=«Гиринг»
+Description=Эскадренные миноносцы типа «Гиринг» модернизированные по программе FRAM
+History=Эскадренные миноносцы типа «Гиринг» - серия эсминцев, строившихся для ВМС США во время ВМВ и недолго после её окончания. Они были развитием типа «Аллен М. Самнер», с удлинненным на 4.3 метра корпусом, что позволило увеличить запас топлива, и соответственно - дальность. В конце 1950-х - начале 1960-х, 79 ЭМ типа «Гиринг» прошли модернизацию по программе FRAM I (Fleet Rehabilitation and Modernization, реконструкция и модернизация флота), созданную чтобы переделать их из эсминцев ПВО в противолодочные. FRAM I и FRAM II были выполнены между 1960 и 1965, постепенно все «Гиринги» кроме 3 прошли модернизацию.

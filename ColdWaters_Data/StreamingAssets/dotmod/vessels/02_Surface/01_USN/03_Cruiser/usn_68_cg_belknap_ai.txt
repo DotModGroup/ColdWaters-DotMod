@@ -2,7 +2,7 @@ Designation=CG
 ShipType=ESCORT
 
 Length=167
-Beam=17
+Beam=16.8
 HullHeight=0.12
 Displacement=7930
 Crew=477
@@ -18,8 +18,8 @@ TelegraphSpeeds=-5,0,5,10,15,20,32
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
-TurnRate=2.2
-PivotPointTurning=0.256
+TurnRate=0.9
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=0
 BallastRate=0
@@ -51,7 +51,7 @@ TorpedoTypes=usn_mk46
 TorpedoNumbers=18
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 MissileType=usn_68_rur-5
@@ -71,7 +71,7 @@ AntiAirMissileLaunchPointsRotation=-15,0,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=17
 
 [Model]
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
@@ -190,11 +190,12 @@ Material=ships/materials/flag_signal_us
 MeshOtherFlags=usn_cg_belknap_signals,HIDE
 
 ModelFile=ships/usn_cg_belknap/usn_cg_belknap
+
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
-BowWaveParticle=ships/particles/bowwave
-PropWashParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_small
+PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=ships/particles/usn_cg_belknap_cavitation
 FunnelSmokeParticle=ships/particles/usn_cg_belknap_smokeemitter
 
@@ -204,13 +205,18 @@ MeshHullWake=usn_cg_belknap_hullwake
 MeshPosition=0,0,-0.87
 MeshSternWake=usn_cg_belknap_sternwake
 
-ParticleBowWavePosition=0,0,1.15
-ParticlePropWashPosition=0,-0.07,-1.141
-ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.35,0.35,0.055,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.11
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
-KelvinWaves=4.1,4.1
+ParticleBowWavePosition=0,0.05,1.15
+ParticlePropWashPosition=0,-0.00685,-1.075
+
+ParticleHullFoamPosition=0,0,0.866
+ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=169.62,0.3192,0.22344,0.004788,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=135.69,0.2352,0.16464,0.0030576,0.0,0,3.0
+KelvinWaves=4.1,4.0
 
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC

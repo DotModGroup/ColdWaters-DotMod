@@ -1,7 +1,8 @@
-[Unit Reference]
-ShipClass=Trafalgar (2000s)
-Description=Trafalgar Class Nuclear Attack Submarine (2000s)
-History=The Trafalgar class were designed in the early 1970s during the Cold War as a refinement of the preceding Swiftsure class. Including HMS Dreadnought, the Trafalgar class are the fifth class of nuclear-powered fleet submarines to enter service with the Royal Navy. The first of the class, HMS Trafalgar, was ordered on 7 April 1977 and completed in 1983. The last, HMS Triumph, was ordered on 3 January 1986 and completed in 1991. All seven boats of the class were built and completed by Vickers Shipbuilding and Engineering at the Barrow-in-Furness shipyard.\nIn the 2000s the final 4 boats of the Trafalgar-class recieved an additional upgrade to extend their lives and provide derisking to the in development Astute-class. This primarily consisted of a new command system and the fitment of the Sonar 2076 integrated suite that was later to be fitted to the Astute-class.
+﻿[Unit Reference]
+ShipClass=«Трафальгар» (2004 г.)
+Designation=АПЛ
+Description=АПЛ типа «Трафальгар» (2004 г.)
+History=АПЛ типа «Трафальгар» были разработаны во время Холодной войны в начале 1970-х как развитие предыдущего типа «Суифтшюр». Считая с  АПЛ «Дредноут», «Трафальгар» был пятым типом атомных подводных лодок, поступившим на вооружение Королевского Флота. Первая лодка в серии, «Трафальгар», была заложена в 1977 году и вступила в строй в 1983, последняя - «Триумф», в 1986 и 1991 соответственно. Все 7 АПЛ были построенны Vickers Shipbuilding and Engineering на верфях в Барроу-ин-Фернесс. В начале 00-х 4 последение в серии лодки прошли дополнительную модернизацию чтобы продлить их службу и подстраховать находившийся в разработке тип «Астьют». Они получили БИУС Sonar 2076, позже установленную на «Астьют».
 
 [Player Ship Instances]
 PlayerClassNames=Torbay,Trenchant,Talent,Triumph

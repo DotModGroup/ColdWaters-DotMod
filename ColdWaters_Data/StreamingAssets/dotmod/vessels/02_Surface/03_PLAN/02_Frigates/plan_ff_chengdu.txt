@@ -50,8 +50,8 @@ RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=8
+NoisemakerReloadTime=25
 
 [Model]
 ModelFile=ships/plan_ff_chengdu/plan_ff_chengdu

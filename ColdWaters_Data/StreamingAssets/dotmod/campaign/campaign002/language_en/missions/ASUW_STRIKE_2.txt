@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTELLIGENCE REPORTS THAT AN ENEMY HELICOPTER CARRIER TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF <COUNTRY>. A FREINDLY BOOMER IS CURRENTLY OPERATING THERE AND MUST BE PROTECTED. YOU WILL THEREFORE INTERCEPT AND DESTROY THIS TASK FORCE, ESPECIALLY THE CARRIER. AN ENEMY ESCORT OF SURFACE COMBATANTS AND/OR ATTACK SUBMARINES SHOULD BE EXPECTED.
+INTELLIGENCE REPORTS THAT AN ENEMY ASW TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF <COUNTRY>. A FREINDLY POLARIS BOOMER IS CURRENTLY OPERATING THERE AND MUST BE PROTECTED. YOU WILL THEREFORE INTERCEPT AND DESTROY THIS TASK FORCE. IT IS OF IMPORTANCE THAT ANY LARGE ASW SHIPS ARE INTERCEPTED AND SUNK. IT IS POSSIBLE THAT AN ENEMY ATTACK SUBMARINE WILL SORTIE WITH THE FLEET.
 
 2.	(S) PRIMARY OBJECTIVE:
 PATROL AREA **BLUE 044** 
@@ -18,7 +18,7 @@ LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE
 BT
 0102
 [MISSION WIN]
-SACLANT SENDS // My personal congratulations to commanding officer <PLAYERNAME> and crew for delivering this massive blow to enemy naval forces. The Reds will think twice before committing other high value assets to the fight, even against our missile subs.  It is an honor to serve as your commander. I'm buying the first round when <PLAYERVESSELNAME> hits the beach // SACLANT ENDS 
+SACLANT SENDS // My personal congratulations to commanding officer <PLAYERNAME> and crew for delivering this massive blow to enemy naval forces. The Reds will think twice before committing other assets to the fight, even against our missile subs.  It is an honor to serve as your commander. I'm buying the first round when <PLAYERVESSELNAME> hits the beach. Bravo-Zulu! // SACLANT ENDS 
 [MISSION FAIL]
 Discouraged to hear you lost this opportunity against such a high priority target. Enemy task force will no doubt continue to pose a major threat to our boys in the boomers.
 [MISSION MISSED]

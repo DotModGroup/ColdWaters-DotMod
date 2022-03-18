@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=85.4
 Beam=9.9
@@ -53,7 +53,7 @@ TubeReloadTime=45
 
 NoisemakerName=usn_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -211,7 +211,7 @@ MeshPosition=0,-0.056,-0.533
 MeshNoisemakerMount=FALSE
 
 //Wake
-BowWaveParticle=ships/particles/bowwave_sub
+BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=assets/effects/uk_ssn_trafalgar_cavitation.prefab
 FunnelSmokeParticle=ships/particles/usn_ssn_permit_bubbles
@@ -219,15 +219,18 @@ EmergencyBlowParticle=ships/particles/usn_ssn_permit_emergency_blow
 
 CavitationParticlePosition=0,0,0
 
-ParticleBowWavePosition=0,0,0.65
-ParticlePropWashPosition=0.2,-0.0545,-0.65
+ParticleBowWavePosition=0,0,-0.65
+ParticlePropWashPosition=0,-0.025,0.515
 
-ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.35
+ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=1.8,1.8
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=132.36,0.25,0.175,0.00325,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=105.89,0.15,0.105,0.001875,0.0,0,3.00
+KelvinWaves=2.7,2.1
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

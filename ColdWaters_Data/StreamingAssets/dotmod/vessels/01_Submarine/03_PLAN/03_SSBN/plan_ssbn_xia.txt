@@ -49,8 +49,8 @@ TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=45
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=30
+NoisemakerReloadTime=15
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -89,6 +89,24 @@ FLOODING5=-129,59,-78,-34
 DamageControlPartyY=-28
 
 [Model]
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+ModelFile=ships/plan_ssn_han/plan_ssn_han
+
+Material=ships/materials/wp_masts
+MeshPosition=0.005,0.064,0.5
+MastHeight=0.085
+MeshMast=plan_ssn_han_periscope
+
+MeshPosition=-0.005,0.064,0.48
+MastHeight=0.085
+MeshMast=plan_ssn_han_esm
+
+MeshPosition=0.0,0.064,0.53
+MastHeight=0.085
+MeshMast=plan_ssn_han_radar
+
 ModelFile=ships/plan_ssbn_xia/plan_ssbn_xia
 
 //Hull and Deck
@@ -113,19 +131,6 @@ MeshProp=plan_ssbn_xia_prop
 MeshPosition=0,0,0
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=plan_ssbn_xia_hullnumber
-
-Material=ships/materials/usn_masts
-MeshPosition=0.005,0.075,0.217
-MastHeight=0.085
-MeshMast=plan_ssbn_xia_periscope
-
-MeshPosition=-0.0,0.075,0.1676
-MastHeight=0.085
-MeshMast=plan_ssbn_xia_esm_mast
-
-MeshPosition=-0.0025,0.075,0.1913
-MastHeight=0.085
-MeshMast=plan_ssbn_xia_radar_mast
 
 [Weapon Systems]
 //Torpedo Mounts

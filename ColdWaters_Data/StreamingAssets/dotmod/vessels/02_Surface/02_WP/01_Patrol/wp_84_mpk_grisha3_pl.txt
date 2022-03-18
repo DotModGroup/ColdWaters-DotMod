@@ -16,8 +16,8 @@ SubmergedSpeed=34
 TelegraphSpeeds=-5,0,5,10,15,20,34
 AccelerationRate=0.16
 DecelerationRate=0.09
-RudderTurnRate=0.5
-TurnRate=0.9
+RudderTurnRate=0.7
+TurnRate=1.2
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
@@ -65,8 +65,8 @@ TorpedoTubeSize=533,533,533,533
 TubeReloadTime=45
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=2000
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=6000
 Anti-MissileGunFiringArcStart=20
 Anti-MissileGunFiringArcFinish=-40
 Anti-MissileGunRestAngle=180
@@ -88,8 +88,8 @@ ChaffProbability=0.25
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=14
+NoisemakerReloadTime=222
 
 [Subsystems]
 LabelPosition=370,39

@@ -1,0 +1,57 @@
+//Narvik 8
+UseTerrain=TRUE
+MapCoordinates=2530,1070
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai,wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai,wp_fv_trawler,wp_vtr_andizhan|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_68_kr_sverdlov_ai,wp_vtr_yuniy_partizan|wp_ms_leninskiy_komsomol|wp_vt_dubna,wp_vtr_yuniy_partizan|wp_ms_leninskiy_komsomol,wp_84_skr_krivak1_ai
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-950,-210
+PlayerHeading=90
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//Fjord Patrol
+EnemyWaypoints=-400,-10|-590,-35|-585,-25|400,-10
+//Center Patrol 2
+EnemyWaypoints=-800,-70|-1200,-190
+//Trawler
+EnemyWaypoints=-960,-150|-980,-250|-970,-212
+//Shipping
+EnemyWaypoints=-1000,-96|-400,-23|-200,-7|150,-40
+//Shipping2
+EnemyWaypoints=-1300,-94|-400,-25|-200,-9|160,-35
+//Shipping3
+EnemyWaypoints=-1300,-92|-400,-27|-200,-6|170,-45
+//OuterKrivak
+EnemyWaypoints=-1500,-400|-1400,-34|-1650,-100
+
+MissionPosition=-400,-320
+
+//Enemy Aircraft
+NumberOfHelicopters=2
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-1130,-200,120
+AircraftSearchArea=-620,-95,70
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-550,-220|-550,-210
+//number across,number deep,length,depth
+ProximityMineField=20,4,50,20|24,5,50,50
+ProximityMineFieldAngles=90,92
+ProximityMineScatter=0.5,0.4

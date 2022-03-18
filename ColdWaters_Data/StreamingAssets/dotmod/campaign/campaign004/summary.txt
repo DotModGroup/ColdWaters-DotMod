@@ -1,5 +1,5 @@
 Image=campaign/images/pact landing 1
-PlayerVessels=wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssb_golf,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssbn_yankee,wp_68_ssgn_charlie1,wp_84_ss_tango,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ss_kilo,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_oscar,wp_68_em_kotlin_pl,wp_84_mpk_grisha3_pl,wp_84_skr_krivak1_pl,wp_68_kr_sverdlov_pl,wp_84_bpk_udaloy_pl,wp_84_bpk_kara_pl,wp_84_em_sovremenny_pl,wp_84_rkr_kirov_pl
+PlayerVessels=wp_68_ss_whiskey,wp_68_ss_romeo,wp_68_ss_foxtrot,wp_68_ssb_golf,wp_68_ssg_juliet,wp_68_ssn_november,wp_68_ssn_victor1,wp_68_ssgn_echo2,wp_68_ssgn_charlie1,wp_84_ss_tango,wp_84_ssn_alfa,wp_84_ssn_victor2,wp_84_ssgn_papa,wp_84_ssgn_charlie2,wp_84_ss_kilo,wp_84_ssn_victor3,wp_84_ssn_sierra,wp_84_ssn_akula1,wp_84_ssgn_oscar,wp_68_em_kotlin_pl,wp_84_mpk_grisha3_pl,wp_84_skr_krivak1_pl,wp_68_kr_sverdlov_pl,wp_84_bpk_udaloy_pl,wp_84_bpk_kara_pl,wp_84_em_sovremenny_pl,wp_84_rkr_kirov_pl
 
 [COMMANDER NAMES]
 CommanderName=COM NORTHERN FLEET
@@ -20,7 +20,6 @@ wp_68_ssn_november		=	100		=	1
 wp_68_ssn_victor1		=	220		=	1
 wp_68_ssgn_echo2		=	80		=	1
 wp_68_ssgn_charlie1		=	140		=	1
-wp_68_ssbn_yankee		=	120		=	1
 wp_84_ss_tango			=	60		=	2
 wp_84_ssn_alfa			=	300		=	2
 wp_84_ssn_victor2		=	380		=	2

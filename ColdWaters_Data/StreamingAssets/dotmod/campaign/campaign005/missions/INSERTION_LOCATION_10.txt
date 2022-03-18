@@ -1,0 +1,58 @@
+//Murmansk
+UseTerrain=TRUE
+MapCoordinates=2988,1138
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai,wp_fv_trawler,wp_fv_trawler,wp_fv_trawler,wp_84_ss_tango|wp_84_ss_kilo,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vtr_yuniy_partizan|wp_68_mpk_poti_ai|wp_68_skr_riga_ai
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=82,-65
+PlayerHeading=200
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//ASW Frigate 1
+EnemyWaypoints=150,-250|-122,32
+//ASW Frigate 2
+EnemyWaypoints=-36,-238|100,158
+//Trawler 1
+EnemyWaypoints=92,244|-65,244|-65,169|92,169
+//Trawler 2
+EnemyWaypoints=274,215|157,215|257,307|474,307
+//Trawler 3
+EnemyWaypoints=-141,58|-293,58|-293,163|-141,163
+//Lurking Submarine
+EnemyWaypoints=403,-64|105,35|-25,206|-128,425
+//Merchant
+EnemyWaypoints=700,10|-480,610
+
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+MissionPosition=14,-279
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_be-12_mail
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-190,220,300
+
+ProximityMineLocations=286,-103|199,-102|144,-168|90,-233
+//number across,number deep,length,depth
+ProximityMineField=50,1,100,10|50,1,100,10|50,1,100,10|50,1,100,10
+ProximityMineFieldAngles=25,-25,-75,-25
+ProximityMineScatter=0.3,0.3,0.3,0.3

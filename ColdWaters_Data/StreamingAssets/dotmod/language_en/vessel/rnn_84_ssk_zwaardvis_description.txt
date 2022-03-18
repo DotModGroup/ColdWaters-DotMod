@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Zwaardvis
+Description=Zwaardvis-class Diesel-Electric Attack Submarine
+History=The Zwaardvis (translated from Dutch as "Swordfish") class of two diesel-electric SSKs was built starting in 1966 for the Royal Netherlands Navy to supplement the older Dolfijn-class submarines. The boats were patterned off of the US Navy's last conventional SSK class, the Barbel-class. While it was originally planned that the Dutch Navy may attempt to instead build nuclear submarines, this did not happen, and the two boats were completed as expected as traditional SSKs. From 1982 to 1988, two more units would also be produced for export to Taiwan as the Hai Lung class.
+
+[Player Ship Instances]
+PlayerClassNames=Zwaardvis,Tijgerhaai
+PlayerClassHullNumbers=,

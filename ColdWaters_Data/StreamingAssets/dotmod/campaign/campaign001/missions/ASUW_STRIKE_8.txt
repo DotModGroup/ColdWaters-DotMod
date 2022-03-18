@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-1,1-2
 CombatBehaviour=DEFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,TRUE,TRUE
-EnemyShipClasses=wp_84_pkr_moskva_ai,wp_84_bpk_udaloy_ai|wp_84_bpk_kara_ai|wp_84_bpk_kresta2_ai,wp_84_skr_krivak1_ai
+EnemyShipClasses=wp_84_pkr_moskva_ai,wp_modern_large_escorts,wp_modern_small_escorts
 EventWin=ASW_win
 EventFail=ASW_fail

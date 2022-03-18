@@ -5,9 +5,9 @@ MapElevationData=oparea_norwegiansea_bathymetry
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_fv_trawler,wp_84_ssbn_delta3|wp_84_ssbn_delta4|wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_ssbn_delta3|wp_84_ssbn_delta4|wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_68_mpk_poti_ai|wp_68_skr_riga_ai|wp_ms_leninskiy_komsomol|wp_ms_poltava
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_obsolete_destroyers,wp_modern_small_escorts,wp_cargo,civ_fv_trawler_2,wp_all_ssbn,wp_all_ssbn,wp_obsolete_destroyers
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

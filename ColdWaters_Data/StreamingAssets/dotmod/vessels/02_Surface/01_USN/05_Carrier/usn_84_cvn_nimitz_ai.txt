@@ -43,7 +43,7 @@ RADARSignature=LARGE
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3000
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-10,-150,-195,75
 Anti-MissileGunFiringArcFinish=150,-10,-30,-110
 Anti-MissileGunRestAngle=90,-90,-90,180
@@ -64,7 +64,7 @@ AntiAirMissileLaunchPoints=0.38,0.3,-2.228|0.31803,0.29,1.6|0.436,0.31,-2.224|0.
 AntiAirMissileLaunchPointsRotation=-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0|-23,130,0|-25,90,0
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=45
 NoisemakerReloadTime=10
 
 [Model]

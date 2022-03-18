@@ -1,0 +1,73 @@
+UseTerrain=TRUE
+MapCoordinates=3242,830
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+MapCoordinates=3242,830
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Environment
+Date=15 MAR 1984
+Hemisphere=North
+Time=1200
+UsePresetEnvironment=FALSE
+Weather=Clear
+SeaState=LightBreeze
+DuctStrength=Moderate
+LayerStrength=Moderate
+
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_fv_trawler,wp_fv_trawler,wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-360,-30
+PlayerHeading=180
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//Poti or Riga
+EnemyWaypoints=-315,150|-351,-183
+//Grisha or Krivak
+EnemyWaypoints=-533,-54|-212,-141
+//Komsomol or Poltava
+EnemyWaypoints=-130,220|-890,490
+//Andizhan or Partizan
+EnemyWaypoints=-950,230|250,60
+//Trawler
+EnemyWaypoints=-380,-100|-510,-100|-510,0|-380,0
+//Trawler
+EnemyWaypoints=-300,120|-420,120|-420,220|-300,220
+
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+MissionPosition=-330,-210
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-530,0,150
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-180,-30|-310,-130|-470,-180
+//number across,number deep,length,depth
+ProximityMineField=10,4,100,10|10,4,100,10|10,4,100,10
+ProximityMineFieldAngles=-50,-25,0
+ProximityMineScatter=0.3,0.3,0.3

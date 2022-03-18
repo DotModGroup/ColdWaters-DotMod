@@ -67,7 +67,7 @@ AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=31
 
 [Campaign]
 PrefferedMissionType=LAND_STRIKE

@@ -75,8 +75,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=12
+NoisemakerReloadTime=21
 
 [Model]
 ModelFile=ships/plan_ffg_jiangwei/plan_ffg_jiangwei

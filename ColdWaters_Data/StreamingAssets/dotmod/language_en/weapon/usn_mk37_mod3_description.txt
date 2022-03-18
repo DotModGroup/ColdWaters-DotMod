@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=MK37 Mod 3
-WeaponDescriptiveName=Mark 37 Mod 3 Torpedo (Anti-Submarine Torpedo)
-WeaponDescription=The Mark 37 Mod 0 was the standard US Submarine Launced ASW torpedo of the 1960's, this is the Mark 37 Mod 3 is a free-running Passive-Active Homming Torpedo. This is the upgraded version of the Mark 37 Mod 0 Torpedo, featuring improved sensors, and active run time, however the maximum unactivated range remains the same.
+WeaponName=Mark 37 Mod 3
+WeaponDescriptiveName=Mark 37 Mod 3 Torpedo
+WeaponDescription=The Mark 37 torpedo was the USN's standard submarine-launched anti-submarine torpedo from 1960 to 1972, when it was replaced by the Mark 48 Mod 0. The Mark 37 Mod 0 was the original version which entered service in 1960. It would later be upgraded into the wire-guided Mark 37 Mod 1. The Mod 0 torpedoes would eventually be upgraded to the Mark 37 Mod 3, a torpedo similar to the original Mod 0 but with an improved sensor and a tweaked propulsion system. The Mark 37 Mod 1 would also receive a similar upgrade into the Mark 37 Mod 2.

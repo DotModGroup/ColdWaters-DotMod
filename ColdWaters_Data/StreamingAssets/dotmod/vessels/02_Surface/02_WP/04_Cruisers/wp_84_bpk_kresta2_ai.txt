@@ -84,7 +84,7 @@ AntiAirMissileLaunchPointsRotation=-30,0,0|-30,0,0|-30,180,0|-30,180,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=17
 
 [Model]
 ModelFile=ships/wp_bpk_kresta2/wp_bpk_kresta2
@@ -281,9 +281,13 @@ FunnelSmokeParticle=ships/particles/wp_bpk_kresta2_smokeemitter
 ParticleBowWavePosition=0,0,1.05
 ParticlePropWashPosition=0,-0.075,-0.973
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.998
-ParticleSternFoamParameters=160,0.35,0.2,0.004,0.01,0,0.5
+ParticleHullFoamParameters=57.8,0.17,0.3145,0.0425,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=173.2,0.323,0.2261,0.004845,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=138.56,0.238,0.1666,0.003094,0.0,0,3.0
 KelvinWaves=3.6,3.6
 
 EngineAudioClip=audio/units/turbine_large

@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=wp_68_ssbn_yankee,wp_68_ssn_victor1|wp_68_ssn_november
+EnemyShipClasses=wp_68_ssbn_yankee,wp_ssn
 EventWin=SSBN_RUN_win
 EventFail=SSBN_RUN_fail

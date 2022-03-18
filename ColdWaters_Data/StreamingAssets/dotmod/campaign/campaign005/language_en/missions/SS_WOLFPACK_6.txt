@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTEL REPORTS THAT A WOLFPACK OF ENEMY DIESEL-ELECTRIC ATTACK SUBS WILL SAIL WITHIN THE NEXT 7 DAYS AND ATTEMPT TO TRANSIT THE GIUK GAP. THEY MUST BE SUNK BEFORE THEY GET THE OPPORTUNITY TO CAUSE MAYHEM ALONG THE NORTH ATLANTIC CONVOY ROUTES. INTELLIGENCE BELIEVES THE PACK MAY CONSIST OF 2 TO 4 BOATS. 
+
+2.	(S) PRIMARY OBJECTIVE:
+TRANSIT TO AND PATROL AREAS **GREEN 012 AND GREEN 014** SOUTHWEST OF THE UK-ICELAND SOSUS LINE.  
+LOCATE AND SINK THE ENEMY ATTACK SUBMARINES
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
+
+BT
+0706
+[MISSION WIN]
+Outstanding job eliminating the threat from that wolfpack! Your contributions will help to shorten this war and keep our people safe.  
+[MISSION FAIL]
+Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our merchant colleagues. 
+[MISSION MISSED]
+Discouraged to hear that the mission could not be completed. Every Soviet sub that makes it into the Atlantic means one more convoy is potentially in jeopardy.  You must try harder next time.

@@ -62,13 +62,13 @@ TorpedoTypes=usn_mk46
 TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 [Defenses]
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=15
+NoisemakerReloadTime=21
 
 [Model]
 AssetBundle=bundles/dotmodgenericresources.unity3d
@@ -200,10 +200,13 @@ ParticleBowWavePosition=0,0,0.94
 ParticlePropWashPosition=0,-0.07,-0.9
 
 ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=36.83,0.127,0.23495,0.03175,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.1,0.025,0.01,0,0.25
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=146.21,0.2413,0.16891,0.0036195,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=116.97,0.1778,0.12446,0.0023114,0.0,0,3.0
 KelvinWaves=3.3,3.3
 
 AssetBundle=bundles/vessels/usn_dd_gearing.unity3d

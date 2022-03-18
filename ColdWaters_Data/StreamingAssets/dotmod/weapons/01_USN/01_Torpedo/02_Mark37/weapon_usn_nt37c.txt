@@ -7,8 +7,9 @@ Warhead=225
 SensorRange=2500
 SensorAngles=30,15
 *
+//=Ignore the below, more research (thanks Stallfighter!) shows that it was actually based on the Mod 2, so it does have a wire.
 //=Not wire guided, based on the Mark 37 Mod 3, not the Mod 2, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.
-WireGuided=FALSE
+WireGuided=TRUE
 *
 //=Navweaps says diving depth is deeper. The below is completely made up but I have no numbers at all to work with. I went for something reasonable based on the depths of the Mark 46 and Mark 48. Swimout, so launch depth = max depth
 MaxLaunchDepth=1400

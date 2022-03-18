@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/pact missile attack,campaign/images/pact surface raiders 2,campaign/images/pact surface raiders 3,campaign/images/68 pact surface raiders 1,campaign/images/68 pact naval 1
+Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/naval pact 1,campaign/images/photos/naval pact 2,campaign/images/photos/naval pact 3,campaign/images/photos/naval pact 4,campaign/images/photos/naval pact 5,campaign/images/photos/naval pact carrier 1,campaign/images/photos/naval pact carrier 2
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>MASSIVE ATTACK</b>|<b>TASK FORCE TERROR</b>|<b>CONVOY CALAMITY</b>|<b>DEFEAT AT SEA</b>
+Color=57,61,73,255
+Sentence1=Massive Soviet task force strikes in <ENDLOCATION> have sunk an undisclosed number of merchant vessels and escorting warships. NATO spokesmen admit this strike group poses a major threat to all shipping in the region and that prior efforts to intercept it had failed.
+Color=218,218,208,255
+Sentence2=Reports indicate that the continuous supply of materials across the Atlantic to Western Europe is pivotal to the war effort. The loss of materials and ships seriously undermines NATO's ability to maintain war operations.

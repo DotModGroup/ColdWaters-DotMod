@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/UK_general_service_medal.png
+Music=audio/music/Cold Waters Spotted
+Header=10 DOWNING STREET
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=Sir,
+Sentence1=    I have the honour to inform you that you have qualified for the General Service Medal with a Clasp for Service in the North Atlantic in 1984. Your name will appear in a list of awards to be published in the London Gazette on the morning of <DATE>.
+Sentence2=    This letter should be treated as strictly confidential until <DATE>.<n>    I am Sir,<n>        Your Obidient Servant.

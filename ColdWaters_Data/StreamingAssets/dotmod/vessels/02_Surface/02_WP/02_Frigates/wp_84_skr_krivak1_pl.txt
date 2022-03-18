@@ -16,8 +16,8 @@ SubmergedSpeed=34
 TelegraphSpeeds=-5,0,5,10,15,20,34
 AccelerationRate=0.32
 DecelerationRate=0.28
-RudderTurnRate=0.5
-TurnRate=0.5
+RudderTurnRate=0.7
+TurnRate=0.8
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
@@ -25,7 +25,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0.2
 CavitationParameters=20,-300
-PropRotationSpeed=-375,375
+PropRotationSpeed=-375,-375
 TestDepth=40
 EscapeDepth=787
 PeriscopeDepthInFeet=1
@@ -90,11 +90,11 @@ AntiAirMissileLaunchPointsRotation=-24,0,0|-24,0,0|-24,180,0|-24,180,0
 
 ChaffType=wp_chaff
 ChaffProbability=0.99
-NumberChaffLaunched=3
+NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=30
+NumberOfNoisemakers=22
+NoisemakerReloadTime=22
 
 [Subsystems]
 LabelPosition=370,39
@@ -355,10 +355,15 @@ MeshSternWake=wp_skr_krivak1_sternwake
 //Ocean surface particles
 ParticleBowWavePosition=0,0,0.822
 ParticlePropWashPosition=0,-0.0305,-0.853
-ParticleHullFoamPosition=0,0,0.36
-ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.92
-ParticleSternFoamParameters=160,0.35,0.2,0.004,0.01,0,0.5
+
+ParticleHullFoamPosition=0,0,0.825
+ParticleHullFoamParameters=47.6,0.14,0.259,0.035,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=137.16,0.266,0.1862,0.00399,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=109.73,0.196,0.1372,0.002548,0.0,0,3.0
 KelvinWaves=2.9,2.9
 
 EngineAudioClip=audio/units/turbine_small

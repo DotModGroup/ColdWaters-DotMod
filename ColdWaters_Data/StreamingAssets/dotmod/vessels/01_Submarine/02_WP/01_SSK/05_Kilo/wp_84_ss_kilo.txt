@@ -60,8 +60,8 @@ AntiAirMissileLaunchPoints=-0.002,0.14,0.1398
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=14
+NoisemakerReloadTime=31
 
 [Subsystems]
 LabelPosition=364,28

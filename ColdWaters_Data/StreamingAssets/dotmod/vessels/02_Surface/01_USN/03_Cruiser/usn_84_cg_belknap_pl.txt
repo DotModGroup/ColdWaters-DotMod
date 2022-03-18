@@ -1,9 +1,9 @@
 Designation=CG
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=167
-Beam=17
+Beam=16.8
 HullHeight=0.12
 Displacement=7930
 Crew=477
@@ -15,10 +15,10 @@ SurfaceSpeed=32
 SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,10,15,20,32
 AccelerationRate=0.1
-DecelerationRate=0.03
+DecelerationRate=0.1
 RudderTurnRate=0.5
 TurnRate=0.5
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
@@ -50,12 +50,11 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss
+TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
 TorpedoNumbers=16,6
 TorpedoTubes=7
-NumberOfWires=0
 TubeConfig=1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533
+TorpedoTubeSize=324,324,324,324,324,324,533
 TubeReloadTime=180
 
 VLSTorpedoTypes=usn_84_rur-5,usn_rim-67a
@@ -65,8 +64,8 @@ VLSMaxSpeedToFire=40
 
 [Defenses]
 
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3000
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-179,25
 Anti-MissileGunFiringArcFinish=-30,170
 Anti-MissileGunRestAngle=-90,90
@@ -77,7 +76,7 @@ PlayerWarningRange=3300
 JammingRange=4000
 
 ChaffType=wp_chaff
-ChaffProbability=0.5
+ChaffProbability=0.99
 NumberChaffLaunched=2
 
 AntiAirMissileType=usn_ugm84
@@ -89,8 +88,8 @@ AntiAirMissileLaunchPoints=-0.09242,0.17651,-0.12715|0.08333,0.18161,-0.49607|-0
 AntiAirMissileLaunchPointsRotation=-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5|-36.6,-43.6,-13.5|-36.6,-213.6,-13.5
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=28
+NoisemakerReloadTime=17
 
 [Subsystems]
 LabelPosition=370,39
@@ -316,7 +315,6 @@ MeshMast=FALSE
 MeshPosition=0,0.3,0
 MeshMast=FALSE
 
-
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
@@ -331,14 +329,18 @@ MeshHullWake=usn_cg_belknap_hullwake
 MeshPosition=0,0,-0.87
 MeshSternWake=usn_cg_belknap_sternwake
 
-ParticleBowWavePosition=0,0,1.15
-ParticlePropWashPosition=0,-0.0685,-1.075
+ParticleBowWavePosition=0,0.05,1.15
+ParticlePropWashPosition=0,-0.00685,-1.075
 
-ParticleHullFoamPosition=0,0,0.79
-ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.121
-ParticleSternFoamParameters=160,0.35,0.2,0.004,0.01,0,0.5
-KelvinWaves=4.1,4.1
+ParticleHullFoamPosition=0,0,0.866
+ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=169.62,0.3192,0.22344,0.004788,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=135.69,0.2352,0.16464,0.0030576,0.0,0,3.0
+KelvinWaves=4.1,4.0
 
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC

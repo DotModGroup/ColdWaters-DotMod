@@ -2,7 +2,7 @@ Designation=SSBN
 ShipType=SUBMARINE
 
 Length=166
-Beam=23
+Beam=12.3
 HullHeight=0.08
 Displacement=18200
 Crew=135
@@ -49,8 +49,8 @@ MissileType=wp_rpk-6
 MissilesPerLauncher=1,1
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=33
+NoisemakerReloadTime=14
 
 [Model]
 ModelFile=ships/wp_ssbn_delta4/wp_ssbn_delta4

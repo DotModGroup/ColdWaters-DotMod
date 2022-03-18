@@ -1,7 +1,8 @@
-[Unit Reference]
-ShipClass=Trafalgar (1980s)
-Description=Trafalgar Class Nuclear Attack Submarine (1980s)
-History=The Trafalgar class were designed in the early 1970s during the Cold War as a refinement of the preceding Swiftsure class. Including HMS Dreadnought, the Trafalgar class are the fifth class of nuclear-powered fleet submarines to enter service with the Royal Navy. The first of the class, HMS Trafalgar, was ordered on 7 April 1977 and completed in 1983. The last, HMS Triumph, was ordered on 3 January 1986 and completed in 1991. All seven boats of the class were built and completed by Vickers Shipbuilding and Engineering at the Barrow-in-Furness shipyard.\nThe first 3 boats of the Trafalgar-class were completed by 1985 with their original sensor fit of Sonar 2020 and Sonar 2026.
+﻿[Unit Reference]
+ShipClass=<<Трафальгар>> (1984 г.)
+Designation=АПЛ
+Description=АПЛ типа «Трафальгар» (1984 г.)
+History=АПЛ типа «Трафальгар» были разработаны во время Холодной войны в начале 1970-х как развитие предыдущего типа «Суифтшюр». Считая с  АПЛ HMS Dreadnought, «Трафальгар» был пятым типом атомных подводных лодок, поступившим на вооружение Королевского Флота. Первая лодка в серии, «Трафальгар», была заложена в 1977 году и вступила в строй в 1983, последняя - «Триумф», в 1986 и 1991 соответственно. Все 7 АПЛ были построенны Vickers Shipbuilding and Engineering на верфях в Барроу-ин-Фернесс. Первые 3 лодки были выполнены с ГАС Sonar 2020 и ГПБА 2026.
 
 [Player Ship Instances]
 PlayerClassNames=Trafalgar,Turbulent,Tireless

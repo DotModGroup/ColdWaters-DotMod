@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2,1-1,0-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,TRUE,FALSE
-EnemyShipClasses=wp_68_em_kotlin_ai|wp_68_mpk_poti_ai,wp_68_pkr_moskva_ai,wp_68_ssn_victor1|wp_68_ssn_november
+EnemyShipClasses=wp_medium_escorts,wp_asuw_cruisers,wp_ssn
 EventWin=ASUW_STRIKE_win
 EventFail=ASUW_STRIKE_fail

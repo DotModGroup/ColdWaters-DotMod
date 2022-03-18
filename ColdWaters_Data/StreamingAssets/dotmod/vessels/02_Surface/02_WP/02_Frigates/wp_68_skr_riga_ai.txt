@@ -15,7 +15,7 @@ SubmergedSpeed=0
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
-TurnRate=2.2
+TurnRate=1.0
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=0
@@ -55,6 +55,10 @@ TowedArrayModel=FALSE
 AnechoicCoating=FALSE
 RADAR=wp_don_kay
 RADARSignature=MEDIUM
+
+NoisemakerName=surf_noisemaker
+NumberOfNoisemakers=15
+NoisemakerReloadTime=20
 
 [Model]
 ModelFile=ships/wp_skr_riga/wp_skr_riga

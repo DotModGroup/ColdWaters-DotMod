@@ -1,0 +1,12 @@
+Image=campaign/images/Trafalgar.jpg
+PlayerVessels=uk_84_ss_oberon,uk_84_ssn_trafalgar
+[COMMANDER NAMES]
+CommanderName=Flag Officer Submarines
+CommanderFleetName=Fleet Commander
+
+//Easy, Normal, Hard, Elite
+StartingPrestige=400,200,0,0
+LoadoutType=0
+[Prestige Cost]
+uk_84_ss_oberon=0
+uk_84_ssn_trafalgar=600

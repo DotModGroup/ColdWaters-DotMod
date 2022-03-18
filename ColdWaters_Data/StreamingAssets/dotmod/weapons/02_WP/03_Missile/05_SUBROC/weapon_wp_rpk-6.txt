@@ -22,7 +22,7 @@ AttackSettings=FALSE
 DepthSettings=FALSE
 *
 WeaponNoiseValues=190,190
-WeaponSprite=weapons/sprites/wp_ss-n-16_sprite
+WeaponSprite=hud/sprites/wp_rpk-6_83r_sprite.png
 MinCameraDistance=0.4
 ResupplyTime=30
 [Model]

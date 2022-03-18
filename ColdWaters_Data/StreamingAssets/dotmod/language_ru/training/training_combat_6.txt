@@ -1,84 +1,86 @@
 [TRAINING 1]=7
-<b>Active Sonar</b>
-Use <KEY:Help> now to read about Sensors.
+<b>Активный сонар</b>
+Используйте <KEY:Help>, чтобы прочитать информацию про сенсоры.
 
-Once a contact is detected, use <KEY:Sonar Mode> to toggle on your Active Sonar and start pinging. If a contact is not detected, increase speed to 5 knots and creep forward until it is.
+Когда обнаружите контакт, используйте <KEY:Sonar Mode>, чтобы переключиться на ваш активный сонар и начать пинговать. Если контакт не обнаружен, увеличьте скорость до 5 узлов и двигайтесь вперёд, пока его не обнаружите.
 
-The target solution for this contact rises more rapidly due to the accurate ranging of active sonar as long as the contact is within range. However active sonar is very loud and can give away your position.
+Точность решения этого контакта возрастает намного быстрее благодаря тому, что активный сонар точно определяет дальность (пока цель находится в зоне действия). Однако, активный сонар очень громкий и может выдать вашу позицию.
 
-Use <KEY:Sonar Mode> again to toggle off your Active Sonar.
+Используйте <KEY:Sonar Mode> снова, чтобы выключить активный сонар.
 [/TRAINING 1]
 
 [TRAINING 2]
-<b>Conditions</b>
-Use <KEY:Conditions> or <LEFTCLICK> the Conditions tab in the bottom right to open the conditions panel.
-Use <KEY:Help> now to read about Underwater Acoustics and Conditions to understand they effect the performance of sonar.
+<b>Условия</b>
+Используйте <KEY:Conditions> или нажмите <LEFTCLICK> на вкладку Глубины справа снизу, чтобы открыть панель условий.
+Используйте <KEY:Help>, чтобы прочитать информацию про подводную акустику и условия, чтобы понимать, как они влияют на работу сонара.
 
-<b>Getting To Mast Depth</b>
-To use masts you will need to surface to above 50 ft.
-Use <KEY:Ballast Up> to set your ballast to 30 and begin ascending (use time compression if desired).
-Be careful not to surface or the enemy will spot you!
+<b>Занятие перископной глубины</b>
+Чтобы использовать мачты на данной подводной лодке, вам нужно подняться на глубину выше 14 м.
+Используйте <KEY:Ballast Up>, чтобы установить ваш балласт на значение 30 и начать всплытие (используйте ускорение времени, если хотите).
+Будьте осторожны, не всплывите на поверхность, иначе противник вас заметит!
 
-When you reach about 65 ft depth, use <KEY:Level Submarine> to stop your ascension.
+Когда вы достигните глубины примерно 19 м, используйте <KEY:Level Submarine>, чтобы прекратить дальнейшее всплытие.
 
-Your final depth should be 40-50 ft. If not, use <KEY:Ballast Up> and <KEY:Ballast Down> as you cannot use masts if too deep.
+Ваша итоговая глубина должна быть 12-14 м. Если вы глубже, используйте <KEY:Ballast Up> и <KEY:Ballast Down>, так как вы не сможете использовать мачты, если находитесь слишком глубоко.
 
-As you surfaced, your submarine crossed the layer into the surface duct allowing the detection of additional contacts.
+Когда вы поднимались, ваша ПЛ пересекла термослой и вошла в поверхностный канал, что позволило обнаружить дополнительный контакт.
 [/TRAINING 2]
 
 [TRAINING 3]
-<b>ESM Mast</b>
-Use <KEY:ESM Mast> to raise your ESM mast.
-This passive sensor detects radar signals, providing a measure of their strength and originating bearing (shown as purple lines on the map).
+<b>Мачта РТР</b>
+Используйте <KEY:ESM Mast>, чтобы поднять мачту РТР.
+Этот пассивный сенсор обнаруживает сигналы радара, показывая силу и пеленг их источника (показаны фиолетовыми линиями на карте).
 
-There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on yout tactical map. Strength of this signal is shown on the meter in the upper left.
+В этой обучающей миссии нет вражеских военных кораблей или авиации, использующих поисковый радар, однако, если бы они были, на тактической карте иногда были бы видны фиолетовые индикаторы сигналов вражеских радаров. Сила сигнала отображается на шкале слева вверху.
 
-Detecting a contact by ESM provides a small boost to target solution.
+Обнаружение контакта с помощью РТР даёт небольшое повышение к точности решения цели.
 
-Use <KEY:ESM Mast> to lower your ESM mast.
+Используйте <KEY:ESM Mast>, чтобы опустить мачту РТР.
 [/TRAINING 3]
 
 [TRAINING 4]
-<b>Periscope</b>
-Press <KEY:Periscope> to raise your periscope. Once raised and ready to use, an icon appears in the upper right. Use <KEY:Periscope View> to enter the periscope view. Periscope view can by panned with <RIGHTCLICK> and dragging or using <KEY:Camera Left> and <KEY:Camera Right>.
+<b>Перископ</b>
+Используйте <KEY:Periscope>, чтобы поднять ваш перископ. Как только он будет поднят и готов к использованию, справа вверху появится иконка перископа. Используйте <KEY:Periscope View>, чтобы войти в перископный вид. В перископном виде камеру можно двигать влево-вправо, используя <RIGHTCLICK> и перемещение мыши, или с использованием клавиш <KEY:Camera Left> и <KEY:Camera Right>.
 
-Low light vision enhancement can be toggled on/off with <KEY:Night Vision>.
-Placing a target in crosshair and using <KEY:Mark Target> will laser range it, providing a massive target solution boost and classifying it.
-Look to the north and mark one or both targets you find.
+Можно включить/выключить ПНВ, нажав <KEY:Night Vision>.
+Поместив цель в прицел и нажав <KEY:Mark Target>, вы определите дальность до цели с помощью лазерного дальномера, что даст значительное увеличение точности решения цели и классифицирует цель.
+Посмотрите на север и отметьте цели, которые вы найдёте (одну или обе).
 
-The periscope mast also contains an ESM receiver which detects the strength (but not direction) of enemy radar transmissions.
-Use <KEY:Periscope> to lower your periscope.
+Мачта перископа также содержит приёмник РТР, который определяет силу (но не направление) сигналов радара противника.
+Используйте <KEY:Periscope>, чтобы опустить ваш перископ.
 [/TRAINING 4]
 
 [TRAINING 5]
-<b>Radar Mast</b>
-Use <KEY:RADAR Mast> to raise the radar mast.
+<b>Мачта радара</b>
+Используйте <KEY:RADAR Mast>, чтобы поднять мачту радара.
 
-Radar uses radio transmissions to accurately range contacts and provides a massive boost their target solution. Very quickly you should see that the target solutions for all contacts are greatly increased.
+Радар испускает радиоволны, чтобы точно определить дальность до контактов и даёт значительное увеличение точности решения этих целей. Вы должны заметить, что точность решений целей очень быстро и значительно возрасла.
 
-However radar travels long distances and is readily detected by enemy ESM, so best not to use it if ESM has detected any nearby enemy warships or aircraft.
+Однако, сигналы радара распространяются на большие расстояния и охотно обнаруживаются вражескими РТР, так что лучше не использовать радар, если РТР засекла вражеские военные корабли или авиацию.
 
-Use <KEY:RADAR Mast> to lower the radar mast.
+Используйте <KEY:RADAR Mast>, чтобы опустить мачту радара.
 [/TRAINING 5]
 
 [TRAINING 6]
-<b>Towed Array</b>
-Many submarines are equipped with a towed array which works best at about 5 knots. Use <KEY:Increase Power> to set your speed to Ahead 1/3.
+<b>Буксируемая ГАС</b>
+Многие подводные лодки имеют буксируемую ГАС. Она лучше всего работает на 5 узлах. Используйте <KEY:Increase Power>, чтобы установить вашу скорость на 5 узлов.
 
-Use <KEY:Signature> or <LEFTCLICK> the Signature tab in the bottom right to open the conditions panel.
+Используйте <KEY:Signature> или нажмите <LEFTCLICK> на вкладку Сигнатура справа внизу, чтобы открыть панель сигнатур.
 
-As your speed reaches 5 knots, you will notice that your OWNSHIP TOWED signal may become greater than the PASSIVE signal. This is the additional sensitivity provided by the towed array. Cycle through the contacts with <KEY:Next Contact> to see the differences in detection between your various sonar types.
+Когда ваша скорость достигнет 5 узлов, нажмите <b>Backspace</b>, чтобы выпустить буксируемую ГАС. Буксируемая ГАС не может быть выпущена на скорости больше 19 узлов и не работает на скорости меньше 3 узлов, её нельзя выпустить близко к поверхности дна, а также выше перископной глубины вашей ПЛ. Если буксируемая ГАС выпущена, при резком увеличении скорости и маневрировании она может порваться. Будьте осторожны и сматывайте буксируемую ГАС прежде, чем сильно ускоряться. Это можно сделать, повторно нажав <b>Backspace</b>.
 
-Note that towed arrays have a narrow blind spot facing forward, while hull mounted sonar has a broader blind spot to the rear, termed the "baffles", this may result in a 0 reading for TOWED for contacts in front of your submarine.
+Когда вы выпустите буксируемую ГАС, сигнал, принимаемый ей (на панели сигнатур - БУКСИР.) может стать сильнее, чем от встроенной в корпус пассивной ГАС (на панели сигнатур - ПАС.). Это и есть дополнительная чувствительность, которую даёт буксируемая ГАС. Переключайтесь между контактами, используя <KEY:Next Contact>, чтобы увидеть разницу в обнаружении целей при использовании различных типов сонаров.
 
-Finally use <KEY:Increase Power> to increase speed to Ahead 2/3 and note dramatic reduction of towed array bonus.
+Обратите внимание, что буксируемые ГАС имеют небольшую слепую зону, которая направлена вперёд, тогда как ГАС, находящаяся в корпусе, имеет более широкую слепую зону, направленную назад. Обратите внимание, что если контакт находится в слепой зоне буксируемой ГАС, её сигнал на панели сигнатур (БУКСИР.) будет равен 0.
+
+Под конец, используйте <KEY:Increase Power>, чтобы увеличить скорость до 15 узлов. Обратите внимание на значительное уменьшение бонуса от использования буксируемой ГАС.
 [/TRAINING 6]
 
 [TRAINING 7]
-<b>Ending Combat</b>
-To leave combat use <KEY:Cancel or Quit> to enter the mission menu and end the mission (auto hides this panel).
+<b>Окончание боя</b>
+Чтобы выйти из боя используйте <KEY:Cancel or Quit> для выхода в меню миссии и завершения миссии (автоматически скрывает эту панель).
 
-Once in the mission menu <LEFTCLICK> <DICTIONARY:ExitMission> to end this mission and view the After Action Report.
+Попав в меню миссии, нажмите <LEFTCLICK> на <DICTIONARY:ExitMission>, чтобы завершить эту миссию и просмотреть отчёт о боевых действиях.
 
-When finished viewing the After Action Report, <LEFTCLICK> <DICTIONARY:Continue> or <KEY:Continue>.
+После завершения просмотра отчета о боевых действиях, нажмите <LEFTCLICK> на <DICTIONARY:Continue> или <KEY:Continue>.
 [/TRAINING 7]

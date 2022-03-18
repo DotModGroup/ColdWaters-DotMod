@@ -50,7 +50,7 @@ RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
 Anti-MissileGunHitProbability=0.001
-Anti-MissileGunRange=4000
+Anti-MissileGunRange=2000
 Anti-MissileGunFiringArcStart=-150,-150,30,30
 Anti-MissileGunFiringArcFinish=-30,-30,150,150
 Anti-MissileGunRestAngle=0,181,0,179
@@ -62,8 +62,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=10
+NoisemakerReloadTime=23
 
 [Model]
 ModelFile=ships/plan_ff_jianghu/plan_ff_jianghu

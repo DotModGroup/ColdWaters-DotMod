@@ -24,12 +24,16 @@ SAM trails are placeholders and require replacement
 Not all playble surface ships have deployable towed arrays
 P-6 missile is used as substitute for P-35 and P-500 until they get their own models
 Mobile decoys on surface ships will float in the air during time compression (Found by Who_Even_Knows)
+MacOS Compatability is Dubious
 
 [CAMPAIGN]
 Soviet Campaign (1984)
 Expanded RPG Mode: Prestige system, player ranks, ability to change mission and vessel
 Custom transit backgrounds for most vessels
 Reykjavik, Narvik and Bergen harbor scenery now all have landstrike targets
+
+Royal Navy Campaign (1984)
+Initial WIP Campaign for feedback (and because TheHappyYachter like the Royal Navy)
 
 [GAME]
 Self noise and sensor strength reworked by Daniil
@@ -42,6 +46,8 @@ Russian descriptions rewritten and corrected
 Soviet campaign made from scratch
 A lot of soviet subs are playable
 (EM) Russian voiceover by Evgeny Mas a.k.a. Ramius
+Proximity fuses for torpedoes are now implemented thanks to Dsmirnoff
+For first time installer the game will now check for the existence of an override folder on first load. This should help reduce the number of people who have issues when they have removed Epic Mod by renaming the override folder to stop DotMod reading it. This happens only on first load.
 
 [GAME MECHANICS]
 Player SAMs can target enemy aircraft and missiles, and, depending on the type of missile, also surface ships for a long-range ASuW weapon. They are, of course, not very effective in this role.
@@ -65,6 +71,10 @@ Panel for player SAM
 Aircraft map icons (non-clickable)
 Missile map icons (clickable)
 Player current noise displayed on tacmap
+Fantastic UI assets for the new vessels built by none other than SteelShark. Without his 2D art none of the new models would be as playable as they are. He has also provided the new HUD elements like Periscope masks, individually selected for the nations based on Open Source
+Intelligence.
+A new console menu has been added (Shift + `) this is a nicer implementation than the original and will allow you to inspect the game log without exiting the game. It also allows you to input console commands.
+
 
 [MODELS]
 Kobben model (Kitbash of a Tango)
@@ -86,6 +96,12 @@ Weapon models by Dot, TheHappyYachter and that_person
     65-76, AT-2, UMGT-1 and Mk-48 Mod 5 torpedoes
     RPK-2-53, RPK-2-65 and RPK-6 ASW Missilies
 (EM) SH-60B model by Syoma Ivanov
+GUPPY model by Tionstav, textured by Kevin DDSSTT
+George Washington SSBN by RedEagle and has been textured by Kevin DDSSTT
+HMS Dreadnought (SSN) by TheHappyYachter with a new texture from KevinDDSSTT
+Resolution SSBN by TheHappyYachter with a texture from KevinDDSSTT for both the 1968 and 1984 variants.
+Zwaardvis SSK made by Tionstav in and has been textured by Kevin DDSSTT.
+Arleigh Burke – Flight I DDG - This model was originally created by Yi Tsung Lee and was released under a Creative Common’s licence. The model was modified by The HappyYachter and textured by KevinDDSSTT to match the rest of the DotMod inventory.
 
 [VESSELS]
 Repainted civilian vessels acting as US auxilary ships
@@ -102,6 +118,7 @@ Reworked options (by TheHappyYachter)
 Improved Dev Mode Options
 Improved sounds for Iowa
 Improved load speed for Nautilus, Virginia, Oberon
+KevinDDSSTT has extensivley reworked surface ship and Albacore hull Submarine wakes after developing a formula for providing consistent wakes on a per vessel basis.
 
 [BUGFIXES]
 Numerous misc. changes and fixes
@@ -130,6 +147,8 @@ Russian_Wolf - Russian Translations
 Kevin DDSSTT - Texture art for new vessel models
 Steel Shark - UI Sprites, Textures, and HUD
 Misfit - Sounds for USN Sonars and Mk7 Guns
+Tionstav - Modeling
+RedEagle - Modeling
 -----------
 Our team also wants thank several people for their help and inspiration:
 Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 

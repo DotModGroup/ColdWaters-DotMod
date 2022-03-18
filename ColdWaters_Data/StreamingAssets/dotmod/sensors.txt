@@ -30,8 +30,8 @@
 SonarModel=nav_sonar
 SonarType=ACTIVE/PASSIVE
 SonarFrequencies=H,H
-SonarActiveSensitivity=22
-SonarPassiveSensitivity=22
+SonarActiveSensitivity=12
+SonarPassiveSensitivity=12
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=200
@@ -295,6 +295,24 @@ SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=0
 
+SonarModel=usn_an_bqg_4
+SonarType=PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=36
+SonarBaffle=150
+SonarNoisePerKnot=2
+SonarOutput=0
+
+SonarModel=usn_an_bqr_7 //Used by Ethan Allen class
+SonarType=PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=34
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0
+
 SonarModel=usn_an_bqr_21
 SonarType=PASSIVE
 SonarFrequencies=M
@@ -473,6 +491,16 @@ SonarType=ACTIVE/PASSIVE
 SonarFrequencies=L,L
 SonarActiveSensitivity=23
 SonarPassiveSensitivity=36
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230
+
+//Type 2001 Dreadnought
+SonarModel=uk_2001
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=24
+SonarPassiveSensitivity=38
 SonarBaffle=150
 SonarNoisePerKnot=1
 SonarOutput=230

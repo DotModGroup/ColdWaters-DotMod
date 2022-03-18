@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ss_whiskey
+EnemyShipClasses=wp_ssk

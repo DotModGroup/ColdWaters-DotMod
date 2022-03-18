@@ -71,12 +71,12 @@ TorpedoTypes=usn_mk46
 TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=30
 
 [Defenses]
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=18
 NoisemakerReloadTime=20
 
 [Model]
@@ -115,6 +115,21 @@ MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=assets/materials/uk_ffg_type21_superstructure.mat
 Mesh=uk_ffg_type21_superstructure
+
+MeshPosition=0,0,0
+MeshRotation=0,-90,0
+Material=ships/materials/flag_us
+MaterialTextures=ships/materials/flags/flag_rn.png
+MeshMainFlag=uk_ffg_type21_ensign
+
+Material=ships/materials/flag_signal
+MeshOtherFlags=uk_ffg_type21_signals1
+
+Material=ships/materials/flag_signal_us
+MeshOtherFlags=uk_ffg_type21_signals2
+
+MeshPosition=0,0,0
+MeshRotation=0,0,0
 
 //Railings
 Material=assets/materials/uk_ffg_type21_railings.mat

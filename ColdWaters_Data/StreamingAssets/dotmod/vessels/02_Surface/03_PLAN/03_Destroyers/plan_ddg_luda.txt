@@ -65,8 +65,8 @@ ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=10
+NoisemakerReloadTime=21
 
 [Model]
 ModelFile=ships/plan_ddg_luda/plan_ddg_luda
@@ -293,10 +293,15 @@ MeshSternWake=plan_ddg_luda_sternwake
 //Ocean surface particles
 ParticleBowWavePosition=0,-0.075,0.934
 ParticlePropWashPosition=0,-0.044,-0.756
-ParticleHullFoamPosition=0,0,0.39
-ParticleHullFoamParameters=10,0.35,0.35,0.055,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.767
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
+
+ParticleHullFoamPosition=0,0,0.85
+ParticleHullFoamParameters=65,0.127,0.23495,0.03175,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=275,0.2413,0.16891,0.0036195,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=250,0.1778,0.12446,0.0023114,0.0,0,3.0
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/turbine_small

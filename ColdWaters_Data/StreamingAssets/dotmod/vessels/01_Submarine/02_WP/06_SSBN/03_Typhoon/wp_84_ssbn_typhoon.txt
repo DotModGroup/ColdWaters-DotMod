@@ -45,8 +45,8 @@ TubeConfig=1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=40
+NoisemakerReloadTime=10
 
 MissileType=wp_rpk-6
 MissilesPerLauncher=3,3

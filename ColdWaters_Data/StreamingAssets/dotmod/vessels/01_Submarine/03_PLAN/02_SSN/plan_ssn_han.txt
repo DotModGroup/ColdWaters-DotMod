@@ -50,8 +50,8 @@ TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=14
+NoisemakerReloadTime=21
 
 [Subsystems]
 LabelPosition=364.3,28

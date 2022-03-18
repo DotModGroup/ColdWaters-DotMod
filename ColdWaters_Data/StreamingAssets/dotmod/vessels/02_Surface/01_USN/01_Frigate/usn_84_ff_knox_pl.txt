@@ -1,6 +1,6 @@
 Designation=FF
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=134
 Beam=14.25
@@ -17,15 +17,15 @@ TelegraphSpeeds=-5,0,5,10,15,20,28
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
-TurnRate=0.8
-PivotPointTurning=0.256
+TurnRate=1.1
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=1
 BallastRate=0
 Waterline=0
 SubmergedAt=0.2
 CavitationParameters=20,-300
-PropRotationSpeed=-150
+PropRotationSpeed=150
 TestDepth=40
 EscapeDepth=787
 PeriscopeDepthInFeet=1
@@ -51,12 +51,11 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss
+TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
 TorpedoNumbers=16,8
 TorpedoTubes=5
-NumberOfWires=0
 TubeConfig=1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533
+TorpedoTubeSize=324,324,324,324,533
 TubeReloadTime=180
 
 VLSTorpedoTypes=usn_84_rur-5,usn_ugm84
@@ -65,8 +64,8 @@ VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=2500
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=65
 Anti-MissileGunFiringArcFinish=-65
 Anti-MissileGunRestAngle=180
@@ -77,7 +76,7 @@ PlayerWarningRange=2800
 JammingRange=3000
 
 ChaffType=wp_chaff
-ChaffProbability=0.5
+ChaffProbability=0.99
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
@@ -291,15 +290,18 @@ MeshHullWake=usn_ff_knox_hullwake
 MeshPosition=0,0,-0.87
 MeshSternWake=usn_ff_knox_sternwake
 
-ParticleBowWavePosition=0,0,0.94
-ParticlePropWashPosition=0,-0.035,-0.9
+ParticleBowWavePosition=0,0.16,0.94
+ParticlePropWashPosition=0,-0.005,-0.95
 
-ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=200,0.25,0.25,0.006,0,0,0.25
+ParticleHullFoamPosition=0,0,0.8
+ParticleHullFoamParameters=39.9,0.1425,0.2636,0.03562,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=160,0.25,0.1,0.004,0.01,0,0.5
-KelvinWaves=2.25,2.25
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=128.25,0.2707,0.1894,0.00406,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=102.6,0.1995,0.1396,0.002593,0.0,0,3.0
+KelvinWaves=2.9,3.3
 
 EngineAudioClip=audio/units/diesel_small
 EngineAudioRollOff=LOGARITHMIC

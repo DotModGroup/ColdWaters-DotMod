@@ -18,7 +18,7 @@ AccelerationRate=0.24
 DecelerationRate=0.08
 RudderTurnRate=1.0
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
@@ -55,7 +55,7 @@ TorpedoTubeSize=533,533,533,533
 TubeReloadTime=45
 
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=18
 NoisemakerReloadTime=20
 
 [Subsystems]
@@ -185,12 +185,15 @@ EmergencyBlowParticle=ships/particles/usn_ssn_permit_emergency_blow
 ParticleBowWavePosition=0,0,0.587
 ParticlePropWashPosition=0,-0.0545,-0.65
 
-ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.35
+ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=1.8,1.8
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=91.92,0.25,0.175,0.00325,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=73.54,0.15,0.105,0.001875,0.0,0,3.00
+KelvinWaves=2.6325,1.95
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

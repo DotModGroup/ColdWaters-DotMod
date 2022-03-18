@@ -62,7 +62,7 @@ AntiAirMissileLaunchPoints=0,0.14,0.185
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=19
 NoisemakerReloadTime=20
 
 [Subsystems]
@@ -205,11 +205,14 @@ ParticleBowWavePosition=0,0,0.72
 ParticlePropWashPosition=0,-0.035,-0.75
 
 ParticleHullFoamPosition=0,0,0.45
-ParticleHullFoamParameters=10,0.25,0.15,0.055,0,0,0.25
+ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.63
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.3,2.3
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=85.74,0.30,0.21,0.0039,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=68.11,0.18,0.126,0.00225,0.0,0,3.0
+KelvinWaves=3.3,2.5
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

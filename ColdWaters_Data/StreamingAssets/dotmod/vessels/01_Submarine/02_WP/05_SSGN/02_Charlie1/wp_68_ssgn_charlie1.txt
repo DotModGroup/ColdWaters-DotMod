@@ -2,8 +2,8 @@ Designation=SSGN
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 
-Length=96.5
-Beam=9.6
+Length=95
+Beam=10
 HullHeight=0.08
 Displacement=5000
 Crew=110
@@ -75,8 +75,8 @@ AntiAirMissileLaunchPoints=0,0.13,0.195
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=18
+NoisemakerReloadTime=29
 
 [Campaign]
 PrefferedMissionType=RESUPPLY_CONVOY
@@ -227,12 +227,15 @@ EmergencyBlowParticle=ships/particles/wp_ssgn_charlie1_emergency_blow
 ParticleBowWavePosition=0,0,0.689
 ParticlePropWashPosition=0,-0.033,-0.7
 
-ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.35
+ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.692
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.3,2.3
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=82.73,0.30,0.21,0.0039,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=66.18,0.18,0.126,0.00225,0.0,0,3.0
+KelvinWaves=3.5,2.45
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

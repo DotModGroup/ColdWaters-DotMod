@@ -1,0 +1,10 @@
+Image=campaign/images/nato convoy
+MissionLocation=Near Taiwan
+Briefing=11 DEC 1998
+Briefing=[WIP Initial Test Build] You are ordered to conduct a full shake down the Guppy to include live fire test out in the Pacific. While out on the shake down you are intercepted by two unknown contacts, believed to be hostile PLAN Submarines.
+Briefing=
+Briefing=Primary Objective:
+Briefing=Protect your Submarine
+Briefing=
+Briefing=Secondary Objective:
+Briefing=Sink enemy subs

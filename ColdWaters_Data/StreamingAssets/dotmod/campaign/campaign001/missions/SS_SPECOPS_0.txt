@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=0-1,1-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,TRUE
-EnemyShipClasses=wp_84_ss_kilo|wp_84_ss_tango,wp_68_ss_foxtrot
+EnemyShipClasses=wp_modern_ssk,wp_obsolete_ssk
 EventWin=SS_SPECOPS_win
 EventFail=SS_SPECOPS_fail

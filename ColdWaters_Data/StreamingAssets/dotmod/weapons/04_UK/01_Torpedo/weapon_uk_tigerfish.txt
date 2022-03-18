@@ -2,11 +2,11 @@ WeaponObjectReference=uk_tigerfish
 WeaponType=TORPEDO
 *
 Warhead=510
-SensorRange=3000
+SensorRange=438
 SensorAngles=45,15
 *
 WireGuided=TRUE
-WireBreakOnLaunchProbability=0.6
+WireBreakOnLaunchProbability=0.3
 WireBreakOnRunProbability=0.1
 WireBreakSpeedThreshold=12
 *

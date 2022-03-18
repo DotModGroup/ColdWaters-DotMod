@@ -23,7 +23,7 @@ AttackSettings=STRAIGHT,SNAKE,LEFT,RIGHT
 DepthSettings=LEVEL,SHALLOW,DEEP_SUB
 *
 WeaponNoiseValues=120,230
-WeaponSprite=hud\sprites\wp_test-71_sprite.png
+WeaponSprite=hud/sprites/wp_test-71_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=30
 [Model]

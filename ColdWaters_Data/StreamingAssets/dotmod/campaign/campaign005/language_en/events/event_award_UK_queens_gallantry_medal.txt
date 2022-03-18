@@ -1,0 +1,12 @@
+NextAction=END
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/UK_queens_gallantry_medal.png
+Music=audio/music/Cold Waters Campaign Loss
+Header=10 DOWNING STREET
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=Ma'am,
+Sentence1=    I have the honour to inform you that The Queen has been graciously pleased to approve the Prime Minister's recommendation that the Queen's Gallantry Medal (Q.G.M) be awarded to your late husband. His name will appear in a list of awards to be published in the London Gazette on the morning of <DATE>.
+Sentence2=    This letter should be treated as strictly confidential until <DATE>.<n>    I am Ma'am, Your Obidient Servant.

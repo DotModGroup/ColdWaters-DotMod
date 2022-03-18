@@ -1,0 +1,25 @@
+[ORDERS]
+1.	(S) TACTICAL SITUATION:
+INTELLIGENCE SOURCES INDICATE THAT A WOLFPACK MADE UP OF NUCLEAR ATTACK SUBS WILL SOON DEPART MURMANSK FOR THE NORTH ATLANTIC, WHERE THEY WOULD PRESENT A SIGNIFICANT THREAT TO NATO CARRIER BATTLE GROUPS. THIS WOLFPACK IS AN EXTREME THREAT TO ALLIED FORCES AND MUST BE ELIMINATED AT ALL COSTS.
+
+2.	(S) PRIMARY OBJECTIVE:
+PATROL AREAS **GREEN 012 AND GREEN 014** BETWEEN ICELAND AND THE UK. 
+LOCATE AND SINK THE ENEMY ATTACK SUBMARINES.
+
+3.	(S) SECONDARY OBJECTIVE:
+NONE
+
+4.	(S) AVOID DETECTION BY ENEMY ASW PATROLS.
+
+5.	(S) ROE: WARNING YELLOW, WEAPONS FREE ON DESIGNATED TARGETS.
+
+6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED.
+
+BT
+0803
+[MISSION WIN]
+Fine work dealing with a VERY difficult target set, Commander! Your contribution to the war effort has not gone unnoticed! Keep it up!
+[MISSION FAIL]
+Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
+[MISSION MISSED]
+Discouraged to hear that the mission could not be completed.  If those subs make it to the Atlantic there will be hell to pay.

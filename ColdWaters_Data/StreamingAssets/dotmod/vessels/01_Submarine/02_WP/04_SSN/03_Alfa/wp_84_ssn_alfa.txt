@@ -199,12 +199,15 @@ EmergencyBlowParticle=ships/particles/wp_ssn_alfa_emergency_blow
 ParticleBowWavePosition=0,0,0.61
 ParticlePropWashPosition=0,-0.035,-0.58
 
-ParticleHullFoamPosition=0,0,0.45
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.35
+ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=1.9,1.9
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=80.45,0.25,0.175,0.00325,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=64.36,0.15,0.105,0.001875,0.0,0,3.00
+KelvinWaves=2.5,2.05
 
 EngineAudioClip=audio/units/submarine_engine_1
 EngineAudioRollOff=LOGARITHMIC

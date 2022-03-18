@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-3
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=wp_84_ssn_victor3|wp_84_ssn_victor2
+EnemyShipClasses=wp_ssn_threats

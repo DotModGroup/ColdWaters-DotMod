@@ -9,7 +9,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_dubna,wp_fv_trawler,wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_mpk_grisha3_ai|wp_68_mpk_poti_ai,biologic_humpback_whale|biologic_blue_whale
+EnemyShipClasses=wp_cargo,wp_cargo|wp_oiler,civ_fv_trawler_2,wp_all_small_escorts,wp_modern_small_escorts|wp_obsolete_destroyers,biologics
 FormationCruiseSpeed=7
 
 //Ship positions and headings, otherwise build into a formation

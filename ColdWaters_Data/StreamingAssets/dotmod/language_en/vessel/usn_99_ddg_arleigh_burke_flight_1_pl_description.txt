@@ -1,0 +1,10 @@
+[Unit Reference]
+ShipClass=Arleigh Burke Flight 1
+Designation=DDG
+Description=Flight 1 Arleigh Burke-class Destroyer
+Aircraft=2 Sikorsky SH-60B Seahawk
+History=The Arleigh Burke class of guided missile destroyers is a United States Navy class of destroyer built around the Aegis Combat System and the SPY-1D multi-function passive electronically scanned array radar. The class is named for Admiral Arleigh Burke, an American destroyer officer in World War II, and later Chief of Naval Operations. The lead ship, USS Arleigh Burke, was commissioned during Admiral Burke's lifetime.
+
+[Player Ship Instances]
+PlayerClassNames=Arleigh Burke,Barry,John Paul Jones,Curtis Wilbur,Stout,John S. McCain,Mitscher,Laboon,Russell,Paul Hamilton,Ramage,Fitzgerald,Stethem,Carney,Benfold,Gonzalez,Cole,The Sullivans,Milius,Hopper,Ross
+PlayerClassHullNumbers=DDG-51,DDG-52,DDG-53,DDG-54,DDG-55,DDG-56,DDG-57,DDG-58,DDG-59,DDG-60,DDG-61,DDG-62,DDG-63,DDG-64,DDG-65,DDG-66,DDG-67,DDG-68,DDG-69,DDG-70,DDG-71

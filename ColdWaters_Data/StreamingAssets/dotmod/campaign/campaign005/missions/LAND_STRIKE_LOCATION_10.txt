@@ -1,0 +1,50 @@
+UseTerrain=TRUE
+MapCoordinates=2909,1200
+MapFromCampaign=North Atlantic
+MapElevationData=oparea_norwegiansea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai|wp_68_mpk_poti_ai,wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai,wp_84_ss_kilo|wp_84_ss_tango|wp_68_ss_foxtrot,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_yuniy_partizan|wp_fv_trawler,wp_vtr_andizhan|wp_ms_leninskiy_komsomol,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_ms_leninskiy_komsomol,wp_84_rkr_kirov_ai|wp_84_takr_kiev_ai|wp_84_pkr_moskva_ai|wp_68_kr_sverdlov_ai,wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_yuniy_partizan
+
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-42,720
+PlayerHeading=175
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//ASW Escort
+EnemyWaypoints=-545,602|491,866
+//ASW Sector
+EnemyWaypoints=-714,597|675,395
+//SS Patrol
+EnemyWaypoints=-615,494|797,776
+//Merchies
+EnemyWaypoints=-110,1000|3,181
+EnemyWaypoints=-640,900|593,850
+EnemyWaypoints=-500,240|500,940
+
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+MissionPosition=-30,620
+MissionPositionColor=LAND_STRIKE
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=1
+AircraftType=wp_il-38_may
+
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-30,700,250
+AircraftSearchArea=0,500,500

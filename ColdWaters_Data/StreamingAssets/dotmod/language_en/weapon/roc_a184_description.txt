@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=A184
+WeaponDescriptiveName=A.184 Torpedo (A184)
+WeaponDescription=The A184 heavyweight torpedo is an Italian made multi-purpose weapon conceived to be launched by submarines or surface vessels. It was sold to the Republic of China for use in the Hai Shih-class submarines after the 1976 modernization and restoration of the torpedo tubes. It is meant to counter the threat posed by any type of surface and underwater target. The A184 is a powerful, long range, wire guided, and self-homing heavyweight torpedo (21-inch diameter).

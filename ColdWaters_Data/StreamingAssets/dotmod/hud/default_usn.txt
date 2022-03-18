@@ -270,8 +270,8 @@ PeriscopeESMMeter=hud/uk/esm_frame.png
 PeriscopeESMMeterFill=hud/uk/esm_level_bar.png
 PeriscopeESMMeterColor=196,70,70,255
 PeriscopeToolbar=hud/uk/periscope_tools_background.png
-PeriscopeMaskDay=hud/uk/periscope_day.png
-PeriscopeMaskNight=hud/uk/periscope_night.png
+PeriscopeMaskDay=hud/uk/us_periscope_day.png
+PeriscopeMaskNight=hud/uk/us_periscope_night.png
 
 [Tactical Map]
 TacticalMapBackground=hud/uk/tacmap_background.png

@@ -13,15 +13,15 @@ HullNumbers=FALSE
 SurfaceSpeed=32
 SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,10,15,20,32
-AccelerationRate=0.04
-DecelerationRate=0.03
+AccelerationRate=0.05
+DecelerationRate=0.07
 RudderTurnRate=0.5
-TurnRate=0.5
-PivotPointTurning=0.256
+TurnRate=0.45
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
-Waterline=0.04
+Waterline=0.027
 SubmergedAt=0.4
 CavitationParameters=20,-220
 PropRotationSpeed=-150,-150,150,150
@@ -31,7 +31,7 @@ PeriscopeDepthInFeet=40
 Diesel=TRUE
 
 [Acoustics & Sensors]
-SelfNoise=185
+SelfNoise=200
 ActiveSonarReflection=25
 ActiveSonarModel=nav_sonar
 PassiveSonarModel=nav_sonar
@@ -62,7 +62,7 @@ AntiShipMissileLaunchPointsRotation=-33,-90,0|-33,90,0|-33,-90,0|-33,90,0|-33,-9
 [Defenses]
 
 Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3000
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-179,-179,25,25
 Anti-MissileGunFiringArcFinish=-30,-30,170,170
 Anti-MissileGunRestAngle=-90,-90,90,90
@@ -73,12 +73,12 @@ PlayerWarningRange=3300
 JammingRange=4000
 
 ChaffType=wp_chaff
-ChaffProbability=0.5
+ChaffProbability=0.12
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=30
+NoisemakerReloadTime=12
 
 [Subsystems]
 LabelPosition=370,39
@@ -277,35 +277,30 @@ MeshNoisemakerMount=FALSE
 
 AssetBundle=bundles/dotmod/vessels/usn/usn_bb_iowa
 ModelFile=assets/vessels/usn/usn_bb_iowa/usn_bb_iowa.fbx
+
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
-
-//CavitationParticle=ships/particles/usn_cg_belknap_cavitation
-CavitationParticle=ships/particles/wp_takr_kiev_cavitation
-
+CavitationParticle=ships/particles/wp_pkr_moskva_cavitation
 FunnelSmokeParticle=ships/particles/usn_cg_belknap_smokeemitter
-
--CavitationParticlePosition=0,0.02089,-0.05284
 FunnelSmokeParticlePosition=0,0,0.22
 
-MeshPosition=0,0,0.969
-MeshHullWake=usn_cg_belknap_hullwake
+CavitationParticlePosition=0,0.02089,0.2
 
-MeshPosition=0,0,-0.87
-MeshSternWake=usn_cg_belknap_sternwake
-
-//Ocean surface particles
 ParticleBowWavePosition=0,0,1.8
-ParticlePropWashPosition=0,-0.056,-1.2
+ParticlePropWashPosition=0,-0.046,-1.12
 
-ParticleHullFoamPosition=0,0,1.019
-ParticleHullFoamParameters=20,0.75,0.45,0.055,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.1
-ParticleSternFoamParameters=60,0.55,0.25,0.025,0.01,0,0.25
-KelvinWaves=5.9,5.9
+ParticleHullFoamPosition=0,0,1.6
+ParticleHullFoamParameters=65,0.285,0.52725,0.07125,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=232.6,0.47,0.329,0.00705,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=186.08,0.38,0.266,0.00494,0.0,0,3.0
+KelvinWaves=5.15,6.25
 
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC

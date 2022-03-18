@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,TRUE
-EnemyShipClasses=wp_68_ssg_juliet,wp_68_ss_foxtrot|wp_68_ss_romeo
+EnemyShipClasses=wp_68_ssg_juliet,wp_ssk
 EventWin=SURGE_win2
 EventFail=SURGE_fail

@@ -17,16 +17,16 @@ SubmergedSpeed=38
 TelegraphSpeeds=-5,0,5,10,18,25,38
 AccelerationRate=0.45
 DecelerationRate=0.31
-RudderTurnRate=0.5
+RudderTurnRate=0.7
 TurnRate=0.9
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
 Waterline=0
 SubmergedAt=0.2
 CavitationParameters=20,-360
-PropRotationSpeed=-375,375
+PropRotationSpeed=-375,-375
 TestDepth=40
 EscapeDepth=787
 PeriscopeDepthInFeet=1
@@ -97,7 +97,7 @@ ChaffProbability=0.99
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=22
 NoisemakerReloadTime=20
 
 [Subsystems]
@@ -318,8 +318,8 @@ MeshCIWSRADAR=FALSE
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
-BowWaveParticle=ships/particles/bowwave
-PropWashParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_small
+PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=ships/particles/wp_em_kotlin_cavitation
 FunnelSmokeParticle=ships/particles/wp_em_kotlin_smokeemitter
 
@@ -330,13 +330,17 @@ MeshPosition=0,0,-0.7671
 MeshSternWake=wp_em_kotlin_sternwake
 
 //Ocean surface particles
-ParticleBowWavePosition=0,-0.075,0.877
-ParticlePropWashPosition=0,-0.044,-0.756
-ParticleHullFoamPosition=0,0,0.39
-ParticleHullFoamParameters=150,0.35,0.35,0.005,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.767
-ParticleSternFoamParameters=110,0.35,0.2,0.004,0.01,0,0.5
-KelvinWaves=3.2,3.2
+ParticleBowWavePosition=0,-0.075,0.865
+ParticlePropWashPosition=0,-0.014,-0.876
+ParticleHullFoamPosition=0,0,0.85
+ParticleHullFoamParameters=48.26,0.127,0.23495,0.03175,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=170.05,0.2413,0.16891,0.0036195,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=136.04,0.1778,0.12446,0.0023114,0.0,0,3.0
+KelvinWaves=2.8,3.05
 
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC

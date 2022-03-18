@@ -16,7 +16,7 @@ SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,10,18,25,32
 AccelerationRate=0.12
 DecelerationRate=0.08
-RudderTurnRate=0.5
+RudderTurnRate=0.7
 TurnRate=0.3
 PivotPointTurning=0.256
 DiveRate=0
@@ -70,8 +70,8 @@ VLSMaxDepthToFire=100
 VLSMaxSpeedToFire=35
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3500
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=6000
 Anti-MissileGunFiringArcStart=-125,-125,-180,-180,-125,-125,40,60
 Anti-MissileGunFiringArcFinish=5,5,-35,-60,110,110,180,180
 Anti-MissileGunRestAngle=0,0,181,181,0,0,179,179
@@ -101,8 +101,8 @@ ChaffProbability=0.99
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=45
+NoisemakerReloadTime=12
 
 [Subsystems]
 LabelPosition=370,39

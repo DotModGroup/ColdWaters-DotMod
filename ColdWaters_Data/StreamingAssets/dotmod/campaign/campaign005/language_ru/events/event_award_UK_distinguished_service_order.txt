@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/UK_distinguished_service_order.png
+Music=audio/music/Cold Waters Spotted
+Header=MINISTRY OF DEFENCE
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=By the QUEEN'S Order the name of
+Sentence1=<PLAYERNAME> (DSO),<n>Commanding Officer <PLAYERVESSELNAVY> <PLAYERVESSELNAME><n>was published in the London Gazette on<n><DATE>,
+Sentence2=as awarded the Distinguished Service Order for highly successful command and leadership during active operations.<n>I am charged to record<n>Her Majesty's high appreciation.<n>                                        First Lord of the Admiralty

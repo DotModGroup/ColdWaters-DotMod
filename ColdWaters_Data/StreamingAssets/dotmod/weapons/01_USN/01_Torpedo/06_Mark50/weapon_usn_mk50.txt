@@ -1,6 +1,7 @@
 //=----Mk 50 Torpedo-------------------------------------------
 WeaponObjectReference=usn_mk50
 WeaponType=TORPEDO
+Size=324
 *
 Warhead=100
 SensorRange=2000

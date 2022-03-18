@@ -9,7 +9,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_68_skr_riga_ai,wp_68_mpk_poti_ai|wp_68_em_kotlin_ai,wp_ms_leninskiy_komsomol|wp_vtr_yuniy_partizan,wp_fv_trawler|wp_vtr_yuniy_partizan,wp_68_ss_romeo|wp_68_ss_whiskey
+EnemyShipClasses=wp_medium_escorts,wp_small_escorts,wp_cargo,wp_cargo|civ_fv_trawler,wp_ssk
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

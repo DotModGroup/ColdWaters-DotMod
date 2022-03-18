@@ -16,7 +16,7 @@ TelegraphSpeeds=-5,0,5,10,18,25,34
 AccelerationRate=0.09
 DecelerationRate=0.03
 RudderTurnRate=0.5
-TurnRate=0.9
+TurnRate=0.6
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=0
@@ -24,7 +24,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0
 CavitationParameters=0,0
-PropRotationSpeed=-375,375
+PropRotationSpeed=-375,-375
 TestDepth=0
 
 [Acoustics & Sensors]
@@ -81,8 +81,8 @@ AntiAirMissileLaunchPoints=-0.01872,0.148,0.433|0.01872,0.148,0.433|-0.01872,0.1
 AntiAirMissileLaunchPointsRotation=-24,0,0|-24,0,0|-24,180,0|-24,180,0
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=18
+NoisemakerReloadTime=22
 
 [Model]
 ModelFile=ships/wp_skr_krivak1/wp_skr_krivak1
@@ -237,10 +237,15 @@ MeshSternWake=wp_skr_krivak1_sternwake
 //Ocean surface particles
 ParticleBowWavePosition=0,0,0.822
 ParticlePropWashPosition=0,-0.0305,-0.853
-ParticleHullFoamPosition=0,0,0.36
-ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.92
-ParticleSternFoamParameters=160,0.35,0.2,0.004,0.01,0,0.5
+
+ParticleHullFoamPosition=0,0,0.825
+ParticleHullFoamParameters=47.6,0.14,0.259,0.035,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=137.16,0.266,0.1862,0.00399,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=109.73,0.196,0.1372,0.002548,0.0,0,3.0
 KelvinWaves=2.9,2.9
 
 EngineAudioClip=audio/units/turbine_small

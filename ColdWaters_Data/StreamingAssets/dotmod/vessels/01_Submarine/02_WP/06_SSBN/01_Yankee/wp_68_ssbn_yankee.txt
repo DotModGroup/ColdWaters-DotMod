@@ -2,8 +2,8 @@ Designation=SSBN
 ShipType=SUBMARINE
 PlayerHUD=hud/default
 
-Length=128
-Beam=11.7
+Length=132
+Beam=11.6
 HullHeight=0.08
 Displacement=11500
 Crew=130
@@ -56,8 +56,8 @@ VLSMaxDepthToFire=200
 VLSMaxSpeedToFire=10
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=25
+NoisemakerReloadTime=15
 
 AntiAirMissileType=wp_strela-2
 AntiAirMissilesNumbers=6

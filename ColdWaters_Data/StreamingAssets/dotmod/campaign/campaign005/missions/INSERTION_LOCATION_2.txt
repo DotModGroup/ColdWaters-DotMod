@@ -1,0 +1,51 @@
+//Reykjavik/Keflavik 2
+UseTerrain=TRUE
+MapCoordinates=1372,1371
+MapNavigationData=campaign/images/maps/norwegian_sea_navmap
+MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
+WorldObjectsData=campaign/maps/norwegian_sea_world_objects
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_ss_kilo|wp_84_ss_tango|wp_68_ss_foxtrot|wp_68_ss_romeo,wp_84_skr_krivak1_ai|wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai,wp_84_skr_krivak1_ai|wp_68_mpk_poti_ai|wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai,wp_fv_trawler|wp_vtr_yuniy_partizan|wp_fv_trawler
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-68,464
+PlayerHeading=180
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+//Lurking Sub
+EnemyWaypoints=120,207|-410,190
+//Outer Patrol
+EnemyWaypoints=-663,303|144,420
+//Second Outer Patrol
+EnemyWaypoints=228,422|-302,763
+//Center Patrol 2
+EnemyWaypoints=-523,809|-658,190
+
+MissionPosition=-87,65
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=1
+AircraftType=wp_be-12_mail
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-380,320,80
+AircraftSearchArea=-560,720,300
+
+//spawn minefields and set detection range
+
+ProximityMineLocations=-31,155|-211,46
+//number across,number deep,length,depth
+ProximityMineField=30,2,170,50|30,2,120,50
+ProximityMineFieldAngles=10,-60
+ProximityMineScatter=0.5,0.5

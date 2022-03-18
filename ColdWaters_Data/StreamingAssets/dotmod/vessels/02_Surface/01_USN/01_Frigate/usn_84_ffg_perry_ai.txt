@@ -15,15 +15,15 @@ AircraftTypes=usn_sh60b
 SurfaceSpeed=29
 SubmergedSpeed=29
 TelegraphSpeeds=-5,0,5,10,15,20,29
-AccelerationRate=0.32
-DecelerationRate=0.28
+AccelerationRate=0.2
+DecelerationRate=0.10
 RudderTurnRate=1
 TurnRate=0.7
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
-Waterline=0
+Waterline=0.015
 SubmergedAt=0.2
 CavitationParameters=20,-100
 PropRotationSpeed=-175
@@ -32,7 +32,7 @@ EscapeDepth=787
 PeriscopeDepthInFeet=0
 
 [Acoustics & Sensors]
-SelfNoise=165
+SelfNoise=162
 ActiveSonarReflection=25
 ActiveSonarModel=usn_sqs_56
 PassiveSonarModel=usn_sqs_56
@@ -55,7 +55,7 @@ TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=24
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 MissileType=usn_ugm84
@@ -85,7 +85,7 @@ MissileLauncherReloads=24
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3500
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=20
 Anti-MissileGunFiringArcFinish=-20
 Anti-MissileGunRestAngle=180
@@ -107,8 +107,8 @@ AntiAirMissileLaunchPoints=0,0.105,0.54
 AntiAirMissileLaunchPointsRotation=-20,0,0
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=30
-NoisemakerReloadTime=20
+NumberOfNoisemakers=22
+NoisemakerReloadTime=18
 
 [Model]
 AssetBundle=bundles/parts/usn_parts.unity3d
@@ -283,30 +283,29 @@ MeshNoisemakerMount=FALSE
 MeshMast=FALSE
 
 //Wake and Smoke
+MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
-PropWashParticle=ships/particles/bowwave
+PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=ships/particles/usn_ff_knox_cavitation
 FunnelSmokeParticle=ships/particles/wp_skr_riga_smokeemitter
-
-CavitationParticlePosition=0,0.02089,-0.05284
 FunnelSmokeParticlePosition=0,0.03531,-0.34466
 
-MeshPosition=-0.5,0,0.969
-MeshHullWake=usn_cg_belknap_hullwake
+CavitationParticlePosition=0,0.00035,-0.027
 
-MeshPosition=0.5,0,-10.87
-MeshSternWake=usn_cg_belknap_sternwake
-
-//Ocean surface particles
 ParticleBowWavePosition=0,-0.075,0.88
-ParticlePropWashPosition=0,-0.044,-0.98
-ParticleHullFoamPosition=0,0,0.39
-ParticleHullFoamParameters=200,0.25,0.25,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.767
-ParticleSternFoamParameters=160,0.25,0.1,0.004,0.01,0,0.5
-KelvinWaves=3.2,3.2
+ParticlePropWashPosition=0,-0.004,-1.03
+
+ParticleHullFoamPosition=0,0,0.85
+ParticleHullFoamParameters=36.83,0.127,0.23495,0.03175,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=146.21,0.2413,0.16891,0.0036195,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=116.97,0.1778,0.12446,0.0023114,0.0,0,3.0
+KelvinWaves=2.8,3.1
 
 EngineAudioClip=audio/units/destroyer_turbine.ogg
 EngineAudioRollOff=LOGARITHMIC

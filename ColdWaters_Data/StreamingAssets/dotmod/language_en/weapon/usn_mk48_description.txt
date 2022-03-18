@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=MK48
-WeaponDescriptiveName=Mark 48 Torpedo (Mk48)
+WeaponName=Mark 48 Mod 4
+WeaponDescriptiveName=Mark 48 Mod 4 Torpedo
 WeaponDescription=The Mk48 is an advanced dual-purpose torpedo in service with the US Navy since 1972 where it has replaced the Mk14 and Mk37 torpedoes. It combines great speed and an advanced passive/active homing system along with an impressive range of 3000 yards.

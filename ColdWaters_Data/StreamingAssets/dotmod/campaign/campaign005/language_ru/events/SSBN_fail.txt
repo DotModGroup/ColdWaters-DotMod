@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/ssbn_hit.jpg
+Photo=campaign/images/photos/ssbn.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>NUCLEAR MISSILE SUB SUNK</b>
+Color=57,61,73,255
+Sentence1=A massive rescue operation is currently underway west of the Isle of Islay, Scotland.  Highly placed sources indicate that an American nuclear ballistic missile submarine, carrying well over 100 nuclear warheads and a crew of 120 men, has been sunk as the vessel was leaving port.  The fate of the crew is unknown.
+Color=218,218,208,255
+Sentence2=Although NATO spokesmen are refusing to comment on the matter, analysts see the sinking as a significant blow to allied forces, and are calling into question the viability of the U.S. nuclear deterrent.

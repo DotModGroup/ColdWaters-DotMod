@@ -63,8 +63,8 @@ ChaffProbability=0.12
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=8
+NoisemakerReloadTime=24
 
 [Model]
 ModelFile=ships/wp_mpk_poti/wp_mpk_poti

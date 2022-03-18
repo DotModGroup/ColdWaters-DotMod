@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=GUPPY Tench
+Description=GUPPY Tench Class Diesel-Electric Submarine
+History=Tench-class submarines were a type of submarine built for the United States Navy (USN) between 1944 and 1951. They were an improvement over the Gato and Balao classes, only about 35 to 40 tons larger, but more strongly built and with a slightly improved internal layout.\nThe Greater Underwater Propulsion Power Program (GUPPY) conversion program was developed to give some Balao-class and Tench-class submarines similar capabilities to the Type XXI U-Boat. When the cost of upgrading numerous submarines to GUPPY standard became apparent, the austere "Fleet Snorkel" conversion was developed to add snorkels and partial streamlining to some boats. A total of 16 Tench-class submarines were converted to one of the GUPPY configurations, with 8 additional boats receiving Fleet Snorkel modifications.\nUSS Cutlass was sold to Taiwan (Republic of China) in 1973 where she remains active to this day.
+
+[Player Ship Instances]
+PlayerClassNames=Hai Shih
+PlayerClassHullNumbers=SS-791

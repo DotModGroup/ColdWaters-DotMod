@@ -25,7 +25,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_68_bpk_kanin_ai|wp_68_mpk_poti_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_fv_trawler,wp_fv_trawler,wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan
+EnemyShipClasses=wp_small_escorts,wp_large_escorts,wp_cargo,wp_cargo,civ_fv_trawler_2,civ_fv_trawler_2,wp_small_escorts,wp_cargo|civ_fv_trawler_2,wp_cargo|civ_fv_trawler_2,wp_cargo|civ_fv_trawler_2,wp_cargo|civ_fv_trawler_2
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

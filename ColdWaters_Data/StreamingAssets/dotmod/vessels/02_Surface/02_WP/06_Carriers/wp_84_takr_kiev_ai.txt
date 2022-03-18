@@ -92,8 +92,8 @@ ChaffProbability=0.12
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=40
+NoisemakerReloadTime=12
 
 [Model]
 ModelFile=ships/wp_takr_kiev/wp_takr_kiev

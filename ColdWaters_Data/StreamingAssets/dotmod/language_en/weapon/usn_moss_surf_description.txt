@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mark 70 MOSS
+WeaponDescriptiveName=Mark 70 Mobile Submarine Simulator (MOSS)
+WeaponDescription=The MK70 is a passive decoy that attempts to simulate the sound of a submarine to lure enemy passive sonar. It is launched on a straight track and remains at the launch depth, which means a submarine can launch it and escape on the opposite side of the layer.\nThis version is for USN surface ships and exists as a bug workaround.

@@ -1,0 +1,10 @@
+[Unit Reference]
+ShipClass=George Washington
+Description=George Washington-class Ballistic Missile Submarine
+
+History=This was the first class of Nuclear Ballistic Missile Submarines developed for the United States Navy. Based on the Skipjack class, the lead vessel George Washington entered service in 1959. These boats made up part of the "41 for Freedom" nuclear deterrent of the US navy and carried the Polaris ICBM. The class was slowly retired beginning in 1979 with the advent of the Ohio class and the signing of SALT II. The last boats in service were converted to the SSN role as "slow attacks" and were stationed in Hawaii. All were retired by 1985.  
+
+[Player Ship Instances]
+PlayerClassNames=George Washington,Patrick Henry,Theodore Roosevelt,Robert E. Lee,Abraham Lincoln
+
+PlayerClassHullNumbers=SSBN-598,SSBN-599,SSBN-600,SSBN-601,SSBN-602

@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=wp_84_ssgn_oscar|wp_84_ssgn_charlie2|wp_68_ssgn_echo2
+EnemyShipClasses=wp_all_ssgn
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

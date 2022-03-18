@@ -22,4 +22,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,2-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=wp_84_ssbn_typhoon,wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3
+EnemyShipClasses=wp_84_ssbn_typhoon,wp_modern_ssn

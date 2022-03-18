@@ -1,0 +1,12 @@
+NextAction=MAP
+Image=campaign/images/event_award_background
+Photo=campaign/images/awards/UK_mentioned_in_despatches.png
+Music=audio/music/Cold Waters Spotted
+Header=MINISTRY OF DEFENCE
+
+Font=0
+Outline=FALSE
+Color=57,61,73,255
+Title=By the QUEEN'S Order the name of
+Sentence1=<PLAYERNAME>,<n>Commanding Officer <PLAYERVESSELNAVY> <PLAYERVESSELNAME><n>was published in the London Gazette on<n><DATE>,
+Sentence2=as mentioned in a Despatch for distinguished service.<n>I am charged to record Her Majesty's high appreciation.<n><n><n><n>                                        First Lord of the Admiralty

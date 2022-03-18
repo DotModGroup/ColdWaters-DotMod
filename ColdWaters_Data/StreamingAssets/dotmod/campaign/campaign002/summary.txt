@@ -1,5 +1,5 @@
 Image=campaign/images/68 pact naval 1
-PlayerVessels=usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+PlayerVessels=usn_68_ss_guppy_2a,usn_68_ss_guppy_3,usn_68_ss_barbel,usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
 [COMMANDER NAMES]
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

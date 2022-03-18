@@ -42,4 +42,4 @@ HelicopterType=wp_helix
 NumberOfAircraft=0
 AircraftType=wp_tu-142_bear
 
-PlayerVessels=usn_84_ssn_sturgeon
+PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack

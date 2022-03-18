@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/Surge_Win.jpg,campaign/images/Surge_Win1.jpg
+Photo=campaign/images/photos/ARG_Arrive.jpg,campaign/images/photos/ARG_Arrive2.jpg
+Music=audio/music/Cold Waters Campaign Victory
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>USMC ARRIVES IN EUROPE</b>|<b>USMC REINFORCEMENTS ARRIVE</b>|<b>MARINES MAKE IT PAST RED SUB THREAT</b>
+Color=57,61,73,255
+Sentence1=Reinforcements have begun arriving in Europe as an American amphibious task force made port at an undisclosed location with over 2,000 U.S. Marines, tanks and other heavy equipment.  The task force, which had been underway prior to the beginning of hostilities, apparently made the voyage without encountering Soviet submarines or other threats.
+Color=218,218,208,255
+Sentence2=Experts cautioned that the addition of 2,000 U.S. troops, while welcome, would not substantially alter the current overwhelming Soviet advantage on the ground. "Only time will tell if this was a matter of luck, or if our anti-submarine efforts are good enough to keep the flow of reinforcements from being interrupted," stated one military advisor.

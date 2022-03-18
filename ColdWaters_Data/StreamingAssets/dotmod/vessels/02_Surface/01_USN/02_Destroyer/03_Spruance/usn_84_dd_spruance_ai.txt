@@ -18,7 +18,7 @@ TelegraphSpeeds=-5,0,5,12,20,27,32
 AccelerationRate=0.12
 DecelerationRate=0.08
 RudderTurnRate=0.5
-TurnRate=1.6
+TurnRate=0.65
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=0
@@ -55,9 +55,8 @@ NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=12
 TorpedoTubes=6
-NumberOfWires=3
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 MissileType=usn_84_rur-5
@@ -74,7 +73,7 @@ AntiShipMissileLaunchPointsRotation=-15,0,0
 VLSLaunchPointsRotation=-15,0,0
 
 Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=2000
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-190,25
 Anti-MissileGunFiringArcFinish=-30,170
 Anti-MissileGunRestAngle=-90,90
@@ -95,8 +94,8 @@ ChaffProbability=0.12
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=18
+NoisemakerReloadTime=18
 
 [Model]
 AssetBundle=bundles/vessels/usn/usn_dd_spruance.unity3d

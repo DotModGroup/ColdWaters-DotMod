@@ -97,7 +97,7 @@ AntiAirMissileLaunchPointsRotation=-30,0,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=18
 
 [Model]
 ModelFile=ships/wp_pkr_moskva/wp_pkr_moskva

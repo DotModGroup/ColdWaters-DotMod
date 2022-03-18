@@ -1,6 +1,6 @@
 Designation=DD
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=161
 Beam=16.8
@@ -18,8 +18,8 @@ SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,12,20,27,32
 AccelerationRate=0.12
 DecelerationRate=0.08
-RudderTurnRate=0.5
-TurnRate=1.6
+RudderTurnRate=0.8
+TurnRate=0.85
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
@@ -34,7 +34,7 @@ PeriscopeDepthInFeet=1
 Diesel=TRUE
 
 [Acoustics & Sensors]
-SelfNoise=175
+SelfNoise=160
 ActiveSonarReflection=25
 --ActiveSonarModel=usn_an_sqs-53
 --PassiveSonarModel=usn_an_sqs-53
@@ -57,12 +57,11 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss
+TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
 TorpedoNumbers=12,6
 TorpedoTubes=7
-NumberOfWires=4
 TubeConfig=1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533
+TorpedoTubeSize=324,324,324,324,324,324,533
 TubeReloadTime=180
 
 VLSTorpedoTypes=usn_84_rur-5,usn_ugm84
@@ -70,8 +69,8 @@ VLSTorpedoNumbers=16,8
 VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3000
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=3200
 Anti-MissileGunFiringArcStart=-190,25
 Anti-MissileGunFiringArcFinish=-30,170
 Anti-MissileGunRestAngle=-90,90
@@ -90,12 +89,12 @@ AntiAirMissileLaunchPoints=-0.014,0.132,-0.91|0.014,0.132,-0.91|-0.008,0.132,-0.
 AntiAirMissileLaunchPointsRotation=-20,180,0
 
 ChaffType=wp_chaff
-ChaffProbability=0.12
+ChaffProbability=0.99
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=25
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=370,39
@@ -267,7 +266,7 @@ NavalGunSpawnPosition=0,0,0.0955
 
 
 
-//Левый борт
+//Г‹ГҐГўГ»Г© ГЎГ®Г°ГІ
 MeshRotation=0,-35,0
 //Tube 1
 MeshPosition=-0.105,0.112,0.036
@@ -281,7 +280,7 @@ TorpedoEffectPosition=-0.107,0.119,0.034
 MeshPosition=-0.11,0.112,0.032
 TorpedoSpawnPosition=-0.11,0.112,0.032
 TorpedoEffectPosition=-0.11,0.112,0.032
-//Правый борт
+//ГЏГ°Г ГўГ»Г© ГЎГ®Г°ГІ
 MeshRotation=0,35,0
 //Tube 4
 MeshPosition=0.095,0.112,0.036

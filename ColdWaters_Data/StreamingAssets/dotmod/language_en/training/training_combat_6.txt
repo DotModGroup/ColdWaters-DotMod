@@ -67,7 +67,9 @@ Many submarines are equipped with a towed array which works best at about 5 knot
 
 Use <KEY:Signature> or <LEFTCLICK> the Signature tab in the bottom right to open the conditions panel.
 
-As your speed reaches 5 knots, you will notice that your OWNSHIP TOWED signal may become greater than the PASSIVE signal. This is the additional sensitivity provided by the towed array. Cycle through the contacts with <KEY:Next Contact> to see the differences in detection between your various sonar types.
+When your speed reaches 5 knots, use <b>Backspace</b> to deploy the towed array. Towed array can not be deployed when speed is higher than 19 knots and it doesn't work when speed is below 3 knots, you can't deploy towed array near sea floor and when your submarine is above its periscope depth. If towed array is deployed, with a rapid acceleration and maneuvering, it can break. Be careful and retract your towed array before accelerating rapidly. You can do it by using <b>Backspace</b> again.
+
+After you have deployed the towed array, you will notice that your OWNSHIP TOWED signal may become greater than the PASSIVE signal. This is the additional sensitivity provided by the towed array. Cycle through the contacts with <KEY:Next Contact> to see the differences in detection between your various sonar types.
 
 Note that towed arrays have a narrow blind spot facing forward, while hull mounted sonar has a broader blind spot to the rear, termed the "baffles", this may result in a 0 reading for TOWED for contacts in front of your submarine.
 

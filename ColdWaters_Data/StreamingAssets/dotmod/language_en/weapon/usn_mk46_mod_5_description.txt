@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=MK46 Mod 5
+WeaponName=Mark 46 Mod 5
 WeaponDescriptiveName=Mark 46 Mod 5 NEARTIP Torpedo 
 WeaponDescription=The Mark 46 Mod 5 NEARTIP Upgrade kit for the Mark 46 with more powerful Mk 103 Mod 1 warhead, improved computer with snake search pattern capability, new passive/active sonar, liquid fuel, and two speed engine for low speed search and high speed attack. Introduced in 1979. NEARTIP stands for Near Term Improvement Program.

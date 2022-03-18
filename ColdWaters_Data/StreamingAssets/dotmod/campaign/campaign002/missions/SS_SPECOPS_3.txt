@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=DEFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ssn_november
+EnemyShipClasses=wp_68_ssk|wp_68_ssn_november
 EventWin=SS_SPECOPS_win
 EventFail=SS_SPECOPS_Mine_fail

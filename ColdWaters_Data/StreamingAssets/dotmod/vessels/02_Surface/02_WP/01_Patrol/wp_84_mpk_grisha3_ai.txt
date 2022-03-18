@@ -28,7 +28,7 @@ PropRotationSpeed=-375,-375,375
 TestDepth=0
 
 [Acoustics & Sensors]
-SelfNoise=170
+SelfNoise=157
 ActiveSonarReflection=25
 ActiveSonarModel=wp_bull_horn
 PassiveSonarModel=wp_bull_horn
@@ -78,8 +78,8 @@ AntiAirMissileLaunchPoints=-0.01872,0.092,0.355|0.01872,0.092,0.355
 AntiAirMissileLaunchPointsRotation=-24,0,0
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=10
+NoisemakerReloadTime=22
 
 [Model]
 ModelFile=ships/wp_mpk_grisha3/wp_mpk_grisha3

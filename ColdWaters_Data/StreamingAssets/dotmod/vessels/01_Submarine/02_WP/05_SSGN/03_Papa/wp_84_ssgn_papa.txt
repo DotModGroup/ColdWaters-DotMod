@@ -68,7 +68,7 @@ AntiAirMissileLaunchPoints=0,0.12,0.04
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=22
 NoisemakerReloadTime=20
 
 [Campaign]
@@ -219,8 +219,8 @@ MeshNoisemakerMount=FALSE
 //Wake
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-BowWaveParticle=ships/particles/bowwave
-PropWashParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_sub
+PropWashParticle=ships/particles/bowwave_sub
 //CavitationParticle=assets/prefabs/wp_ssgn_papa_cavitation.prefab
 //EmergencyBlowParticle=assets/prefabs/wp_ssgn_papa_emergencyblow.prefab
 ModelFile=ships/wp_ssgn_oscar/wp_ssgn_oscar
@@ -228,16 +228,19 @@ CavitationParticle=ships/particles/wp_ssgn_oscar_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssgn_oscar_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssgn_oscar_emergency_blow
 
-CavitationParticlePosition=0,-0.03493459,0.309
-ParticleBowWavePosition=0,0,0.62
-ParticlePropWashPosition=0,-0.033,-0.82
+CavitationParticlePosition=0,-0.032,0.36
+ParticleBowWavePosition=0,0,0.8
+ParticlePropWashPosition=0,-0.083,-0.75
 
-ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.5
+ParticleHullFoamParameters=25,0.4875,0.1950,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.692
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=1.9,1.9
+ParticleAftFoamPosition=0,0,-1.35
+ParticleAftFoamParameters=124.21,0.325,0.2275,0.004225,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=99.37,0.195,0.1365,0.0024375,0.0,0,3.0
+KelvinWaves=3.65,2.74
 
 ModelFile=assets/models/wp_ssgn_papa.fbx
 

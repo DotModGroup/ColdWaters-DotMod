@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Dreadnought
+Description=Dreadnought Class Nuclear Attack Submarine
+History=The seventh HMS Dreadnought was the United Kingdom's first nuclear-powered submarine, built by Vickers Armstrongs at Barrow-in-Furness. Launched by Queen Elizabeth II on Trafalgar Day 1960 and commissioned into service with the Royal Navy in April 1963, she continued in service until 1980. The submarine was powered by a S5W reactor, a design made available as a direct result of the 1958 US–UK Mutual Defence Agreement.
+
+[Player Ship Instances]
+PlayerClassNames=Dreadnought
+PlayerClassHullNumbers=S101

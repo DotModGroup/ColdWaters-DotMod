@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=DEFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=wp_84_ss_kilo|wp_84_ss_tango|wp_84_ssn_victor2
+EnemyShipClasses=wp_modern_ssk|wp_84_ssn_victor2
 EventWin=SS_SPECOPS_win
 EventFail=SS_SPECOPS_Mine_fail

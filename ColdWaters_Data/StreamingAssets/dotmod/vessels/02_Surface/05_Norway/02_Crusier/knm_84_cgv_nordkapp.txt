@@ -48,7 +48,7 @@ TorpedoTypes=uk_stingray
 TorpedoNumbers=18
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 MissileType=knm_penguin
@@ -75,7 +75,7 @@ ChaffProbability=0.12
 NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=20
+NumberOfNoisemakers=25
 NoisemakerReloadTime=20
 
 

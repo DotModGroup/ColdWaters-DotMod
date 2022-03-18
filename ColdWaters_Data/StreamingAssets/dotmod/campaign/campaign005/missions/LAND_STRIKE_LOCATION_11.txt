@@ -1,0 +1,50 @@
+UseTerrain=TRUE
+MapCoordinates=3220,850
+MapFromCampaign=North Atlantic
+MapElevationData=oparea_norwegiansea_bathymetry
+
+//Enemy Ships
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+EnemyShipClasses=wp_84_mpk_grisha3_ai|wp_68_skr_riga_ai,wp_84_bpk_kresta2_ai|wp_84_mpk_grisha3_ai,wp_68_skr_riga_ai|wp_68_mpk_poti_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava|wp_vt_boris_chilikin|wp_vt_dubna|wp_vt_kazbek|wp_vtr_amguema|wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_vtr_yuniy_partizan|wp_fv_trawler,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_fv_trawler,wp_ms_poltava|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_vtr_andizhan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_fv_trawler,wp_ms_poltava|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_vtr_andizhan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_fv_trawler,wp_ms_poltava|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_vtr_andizhan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_andizhan_mod|wp_fv_trawler,wp_ms_poltava|wp_vt_boris_chilikin|wp_vtr_yuniy_partizan|wp_vtr_andizhan
+
+FormationCruiseSpeed=8
+
+//Ship positions and headings, otherwise build into a formation
+UsePresetPositions=TRUE
+PlayerPosition=-750,850
+PlayerHeading=120
+
+//AI Nav Waypoints
+//Array of Vector 2 positions
+//Must be enough for maximum number of enemy ships
+EnemyWaypoints=172,682|-247,111
+EnemyWaypoints=-272,244|-652,664
+EnemyWaypoints=42,731|-860,1340
+EnemyWaypoints=-1100,897|-795,274
+//Enter/Leave Port
+EnemyWaypoints=-99,355|-1201,1343
+//Merchant
+EnemyWaypoints=-1000,450|100,1600
+//Merchant2
+EnemyWaypoints=-1003,456|104,1610
+//Merchant3
+EnemyWaypoints=-998,447|98,1590
+
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
+
+//MissionPosition=74,-340
+//MissionPositionColor=LAND_STRIKE
+
+//Enemy Aircraft
+NumberOfHelicopters=1
+HelicopterType=wp_haze
+NumberOfAircraft=0
+AircraftType=wp_il-38_may
+
+//Aircraft Search Areas
+//Define a point and radius
+AircraftSearchArea=-128,295,75

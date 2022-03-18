@@ -18,7 +18,7 @@ AccelerationRate=0.1
 DecelerationRate=0.05
 RudderTurnRate=0.65
 TurnRate=1.2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=3
 SurfaceRate=3
 BallastRate=0.25
@@ -209,16 +209,19 @@ EmergencyBlowParticle=ships/particles/usn_ssn_los_angeles_emergency_blow
 
 CavitationParticlePosition=0,0,-0.309
 
-ParticleBowWavePosition=0,0,1.123
+ParticleBowWavePosition=0,-9,1.05
 ParticlePropWashPosition=0,0,-1.318
 
-ParticleHullFoamPosition=0,0,0
-ParticleHullFoamParameters=20,0.45,0.45,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.8
+ParticleHullFoamParameters=25,0.4875,0.1950,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-1.318
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.5
+ParticleAftFoamPosition=0,0,-1.35
+ParticleAftFoamParameters=161.15,0.325,0.2275,0.004225,0.0,0,0.7
 
-KelvinWaves=4,4
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=128.92,0.195,0.1365,0.0024375,0.0,0,3.0
+
+KelvinWaves=4.5,4.2
 
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC

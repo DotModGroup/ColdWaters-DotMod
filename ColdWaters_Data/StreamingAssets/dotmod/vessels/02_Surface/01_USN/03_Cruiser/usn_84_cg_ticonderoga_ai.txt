@@ -2,7 +2,7 @@ Designation=CG
 ShipType=ESCORT
 
 Length=173
-Beam=17
+Beam=16.8
 HullHeight=0.12
 Displacement=9800
 Crew=330
@@ -13,16 +13,16 @@ HullNumbers=CG-47.png,CG-48.png,CG-49.png,CG-50.png,CG-51.png
 SurfaceSpeed=32
 SubmergedSpeed=32
 TelegraphSpeeds=-5,0,5,10,15,20,32
-AccelerationRate=0.32
-DecelerationRate=0.28
+AccelerationRate=0.22
+DecelerationRate=0.10
 RudderTurnRate=0.5
 TurnRate=0.5
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
-Waterline=0.4
-SubmergedAt=0.1
+Waterline=0.012
+SubmergedAt=0.2
 CavitationParameters=20,-220
 PropRotationSpeed=-150,150
 TestDepth=40
@@ -51,7 +51,7 @@ TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
-TorpedoTubeSize=14
+TorpedoTubeSize=324
 TubeReloadTime=180
 
 MissileType=usn_84_rur-5
@@ -66,7 +66,7 @@ AntiShipMissileLaunchPointsRotation=-35,-90,0|-35,-90,0|-35,-90,0|-35,-90,0|-35,
 
 [Defenses]
 Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3000
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-179,25
 Anti-MissileGunFiringArcFinish=-30,170
 Anti-MissileGunRestAngle=-90,90
@@ -89,7 +89,7 @@ AntiAirMissileLaunchPointsRotation=-25,0,0|-25,0,0|-25,180,0|-25,180,0
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NoisemakerReloadTime=17
 
 [Model]
 AssetBundle=bundles/dotmodgenericresources.unity3d
@@ -108,11 +108,11 @@ MeshPosition=0,0,0
 MeshCIWSRADAR=FALSE
 MeshCIWSRADAR=FALSE
 
-//Flags - I can't be bothered to figure out where this goes.
-//MeshPosition=0,-0.065,0.145
-//MeshRotation=270,90,0
-//Material=ships/materials/flag_us
-//MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
+//Flags
+MeshPosition=0,-0.12,0.197
+MeshRotation=270,90,0
+Material=ships/materials/flag_us
+MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
 
 //Torpedo Mounts
 MeshRotation=0,-35,0
@@ -358,27 +358,29 @@ MeshHullNumber=hullnumbers
 MeshRotation=0,0,0
 MeshPosition=0,-0.011,-0.9322134
 MeshNoisemakerMount=FALSE
+
 //Wake and Smoke
+MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small
-CavitationParticle=assets/effects/usn_cg_ticonderoga_cavitation.prefab
+CavitationParticle=ships/particles/wp_bpk_kara_cavitation
 FunnelSmokeParticle=assets/effects/usn_cg_ticonderoga_funnelsmoke.prefab
 
-MeshPosition=0,0,1.1427866
-MeshHullWake=usn_cg_belknap_hullwake
+CavitationParticlePosition=0,-0.035,-0.075
 
-MeshPosition=0,0,-0.6962134
-MeshSternWake=usn_cg_belknap_sternwake
+ParticleBowWavePosition=0,-0.2,1.1237866
+ParticlePropWashPosition=0,-0.005,-1.34
 
-ParticleBowWavePosition=0,0,1.1237866
-ParticlePropWashPosition=0,0.02,-1.3012134
+ParticleHullFoamPosition=0,0,0.866
+ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
 
-ParticleHullFoamPosition=0,0,0.9637866
-ParticleHullFoamParameters=200,0.35,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-0.9472134
-ParticleSternFoamParameters=160,0.35,0.2,0.004,0.01,0,0.5
-KelvinWaves=4.1,4.1
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=188.56,0.3192,0.22344,0.004788,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=150.85,0.2352,0.16464,0.0030576,0.0,0,3.0
+KelvinWaves=3.75,3.93
 
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC

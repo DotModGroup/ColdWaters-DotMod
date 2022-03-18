@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=GUPPY IIA
+Description=GUPPY IIA Diesel-Electric Submarine Conversion
+History=Converted from WWII-era fleet boats, the GUPPY IIA conversions, alongside the other GUPPY (Greater Underwater Propulsion Power Program) projects, were designed to give the US Navy a fleet of compitent, post-war era SSKs for use against the percieved Soviet SS threat. 15 Balao- and Tench-class submarines were converted to GUPPY IIA, which involved several changes, including removing an engine and replacing it with machinery, relocating the high-pressure air compessor below the engine room, moving the cold food storage, moving the sonar room, and installing Sargo II batteries. The boats were also given snorkels and ESM masts, and the guns were removed. Depending on the exact configuration for each boat, specifications varied, but on average these boats could reach a maximum surface crusing speed of 17 knots and a submerged speed of 14.1 knots, if only for half an hour. 
+
+[Player Ship Instances]
+PlayerClassNames=Bang,Diodon,Entemedor,Hardhead,Jallao,Menhaden,Picuda,Pomfret,Razorback,Ronquil,Sea Fox,Stickleback,Threadfin,Quillback,Thornback,Tirante,Trutta
+PlayerClassHullNumbers=SS-385,SS-349,SS-340,SS-365,SS-368,SS-377,SS-382,SS-391,SS-394,SS-396,SS-402,SS-415,SS-410,SS-424,SS-418,SS-420,SS-421

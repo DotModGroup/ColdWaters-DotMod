@@ -1,6 +1,6 @@
 Designation=FFG
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=126.1
 Beam=12.7
@@ -17,12 +17,12 @@ TelegraphSpeeds=-5,0,5,10,15,20,29
 AccelerationRate=0.32
 DecelerationRate=0.28
 RudderTurnRate=1
-TurnRate=0.7
-PivotPointTurning=0.256
+TurnRate=0.9
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
-Waterline=0.02
+Waterline=0.012
 SubmergedAt=0.2
 CavitationParameters=20,-100
 PropRotationSpeed=-175
@@ -31,7 +31,7 @@ EscapeDepth=787
 PeriscopeDepthInFeet=0
 
 [Acoustics & Sensors]
-SelfNoise=165
+SelfNoise=162
 ActiveSonarReflection=25
 ActiveSonarModel=usn_sqs_56
 PassiveSonarModel=usn_sqs_56
@@ -54,7 +54,7 @@ TorpedoTypes=usn_mk50
 TorpedoNumbers=24
 TorpedoTubes=7
 TubeConfig=1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533
+TorpedoTubeSize=324,324,324,324,324,324,533
 TubeReloadTime=180
 
 VLSTorpedoTypes=usn_ugm84,usn_rim-66e
@@ -63,8 +63,8 @@ VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=400
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=3500
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=20
 Anti-MissileGunFiringArcFinish=-20
 Anti-MissileGunRestAngle=180
@@ -79,7 +79,7 @@ NumberChaffLaunched=2
 
 NoisemakerName=surf_noisemaker
 NumberOfNoisemakers=30
-NoisemakerReloadTime=20
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=370,39
@@ -280,37 +280,30 @@ MeshRotation=0,30,0
 MeshPosition=0.0891,0.0728,-0.0959
 Mesh=usn_cg_belknap_torpedomount
 
-
 //Wake and Smoke
 MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
-PropWashParticle=ships/particles/bowwave
+PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=ships/particles/usn_ff_knox_cavitation
 FunnelSmokeParticle=ships/particles/wp_skr_riga_smokeemitter
-
-CavitationParticlePosition=0,0.02089,-0.05284
 FunnelSmokeParticlePosition=0,0.03531,-0.34466
 
-MeshPosition=-0.5,0,0.969
-MeshHullWake=usn_cg_belknap_hullwake
+CavitationParticlePosition=0,0.00035,-0.027
 
-MeshPosition=0.5,0,-10.87
-MeshSternWake=usn_cg_belknap_sternwake
-
-//Ocean surface particles
 ParticleBowWavePosition=0,-0.075,0.88
-ParticlePropWashPosition=0,-0.044,-0.98
-ParticleHullFoamPosition=0,0,0.39
+ParticlePropWashPosition=0,-0.004,-1.03
 
-ParticleHullFoamParameters=10,0.45,0.35,0.1,0,0,0.25
+ParticleHullFoamPosition=0,0,0.85
+ParticleHullFoamParameters=36.83,0.127,0.23495,0.03175,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.767
-ParticleSternFoamParameters=125,0.45,0.20,0.025,0.055,0,0.25
-KelvinWaves=3.2,3.2
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=146.21,0.2413,0.16891,0.0036195,0.0,0,0.7
 
-ParticleSternFoamParameters=160,0.4,0.125,0.025,0.055,0.0,0.25
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=116.97,0.1778,0.12446,0.0023114,0.0,0,3.0
+KelvinWaves=2.8,3.1
 
 AssetBundle=bundles/vessels/usn/usn_ffg_perry.unity3d
 ModelFile=assets/models/usn_ffg_perry.fbx
@@ -345,6 +338,12 @@ MeshRudder=rudder
 MeshRotation=-6.95,0,0
 MeshPosition=-0.0,-0.06881678,-0.8400785
 MeshProp=prop
+
+MeshPosition=0,0,0
+MeshRotation=-90,0,0
+
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=hullnumbers
 
 MeshPosition=0,0,0
 MeshRotation=0,0,0

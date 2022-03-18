@@ -18,17 +18,17 @@ AccelerationRate=0.30
 DecelerationRate=0.10
 RudderTurnRate=0.75
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
-Waterline=0.06
+Waterline=0.048
 SubmergedAt=0.172
 CavitationParameters=15,-155
 PropRotationSpeed=-190
 TestDepth=1640
 EscapeDepth=600
-PeriscopeDepthInFeet=50
+PeriscopeDepthInFeet=42
 
 [Acoustics & Sensors]
 //SelfNoise=120
@@ -71,8 +71,8 @@ MissilesPerLauncher=4,4
 //AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=24
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -156,347 +156,6 @@ MeshPosition=0.0000000000,0.0000000000,-0.7940243000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 MeshProp=usn_ssn_virginia_prop
 
-//ESM Mast
-//ModelFile=ships/usn_ssn_seawolf/usn_ssn_seawolf
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0,0.125,0.43
-//MeshRotation=0,0,0
-//Mesh=usn_ssn_seawolf_esm_mast
-
-//Periscope
-//ModelFile=ships/usn_ssn_seawolf/usn_ssn_seawolf
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.00,0.125,0.475
-//MeshRotation=0,0,0
-//Mesh=usn_ssn_seawolf_periscope
-
-//Radar Mast
-//ModelFile=ships/usn_ssn_seawolf/usn_ssn_seawolf
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0,0.125,0.52
-//MeshRotation=0,0,0
-//Mesh=usn_ssn_seawolf_radar_mast
-
-
-//Tube 1
-//ModelFile=weapons/assets/usn_mk48
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.068,-0.016,0.68
-//MeshRotation=0,-5,0
-//Mesh=Mk48
-
-//Tube 2
-//ModelFile=weapons/assets/usn_mk48
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=-0.059,-0.04,0.65
-//MeshRotation=0,-5,0
-//Mesh=Mk48
-
-//Tube 3
-//ModelFile=weapons/assets/usn_mk48
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.068,-0.016,0.68
-//MeshRotation=0,5,0
-//Mesh=Mk48
-
-//Tube 4
-//ModelFile=weapons/assets/usn_mk48
-//Material=weapons/assets/usn_mk48_mat
-//MaterialTextures=weapons/assets/usn_mk48_tx
-//MeshPosition=0.059,-0.04,0.65
-//MeshRotation=0,5,0
-//Mesh=Mk48
-
-//********SIAM Launchers on the Sail********
-//Put Y coordinate at 0.15 to see SIAM's
-
-//SIAM 1
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.005,0.15,0.47
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 2
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.005,0.15,0.47
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 3
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.005,0.15,0.465
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 4
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.005,0.15,0.465
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 5
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.005,0.15,0.455
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 6
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.005,0.15,0.455
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 7
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.005,0.15,0.445
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 8
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.005,0.15,0.445
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 9
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.005,0.15,0.43
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 10
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.005,0.15,0.43
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//********SIAM Launchers Behind the VLS********
-//SIAM 1
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.01,0.15,0.58
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 2
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.004,0.15,0.58
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 3
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.01,0.15,0.58
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 4
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.004,0.15,0.58
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 5
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.01,0.15,0.59
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 6
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.004,0.15,0.59
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 7
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.01,0.15,0.59
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//SIAM 8
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=0.004,0.15,0.59
-//MeshRotation=-90,0,0
-//Mesh=usn_siam
-
-//------------------------Back Row----------------------
-//Far-Right TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.034,0.1,0.6245
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//Mid-Right TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.013,0.1,0.6245
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//Mid-Left TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.013,0.1,0.6245
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//Far-Left TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.034,0.1,0.6245
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//------------------------Middle Row----------------------
-//Far-Right TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.034,0.1,0.641
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//Mid-Right TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.013,0.1,0.641
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-
-//Mid-Left TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.013,0.1,0.641
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//Far-Left TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.034,0.1,0.641
-//MeshRotation=-90,0,0
-//Mesh=TASM
-//--------------------------------------------------------
-//----------------------Front 2 Rows----------------------
-//TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.0165,0.1,0.6575
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.0165,0.1,0.6575
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=-0.0165,0.1,0.674
-//MeshRotation=-90,0,0
-//Mesh=TASM
-
-//TASM
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0.0165,0.1,0.674
-//MeshRotation=-90,0,0
-//Mesh=TASM
-//-------------------------------------------------------
-
-//Noisemaker Mount Marker
-//ModelFile=weapons/assets/usn_tasm
-//Material=weapons/assets/usn_tasm_mat
-//MaterialTextures=weapons/assets/usn_tasm_tx
-//MeshPosition=0,-0.055,-0.6
-//MeshRotation=0,0,0
-//Mesh=TASM
-
-//Towed Array Marker
-//AssetBundle=bundles/weapons/usn/usn_siam
-//ModelFile=assets/weapons/usn/usn_siam/usn_siam.obj
-//Material=assets/weapons/usn/usn_siam/usn_siam_mat.mat
-//MaterialTextures=assets/weapons/usn/usn_siam/usn_siam_tx.dds
-//MeshPosition=-0.0812,-0.0545,-0.706
-//MeshRotation=0,0,0
-//Mesh=usn_siam
-
 [Weapon Systems]
 
 //Missile Mounts
@@ -555,15 +214,18 @@ PropWashParticle=ships/particles/bowwave_small
 FunnelSmokeParticle=ships/particles/usn_ssn_seawolf_bubbles
 EmergencyBlowParticle=ships/particles/usn_ssn_seawolf_emergency_blow
 
-ParticleBowWavePosition=0,0,0.8
+ParticleBowWavePosition=0,0,0.86
 ParticlePropWashPosition=0,-0.033,-0.81
 
-ParticleHullFoamPosition=0,0,0.8
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.5
+ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.7
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.34,2.34
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=159.98,0.25,0.175,0.00325,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=127.98,0.15,0.105,0.001875,0.0,0,3.0
+KelvinWaves=3.7125,2.75
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

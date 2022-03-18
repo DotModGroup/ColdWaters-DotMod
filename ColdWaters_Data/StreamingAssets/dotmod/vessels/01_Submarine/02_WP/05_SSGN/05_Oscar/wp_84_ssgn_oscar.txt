@@ -77,7 +77,7 @@ AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=40
-NoisemakerReloadTime=20
+NoisemakerReloadTime=17
 
 [Campaign]
 PrefferedMissionType=LAND_STRIKE,CARRIER_STRIKE
@@ -231,22 +231,25 @@ MeshNoisemakerMount=FALSE
 
 //Wake
 MeshPosition=0,0,0
-BowWaveParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_largesub
 --BowWaveParticle=ships/particles/bowwave_largesub
 PropWashParticle=ships/particles/bowwave
 CavitationParticle=ships/particles/wp_ssgn_oscar_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssgn_oscar_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssgn_oscar_emergency_blow
 
-ParticleBowWavePosition=0,0,1.16
-ParticlePropWashPosition=0,-0.0545,-0.99
+ParticleBowWavePosition=0,0,1.08
+ParticlePropWashPosition=0,-0.0545,-1.12
 
-ParticleHullFoamPosition=0,0,0.99
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.75
+ParticleHullFoamParameters=25,0.6825,0.273,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=4.0,4.0
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=111.26,0.455,0.3185,0.005915,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=89.01,0.273,0.1911,0.0034125,0.0,0,3.00
+KelvinWaves=4.6,3.95
 
 EngineAudioClip=audio/units/submarine_engine_3
 EngineAudioRollOff=LOGARITHMIC

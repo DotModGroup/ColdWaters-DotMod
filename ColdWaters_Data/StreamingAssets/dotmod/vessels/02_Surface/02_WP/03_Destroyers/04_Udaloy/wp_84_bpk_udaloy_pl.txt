@@ -16,8 +16,8 @@ SubmergedSpeed=35
 TelegraphSpeeds=-5,0,5,10,15,20,35
 AccelerationRate=0.12
 DecelerationRate=0.08
-RudderTurnRate=0.5
-TurnRate=0.4
+RudderTurnRate=0.7
+TurnRate=0.55
 PivotPointTurning=0.256
 DiveRate=0
 SurfaceRate=5
@@ -70,8 +70,8 @@ VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=2500
+Anti-MissileGunHitProbability=0.025
+Anti-MissileGunRange=6000
 Anti-MissileGunFiringArcStart=-160,-180,10,20
 Anti-MissileGunFiringArcFinish=-10,-20,160,180
 Anti-MissileGunRestAngle=0,0,0,0
@@ -93,8 +93,8 @@ AntiAirMissileLaunchPoints=-0.039,0.14,0.935|0.039,0.14,0.935|-0.039,0.14,0.898|
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=40
-NoisemakerReloadTime=30
+NumberOfNoisemakers=30
+NoisemakerReloadTime=18
 
 [Subsystems]
 LabelPosition=370,39
@@ -378,11 +378,16 @@ MeshSternWake=wp_bpk_udaloy_sternwake
 
 //Ocean surface particles
 ParticleBowWavePosition=0,0,1.1
-ParticlePropWashPosition=0,-0.075,-0.854
-ParticleHullFoamPosition=0,0,0.57
-ParticleHullFoamParameters=200,0.45,0.35,0.006,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.0
-ParticleSternFoamParameters=160,0.45,0.20,0.004,0.055,0,0.5
+ParticlePropWashPosition=0,-0.075,-1.07
+
+ParticleHullFoamPosition=0,0,0.825
+ParticleHullFoamParameters=65,0.19,0.3515,0.0475,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=157.05,0.361,0.2527,0.005415,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=125.64,0.266,0.1862,0.003458,0.0,0,3.0
 KelvinWaves=3.85,3.85
 
 EngineAudioClip=audio/units/turbine_small

@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Resolution
+Description=Resolution-class Balistic Missile Submarine
+
+History=The Resolution-class Ballistic Missile Submarines were a modification of the Valiant-class fleet submarine, but greatly extended to incorporate the missile compartment between the fin and the nuclear reactor. Sixteen Polaris A3 missiles were carried, in two rows of eight. For emergencies there were six 21-inch torpedo tubes located at the bow, firing the Tigerfish wire-guided homing torpedoes.\nThe Resolution-class was designed in the UK after the cancellation of the Skybolt missile that the government had arranged to buy fron the United Stated by President Kennedy. To avoid a diplomatic incident the US Government agreed to provide the Polaris missile in place of Skybolt which was operated by the UK as a totally independent system despite protest from the US Secretary of Defence.
+
+[Player Ship Instances]
+PlayerClassNames=Resolution,Repulse,Renown,Revenge
+PlayerClassHullNumbers=S22,S23,S26,S27

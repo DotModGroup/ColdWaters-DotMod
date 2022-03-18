@@ -1,6 +1,6 @@
 Designation=SS
 ShipType=SUBMARINE
-PlayerHUD=hud/default
+PlayerHUD=hud/default_usn
 
 Length=91
 Beam=9.1
@@ -52,8 +52,8 @@ TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45
 
 NoisemakerName=usn_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=12
+NoisemakerReloadTime=34
 
 
 [Subsystems]

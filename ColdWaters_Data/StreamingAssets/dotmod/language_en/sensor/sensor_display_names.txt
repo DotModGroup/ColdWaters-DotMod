@@ -68,6 +68,7 @@ wp_horse_tail=Horse Tail=Larger and much more capable than Mare Tail, Horse Tail
 //   2a) Hull-mounted
 //----------------------------------------Submarine-------------------------------
 usn_an_bqr_2=AN/BQR-2=Derived from the German wartime GHG sonar suite as fitted on the Type XXI electroboot, the BQR-2 is a medium frequency sonar fitted to most USN subs until the Thresher/Permit class. Though adequate for its day, by the 1980's this system is woefully obsolete and nearly blind against all but the oldest Soviet boats.
+usn_an_bqg_4=AN/BQG-4=This sonar set formed the main hardware component of the PUFFS (Passive Underwater Fire Control Feasibility System) passive-ranging system. While the system was  failure due to technical limitations, the system was still more sensitive than the BQR-2, if more prone to flow noise due to its positioning outside of the hull in three shark-fin shaped pods.
 usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new digital data processing for much better performance.
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
 usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit- and Sturgeon class submarines.

@@ -1,5 +1,6 @@
 WeaponObjectReference=uk_stingray
 WeaponType=TORPEDO
+Size=324
 *
 Warhead=70
 SensorRange=1600

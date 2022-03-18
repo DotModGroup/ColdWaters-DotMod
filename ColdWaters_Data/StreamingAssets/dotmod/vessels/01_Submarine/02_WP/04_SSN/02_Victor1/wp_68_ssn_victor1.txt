@@ -59,8 +59,8 @@ AntiAirMissileLaunchPoints=0,0.14,0.252
 AntiAirMissileLaunchPointsRotation=-90,0,0
 
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=18
+NoisemakerReloadTime=28
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -186,12 +186,15 @@ EmergencyBlowParticle=ships/particles/wp_ssn_victor1_emergency_blow
 ParticleBowWavePosition=0,0,0.63
 ParticlePropWashPosition=0,-0.035,-0.706
 
-ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamPosition=0,0,0.35
+ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.665
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.0,2.0
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=96,0.30,0.21,0.0039,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=76.8,0.18,0.126,0.00225,0.0,0,3.0
+KelvinWaves=2.9,2.18
 
 EngineAudioClip=audio/units/submarine_engine_1
 EngineAudioRollOff=LOGARITHMIC

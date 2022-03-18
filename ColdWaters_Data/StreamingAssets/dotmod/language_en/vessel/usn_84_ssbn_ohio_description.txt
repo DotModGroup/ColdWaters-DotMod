@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Ohio
-Description=Ohio-class Balistic Missile Submarine
+Description=Ohio-class Ballistic Missile Submarine
 
 History=The Ohio-class SSBN was designed in the 1970’s to field the new, longer ranged Trident I SLBM and any future missiles that may follow it. The first of the class, the USS Ohio (SSBN-726) was commissioned in 1981 with the last of boats in 1997. The Ohio's where very similar to the Los Angeles-class SSN’s, and featured improved quieting and an additional 8 SLBM tubes (24 total) over her predecessors.\nIn 2004, following the SALT Treaties, the first four of the class were converted to SSGN’s, capable of launching up to 154 Tomahawks.
 

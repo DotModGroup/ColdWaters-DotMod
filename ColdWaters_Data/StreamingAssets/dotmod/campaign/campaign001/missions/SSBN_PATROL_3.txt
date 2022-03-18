@@ -20,4 +20,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1,1-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=wp_84_ssbn_delta4,wp_84_ssn_sierra|wp_84_ssn_alfa|wp_84_ssn_victor3
+EnemyShipClasses=wp_84_ssbn_delta3|wp_84_ssbn_delta4,wp_ssn_threat

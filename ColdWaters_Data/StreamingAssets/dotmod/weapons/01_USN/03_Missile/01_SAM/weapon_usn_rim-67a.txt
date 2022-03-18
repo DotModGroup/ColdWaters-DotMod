@@ -14,7 +14,7 @@ MissileChaffVulnerability=1.2
 *
 MaxLaunchDepth=5
 *
-WeaponAltitudes=500,500
+WeaponAltitudes=750,500
 CruiseTime=0
 BoosterReleasedAfterSeconds=7
 *

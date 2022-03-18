@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=ADCAP
-WeaponDescriptiveName=Mark 48 ADCAP Torpedo (Mk48)
-WeaponDescription=The Mark 48 ADCAP is an improvement of the Mk48 boasting increased speed and better electronics, allowing it to effectively engage faster and deeper diving enemy submarines, such as the Alfa.
+WeaponName=Mark 48 Mod 6
+WeaponDescriptiveName=Mark 48 Mod 6 ADCAP Torpedo
+WeaponDescription=The Mark 48 Mod 6 ADCAP is an improvement of the Mark 48 boasting increased speed and better electronics, allowing it to effectively engage faster and deeper diving enemy submarines, such as the Alfa.

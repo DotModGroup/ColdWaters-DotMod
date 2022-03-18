@@ -24,7 +24,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0
 CavitationParameters=0,0
-PropRotationSpeed=-250,250
+PropRotationSpeed=250,-250
 TestDepth=0
 
 [Acoustics & Sensors]
@@ -46,13 +46,21 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
 [Defenses]
-Anti-MissileGunHitProbability=0.015
-Anti-MissileGunRange=4000
+Anti-MissileGunHitProbability=0.005
+Anti-MissileGunRange=1500
 Anti-MissileGunFiringArcStart=-150,-150,-150,-150,30,30,30,30
 Anti-MissileGunFiringArcFinish=-30,-30,-30,-30,150,150,150,150
 Anti-MissileGunRestAngle=0,0,181,181,0,0,179,179
 Anti-MissileGunUsesRADAR=0,0,1,1,2,2,3,3
 Anti-MissileRADARRestAngle=0,180,0,180
+
+ChaffType=wp_chaff
+ChaffProbability=0.12
+NumberChaffLaunched=2
+
+NoisemakerName=surf_noisemaker
+NumberOfNoisemakers=15
+NoisemakerReloadTime=20
 
 [Model]
 ModelFile=ships/wp_kr_sverdlov/wp_kr_sverdlov
@@ -250,12 +258,17 @@ MeshSternWake=wp_kr_sverdlov_sternwake
 
 //Ocean surface particles
 ParticleBowWavePosition=0,0,1.525
-ParticlePropWashPosition=0,-0.091,-1.257
-ParticleHullFoamPosition=0,0,1.019
-ParticleHullFoamParameters=400,0.55,0.45,0.007,0,0,0.25
-ParticleSternFoamPosition=0,0,-1.57
-ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
-KelvinWaves=5.5,5.5
+ParticlePropWashPosition=0,-0.091,-1.357
+
+ParticleHullFoamPosition=0,0,1.375
+ParticleHullFoamParameters=65,0.22,0.407,0.055,0.02,0,0.375
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=187.63,0.418,0.2926,0.00627,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=150.1,0.308,0.2156,0.004004,0.0,0,3.0
+KelvinWaves=4.85,5.3
 
 EngineAudioClip=audio/units/turbine_large
 EngineAudioRollOff=LOGARITHMIC

@@ -2,8 +2,8 @@ Designation=SSN
 ShipType=SUBMARINE
 PlayerHUD=hud/default_usn
 
-Length=95.7
-Beam=10.0
+Length=95.9
+Beam=10.14
 HullHeight=0.08
 Displacement=5378
 Crew=107
@@ -18,7 +18,7 @@ AccelerationRate=0.2
 DecelerationRate=0.1
 RudderTurnRate=1.0
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
@@ -184,11 +184,14 @@ ParticleBowWavePosition=0,0,0.648
 ParticlePropWashPosition=0,-0.035,-0.739
 
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
 
-ParticleSternFoamPosition=0,0,-0.665
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
-KelvinWaves=2.3,2.3
+ParticleAftFoamPosition=0,0,-1.0
+ParticleAftFoamParameters=130.17,0.25,0.175,0.00325,0.0,0,0.7
+
+ParticleSternFoamPosition=0,0,0
+ParticleSternFoamParameters=104.14,0.15,0.105,0.001875,0.0,0,3.00
+KelvinWaves=3.1995,2.37
 
 EngineAudioClip=audio/units/submarine_engine_2
 EngineAudioRollOff=LOGARITHMIC

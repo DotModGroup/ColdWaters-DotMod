@@ -1,0 +1,14 @@
+NextAction=MAP
+Image=campaign/images/CV_Sink.jpg,campaign/images/CV_Sink2.jpg 
+Photo=campaign/images/photos/Alfa.jpg,campaign/images/photos/Sierra.jpg
+Music=audio/music/Cold Waters Campaign Loss
+Header=<DATE>
+
+Font=0
+Outline=FALSE
+Color=180,71,64,255
+Title=<b>CARRIER TORPEDOED</b>|<b>RED SUB SINKS CARRIER</b>|<b>RUSSIAN SUBS TORPEDO, SINK CARRIER</b>
+Color=57,61,73,255
+Sentence1=A NATO aircraft carrier operating in <ENDLOCATION> has been reported sinking after being hit by multiple torpedoes. Rescue efforts are currently underway but are being hampered by the continuing submarine threat.|A U.S. aircraft carrier has been sunk in <ENDLOCATION> after coming under torpedo attack from one or more Soviet submarines. Government sources would not confirm if the sunken vessel was a nuclear-powered supercarrier or a smaller helicopter carrier, but the numbers of dead or missing personnel are said to be high.  
+Color=218,218,208,255
+Sentence2=Many pundits are calling the attack a major setback for the allied war effort, and calling into question NATO's overall naval strategy. "We simply can't continue to take these kinds of losses," said one analyst.|Seen by many as a major loss, some Members of Congress have gone so far as to suggest that the war is unwinnable, and that "Peace at any Cost" would be preferable to continued bloodshed on the battlefield and the high seas.  

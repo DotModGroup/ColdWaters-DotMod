@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=0-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,TRUE
-EnemyShipClasses=wp_68_ssn_november|wp_68_ssn_victor1,wp_68_ssn_victor1
+EnemyShipClasses=wp_ssn,wp_68_ssn_victor1
 EventWin=SSN_WOLFPACK_win
 EventFail=SSBN_fail

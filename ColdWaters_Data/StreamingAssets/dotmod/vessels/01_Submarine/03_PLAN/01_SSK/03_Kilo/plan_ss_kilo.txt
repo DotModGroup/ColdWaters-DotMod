@@ -44,8 +44,8 @@ TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=21
 TubeReloadTime=30
 NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=20
-NoisemakerReloadTime=20
+NumberOfNoisemakers=14
+NoisemakerReloadTime=31
 
 [Model]
 ModelFile=ships/wp_ss_kilo/wp_ss_kilo

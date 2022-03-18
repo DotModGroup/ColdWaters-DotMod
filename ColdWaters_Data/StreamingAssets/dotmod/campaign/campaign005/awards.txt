@@ -1,0 +1,11 @@
+[Medals and Awards]
+
+PatrolAwards=event_award_UK_queens_commendation_for_valuable_service,event_award_UK_mentioned_in_despatches,event_award_UK_conspicuous_gallantry_cross,event_award_UK_victoria_cross
+PatrolTonnage=25000,50000,100000,200000
+
+CumulativeAwards=event_award_UK_general_service_medal,event_award_UK_distinguished_service_cross,event_award_UK_distinguished_service_order
+CumulativeTonnage=50000,100000,250000
+MissionsPassed=3,6,10
+
+WoundedAwards=event_award_UK_queens_gallantry_medal
+ProbabilityWounded=0.15,0.001
