@@ -6,7 +6,7 @@ Warhead=0
 SensorRange=0
 SensorAngles=0,0
 *
-WeaponAltitudes=7500
+WeaponAltitudes=15000
 BoosterReleasedAfterSeconds=3600
 *
 WeaponRanges=4000,10560
