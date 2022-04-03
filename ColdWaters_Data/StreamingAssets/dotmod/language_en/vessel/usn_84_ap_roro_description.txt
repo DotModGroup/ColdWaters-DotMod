@@ -1,5 +1,5 @@
 [Unit Reference]
-ShipClass=Military RORO
+ShipClass=NATO RORO
 ShipClassShort=RORO
-Description=Large Roll-On, Roll-Off Ship
-History=RORO ships are versatile cargo ships that can be quickly loaded through ramps, which makes them very suitable for carrying vehicles and other rolling equipment. They can also carry standard shipping containers, which are driven onto the ship and placed by special on-board trucks. Deck cargo can be simply lifted aboard by pierside cranes.
+Description=MSC Vehicle Cargo Ship
+History=RORO (Roll-On, Roll-Off) ships are versatile cargo ships that can be quickly loaded through ramps, which makes them very suitable for carrying vehicles and other rolling equipment. They can also carry standard shipping containers, which are driven onto the ship and placed by special on-board trucks. Deck cargo can be simply lifted aboard by pierside cranes. \n The United States Military Sealift Command (MSC) charters several of these ships from civilian companies for use in supporting military operations. With the outbreak of war they would all be pressed into service transporting military vehicles to Europe across the Atlantic. Many cargo ships in military service were given the designation of Cape class. 

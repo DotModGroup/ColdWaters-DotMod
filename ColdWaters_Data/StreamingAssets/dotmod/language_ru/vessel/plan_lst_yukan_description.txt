@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Yukan
-Description=Yukan-class Landing Ship Tank
+Description=<<Yukan>> Десантный Корабль-Танк
 DefensiveWeapons=57mm AA Guns, 25mm AA Guns
 OffensiveWeapons=
 Aircraft=None
-History=These are large landing ships built to replace the aging WW2-era LST's previously operated by the PLAN. A continuous tank deck with bow doors and shallow draft allows these ships to deliver tanks and troops directly onto the beach during landing operations. Featuring only rudimentary AA weaponry, these ships are entirely dependent on their escorts for protection.
+History=Это большие десантные корабли, построенные для замены устаревших десантных кораблей времен Второй мировой войны, ранее эксплуатировавшихся китайцами. Непрерывная танковая палуба с носовыми дверями и малой осадкой позволяет этим кораблям доставлять танки и войска непосредственно на берег во время десантных операций. Оснащенные лишь элементарным зенитным вооружением, эти корабли полностью зависят от своего сопровождения в плане защиты.

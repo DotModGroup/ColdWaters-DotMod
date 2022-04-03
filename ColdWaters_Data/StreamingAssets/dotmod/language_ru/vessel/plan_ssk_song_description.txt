@@ -4,7 +4,5 @@ Designation=ДЭПЛ
 Description=ДЭПЛ Тип 039
 History=Субмарины Тип 039 (Классификация НАТО: Song) — серия дизель-электрических подводных лодок ВМС КНР. Данный тип лодок является первым, полностью разработанным китайскими инженерами, а также первым классом китайских субмарин, имеющих каплевидную форму корпуса.
 
-The Song is the first really modern Chinese submarine design, with a modern teardrop hull shape and single shaft propulsion. Compared to previous designs, it incorporates rafting for improved quieting, features the latest in French digital sonar coupled with an advanced firecontrol system capable of firing the the YU-5 wireguided ASW torpedo and the stand-off CY-1 ASW missile.
-
 PlayerClassNames=,,,,
 PlayerClassHullNumbers=401,402,403,404,405

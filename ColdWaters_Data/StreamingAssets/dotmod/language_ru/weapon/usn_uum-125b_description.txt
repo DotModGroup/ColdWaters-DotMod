@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=UUM-125B
-WeaponDescriptiveName=UUM-125B Sea Lance
-WeaponDescription=A conventionally armed variant of the UUM-125A Nuclear Tipped ASW Standoff Weapon.
+WeaponDescriptiveName=UUM-125B <<Sea Lance>>
+WeaponDescription=Вариант UUM-125 с обычным вооружением, Противоракетное оружие с ядерным наконечником.

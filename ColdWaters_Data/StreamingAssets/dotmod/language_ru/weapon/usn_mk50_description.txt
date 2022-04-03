@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=Мк 50
-WeaponDescriptiveName=Торпеда Мк 50
-WeaponDescription=The Mark 50 torpedo was a U.S. Navy advanced lightweight torpedo for use against fast, deep-diving submarines intended to replace the Mk 46 as the fleet's lightweight torpedo.
+WeaponName=Mk 50
+WeaponDescriptiveName=Торпеда Mk 50
+WeaponDescription=Торпеда Mark 50 была усовершенствованной легкой торпедой ВМС США для использования против быстроходных глубоководных подводных лодок, предназначенной для замены Mk 46 в качестве легкой торпеды флота.

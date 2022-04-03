@@ -1,7 +1,9 @@
 [Unit Reference]
-ShipClass=Han
-Description=Han-class Nuclear Attack Submarine
-History=In service since 1974, the Hans are first-generation Chinese nuclear attack submarines. They are notoriously noisy and known to have poor radiation shielding, earning them the nickname 'glowboats'. They are fitted with sonars and firecontrol systems derived from French and Italian designs. 
+Designation=ПЛАТ
+ShipClass=типа 091
+Designation=ПЛАТ типа 091
+
+History=типа 091 (классификация НАТО: Han) Находящиеся на вооружении с 1974 года, тип 091 являются китайскими атомными ударными подводными лодками первого поколения. Они печально известны своим шумом и, как известно, имеют плохую радиационную защиту, за что получили прозвище "светящиеся лодки". Они оснащены гидролокаторами и системами управления огнем, заимствованными из французских и итальянских разработок. 
 
 PlayerClassNames=Long March I,Long March II,Long March III
 PlayerClassHullNumbers=401,402,403

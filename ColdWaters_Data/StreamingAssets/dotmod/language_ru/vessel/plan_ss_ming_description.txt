@@ -1,4 +1,6 @@
 [Unit Reference]
-ShipClass=Ming
-Description=Ming-class Diesel-Electric Attack Submarine
-History=The Ming is a heavily redesigned Romeo class submarine and compared to its predecessor is faster and quieter. Since the late 80's, these boats have been fitted with French high-performance digital sonars and advanced firecontrol equipment that enables them to fire the YU-3 homing torpedo.
+Designation=ДЭПЛ
+ShipClass=типа 035
+Description=ДЭПЛ типа 035
+
+History=типа 035 (классификация НАТО: Ming) представляет собой сильно переработанную подводную лодку проекта 633 и по сравнению со своей предшественницей является более быстрой и тихой. С конца 80-х годов эти лодки были оснащены французскими высокопроизводительными цифровыми гидролокаторами и современным оборудованием управления огнем, которое позволяет им запускать самонаводящиеся торпеды YU-3.

@@ -1,5 +1,5 @@
 [Unit Reference]
-ShipClass=US Large Cargo
-ShipClassShort=Large Cargo
-Description=US large cargo ship
-History=These are large, powerful ships capable of hauling breakbulk cargo as well as standard 20 foot containers. A 24,000 SHP steam plant gives a service speed of 21 knots. A number of them used by US to transport military goods.
+ShipClass=NATO Cargo
+ShipClassShort=Cargo
+Description=MSTS Large Cargo Ship
+History=These are large, powerful ships capable of hauling breakbulk cargo as well as standard 20 foot containers. A 24,000 SHP steam plant gives a service speed of 21 knots. \n The United States Military Sea Transportation Service (MSTS) (later the Military Sealift Command) charters several of these ships from civilian companies for use in supporting military operations. With the outbreak of war they would all be pressed into service transporting military material to Europe across the Atlantic. Many cargo ships in military service were given the designation of Cape class. 

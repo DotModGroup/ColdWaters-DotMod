@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Fuqing
-Description=Fuqing-class fleet oiler
-History=The three ships that make up this class represent the first generation replenishment oilers built by the PLAN. Keeping with western practice, they feature three large amidships kingposts that house four liquid-transfer stations supported by two dry cargo transfer stations. The Fuqing is capable of providing fuel and supplies for up to three destroyers simultaneously using alongside replenishment. They feature a large helipad but no hangar, sized to handle the Super Frelon transport helicopter.
+Description=<<Fuqing>> Вспомогательный топливный корабль
+History=Три судна, входящие в этот класс, представляют собой нефтяники первого поколения, построенные китайцами. В соответствии с западной практикой, они оснащены тремя большими промежуточными постами, на которых расположены четыре станции перекачки жидкостей, поддерживаемые двумя станциями перекачки сухих грузов. <<Фуцин>> способен обеспечить топливом и припасами до трех эсминцев одновременно, используя дополнительное пополнение. У них есть большая вертолетная площадка, но нет ангара, рассчитанного на транспортный вертолет <<Super Frelon>>.

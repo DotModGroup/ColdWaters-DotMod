@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Yuting
-Description=Yuting-class Landing Ship Tank
+Description=<<Yuting>> Десантный Корабль-Танк
 DefensiveWeapons=57mm AA Guns, 25mm AA Guns
 OffensiveWeapons=
 Aircraft=None
-History=These ships are improved Yukan-class landing ships fitted with better AA armament and a helipad, that allows them to operate the Z-8 Super Frelon transport helicopter.
+History=Эти корабли являются улучшенными десантными кораблями <<Yukan>>, оснащенными лучшим зенитным вооружением и вертолетной площадкой, что позволяет им управлять транспортным вертолетом <<Super Frelon>>.

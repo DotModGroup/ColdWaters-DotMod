@@ -1,4 +1,5 @@
 [Unit Reference]
-ShipClass=Xia
-Description=Xia-class Nuclear Ballistic Missile Submarine
-History=Laid down in 1978 and completed in 1981, the Xia is a one-of-a-kind first generation Chinese SSBN. It is basically an enlarged Han-class submarine with a missile compartment added, and so the sensor suite and propulsion plant is probably the same, making it a rather noisy submarine, comparable to early US and Soviet boomers.
+Designation=РПКСН
+ShipClass=типа 092
+Description=РПКСН типа 092
+History=РПКСН типа 092 (Классификация НАТО: Xia) Заложенный в 1978 году и завершенный в 1981 году, Type 092 является единственной в своем роде китайской РПКСН первого поколения. По сути, это увеличенный тип 091 с добавленным ракетным отсеком, и поэтому набор датчиков и двигательная установка, вероятно, те же, что и у него, что делает его довольно шумной подводной лодкой, сравнимой с ранними американскими и советскими РПКСН.

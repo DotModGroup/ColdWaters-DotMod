@@ -1,8 +1,9 @@
 [Unit Reference]
-ShipClass=Virginia
-Description=Virginia Class Nuclear Attack Submarine 
+Designation=АПЛ
+ShipClass=Вирджиния
+Description=АПЛ Вирджиния
 
-History=Also known as the SSN-774 class, the Virginia is a class of nuclear-powered fast attack submarines in service with the United States Navy. Virginia Class submarines are designed for a broad spectrum of open-ocean and littoral (shallow coastal water) missions. They are replacing older Los Angeles Class submarines, many of which have already been decommissioned. The Seawolf Class attack submarine was originally intended to succeed the Los Angeles, but production was cancelled after only three submarines were produced due to budgeting restraints at the end of the Cold War, and the final submarine was manufactured in 1995. Virginia Class submarines will be acquired through 2043, and are expected to remain in service past 2060. Based on recent updates to the designs, some of the Virginia Class submarines are expected to still be in service in 2070.
+History=Также известная как <<SSN-774>>, "Вирджиния" представляет собой класс атомных быстроходных ударных подводных лодок, находящихся на вооружении ВМС США. Подводные лодки класса Virginia предназначены для широкого спектра задач в открытом океане и на побережье (мелководье прибрежных вод). Они заменяют старые подводные лодки класса "Лос-Анджелес", многие из которых уже выведены из эксплуатации. Первоначально предполагалось, что ударная подводная лодка класса Seawolf станет преемницей "Лос-Анджелеса", но производство было прекращено после того, как из-за бюджетных ограничений в конце холодной войны было произведено всего три подводные лодки, и последняя подводная лодка была изготовлена в 1995 году. Подводные лодки класса "Вирджиния" будут приобретены до 2043 года и, как ожидается, останутся в строю после 2060 года. Основываясь на последних обновлениях конструкции, ожидается, что некоторые подводные лодки класса Virginia все еще будут находиться в строю в 2070 году.
 
 [Player Ship Instances]
 PlayerClassNames=Virginia, Texas, Hawaii, North Carolina
