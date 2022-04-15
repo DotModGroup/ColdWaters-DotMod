@@ -286,6 +286,7 @@ TacticalMapNoisemakerIcon=hud/uk/icon_noisemaker.png
 TacticalMapKnuckleIcon=hud/uk/icon_knuckle.png
 TacticalMapSonobuoyIcon=hud/uk/icon_sonobuoy.png
 TacticalMapWakeBubbleIcon=hud/uk/icon_wakebubble.png
+TacticalMapTowedDecoyIcon=hud/uk/icon_toweddecoy.png
 
 TacticalMapIceHazard=hud/uk/icon_iceberg.png
 TacticalMapMineHazard=hud/uk/icon_minefield.png
