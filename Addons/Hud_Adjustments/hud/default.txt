@@ -62,6 +62,13 @@ SwitchSAMTargetMissile=hud/uk/icon_target_missile.png
 //ScanAirButton=hud/uk/icon_scan_air.png
 AutoSAMButton=hud/uk/icon_fire_auto.png
 
+TowedMinimized=hud/uk/minimized_towed.png
+TowedToolbar=hud/uk/maximized_towed.png
+SwitchDecoyShort=hud/uk/icon_num1over2.png
+SwitchDecoyLong=hud/uk/icon_num1.png
+SwitchDecoy=hud/uk/icon_io.png
+SwitchTowedArray=hud/uk/icon_towedarray.png
+
 MissileSettingTargetShips=hud/uk/icon_target_ship.png
 MissileSettingTargetSubs=hud/uk/icon_target_sub.png
 MissileSettingTargetLand=hud/uk/icon_target_land.png
@@ -104,6 +111,7 @@ BearingTapeScale=2,2
 [Status Icons]
 StatusLayout=HORIZONTAL
 StatusTowedArray=hud/uk/icon_status_towed_array.png
+StatusTowedDecoy=hud/uk/icon_status_towed_decoy.png
 StatusGunsFireAtWill=hud/uk/icon_status_guns.png
 StatusRBUFireAtWill=hud/uk/icon_status_rbu.png
 StatusTimeCompression=hud/uk/icon_status_time_compression.png
@@ -323,13 +331,11 @@ WaterColor=0,0,10,255
 FilterOverlay=TRUE
 
 [HUD LAYOUT]
-
 BottomLeftPanelPos=0,0
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3
 UpperCentreBearingTapePos=0,-2
 BottomCentreWaypointInfoPos=0,153
-//UpperRightTacMapZoomReadoutPos=0,-45
 UpperRightTacMapZoomReadoutPos=0,-45
 UpperRightPeriscopeZoomReadoutPos=0,-45
 UpperRightRecognitionManual=0,0
@@ -341,25 +347,10 @@ MainCameraFieldOfView=30
 //Toolbar position 0,0, (1 to anchor to minimap or 0 for no anchor)
 //Default toolbars overlap and enabled via tabs/keys
 
-//Стандартный вариант: Одна видимая панель над миникартой
-//ToolbarsPos=0,0,1
-//ForceAllToolbarsOn=FALSE
-//HelmToolbarOffset=0,0
-//DiveToolbarOffset=0,0
-//SensorToolbarOffset=0,0
-
-//3 видимые панели справа от миникарты по вертикали
 ToolbarsPos=0,0,0
 ForceAllToolbarsOn=TRUE
 HelmToolbarOffset=361,-343
 DiveToolbarOffset=700,-343
 SensorToolbarOffset=1039,-343
 SAM_ToolbarOffset=700,-270
-
-//3 видимые внизу по горизонтали
-//ToolbarsPos=0,0,0
-//ForceAllToolbarsOn=TRUE
-//HelmToolbarOffset=361,-346
-//DiveToolbarOffset=700,-346
-//SensorToolbarOffset=1039,-346
-//SAM_ToolbarOffset=361,-276
+TowedToolbarOffset=1039,-270
