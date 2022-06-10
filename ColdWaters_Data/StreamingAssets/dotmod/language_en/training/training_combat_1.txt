@@ -68,7 +68,7 @@ Use <KEY:Event Camera> to turn on the event camera for your upcoming torpedo att
 
 We will be firing a Mark37 torpedo.
 Your target is not moving and about a thousand yards directly north of your stationary submarine.
- 
+
 To fire a torpedo;
 <b>1) Select Tube</b>
 Torpedo tubes at the bottom right indicate that all 4 tubes are loaded and ready to fire. Use <KEY:Next Tube> or <LEFTCLICK> a torpedo icon to select which tube to fire (highlighted in red).

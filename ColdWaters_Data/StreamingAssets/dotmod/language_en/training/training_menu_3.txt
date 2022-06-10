@@ -13,7 +13,7 @@ You have been automatically assigned a Sturgeon class submarine for this mission
 
 [TRAINING_MENU 4]
 <b>Weapons Loadout</b>
-For this mission we will modfy your weapon loadout and which weapons will be ready in the tubes for combat.
+For this mission we will modify your weapon loadout and which weapons will be ready in the tubes for combat.
 
 <LEFTCLICK> <DICTIONARY:VesselStatus> or <KEY:Stores> to view your vessel's weapon stores.
 

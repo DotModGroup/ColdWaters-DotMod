@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Alligator
 Description=Alligator-class landing ship
-History=14 of these ships were completed between 1966 and 1975. Each ship can carry 20 tanks or 40 armored personnel carriers or 300-425 troops or 1000 tons of general cargo. They are built on traditional LST lines with a continuous tank deck served by aft and bow ramps for roll-on, roll-off operations and a shallow draft that permits beaching in order to disembark troops.
+History=14 of these ships were completed between 1966 and 1975. Each ship can carry 20 tanks or 40 armoured personnel carriers or 300-425 troops or 1000 tons of general cargo. They are built on traditional LST lines with a continuous tank deck served by aft and bow ramps for roll-on, roll-off operations and a shallow draft that permits beaching in order to disembark troops.

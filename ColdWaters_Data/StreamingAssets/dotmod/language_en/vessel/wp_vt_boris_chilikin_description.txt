@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Chilikin
 Description=Boris Chilikin-class fleet oiler
-History=The six ships in this class, completed between 1967 and 1978, are modern large replenishment/refueling ships comparable to similar ships in western service. The class is outfitted with large kingposts for underway refuelling of two ships at once to either side or astern, and the forward kingpost has a constant-tension station for transferring supplies. Cargo capacity is 13,500 tons of fuel and fresh water, 400 tons of munitions, and 800 tons of stores and provisions.
+History=The six ships in this class, completed between 1967 and 1978, are modern large replenishment/refuelling ships comparable to similar ships in western service. The class is outfitted with large kingposts for underway refuelling of two ships at once to either side or astern, and the forward kingpost has a constant-tension station for transferring supplies. Cargo capacity is 13,500 tons of fuel and fresh water, 400 tons of munitions, and 800 tons of stores and provisions.

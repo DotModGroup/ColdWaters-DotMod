@@ -1,6 +1,6 @@
 Image=campaign/images/nato submarine
 MissionLocation=Training exercise
-Briefing=Learn how to move and manouver your submarine.
+Briefing=Learn how to move and manoeuvre your submarine.
 Briefing=
 Briefing=Things to practice:
 Briefing=- Adjusting speed.

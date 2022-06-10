@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName="Shkval"
 WeaponDescriptiveName=VA-111 Shkval Torpedo
-WeaponDescription=Special: Piercing.\nThe VA-111 Shkval supercavitating torpedo originally developed by the Soviet Union. It is capable of speeds in excess of 200 knots. While it has weak warhead on paper, it is capable of dealing tremendous damage because due to high speed it pierces ship's hull and detonates inside, which often leads to detonation of ship's munitions or fuel.
+WeaponDescription=Special: Piercing.\nThe VA-111 Shkval supercavitating torpedo originally developed by the Soviet Union. It is capable of speeds in excess of 200 knots. While it has a weak warhead on paper, it is capable of dealing tremendous damage because, due to its high speed, it pierces the ship's hull and detonates inside, which often leads to detonation of ship's munitions or fuel.

@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=R-21
-WeaponDescriptiveName=R27 SLBM
-WeaponDescription=The R-27 (NATO: SS-N-5 Sark/Serb), was submarine-launched ballistic missile in service with the Soviet Union between 1963 and 1989. It was the first Soviet nuclear missile that could be launched from a submerged submarine, and also had twice the range of earlier missiles. It replaced the R-11FM and R-13 (SS-N-4) on many Golf and Hotel-class submarines, and was in turn superseded by the R-27 (SS-N-6 'Serb') missile carried by Yankee-class submarines.
+WeaponDescriptiveName=R21 SLBM
+WeaponDescription=The R-21 (NATO: SS-N-5 Sark/Serb), was submarine-launched ballistic missile in service with the Soviet Union between 1963 and 1989. It was the first Soviet nuclear missile that could be launched from a submerged submarine, and also had twice the range of earlier missiles. It replaced the R-11FM and R-13 (SS-N-4) on many Golf and Hotel-class submarines, and was in turn superseded by the R-27 (SS-N-6 'Serb') missile carried by Yankee-class submarines.

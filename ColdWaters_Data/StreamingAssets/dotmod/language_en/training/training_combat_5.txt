@@ -45,7 +45,7 @@ Use <KEY:Help> now to read about Signature Analysis and to understand the data p
 
 Now use <KEY:Context Menu Next> and <KEY:Context Menu Previous> to cycle through the various profile signatures until "KOMSOMOL" is displayed (or <LEFTCLICK> left and right portion of the profile image.
 
-All of the lines (sound frequency peaks) line up, so use <KEY:Context Menu Set> (or <LEFTCLICK> centre of profile image) to classify S1 as a KOMSOMOL class merchant. Your sonar operator verifies your classification and contact S1 has now been renamed to Komsomol and displayed as hostile on the map.
+All of the lines (sound frequency peaks) line up, so use <KEY:Context Menu Set> (or <LEFTCLICK> center of profile image) to classify S1 as a KOMSOMOL class merchant. Your sonar operator verifies your classification and contact S1 has now been renamed to Komsomol and displayed as hostile on the map.
 [/TRAINING 4]
 
 [TRAINING 5]
@@ -56,11 +56,11 @@ Use <KEY:Increase Power> to set your speed to 2/3 Ahead (faster may drown out co
 Use <KEY:Time Compression> to speed up the game.
 
 Eventually you will be closer, making the contact signal louder as well as increasing the rate of bearing change.
-Once target soluition reaches 95%, the contact is plotted with 100% accuracy on the map, trail is displayed and a weapon intercept point is calculated.
+Once target solution reaches 95%, the contact is plotted with 100% accuracy on the map, trail is displayed and a weapon intercept point is calculated.
 
 However the KOMSOMOL is continuously turning, causing your target solution to decay and recover as you close in. This may cause the position of the KOMSOMOL jump about on the map as new solutions are calculated.
 
-Understanding how to classify contacts and maximise the TMA rate is crucial for knowing where your enemy is and how to hit them with weapons.
+Understanding how to classify contacts and maximize the TMA rate is crucial for knowing where your enemy is and how to hit them with weapons.
 [/TRAINING 5]
 
 

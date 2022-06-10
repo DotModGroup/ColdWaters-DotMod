@@ -17,7 +17,7 @@
 //   3h) Sweden
 //   3i) Norway
 //II.Sonobuoys and dipping
-//  
+//
 //III. RADAR
 //   1. USSR
 //   2. USA
@@ -26,12 +26,12 @@
 //---------------------------------------------------------------------------------------
 
 //I. Sonar
-nav_sonar=Navigation sonar=Navigation sonar found on ships not equiped with dedicated sonar systems.
+nav_sonar=Navigation sonar=Navigation sonar found on ships not equipped with dedicated sonar systems.
 // 1. USSR
 //   1a) Hull-mounted
 //----------------------------------------Submarine-------------------------------
 wp_mars="Mars-24KIG"=Passive high-frequency set that dates back to WWII. This set was improved over the years, but is hopelessly outdated by now. The Whiskey-class was originally equipped with this set before receiving Trout Cheek during modernization.
-wp_tamir="Tamir-5L"=NATO reporting name: "Perch Gill". This is a very old high-frequency, active-only set that equiped the Whiskey-class diesel subs before their modernization.
+wp_tamir="Tamir-5L"=NATO reporting name: "Perch Gill". This is a very old high-frequency, active-only set that equipped the Whiskey-class diesel subs before their modernization.
 wp_plutoniy="Plutoniy"=NATO reporting name: "Stag Ear". Submarine variant of the active-only "Tamir-11" set. Was installed in Whiskey-class diesel subs as a part of their upgrades.
 wp_mg-200=MG-200 "Arktika"=NATO reporting name: "Pike Jaw". This high frequency set is common among the late 1950's generation where it equips the Foxtrot and November class boats, generally in conjunction with Trout Cheek. It can therefore be assumed that Pike Jaw is likewise a derivative of German wartime designs.="Arktika"
 wp_mg-10=MG-10 "Feniks"=NATO reporting name: "Trout Cheek". This system was derived from the German wartime Balkongerat sonar fitted in the Type XXI. It is comparable to the BQR-2/BQS-4 suite fitted to the Skipjack.="Feniks"
@@ -41,7 +41,7 @@ wp_mgk-1000=MGK-1000 "Okean"=NATO reporting name: "Squid Arm". This is an advanc
 wp_mgk-400=MGK-400 "Rubikon"=NATO reporting name: "Shark Gill". Part of a new generation of Soviet sonar systems, this cylindrical low frequency array is used on submarines where it equips the Victor III, Charlie II, Delta III and IV, Typhoon and Oscar classes. Compared to the earlier Shark Teeth, this set is better than the BQQ-2 of the early Permit- and Sturgeon classes, and almost comparable to the BBQ-5 that equips the latest US subs.\n \nIt is rumoured that an advanced version of this suite equips the Sierra-class submarine, but little is known at this time.="Rubikon"
 wp_mgk-500=MGK-500 "Skat"=NATO reporting name: "Shark Gill".="Skat"
 wp_mgk-540=MGK-540 "Skat-3"=NATO reporting name: "Shark Gill".="Skat-3"
-wp_mgk-600=MGK-600 "Amphora"=Little is known about this integrated spherical sonar suite that equips russian next-generation boats such as the Yasen-class.="Amphora"
+wp_mgk-600=MGK-600 "Amphora"=Little is known about this integrated spherical sonar suite that equips Russian next-generation boats such as the Yasen-class.="Amphora"
 
 //----------------------------------------Ship-------------------------------
 wp_bull_horn=Bull Horn=This hull-mounted active/passive medium frequency set is mounted on later Soviet ships where it replaces the earlier Bull Nose medium frequency array.
@@ -54,9 +54,9 @@ wp_mgk-355=MGK-355 "Polinom"=This is a follow-on to the Moose Jaw that equips th
 
 //   1b) Towed
 //----------------------------------------Submarine-------------------------------
-wp_mgk-500_ta=TA "Skat"=NATO reporting name: "Shark Tail". This is a passive low-frequency towed array that equips all Soviet submarines of recent construction from the Victor III onwards. While not comparable to American towed array systems, it nevertheless provides the Soviets wih an improved sonar capability which earlier generations were lacking, giving these newer boats something of a quantum leap in capabilities and the threat they provide.
+wp_mgk-500_ta=TA "Skat"=NATO reporting name: "Shark Tail". This is a passive low-frequency towed array that equips all Soviet submarines of recent construction from the Victor III onwards. While not comparable to American towed array systems, it nevertheless provides the Soviets with an improved sonar capability which earlier generations were lacking, giving these newer boats something of a quantum leap in capabilities and the threat they provide.
 wp_pelamida="Pelamida"=NATO reporting name: "Shark Tail". This passive low-frequency towed array is a part of MGK-540 "Skat-3" suite that equips Akula class submarines.
-wp_amfora_ta=Little is known about this towed array that equips russian next-generation boats such as the Yasen-class.
+wp_amfora_ta=Little is known about this towed array that equips Russian next-generation boats such as the Yasen-class.
 
 //----------------------------------------Ship-------------------------------
 wp_foal_tail=Foal Tail=This high frequency variable depth sonar (VDS) is a shipboard derivative of the dipping sonar mounted on the Ka-25 Hormone A anti-submarine helicopters. Commonly mounted on smaller patrol ships, the ability to search beneath the layer makes it a dangerous system to encounter in shallow waters.
@@ -68,16 +68,16 @@ wp_horse_tail=Horse Tail=Larger and much more capable than Mare Tail, Horse Tail
 //   2a) Hull-mounted
 //----------------------------------------Submarine-------------------------------
 usn_an_bqr_2=AN/BQR-2=Derived from the German wartime GHG sonar suite as fitted on the Type XXI electroboot, the BQR-2 is a medium frequency sonar fitted to most USN subs until the Thresher/Permit class. Though adequate for its day, by the 1980's this system is woefully obsolete and nearly blind against all but the oldest Soviet boats.
-usn_an_bqg_4=AN/BQG-4=This sonar set formed the main hardware component of the PUFFS (Passive Underwater Fire Control Feasibility System) passive-ranging system. While the system was  failure due to technical limitations, the system was still more sensitive than the BQR-2, if more prone to flow noise due to its positioning outside of the hull in three shark-fin shaped pods.
+usn_an_bqg_4=AN/BQG-4=This sonar set formed the main hardware component of the PUFFS (Passive Underwater Fire Control Feasibility System) passive-ranging system. While the system was a failure due to technical limitations, the system was still more sensitive than the BQR-2, if more prone to flow noise due to its positioning outside of the hull in three shark-fin shaped pods.
 usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new digital data processing for much better performance.
 usn_an_bqs_4=AN/BQS-4=This system formed the active component of the sonar suite on 1950's era USN subs. Unlike the BQR-2 though, it is still powerful enough to detect otherwise silent enemies.
-usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit- and Sturgeon class submarines.
+usn_an_bqq_2=AN/BQQ-2=The first spherical integrated sonar array, mounted in the Permit and Sturgeon class submarines.
 usn_an_bqq_5=AN/BQQ-5=This advanced sonar suite uses a spherical array with the latest digital signal processing techniques and was first introduced in the Los Angeles-class fast attack submarines, and subsequently to the Permit and Sturgeon classes where it replaced the analog BQQ-2 spherical array.
-usn_an_bqq_6=AN/BQQ-6=This is a hull-mounted, sonar suite adopted from the AN/BQQ-5 suite for use on board of Ohio class SSBN. Passive sonar system has 944 hydrophone transducers mounted on a sphere and 100 transducers i two flank arrays. AN/BQS-13 system is an active component of this suite. It has lower capabilities compared to one in AN/BQQ-5 suite.
-usn_bqq_10=AN/BQQ-10=The AN/BQQ-10 advanced sonar suite uses a spherical array with the latest digital signal processing techniques using commercial off the shelf components to provide improved performance over the older AN/BQQ-5 system, and allow faster upgrades. 
+usn_an_bqq_6=AN/BQQ-6=This is a hull-mounted, sonar suite adopted from the AN/BQQ-5 suite for use on board of Ohio class SSBN. The passive sonar system has 944 hydrophone transducers mounted on a sphere and 100 transducers in two flank arrays. The AN/BQS-13 system is the active component of this suite. It has lower capabilities compared to the one in the AN/BQQ-5 suite.
+usn_bqq_10=AN/BQQ-10=The AN/BQQ-10 advanced sonar suite uses a spherical array with the latest digital signal processing techniques using commercial off the shelf components to provide improved performance over the older AN/BQQ-5 system, and allow faster upgrades.
 
 //----------------------------------------Ship-------------------------------
-usn_sqs_23=SQS-23=The SQS-23 was a long range, azimuth-scanning type of search and attack sonar used for search, search-analyze, attack-RDT, attack-SDT and hand-key applications.
+usn_sqs_23=SQS-23=The SQS-23 was a long range, azimuth-scanning type of search and attack sonar used for search, search-analyse, attack-RDT, attack-SDT and hand-key applications.
 usn_sqs_26=SQS-26=This is a very powerful low-frequency array introduced by the US Navy in the 1960's, intended for convergence zone operation.
 usn_sqs_56=SQS-56=The SQS-56 is a modern hull-mounted sonar found on Perry-class frigates which features digital implementation, system control by a built-in mini computer, and an advanced display system. Computer controlled functions provide a system that is extremely flexible and easy to operate. The computer is also used to provide automated fault detection and localization with a built-in training capability. The sonar is an active/passive, preformed beam, digital sonar providing panoramic echo ranging and panoramic (DIMUS) passive surveillance. A single operator can search, track, classify and designate multiple targets from the active system while simultaneously maintaining anti-torpedo surveillance on the passive display.
 usn_sqs_53=AN/SQS-53=The AN/SQS-53 is a computer-controlled surface-ship sonar that has both active and passive operating capabilities providing precise information for ASW weapons control and guidance.
@@ -117,7 +117,7 @@ dm_m1h=SRS-M1H=Passive-only sonar produced in late 60sthat equips submarines bui
 //   3f) China
 //    Hull-mounted
 //----------------------------------------Submarine-------------------------------
-plan_sqc_1=SQC-1=This is a Chinese version of the french Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Han and Xia class submarines.
+plan_sqc_1=SQC-1=This is a Chinese version of the French Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Han and Xia class submarines.
 plan_tsm_2233=TSM-2233=This is the French Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Song class submarines.
 
 //----------------------------------------Ship-------------------------------
@@ -143,8 +143,8 @@ knm_ss_105=Simrad SS 105=активно/пассивный гидролокат�
 
 //II.Sonobuoys and dipping
 //WP SONOBUOYS
-wp_rgb_56=Crow Egg=First generation sonobuoy introduced 1956. 8 to a container. 
-wp_rgb_64=Rook Egg 1=Second generation sonobuoy with detection range of 1 to 5 km introduced 1964. 18 to a container. 
+wp_rgb_56=Crow Egg=First generation sonobuoy introduced 1956. 8 to a container.
+wp_rgb_64=Rook Egg 1=Second generation sonobuoy with detection range of 1 to 5 km introduced 1964. 18 to a container.
 wp_rgb_73=Rook Egg 2=Third generation sonobuoy with detection range of 3 to 8 km introduced 1973. Assumed 18 to a container.
 //Berkut-95 complex - fixed wing ASW sonobuoys - type RGB-1 (Snipe Egg 1), RGB-2 (Snipe Egg 2) and RGB-3 (Snipe Egg 3).
 wp_bm_1=Snipe Egg 1=Non-directional passive sonobuoy.
@@ -160,7 +160,7 @@ wp_lamb_tail=Lamb Tail=This is the advanced Ros-V VGS-3 dipping sonar used by th
 usn_ssq_62=SSQ-62 DICASS=Active sonobuoy
 //US HELO DIPPING SONARS.
 usn_aqs_13=AQS-13=Active dipping sonar primarily used by the SH-2F ASW helicopter.
-usn_aqs_13f=AQS-13F=And advanced version of AQS-13 active dipping sonar, used by the SH-60F Seahawk ASW helicopter.
+usn_aqs_13f=AQS-13F=An advanced version of AQS-13 active dipping sonar, used by the SH-60F Seahawk ASW helicopter.
 
 //PLAN SONOBUOYS
 
@@ -172,8 +172,8 @@ plan_ss_12=SS-12=French medium frequency variable depth sonar imported by China 
 //   1. USSR
 
 //----------------------------------------Submarine-------------------------------
-wp_flag="Flag"=NATO reporting name: "Snoop Plate". Mast-mounted surface search radar developed in early 50-s.
-wp_rlk-101=RLK-101 "Albatross"=NATO reporting name: "Snoop Tray 1". Mast-mounted surface search radar developed in early 60-s.
+wp_flag="Flag"=NATO reporting name: "Snoop Plate". Mast-mounted surface search radar developed in early 50s.
+wp_rlk-101=RLK-101 "Albatross"=NATO reporting name: "Snoop Tray 1". Mast-mounted surface search radar developed in early 60s.
 wp_mrk-55=MRK-55 "Chibis"=NATO reporting name: "Snoop Head".
 wp_mrk-50=MRK-50 "Kaskad"=NATO reporting name: "Snoop Tray 2".
 wp_mrkp-58=MRKP-58 "Radian"=NATO reporting name: "Snoop Pair".
@@ -197,7 +197,7 @@ wp_mushroom=Short Horn=Helicopter-mounted surface search set for Ka-25BSh, optim
 wp_octopus=Splash Drop=Helicopter-mounted surface search set for Ka-27PL, optimized for ASW.
 wp_wet_eye=Wet Eye=Airborne pulse doppler panoramic surface search set optimized for ASW. Integrated ASW suite for Il-38 and early Tu-142 (Mod 1).
 // Korshun radar of Tu-142M Mod2
-wp_korshun=Wet Eye II=Airborne pulse doppler panoramic surface search ASW-integrated radar for later 1970s Tu-142M (Mod 2). 
+wp_korshun=Wet Eye II=Airborne pulse doppler panoramic surface search ASW-integrated radar for later 1970s Tu-142M (Mod 2).
 // Korshun-K radar of Tu-142M Mod3
 wp_korshun_k=Wet Eye 2=Airborne pulse doppler panoramic surface search ASW-integrated radar plus digital attack avionics suite for 1980s Tu-142M (Mod 3).
 
@@ -211,10 +211,10 @@ usn_bps_14_15=BPS-14/15=Mast-mounted surface search radar allows submarines to d
 usn_bps_15A=BPS-15A=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 
 //----------------------------------------Ship-------------------------------
-usn_sps_10=AN/SPS-10=American, medium range, C-Band surface search radar. Entered service in late 50-s. It is used for the detection, ranging and tracking of surface contacts and to a limited extent, air contacts as well.
+usn_sps_10=AN/SPS-10=American, medium range, C-Band surface search radar. Entered service in late 50s. It is used for the detection, ranging and tracking of surface contacts and to a limited extent, air contacts as well.
 usn_sps_67=SPS-67=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.
 usn_sps_55=SPS-55=The AN/SPS-55 is a solid state surface search and navigation radar. It was originally developed for a frigates, but it was also installed on numerous cruisers and destroyers. It is primarily used to detect other ships, coastlines and navigation hazards but can also detect a raised mast of a submarine.
-usn_spy_1a=AN/SPY-1A=The AN/SPY-1A is a multi-function, phased array, 3D air search radar that provides search, detection, tracking, and discrimination data of air and surface targets. It is the main fire control radar for the Aegis Combat System, which equiped on early Aegis ships
+usn_spy_1a=AN/SPY-1A=The AN/SPY-1A is a multi-function, phased array, 3D air search radar that provides search, detection, tracking, and discrimination data of air and surface targets. It is the main fire control radar for the Aegis Combat System, which equipped on early Aegis ships
 usn_spy_1b=AN/SPY-1B=The AN/SPY-1B is the model adopts VLSI resulting in increased performance and reduced size and weight.
 usn_spy_1d=AN/SPY-1D=The AN/SPY-1D was first installed on USS Arleigh Burke in 1991, with all antenna in a single deckhouse. It is a variant of the -1B to fit the Arleigh Burke class using the UYK-43 computer, with the main antenna also used as missile uplinks, thus eliminate the need of separate missile uplink in earlier models, and the UYA-4 display in earlier models is replaced by UYQ-21 display.
 
@@ -224,7 +224,7 @@ usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily
 
 //   3. Other nations
 //----------------------------------------Submarine-------------------------------
-uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies. 
+uk_t1007=Type 1007=The Kelvin Hughes Type 1007 family of naval radars are high-definition surface warning and navigational radar systems in service with the U.K. Royal Navy and several other world navies.
 uk_type992=Type 992Q=The Type 992Q is a medium-range, general-purpose radar that operates both as a search radar and a target designation radar.
 dm_calypso=THD 1030 Calypso II=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.
 uk_aws9=AWS-9=AWS-9 is an export version of Type 996 E/F-Band 3-D surveillance and target identification air/surface search radar used by the U.K. Royal Navy.

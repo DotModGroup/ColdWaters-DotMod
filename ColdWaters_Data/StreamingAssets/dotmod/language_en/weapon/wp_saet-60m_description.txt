@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=SAET-60M
 WeaponDescriptiveName=SAET-60M Torpedo
-WeaponDescription=Special: Anti-ship only.\nThe SAET-60M is an anti-ship torpedo specifically designed for the self-defense from ASW assets. It can lock only on surface targets and useless against submerged submarines. Due to it passive sensor system and the anti-ship only usage, its effective sensor range is four times smaller than specified and is about 600m (656 yards).
+WeaponDescription=Special: Anti-ship only.\nThe SAET-60M is an anti-ship torpedo specifically designed for the self-defence from ASW assets. It can lock only on surface targets and useless against submerged submarines. Due to it passive sensor system and the anti-ship only usage, its effective sensor range is four times smaller than specified and is about 600m (656 yards).

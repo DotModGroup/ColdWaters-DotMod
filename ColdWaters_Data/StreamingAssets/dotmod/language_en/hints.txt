@@ -1,9 +1,9 @@
 Approaching from behind a target will make them less likely to detect you due to sonar baffles.
-Cavitation depends on depth. The deeper you are the faster you can go without cavitation. The formula for calulating speed to cavitation depth (when using feet) is (20 * speed) - 100.
+Cavitation depends on depth. The deeper you are the faster you can go without cavitation. The formula for calculating speed to cavitation depth (when using feet) is (20 * speed) - 100.
 In the campaign map you can move at low speed by right clicking and high speed by left clicking. At slower speeds enemy vessels are less likely to detect you upon entering battle.
-Shooting wire-guided torpedoes such that they approach a target from a different direction than a straight shot, called dog-legging, will likely result in innacurate counter-launches.
+Shooting wire-guided torpedoes such that they approach a target from a different direction than a straight shot, called dog-legging, will likely result in inaccurate counter-launches.
 Many missiles have minimum firing distances. Be sure to plan missile attacks so that this isn't a problem. You can find these minimum distances in the Unit Reference.
-Attacking from under a thermal layer can significantly increase your chances of remaining undetected for longer. This, in turn, can increase your chances of a sucessful attack.
+Attacking from under a thermal layer can significantly increase your chances of remaining undetected for longer. This, in turn, can increase your chances of a successful attack.
 Some submarines have a MANPADS to allow them to shot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. The RADAR mast is not necessary, but will help you aim.
 Many ship-mounted SAM systems can also target other ships. This can be a long-range option for engaging enemy ships in lieu of guns.
 Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will have significantly more capabilities in anti-missile defence.
@@ -15,14 +15,14 @@ The Tigerfish Mod 0 (Mark 24) is an objectively awful torpedo with a 60% wire br
 Even older Soviet vessels have anechoic coating. When attacking any vessel with anechoic coating, using active sonar on your torpedo will drastically reduce detection range.
 Any surface vessel with sonar will detect torpedoes long before they're able to hit. If using a straight-running torpedo, it is recommended to close in quite a bit before firing.
 Enemy vessels will conduct torpedo turns regardless of whether or not you have been detected. Remember this when planning attacks with both acoustic and non-acoustic torpedoes.
-Wave noise on the surface significantly decreases torpedo aquisition range. This requires you be very accurate when shooting at surface targets.
+Wave noise on the surface significantly decreases torpedo acquisition range. This requires you be very accurate when shooting at surface targets.
 The SS-N-14A Silex (URK-3 "Rastrub-B") is a universal ASW and anti-ship missile found on many Soviet surface ships. When firing, make sure you are in the correct targeting mode.
 Some Soviet anti-ship missiles, such as the SS-N-3A Shaddock (P-6 "Progress"), can only be launched from the surface. These weapons leave you an easy target until you can dive.
 Torpedo tubes will only jam if you are travelling faster than 20 knots. So, you do not have to completely slow down to avoid jamming when firing off a mobile decoy.
 The Russian voice files were almost entirely recorded by a single person.
 Waiting for Sea Power is your best choice if you want friendlies. Cold Waters is simply not set up for them.
 The NATO North Atlantic campaigns are based on gsmith63's excellent 1990 campaign mod. It is highly recommended that you check that mod out on Subsim.
-Failing the SSBN Run mission will result in a campaign loss. Succeding however, will only result in a normal victory.
+Failing the SSBN Run mission will result in a campaign loss. Succeeding however, will only result in a normal victory.
 Enemy escort ships will not contribute to your prestige. You should not use weapons on these vessels unless they are your target or you need to protect yourself.
 Remember that decibels are a logarithmic scale. 10 decibels more means twice as loud. This makes a huge difference in the detection of enemy vessels.
 When approaching a target on the campaign map, the only factor that actually matters is your speed when you contact the enemy. The game does not care what direction you come from.

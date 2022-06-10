@@ -1,4 +1,4 @@
 ﻿[Weapon Reference]
 WeaponName="Anabar"
 WeaponDescriptiveName=МG-14 "Anabar" Self-Propelled Decoy
-WeaponDescription=Special: Small caliber\nThe MG-14 was a passive countermeasure deployed by the Soviet Union to divert torpedoes away from the launching submarine. Due to its size it can be loaded only into 400mm torpedo tubes. Also, smaller size means that it takes less time to load.
+WeaponDescription=Special: Small calibre\nThe MG-14 was a passive countermeasure deployed by the Soviet Union to divert torpedoes away from the launching submarine. Due to its size it can be loaded only into 400mm torpedo tubes. Also, smaller size means that it takes less time to load.

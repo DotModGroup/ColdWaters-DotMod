@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Luda III
 Description=Luda III-class Destroyer
-History=The Luda III is an uprated version of the basic Luda-class surface warfare destroyer, with uprated modern sonars, improved defenses and employing the CY-1 standoff anti-submarine weapon.
+History=The Luda III is an uprated version of the basic Luda-class surface warfare destroyer, with uprated modern sonars, improved defences and employing the CY-1 standoff anti-submarine weapon.

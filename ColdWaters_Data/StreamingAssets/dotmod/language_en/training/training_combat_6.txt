@@ -31,7 +31,7 @@ As you surfaced, your submarine crossed the layer into the surface duct allowing
 Use <KEY:ESM Mast> to raise your ESM mast.
 This passive sensor detects radar signals, providing a measure of their strength and originating bearing (shown as purple lines on the map).
 
-There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on yout tactical map. Strength of this signal is shown on the meter in the upper left.
+There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on your tactical map. Strength of this signal is shown on the meter in the upper left.
 
 Detecting a contact by ESM provides a small boost to target solution.
 
@@ -67,7 +67,7 @@ Many submarines are equipped with a towed array which works best at about 5 knot
 
 Use <KEY:Signature> or <LEFTCLICK> the Signature tab in the bottom right to open the conditions panel.
 
-When your speed reaches 5 knots, use <b>Backspace</b> to deploy the towed array. Towed array can not be deployed when speed is higher than 19 knots and it doesn't work when speed is below 3 knots, you can't deploy towed array near sea floor and when your submarine is above its periscope depth. If towed array is deployed, with a rapid acceleration and maneuvering, it can break. Be careful and retract your towed array before accelerating rapidly. You can do it by using <b>Backspace</b> again.
+When your speed reaches 5 knots, use <b>Backspace</b> to deploy the towed array. Towed array can not be deployed when speed is higher than 19 knots and it doesn't work when speed is below 3 knots, you can't deploy towed array near sea floor and when your submarine is above its periscope depth. If towed array is deployed, with a rapid acceleration and manoeuvring, it can break. Be careful and retract your towed array before accelerating rapidly. You can do it by using <b>Backspace</b> again.
 
 After you have deployed the towed array, you will notice that your OWNSHIP TOWED signal may become greater than the PASSIVE signal. This is the additional sensitivity provided by the towed array. Cycle through the contacts with <KEY:Next Contact> to see the differences in detection between your various sonar types.
 

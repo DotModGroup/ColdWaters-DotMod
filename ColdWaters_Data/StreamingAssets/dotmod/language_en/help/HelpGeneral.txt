@@ -54,7 +54,7 @@ After receiving a message assigning you command of a vessel, <DICTIONARY:Accept>
 
 
 <b>MISSION BRIEFING</b>
-Prior to any combat, you are presented with a briefing 
+Prior to any combat, you are presented with a briefing
 of the current situation. Details on current state of your
 submarine and local conditions are displayed.
 
@@ -166,7 +166,7 @@ Remapping keys - <LEFTCLICK> a key to highlight it and then press desired key or
 <DICTIONARY:VSync> - Vertical synchronization (useful to enable to improve performance).
 <DICTIONARY:Trees> - If terrain is enabled, displays trees (useful to disable to improve performance).
 <DICTIONARY:UnderwaterParticles> - Displays the underwater particles.
-<DICTIONARY:ColorFilter> - Post processing color filter for improved visuals.
+<DICTIONARY:ColorFilter> - Post processing colour filter for improved visuals.
 <DICTIONARY:AmbientOcclusion> - Post processing filter for improved shadows.
 <DICTIONARY:Shadows> - Enables or disables shadows.
 <DICTIONARY:Bloom> - Post processing effect for improved lighting and visuals.

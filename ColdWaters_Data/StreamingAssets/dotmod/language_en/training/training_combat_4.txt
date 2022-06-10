@@ -13,7 +13,7 @@ For this mission we'll just focus on the first column which displays your vessel
 <b>PLN</b> Planes
 <b>BAL</b> Ballast
 
-As you adjust your submarine's rudder, planes and ballast, the settings will be diplayed here as will your submarine's current course, speed and depth.
+As you adjust your submarine's rudder, planes and ballast, the settings will be displayed here as will your submarine's current course, speed and depth.
 [/TRAINING 1]
 
 [TRAINING 2]
@@ -68,7 +68,7 @@ Once on the surface, level out your planes.
 <b>Compressed Air</b>
 Blowing emergency ballast depletes reserves of compressed air. Once on the surface, air is available to replenish these reserves, but it takes time.
 
-Gradually the ballast indicator will count down to 0 at which time the compressed air is replenished and your submarine is able to dive again and use emergengy ballast once more.
+Gradually the ballast indicator will count down to 0 at which time the compressed air is replenished and your submarine is able to dive again and use emergency ballast once more.
 
 Note that from the time of blowing emergency ballast until compressed air reserves are restored, ballast settings cannot be changed.
 [/TRAINING 5]

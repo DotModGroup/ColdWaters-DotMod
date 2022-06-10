@@ -7,7 +7,7 @@ Close Help by pressing <KEY:Help> again or <LEFTCLICK> <DICTIONARY:Back> in the 
 
 
 <b>Let's begin a mission:</b>
-Select a training mission from the list. It is recommend doing misisons in order listed.
+Select a training mission from the list. It is recommend doing missions in order listed.
 List can be scrolled by hovering over it and <MOUSEWHEEL>, using the scroll list bar or <LEFTCLICK> and dragging.
 
 Click <LEFTCLICK> <DICTIONARY:Start> to begin.

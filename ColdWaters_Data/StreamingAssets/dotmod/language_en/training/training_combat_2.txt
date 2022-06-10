@@ -21,7 +21,7 @@ Note the "1" next to the torpedo icon on the tactical map, this is the tube/wire
 
 [TRAINING 2]
 <b>Move Waypoint</b>
-<i>If torpedo 1 reached its waypoint and is aready active:
+<i>If torpedo 1 reached its waypoint and is already active:
 Fire another torpedo at Bearing:0 Range: 20 KYD</i>
 
 <LEFTCLICK> to pick up the waypoint (may need to zoom map if other icons are nearby).
@@ -65,7 +65,7 @@ Be sure the camera is following one of your torpedoes (use <KEY:Camera To Weapon
 Use <KEY:Activate Torpedo> to enable the torpedo if it is not already active.
 Using tube settings and/or direct steering, point your torpedo at one of the target ships. Once in range, your torpedo should "lock on" and home in to the target.
 
-Try sinking the other targets. Use <KEY:Load Tube> to relaod more torpedoes if needed.
+Try sinking the other targets. Use <KEY:Load Tube> to reload more torpedoes if needed.
 
 Torpedoes can also be guided using the map, however this usually requires enough data to accurately plot the target's position. A subject to be examined in mission #5.
 [/TRAINING 5]
