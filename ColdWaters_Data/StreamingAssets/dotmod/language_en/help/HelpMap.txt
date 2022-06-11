@@ -16,10 +16,10 @@ The Tactical Map, and associated Mini-Map, provides an overview of the battle ba
 Note that when using the mini-map, mouse pointer must be over it in order to use pan and zoom.
 <b>Pan Map:</b> <LEFTCLICK> and drag the mouse.
 <b>Zoom Map:</b> <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
-<b>Centre Map:</b> <KEY:Centre Map> will place your submarine in the centre of the map.
+<b>Centre Map:</b> <KEY:Centre Map> will place your submarine in the center of the map.
 <b>Auto-Centre Map:</b> <KEY:Auto Centre Map> locks the map to your submarine.
 <b>Maximise Map:</b> <KEY:Tactical Map> toggles between mini-map and full screen map. Auto hides mini-map when switching to full screen.
-<b>Hide Mini-Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it. If you lose your submarine from mini-map, maximise map, drag your submarine to the centre, then minimise map.
+<b>Hide Mini-Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it. If you lose your submarine from mini-map, maximize map, drag your submarine to the center, then minimize map.
 
 The grid scale of the tactical map is shown in the upper right when in full screen mode.
 
@@ -62,7 +62,7 @@ When firing a weapon, a waypoint must be set. Simply <RIGHTCLICK> to place the w
 <b>WEAPON LEAD INDICATOR</b>
 When firing torpedoes, a lead indicator appears in front of the target to show the intercept point for that weapon. This can be used to assist with setting your waypoint. Lead indicator is only shown if the target solution is at maximum.
 
-<b>NOISEMAKERS AND KNUCKLES</b> 
+<b>NOISEMAKERS AND KNUCKLES</b>
 Countermeasures dropped by vessels or disturbances in the water induced by putting the rudder hard to one side at high speeds (a knuckle) are also indicated on the Tactical Map. These interfere with torpedo homing.
 
 <b>DIRECTIONAL INDICATORS</b>

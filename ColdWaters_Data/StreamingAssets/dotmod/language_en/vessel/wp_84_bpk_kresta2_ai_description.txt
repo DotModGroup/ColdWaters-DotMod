@@ -2,4 +2,4 @@
 ShipClass=Kresta II
 Description=Kresta II-class Large Anti-Submarine Ship
 Aircraft=1 Ka-25 Hormone ASW helicopter
-History=This class of guided-missile cruisers is a modification of the Kresta I-class rocket cruisers, redesigned to specialize in ASW, though they still retain an effective area-defence anti-air capability as well. While they lack VDS equipment, their ability to use the shipboard KA-25 helicopter as target designator for their battery of SS-N-14 missiles make them dangerous opponents.
+History=This class of guided-missile cruisers is a modification of the Kresta I-class rocket cruisers, redesigned to specialize in ASW, though they still retain an effective area-defense anti-air capability as well. While they lack VDS equipment, their ability to use the shipboard KA-25 helicopter as target designator for their battery of SS-N-14 missiles make them dangerous opponents.

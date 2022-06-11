@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName="Strela-2"
 WeaponDescriptiveName="Strela-2" MANPADS
-WeaponDescription=The 9K32 Strela-2 (NATO reporting name: SA-7 Grail) is a passive-infrared homing MANPADS system. It can often be found in a submarine's conning tower for close-range anti-aircraft defence.
+WeaponDescription=The 9K32 Strela-2 (NATO reporting name: SA-7 Grail) is a passive-infrared homing MANPADS system. It can often be found in a submarine's conning tower for close-range anti-aircraft defense.

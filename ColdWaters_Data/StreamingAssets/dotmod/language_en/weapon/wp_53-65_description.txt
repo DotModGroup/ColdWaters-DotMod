@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=53-65
 WeaponDescriptiveName=53-65 Torpedo
-WeaponDescription=Special: Wake-homing\nThe 53-65 torpedo family are Russian made wake-homing torpedoes designed to destroy surface ships. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes.
+WeaponDescription=Special: Wake-homing\n\nThe 53-65 torpedo family are Russian made wake-homing torpedoes designed to destroy surface ships. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes.

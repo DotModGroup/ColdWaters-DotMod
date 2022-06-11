@@ -1,7 +1,7 @@
 [Unit Reference]
 ShipClass=Sturgeon
 Description=Sturgeon-class Nuclear Attack Submarine (Early)
-History=In service since 1967, this class formed the backbone of US attack submarines during the cold war until the mid-80's. Stealthy, manoeuvrable and with an excellent sonar suite, these boats can match up to any but the very latest Soviet boats. Their only drawback is their comparatively low speed.
+History=In service since 1967, this class formed the backbone of US attack submarines during the cold war until the mid-80's. Stealthy, maneuverable and with an excellent sonar suite, these boats can match up to any but the very latest Soviet boats. Their only drawback is their comparatively low speed.
 
 [Player Ship Instances]
 PlayerClassNames=Sturgeon,Whale,Tautog,Grayling,Pogy,Aspro,Sunfish,Pargo,Queenfish,Puffer,Ray,Sand Lance,Lapon,Gurnard,Hammerhead,Sea Devil,Guitarro,Hawkbill,Bergall,Spadefish,Seahorse,Finback,Pintado,Flying Fish,Trepang,Bluefish,Billfish,Drum,Archerfish,Silversides,William H. Bates,Batfish,Tunny,Parche,Cavalla,L. Mendel Rivers,Richard B. Russell

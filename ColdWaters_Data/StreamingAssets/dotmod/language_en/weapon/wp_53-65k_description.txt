@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=53-65K
 WeaponDescriptiveName=53-65K
-WeaponDescription=Special: Wake-homing\nAnti-ship torpedo. The 53-65K is the upgraded version of the 53-65 torpedo. It has an extended range due to new propulsion system. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes.
+WeaponDescription=Special: Wake-homing\n\nAnti-ship torpedo. The 53-65K is the upgraded version of the 53-65 torpedo. It has an extended range due to new propulsion system. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes.

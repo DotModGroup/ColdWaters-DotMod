@@ -7,7 +7,7 @@ ImageHeight=260
 Image=language/help_images/stratmap.png
 [/Image]
 <size=24><color=maroon><b>CAMPAIGN</b></color></size>
-It is recommended that you familiarise yourself with commanding a submarine by completing the Training Missions and practicing several Single Missions before attempting a Campaign.
+It is recommended that you familiarize yourself with commanding a submarine by completing the Training Missions and practicing several Single Missions before attempting a Campaign.
 
 Campaigns let you experience an armed conflict as the commanding officer of a submarine. In a campaign you will;
 - receive orders to undertake various missions
@@ -73,7 +73,7 @@ Opening the Briefing while in the vicinity of a friendly port will enter that po
 
 
 <size=24><color=maroon><b>STRATEGIC MAP</b></color></size>
-The Strategic map is used to navigate the oceans and provides an overview of the theatre of war. The strategic map consists of a toolbar in the upper left, a sea chart of the theatre of operations along with various icons. With the exception of the port and SOSUS barriers, icons are coloured according to the side they fight for.
+The Strategic map is used to navigate the oceans and provides an overview of the theatre of war. The strategic map consists of a toolbar in the upper left, a sea chart of the theatre of operations along with various icons. With the exception of the port and SOSUS barriers, icons are colored according to the side they fight for.
 
 
 

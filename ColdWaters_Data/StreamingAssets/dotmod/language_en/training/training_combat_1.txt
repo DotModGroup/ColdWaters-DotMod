@@ -51,8 +51,8 @@ The mini-map displays your ship, contacts, torpedoes and will be used to set wea
 Map Controls:
 <b>Pan Map:</b> <LEFTCLICK> on the mini-map and drag the mouse.
 <b>Zoom Map:</b> Position mouse over map and <MOUSEWHEEL> or <KEY:Zoom In> and <KEY:Zoom Out>.
-<b>Centre Map:</b> <KEY:Centre Map> will position your ship in the centre of the map, <KEY:Auto Centre Map> locks it there.
-<b>Maximise Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
+<b>Centre Map:</b> <KEY:Centre Map> will position your ship in the center of the map, <KEY:Auto Centre Map> locks it there.
+<b>Maximize Map:</b> <KEY:Tactical Map> toggles full screen map (auto hides mini-map).
 <b>Hide Map:</b> <LEFTCLICK> in upper portion of the mini-map hides/restores it.
 
 <LEFTCLICK> on your ship icon moves camera to your ship.
@@ -78,7 +78,7 @@ Ensure your submarine is visible on the mini-map and use <KEY:Fire Tube> to set 
 
 Simply move your mouse pointer around the mini-map, placing it directly over the target, the readout bearing should display approximately 0.
 
-<RIGHTCLICK> to set the waypoint and fire. Map can be panned, zoomed and centred while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
+<RIGHTCLICK> to set the waypoint and fire. Map can be panned, zoomed and centered while dragging a waypoint and if needed, use <KEY:Cancel or Quit> to cancel setting a waypoint.
 
 If all went well, your torpedo should run north and strike the target.
 If it misses or ship doesn't sink, fire another remembering to select a loaded tube and set the waypoint's bearing to 0.

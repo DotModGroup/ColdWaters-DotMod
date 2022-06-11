@@ -1,6 +1,6 @@
 [TRAINING 1]=8
 <b>Stealth</b>
-With stealth you can strike the enemy and disappear before the they have a chance to react. Your best defence is not to be attacked at all!
+With stealth you can strike the enemy and disappear before the they have a chance to react. Your best defense is not to be attacked at all!
 
 <b>Silent Running</b>
 <KEY:Silent Running> can be used to toggle silent running mode which reduces noise your vessel makes, but also:

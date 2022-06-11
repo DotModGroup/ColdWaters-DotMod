@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Type 42
 Description=Type 42 Destroyer
-History=The Type 42 Destroyer, or Sheffield-class, was a class of fourteen guided missile destroyers that served in the Royal Navy. A further two ships of this class were built for and served with the Argentine Navy.\nThe first ship of the class was ordered in 1968 and launched in 1971. Two of the class (Sheffield and Coventry) were sunk in action during the Falklands War of 1982. The Royal Navy used this class of destroyer for 38 years between 1975 and 2013.
+History=The Type 42 Destroyer, or Sheffield-class, was a class of fourteen guided missile destroyers that served in the Royal Navy. A further two ships of this class were built for and served with the Argentine Navy.\n\nThe first ship of the class was ordered in 1968 and launched in 1971. Two of the class (Sheffield and Coventry) were sunk in action during the Falklands War of 1982. The Royal Navy used this class of destroyer for 38 years between 1975 and 2013.

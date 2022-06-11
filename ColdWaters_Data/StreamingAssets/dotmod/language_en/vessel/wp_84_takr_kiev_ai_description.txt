@@ -2,4 +2,4 @@
 ShipClass=Kiev
 Description=Kiev-Class Tactical Aircraft-Carrying Cruiser
 Aircraft=14-17 Ka-25 Hormone ASW or Helix helicopters\n12-13 Yak-38MP Forger V/STOL jet fighter-bombers
-History=In service since 1975, these V/STOL carriers are the follow-on design to the Moskva helicopter-cruisers. Intended for the pro-submarine mission, these ships carry an impressive array of anti-ship and anti-air missiles in addition to extensive ASW capabilities. Unlike US Navy carriers, their main offensive strength lies in their battery of cruise-missiles, with the onboard aircraft mostly used for air cover.\n \nThese ships often operate as flagships in strike or hunter-killer groups.
+History=In service since 1975, these V/STOL carriers are the follow-on design to the Moskva helicopter-cruisers. Intended for the pro-submarine mission, these ships carry an impressive array of anti-ship and anti-air missiles in addition to extensive ASW capabilities. Unlike US Navy carriers, their main offensive strength lies in their battery of cruise-missiles, with the onboard aircraft mostly used for air cover.\n\nThese ships often operate as flagships in strike or hunter-killer groups.

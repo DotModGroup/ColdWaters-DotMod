@@ -5,6 +5,6 @@ Briefing=
 Briefing=Things to practice:
 Briefing=- Understanding passive and active sonar.
 Briefing=- Learn about ocean conditions.
-Briefing=- Manoeuvring to mast depth.
+Briefing=- Maneuvering to mast depth.
 Briefing=- Using periscope, ESM and radar masts.
 Briefing=- Learn how to use towed array.

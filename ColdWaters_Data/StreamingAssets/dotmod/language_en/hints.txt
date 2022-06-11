@@ -6,7 +6,7 @@ Many missiles have minimum firing distances. Be sure to plan missile attacks so 
 Attacking from under a thermal layer can significantly increase your chances of remaining undetected for longer. This, in turn, can increase your chances of a successful attack.
 Some submarines have a MANPADS to allow them to shot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. The RADAR mast is not necessary, but will help you aim.
 Many ship-mounted SAM systems can also target other ships. This can be a long-range option for engaging enemy ships in lieu of guns.
-Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will have significantly more capabilities in anti-missile defence.
+Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will have significantly more capabilities in anti-missile defense.
 Many newer vessels have towed arrays. Deploying these, by default with backspace, will significantly increase sensor detection range. It will also cover your baffles.
 While American passive sonar is almost universally superior to its contemporary Soviet system, Soviet active systems are generally more powerful as compared to American systems.
 Older vessels do not have towed arrays to cover their baffles. This is especially helpful in 1968, where attacking from the baffles can avoid a long and drawn out knife fight.

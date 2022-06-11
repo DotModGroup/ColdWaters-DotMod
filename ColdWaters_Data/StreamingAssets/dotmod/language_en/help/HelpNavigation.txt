@@ -12,7 +12,7 @@ Image=language/help_images/navigation_status.png
 <size=24><color=maroon><b>NAVIGATION</b></color></size>
 
 <b>CONTROLLING YOUR SUBMARINE</b>
-Submarines act much like slow underwater aircraft, and they are controlled mainly with dynamic forces, using the rudder and the planes. There is also trim control and a hover system for low-speed manoeuvring.
+Submarines act much like slow underwater aircraft, and they are controlled mainly with dynamic forces, using the rudder and the planes. There is also trim control and a hover system for low-speed maneuvering.
 In Cold Waters, you can control your submarine in the traditional way by ordering your helmsman or dive officer to come to the desired course or depth, but you may also at any time assume direct control of the submarine in which case the submarine is 'flown' much like an underwater flight sim.
 
 <b>OWNSHIP DATA</b>

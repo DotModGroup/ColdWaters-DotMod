@@ -26,7 +26,7 @@ MissileNotIntercepted=Failed to intercept M-<MISSILEID> <MISSILENAME>
 OwnMissileIntercepted=Conn, our missile, <MISSILENAME>, was shot down.
 AirTargetIntercepted=Conn, Air target <TARGET> is shot down.
 AirTargetNotIntercepted=Conn, Air target <TARGET> is still intact.
-ScanAirRaiseRadarMast=Conn, Radar is swiched off. Detection of air targets is impossible.
+ScanAirRaiseRadarMast=Conn, Radar is switched off. Detection of air targets is impossible.
 ScanAirRadarDamaged=Conn, Radar is damaged. Detection of air targets is impossible.
 AutoSAMEnabled=Conn, secondary SAM is ready to fire.
 AutoSAMDisabled=Conn, secondary SAM is offline.
@@ -67,9 +67,9 @@ NavigationSetDepth=Make depth <WANTEDDEPTH> <FEET>, dive aye
 NavigationAtDepth=Conn, dive at <WANTEDDEPTH> <FEET>
 
 [MANEUVERING]
-SetSpeed=Make turns for <SPEED> knots, manouvering aye
+SetSpeed=Make turns for <SPEED> knots, maneuvering aye
 AtSpeed=Conn, manouvering: making turns for <SPEED> knots
-BackSpeed=Back emergency, manouvering aye
+BackSpeed=Back emergency, maneuvering aye
 
 [SONAR]
 NewSonarContact=Conn, sonar: new contact bearing <BRG>, designated <CONTACT>
@@ -81,7 +81,7 @@ ContactIdentified=Conn, sonar: contact <CONTACT> is identified as <CONTACTTYPE>
 ContactClassified=Conn, sonar: contact <CONTACT> is classified as <CONTACTCLASSIFIED>
 TransientKnown=Conn, sonar: launch transient from <CONTACT>
 TransientUnknown=Conn, sonar: launch transient bearing <BRG>
-SonobuoyPing=Conn, sonar: sonobuy ping, bearing <BRG>
+SonobuoyPing=Conn, sonar: sonobuoy ping, bearing <BRG>
 ActivePing=Conn, sonar: active sonar, bearing <BRG>
 NoisemakerDropped=Conn, sonar: noisemaker, bearing <BRG>
 PlayerCavitating=Conn, sonar: we are cavitating

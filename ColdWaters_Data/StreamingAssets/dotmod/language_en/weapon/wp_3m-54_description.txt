@@ -1,4 +1,4 @@
 ﻿[Weapon Reference]
 WeaponName="Kalibr"
 WeaponDescriptiveName=3M-54 "Kalibr" Anti-ship missile
-WeaponDescription=Special: Came from future\nThe 3M-54 "Kalibr" (NATO: SS-N-27B Sizzler) is a modern Russian anti-ship missile. Since it falls out of the game's timeframe, it is here only for testing purposes and its stats and functions can differ from real ones.
+WeaponDescription=Special: Came from future\n\nThe 3M-54 "Kalibr" (NATO: SS-N-27B Sizzler) is a modern Russian anti-ship missile. Since it falls out of the game's timeframe, it is here only for testing purposes and its stats and functions can differ from real ones.
