@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Uragan SAM
 WeaponDescriptiveName=Uragan SAM
-WeaponDescription=The Uragan(NATO reporting name: SA-N-7 Gadfly) is a Soviet naval surface-to-air missile system.
+WeaponDescription=The "Uragan" (NATO reporting name: SA-N-7 Gadfly) is a Soviet naval surface-to-air missile system.
