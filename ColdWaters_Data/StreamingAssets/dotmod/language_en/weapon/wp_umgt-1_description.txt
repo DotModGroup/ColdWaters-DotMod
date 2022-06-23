@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=UGMT-1
 WeaponDescriptiveName=UGMT-1 ASW Torpedo
-WeaponDescription=Special: ASW\n4th generation electrical torpedo that equips most Soviet helicopters, ASW aircraft and serves as the payload for the SS-N-14 and SS-N-16 ASW missiles. Being lightweight, their warheads are weaker than torpedoes used by ships or submarines. Will not lock on surface targets.
+WeaponDescription=Special: ASW\n\n4th generation electrical torpedo that equips most Soviet helicopters, ASW aircraft and serves as the payload for the SS-N-14 and SS-N-16 ASW missiles. Being lightweight, their warheads are weaker than torpedoes used by ships or submarines. Will not lock on surface targets.

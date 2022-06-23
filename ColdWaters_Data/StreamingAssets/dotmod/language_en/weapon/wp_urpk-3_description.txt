@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName="Metel'"
-WeaponDescriptiveName=URPK-3 "Metel'" ASW Missile
-WeaponDescription=URPK-3 "Metel'" (NATO classification: SS-N-14 Silex) is a subsonic ASW missile equipped on most Soviet large anti-submarine ships as well as the frigates of the Krivak class. It can be launched to the first convergence zone, and drops an AT-2 homing torpedo. Because it has a larger range than the effective range of the surface ship sonar, it can use targeting data transmitted from any friendly sea or air unit via datalink.
+WeaponName="Metel"
+WeaponDescriptiveName=URPK-3 "Metel" ASW Missile
+WeaponDescription=URPK-3 "Metel" (NATO classification: SS-N-14 Silex) is a subsonic ASW missile equipped on most Soviet large anti-submarine ships as well as the frigates of the Krivak class. It can be launched to the first convergence zone, and drops an AT-2 homing torpedo. Because it has a larger range than the effective range of the surface ship sonar, it can use targeting data transmitted from any friendly sea or air unit via datalink.

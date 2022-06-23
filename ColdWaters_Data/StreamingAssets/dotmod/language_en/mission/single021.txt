@@ -3,7 +3,7 @@
 Image=campaign/images/pact wolfpack 6
 MissionLocation=East of the Faroe Islands
 Briefing=02 MAY 1968
-Briefing=Less than 24 hours ago Warsaw Pact forces smashed into West Germany and sank several ASW patrols off Iceland. A Soviet nuclear submarine wolfpack has been triangulated to the vicinity of the Faroe Islands, moving into the North Altantic to block trans-Altantic convoys. You must sink this group or desperatly needed reinforcements could be sunk.
+Briefing=Less than 24 hours ago Warsaw Pact forces smashed into West Germany and sank several ASW patrols off Iceland. A Soviet nuclear submarine wolfpack has been triangulated to the vicinity of the Faroe Islands, moving into the North Atlantic to block trans-Atlantic convoys. You must sink this group or desperately needed reinforcements could be sunk.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Locate and sink the missile submarines

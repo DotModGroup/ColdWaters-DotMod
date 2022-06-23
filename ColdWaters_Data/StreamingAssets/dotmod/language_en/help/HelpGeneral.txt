@@ -24,7 +24,7 @@ Cold Waters puts you in that very situation as the commander of a nuclear submar
 <DICTIONARY:Training> - Tutorial missions teaching you command of a submarine
 <DICTIONARY:SingleMission> - Stand alone combat missions to test your mettle
 <DICTIONARY:Campaign> - Go to war as the commanding officer of a submarine
-<DICTIONARY:UnitReference> - Encyclopaedia of vessels, aircraft, weapons of the era
+<DICTIONARY:UnitReference> - Encyclopedia of vessels, aircraft, weapons of the era
 <DICTIONARY:Options> - Edit various game settings
 <DICTIONARY:Credits> - Peruse those behind Cold Waters
 <DICTIONARY:Cancel or Quit> - Exit Cold Waters
@@ -54,7 +54,7 @@ After receiving a message assigning you command of a vessel, <DICTIONARY:Accept>
 
 
 <b>MISSION BRIEFING</b>
-Prior to any combat, you are presented with a briefing 
+Prior to any combat, you are presented with a briefing
 of the current situation. Details on current state of your
 submarine and local conditions are displayed.
 
@@ -131,7 +131,7 @@ Use <DICTIONARY:Continue> or <KEY:Continue> to close the After Action Report and
 
 
 <size=24><color=maroon><b>UNIT REFERENCE</b></color></size>
-The Unit Reference is an encyclopaedia of all ships, submarines, aircraft, torpedoes and missiles currently available in Cold Waters.
+The Unit Reference is an encyclopedia of all ships, submarines, aircraft, torpedoes and missiles currently available in Cold Waters.
 
 Use <KEY:Museum Next> and <KEY:Museum Previous> to cycle through the various units and weapons.
 Pan Camera: either use <KEY:Drag Camera> or <KEY:Camera Left>, <KEY:Camera Right>, <KEY:Camera Up> and <KEY:Camera Down>.

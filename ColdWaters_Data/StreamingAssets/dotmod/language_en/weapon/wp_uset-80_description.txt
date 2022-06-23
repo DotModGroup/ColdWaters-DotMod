@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=USET-80
 WeaponDescriptiveName=USET-80 Torpedo
-WeaponDescription=Special: Optional wake-homing\nThis soviet 5th generation dual-purpose torpedo equips the latest technology and boasts higher performance than SET-65. It has an active/passive homing system with a extended range, making this a dangerous weapon to contend with. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes. Optional wake-homing activates when torpedo launched in "SHALLOW" mode and works in conjunction with common guidance system.
+WeaponDescription=Special: Optional wake-homing\n\nThis Soviet 5th generation dual-purpose torpedo equips the latest technology and boasts higher performance than SET-65. It has an active/passive homing system with a extended range, making this a dangerous weapon to contend with. Wake-homing torpedoes should be aimed to cross wake behind ship's stern. Surfaced submarines can also be hit with WH torpedoes. Optional wake-homing activates when torpedo launched in "SHALLOW" mode and works in conjunction with common guidance system.

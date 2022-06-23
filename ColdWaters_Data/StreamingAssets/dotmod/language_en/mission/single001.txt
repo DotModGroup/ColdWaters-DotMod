@@ -3,7 +3,7 @@
 Image=campaign/images/under ice
 MissionLocation=East of Iceland, in the Norwegian Sea
 Briefing=15 DEC 1984
-Briefing=After several uneventful days, you've succesfully arrived at your assigned location.
+Briefing=After several uneventful days, you've successfully arrived at your assigned location.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Perform necessary sea trials.

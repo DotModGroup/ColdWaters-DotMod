@@ -13,7 +13,7 @@ ImageHeight=260
 Image=language/help_images/stores_port.png
 [/Image]
 <size=24><color=maroon><b>WEAPONS</b></color></size>
-In the post-World War II era, the ongoing Cold War pushed naval weaponry to all new levels. This section will discuss how to use and manage the weapon systems on board your submarine. To understand how to maximise your chances of hitting targets with weapons as well as void hit, see Tactics section.
+In the post-World War II era, the ongoing Cold War pushed naval weaponry to all new levels. This section will discuss how to use and manage the weapon systems on board your submarine. To understand how to maximize your chances of hitting targets with weapons as well as void hit, see Tactics section.
 
 Weapons on board your submarine may be in one of three places:
 1) stores
@@ -164,7 +164,7 @@ Wire breakage while a torpedo is running can be minimised by;
 
 
 <size=24><color=maroon><b>GUIDED MISSILES</b></color></size>
-Guided missiles launch, head towards their waypoint and upon reaching it, become enabled. Once enabled the on-board guidance system uses radar to search for a surface target, which if found, will cause the missile to seek to out that target. Guided missiles can be fooled by the deployment of chaff, a countermeasure which confuses the radar guidance, or be shot down by ships possessing anti-missile defences such as CIWS guns. Also, if a missile becomes enabled but cannot find a target, it will self destruct. 
+Guided missiles launch, head towards their waypoint and upon reaching it, become enabled. Once enabled the on-board guidance system uses radar to search for a surface target, which if found, will cause the missile to seek to out that target. Guided missiles can be fooled by the deployment of chaff, a countermeasure which confuses the radar guidance, or be shot down by ships possessing anti-missile defences such as CIWS guns. Also, if a missile becomes enabled but cannot find a target, it will self destruct.
 
 <b>TUBE SETTINGS</b>
 Tube settings can be modified for the highlighted tube by either directly using the setting buttons or <KEY:Weapon Homing>, <KEY:Weapon Attack> and <KEY:Weapon Depth> to toggle each of the three settings respectively. Once launched, a missile's settings cannot be modified.

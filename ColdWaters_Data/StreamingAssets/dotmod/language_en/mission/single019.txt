@@ -3,7 +3,7 @@
 Image=campaign/images/pact reinforcements
 MissionLocation=Norwegian Coast
 Briefing=09 FEB 1968
-Briefing=Soviet forces have launched a successful amphibious assault against the southern Norwegian coast, and have captured Bergen. Norwegian resistance fighters have reported a large military convoy transitting south at high speed. Sink it before it can resupply Soviet troops in Bergen.
+Briefing=Soviet forces have launched a successful amphibious assault against the southern Norwegian coast, and have captured Bergen. Norwegian resistance fighters have reported a large military convoy transiting south at high speed. Sink it before it can resupply Soviet troops in Bergen.
 Briefing=
 Briefing=Primary Objective:
 Briefing=Locate and sink the transports

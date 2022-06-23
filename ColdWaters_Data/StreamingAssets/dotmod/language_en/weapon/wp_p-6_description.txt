@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=P-6
 WeaponDescriptiveName=P-6 Missile
-WeaponDescription=Special: Universal\nThe SS-N-3A Shaddock was a anti-ship/land-attack missile carried by The Juliett and Echo II guided missile submarines. Guidance system is universal and allows switch between ship-attack and land-attack mode. Mode can be switched in the weapon settings just before launch.
+WeaponDescription=Special: Universal\n\nThe SS-N-3A Shaddock was a anti-ship/land-attack missile carried by The Juliett and Echo II guided missile submarines. Guidance system is universal and allows switch between ship-attack and land-attack mode. Mode can be switched in the weapon settings just before launch.

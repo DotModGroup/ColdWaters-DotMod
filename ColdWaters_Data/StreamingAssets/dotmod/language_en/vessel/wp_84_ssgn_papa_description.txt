@@ -2,7 +2,7 @@
 ShipClass=Papa
 Description=Papa-class Nuclear Cruise Missile Submarine
 
-History=K-222 was designed as an extremely fast attack submarine, and was the first submarine built with a titanium hull. She was armed with 10 SS-N-7 Starbright (P-70 "Amethyst") missiles in individual tubes forward of the sail, between the inner and outer hulls, which were both of titanium alloy. Similar in design to the Charlie class, K-222 was designed to intercept and attack aircraft carrier groups. Like the Charlie class and the later Oscar class, her cruise missiles could only be reloaded in port, making her one of the Soviet Navy's "one shot" boats.\nK-162 was renamed K-222 in 1978.
+History=K-222 was designed as an extremely fast attack submarine, and was the first submarine built with a titanium hull. She was armed with 10 SS-N-7 Starbright (P-70 "Amethyst") missiles in individual tubes forward of the sail, between the inner and outer hulls, which were both of titanium alloy. Similar in design to the Charlie class, K-222 was designed to intercept and attack aircraft carrier groups. Like the Charlie class and the later Oscar class, her cruise missiles could only be reloaded in port, making her one of the Soviet Navy's "one shot" boats.\n\nK-162 was renamed K-222 in 1978.
 
 [Player Ship Instances]
 PlayerClassNames=

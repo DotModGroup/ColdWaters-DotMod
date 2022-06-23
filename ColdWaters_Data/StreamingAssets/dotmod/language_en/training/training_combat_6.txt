@@ -31,7 +31,7 @@ As you surfaced, your submarine crossed the layer into the surface duct allowing
 Use <KEY:ESM Mast> to raise your ESM mast.
 This passive sensor detects radar signals, providing a measure of their strength and originating bearing (shown as purple lines on the map).
 
-There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on yout tactical map. Strength of this signal is shown on the meter in the upper left.
+There are no hostile warships or aircraft using search radar in this tutorial, however if there were, occasional purple indicators of incoming enemy radar would be shown on your tactical map. Strength of this signal is shown on the meter in the upper left.
 
 Detecting a contact by ESM provides a small boost to target solution.
 

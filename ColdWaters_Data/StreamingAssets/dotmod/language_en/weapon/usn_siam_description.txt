@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=SIAM
 WeaponDescriptiveName=SIAM SAM
-WeaponDescription=The UIM-74 started as a DARPA (Defense Advanced Research Project Agency) program in the 1970's to develop a submarine-launched SAM that could be launched while completely submerged. The missile dubbed the SIAM (Self Initiating Anit-Aircaft Missile), was only 100" long, began land-based testing in the mid-1980's against QH-50 DASH helicopter drones, which they performed succesfully. The project was finally handed over to the USN in the late 1980's where it eventually lost funding and was shelved.
+WeaponDescription=The UIM-74 started as a DARPA (Defense Advanced Research Project Agency) program in the 1970's to develop a submarine-launched SAM that could be launched while completely submerged. The missile dubbed the SIAM (Self Initiating Anti-Aircraft Missile), was only 100" long, began land-based testing in the mid-1980's against QH-50 DASH helicopter drones, which they performed successfully. The project was finally handed over to the USN in the late 1980's where it eventually lost funding and was shelved.

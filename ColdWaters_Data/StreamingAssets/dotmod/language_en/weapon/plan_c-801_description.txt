@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=YJ-8
 WeaponDescriptiveName=YJ-8 Anti-Ship Missile
-WeaponDescription=YJ-8 anti-ship missile(NATO reporting name: CSS-N-4 Sardine) is very similar to the French Exocet and US Harpoon missiles. From submarines it is launched on using a canister similar to Sub-Harpoon, and features similar performance to its western counterparts. Its warhead power is often insufficient to sink a modern warship in one hit.
+WeaponDescription=YJ-8 anti-ship missile (NATO reporting name: CSS-N-4 Sardine) is very similar to the French Exocet and US Harpoon missiles. Like the Harpoon, it is launched from the submarine using a canister, and features similar performance to its western counterparts. Its warhead power is often insufficient to sink a modern warship in one hit.

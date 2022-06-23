@@ -49,7 +49,7 @@ Note that radar, ESM and visual (periscope) require raising your masts above the
 
 Enemy aircraft possess radar, ESM and visual as well as:
 <b>Dipping Sonar:</b> a passive or active sonar listening device lowered from a stationary helicopter.
-<b>Sonobuoy:</b> passive or active sonarbuoys dropped by helicopters and aircraft.
+<b>Sonobuoy:</b> passive or active sonobuoys dropped by helicopters and aircraft.
 <b>MAD:</b> Magnetic Anomaly Detector using Earth's magnetic field to detect submerged submarines. However it has a very limited range of 2,500 yards and is not effective at submarine depths below 500 ft.
 
 <b>DETECTING CONTACTS</b>
