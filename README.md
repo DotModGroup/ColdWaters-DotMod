@@ -8,9 +8,7 @@ DotMod also adds RPG elements to the Cold Waters campaigns, adds new campaigns, 
 
 Come join our community on Discord, we are mostly English language but have supporters and modders from around the world! https://discord.gg/DrmztcDYYf
 
-DotMod's latest release can be found at: https://github.com/Dot-M134/ColdWaters-DotMod/releases or the Bleeding Edge version can be downloaded by clicking the Green "Code" button in the top right of this page.
-
-Bleeding Edge is our latest in-work code so may break at times. Releases are more stable, but you will have to wait longer for updates.
+DotMod's latest release can be found at https://github.com/Dot-M134/ColdWaters-DotMod/releases.
 
 For upcoming features check out the #showcase channel on our Discord!
 
