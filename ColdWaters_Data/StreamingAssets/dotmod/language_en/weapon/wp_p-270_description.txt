@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName="Moskit"
 WeaponDescriptiveName=P-270 "Moskit" Missile
-WeaponDescription=The P-270 "Moskit" (NATO reporting name: SSS-N-22 Sunburn) is a Soviet supersonic ramjet powered anti-ship cruise missile.
+WeaponDescription=The P-270 "Moskit" (NATO reporting name: SS-N-22 Sunburn) is a Soviet supersonic, ramjet-powered, anti-ship cruise missile.
