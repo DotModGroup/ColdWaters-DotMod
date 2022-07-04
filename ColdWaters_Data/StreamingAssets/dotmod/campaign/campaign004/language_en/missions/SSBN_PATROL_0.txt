@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTELLIGENCE HAS LEARNED THAT ENEMY BALLISTIC MISSILE SUBMARINES ARE BEING READIED TO SAIL FROM <color=#CBCB2B><STARTLOCATION></color> WITHIN 48 HOURS. IT SEEMS that in the face of imminent defeat US decided to resort to use its nuclear weapons. If we counter them with our nuclear arsenal - it will be the end of the world. So we must intercept and destroy enemy submarines before they launch their missilies. Your mission area is <color=#E6B621><ENDLOCATION></color>. Good luck captain, youl need it.
+INTELLIGENCE HAS LEARNED THAT ENEMY BALLISTIC MISSILE SUBMARINES ARE BEING READIED TO SAIL FROM <color=#CBCB2B><STARTLOCATION></color> WITHIN 48 HOURS. IT SEEMS that in the face of imminent defeat the US decided to resort to use its nuclear weapons. If we counter them with our nuclear arsenal - it will be the end of the world. So we must intercept and destroy the enemy submarines before they launch their missiles. Your mission area is <color=#E6B621><ENDLOCATION></color>. Good luck captain, you'll need it.
 
 2.	(S) PRIMARY OBJECTIVE:
 LOCATE AND SINK THE ENEMY BALLISTIC MISSILE SUBMARINES
@@ -16,6 +16,6 @@ NONE
 [MISSION WIN]
 Excellent job! You have saved the world today! Literally.
 [MISSION FAIL]
-We want to belive you have done everything you could... See you in hell captain...
+We want to believe you have done everything you could... See you in hell captain...
 [MISSION MISSED]
 You're too late - we are detecting SLBM launches from your mission area. This is the end...

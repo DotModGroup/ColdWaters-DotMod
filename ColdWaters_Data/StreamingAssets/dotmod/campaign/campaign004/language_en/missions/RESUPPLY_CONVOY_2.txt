@@ -15,7 +15,7 @@ LOCATE AND SINK ANY ESCORTING WARSHIPS IF POSSIBLE.
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
 
 [MISSION WIN]
-Great job, Captain! Keeping those supplies from the enemy will hopefully ensure the success of the attack. Your name will certainly make it to the commader's hand.
+Great job, Captain! Keeping those supplies from the enemy will hopefully ensure the success of the attack. Your name will certainly make it to the commander's hand.
 [MISSION FAIL]
 Report acknowledged.
 [MISSION MISSED]

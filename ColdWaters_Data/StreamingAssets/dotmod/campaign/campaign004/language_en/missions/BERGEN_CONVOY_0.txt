@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTELLIGENCE DATA INDICATES THE enemy plans to move military supplies in vicinity of Norvegian cost. A small CONVOY OF SUPPLY SHIPS IS BELIEVED TO BE LEAVING <color=#CBCB2B><STARTLOCATION></color> SOON and will set course for  <color=#E6B621><ENDLOCATION></color>. YOU MUST INTERCEPT AND DESTROY THIS CONVOY BEFORE it arrives to its destination.
+INTELLIGENCE DATA INDICATES THE enemy plans to move military supplies in vicinity of Norwegian coast. A small CONVOY OF SUPPLY SHIPS IS BELIEVED TO BE LEAVING <color=#CBCB2B><STARTLOCATION></color> SOON and will set course for <color=#E6B621><ENDLOCATION></color>. YOU MUST INTERCEPT AND DESTROY THIS CONVOY BEFORE it arrives at its destination.
 
 2.	(S) PRIMARY OBJECTIVE:
 LOCATE AND SINK THE ENEMY FREIGHTERS

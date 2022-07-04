@@ -19,6 +19,6 @@ AVOID CONTACT WITH ENEMY ASW PATROLS AND SUBMARINES. TAKE ALL MEASURES NECESSARY
 [MISSION WIN]
 Satellite images show the target has suffered extensive damage. Excellent work, Captain!
 [MISSION FAIL]
-Failures of this magnatude are unacceptable. Upon your return to port, we expect a detailed report on why this mission has failed.
+Failures of this magnitude are unacceptable. Upon your return to port, we expect a detailed report on why this mission has failed.
 [MISSION MISSED]
 Due to a shift in short term objectives, this strike is no longer beneficiary.
