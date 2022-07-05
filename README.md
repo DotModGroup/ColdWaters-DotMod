@@ -25,7 +25,7 @@ For upcoming features check out the #showcase channel on our Discord!
 * Ticonderoga-class CG
 
 #### Warsaw Pact
-* Papa SSN
+* Papa SSGN
 
 #### United Kingdom
 * Trafalgar-class SSN
