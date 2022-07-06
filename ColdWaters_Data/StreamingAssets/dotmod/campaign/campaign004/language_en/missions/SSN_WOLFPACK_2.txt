@@ -16,6 +16,6 @@ NONE.
 [MISSION WIN]
 Good work. You kept our transports safe. They're what win wars, after all!
 [MISSION FAIL]
-While command understands that attacking a wolfpack can be difficult, we are nevertheless dissapointed you failed to protect our critical supply transports.
+While command understands that attacking a wolfpack can be difficult, we are nevertheless disappointed you failed to protect our critical supply transports.
 [MISSION MISSED]
-Two-and-a-half hours ago, one of our supply convoys was completely decimated by a co-ordinated missile strike, sinking every transport and leaving few survivors. Command belives this was the work of the wolfpack you failed to intercept.
+Two-and-a-half hours ago, one of our supply convoys was completely decimated by a coordinated missile strike, sinking every transport and leaving few survivors. Command believes this was the work of the wolfpack you failed to intercept.

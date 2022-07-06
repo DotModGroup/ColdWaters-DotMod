@@ -15,8 +15,8 @@ LOCATE AND SINK ANY NEARBY WARSHIPS IF POSSIBLE.
 6.	(S) EMCON - MAINTAIN RADIO SILENCE UNTIL OTHERWISE DIRECTED
 
 [MISSION WIN]
-Excellent work in finding and destroying the enemies UNREP ships. Continue future operations with the same gutso!
+Excellent work in finding and destroying the enemies UNREP ships. Continue future operations with the same gusto!
 [MISSION FAIL]
-Command is dissapointed in your failure. The fact that you were unable to deal with unarmed supply ships is bewildering.
+Command is disappointed in your failure. The fact that you were unable to deal with unarmed supply ships is bewildering.
 [MISSION MISSED]
-The supply ships have replenished enemy surface combatants and left the area. The oppertunity has passed.
+The supply ships have replenished enemy surface combatants and left the area. The opportunity has passed.

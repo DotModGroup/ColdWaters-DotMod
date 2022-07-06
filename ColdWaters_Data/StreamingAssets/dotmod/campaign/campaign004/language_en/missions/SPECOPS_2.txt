@@ -17,6 +17,6 @@ DESTROY ANY OTHER SUBMARINES COVERING FOR THE OPERATION
 [MISSION WIN]
 Good job. More enemy communications indicate you sank the boat carrying the team.
 [MISSION FAIL]
-You failed to prevent them from deploying the team. Command is heavily dissapointed in you.
+You failed to prevent them from deploying the team. Command is heavily disappointed in you.
 [MISSION MISSED]
-Further search deemed unproductive. While we do not yet know the results of the raid, due in part to its success, command is heavily dissapointed in your failure.
+Further search deemed unproductive. While we do not yet know the results of the raid, due in part to its success, command is heavily disappointed in your failure.
