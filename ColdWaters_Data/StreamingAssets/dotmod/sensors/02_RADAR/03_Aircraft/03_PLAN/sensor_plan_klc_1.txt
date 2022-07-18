@@ -1,0 +1,2 @@
+RADARModel=plan_klc_1
+RADARRange=100000

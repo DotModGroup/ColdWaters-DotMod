@@ -1,0 +1,1 @@
+usn_sps_55=SPS-55=The AN/SPS-55 is a solid state surface search and navigation radar. It was originally developed for a frigates, but it was also installed on numerous cruisers and destroyers. It is primarily used to detect other ships, coastlines and navigation hazards but can also detect a raised mast of a submarine.

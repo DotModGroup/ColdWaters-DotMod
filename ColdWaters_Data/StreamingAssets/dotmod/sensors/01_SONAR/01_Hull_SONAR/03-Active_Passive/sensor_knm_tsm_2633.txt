@@ -1,0 +1,8 @@
+SonarModel=knm_tsm_2633
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M,M
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=28
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220

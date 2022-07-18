@@ -1,0 +1,1 @@
+usn_an_bqr_21=AN/BQR-21=This is an updated version of the BQR-2 boasting new digital data processing for much better performance.

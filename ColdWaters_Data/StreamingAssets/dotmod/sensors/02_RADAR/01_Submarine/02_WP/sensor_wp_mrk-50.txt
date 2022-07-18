@@ -1,0 +1,2 @@
+RADARModel=wp_mrk-50
+RADARRange=50000

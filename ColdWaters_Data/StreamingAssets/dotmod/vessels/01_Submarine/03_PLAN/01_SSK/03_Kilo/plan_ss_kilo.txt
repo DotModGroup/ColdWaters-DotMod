@@ -1,4 +1,4 @@
-Designation=SS
+Designation=SSK
 ShipType=SUBMARINE
 
 Length=74
@@ -27,7 +27,7 @@ PropRotationSpeed=-150
 TestDepth=820
 
 [Acoustics & Sensors]
-SelfNoise=120
+SelfNoise=110
 ActiveSonarReflection=20
 ActiveSonarModel=wp_mgk-400
 PassiveSonarModel=wp_mgk-400
@@ -37,7 +37,7 @@ RADAR=wp_mrk-50
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71mke,wp_moss_mg-74
+TorpedoTypes=wp_test-71mk,wp_moss_mg-74
 TorpedoNumbers=14,4
 TorpedoTubes=6
 TubeConfig=1,1,1,1,1,1
@@ -125,10 +125,10 @@ ParticleBowWavePosition=0,0,0.52
 ParticlePropWashPosition=0,-0.033,-0.48
 
 ParticleHullFoamPosition=0,0,0.338
-ParticleHullFoamParameters=10,0.2,0.2,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-0.43
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=1.46,1.46
 
 EngineAudioClip=audio/units/submarine_engine_1

@@ -1,0 +1,1 @@
+wp_mgk-500=MGK-500 "Skat"=NATO reporting name: "Shark Gill".="Skat"

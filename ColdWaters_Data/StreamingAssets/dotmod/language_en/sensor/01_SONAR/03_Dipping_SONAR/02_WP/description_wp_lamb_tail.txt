@@ -1,0 +1,1 @@
+wp_lamb_tail=Lamb Tail=This is the advanced Ros-V VGS-3 dipping sonar used by the Ka-27PL ASW helicopter.

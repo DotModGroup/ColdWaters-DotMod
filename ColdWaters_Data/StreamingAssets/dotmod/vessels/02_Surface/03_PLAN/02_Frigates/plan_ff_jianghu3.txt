@@ -44,10 +44,22 @@ NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
+MissileType=plan_c-801
+MissilesPerLauncher=2,4
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=6
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0.006,0.085,0.02|-0.006,0.085,-0.275|-0.006,0.085,-0.275|-0.006,0.085,-0.295|-0.006,0.085,-0.295|-0.006,0.085,0|0.006,0.085,0|-0.006,0.085,0.02
+AntiShipMissileLaunchPointsRotation=-15,30,0|-15,-30,0|-15,30,0|-15,-30,0|-15,30,0|-15,-30,0|-15,30,0|-15,-30,0
+
 RBULaunchers=plan_type81_mortar,plan_type81_mortar
 RBUSalvos=8,8
 RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
+
+[Defenses]
 
 Anti-MissileGunHitProbability=0.001
 Anti-MissileGunRange=2000
@@ -57,6 +69,7 @@ Anti-MissileGunRestAngle=0,181,0,179
 Anti-MissileGunUsesRADAR=0,1,0,1
 Anti-MissileRADARRestAngle=0,180
 Anti-MissileGunParticle=ships/particles/plan_37mm_burst_b
+
 ChaffType=wp_chaff
 ChaffProbability=0.12
 NumberChaffLaunched=2
@@ -140,6 +153,19 @@ MeshRotation=0,0,0
 MeshPosition=0,0.0246,0.001
 MeshNavalGunBarrel=plan_ff_jianghu3_100mm_gun
 NavalGunSpawnPosition=0,0,0.12
+
+//Missile Mounts
+MeshRotation=345,90,0
+MeshPosition=0.0,0.1253,-0.009
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=-0.01,-0.002,-0.055
+
+MeshRotation=345,270,0
+MeshPosition=0.0,0.1253,-0.1583
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=0.01,-0.002,-0.055
 
 //RBU
 Material=ships/materials/modular_parts
@@ -251,10 +277,13 @@ ParticleBowWavePosition=0,0,0.72
 ParticlePropWashPosition=0,-0.027,-0.5963
 
 ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.1,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.25,2.25
 
 EngineAudioClip=audio/units/diesel_small

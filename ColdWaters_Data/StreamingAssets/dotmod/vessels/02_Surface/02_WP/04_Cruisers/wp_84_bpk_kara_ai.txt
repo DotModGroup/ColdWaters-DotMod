@@ -305,13 +305,13 @@ ParticleBowWavePosition=0,0,1.16
 ParticlePropWashPosition=0,-0.06,-1.149
 
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=63.24,0.18,0.333,0.045,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=180.03,0.342,0.2394,0.00513,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=144.02,0.252,0.1764,0.003276,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.3,4.15
 
 EngineAudioClip=audio/units/turbine_large

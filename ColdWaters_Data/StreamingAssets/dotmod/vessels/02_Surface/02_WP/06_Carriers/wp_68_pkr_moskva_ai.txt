@@ -51,16 +51,6 @@ RADAR=wp_don_kay
 RADARSignature=MEDIUM
 
 [Weapon Systems]
-// http://russianships.info/eng/warships/project_1123.htm
-// MISSING WEAPONS (1968):
-// 1 x SUW-N-1 FRAS-1 aka MS-32 PRK-1 «Vyuga» launcher (8 82R anti-submarine guided missiles) 
-//  (nuclear weapon so not modelled in CW)
-// 2 x 5 533mm torpedo tubes SET-53 / SET-65 (removed 1975) (ADDED for _68 variant)
-// 2 x twin SA-N-3 GOBLET SAM aka B-189 M-11 «Shtorm» SAM system launchers (96 V-611 missiles (4K60))
-//  (no SAMs modelled in CW as yet)
-// MISSING WEAPONS (1984):
-// TBC - 30mm CIWS?
-
 NavalGuns=wp_ak-725_shell,wp_ak-725_shell
 NavalGunFiringArcBearingMin=-160,160
 NavalGunFiringArcBearingMax=-20,20
@@ -246,9 +236,9 @@ MeshSternWake=wp_pkr_moskva_sternwake
 ParticleBowWavePosition=0,0,1.26
 ParticlePropWashPosition=0,-0.056,-1.068
 ParticleHullFoamPosition=0,0,1.019
-ParticleHullFoamParameters=400,0.55,0.45,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.998
-ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.45,4.45
 
 EngineAudioClip=audio/units/turbine_large

@@ -1,0 +1,1 @@
+wp_mare_tail=Mare Tail=This large variable depth sonar (VDS) was first observed on the Moskva-class helicopter cruisers, and later on the Kiev, Kara and Krivak classes where it provides these ships the ability to scan beneath the thermal layer when applying sprint-and-drift tactics.

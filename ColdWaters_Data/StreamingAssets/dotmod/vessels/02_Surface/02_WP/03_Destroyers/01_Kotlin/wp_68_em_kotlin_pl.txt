@@ -333,13 +333,13 @@ MeshSternWake=wp_em_kotlin_sternwake
 ParticleBowWavePosition=0,-0.075,0.865
 ParticlePropWashPosition=0,-0.014,-0.876
 ParticleHullFoamPosition=0,0,0.85
-ParticleHullFoamParameters=48.26,0.127,0.23495,0.03175,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=170.05,0.2413,0.16891,0.0036195,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=136.04,0.1778,0.12446,0.0023114,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.8,3.05
 
 EngineAudioClip=audio/units/turbine_small

@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Valiant
+Description=Valiant-class Nuclear Attack Submarine (Early)
+History=HMS Valiant and HMS Warspite were the first two all-British Nuclear Attack Submarines for the Royal Navy. Similar in design to the earlier HMS Dreadnought they employed innovations such as rafting and a new Rolls-Royce nuclear reactor to be significantly quieter. Both Valiant and Warspite served the Royal Navy for nearly 30 years and are now awaiting recycling.
+
+[Player Ship Instances]
+PlayerClassNames=Valiant,Warspite
+PlayerClassHullNumbers=S102,S103

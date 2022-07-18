@@ -1,0 +1,1 @@
+usn_bqq_10=AN/BQQ-10=The AN/BQQ-10 advanced sonar suite uses a spherical array with the latest digital signal processing techniques using commercial off the shelf components to provide improved performance over the older AN/BQQ-5 system, and allow faster upgrades. 

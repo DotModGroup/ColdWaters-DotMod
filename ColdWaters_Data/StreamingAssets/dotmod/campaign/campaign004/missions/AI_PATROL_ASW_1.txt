@@ -1,16 +1,16 @@
 //AI mission
-//Small Norvegian Sea patrol SS
+//Very Small Norwegian Sea Patrol
 MissionType=AI_PATROL_ASW
-AllowedOnlyFor=SS,SSG,SSB
+AllowedOnlyFor=
 ForbiddenFor=
-AllowedOnlyForCostBelow=200
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=18,48
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
-Speed=12
+Speed=15
 MustUseWaypoints=
 UseAtLeastOneWaypointOf=N2,N1,IG1,IG5
 ProhibitedWaypoints=P1,P2
@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=usn_84_ffg_perry_ai|usn_84_ff_knox_ai|knm_84_ffg_oslo
+EnemyShipClasses=nato_all_asw_escorts

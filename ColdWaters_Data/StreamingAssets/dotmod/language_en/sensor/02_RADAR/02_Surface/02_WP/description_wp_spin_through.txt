@@ -1,0 +1,1 @@
+wp_spin_through=Spin Trough=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.

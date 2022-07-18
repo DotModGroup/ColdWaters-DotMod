@@ -37,7 +37,7 @@ TowedArrayModel=usn_sqr_19
 AnechoicCoating=FALSE
 RADAR=usn_spy_1d
 RADARSignature=SMALL
-TowedArrayPosition=-0.03,0.02,-1.0562134
+TowedArrayPosition=0,0.0534,-1.10738
 
 [Weapon Systems]
 NavalGuns=usn_mark_45_shell
@@ -338,13 +338,13 @@ ParticleBowWavePosition=0,0,0.97
 ParticlePropWashPosition=0,-0.015,-1.18
 
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=61.2,0.18,0.333,0.045,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=172.7,0.342,0.2394,0.00513,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=137.76,0.252,0.1764,0.003276,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 
 KelvinWaves=3.9,3.4
 

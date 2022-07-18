@@ -1,0 +1,8 @@
+SonarModel=wp_stork_tail
+SonarType=DIPPING
+SonarFrequencies=H
+SonarActiveSensitivity=25
+SonarPassiveSensitivity=25
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=210

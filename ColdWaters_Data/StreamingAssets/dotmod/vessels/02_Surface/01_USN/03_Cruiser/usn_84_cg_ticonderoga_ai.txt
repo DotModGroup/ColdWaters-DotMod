@@ -16,7 +16,7 @@ TelegraphSpeeds=-5,0,5,10,15,20,32
 AccelerationRate=0.22
 DecelerationRate=0.10
 RudderTurnRate=0.5
-TurnRate=0.5
+TurnRate=0.65
 PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
@@ -37,7 +37,8 @@ TowedArrayModel=usn_sqr_19
 AnechoicCoating=FALSE
 RADAR=usn_spy_1a
 RADARSignature=SMALL
-TowedArrayPosition=-0.03,0.02,-1.0562134
+TowedArrayPosition=-0.01588,0.0551,-1.269
+TowedArraySettings=4,0.0018,456,0.035,true,998.52,0.75,25
 
 [Weapon Systems]
 NavalGuns=usn_mark_45_shell,usn_mark_45_shell
@@ -48,7 +49,7 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
 TorpedoTypes=usn_mk46_mod_5
-TorpedoNumbers=6
+TorpedoNumbers=36
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=324
@@ -304,8 +305,8 @@ Mesh=netting
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
-MeshHullCollider=uk_cg_ticonderoga_collider_hull
-MeshSuperstructureCollider=uk_cg_ticonderoga_collider_ss
+MeshHullCollider=usn_cg_ticonderoga_collider_hull
+MeshSuperstructureCollider=usn_cg_ticonderoga_collider_ss
 
 Material=assets/materials/usn_84_cg_ticonderoga_tx.mat
 
@@ -373,13 +374,13 @@ ParticleBowWavePosition=0,-0.2,1.1237866
 ParticlePropWashPosition=0,-0.005,-1.34
 
 ParticleHullFoamPosition=0,0,0.866
-ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=188.56,0.3192,0.22344,0.004788,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=150.85,0.2352,0.16464,0.0030576,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.75,3.93
 
 EngineAudioClip=audio/units/turbine_small

@@ -9,6 +9,10 @@ Displacement=7930
 Crew=477
 Range=6000
 HullNumbers=usn_027,usn_028,usn_029,usn_030,usn_031,usn_032,usn_033,usn_034
+AircraftNumbers=1
+AircraftTypes=usn_sh-2f
+AircraftSpawnPoints=0,0.12,-0.69
+AircraftTransitionPoints=-0.6,0.7,-0.9
 
 [Movement]
 SurfaceSpeed=32
@@ -63,7 +67,6 @@ VLSMaxDepthToFire=300
 VLSMaxSpeedToFire=40
 
 [Defenses]
-
 Anti-MissileGunHitProbability=0.025
 Anti-MissileGunRange=3300
 Anti-MissileGunFiringArcStart=-179,25
@@ -187,15 +190,6 @@ MeshRotation=-5,0,0
 MeshPosition=0.0485,-0.0675,-1.0745
 MeshProp=usn_cg_belknap_prop_r
 
-//Deck Props
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-Material=aircraft/usn_sh-2f/usn_sh-2f_mat
-MaterialTextures=aircraft/usn_sh-2f/usn_sh-2f_tx,aircraft/usn_sh-2f/usn_sh-2f_spec,aircraft/usn_sh-2f/usn_sh-2f_nm
-Mesh=usn_cg_belknap_airwing
-Material=ships/materials/seasprite_shadow
-Mesh=usn_cg_belknap_airwing_shadow
-
 //RADARs
 RADARDirection=1
 MeshRotation=0,0,0
@@ -263,7 +257,6 @@ TorpedoEffectPosition=0.101,0.119,0.034
 MeshPosition=0.105,0.112,0.032
 TorpedoSpawnPosition=0.105,0.112,0.032
 TorpedoEffectPosition=0.105,0.112,0.032
-
 
 //VLS
 MeshRotation=-15,0,0
@@ -333,13 +326,13 @@ ParticleBowWavePosition=0,0.05,1.15
 ParticlePropWashPosition=0,-0.00685,-1.075
 
 ParticleHullFoamPosition=0,0,0.866
-ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=169.62,0.3192,0.22344,0.004788,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=135.69,0.2352,0.16464,0.0030576,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.1,4.0
 
 EngineAudioClip=audio/units/turbine_small

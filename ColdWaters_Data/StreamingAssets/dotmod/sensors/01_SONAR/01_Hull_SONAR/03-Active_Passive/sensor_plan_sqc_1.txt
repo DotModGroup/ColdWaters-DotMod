@@ -1,0 +1,8 @@
+SonarModel=plan_sqc_1
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=28
+SonarPassiveSensitivity=37
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=230

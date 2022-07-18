@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=LARGE
 
 [Model]
@@ -81,9 +81,9 @@ MeshSternWake=wp_vtr_amguema_sternwake
 ParticleBowWavePosition=0,0,0.873
 ParticlePropWashPosition=0,-0.069,-0.815
 ParticleHullFoamPosition=0,0,0.509
-ParticleHullFoamParameters=10,0.35,0.35,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-1.087
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/oilrig

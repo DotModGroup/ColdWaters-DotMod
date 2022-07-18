@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Wessex HAS.3
+AircraftDescriptiveName=Westland Wessex HAS.3 (Early)
+History=The Westland Wessex is a licence built development of the  Sikorsky H-34, fitted with a turbine engine rather than the original radial piston engine. The Wessex was initially produced for the Royal Navy and was operated as an anti-submarine warfare and utility helicopter. The type entered operational service in 1961, and had a service life in excess of 40 years before being retired in Britain.

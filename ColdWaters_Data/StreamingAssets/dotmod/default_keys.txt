@@ -7,6 +7,8 @@ Decrease Depth Precise=LeftShift+PageUp
 Increase Depth Quick=LeftControl+PageDown
 Decrease Depth Quick=LeftControl+PageUp
 Toggle Towed=Backspace
+Toggle Towed Decoy Long = LeftShift+Backspace
+Toggle Towed Decoy Short = LeftControl+Backspace
 Previous Contact=Y
 Previous Tube=G
 Stop Time Compression=F11
@@ -108,3 +110,6 @@ Museum Previous=A
 
 Continue=Space
 Cancel or Quit=Escape
+
+Aircraft Navigate=LeftControl+H
+Aircraft Attack=LeftControl+Space

@@ -1,0 +1,8 @@
+SonarModel=aus_tst
+SonarType=TOWED
+SonarFrequencies=VL,L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=54
+SonarBaffle=FALSE
+SonarNoisePerKnot=2
+SonarOutput=0

@@ -1,6 +1,6 @@
 Designation=SSBN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=170
 Beam=13
@@ -38,7 +38,7 @@ TowedArrayModel=usn_tb_23
 AnechoicCoating=FALSE
 RADAR=usn_bps_15A
 RADARSignature=SMALL
-TowedArrayPosition=-0.1222712000,-0.0000000347,-1.2376670000
+TowedArrayPosition=-0.0975,-0.0,-0.875
 
 [Weapon Systems]
 TorpedoTypes=uk_tigerfish,uk_mk8mod4,usn_moss,usn_ugm84
@@ -49,7 +49,7 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533
 TubeReloadTime=45
 
-VLSTorpedoTypes=usn_trident_1
+VLSTorpedoTypes=uk_polaris_a3
 VLSTorpedoNumbers=24
 VLSMaxDepthToFire=105
 VLSMaxSpeedToFire=10
@@ -118,7 +118,7 @@ ModelFile=assets/models/dotmod_uk_ssbn_resolution.fbx
 MeshPosition=0.0000000000,0.0000000000,0.0000000000
 MeshRotation=0.0000000000,0.0000000000,0.0000000000
 
-Material=assets/materials/uk_84_ssbn_resollution.mat
+Material=assets/materials/uk_84_ssbn_resolution.mat
 
 MeshHullCollider=dotmod_uk_ssbn_resolution_coll_hull
 MeshSuperstructureCollider=dotmod_uk_ssbn_resolution_coll_ss
@@ -212,13 +212,13 @@ ParticleBowWavePosition=0,0,-0.9
 ParticlePropWashPosition=0,-0.065,0.92
 
 ParticleHullFoamPosition=0,0,0.68
-ParticleHullFoamParameters=25,0.4875,0.1950,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.35
-ParticleAftFoamParameters=161.15,0.325,0.2275,0.004225,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=128.92,0.195,0.1365,0.0024375,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.8,3.38
 
 EngineAudioClip=audio/units/submarine_engine_3

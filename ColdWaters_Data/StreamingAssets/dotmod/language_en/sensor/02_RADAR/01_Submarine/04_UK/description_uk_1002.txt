@@ -1,0 +1,1 @@
+uk_1002=Type 1002=This is a British X-band surface-search radar mounted on the Oberon-class submarine.

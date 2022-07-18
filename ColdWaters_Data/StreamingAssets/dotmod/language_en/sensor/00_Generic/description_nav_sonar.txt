@@ -1,0 +1,1 @@
+nav_sonar=Navigation SONAR=Generic navigation sonar for player ships which do not carry a sonar system.

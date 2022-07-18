@@ -1,0 +1,1 @@
+wp_mgk-600=MGK-600 "Amphora"=Little is known about this integrated spherical sonar suite that equips russian next-generation boats such as the Yasen-class.="Amphora"

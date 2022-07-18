@@ -1,0 +1,1 @@
+uk_2076_towed=Sonar Type 2076=Sonar 2076 is a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.

@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Adelaide
+Description=Adelaide-class frigate
+Aircraft=2 Sikorsky S-70B Seahawk
+History=The Adelaide class was a ship class of six guided missile frigates constructed in Australia and the United States of America for service in the Royal Australian Navy. The class was based on the United States Navy's Oliver Hazard Perry-class frigates, but modified for Australian requirements. The first four vessels were built in the United States, with the final two being constructed in Australia. They could also provide air defense against and anti-ship missiles. These warships are equipped to escort and protect aircraft carrier battle groups, amphibious landing groups, underway replenishment groups, and merchant ship convoys.

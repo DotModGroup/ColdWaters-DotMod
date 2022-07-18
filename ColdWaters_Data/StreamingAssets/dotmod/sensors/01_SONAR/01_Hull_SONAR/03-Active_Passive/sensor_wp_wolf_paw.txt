@@ -1,0 +1,8 @@
+SonarModel=wp_wolf_paw
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=22
+SonarPassiveSensitivity=22
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=210

@@ -1,0 +1,8 @@
+SonarModel=usn_sqr_18
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=44
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=0

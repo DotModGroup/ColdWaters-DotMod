@@ -1,9 +1,9 @@
 //Player mission
-//Small
+//Occupied SSK
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL,DDG,CGN
-AllowedOnlyForCostBelow=200
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-2,1-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE
-EnemyShipClasses=uk_68_ss_oberon|knm_84_ss_kobben,uk_68_ss_oberon|knm_84_ss_kobben
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=nato_all_ssk
 EventWin=SPECOPS_win
 EventFail=SPECOPS_fail

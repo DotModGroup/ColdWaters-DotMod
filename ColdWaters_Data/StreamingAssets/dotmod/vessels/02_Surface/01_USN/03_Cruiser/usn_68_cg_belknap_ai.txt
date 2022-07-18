@@ -9,7 +9,7 @@ Crew=477
 Range=6000
 HullNumbers=usn_027,usn_028,usn_029,usn_030,usn_031,usn_032,usn_033,usn_034
 AircraftNumbers=1
-AircraftTypes=usn_sh-2f
+AircraftTypes=usn_sh-2f_68
 
 [Movement]
 SurfaceSpeed=32
@@ -209,13 +209,13 @@ ParticleBowWavePosition=0,0.05,1.15
 ParticlePropWashPosition=0,-0.00685,-1.075
 
 ParticleHullFoamPosition=0,0,0.866
-ParticleHullFoamParameters=53.76,0.168,0.3108,0.0420,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=169.62,0.3192,0.22344,0.004788,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=135.69,0.2352,0.16464,0.0030576,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.1,4.0
 
 EngineAudioClip=audio/units/turbine_small

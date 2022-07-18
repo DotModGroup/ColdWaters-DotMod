@@ -2,3 +2,7 @@
 ShipClass=Delta IV
 Description=Delta IV-class Nuclear Ballistic Missile Submarine
 History=Although externally similar to the earlier Delta-class boats, this is largely an entirely new, third-generation submarine design. These submarines are larger, carry a larger missile, and have enhanced quieting features compared to earlier classes. In addition, they are also designed to operate under and surface through ice, making them difficult to find should they be allowed to transit to their operating areas.
+
+[Player Ship Instances]
+PlayerClassNames=Verkhoturye,Ekaterinburg,Podmoskovye,Tula,Bryansk,Karelia,Novomoskovsk
+PlayerClassHullNumbers=K-51,K-84,K-64,K-114,K-117,K-18,K-407

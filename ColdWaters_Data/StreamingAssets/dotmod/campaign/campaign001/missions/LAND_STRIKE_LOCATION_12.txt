@@ -7,7 +7,7 @@ MapElevationData=oparea_norwegiansea_bathymetry
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE 
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_all_small_escorts,wp_all_small_escorts,wp_ssk_threats,wp_cargo|civ_fv_trawler_2,wp_cargo|civ_fv_trawler_2,wp_cargo|civ_fv_trawler_2,wp_all_capital_ships,wp_cargo
+EnemyShipClasses=wp_all_small_escorts,wp_all_small_escorts,wp_ssk_threats,wp_cargo|civ_all_trawlers,wp_cargo|civ_all_trawlers,wp_cargo|civ_all_trawlers,wp_all_capital_ships,wp_cargo|wp_all_ssbn
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

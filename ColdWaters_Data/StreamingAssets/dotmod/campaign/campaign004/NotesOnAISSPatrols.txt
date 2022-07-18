@@ -1,0 +1,13 @@
+AI SSK patrol notes
+0: KNM NwCst | From Norway
+1: UK GIUK | From UK
+2: NATO NwSea | From EU
+3: NATO NrthSea | From EU
+
+AI SSN patrol notes
+0: NATO NwSea | From EU
+1: USN GIUK | From any USN port
+2: USN NwSea | From any USN port
+3: USN/UK Polar | From UK
+4: USN Mid-Atlantic | From USA
+5: UK GIUK | From UK

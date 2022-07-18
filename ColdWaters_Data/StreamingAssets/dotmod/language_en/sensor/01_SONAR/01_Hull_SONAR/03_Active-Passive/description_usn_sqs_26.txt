@@ -1,0 +1,1 @@
+usn_sqs_26=SQS-26=This is a very powerful low-frequency array introduced by the US Navy in the 1960's, intended for convergence zone operation.

@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -121,9 +121,9 @@ MeshSternWake=civ_ms_mercur_sternwake
 ParticleBowWavePosition=0,0,1.155
 ParticlePropWashPosition=0,-0.091,-1.064
 ParticleHullFoamPosition=0,0,0.482
-ParticleHullFoamParameters=400,0.35,0.35,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-1.28
-ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.4,4.2
 
 EngineAudioClip=audio/units/diesel_large

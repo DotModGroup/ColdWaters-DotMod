@@ -1,0 +1,8 @@
+SonarModel=usn_sqs_23
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=24
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220

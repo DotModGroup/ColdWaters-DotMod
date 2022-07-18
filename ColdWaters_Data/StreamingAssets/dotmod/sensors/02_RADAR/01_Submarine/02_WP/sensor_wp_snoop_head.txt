@@ -1,0 +1,2 @@
+RADARModel=wp_snoop_head
+RADARRange=40500

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=RIM-156A
+WeaponDescriptiveName=RIM-156A Standard Missile 2 ER
+WeaponDescription=Special: Surface-to-Air & Anti-Ship Missile\n\nThe RIM-156 Standard (SM-2ER Block IV) is the VLS version of the RIM-67 Standard ER. Initial designated the RIM-67E, it is the last Block of the RIM-67 Standard Missile family 2. The RIM-156A uses a completely new MK 72 booster, which is significantly shorter than the original SM-2ER booster, has no fins, and uses thrust-vectoring control. The missile itself is also improved, featuring guidance and control modifications, including an upgraded MK 45 MOD 10 TDD (Target Detection Device), for improved performance against high-performance, low-RCS threats in severe ECM environments.

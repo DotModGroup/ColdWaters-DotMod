@@ -1,0 +1,1 @@
+uk_2074_towed=Sonar Type 2074=Sonar 2074 was a long-range, active/passive, multi-function suite using HF, LF and FM frequencies across a range of sonars arrays: bow, flank arrays, reelable towed array, and a clip on towed array.

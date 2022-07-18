@@ -1,0 +1,1 @@
+aus_tst=SHORT-TAS=Thales SHORT-TAS towed sonar array.

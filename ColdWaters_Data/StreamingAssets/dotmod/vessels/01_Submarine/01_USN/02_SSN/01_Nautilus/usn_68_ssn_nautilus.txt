@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=98
 Beam=8.5
@@ -39,7 +39,6 @@ TowedArrayModel=FALSE
 AnechoicCoating=FALSE
 RADAR=usn_bps_12
 RADARSignature=SMALL
-//TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
 TorpedoTypes=usn_mk37_mod2,usn_mk16,usn_mk45
@@ -215,13 +214,13 @@ ParticleBowWavePosition=0,0,0.72
 ParticlePropWashPosition=0,-0.035,-0.7271934
 
 ParticleHullFoamPosition=0,0,0.35
-ParticleHullFoamParameters=25,0.31875,0.1275,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-0.7
-ParticleAftFoamParameters=88.13,0.2125,0.14875,0.0027625,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=70.5,0.1275,0.08925,0.00159375,0.0,0,3.00
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.5245,1.87
 
 EngineAudioClip=audio/units/submarine_engine_2

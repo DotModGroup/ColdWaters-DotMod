@@ -1,5 +1,5 @@
 //Player mission
-//S-10Missile (wp_84_ssn_akula1)
+//S-10 Missile (wp_84_ssn_akula1)
 MissionType=LAND_STRIKE
 AllowedOnlyFor=
 ForbiddenFor=

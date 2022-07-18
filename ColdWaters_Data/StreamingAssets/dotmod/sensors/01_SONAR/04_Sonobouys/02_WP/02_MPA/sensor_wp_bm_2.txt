@@ -1,0 +1,8 @@
+SonarModel=wp_bm_2
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=20
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=0

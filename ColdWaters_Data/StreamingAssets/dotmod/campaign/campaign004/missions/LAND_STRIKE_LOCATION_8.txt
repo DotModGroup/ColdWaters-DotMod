@@ -9,36 +9,40 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=knm_84_ffg_oslo|usn_84_ffg_perry_ai,usn_84_ff_knox_ai|knm_84_cgv_nordkapp|usn_84_ffg_perry_ai,nato_ms_small_freighter,usn_68_ap_freighter_a|usn_84_ap_super_p|usn_84_ap_roro|usn_84_cg_belknap_ai,usn_68_ap_freighter_a|usn_84_ap_roro|usn_84_ap_super_p,civ_ms_encounter|usn_68_ap_freighter_a,usn_84_ff_knox_ai
+EnemyShipClasses=knm_all_escorts,nato_all_asw_escorts,civ_trawlers,usn_cargo|nato_seagoing_aaw_escorts,nato_cargo,nato_cargo,nato_seagoing_asw_escorts
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
-UsePresetPositions=TRUE
-PlayerPosition=-950,220
+UsePresetPositions=FALSE
+PlayerPosition=-950,-210
 PlayerHeading=90
 
 //AI Nav Waypoints
-//Array of Vector 2 positions
-//Must be enough for maximum number of enemy ships
 //Fjord Patrol
-EnemyWaypoints=-700,490|-890,465|-885,475|700,490
-//Center Patrol 2
-EnemyWaypoints=-800,430|-1200,310
+EnemyWaypoints=-400,-10|-590,-35|-585,-25|400,-10
+
+//Center Patrol
+EnemyWaypoints=-800,-70|-1200,-190
+
 //Trawler
-EnemyWaypoints=-960,350|-980,250|-970,288
-//Shipping
-EnemyWaypoints=-1000,404|-400,477|-200,493|150,460
-//Shipping2
-EnemyWaypoints=-1300,404|-400,475|-200,491|160,465
-//Shipping3
-EnemyWaypoints=-1300,408|-400,473|-200,494|170,455
-//Outer Knox
-EnemyWaypoints=-1500,100|-1400,466|-1650,400
+EnemyWaypoints=-960,-150|-980,-250|-970,-212
+
+//Traffic 1
+EnemyWaypoints=-1000,-96|-400,-23|-200,-7|150,-40
+
+//Traffic 2
+EnemyWaypoints=-1300,-94|-400,-25|-200,-9|160,-35
+
+//Traffic 3
+EnemyWaypoints=-1300,-92|-400,-27|-200,-6|170,-45
+
+//Outer Patrol
+EnemyWaypoints=-1500,-400|-1400,-34|-1650,-100
 
 //MissionPosition=-950,300
 
 //Enemy Aircraft
-NumberOfHelicopters=2
+NumberOfHelicopters=1
 HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=usn_p3c

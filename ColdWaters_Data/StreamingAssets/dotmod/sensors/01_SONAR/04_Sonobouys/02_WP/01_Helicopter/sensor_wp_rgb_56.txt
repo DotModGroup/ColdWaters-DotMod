@@ -1,0 +1,8 @@
+SonarModel=wp_rgb_56
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=21
+SonarPassiveSensitivity=0
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200

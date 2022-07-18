@@ -1,0 +1,1 @@
+usn_sqs_23=SQS-23=The SQS-23 was a long range, azimuth-scanning type of search and attack sonar used for search, search-analyze, attack-RDT, attack-SDT and hand-key applications.

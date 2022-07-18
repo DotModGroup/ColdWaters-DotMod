@@ -376,13 +376,13 @@ ParticleBowWavePosition=0,0,1.63
 ParticlePropWashPosition=0,-0.015,-1.71
 
 ParticleHullFoamPosition=0,0,1.45
-ParticleHullFoamParameters=65,0.28,0.518,0.070,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=191.23,0.532,0.3724,0.00798,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=152.99,0.392,0.2744,0.005096,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=5.7,5.7
 
 EngineAudioClip=audio/units/kirov

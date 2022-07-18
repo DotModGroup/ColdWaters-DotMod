@@ -8,8 +8,8 @@ Displacement=100000
 Crew=5680
 Range=20000
 HullNumbers=Nm_68.png,Nm_69.png,Nm_70.png
-AircraftNumbers=1,1
-AircraftTypes=usn_sh60b
+AircraftNumbers=1
+AircraftTypes=usn_sh-2f
 
 [Movement]
 SurfaceSpeed=30
@@ -271,9 +271,9 @@ MeshSternWake=plan_ap_qiongsha_sternwake
 ParticleBowWavePosition=0,0,2.35
 ParticlePropWashPosition=0,-0.056,-2.2
 ParticleHullFoamPosition=0,0,1.95
-ParticleHullFoamParameters=500,0.55,0.45,0.008,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-2.5
-ParticleSternFoamParameters=400,0.35,0.28,0.006,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=6.5,9.0
 
 [Audio]

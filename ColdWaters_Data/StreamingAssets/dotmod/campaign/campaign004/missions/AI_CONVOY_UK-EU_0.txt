@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2,1-2,0-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,TRUE,TRUE
-EnemyShipClasses=usn_84_ff_knox_ai|usn_84_ffg_perry_ai|uk_84_ffg_type21,usn_84_fss_algol|usn_68_ap_freighter_a|usn_84_ap_super_p,usn_84_ap_super_p
+EnemyShipClasses=nato_all_asw_escorts,nato_cargo,usn_landing

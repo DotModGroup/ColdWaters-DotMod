@@ -1,0 +1,1 @@
+wp_wet_eye=Wet Eye=Airborne pulse doppler panoramic surface search set optimized for ASW. Integrated ASW suite for Il-38 and early Tu-142 (Mod 1).

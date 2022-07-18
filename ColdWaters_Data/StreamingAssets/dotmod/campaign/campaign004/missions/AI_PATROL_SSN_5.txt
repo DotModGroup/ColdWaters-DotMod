@@ -1,8 +1,8 @@
 //AI mission
-//UK patrol
+//UK GIUK Patrol
 MissionType=AI_PATROL_SSN
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL
+ForbiddenFor=
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=24,48
@@ -11,10 +11,10 @@ StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
 Speed=10
-MustUseWaypoints=EC1,CS1,WA2,WA1,IG6,NC4,NS1,NS2
+MustUseWaypoints=CS1,WA2,IG7,IG4,IG3,IG2,IG1,NC4
 UseAtLeastOneWaypointOf=
-ProhibitedWaypoints=
-PatrolForHours=4,6
+ProhibitedWaypoints=P1,P2,N2,NS1,A1
+PatrolForHours=12,24
 StrategicValue=5
 MissionEndsWhen=RETURN_HOME
 MapBehaviour=OFFENSIVE
@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=uk_84_ssn_trafalgar
+EnemyShipClasses=uk_all_ssn

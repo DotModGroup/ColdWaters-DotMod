@@ -10,8 +10,8 @@ Range=10000
 HullNumbers=FALSE
 
 [Movement]
-SurfaceSpeed=22
-SubmergedSpeed=26
+SurfaceSpeed=14
+SubmergedSpeed=25
 AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
@@ -25,9 +25,9 @@ SubmergedAt=0.25
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
 TestDepth=1900
+PeriscopeDepthInFeet=60
 
 [Acoustics & Sensors]
-//SelfNoise=130
 SelfNoise=124
 ActiveSonarReflection=35
 ActiveSonarModel=wp_mgk-500
@@ -36,22 +36,85 @@ TowedArrayModel=wp_mgk-500_ta
 AnechoicCoating=TRUE
 RADAR=wp_mrkp-58
 RADARSignature=SMALL
+TowedArrayPosition=-0.1647,-0.009,-1.235
 
 [Weapon Systems]
-TorpedoTypes=wp_uset-80
-TorpedoNumbers=10,2
-TorpedoTubes=4
-TubeConfig=1,1,1,1
-TorpedoTubeSize=21
+TorpedoTypes=wp_uset-80,wp_test-71m,wp_rpk-6,wp_moss_mg-74
+TorpedoNumbers=10,6,2,4
+TorpedoTubes=6
+NumberOfWires=4
+TubeConfig=1,1,1,1,1,1
+TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=30
-NoisemakerName=wp_noisemaker
-NumberOfNoisemakers=40
-NoisemakerReloadTime=10
 
 MissileType=wp_rpk-6
 MissilesPerLauncher=3,3
 
+NoisemakerName=wp_noisemaker
+NumberOfNoisemakers=40
+NoisemakerReloadTime=10
+
+AntiAirMissileType=wp_igla
+AntiAirMissilesNumbers=12
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=12
+AntiAirMissileLaunchPoints=0,0.2,0.021
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
+[Subsystems]
+LabelPosition=364.3,28
+BOWSONAR=FRONT
+LabelPosition=59.9,193.2
+TOWED=REAR
+LabelPosition=409.7,193.3
+PERISCOPE=SAIL
+LabelPosition=409.7,151.4
+ESM_MAST=SAIL
+LabelPosition=409.7,171.9
+RADAR_MAST=SAIL
+LabelPosition=364.3,49.4
+TUBES=FRONT
+LabelPosition=229.6,193.2
+FIRECONTROL=FORE
+LabelPosition=229.6,172.2
+PUMPS=AFT
+LabelPosition=59.9,27.7
+PROPULSION=AFT
+LabelPosition=59.9,172.2
+RUDDER=REAR
+LabelPosition=59.9,48.7
+PLANES=REAR
+LabelPosition=190.8,28    
+BALLAST=AFT
+LabelPosition=190.8,49 
+REACTOR=MID
+
+[Flooding Display: x,width,ymin,ymax]
+FLOODING1=200,90,-79,-38
+FLOODING2=134,42,-79,-37
+FLOODING3=-61,41,-79,-38
+FLOODING4=-100,35,-79,-38
+FLOODING5=-155,75,-79,-37
+DamageControlPartyY=-31
+MinCameraDistance=2.0
+
 [Model]
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/materials/wp_masts
+
+MeshPosition=0.0189,0.15,0.021
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_periscope
+
+MeshPosition=0.01305,0.15,-0.1845
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_esm
+
+MeshPosition=0,0.15,-0.135
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_radar
+
 ModelFile=ships/wp_ssbn_typhoon/wp_ssbn_typhoon
 
 //Hull and Deck
@@ -79,46 +142,53 @@ MeshProp=wp_ssbn_typhoon_prop_r
 
 [Weapon Systems]
 //Torpedo Mounts
-
 //Tube 1
 MeshRotation=0,0,0
-MeshPosition=0.015,0.053,1.26
-MeshMissileMount=FALSE
-//TorpedoSpawnPosition=0.0148,0.053,1.26
-//TorpedoEffectPosition=0,0,0.0232
-MissileEffectPosition=0,0,0.0232
-
-//Tube 2
-MeshRotation=0,0,0
 MeshPosition=-0.015,0.053,1.26
-MeshMissileMount=FALSE
-//TorpedoSpawnPosition=-0.0148,0.053,1.26
-//TorpedoEffectPosition=0,0,0.0232
-MissileEffectPosition=0,0,0.0232
-
-//Tube 3
-MeshRotation=0,0,0
-MeshPosition=0.015,0.0336,1.27
-TorpedoSpawnPosition=0.015,0.0336,1.27
+TorpedoSpawnPosition=-0.0148,0.053,1.26
 TorpedoEffectPosition=0,0,0.0232
 
-//Tube 4
+//Tube 2
 MeshRotation=0,0,0
 MeshPosition=-0.015,0.0336,1.27
 TorpedoSpawnPosition=-0.015,0.0336,1.27
 TorpedoEffectPosition=0,0,0.0232
 
+//Tube 3
+MeshRotation=0,0,0
+MeshPosition=-0.015,0.0151,1.28
+TorpedoSpawnPosition=-0.015,0.0151,1.28
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 4
+MeshRotation=0,0,0
+MeshPosition=0.015,0.053,1.26
+TorpedoSpawnPosition=0.0148,0.053,1.26
+TorpedoEffectPosition=0,0,0.0232
+
 //Tube 5
+MeshRotation=0,0,0
+MeshPosition=0.015,0.0336,1.27
+TorpedoSpawnPosition=0.015,0.0336,1.27
+TorpedoEffectPosition=0,0,0.0232
+
+//Tube 6
 MeshRotation=0,0,0
 MeshPosition=0.015,0.0151,1.28
 TorpedoSpawnPosition=0.015,0.0151,1.28
 TorpedoEffectPosition=0,0,0.0232
 
-//Tube 6
+//Missile Tube 1
 MeshRotation=0,0,0
-MeshPosition=-0.015,0.0151,1.28
-TorpedoSpawnPosition=-0.015,0.0151,1.28
-TorpedoEffectPosition=0,0,0.0232
+MeshPosition=-0.015,0.053,1.26
+MeshMissileMount=FALSE
+MissileEffectPosition=0,0,0.0232
+
+//Missile Tube 2
+MeshRotation=0,0,0
+MeshPosition=0.015,0.053,1.26
+MeshMissileMount=FALSE
+MissileEffectPosition=0,0,0.0232
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -137,10 +207,10 @@ ParticleBowWavePosition=0,0,1.312
 ParticlePropWashPosition=0,-0.086,-1.207
 
 ParticleHullFoamPosition=0,0,0.99
-ParticleHullFoamParameters=10,0.55,0.3,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-1.07
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.43,4.43
 
 EngineAudioClip=audio/units/submarine_engine_3

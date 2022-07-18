@@ -93,7 +93,7 @@ MeshSuperstructureCollider=uk_ffg_type21_coll_ss
 Material=ships/materials/hullnumbers/hullnumber
 MeshHullNumber=uk_ffg_type21_hullnumbers
 
-Material=assets/materials/uk_ffg_type21_hull.mat
+Material=assets/materials/uk_ffg_type21.mat
 Mesh=uk_ffg_type21_hull
 
 //Rudders
@@ -113,7 +113,6 @@ MeshProp=uk_ffg_type21_propr
 //Superstructure
 MeshPosition=0,0,0
 MeshRotation=0,0,0
-Material=assets/materials/uk_ffg_type21_superstructure.mat
 Mesh=uk_ffg_type21_superstructure
 
 MeshPosition=0,0,0
@@ -134,6 +133,9 @@ MeshRotation=0,0,0
 //Railings
 Material=assets/materials/uk_ffg_type21_railings.mat
 Mesh=uk_ffg_type21_railings
+
+Material=assets/materials/uk_ffg_type21_netting.mat
+Mesh=uk_ffg_type21_netting
 
 AssetBundle=bundles/parts/uk_parts.unity3d
 
@@ -178,7 +180,7 @@ RADARSpeed=80
 MeshPosition=0.0197,0.4394,0.1361
 ModelFile=assets/models/uk_parts_type992.fbx
 Material=assets/materials/uk_parts_type992.mat
-MeshRADAR=uk_parts_type992
+MeshRADAR=uk_parts_rt992q
 
 [Weapon Systems]
 //Naval Guns
@@ -277,9 +279,9 @@ MeshSternWake=wp_bpk_kanin_sternwake
 ParticleBowWavePosition=0,-0.075,0.877
 ParticlePropWashPosition=0,-0.044,-0.756
 ParticleHullFoamPosition=0,0,0.39
-ParticleHullFoamParameters=200,0.35,0.35,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.767
-ParticleSternFoamParameters=160,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 //Load Damage Meshes

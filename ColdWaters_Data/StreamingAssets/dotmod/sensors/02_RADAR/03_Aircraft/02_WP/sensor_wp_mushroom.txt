@@ -1,0 +1,2 @@
+RADARModel=wp_mushroom
+RADARRange=90000

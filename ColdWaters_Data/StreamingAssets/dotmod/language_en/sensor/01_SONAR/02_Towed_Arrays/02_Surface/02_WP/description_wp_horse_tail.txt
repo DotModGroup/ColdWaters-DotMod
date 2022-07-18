@@ -1,0 +1,1 @@
+wp_horse_tail=Horse Tail=Larger and much more capable than Mare Tail, Horse Tail is a towed low frequency variable depth sonar (VDS) which equips the Kirov and Udaloy classes where it gives these ships the ability to search beneath the layer for considerable distances.

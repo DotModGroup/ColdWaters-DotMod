@@ -2,8 +2,8 @@
 //Small enemy liberation
 MissionType=LANDING_FORCE
 AllowedOnlyFor=
-ForbiddenFor=SSB,DD,FF,FFG
-AllowedOnlyForCostBelow=400
+ForbiddenFor=FF,FFG,DD
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
@@ -25,7 +25,7 @@ RequiresStealth=
 RequiresWeapon=
 NumberOfEnemyUnits=0-1,1-2,1-2,1-1
 CombatBehaviour=DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE,TRUE,TRUE
-EnemyShipClasses=usn_84_cg_belknap_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ap_roro|usn_68_ap_freighter_a|usn_84_ap_super_p|usn_84_ap_act_1,usn_84_lst_lander
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=nato_seagoing_aaw_escorts,nato_seagoing_asw_escorts,usn_landing,usn_cargo
 EventWin=LANDING_FORCE_occ_win
 EventFail=LANDING_FORCE_fail

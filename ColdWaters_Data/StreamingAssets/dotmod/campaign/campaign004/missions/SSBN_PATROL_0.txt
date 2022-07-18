@@ -1,7 +1,7 @@
 //Last mission
 MissionType=SSBN_PATROL
 HoursToStart=12,48
-StartLocation=NAVAL_BASE
+StartLocation=UK_NAVAL
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
@@ -18,7 +18,7 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-1,1-4
+NumberOfEnemyUnits=1-1,0-2
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=usn_84_ssbn_ohio,usn_84_ssn_los_angeles|usn_84_ssn_narwhal|usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack
+EnemyShipClasses=nato_all_ssbn,nato_new_ssn

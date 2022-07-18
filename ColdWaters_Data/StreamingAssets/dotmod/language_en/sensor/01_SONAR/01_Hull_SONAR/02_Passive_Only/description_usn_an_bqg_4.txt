@@ -1,0 +1,1 @@
+usn_an_bqg_4=AN/BQG-4=This sonar set formed the main hardware component of the PUFFS (Passive Underwater Fire Control Feasibility System) passive-ranging system. While the system was  failure due to technical limitations, the system was still more sensitive than the BQR-2, if more prone to flow noise due to its positioning outside of the hull in three shark-fin shaped pods.

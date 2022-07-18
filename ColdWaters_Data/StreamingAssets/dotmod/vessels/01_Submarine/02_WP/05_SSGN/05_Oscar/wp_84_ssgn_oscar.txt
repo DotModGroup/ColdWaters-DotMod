@@ -242,13 +242,13 @@ ParticleBowWavePosition=0,0,1.08
 ParticlePropWashPosition=0,-0.0545,-1.12
 
 ParticleHullFoamPosition=0,0,0.75
-ParticleHullFoamParameters=25,0.6825,0.273,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.0
-ParticleAftFoamParameters=111.26,0.455,0.3185,0.005915,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=89.01,0.273,0.1911,0.0034125,0.0,0,3.00
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.6,3.95
 
 EngineAudioClip=audio/units/submarine_engine_3

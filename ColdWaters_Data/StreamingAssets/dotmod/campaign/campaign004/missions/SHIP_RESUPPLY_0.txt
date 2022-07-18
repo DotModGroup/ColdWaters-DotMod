@@ -2,8 +2,8 @@
 //Small
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
-ForbiddenFor=FF,SSB,SSBN,DD
-AllowedOnlyForCostBelow=390
+ForbiddenFor=FF,FFG,DD
+AllowedOnlyForCostBelow=180
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
@@ -24,8 +24,8 @@ InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
 NumberOfEnemyUnits=1-1,0-1,1-1,0-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE,TRUE,FALSE
-EnemyShipClasses=knm_84_ffg_oslo,usn_84_ap_super_p|nato_ms_small_freighter,usn_84_aor_oiler,knm_84_cgv_nordkapp|knm_84_ffg_oslo
+CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=nato_all_asw_escorts,usn_cargo|nato_cargo,usn_surface_unrep,nato_all_aaw_escorts
 EventWin=SHIP_RESUPPLY_win
 EventFail=SHIP_RESUPPLY_fail

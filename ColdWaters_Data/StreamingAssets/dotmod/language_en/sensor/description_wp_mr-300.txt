@@ -1,0 +1,1 @@
+wp_mr-300=МR-300 "Angara"=The MR-300 "Angara" general detection radar, a decimeter wave range, made it possible to detect and determine the range and direction to a surface or air target ("range-azimuth" or "range-angle of location") and transmit this data to the system of universal artillery firing control devices.

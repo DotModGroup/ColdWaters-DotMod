@@ -1,0 +1,8 @@
+SonarModel=wp_elk_tail
+SonarType=DIPPING
+SonarFrequencies=H
+SonarActiveSensitivity=21
+SonarPassiveSensitivity=21
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200

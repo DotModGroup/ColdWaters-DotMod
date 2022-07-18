@@ -1,0 +1,8 @@
+SonarModel=wp_mars
+SonarType=PASSIVE
+SonarFrequencies=H
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=28
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=0

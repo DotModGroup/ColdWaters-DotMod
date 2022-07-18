@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -117,9 +117,9 @@ MeshSternWake=wp_vtr_andizhan_sternwake
 ParticleBowWavePosition=0,0,0.6855
 ParticlePropWashPosition=0,-0.073,-0.662
 ParticleHullFoamPosition=0,0,0.42
-ParticleHullFoamParameters=300,0.35,0.25,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.466
-ParticleSternFoamParameters=240,0.25,0.15,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.5,2.5
 
 EngineAudioClip=audio/units/diesel_small

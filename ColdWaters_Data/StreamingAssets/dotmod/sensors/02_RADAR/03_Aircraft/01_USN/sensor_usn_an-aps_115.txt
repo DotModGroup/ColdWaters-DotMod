@@ -1,0 +1,2 @@
+RADARModel=usn_an-aps_115
+RADARRange=173000

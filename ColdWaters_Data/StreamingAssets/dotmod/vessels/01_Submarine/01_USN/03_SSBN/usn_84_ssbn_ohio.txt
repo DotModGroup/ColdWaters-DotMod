@@ -1,6 +1,6 @@
 Designation=SSBN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=170
 Beam=13
@@ -43,7 +43,7 @@ TowedArrayPosition=-0.1222712000,-0.0000000347,-1.2376670000
 
 [Weapon Systems]
 TorpedoTypes=usn_mk48,usn_moss
-TorpedoNumbers=8,2
+TorpedoNumbers=22,2
 TorpedoTubes=5
 NumberOfWires=4
 TubeConfig=1,1,1,1,1
@@ -213,13 +213,13 @@ ParticleBowWavePosition=0,-9,1.05
 ParticlePropWashPosition=0,0,-1.318
 
 ParticleHullFoamPosition=0,0,0.8
-ParticleHullFoamParameters=25,0.4875,0.1950,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.35
-ParticleAftFoamParameters=161.15,0.325,0.2275,0.004225,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=128.92,0.195,0.1365,0.0024375,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 
 KelvinWaves=4.5,4.2
 

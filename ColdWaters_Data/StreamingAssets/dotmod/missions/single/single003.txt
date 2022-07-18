@@ -33,58 +33,13 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=2-4
 CombatBehaviour=OFFENSIVE
 //EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=wp_84_ss_kilo|wp_84_ss_tango|wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ss_whiskey
+EnemyShipClasses=wp_84_ss_kilo|wp_84_ss_tango|wp_68_ss_foxtrot|wp_68_ss_romeo|wp_68_ss_zulu|wp_68_ss_whiskey|wp_68_ssg_juliet
 //Ship positions and headings, otherwise build into a formation
 UsePresetPositions=FALSE
 PlayerPosition=-328,-308
 PlayerHeading=90
 
-//AI Nav Waypoints
-//Array of Vector 2 positions
-//EnemyWaypoints=0,-100|0,100
-//EnemyWaypoints=2,-100|2,100
-//Trawler 1
-EnemyWaypoints=-278,-247|-306,-248|-299,-279
 
-//Trawler 2
-EnemyWaypoints=-154,-400|-187,-401|-172,-374
-
-//Trawler 3
-EnemyWaypoints=-313,-321|-334,-353|-307,-359
-
-//Corvette 1
-EnemyWaypoints=-262,-290|-298,-387
-
-//Corvette 2
-EnemyWaypoints=-145,-373|-243,-348
-
-//Merchant 1
-EnemyWaypoints=-230,-371|-327,-467
-
-//Merchant 2
-EnemyWaypoints=-317,-397|-262,-246
-
-//Merchant 3
-EnemyWaypoints=-271,-315|-196,-360
-
-//Enemy Aircraft
-NumberOfHelicopters=2
-HelicopterType=wp_helix
-NumberOfAircraft=1
-AircraftType=wp_il-38_may
-
-//Aircraft Search Areas
-//Define a point and radius
-AircraftSearchArea=-376,-225,200
-AircraftSearchArea=-451,-467,200
-AircraftSearchArea=-344,-239,750
-
-//Drop passive sonobouys as barriers
-//Array of Vector 2 positions
-SonobouyLocations=0,-100|50,100|-50,-100
-
-//spawn minefields and set detection range
-//Static mines and torpedo mines
 PlayerVessels=usn_84_ssn_los_angeles,usn_84_ssn_narwhal,usn_84_ssn_sturgeon,usn_84_ssn_permit,usn_84_ssn_skipjack
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

@@ -1,0 +1,2 @@
+RADARModel=nav_radar
+RADARRange=30000

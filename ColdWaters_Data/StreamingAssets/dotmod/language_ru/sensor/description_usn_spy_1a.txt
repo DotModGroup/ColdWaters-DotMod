@@ -1,0 +1,1 @@
+usn_spy_1a=AN/SPY-1A=The AN/SPY-1A is a multi-function, phased array, 3D air search radar that provides search, detection, tracking, and discrimination data of air and surface targets. It is the main fire control radar for the Aegis Combat System, which equiped on early Aegis ships

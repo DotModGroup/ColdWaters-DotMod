@@ -1,6 +1,6 @@
 Designation=SSBN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=116
 Beam=10
@@ -49,7 +49,7 @@ TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533
 TubeReloadTime=45
 
-VLSTorpedoTypes=usn_trident_1
+VLSTorpedoTypes=usn_polaris_a3
 VLSTorpedoNumbers=16
 VLSMaxDepthToFire=105
 VLSMaxSpeedToFire=10
@@ -203,13 +203,13 @@ ParticleBowWavePosition=0,-5,0.725
 ParticlePropWashPosition=0,-0.03,-0.81
 
 ParticleHullFoamPosition=0,0,0.55
-ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.0
-ParticleAftFoamParameters=117.86,0.25,0.175,0.00325,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=95.29,0.15,0.105,0.001875,0.0,0,3.00
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.8045,2.99
 
 EngineAudioClip=audio/units/submarine_engine_3

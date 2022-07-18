@@ -1,0 +1,1 @@
+knm_ss_105=Simrad SS 105=Active/Passive set which equips the Nordkapp class cruisers.

@@ -1,0 +1,1 @@
+wp_flag="Flag"=NATO reporting name: "Snoop Plate". Mast-mounted surface search radar developed in early 50-s.

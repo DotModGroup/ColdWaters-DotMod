@@ -1,0 +1,2 @@
+RADARModel=wp_korshun_k
+RADARRange=160000

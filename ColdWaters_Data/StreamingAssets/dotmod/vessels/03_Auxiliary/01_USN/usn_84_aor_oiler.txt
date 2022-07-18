@@ -35,7 +35,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=LARGE
 
 [Defenses]
@@ -194,9 +194,9 @@ MeshSternWake=plan_aor_fuqing_sternwake
 ParticleBowWavePosition=0,0,0.9312
 ParticlePropWashPosition=0,-0.064,-0.795
 ParticleHullFoamPosition=0,0,0.515
-ParticleHullFoamParameters=300,0.45,0.35,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.635
-ParticleSternFoamParameters=240,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.3,3.3
 
 EngineAudioClip=audio/units/diesel_large

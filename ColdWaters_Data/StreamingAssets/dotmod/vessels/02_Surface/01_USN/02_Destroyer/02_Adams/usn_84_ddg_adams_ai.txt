@@ -46,7 +46,7 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46
+TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=6
 TorpedoTubes=6
 TubeConfig=3,3
@@ -499,13 +499,13 @@ MeshSternWake=plan_ddg_luda_sternwake
 ParticleBowWavePosition=0,-0.075,0.934
 ParticlePropWashPosition=0,-0.044,-0.756
 ParticleHullFoamPosition=0,0,0.39
-ParticleHullFoamParameters=36.83,0.127,0.23495,0.03175,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=146.21,0.2413,0.16891,0.0036195,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=116.97,0.1778,0.12446,0.0023114,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/destroyer_turbine.ogg

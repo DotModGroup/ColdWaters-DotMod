@@ -21,3 +21,6 @@ wp_84_bpk_kara_pl=Kara_01.jpg,Kara_02.jpg,Kara_03.jpg,Kara_04.jpg
 wp_84_takr_kiev_pl=Kiev_01.jpg,Kiev_02.jpg,Kiev_03.jpg,Kiev_04.jpg,Kiev_05.jpg,Kiev_06.jpg
 wp_84_rkr_kirov_pl=Kirov_01.jpg,Kirov_02.jpg,Kirov_03.jpg,Kirov_04.jpg
 testship=testship_01.jpg,testship_02.jpg,testship_03.jpg
+uk_84_ssn_valiant=Valiant_01.png,Valiant_02.png,Valiant_03.png,Valiant_04.png
+uk_84_ssn_churchill=Churchill_01.png,Churchill_02.png,Churchill_03.png,Churchill_04.png
+uk_84_ssn_trafalgar=Trafalgar_01.png,Trafalgar_02.png,Trafalgar_03.png,Trafalgar_04.png

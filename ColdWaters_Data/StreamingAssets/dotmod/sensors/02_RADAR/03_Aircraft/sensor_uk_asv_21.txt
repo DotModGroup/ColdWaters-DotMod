@@ -1,0 +1,2 @@
+RADARModel=uk_asv_21
+RADARRange=30380

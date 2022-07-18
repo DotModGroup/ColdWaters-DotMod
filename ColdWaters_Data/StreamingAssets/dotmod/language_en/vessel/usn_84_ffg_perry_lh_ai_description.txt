@@ -1,0 +1,6 @@
+
+[Unit Reference]
+ShipClass=Perry LH
+Description=Oliver Hazard Perry-class Frigate Long Hull
+Aircraft=2 Sikorsky SH-60B Seahawk
+History=The Oliver Hazard Perry-class frigate ships were produced in 445-foot (136 m) long "short-hull" (Flight I) and 453-foot (138 m) long "long-hull" (Flight III) variants. Both were designed primarily as anti-aircraft and anti-submarine warfare guided-missile warships intended to provide open-ocean escort of amphibious warfare ships and merchant ship convoys in moderate threat environments in a potential war with the Soviet Union and the Warsaw Pact countries, with long-hulled warships carrying the larger and more-capable SH-60 Seahawk LAMPS III helicopters. They could also provide air defense against and anti-ship missiles. These warships are equipped to escort and protect aircraft carrier battle groups, amphibious landing groups, underway replenishment groups, and merchant ship convoys. 

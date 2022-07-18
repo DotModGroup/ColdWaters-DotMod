@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mk. 23
+WeaponDescriptiveName=Mark 23 "Grog" Submarine Torpedo
+WeaponDescription=A wire-guided version of the Mark 20. Entered service in 1966 although already obsolescent, and did not become fully operational until 1971, serving only as an interim before Tigerfish entered service.

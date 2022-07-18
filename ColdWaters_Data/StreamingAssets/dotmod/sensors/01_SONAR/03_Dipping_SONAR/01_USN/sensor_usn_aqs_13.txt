@@ -1,0 +1,8 @@
+SonarModel=usn_aqs_13
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=20
+SonarPassiveSensitivity=20
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220

@@ -1,0 +1,2 @@
+RADARModel=wp_mr-800
+RADARRange=65000

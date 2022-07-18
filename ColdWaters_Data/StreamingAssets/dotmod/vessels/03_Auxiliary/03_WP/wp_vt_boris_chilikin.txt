@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -119,9 +119,9 @@ MeshSternWake=wp_vt_boris_chilikin_sternwake
 ParticleBowWavePosition=0,0,1.168
 ParticlePropWashPosition=0,-0.066,-0.959
 ParticleHullFoamPosition=0,0,0.69
-ParticleHullFoamParameters=300,0.55,0.25,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-1.087
-ParticleSternFoamParameters=240,0.45,0.15,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.2,4.2
 
 EngineAudioClip=audio/units/diesel_large

@@ -1,0 +1,1 @@
+usn_aqs_13f=AQS-13F=And advanced version of AQS-13 active dipping sonar, used by the SH-60F Seahawk ASW helicopter.

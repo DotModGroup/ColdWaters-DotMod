@@ -108,6 +108,9 @@ VLSTooDeep=ЦП, торпедный отсек: пуск из <VLS> невозм
 NoReloadsAvailable=Не осталось зарядов
 NoVLSReloadsAvailable=Боезапас <VLS> исчерпан.
 BelowMinRange=ЦП, торпедный отсек: пуск <WEAPON> невозможен, дальность меньше <RANGE> <KILOYARD>
+RecoverTowedDecoy=Conn, torpedo room: recovering towed decoy
+TowedDecoyLong=Conn, torpedo room: towed decoy to long stay
+TowedDecoyShort=Conn, torpedo room: towed decoy to short stay
 
 [FIRE CONTROL]
 WeaponAcquire=ЦП, докладывает БЧ-3: оружие наведено
@@ -478,6 +481,10 @@ BelowMinRange=audio/voices_ru/torpedo room/Cannot_fire_inside_minrange2.ogg|8|FA
 
 NoReloadsAvailable=audio/voices_ru/torpedo room/No_reloads_available.ogg|8|FALSE
 NoVLSReloadsAvailable=audio/voices_ru/torpedo room/VLS_empty.ogg|8|FALSE
+
+//RecoverTowedDecoy=audio/voices/torpedo room/RecoverTowedDecoy.wav
+//TowedDecoyShort=audio/voices/torpedo room/TowedDecoyShort.wav
+//TowedDecoyLong=audio/voices/torpedo room/TowedDecoyLong.wav
 
 //TooDeep=Conn, torpedo room: cannot fire <WEAPON> below <DEPTH> <FEET>
 //VLSTooFast=Conn, torpedo room: cannot fire <VLS> weapon above <SPEED> <KNOT>

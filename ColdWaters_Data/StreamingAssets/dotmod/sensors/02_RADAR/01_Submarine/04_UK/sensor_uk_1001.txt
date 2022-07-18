@@ -1,0 +1,2 @@
+RADARModel=uk_1001
+RADARRange=50000

@@ -9,5 +9,5 @@ Font=0
 Outline=FALSE
 Color=180,71,64,255
 Title=<b>THE WAR IS OVER!</b>
-Sentence1=The Soviet blitzkrieg in Europe was defeated. Having repulsed the initial onslaught, NATO troops went on the offensive and pushed the ATS troops to the borders of the USSR. In view of the senselessness of continuing military operations, the Union was forced to move to peace negotiations.
-Sentence2=The defeat in the war led to the collapse of the ATS unit. Some republics of the USSR have also expressed their intention to secede, but their fate is still unclear, since Soviet troops are on their territory and negotiations are not over yet.
+Sentence1=The Soviet blitzkrieg in Europe was defeated. Having repulsed the initial onslaught, NATO troops went on the offensive and pushed WP troops back to the borders of the USSR. In view of the senselessness of continuing military operations, the Soviet Union has been forced to peace negotiations.
+Sentence2=This defeat has led to the complete collapse of the Warsaw Pact as a command structure, with some republics of the USSR also having expressed their intention to secede. At present, however, their fate is still unclear, as Soviet troops are in their territory, and negotiations are still ongoing.

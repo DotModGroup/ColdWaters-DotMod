@@ -1,3 +1,5 @@
+//Bruh, y you lettin' Soviet territory be captured?
+
 UseTerrain=TRUE
 MapCoordinates=3242,830
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
@@ -22,9 +24,9 @@ LayerStrength=Moderate
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_84_skr_krivak1_ai|wp_84_mpk_grisha3_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_fv_trawler,wp_fv_trawler,wp_68_mpk_poti_ai|wp_68_skr_riga_ai,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol|wp_ms_poltava,wp_vtr_andizhan|wp_vtr_yuniy_partizan
+EnemyShipClasses=nato_seagoing_ff,nato_seagoing_ff|nato_seagoing_dd,nato_seagoing_aaw_escorts,nato_seagoing_aaw_escorts,civ_trawlers|usn_cargo,usn_landing|usn_cargo,usn_landing|nato_seagoing_aaw_escorts,usn_landing|nato_all_capital_ships,usn_landing|nato_seagoing_ff|nato_seagoing_dd
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
@@ -33,21 +35,26 @@ PlayerPosition=-390,150
 PlayerHeading=180
 
 //AI Nav Waypoints
-//Array of Vector 2 positions
-//Must be enough for maximum number of enemy ships
-//Poti or Riga
+
+//ASW Escort 1
 EnemyWaypoints=-400,-40|-710,-50
-//Grisha or Krivak
+
+//ASW Escort 2
 EnemyWaypoints=-230,130|-140,330
-//Komsomol or Poltava
+
+//AAW Escort 1
 EnemyWaypoints=-130,220|-890,490
-//Andizhan or Partizan
+
+//AAW Escort 2
 EnemyWaypoints=-950,230|250,60
-//Trawler
+
+//Traffic 1
 EnemyWaypoints=-380,-100|-510,-100|-510,0|-380,0
-//Trawler
+
+//Traffic 2
 EnemyWaypoints=-300,120|-420,120|-420,220|-300,220
 
+//Three docked vessels; cannot shoot
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED

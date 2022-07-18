@@ -1,0 +1,1 @@
+uk_2026=Sonar Type 2026=Type 2026 was a joint British and Dutch second-generation passive clip-on towed linear array sonar. Compared to its predecessor, Type 2026 had a more sensitive hydrophone, a stronger cable, a new broadband LF processor and an updated narrow-band processor.

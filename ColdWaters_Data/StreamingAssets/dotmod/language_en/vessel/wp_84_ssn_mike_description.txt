@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Mike
+Description=Mike-class Nuclear Attack Submarine
+
+History=The Komsomolets is the sole example of the Soviet Union's unique Mike-class (Project-685). Launched in May 1983 the Komsomolets was capable of diving to incredible depths of 1000m. Tragically the Komsomolets was lost to a fire along with 42 of her 69 crew in 1989.
+
+[Player Ship Instances]
+PlayerClassNames=Komsomolets
+PlayerClassHullNumbers=K-278

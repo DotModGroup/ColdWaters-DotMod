@@ -1,0 +1,1 @@
+wp_mg-10=MG-10 "Feniks"=NATO reporting name: "Trout Cheek". This system was derived from the German wartime Balkongerat sonar fitted in the Type XXI. It is comparable to the BQR-2/BQS-4 suite fitted to the Skipjack.="Feniks"

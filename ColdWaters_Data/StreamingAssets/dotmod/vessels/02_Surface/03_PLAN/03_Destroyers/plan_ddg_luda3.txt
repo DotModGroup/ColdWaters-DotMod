@@ -51,8 +51,15 @@ TubeConfig=3,3
 TorpedoTubeSize=14
 TubeReloadTime=0
 
-MissileType=plan_cy-1
-MissilesPerLauncher=4,4
+MissileType=plan_c-801
+MissilesPerLauncher=2,4
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.08,0.12|0,0.08,-0.2|0,0.08,0.18|0,0.08,-0.22|0,0.08,0.16|0,0.08,-0.24|0,0.08,0.14|0,0.08,-0.26
+AntiShipMissileLaunchPointsRotation=-16,60,0|-16,-60,0|-16,60,0|-16,-60,0|-16,60,0|-16,-60,0|-16,60,0|-16,-60,0|
 
 RBULaunchers=plan_fqf2500_mortar,plan_fqf2500_mortar
 RBUSalvos=6,6
@@ -271,13 +278,13 @@ ParticleBowWavePosition=0,-0.075,0.934
 ParticlePropWashPosition=0,-0.044,-0.756
 
 ParticleHullFoamPosition=0,0,0.85
-ParticleHullFoamParameters=65,0.127,0.23495,0.03175,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=275,0.2413,0.16891,0.0036195,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=250,0.1778,0.12446,0.0023114,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/turbine_small

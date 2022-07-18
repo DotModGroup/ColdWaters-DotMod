@@ -44,6 +44,16 @@ NavalGunRestAngle=0,0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
+MissileType=plan_c-801
+MissilesPerLauncher=2,1
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=2
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.06,-0.14|0.02,0.06,-0.09
+AntiShipMissileLaunchPointsRotation=-15,90,0|-15,90,0
+
 RBULaunchers=plan_fqf2500_mortar,plan_fqf2500_mortar
 RBUSalvos=8,8
 RBUFiringArcBearingMin=-130,0
@@ -134,6 +144,20 @@ MeshPosition=0,0.0246,0.001
 MeshNavalGunBarrel=plan_ff_chengdu_100mm_gun
 NavalGunSpawnPosition=0,0,0.12
 
+//Missile Mounts
+MeshRotation=345,90,0
+MeshPosition=0.0,0.1253,-0.009
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=-0.01,-0.002,-0.055
+
+MeshRotation=345,270,0
+MeshPosition=0.0,0.1253,-0.1583
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=0.01,-0.002,-0.055
+
+
 //RBU
 Material=ships/materials/modular_parts
 MeshPosition=-0.055,0.1018,0.274
@@ -173,11 +197,14 @@ MeshSternWake=plan_ff_chengdu_sternwake
 ParticleBowWavePosition=0,0,0.64
 ParticlePropWashPosition=0,-0.0545,-0.5312
 
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=DEFAULT_CLIPPER
+
 ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.1,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.25,2.25
 
 EngineAudioClip=audio/units/turbine_small

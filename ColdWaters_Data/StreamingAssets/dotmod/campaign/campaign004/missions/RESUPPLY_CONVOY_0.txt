@@ -2,13 +2,13 @@
 //Small
 MissionType=RESUPPLY_CONVOY
 AllowedOnlyFor=
-ForbiddenFor=SSB,SSBN
-AllowedOnlyForCostBelow=400
+ForbiddenFor=FF,FFG,DD
+AllowedOnlyForCostBelow=200
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=UK_SEAPORT
 StartAlignment=ENEMY
-EndLocation=BERGEN_CONVOY_TARGET,BERGEN
+EndLocation=BERGEN_CONVOY_TARGET,EU_SEAPORT
 EndAlignment=ENEMY
 Speed=8
 MustUseWaypoints=
@@ -25,8 +25,8 @@ InvadeOnWin=FALSE
 RequiresStealth=
 RequiresWeapon=
 NumberOfEnemyUnits=0-1,1-2,2-3
-CombatBehaviour=DEFENSIVE,OFFENSIVE,DEFENSIVE
+CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,TRUE
-EnemyShipClasses=usn_84_ff_knox_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_ap_roro|usn_68_ap_freighter_a|usn_84_ap_super_p|usn_84_aor_oiler
+EnemyShipClasses=nato_all_aaw_escorts,nato_all_asw_escorts,usn_cargo
 EventWin=RESUPPLY_CONVOY_win
 EventFail=RESUPPLY_CONVOY_fail

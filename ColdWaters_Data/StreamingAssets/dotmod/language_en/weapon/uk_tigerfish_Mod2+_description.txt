@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mark 24 Mod 2+
+WeaponDescriptiveName=Mark 24 Mod 2+ "Tigerfish" Heavyweight Torpedo
+WeaponDescription=The Mark 24 Mod 2+ Tigerfish was a Improved Version Of The (Mark 24 mod 2 Tigerfish heavyweight acoustic homing torpedo) used by the Royal Navy The Marconi Consolidation Programme of the early 1980s finally produced the Mod 2 with reliability improved to 80%, which the Royal Navy accepted as the best that could be achieved with a basic design that was incapable of further development. By 1987 all 600 Tigerfish had been modified to the Mod 2 standard A final upgrade series Mod 2+ entered service in 1992.

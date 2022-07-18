@@ -12,3 +12,4 @@ Rudder
 Planes
 Ballast
 Reactor
+Towed Decoy

@@ -1,0 +1,9 @@
+[Unit Reference]
+Designation=ЭМ
+ShipClass=«Гиринг»
+Description=Эскадренные миноносцы типа «Гиринг» модернизированные по программе FRAM
+History=Эскадренные миноносцы типа «Гиринг» - серия эсминцев, строившихся для ВМС США во время ВМВ и недолго после её окончания. Они были развитием типа «Аллен М. Самнер», с удлинненным на 4.3 метра корпусом, что позволило увеличить запас топлива, и соответственно - дальность. В конце 1950-х - начале 1960-х, 79 ЭМ типа «Гиринг» прошли модернизацию по программе FRAM I (Fleet Rehabilitation and Modernization, реконструкция и модернизация флота), созданную чтобы переделать их из эсминцев ПВО в противолодочные. FRAM I и FRAM II были выполнены между 1960 и 1965, постепенно все «Гиринги» кроме 3 прошли модернизацию.
+
+[Player Ship Instances]
+PlayerClassNames=Gearing,Wiltsie,Theodore E. Chandler,Hamner,William C. Lawe,Rowan,Gurke,Henderson,James E. Kyes,Hollister,Eversole,Johnston,Robert H. McCard,Samuel B. Roberts,George K.,Mackenzie,Sarsfield,Power,Glennon,Warrington,Ozbourn,Richard E. Kraus,Joseph P. Kennedy, Jr.,Rupertus,Leonard F. Mason,Charles H. Roan,Vogelgesang,Harold J. Ellison,Charles R. Ware,Cone,Stribling,Arnold J. Isbel,Forrest Royal,Floyd B. Parks,John R. Craig,Orleck,Brinkley Bass
+PlayerClassHullNumbers=DD-710,DD-716,DD-717,DD-718,DD-763,DD-782,DD-783,DD-785,DD-787,DD-788,DD-789,DD-821,DD-822,DD-823,DD-836,DD-837,DD-839,DD-840,DD-843,DD-846,DD-849,DD-850,DD-851,DD-852,DD-853,DD-862,DD-864,DD-865,DD-866,DD-867,DD-869,DD-872,DD-884,DD-885,DD-886,DD-887

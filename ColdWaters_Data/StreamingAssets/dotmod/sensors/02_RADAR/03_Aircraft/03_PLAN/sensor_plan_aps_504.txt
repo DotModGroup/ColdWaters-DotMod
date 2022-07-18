@@ -1,0 +1,2 @@
+RADARModel=plan_aps_504
+RADARRange=140000

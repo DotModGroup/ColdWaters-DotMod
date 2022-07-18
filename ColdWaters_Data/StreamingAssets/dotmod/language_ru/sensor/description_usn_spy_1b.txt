@@ -1,0 +1,1 @@
+usn_spy_1b=AN/SPY-1B=The AN/SPY-1B is the model adopts VLSI resulting in increased performance and reduced size and weight.

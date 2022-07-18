@@ -4,27 +4,34 @@ In the campaign map you can move at low speed by right clicking and high speed b
 Shooting wire-guided torpedoes such that they approach a target from a different direction than a straight shot, called dog-legging, will likely result in inaccurate counter-launches.
 Many missiles have minimum firing distances. Be sure to plan missile attacks so that this isn't a problem. You can find these minimum distances in the Unit Reference.
 Attacking from under a thermal layer can significantly increase your chances of remaining undetected for longer. This, in turn, can increase your chances of a successful attack.
-Some submarines have a MANPADS to allow them to shoot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. The RADAR mast is not necessary, but will help you aim.
+Some submarines have a MANPADS to allow them to shoot down enemy aircraft. If using a submarine with a MANPADS, surface and raise the RADAR mast before firing. While the RADAR mast is not necessary, but will help you aim.
 Many ship-mounted SAM systems can also target other ships. This can be a long-range option for engaging enemy ships in lieu of guns.
-Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will have significantly more capabilities in anti-missile defense.
+Some ships, like the Ticonderoga, have the AEGIS combat system. These vessels will be significantly more capable in anti-missile defense.
 Many newer vessels have towed arrays. Deploying these, by default with backspace, will significantly increase sensor detection range. It will also cover your baffles.
 While American passive sonar is almost universally superior to its contemporary Soviet system, Soviet active systems are generally more powerful as compared to American systems.
 Older vessels do not have towed arrays to cover their baffles. This is especially helpful in 1968, where attacking from the baffles can avoid a long and drawn out knife fight.
 The Mark 37 torpedo is very slow. When attacking an enemy SSN, it is wise to sneak behind the target and fire from the baffles.
-The Tigerfish Mod 0 (Mark 24) is an objectively awful torpedo with a 60% wire break chance on launch and barely enough speed to catch older SSNs at full clip. Always use the Mark VIII if you can against surface targets.
+The Tigerfish Mod 1 (Mark 24) is a slow weapon with a menial 35 knot top speed and a sensor which lacks search capabilitiy. The Mark VIII may be more effective against large surface targets.
 Even older Soviet vessels have anechoic coating. When attacking any vessel with anechoic coating, using active sonar on your torpedo will drastically reduce detection range.
 Any surface vessel with sonar will detect torpedoes long before they're able to hit. If using a straight-running torpedo, it is recommended to close in quite a bit before firing.
 Enemy vessels will conduct torpedo turns regardless of whether or not you have been detected. Remember this when planning attacks with both acoustic and non-acoustic torpedoes.
 Wave noise on the surface significantly decreases torpedo acquisition range. This requires you be very accurate when shooting at surface targets.
-The SS-N-14A Silex (URK-3 "Rastrub-B") is a universal ASW and anti-ship missile found on many Soviet surface ships. When firing, make sure you are in the correct targeting mode.
+The SS-N-14A Silex (URK-5 "Rastrub-B") is a universal ASW and anti-ship missile found on many Soviet surface ships. When firing, make sure you are in the correct targeting mode.
 Some Soviet anti-ship missiles, such as the SS-N-3A Shaddock (P-6 "Progress"), can only be launched from the surface. These weapons leave you an easy target until you can dive.
 Torpedo tubes will only jam if you are travelling faster than 20 knots. So, you do not have to completely slow down to avoid jamming when firing off a mobile decoy.
 The Russian voice files were almost entirely recorded by a single person.
 Waiting for Sea Power is your best choice if you want friendlies. Cold Waters is simply not set up for them.
-The NATO North Atlantic campaigns are based on gsmith63's excellent 1990 campaign mod. It is highly recommended that you check that mod out on Subsim.
-Failing the SSBN Run mission will result in a campaign loss. Succeeding however, will only result in a normal victory.
+The NATO North Atlantic campaigns are based on gsmith63's excellent 1990 campaign mod. It is highly recommended that you check that mod out on Subsim. Special thanks to him for letting us use his campaign as a base.
+Failing the SSBN Run mission in the NATO campaigns will result in a campaign loss. Succeding however, will not end the campaign. Fight on!
 Enemy escort ships will not contribute to your prestige. You should not use weapons on these vessels unless they are your target or you need to protect yourself.
 Remember that decibels are a logarithmic scale. 10 decibels more means twice as loud. This makes a huge difference in the detection of enemy vessels.
 When approaching a target on the campaign map, the only factor that actually matters is your speed when you contact the enemy. The game does not care what direction you come from.
 If you want a realistic experience as opposed to an arcade-y one like Cold Waters', Dangerous Waters on Steam is also a great game. Bit older, but it's great.
+Remember that, especially in the older SSKs fielded by the Soviet Union, escorts are not your targets. If presented with limited ammo and an escort, save the shot for your actual target if you can. Additionally, sinking escorts will not award prestige.
+Wishlist Sea Power: Naval Combat in the Missile Age today on Steam!
+When using helicopters, remember that it takes time to retrieve the aircraft to reload. Use ship-launched ASW weapons if present to save on this lenghty process, but remember that those can be limited, too.
+Player aircraft do not have sensors. Treat them as a stand-off ASW option for when you don't have or don't want to use ship-launched stand-off ASW weapons.
+Remember that your aircraft can and will be shot down by enemy ships and, if surfaced to use MANPADS, submarines, too. Treat them with care as you can only get replacement aircraft in port.
+You cannot land an aircraft when one is already hogging your deck, and nor can you launch a new one while one is currently in the holding pattern. Remember to take steps to prevent this from bogging down your offensive ASW efforts.
+The Oliver Hazard Perry (FFG-7, or "Fig-7")-class guided missile frigates are common escorts to find in NATO battlegroups and convoys. They may not have the best sonar, but their helos can be scary in and of themselves.
 Notching, or travelling perpendicular to a weapon's path, is the most effective way to avoid non-wire-guided torpedoes.

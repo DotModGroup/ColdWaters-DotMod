@@ -33,7 +33,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -113,9 +113,9 @@ MeshSternWake=civ_fv_trawler_sternwake
 ParticleBowWavePosition=0,0,0.32
 ParticlePropWashPosition=0,-0.052,-0.318
 ParticleHullFoamPosition=0,0,0.126
-ParticleHullFoamParameters=100,0.15,0.25,0.003,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.315
-ParticleSternFoamParameters=80,0.15,0.15,0.004,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=1.6,1.2
 
 EngineAudioClip=audio/units/diesel_small

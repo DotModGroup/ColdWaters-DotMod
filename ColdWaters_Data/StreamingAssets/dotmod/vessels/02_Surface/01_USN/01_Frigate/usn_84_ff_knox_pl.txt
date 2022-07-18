@@ -9,6 +9,11 @@ Displacement=4260
 Crew=257
 Range=5000
 HullNumbers=usn_1052,usn_1053,usn_1054,usn_1055,usn_1056,usn_1057,usn_1058,usn_1059,usn_1060
+AircraftNumbers=1
+AircraftTypes=usn_sh-2f
+AircraftSpawnPoints=0,0.12,-0.60
+AircraftTransitionPoints=-0.6,0.7,-0.9
+
 
 [Movement]
 SurfaceSpeed=28
@@ -160,15 +165,6 @@ MeshRotation=-5,0,0
 MeshPosition=-0.0,-0.075,-0.8167
 MeshProp=usn_ff_knox_prop
 
-//Deck Props
-MeshPosition=0,0,0
-MeshRotation=0,0,0
-Material=aircraft/usn_sh-2f/usn_sh-2f_mat
-MaterialTextures=aircraft/usn_sh-2f/usn_sh-2f_tx,aircraft/usn_sh-2f/usn_sh-2f_spec,aircraft/usn_sh-2f/usn_sh-2f_nm
-Mesh=usn_ff_knox_airwing
-Material=ships/materials/seasprite_shadow
-Mesh=usn_ff_knox_airwing_shadow
-
 //RADARs
 RADARSpeed=120
 RADARDirection=1
@@ -294,13 +290,13 @@ ParticleBowWavePosition=0,0.16,0.94
 ParticlePropWashPosition=0,-0.005,-0.95
 
 ParticleHullFoamPosition=0,0,0.8
-ParticleHullFoamParameters=39.9,0.1425,0.2636,0.03562,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=128.25,0.2707,0.1894,0.00406,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=102.6,0.1995,0.1396,0.002593,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.9,3.3
 
 EngineAudioClip=audio/units/diesel_small

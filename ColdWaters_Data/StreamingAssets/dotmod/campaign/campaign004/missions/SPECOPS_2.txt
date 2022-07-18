@@ -1,10 +1,10 @@
 //Player mission
-//Medium-Large
+//Occupied SSN
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL,FF,CGN,DD
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=300
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-1,1-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE
-EnemyShipClasses=uk_84_ssn_trafalgar,uk_68_ss_oberon|uk_84_ssn_trafalgar
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=nato_all_ssn
 EventWin=SPECOPS_win
 EventFail=SPECOPS_fail

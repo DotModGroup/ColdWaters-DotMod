@@ -43,7 +43,7 @@ RADARSignature=SMALL
 TowedArrayPosition=0,0.11,-0.745
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71m,wp_uset-80,wp_shkval,wp_65-76,wp_rpk-6,wp_moss_mg-74
+TorpedoTypes=wp_uset-80,wp_test-71m,wp_shkval,wp_65-76,wp_rpk-6,wp_moss_mg-74
 TorpedoNumbers=8,3,1,4,4,4
 TorpedoTubes=6
 NumberOfWires=4
@@ -219,13 +219,13 @@ ParticleBowWavePosition=0,0,0.76
 ParticlePropWashPosition=0,-0.035,-0.77
 
 ParticleHullFoamPosition=0,0,0.45
-ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.0
-ParticleAftFoamParameters=85.74,0.30,0.21,0.0039,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=68.11,0.18,0.126,0.00225,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.5,2.6
 
 EngineAudioClip=audio/units/submarine_engine_2

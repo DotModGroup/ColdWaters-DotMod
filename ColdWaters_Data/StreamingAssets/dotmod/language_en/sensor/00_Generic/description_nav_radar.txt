@@ -1,0 +1,1 @@
+nav_radar=Navigation RADAR=Generic navigation RADAR used by civillian ships to avoid collisions and by military transports to stay in formation.

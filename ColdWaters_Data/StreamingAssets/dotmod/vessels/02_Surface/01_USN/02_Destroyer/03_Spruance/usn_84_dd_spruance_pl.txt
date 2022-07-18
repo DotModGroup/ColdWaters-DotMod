@@ -9,8 +9,11 @@ Displacement=8040
 Crew=334
 Range=10000
 HullNumbers=FALSE
-//AircraftNumbers=2
-//AircraftTypes=usn_sh60b
+AircraftNumbers=2
+AircraftTypes=usn_sh60b
+AircraftSpawnPoints=0,0.135,-0.61
+AircraftTransitionPoints=-0.6,0.7,-0.9
+
 
 [Movement]
 SurfaceSpeed=32
@@ -47,6 +50,12 @@ ActiveSonarModel=usn_sqs_26
 PassiveSonarModel=usn_sqs_26
 TowedArrayModel=usn_sqr_18
 RADAR=usn_sps_67
+TowedArrayPosition=-0.01588,0.0551,-1.269
+TowedArraySettings=4,0.0018,456,0.035,true,998.52,0.75,25
+TowedDecoyPosition=0.065,0.035,-1.256
+TowedDecoySettings=4,0.0008,456,0.035,true,999.72,0.75,25
+TowedDecoyBody=nixie
+TowedDecoyCount=10
 
 [Weapon Systems]
 NavalGuns=usn_mark_42_shell,usn_mark_42_shell
@@ -57,8 +66,8 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1600
 
-TorpedoTypes=usn_mk46_mod_5,usn_moss_surf
-TorpedoNumbers=12,6
+TorpedoTypes=usn_mk46_mod_5
+TorpedoNumbers=18
 TorpedoTubes=7
 TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=324,324,324,324,324,324,533
@@ -100,7 +109,7 @@ NoisemakerReloadTime=18
 LabelPosition=370,39
 BOWSONAR=FRONT
 LabelPosition=50,39
-TOWED=FALSE
+TOWED=REAR
 LabelPosition=23,204
 PERISCOPE=SAIL
 LabelPosition=23,183
@@ -123,6 +132,8 @@ LabelPosition=372,162
 BALLAST=FALSE
 LabelPosition=252,60
 REACTOR=MID
+LabelPosition=50,18    
+TOWEDDECOY=REAR
 
 [Flooding Display: x,width,ymin,ymax]
 FLOODING1=130,71,-77,-49
@@ -133,7 +144,7 @@ FLOODING5=-92,48,-77,-49
 DamageControlPartyY=-36
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_dd_spruance.unity3d
+AssetBundle=bundles/vessels/usn_dd_spruance.unity3d
 ModelFile=assets/models/usn_dd_spruance.fbx
 
 //Hull and Deck
@@ -379,13 +390,17 @@ MeshSternWake=usn_cg_belknap_sternwake
 ParticleBowWavePosition=0,0,1.15
 ParticlePropWashPosition=0,-0.07,-1.141
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.35,0.35,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=DEFAULT_CLIPPER
+
 ParticleSternFoamPosition=0,0,-1.11
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.1,4.1
 
 //Load Damage Meshes
-AssetBundle=bundles/vessels/usn/usn_dd_spruance.unity3d
+AssetBundle=bundles/vessels/usn_dd_spruance.unity3d
 ModelFile=assets/models/usn_dd_spruance.fbx
 
 EngineAudioClip=audio/units/turbine_small

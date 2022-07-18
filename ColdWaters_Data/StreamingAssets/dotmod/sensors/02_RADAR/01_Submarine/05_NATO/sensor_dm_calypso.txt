@@ -1,0 +1,2 @@
+RADARModel=dm_calypso
+RADARRange=37400

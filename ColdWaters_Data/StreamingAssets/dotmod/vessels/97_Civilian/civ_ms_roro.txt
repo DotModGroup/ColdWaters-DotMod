@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -119,9 +119,9 @@ MeshSternWake=civ_ms_roro_sternwake
 ParticleBowWavePosition=0,0,1.157
 ParticlePropWashPosition=0,-0.091,-1.053
 ParticleHullFoamPosition=0,0,0.75
-ParticleHullFoamParameters=400,0.35,0.35,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-0.998
-ParticleSternFoamParameters=320,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4,4.4
 
 EngineAudioClip=audio/units/turbine_large

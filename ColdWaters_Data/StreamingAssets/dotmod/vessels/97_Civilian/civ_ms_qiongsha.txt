@@ -33,7 +33,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
@@ -124,9 +124,9 @@ MeshSternWake=plan_ap_qiongsha_sternwake
 ParticleBowWavePosition=0,0,0.589
 ParticlePropWashPosition=0,-0.048,-0.466
 ParticleHullFoamPosition=0,0,0.3
-ParticleHullFoamParameters=300,0.25,0.15,0.006,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.6
-ParticleSternFoamParameters=240,0.25,0.15,0.004,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2,2
 
 EngineAudioClip=audio/units/diesel_large

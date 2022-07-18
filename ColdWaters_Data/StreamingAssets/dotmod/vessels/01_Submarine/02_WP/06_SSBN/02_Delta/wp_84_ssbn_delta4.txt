@@ -25,6 +25,7 @@ SubmergedAt=0.136
 CavitationParameters=20,-100
 PropRotationSpeed=190,-190
 TestDepth=1300
+PeriscopeDepthInFeet=42
 
 [Acoustics & Sensors]
 //SelfNoise=130
@@ -36,13 +37,15 @@ TowedArrayModel=wp_mgk-500_ta
 AnechoicCoating=TRUE
 RADAR=wp_mrk-50
 RADARSignature=SMALL
+TowedArrayPosition=0,0.05,-1.05
 
 [Weapon Systems]
-TorpedoTypes=wp_uset-80,wp_moss_mg-74
-TorpedoNumbers=12,0
+TorpedoTypes=wp_uset-80,wp_test-71m,wp_rpk-6,wp_moss_mg-74
+TorpedoNumbers=8,4,2,4
 TorpedoTubes=4
+NumberOfWires=4
 TubeConfig=1,1,1,1
-TorpedoTubeSize=21
+TorpedoTubeSize=533,533,533,533
 TubeReloadTime=30
 
 MissileType=wp_rpk-6
@@ -52,10 +55,74 @@ NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=33
 NoisemakerReloadTime=14
 
+AntiAirMissileType=wp_igla
+AntiAirMissilesNumbers=6
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=12
+AntiAirMissileLaunchPoints=0,0.1,0.752
+AntiAirMissileLaunchPointsRotation=-90,0,0
+
+[Subsystems]
+LabelPosition=364.3,28
+BOWSONAR=FRONT
+LabelPosition=59.9,193.2
+TOWED=REAR
+LabelPosition=409.7,193.3
+PERISCOPE=SAIL
+LabelPosition=409.7,151.4
+ESM_MAST=SAIL
+LabelPosition=409.7,171.9
+RADAR_MAST=SAIL
+LabelPosition=364.3,49.4
+TUBES=FRONT
+LabelPosition=229.6,193.2
+FIRECONTROL=FORE
+LabelPosition=229.6,172.2
+PUMPS=AFT
+LabelPosition=59.9,27.7
+PROPULSION=AFT
+LabelPosition=59.9,172.2
+RUDDER=REAR
+LabelPosition=59.9,48.7
+PLANES=REAR
+LabelPosition=190.8,28    
+BALLAST=AFT
+LabelPosition=190.8,49 
+REACTOR=MID
+
+[Flooding Display: x,width,ymin,ymax]
+FLOODING1=200,90,-79,-38
+FLOODING2=134,42,-79,-37
+FLOODING3=-61,41,-79,-38
+FLOODING4=-100,35,-79,-38
+FLOODING5=-155,75,-79,-37
+DamageControlPartyY=-31
+MinCameraDistance=2.0
+
+
 [Model]
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+Material=ships/materials/wp_masts
+
+MeshPosition=0,0.04,0.609
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_periscope
+
+MeshPosition=0.01,0.03,0.752
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_esm
+
+MeshPosition=0.002,0.03,0.695
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_radar
+
 ModelFile=ships/wp_ssbn_delta4/wp_ssbn_delta4
 
 //Hull and Deck
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
 MeshPosition=0,0,0
 MeshRotation=0,0,0
 
@@ -63,8 +130,7 @@ MeshHullCollider=wp_ssbn_delta4_coll_hull01
 MeshSuperstructureCollider=wp_ssbn_delta4_coll_ss01
 
 Material=ships/wp_ssbn_delta4/wp_ssbn_delta4_mat
-MaterialTextures=vessels/textures/wp_ssbn_delta4_tx.png,ships/wp_ssbn_delta4/wp_ssbn_delta4_spec,ships/wp_ssbn_delta4/wp_ssbn_delta4_nm
-
+MaterialTextures=ships/wp_ssbn_delta4/wp_ssbn_delta4_tx,ships/wp_ssbn_delta4/wp_ssbn_delta4_spec,ships/wp_ssbn_delta4/wp_ssbn_delta4_nm
 Mesh=wp_ssbn_delta4
 MeshPosition=0,0.0144,-1.029
 MeshRudder=wp_ssbn_delta4_dorsal_rudder
@@ -74,10 +140,16 @@ MeshPosition=0,0.0795,0.745
 MeshBowPlanes=wp_ssbn_delta4_sailplanes
 MeshPosition=0,-0.0441,-0.9647
 MeshSternPlanes=wp_ssbn_delta4_sternplanes
-MeshPosition=-0.0375,-0.0447,-1.153
-MeshProp=wp_ssbn_delta4_prop_l
-MeshPosition=.0375,-0.0447,-1.153
-MeshProp=wp_ssbn_delta4_prop_r
+
+MeshPosition=-0.0375,-0.043141,-1.153
+MeshProp=FALSE
+MeshPosition=0,-0.001559,0
+ChildMesh=wp_ssbn_delta4_prop_l
+
+MeshPosition=0.0375,-0.043141,-1.153
+MeshProp=FALSE
+MeshPosition=0,-0.001559,0
+ChildMesh=wp_ssbn_delta4_prop_r
 
 [Weapon Systems]
 //Torpedo Mounts
@@ -85,19 +157,19 @@ MeshProp=wp_ssbn_delta4_prop_r
 //Tube 1
 MeshRotation=0,0,0
 MeshPosition=-0.0085,0.0085,1.2
-TorpedoSpawnPosition=-0.0085,0.0085,1.2
+TorpedoSpawnPosition=-0.0085,0.0025,1.2
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
 MeshRotation=0,0,0
-MeshPosition=0.0085,0.0085,1.2
-TorpedoSpawnPosition=0.0085,0.0085,1.2
+MeshPosition=-0.0085,-0.0087,1.2
+TorpedoSpawnPosition=-0.0085,-0.0087,1.2
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 3
 MeshRotation=0,0,0
-MeshPosition=-0.0085,-0.0087,1.2
-TorpedoSpawnPosition=-0.0085,-0.0087,1.2
+MeshPosition=0.0085,0.0085,1.2
+TorpedoSpawnPosition=0.0085,0.0025,1.2
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 4
@@ -135,10 +207,10 @@ ParticleBowWavePosition=0,0,1.258
 ParticlePropWashPosition=0,-0.033,-1.173
 
 ParticleHullFoamPosition=0,0,0.892
-ParticleHullFoamParameters=10,0.35,0.2,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-1.087
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.2,4.2
 
 EngineAudioClip=audio/units/submarine_engine_3

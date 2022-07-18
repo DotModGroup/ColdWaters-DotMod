@@ -2,3 +2,7 @@
 ShipClass=Typhoon
 Description=Typhoon-class Nuclear Ballistic Missile Submarine
 History=These are the largest submarines ever built. They feature an innovative parallel pressure hull layout, and are designed to operate for prolonged periods under the Arctic icepack. Compared to the Delta class, they are a huge improvement in capability, with better quieting, better survivability, more weapons and carrying missiles of greater accuracy.
+
+[Player Ship Instances]
+PlayerClassNames=Dmitriy Donskoi,,Simbirsk,,Arkhangelsk,Severstal
+PlayerClassHullNumbers=TK-208,TK-202,TK-12,TK-13,TK-17,TK-20

@@ -1,0 +1,1 @@
+plan_ess_1=ESS-1=A Chinese license-built version of the French DUBV-43 variable depth sonar. It is a medium frequency VDS set comparable in performance to Mare Tail.

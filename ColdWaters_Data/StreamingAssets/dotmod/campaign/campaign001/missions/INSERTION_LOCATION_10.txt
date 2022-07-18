@@ -9,7 +9,7 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_all_small_escorts,wp_modern_small_escorts,civ_fv_trawler_2,civ_fv_trawler_2,civ_fv_trawler_2,wp_modern_ssk,wp_cargo,wp_cargo,wp_cargo|wp_all_small_escorts,wp_cargo|wp_obsolete_destroyers
+EnemyShipClasses=wp_all_small_escorts,wp_modern_small_escorts,civ_all_trawlers,civ_all_trawlers,civ_all_trawlers,wp_modern_ssk,wp_cargo,wp_cargo,wp_cargo|wp_all_small_escorts,wp_cargo|wp_obsolete_destroyers
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation

@@ -336,13 +336,13 @@ ParticlePropWashPosition=0,-0.015,-1.12
 
 //Ocean surface particles
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=56.1,0.17,0.3145,0.0425,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=178.75,0.323,0.2261,0.004845,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=143,0.238,0.1666,0.003094,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.4,3.55
 
 EngineAudioClip=audio/units/destroyer_turbine.ogg

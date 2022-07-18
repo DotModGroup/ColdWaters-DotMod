@@ -22,7 +22,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-2,2-4
 CombatBehaviour=OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE
-EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ffg_perry_ai|usn_84_ff_knox_ai
+EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai,usn_84_ffg_perry_lh_ai|usn_84_ff_knox_ai
 
 //Enemy Aircraft
 NumberOfHelicopters=2

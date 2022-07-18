@@ -1,0 +1,1 @@
+plan_sqc_1=SQC-1=This is a Chinese version of the french Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Han and Xia class submarines.

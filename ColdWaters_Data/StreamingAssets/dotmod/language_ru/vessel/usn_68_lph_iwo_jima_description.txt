@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=Iwo Jima
+Description=Iwo Jima-class Landing Platform Helicopter
+History=The seven Iwo Jima class amphibious assault ships were built to transport up to 1800 fully equipped Marine Assault Troops into combat areas and land them by helicopter at designated inland points.The Iwo Jima-class were the first amphibious assault ships designed and built as dedicated helicopter carriers, capable of operating up to 20 helicopters.The hull design of the Iwo Jima-class also became the basis of the slightly larger Blue Ridge class of amphibious command ships.

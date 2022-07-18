@@ -1,23 +1,21 @@
 //Player mission
 //Against Airbase
 MissionType=INSERTION
-AllowedOnlyFor=
-ForbiddenFor=SSB,SSGN,SURFACE
+AllowedOnlyFor=SSK
+ForbiddenFor=
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY
 EndLocation=AIRBASE
-//AIRBASE
-//UK_NAVAL
 EndAlignment=ENEMY
 Speed=8
 MustUseWaypoints=
 UseAtLeastOneWaypointOf=
 ProhibitedWaypoints=
 PatrolForHours=128,160
-StrategicValue=20
+StrategicValue=50
 MissionEndsWhen=PATROL_END
 MapBehaviour=STATIONARY
 DisruptOnFail=

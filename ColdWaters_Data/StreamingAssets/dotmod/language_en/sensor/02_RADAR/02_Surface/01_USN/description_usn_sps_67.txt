@@ -1,0 +1,1 @@
+usn_sps_67=SPS-67=Typical surface-search radar used by ships to detect other vessels and navigational hazards. While not optimized to do so, these sets are capable of detecting a raised periscope if the conditions are right.

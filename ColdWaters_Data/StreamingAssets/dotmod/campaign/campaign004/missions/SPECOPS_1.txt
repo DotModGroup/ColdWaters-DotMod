@@ -1,8 +1,8 @@
 //Player mission
-//Medium
+//Occupied SSN Threat
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL,FF,CGN,DDG
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-1,1-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE
-EnemyShipClasses=usn_84_ssn_permit|usn_84_ssn_skipjack,usn_84_ssn_permit|usn_84_ssn_sturgeon
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=nato_new_ssn
 EventWin=SPECOPS_win
 EventFail=SPECOPS_fail

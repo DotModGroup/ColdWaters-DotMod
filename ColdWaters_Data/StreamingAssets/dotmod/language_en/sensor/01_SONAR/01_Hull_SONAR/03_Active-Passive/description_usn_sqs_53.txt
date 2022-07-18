@@ -1,0 +1,1 @@
+usn_sqs_53=AN/SQS-53=The AN/SQS-53 is a computer-controlled surface-ship sonar that has both active and passive operating capabilities providing precise information for ASW weapons control and guidance.

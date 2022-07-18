@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mark 37 Mod 0
+WeaponDescriptiveName=Mark 37 Mod 0 Torpedo
+WeaponDescription=The Mark 37 Mod 0 Torpedo was the first variant of the Mark 37 to be deployed by the United States Navy starting in 1957. Despite a slow speed of only 26 knots, the weapon was considered more than adequate for the time period before the Soviet Union began serially producing nuclear submarines.

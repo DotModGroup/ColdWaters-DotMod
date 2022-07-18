@@ -53,8 +53,15 @@ TubeConfig=3,3
 TorpedoTubeSize=14
 TubeReloadTime=0
 
-MissileType=plan_cy-1
+MissileType=plan_c-801
 MissilesPerLauncher=3,3
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=6
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.118,0.04|0,0.118,-0.128|0,0.118,0|0,0.118,-0.13|0,0.118,0.02|0,0.118,-0.132
+AntiShipMissileLaunchPointsRotation=-16,90,0|-16,-90,0|-16,90,0|-16,-90,0|-16,90,0|-16,-90,0
 
 RBULaunchers=plan_type87_mortar,plan_type87_mortar
 RBUSalvos=8,8
@@ -62,6 +69,15 @@ RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
 [Defenses]
+
+AntiAirMissileType=wp_kinzhal
+AntiAirMissilesNumbers=6
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=1
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=0,0.12,0.42
+AntiAirMissileLaunchPointsRotation=-5,0,0
+
 Anti-MissileGunHitProbability=0.005
 Anti-MissileGunRange=4000
 Anti-MissileGunFiringArcStart=-150,-150,30,30
@@ -260,10 +276,13 @@ ParticleBowWavePosition=0,0,0.64
 ParticlePropWashPosition=0,-0.0545,-0.5312
 
 ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.1,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.25,2.25
 
 EngineAudioClip=audio/units/diesel_small

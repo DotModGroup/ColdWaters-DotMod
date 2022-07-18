@@ -1,0 +1,1 @@
+usn_ssq_41=SSQ-41B DICASS=The AN/SSQ-41 LOFAR (Low Frequency Analysis And Recording) is a USN passive and omnidirectional size-A sonobouy deployed on fixed- and rotary-wing ASW aircraft starting in 1965.

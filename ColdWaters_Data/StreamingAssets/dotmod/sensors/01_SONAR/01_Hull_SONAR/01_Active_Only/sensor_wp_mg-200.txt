@@ -1,0 +1,8 @@
+SonarModel=wp_mg-200
+SonarType=ACTIVE
+SonarFrequencies=H
+SonarActiveSensitivity=24
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=215

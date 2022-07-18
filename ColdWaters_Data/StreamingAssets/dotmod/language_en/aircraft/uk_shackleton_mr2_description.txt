@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Shackleton MR2
+AircraftDescriptiveName=Avro Shackleton MR2
+History=The Avro Shackleton is a British long-range maritime patrol aircraft (MPA) which was used by the Royal Air Force (RAF) and the South African Air Force (SAAF). It was developed by Avro from the Avro Lincoln bomber, which itself had been a development of the famous wartime Avro Lancaster bomber.\n\nThe Shackleton MR2 was armed with two 20mm Cannon in the Nose and up to 10,000lbs of bombs, torpedoes, mines, or depth charges.

@@ -233,13 +233,13 @@ ParticleBowWavePosition=0,0,0.8
 ParticlePropWashPosition=0,-0.083,-0.75
 
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=25,0.4875,0.1950,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.35
-ParticleAftFoamParameters=124.21,0.325,0.2275,0.004225,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=99.37,0.195,0.1365,0.0024375,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.65,2.74
 
 ModelFile=assets/models/wp_ssgn_papa.fbx

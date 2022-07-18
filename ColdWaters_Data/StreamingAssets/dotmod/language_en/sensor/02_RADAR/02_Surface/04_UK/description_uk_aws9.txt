@@ -1,0 +1,1 @@
+uk_aws9=AWS-9=AWS-9 is an export version of Type 996 E/F-Band 3-D surveillance and target identification air/surface search radar used by the U.K. Royal Navy.

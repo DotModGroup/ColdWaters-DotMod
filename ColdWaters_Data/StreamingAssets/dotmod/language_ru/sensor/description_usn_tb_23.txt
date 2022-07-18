@@ -1,0 +1,1 @@
+usn_tb_23=TB-23=The TB-23 Thin-Line Towed Array greatly increases the range of passive sonar. It is most effective at slower speeds but suffers from noise saturation above 10 Kts.\n \nThe Towed Array also negates the stern blind arc that is caused by ownship noise.

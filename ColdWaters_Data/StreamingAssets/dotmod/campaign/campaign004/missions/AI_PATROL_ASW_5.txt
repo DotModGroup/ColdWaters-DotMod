@@ -1,8 +1,8 @@
 //AI mission
-//Medium Norvegian Sea patrol
+//Medium Norwegian Sea patrol
 MissionType=AI_PATROL_ASW
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB
+ForbiddenFor=
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=24,48
@@ -23,7 +23,7 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-1,1-3
+NumberOfEnemyUnits=1-1,1-2
 CombatBehaviour=OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE
-EnemyShipClasses=usn_84_cg_belknap_ai|usn_84_dd_spruance_ai|uk_84_ddg_type42,usn_84_ffg_perry_ai|usn_84_ff_knox_ai|uk_84_ffg_type21
+EnemyShipClasses=nato_all_aaw_escorts,nato_all_asw_escorts

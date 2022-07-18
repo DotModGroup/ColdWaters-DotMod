@@ -1,6 +1,6 @@
 Designation=SS
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=66.8
 Beam=8.8
@@ -66,28 +66,28 @@ ESM_MAST=SAIL
 LabelPosition=409.7,171.9
 RADAR_MAST=SAIL
 LabelPosition=364.3,49.4
-TUBES=FRONT,FORE
-LabelPosition=201,193.2
+TUBES=FRONT
+LabelPosition=241.8,28
 FIRECONTROL=FORE
-LabelPosition=201,172.2
-PUMPS=AFT,MID
+LabelPosition=230,172.2
+PUMPS=AFT
 LabelPosition=59.9,27.7
-PROPULSION=AFT,REAR
+PROPULSION=REAR
 LabelPosition=59.9,172.2
 RUDDER=REAR
 LabelPosition=59.9,48.7
 PLANES=REAR,SAIL
 LabelPosition=190.8,49
 BALLAST=MID
-LabelPosition=190.8,28
-REACTOR=MID
+LabelPosition=230,193.2
+REACTOR=AFT
 
 [Flooding Display: x,width,ymin,ymax]
-FLOODING1=158,83,-77,-32
-FLOODING2=77,76,-83,-28
-FLOODING3=-2,78,-84,-26
-FLOODING4=-70,54,-80,-31
-FLOODING5=-129,59,-78,-34
+FLOODING1=167,85,-77,-32
+FLOODING2=86,77,-77,-28
+FLOODING3=8,80,-77,-26
+FLOODING4=-60,56,-77,-31
+FLOODING5=-119,62,-77,-34
 DamageControlPartyY=-28
 
 [Model]
@@ -133,7 +133,7 @@ MeshMast=rnn_68_zwaardvis_radar_mast
 MeshPosition=0,0,0
 ChildMesh=rnn_68_zwaardvis_radar_mast_dish
 
-MeshPosition=0,0.2212281,0.06309226
+MeshPosition=0,0.0.1642281,0.06309226
 Mesh=rnn_68_zwaardvis_snorkel
 
 [Weapon Systems]
@@ -185,10 +185,10 @@ ParticleBowWavePosition=0,0,0.4
 ParticlePropWashPosition=0,-0.035,-0.594
 
 ParticleHullFoamPosition=0,0,0.262
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=1.4,1.4
 
 EngineAudioClip=audio/units/submarine_engine_2

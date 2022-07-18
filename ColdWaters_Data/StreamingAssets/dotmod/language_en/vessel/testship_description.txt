@@ -2,7 +2,7 @@
 ShipClass=Cassiopeia
 Description=SSTN Cassiopeia
 
-History=Submarine for game testing. Never existed in reality.
+History=This is a test submarine for use in testing new mechanics and features. Also goes zoom.
 
 [Player Ship Instances]
 PlayerClassNames=Cassiopeia

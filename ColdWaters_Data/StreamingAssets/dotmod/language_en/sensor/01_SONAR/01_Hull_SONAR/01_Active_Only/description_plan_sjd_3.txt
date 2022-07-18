@@ -1,0 +1,1 @@
+plan_sjd_3=SJD-3=This is a Chinese high frequency hull-mounted scanning sonar based on an improved Stag Hoof design that equips several frigates.

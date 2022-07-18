@@ -213,7 +213,7 @@ LinksToWaypoint=SCS1
 LinksToRegionWaypoint=HK1
 
 //Peoples Republic of China
-//Quingdao 12
+//Qingdao 12
 Alignment=ENEMY
 Function=NAVAL_BASE,AIRBASE,LAND_STRIKE_TARGET
 BaseMapPosition=-19.7,253.8

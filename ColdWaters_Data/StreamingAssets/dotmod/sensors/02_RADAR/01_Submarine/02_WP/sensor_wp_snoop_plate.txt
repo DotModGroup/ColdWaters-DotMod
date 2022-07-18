@@ -1,0 +1,2 @@
+RADARModel=wp_snoop_plate
+RADARRange=30400

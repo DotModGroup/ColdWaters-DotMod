@@ -1,0 +1,5 @@
+[Unit Reference]
+ShipClass=Zulu
+Description=Zulu-class Diesel-Electric Attack Submarine
+
+History=The Soviet Navy's Project 611 were one of the first Soviet post-war attack submarines, a contemporary of the Whiskey-class submarines and shared a similar sonar arrangement. They were roughly as capable as the American GUPPY fleet-boat conversions. Like most conventional submarines designed 1946-1960, their design was influenced by the German Type XXI U-boat of the World War II era.

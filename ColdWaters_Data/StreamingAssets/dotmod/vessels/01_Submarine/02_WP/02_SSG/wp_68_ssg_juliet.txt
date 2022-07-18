@@ -171,58 +171,68 @@ VLSLaunchPointsRotation=-15,0,0
 [Weapon Systems]
 //Torpedo Mounts
 
-//Tube 1
+//Portside bow tubes
+
+//Tube 1 Portside
+MeshPosition=-0.013,0.018,0.613
+TorpedoSpawnPosition=-0.013,0.018,0.613
+TorpedoEffectPosition=-0.013,0.018,0.613
+
+//Tube 2 Portside
+MeshPosition=-0.013,0.005,0.613
+TorpedoSpawnPosition=-0.013,0.005,0.613
+TorpedoEffectPosition=-0.013,0.005,0.613
+
+//Tube 3 Portside
+MeshPosition=-0.013,-0.009,0.613
+TorpedoSpawnPosition=-0.013,-0.009,0.613
+TorpedoEffectPosition=-0.013,-0.009,0.613
+
+//Portside Stern Tubes
+//Tube 4 Portside
+MeshRotation=180,0,0
+
+MeshPosition=-0.022,0.016,-0.55
+TorpedoSpawnPosition=-0.022,0.016,-0.55
+TorpedoEffectPosition=-0.022,0.016,-0.55
+
+//Tube 5 Portside
+MeshPosition=-0.022,0.002,-0.55
+TorpedoSpawnPosition=-0.022,0.002,-0.55
+TorpedoEffectPosition=-0.022,0.002,-0.55
+
+//Starboard bow tubes
+MeshRotation=0,0,0
+
+//Tube 6 Starboard
 MeshRotation=0,0,0
 MeshPosition=0.013,0.018,0.613
 TorpedoSpawnPosition=0.013,0.018,0.613
 TorpedoEffectPosition=0.013,0.018,0.613
 
-//Tube 2
-MeshPosition=-0.013,0.018,0.613
-TorpedoSpawnPosition=-0.013,0.018,0.613
-TorpedoEffectPosition=-0.013,0.018,0.613
-
-//Tube 3
+//Tube 7 Starboard
 MeshPosition=0.013,0.005,0.613
 TorpedoSpawnPosition=0.013,0.005,0.613
 TorpedoEffectPosition=0.013,0.005,0.613
 
-//Tube 4
-MeshPosition=-0.013,0.005,0.613
-TorpedoSpawnPosition=-0.013,0.005,0.613
-TorpedoEffectPosition=-0.013,0.005,0.613
-
-//Tube 5
+//Tube 8 Starboard
 MeshPosition=0.013,-0.009,0.613
 TorpedoSpawnPosition=0.013,-0.009,0.613
 TorpedoEffectPosition=0.013,-0.009,0.613
 
-//Tube 6
-MeshPosition=-0.013,-0.009,0.613
-TorpedoSpawnPosition=-0.013,-0.009,0.613
-TorpedoEffectPosition=-0.013,-0.009,0.613
+//Starboard Stern Tubes
+MeshRotation=180,0,0
 
-//Rear Tubes
-//Tube 7
+//Tube 9 Starboard
 MeshRotation=180,0,0
 MeshPosition=0.022,0.016,-0.55
 TorpedoSpawnPosition=0.022,0.016,-0.55
 TorpedoEffectPosition=0.022,0.016,-0.55
 
-//Tube 8
-MeshPosition=-0.022,0.016,-0.55
-TorpedoSpawnPosition=-0.022,0.016,-0.55
-TorpedoEffectPosition=-0.022,0.016,-0.55
-
-//Tube 9
+//Tube 10 Starboard
 MeshPosition=0.022,0.002,-0.55
 TorpedoSpawnPosition=0.022,0.002,-0.55
 TorpedoEffectPosition=0.022,0.002,-0.55
-
-//Tube 10
-MeshPosition=-0.022,0.002,-0.55
-TorpedoSpawnPosition=-0.022,0.002,-0.55
-TorpedoEffectPosition=-0.022,0.002,-0.55
 
 //VLS Launch Position
 MeshPosition=0.034,0.0785,0.2316
@@ -251,10 +261,10 @@ ParticleBowWavePosition=0,0,0.667
 ParticlePropWashPosition=0,-0.033,-0.703
 
 ParticleHullFoamPosition=0,0,0.48
-ParticleHullFoamParameters=10,0.25,0.2,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.48
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.15,2.15
 
 EngineAudioClip=audio/units/submarine_engine_1

@@ -1,0 +1,8 @@
+SonarModel=wp_bull_horn
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=25
+SonarPassiveSensitivity=28
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220

@@ -1,12 +1,12 @@
 //Player mission
-//Large
+//Occupied UK Boat
 MissionType=SPECOPS
 AllowedOnlyFor=
-ForbiddenFor=SSB,CL,FF,SS,DD
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=550
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
-StartLocation=NAVAL_BASE
+StartLocation=UK_NAVAL
 StartAlignment=ENEMY
 EndLocation=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,SOSUS_NODE
 EndAlignment=FRIENDLY_OCCUPIED
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-2,1-1
-CombatBehaviour=OFFENSIVE,DEFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE
-EnemyShipClasses=usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_skipjack,usn_84_ssn_los_angeles|usn_84_ssn_sturgeon
+NumberOfEnemyUnits=1-1
+CombatBehaviour=DEFENSIVE
+EnemyUnitMissionCritical=TRUE
+EnemyShipClasses=uk_all_ssn|uk_all_ssk
 EventWin=SPECOPS_win
 EventFail=SPECOPS_fail

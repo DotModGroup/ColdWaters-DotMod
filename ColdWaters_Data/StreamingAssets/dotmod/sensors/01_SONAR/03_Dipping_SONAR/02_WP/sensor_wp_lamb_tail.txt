@@ -1,0 +1,8 @@
+SonarModel=wp_lamb_tail
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=30
+SonarPassiveSensitivity=30
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220

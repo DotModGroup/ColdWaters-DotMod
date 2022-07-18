@@ -1,0 +1,2 @@
+RADARModel=usn_bps_15A
+RADARRange=60000

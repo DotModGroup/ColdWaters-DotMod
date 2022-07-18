@@ -1,4 +1,0 @@
-[Unit Reference]
-ShipClass=Gearing
-Description=FRAM I Gearing-class Destroyer
-History=The Gearing class was a series of 98 destroyers built for the U.S. Navy during and shortly after World War II. The Gearing design was a minor modification of the Allen M. Sumner class, whereby the hull was lengthened by 14 ft (4.3 m) at amidships, which resulted in more fuel storage space and increased the operating range. In the late 1950s and early 1960s, 79 of the Gearing-class destroyers underwent extensive modernization overhauls, known as FRAM I, which were designed to convert them from an anti-aircraft destroyer to an anti-submarine warfare platform. FRAM I and FRAM II conversions were completed 1960-1965. Eventually all but three Gearings received FRAM conversions.

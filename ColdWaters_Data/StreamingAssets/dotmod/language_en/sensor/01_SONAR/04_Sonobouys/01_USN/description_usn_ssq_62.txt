@@ -1,0 +1,1 @@
+usn_ssq_62=SSQ-62B DICASS=The AN/SSQ-62 DICASS (DIrectional Command Activated Sonobuoy System) is a USN active and directional size-A sonobouy deployed on fixed- and rotary-wing ASW aircraft starting in the early 80s.

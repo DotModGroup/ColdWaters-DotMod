@@ -38,7 +38,13 @@ TowedArrayModel=usn_sqr_19
 AnechoicCoating=FALSE
 RADAR=usn_spy_1d
 RADARSignature=SMALL
-TowedArrayPosition=0.05,-0.002,-1.0562134
+TowedArrayPosition=0,0.0534,-1.10738
+TowedArraySettings=4,0.0018,456,0.035,true,998.52,0.75,25
+TowedDecoyPosition=0.06,0.0338,-1.1
+//Usage - TowedDecoySettings=DEFAULT or MaterialParameters=resolution,radius,maxPoints,maxDelta,incrementDown,targetDepth,sinkRateMultiplier,retractRateMultiplier
+TowedDecoySettings=4,0.0008,456,0.035,true,999.72,0.75,25
+TowedDecoyBody=nixie
+TowedDecoyCount=10
 
 [Weapon Systems]
 NavalGuns=usn_mark_45_shell
@@ -125,6 +131,8 @@ LabelPosition=372,162
 BALLAST=FALSE
 LabelPosition=252,60
 REACTOR=MID
+LabelPosition=50,18    
+TOWEDDECOY=REAR
 
 [Flooding Display: x,width,ymin,ymax]
 FLOODING1=130,71,-82,-46
@@ -416,20 +424,20 @@ ParticleBowWavePosition=0,0,0.97
 ParticlePropWashPosition=0,-0.015,-1.12
 
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=61.2,0.18,0.333,0.045,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=172.7,0.342,0.2394,0.00513,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=137.76,0.252,0.1764,0.003276,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 
 KelvinWaves=3.9,3.4
-
 
 AssetBundle=bundles/vessels/usn_ddg_arleigh_burke.unity3d
 ModelFile=assets/models/usn_ddg_arleigh_burke_flight_1.fbx
 
+[Audio]
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20

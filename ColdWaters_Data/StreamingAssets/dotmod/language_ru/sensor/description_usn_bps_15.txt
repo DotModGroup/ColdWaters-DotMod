@@ -1,0 +1,1 @@
+usn_bps_15=BPS-15=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.

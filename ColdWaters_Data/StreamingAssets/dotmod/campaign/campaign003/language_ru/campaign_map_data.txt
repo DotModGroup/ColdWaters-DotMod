@@ -11,7 +11,7 @@ LocationName=Busan=South Korea
 LocationName=Vladivostok=Soviet Union
 LocationName=Cam Ranh=Vietnam
 LocationName=Hong Kong=China
-LocationName=Quingdao=China
+LocationName=Qingdao=China
 LocationName=Ningbo=China
 LocationName=Xiamen=China
 LocationName=Shantou=China
@@ -53,7 +53,7 @@ LabelName=Cam Ranh
 LabelPosition=-166.9,-48.4
 LabelName=Hong Kong
 LabelPosition=-23,267.8
-LabelName=Quingdao
+LabelName=Qingdao
 LabelPosition=7.8,120.8
 LabelName=Ningbo
 LabelPosition=-81.3,-1.5

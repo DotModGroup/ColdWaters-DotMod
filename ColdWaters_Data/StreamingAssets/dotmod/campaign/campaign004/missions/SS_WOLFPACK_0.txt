@@ -1,20 +1,19 @@
 //Player mission
-//Small
+//Norweigan Sea
 MissionType=SS_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=CL,SSB,SSBN,CGN
-AllowedOnlyForCostBelow=200
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
-MissionType=SS_WOLFPACK
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
-Speed=8
+Speed=6
 MustUseWaypoints=N1
 UseAtLeastOneWaypointOf=N1,NC1,IG1,N2
-ProhibitedWaypoints=P1,P2
+ProhibitedWaypoints=P1,P2,B1,SC4
 PatrolForHours=12,24
 StrategicValue=20
 MissionEndsWhen=PATROL_END
@@ -24,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-2
+NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=uk_84_ss_oberon|knm_84_ss_kobben
+EnemyShipClasses=nato_all_ssk
 EventWin=SS_WOLFPACK_win
 EventFail=SS_WOLFPACK_fail

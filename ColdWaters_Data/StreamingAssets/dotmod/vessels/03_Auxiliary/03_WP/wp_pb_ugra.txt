@@ -159,10 +159,10 @@ ParticleBowWavePosition=0,0,0.97
 ParticlePropWashPosition=0,-0.045,-0.871
 
 ParticleHullFoamPosition=0,0,0.46
-ParticleHullFoamParameters=300,0.35,0.25,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.87
-ParticleSternFoamParameters=240,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.6,3.6
 
 EngineAudioClip=audio/units/submarine_propeller

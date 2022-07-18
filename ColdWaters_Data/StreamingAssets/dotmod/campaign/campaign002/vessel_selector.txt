@@ -1,5 +1,6 @@
 [Inventory]
 wp_68_ss_whiskey=83
+wp_68_ss_zulu=14
 wp_68_ss_romeo=12
 wp_68_ss_foxtrot=26
 wp_68_ssn_november=8
@@ -12,6 +13,7 @@ wp_68_ssbn_yankee=34
 
 wp_68_pkr_moskva_ai=0
 wp_68_rkr_kresta1_ai=4
+wp_68_kr_sverdlov_ai=6
 wp_68_skr_riga_ai=27
 wp_68_mpk_poti_ai=31
 wp_68_em_kotlin_ai=23
@@ -57,4 +59,5 @@ wp_sub_unrep=wp_pb_don,wp_pb_ugra
 wp_landing=wp_bdk_alligator,wp_vtr_amguema
 wp_cargo=wp_ms_kommunist,wp_ms_poltava,wp_vtr_andizhan,wp_vtr_yuniy_partizan,wp_ms_leninskiy_komsomol,wp_vtr_amguema
 
+civ_all_trawlers=civ_fv_trawler,civ_fv_trawler_2
 biologics=biologic_humpback_whale,biologic_blue_whale

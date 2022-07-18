@@ -9,8 +9,10 @@ Displacement=28000
 Crew=760
 Range=10500
 HullNumbers=181
-//Номера не будет пока не починим неотзеркаленый меш
-//S065.png,S190.png
+AircraftNumbers=2,1
+AircraftTypes=wp_hormone,wp_helix
+AircraftSpawnPoints=-0.009,0.133,-1.577
+AircraftTransitionPoints=-0.6,0.7,-1.7
 
 [Movement]
 SurfaceSpeed=32
@@ -59,8 +61,8 @@ RBURestElevation=335,335,335
 RBURestAngle=0,0,0
 RBUSalvoNumbers=20
 
-TorpedoTypes=wp_uset-80,wp_rpk-6,wp_moss_mg-74
-TorpedoNumbers=10,10,8
+TorpedoTypes=wp_uset-80,wp_rpk-6,wp_moss_mg-74,wp_umgt-1
+TorpedoNumbers=10,10,8,20
 TorpedoTubes=11
 NumberOfWires=0
 TubeConfig=1,1,1,1,1,1,1,1,1,1,1
@@ -198,10 +200,6 @@ MeshRotation=0,0,0
 Material=ships/materials/soviet_crest
 Mesh=wp_rkr_kirov_crest
 Material=aircraft/wp_helix/wp_helix_mat
-MaterialTextures=aircraft/wp_helix/wp_helix_tx
-Mesh=wp_rkr_kirov_airwing
-Material=ships/materials/hormone_shadow
-Mesh=wp_rkr_kirov_airwing_shadow
 
 //RADARs
 RADARSpeed=180
@@ -456,13 +454,13 @@ ParticleBowWavePosition=0,0,1.63
 ParticlePropWashPosition=0,-0.015,-1.71
 
 ParticleHullFoamPosition=0,0,1.45
-ParticleHullFoamParameters=65,0.28,0.518,0.070,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=191.23,0.532,0.3724,0.00798,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=152.99,0.392,0.2744,0.005096,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=5.7,5.7
 
 EngineAudioClip=audio/units/kirov

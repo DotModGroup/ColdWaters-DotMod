@@ -1,8 +1,8 @@
 //Player mission
 //Hardcoded. Only against NORWAYSPITSBERGEN SOSUS
 MissionType=SOSUS_BREACH
-AllowedOnlyFor=SS
-ForbiddenFor=SSB,SSBN,SSGN,SSG,SURFACE
+AllowedOnlyFor=
+ForbiddenFor=SURFACE
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,0
@@ -26,7 +26,7 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=wp_84_ssbn_typhoon
+EnemyShipClasses=testship
 EventWin=SOSUS_BREACH_win
 EventFail=SOSUS_BREACH_fail
 

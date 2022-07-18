@@ -44,6 +44,16 @@ NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
+MissileType=plan_c-801
+MissilesPerLauncher=3,2
+
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=6
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.08,0.14|0,0.08,-0.2|0,0.08,0.18|0,0.09,-0.22|0,0.09,0.16|0,0.08,-0.24
+AntiShipMissileLaunchPointsRotation=-16,90,0|-16,-90,0|-16,90,0|-16,-90,0|-16,90,0|-16,-90,0
+
 RBULaunchers=wp_rbu2500_mortar,wp_rbu2500_mortar
 RBUSalvos=6,6
 RBUFiringArcBearingMin=-130,0
@@ -159,6 +169,19 @@ NavalGunSpawnPosition=0,0,0.12
 
 MeshRotation=0,0,0
 Material=ships/materials/modular_parts
+
+//Missile Mounts
+MeshRotation=345,60,0
+MeshPosition=0.0,0.076,0.121
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=-0.01,-0.002,-0.055
+
+MeshRotation=345,300,0
+MeshPosition=0.0,0.076,-0.2572
+MeshMissileMount=FALSE
+MeshRotation=0,0,0
+MissileEffectPosition=0.01,-0.002,-0.055
 
 //RBU
 MeshPosition=-0.04,0.1,0.7766
@@ -295,13 +318,13 @@ ParticleBowWavePosition=0,-0.075,0.934
 ParticlePropWashPosition=0,-0.044,-0.756
 
 ParticleHullFoamPosition=0,0,0.85
-ParticleHullFoamParameters=65,0.127,0.23495,0.03175,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=275,0.2413,0.16891,0.0036195,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=250,0.1778,0.12446,0.0023114,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/turbine_small

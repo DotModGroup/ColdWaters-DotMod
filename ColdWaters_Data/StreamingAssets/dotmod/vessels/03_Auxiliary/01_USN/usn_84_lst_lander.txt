@@ -44,33 +44,28 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Model]
-AssetBundle=bundles/aircraft/usn/usn_sh60b
-ModelFile=assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b.obj
-Material=assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_mat.mat
-MaterialTextures=assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_tx.dds,assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_spec.dds,assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_nm.dds
-
-MeshPosition=0,0.07367,-0.77617
+AssetBundle=bundles/aircraft/usn_sh-60.unity3d
+ModelFile=assets/models/usn_sh60b.fbx
+Material=assets/models/materials/usn_sh60b.mat
 MeshPosition=0,0.12567,-0.67617
 MeshRotation=0,0,0
 Mesh=usn_sh60b,HIDE
 
-Material=assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_rotor_mat.mat
-MaterialTextures=assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_rotor_tx.dds,assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_rotor_spec.dds,assets/resourcesforbundles/aircraft/usn/usn_sh60b/usn_sh60b_rotor_norm.dds
+Material=assets/models/materials/usn_sh60b_rotor.mat
 
-MeshPosition=0,0.09939,-0.76947
 MeshPosition=0,0.14939,-0.66947
 MeshRotation=1,0,0
-Mesh=usn_sh60b_mainrotor,HIDE
+MeshSpeed=-2000
+Mesh=usn_sh60b_mainrotor
 
-MeshPosition=0.00246,0.11256,-0.91485
 MeshPosition=0.00246,0.16256,-0.81485
-MeshRotation=0,0,-72.6
-Mesh=usn_sh60b_tailrotor,HIDE
-
+MeshRotation=0,0,-72
+MeshSpeed=1500
+Mesh=usn_sh60b_tailrotor
 
 ModelFile=ships/plan_lst_yuting/plan_lst_yuting
 
@@ -222,9 +217,9 @@ MeshSternWake=plan_lst_yukan_sternwake
 ParticleBowWavePosition=0,0,0.779
 ParticlePropWashPosition=0,-0.075,-1.56
 ParticleHullFoamPosition=0,0,0.35
-ParticleHullFoamParameters=300,0.35,0.35,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-0.7
-ParticleSternFoamParameters=240,0.35,0.2,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.4,2.4
 
 EngineAudioClip=audio/units/diesel_large

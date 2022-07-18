@@ -1,0 +1,2 @@
+RADARModel=uk_type992
+RADARRange=64000

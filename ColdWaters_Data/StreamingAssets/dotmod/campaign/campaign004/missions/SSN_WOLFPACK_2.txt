@@ -2,9 +2,9 @@
 //Large
 MissionType=SSN_WOLFPACK
 AllowedOnlyFor=
-ForbiddenFor=SSB,SSG,SSBN,SSGN,CL,CGN
+ForbiddenFor=SSG,SSGN,SS,CL,CGN
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=550
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-1,1-2
+NumberOfEnemyUnits=1-1,0-1
 CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=TRUE,FALSE
-EnemyShipClasses=usn_84_ssn_sturgeon|usn_84_ssn_los_angeles,usn_84_ssn_sturgeon|usn_84_ssn_permit
+EnemyUnitMissionCritical=TRUE,TRUE
+EnemyShipClasses=nato_all_ssn,nato_all_ssn
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

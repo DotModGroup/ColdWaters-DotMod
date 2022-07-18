@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Mark 37 Mod 1
+WeaponDescriptiveName=Mark 37 Mod 1 Torpedo
+WeaponDescription=The Mark 37 torpedo was the USN's standard submarine-launched anti-submarine torpedo from 1960 to 1972, when it was replaced by the Mark 48 Mod 0. The Mark 37 Mod 0 was the original version which entered service in 1960. It would later be upgraded into the wire-guided Mark 37 Mod 1. The Mod 0 torpedoes would eventually be upgraded to the Mark 37 Mod 3, a torpedo similar to the original Mod 0 but with an improved sensor and a tweaked propulsion system. The Mark 37 Mod 1 would also receive a similar upgrade into the Mark 37 Mod 2.

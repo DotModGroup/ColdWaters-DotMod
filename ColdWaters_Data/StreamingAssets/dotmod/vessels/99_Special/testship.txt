@@ -58,7 +58,7 @@ RBURestAngle=0
 RBUSalvoNumbers=80
 
 TorpedoTypes=usn_mk48,wp_uset-80,wp_65-76,wp_moss_mg-74
--wp_53-65,wp_test-71mke,usn_mk48_adcap
+-wp_53-65,wp_test-71mk,usn_mk48_adcap
 TorpedoNumbers=6,6,6,6
 TorpedoTubes=7
 NumberOfWires=4
@@ -322,10 +322,10 @@ ParticleBowWavePosition=0,0,1.01
 ParticlePropWashPosition=0,-0.033,-0.65
 
 ParticleHullFoamPosition=0,0,0.745
-ParticleHullFoamParameters=10,0.35,0.2,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-0.858
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.0,3.0
 
 EngineAudioClip=audio/units/submarine_engine_3

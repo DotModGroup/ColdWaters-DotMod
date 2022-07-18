@@ -210,10 +210,10 @@ ParticleBowWavePosition=0,0,1.02
 ParticlePropWashPosition=0,-0.008,-1.05
 
 ParticleHullFoamPosition=0,0,0.97
-ParticleHullFoamParameters=40,0.25,0.25,0.006,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.6
-ParticleSternFoamParameters=45,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.1,2.1
 
 //Audio

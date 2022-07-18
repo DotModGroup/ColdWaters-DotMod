@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=SH-34J Seabat
+AircraftDescriptiveName=Sikorsky SH-34J Seabat
+History=The Sikorsky SH-34J Seabat is the Antisubmarine Warfare variant of the H-34 family of helicopters. The SH-34J is the Night/Bad weather version of the SH-34G with improved avionics and autopilot.

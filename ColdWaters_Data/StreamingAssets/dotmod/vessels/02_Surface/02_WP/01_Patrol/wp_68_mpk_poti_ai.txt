@@ -203,9 +203,9 @@ MeshSternWake=wp_mpk_poti_sternwake
 ParticleBowWavePosition=0,0,0.41
 ParticlePropWashPosition=0,-0.0169,-0.3776
 ParticleHullFoamPosition=0,0,0.237
-ParticleHullFoamParameters=5,0.15,0.15,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.36
-ParticleSternFoamParameters=12.5,0.20,0.10,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=1.5,1.5
 
 EngineAudioClip=audio/units/diesel_small

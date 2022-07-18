@@ -1,0 +1,8 @@
+SonarModel=plan_ss_12
+SonarType=DIPPING
+SonarFrequencies=M
+SonarActiveSensitivity=32
+SonarPassiveSensitivity=32
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=220

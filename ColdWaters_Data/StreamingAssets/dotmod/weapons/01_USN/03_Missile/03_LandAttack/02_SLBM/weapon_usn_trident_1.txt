@@ -25,9 +25,8 @@ WeaponSprite=hud/sprites/usn_trident_1_sprite.png
 MinCameraDistance=0.4
 ResupplyTime=60
 [Model]
-AssetBundle=bundles/weapons/usn/usn_trident.unity3d
+AssetBundle=bundles/weapons/usn_trident.unity3d
 Material=assets/materials/usn_trident.mat
-MaterialTextures=assets/texture/usn_trident.png
 ModelFile=assets/models/usn_trident.obj
 MeshPosition=0,0,0.05
 MeshWeapon=default

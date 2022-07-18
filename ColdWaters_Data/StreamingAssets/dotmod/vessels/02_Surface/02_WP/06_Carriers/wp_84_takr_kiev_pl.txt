@@ -460,9 +460,9 @@ MeshSternWake=wp_takr_kiev_sternwake
 ParticleBowWavePosition=0,0,1.77
 ParticlePropWashPosition=0,-0.056,-1.837
 ParticleHullFoamPosition=0,0,1.02
-ParticleHullFoamParameters=500,0.75,0.45,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-1.82
-ParticleSternFoamParameters=400,0.55,0.25,0.005,0.01,0,0.7
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=6.5,6.5
 
 EngineAudioClip=audio/units/turbine_large

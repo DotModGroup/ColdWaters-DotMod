@@ -26,6 +26,20 @@ CavitationParameters=20,-100
 PropRotationSpeed=-375,375
 TestDepth=0
 
+[Acoustics & Sensors]
+SelfNoise=195
+ActiveSonarReflection=25
+ActiveSonarModel=wp_buck_toe
+PassiveSonarModel=wp_buck_toe
+TowedArrayModel=FALSE
+AnechoicCoating=FALSE
+RADAR=wp_don_kay
+RADARSignature=MEDIUM
+
+NoisemakerName=surf_noisemaker
+NumberOfNoisemakers=15
+NoisemakerReloadTime=20
+
 [Weapon Systems]
 NavalGuns=wp_b-34_shell,wp_b-34_shell,wp_b-34_shell
 NavalGunFiringArcBearingMin=-120,-120,60
@@ -45,20 +59,6 @@ RBULaunchers=wp_rbu2500_mortar,wp_rbu2500_mortar
 RBUSalvos=8,8
 RBUFiringArcBearingMin=-130,-180
 RBUFiringArcBearingMax=0,-130
-
-[Acoustics & Sensors]
-SelfNoise=195
-ActiveSonarReflection=25
-ActiveSonarModel=wp_buck_toe
-PassiveSonarModel=wp_buck_toe
-TowedArrayModel=FALSE
-AnechoicCoating=FALSE
-RADAR=wp_don_kay
-RADARSignature=MEDIUM
-
-NoisemakerName=surf_noisemaker
-NumberOfNoisemakers=15
-NoisemakerReloadTime=20
 
 [Model]
 ModelFile=ships/wp_skr_riga/wp_skr_riga
@@ -186,10 +186,10 @@ ParticleBowWavePosition=0,0,0.64
 ParticlePropWashPosition=0,-0.0545,-0.5312
 
 ParticleHullFoamPosition=0,0,0.4
-ParticleHullFoamParameters=10,0.25,0.25,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,-0.5
-ParticleSternFoamParameters=25,0.25,0.1,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=2.25,2.25
 
 EngineAudioClip=audio/units/submarine_propeller

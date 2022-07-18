@@ -204,13 +204,13 @@ MeshSternWake=wp_bpk_kanin_sternwake
 ParticleBowWavePosition=0,-0.075,0.877
 ParticlePropWashPosition=0,-0.044,-0.756
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=49.64,0.15,0.2775,0.0375,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=156.22,0.285,0.1995,0.004275,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=124.97,0.21,0.147,0.0051,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.2,3.2
 
 EngineAudioClip=audio/units/turbine_small

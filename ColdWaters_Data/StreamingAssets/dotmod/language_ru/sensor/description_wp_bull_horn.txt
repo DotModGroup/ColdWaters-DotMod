@@ -1,0 +1,1 @@
+wp_bull_horn=Bull Horn=This hull-mounted active/passive medium frequency set is mounted on later Soviet ships where it replaces the earlier Bull Nose medium frequency array.

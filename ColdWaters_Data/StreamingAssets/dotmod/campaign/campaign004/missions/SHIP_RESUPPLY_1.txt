@@ -2,9 +2,9 @@
 //Medium
 MissionType=SHIP_RESUPPLY
 AllowedOnlyFor=
-ForbiddenFor=FF,SSB,SSBN,FFG,DD
+ForbiddenFor=FF,FFG,DD,SS,SSG,CGN
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=40
+AllowedOnlyForCostHigherThan=
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -23,9 +23,9 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-1,1-1,1-1,1-2
-CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,TRUE,TRUE,FALSE
-EnemyShipClasses=usn_84_ddg_adams_ai|knm_84_ffg_oslo|usn_84_ffg_perry_ai|usn_84_ff_knox_ai,usn_68_ap_freighter_a,usn_84_aor_oiler,usn_84_ff_knox_ai
+NumberOfEnemyUnits=1-1,1-1,1-1,1-1
+CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+EnemyUnitMissionCritical=FALSE,FALSE,TRUE,FALSE
+EnemyShipClasses=nato_all_asw_escorts,usn_cargo|nato_cargo,usn_84_aor_oiler,nato_all_asw_escorts
 EventWin=SHIP_RESUPPLY_win
 EventFail=SHIP_RESUPPLY_fail

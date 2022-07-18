@@ -1,0 +1,2 @@
+RADARModel=wp_snoop_slab
+RADARRange=30400

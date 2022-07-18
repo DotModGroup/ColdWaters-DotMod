@@ -1,0 +1,2 @@
+RADARModel=usn_spy_1d
+RADARRange=76000

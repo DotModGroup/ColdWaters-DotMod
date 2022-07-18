@@ -1,0 +1,8 @@
+SonarModel=wp_tamir
+SonarType=ACTIVE
+SonarFrequencies=H
+SonarActiveSensitivity=18
+SonarPassiveSensitivity=0
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=210

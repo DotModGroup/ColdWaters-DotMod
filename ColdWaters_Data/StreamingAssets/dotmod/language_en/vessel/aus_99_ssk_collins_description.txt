@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Collins
+Description=Collins-class Diesel-Electric Submarine
+History=
+
+[Player Ship Instances]
+PlayerClassNames=Collins,Farncomb,Waller,Dechaineux,Sheean,Rankin
+PlayerClassHullNumbers=S73,S74,S75,S86,S77,S78

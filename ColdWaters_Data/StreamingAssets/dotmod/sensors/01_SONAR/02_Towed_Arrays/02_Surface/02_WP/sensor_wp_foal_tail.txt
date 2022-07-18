@@ -1,0 +1,8 @@
+SonarModel=wp_foal_tail
+SonarType=TOWED
+SonarFrequencies=H
+SonarActiveSensitivity=20
+SonarPassiveSensitivity=36
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=210

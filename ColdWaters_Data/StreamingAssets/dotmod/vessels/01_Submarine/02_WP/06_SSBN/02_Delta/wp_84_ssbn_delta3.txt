@@ -42,6 +42,7 @@ TowedArrayPosition=0,0.06,-1.05
 TorpedoTypes=wp_uset-80,wp_test-71m,wp_rpk-6,wp_set-40,wp_moss_mg-74
 TorpedoNumbers=8,4,2,4,2
 TorpedoTubes=6
+NumberOfWires=2
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,400,400
 TubeReloadTime=30
@@ -52,6 +53,14 @@ MissilesPerLauncher=1,1
 NoisemakerName=wp_noisemaker
 NumberOfNoisemakers=30
 NoisemakerReloadTime=15
+
+AntiAirMissileType=wp_igla
+AntiAirMissilesNumbers=6
+AntiAirMissilesPerTarget=1
+AntiAirMissileReloadTime=12
+AntiAirMissileLaunchDepth=12
+AntiAirMissileLaunchPoints=0,0.1,0.752
+AntiAirMissileLaunchPointsRotation=-90,0,0
 
 [Subsystems]
 LabelPosition=364.3,28
@@ -259,10 +268,10 @@ ParticleBowWavePosition=0,0,1.207
 ParticlePropWashPosition=0,-0.033,-1.091
 
 ParticleHullFoamPosition=0,0,0.892
-ParticleHullFoamParameters=10,0.35,0.2,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleSternFoamPosition=0,0,-1.03
-ParticleSternFoamParameters=25,0.25,0.15,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.55,3.55
 
 EngineAudioClip=audio/units/submarine_engine_3

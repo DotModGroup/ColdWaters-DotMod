@@ -8,25 +8,25 @@ GenerateFullLog=TRUE
 
 //=========Modded Parameters===========
 //You can change this string to your mod name and version
-ModVersion=Dot Mod v 0.3c-1
+ModVersion=Dot Mod v 0.4a-1
 
 //Nations
 //The list of nations used by the game, as more are added this has been moved to the config file to prevent code changes. Format: comma separated strings
-Nations=all,usn,wp,plan,uk,knm,roc
+Nations=all,usn,wp,plan,uk,knm,roc,aus,rnn
 
 //Custom font
 CustomFontBundle=bundles\fonts\custom
 CustomFont=assets/resourcesforbundles/fonts/font/custom.ttf
 
 //% of maximum submerged speed needed to make a knuckle. Scripted to stay between 10 and 24 knots
-//If you want default CW behavior use any value more than 2.4
+//If you want default CW behaviour use any value more than 2.4
 KnuckleSpeed=0.95
 
 //Probability of enemy ASR torpedoes will use snake pattern instead of circulation, if dropped in more than 2100 yards from your sub.
 //Should be between 0 and 1. Values more than 1 will act like 1 (100% probability)
 ASRSnakeProbability=0
 
-//Increaces crush depth beyond Test Depth. Crush depth = Test Depth + (Test Depth * (Random value between TestDepthAddition and TestDepthAddition * 1.5))
+//Increases crush depth beyond Test Depth. Crush depth = Test Depth + (Test Depth * (Random value between TestDepthAddition and TestDepthAddition * 1.5))
 //Original game value = 0.5
 TestDepthAddition=0.25
 
@@ -52,6 +52,15 @@ EnemyUseAntiShip=TRUE
 //Maximum number of Navigation Markers displayed on tactical map. This option can be deleted and default amount will be 30
 MaxNavMarkersOnMap=30
 
+//Default Parameters for use with Towed Array and Towed Decoy
+TowedArraySettingsSurface=4,0.0010,456,0.035,true,998.72,3.25,25
+TowedArraySettingsSubmarine=4,0.0010,456,0.035,false,998.72,3.25,25
+TowedArrayDrogueSegments=15
+TowedArrayDiameterMultiplier=3
+TowedArrayHydrophoneSegments=30
+TowedDecoySettingsSurface=4,0.0008,456,0.035,true,999.82,1.25,25
+TowedDecoySettingsSubmarine=4,0.0008,456,0.035,false,999.82,1.25,25
+
 //*********Debug&Development*********
 //TRUE - enables some additional test modding. Enable on your own risk.
 AddtionalChangesEnabled=TRUE
@@ -59,7 +68,7 @@ AddtionalChangesEnabled=TRUE
 //If true, enables usage of "Skip Mission(Debug) Key which is used to counter a stuck campaign bug.
 SkipMissionKeyEnabled=TRUE
 
-//If enabled - shells and RBUs can't shoot through islands. Enabling may cause performans drop. Or not...
+//If enabled - shells and RBUs can't shoot through islands. Enabling may cause performance drop. Or not...
 //Works 50/50
 ShellColliderEnabled=FALSE
 

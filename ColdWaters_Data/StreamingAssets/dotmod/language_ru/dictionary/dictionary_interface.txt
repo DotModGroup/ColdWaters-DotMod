@@ -157,6 +157,19 @@ Place NavMarker=Установить нав. маркер
 Place NavMarkerALT=Установить нав. маркер 2
 Delete All NavMarkers=Стереть все маркеры
 Fire SAM=Пуск ЗУР
+Toggle Towed=Toggle Towed Array
+Toggle Towed Decoy Long=Toggle Towed Decoy Long Stay
+Toggle Towed Decoy Short=Toggle Towed Decoy Short Stay
+Toggle Towed Decoy=Toggle Towed Decoy
+Aircraft Next=Выберите Следующий самолет
+Aircraft Previous=Выберите Предыдущий Самолет
+Aircraft Launch=Подготовить или запустить самолет
+Aircraft Recover=Поднимать, приземлять или размещать воздушные суда
+Aircraft Navigate=Курс пилотирования самолета
+Aircraft Attack=Атака Пилотного самолета
+Aircraft Weapon Count=Выбранный Инвентарь Оружия
+Aircraft Next Weapon=Выберите Следующее Авиационное оружие
+Aircraft Previous Weapon=Выберите Предыдущее Авиационное оружие
 ==============================================================
 
 [GENERAL]

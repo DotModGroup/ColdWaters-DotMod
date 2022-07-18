@@ -1,0 +1,1 @@
+wp_mgk-1000=MGK-1000 "Okean"=NATO reporting name: "Squid Arm". This is an advanced low frequency sonar array unique to the Alfa-class fast attack submarine where it feeds a highly automated command-and-control system, the details of which little is known.="Okean"

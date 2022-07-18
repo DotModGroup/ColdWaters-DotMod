@@ -1,0 +1,2 @@
+RADARModel=usn_sps_10
+RADARRange=58000

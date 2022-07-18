@@ -1,0 +1,9 @@
+[Unit Reference]
+ShipClass=Gearing
+Description=FRAM I Gearing-class Destroyer
+Aircraft=2 QH-50 DASH
+History=The Gearing class was a series of 98 destroyers built for the U.S. Navy during and shortly after World War II. The Gearing design was a minor modification of the Allen M. Sumner class, whereby the hull was lengthened by 14 ft (4.3 m) at amidships, which resulted in more fuel storage space and increased the operating range. In the late 1950s and early 1960s, 79 of the Gearing-class destroyers underwent extensive modernization overhauls, known as FRAM I, which were designed to convert them from an anti-aircraft destroyer to an anti-submarine warfare platform. FRAM I and FRAM II conversions were completed 1960-1965. Eventually all but three Gearings received FRAM conversions.
+
+[Player Ship Instances]
+PlayerClassNames=Gearing,Wiltsie,Theodore E. Chandler,Hamner,William C. Lawe,Rowan,Gurke,Henderson,James E. Kyes,Hollister,Eversole,Johnston,Robert H. McCard,Samuel B. Roberts,George K.,Mackenzie,Sarsfield,Power,Glennon,Warrington,Ozbourn,Richard E. Kraus,Joseph P. Kennedy, Jr.,Rupertus,Leonard F. Mason,Charles H. Roan,Vogelgesang,Harold J. Ellison,Charles R. Ware,Cone,Stribling,Arnold J. Isbel,Forrest Royal,Floyd B. Parks,John R. Craig,Orleck,Brinkley Bass
+PlayerClassHullNumbers=DD-710,DD-716,DD-717,DD-718,DD-763,DD-782,DD-783,DD-785,DD-787,DD-788,DD-789,DD-821,DD-822,DD-823,DD-836,DD-837,DD-839,DD-840,DD-843,DD-846,DD-849,DD-850,DD-851,DD-852,DD-853,DD-862,DD-864,DD-865,DD-866,DD-867,DD-869,DD-872,DD-884,DD-885,DD-886,DD-887

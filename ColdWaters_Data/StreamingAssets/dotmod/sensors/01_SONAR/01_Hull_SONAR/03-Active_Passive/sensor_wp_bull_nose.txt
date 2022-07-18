@@ -1,0 +1,8 @@
+SonarModel=wp_bull_nose
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=32
+SonarBaffle=150
+SonarNoisePerKnot=0.25
+SonarOutput=230

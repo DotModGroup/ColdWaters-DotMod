@@ -1,0 +1,1 @@
+wp_snoop_slab=Snoop Slab=Mast-mounted surface search radar allows submarines to detect otherwise undetectable surface contacts, at the risk of counterdetection by enemies equipped with ESM.

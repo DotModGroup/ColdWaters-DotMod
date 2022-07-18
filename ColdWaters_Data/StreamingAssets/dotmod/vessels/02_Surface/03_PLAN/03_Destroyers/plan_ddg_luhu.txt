@@ -49,12 +49,28 @@ NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 MissileType=plan_cy-1
 MissilesPerLauncher=4,4
 
+AntiShipMissileType=plan_c-801
+AntiShipMissileNumbers=8
+AntiShipMissileReloadTime=3
+AntiShipMissileLaunchDepth=5
+AntiShipMissileLaunchPoints=0,0.14275,-0.15|0,0.14924,-0.27|0,0.14275,-0.11|0,0.14924,-0.31|0,0.14275,-0.15|0,0.14924,-0.27|0,0.14275,-0.11|0,0.14924,-0.31
+AntiShipMissileLaunchPointsRotation=-19,90,0|-19,-90,0|-19,90,0|-19,-90,0|-19,90,0|-19,-90,0|-19,90,0|-19,-90,0|
+
 RBULaunchers=plan_type87_mortar,plan_type87_mortar
 RBUSalvos=6,6
 RBUFiringArcBearingMin=-130,0
 RBUFiringArcBearingMax=0,130
 
 [Defenses]
+
+AntiAirMissileType=wp_kinzhal
+AntiAirMissilesNumbers=18
+AntiAirMissilesPerTarget=2
+AntiAirMissileReloadTime=1
+AntiAirMissileLaunchDepth=15
+AntiAirMissileLaunchPoints=0,0.18,0.56
+AntiAirMissileLaunchPointsRotation=-10,0,0
+
 Anti-MissileGunHitProbability=0.005
 Anti-MissileGunRange=4000
 Anti-MissileGunFiringArcStart=-150,-150,30,30
@@ -244,13 +260,13 @@ ParticleBowWavePosition=0,-0.075,1.018
 ParticlePropWashPosition=0,-0.066,-0.948
 
 ParticleHullFoamPosition=0,0,0.825
-ParticleHullFoamParameters=65,0.16,0.296,0.040,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_CLIPPER
 
 ParticleAftFoamPosition=0,0,-0.50
-ParticleAftFoamParameters=275,0.304,0.2128,0.00456,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=250,0.224,0.1568,0.002912,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.7,3.7
 
 EngineAudioClip=audio/units/turbine_small

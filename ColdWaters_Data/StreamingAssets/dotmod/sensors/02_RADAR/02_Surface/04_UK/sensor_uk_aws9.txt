@@ -1,0 +1,2 @@
+RADARModel=uk_aws9
+RADARRange=50500

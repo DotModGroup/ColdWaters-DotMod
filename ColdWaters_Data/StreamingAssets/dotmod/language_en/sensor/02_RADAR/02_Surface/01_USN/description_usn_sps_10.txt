@@ -1,0 +1,1 @@
+usn_sps_10=AN/SPS-10=American, medium range, C-Band surface search radar. Entered service in late 50-s. It is used for the detection, ranging and tracking of surface contacts and to a limited extent, air contacts as well.

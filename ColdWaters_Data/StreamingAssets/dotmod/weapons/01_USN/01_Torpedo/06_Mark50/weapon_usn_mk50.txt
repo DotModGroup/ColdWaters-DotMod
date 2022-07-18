@@ -24,13 +24,13 @@ WeaponSprite=hud/sprites/usn_mk50_sprite.png
 MinCameraDistance=0.25
 ResupplyTime=15
 [Model]
-AssetBundle=bundles/weapons/usn/usn_mk50.unity3d
+AssetBundle=bundles/weapons/usn_mk50.unity3d
 ModelFile=assets/Models/usn_mk50.fbx
-Material=assets/Materials/usn_mk50.mat
+Material=assets/Materials/usn_mark_50.mat,assets/Materials/usn_mark_50_decal.mat
 MeshPosition=0,0,0
-MeshWeapon=usn_mk50
+MeshWeapon=usn_mark_50_body
 MeshWeaponPropRotation=700
-MeshWeaponProp=usn_mk50_rotor
+MeshWeaponProp=usn_mark_50_rotor
 MeshPosition=0,0,-0.0207
 CavitationParticle=weapons/assets/torpedo_cavitation_particle
 MeshPosition=0,0,-0.014

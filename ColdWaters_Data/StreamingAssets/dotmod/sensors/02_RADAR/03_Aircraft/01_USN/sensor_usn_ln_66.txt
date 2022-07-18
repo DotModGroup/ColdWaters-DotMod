@@ -1,0 +1,2 @@
+RADARModel=usn_ln_66
+RADARRange=100000

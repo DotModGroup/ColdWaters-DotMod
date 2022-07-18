@@ -1,0 +1,1 @@
+wp_pelamida="Pelamida"=NATO reporting name: "Shark Tail". This passive low-frequency towed array is a part of MGK-540 "Skat-3" suite that equips Akula class submarines.

@@ -1,0 +1,19 @@
+CountermeasureName=Nixie
+CountermeasureObjectReference=nixie
+CountermeasureType=TOWEDDECOY
+Lifetime=120
+SinkRate=0
+NoiseStrength=0
+CountermeasureDescription=Noisemaker countermeasure for surface vessels.
+DecoyExploderRange=15
+[Model]
+ModelFile=weapons/assets/usn_moss
+Material=weapons/assets/wp_soviet_torps_mat
+MaterialTextures=weapons/assets/wp_soviet_torps_tx
+MeshPosition=0,0,0
+MeshScale=0.75,0.75,0.75
+MeshCountermeasure=MOSS
+MeshPosition=0,0,0
+MeshScale=1,1,1
+CountermeasureParticle=countermeasures/assets/noisemaker_fx
+[/Model]

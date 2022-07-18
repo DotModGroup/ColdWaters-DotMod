@@ -1,0 +1,8 @@
+SonarModel=uk_2076
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=34
+SonarPassiveSensitivity=46
+SonarBaffle=130
+SonarNoisePerKnot=1
+SonarOutput=235

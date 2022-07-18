@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=FALSE
+RADAR=nav_radar
 RADARSignature=MEDIUM
 
 [Defenses]
@@ -145,9 +145,9 @@ MeshSternWake=civ_ms_sl7_sternwake
 ParticleBowWavePosition=0,0,2.0428
 ParticlePropWashPosition=0,-0.091,-1.81
 ParticleHullFoamPosition=0,0,0.822
-ParticleHullFoamParameters=400,0.35,0.45,0.007,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 ParticleSternFoamPosition=0,0,-1.995
-ParticleSternFoamParameters=320,0.35,0.25,0.005,0.01,0,0.5
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=7.3,7.3
 
 EngineAudioClip=audio/units/diesel_large

@@ -1,0 +1,1 @@
+plan_tsm_2233=TSM-2233=This is the French Eledone low-frequency digital sonar similar in performance to BQQ-5 and mounted on the Song class submarines.

@@ -26,16 +26,6 @@ TacticalNavpointColorAlt=200,50,50,255
 TacticalMapAircraftIcon=hud/uk/icon_aircraft.png
 TacticalMapHelicopterIcon=hud/uk/icon_helicopter.png
 
-//Deprecated
-//TorpedoTubeRearIndicator=hud/uk/icon_rear_tube.png
-//TorpedoTubeRearPosition=-175,5
-//TorpedoTubeRearSize=30,15
-//TorpedoTube650Selected=hud/uk/tube_650_selected.png
-//TorpedoTube650Unselected=hud/uk/tube_650_unselected.png
-//TorpedoTube400Selected=hud/uk/tube_400_selected.png
-//TorpedoTube400Unselected=hud/uk/tube_400_unselected.png
-
-
 TubeGUIFolder=hud/uk
 
 //TorpedoSettingShip=hud/uk/icon_search_ship.png
@@ -50,8 +40,8 @@ DivePanelCover=hud/uk/maximized_dive_cover.png
 Guns_Toolbar=hud/uk/maximized_guns.png
 RBU_Toolbar=hud/uk/maximized_rbu.png
 
-GunsOff=hud/uk/icon_guns_off.png
-RBUOff=hud/uk/icon_rbu_off.png
+GunsSwitch=hud/uk/icon_guns_off.png
+RBUSwitch=hud/uk/icon_rbu_off.png
 
 SAM_Minimized=hud/uk/minimized_sam.png
 SAM_Toolbar=hud/uk/maximized_sam.png
@@ -62,6 +52,24 @@ SwitchSAMTargetMissile=hud/uk/icon_target_missile.png
 //ScanAirButton - Deprecated
 //ScanAirButton=hud/uk/icon_scan_air.png
 AutoSAMButton=hud/uk/icon_fire_auto.png
+
+TowedMinimized=hud/uk/minimized_towed.png
+TowedToolbar=hud/uk/maximized_towed.png
+SwitchDecoyShort=hud/uk/icon_num1over2.png
+SwitchDecoyLong=hud/uk/icon_num1.png
+SwitchDecoy=hud/uk/icon_io.png
+SwitchTowedArray=hud/uk/icon_towedarray.png
+
+AircraftMinimized=hud/uk/minimized_aircraft.png
+AircraftToolbar=hud/uk/maximized_aircraft.png
+SwitchIncrementSelectedAircraft=hud/uk/icon_doubleuparrow.png
+SwitchDecrementSelectedAircraft=hud/uk/icon_doubledownarrow.png
+SwitchLaunchSelectedAircraft=hud/uk/icon_helicopter.png
+SwitchPlotAircraftCourse=hud/uk/icon_plot_course.png
+SwitchRecoverSelectedAircraft=hud/uk/icon_popup.png
+SwitchIncrementSelectedAircraftStore=hud/uk/icon_doubleuparrow.png
+SwitchDecrementSelectedAircraftStore=hud/uk/icon_doubledownarrow.png
+SwitchDropAircraftStores=hud/uk/icon_depth_bomb.png
 
 MissileSettingTargetShips=hud/uk/icon_target_ship.png
 MissileSettingTargetSubs=hud/uk/icon_target_sub.png
@@ -75,7 +83,7 @@ AttackSettingThree=hud/uk/icon_num3.png
 AttackSettingFour=hud/uk/icon_num4.png
 
 MastPanelCover=hud/uk/mast_panel_cover.png
-DeployChaffButton=hud/uk/icon_decoy.png
+DeployChaffButton=hud/uk/icon_chaff.png
 
 DoubleUpArrow=hud/uk/icon_doubleuparrow.png
 DoubleDownArrow=hud/uk/icon_doubledownarrow.png
@@ -87,7 +95,6 @@ VLS_DepthButton=hud/uk/icon_vls_depth.png
 
 PortStoresAdditionalPanel=hud/uk/stores_port_add.png
 LoadSAMButton=hud/uk/icon_load_tube.png
-
 
 [Additional]
 StoresHudStaticColor=74,163,201,255
@@ -105,6 +112,7 @@ BearingTapeScale=2,2
 [Status Icons]
 StatusLayout=HORIZONTAL
 StatusTowedArray=hud/uk/icon_status_towed_array.png
+StatusTowedDecoy=hud/uk/icon_status_towed_decoy.png
 StatusGunsFireAtWill=hud/uk/icon_status_guns.png
 StatusRBUFireAtWill=hud/uk/icon_status_rbu.png
 StatusTimeCompression=hud/uk/icon_status_time_compression.png
@@ -201,6 +209,8 @@ WeaponHighlight=hud/uk/weapon_type_frame.png
 [Buttons]
 ButtonOffColor=74,163,201,255
 ButtonOnColor=0,255,55,255
+ButtonDamagedColour=255,192,0,255
+ButtonDestroyedColour=243,32,19,255
 
 TorpedoSettingStraightSearch=hud/uk/icon_straight_search.png
 TorpedoSettingSnakeSearch=hud/uk/icon_snake_search.png
@@ -287,6 +297,7 @@ TacticalMapNoisemakerIcon=hud/uk/icon_noisemaker.png
 TacticalMapKnuckleIcon=hud/uk/icon_knuckle.png
 TacticalMapSonobuoyIcon=hud/uk/icon_sonobuoy.png
 TacticalMapWakeBubbleIcon=hud/uk/icon_wakebubble.png
+TacticalMapTowedDecoyIcon=hud/uk/icon_toweddecoy.png
 
 TacticalMapIceHazard=hud/uk/icon_iceberg.png
 TacticalMapMineHazard=hud/uk/icon_minefield.png
@@ -323,7 +334,6 @@ WaterColor=0,0,10,255
 FilterOverlay=TRUE
 
 [HUD LAYOUT]
-
 BottomLeftPanelPos=0,0
 BottomRightPanelPos=0,0
 UpperRightStatusIcons=0,-3
@@ -340,26 +350,11 @@ MainCameraFieldOfView=30
 //From element's default anchored screen corner/position
 //Toolbar position 0,0, (1 to anchor to minimap or 0 for no anchor)
 //Default toolbars overlap and enabled via tabs/keys
-
-//Стандартный вариант: Одна видимая панель над миникартой
-//ToolbarsPos=0,0,1
-//ForceAllToolbarsOn=FALSE
-//HelmToolbarOffset=0,0
-//DiveToolbarOffset=0,0
-//SensorToolbarOffset=0,0
-
-//3 видимые панели справа от миникарты по вертикали
 ToolbarsPos=0,0,0
 ForceAllToolbarsOn=TRUE
+AircraftToolbarOffset=331,12
+TowedToolbarOffset=331,-60
+SAM_ToolbarOffset=331,-130
 HelmToolbarOffset=331,-200
 DiveToolbarOffset=331,-270
 SensorToolbarOffset=331,-340
-SAM_ToolbarOffset=331,-130
-
-//3 видимые внизу по горизонтали
-//ToolbarsPos=0,0,0
-//ForceAllToolbarsOn=TRUE
-//HelmToolbarOffset=361,-346
-//DiveToolbarOffset=700,-346
-//SensorToolbarOffset=1039,-346
-//SAM_ToolbarOffset=361,-276

@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=108
 Beam=12
@@ -207,13 +207,13 @@ ParticleBowWavePosition=0,0,0.74
 ParticlePropWashPosition=0,-0.033,-0.81
 
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=25,0.45,0.18,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.0
-ParticleAftFoamParameters=143.38,0.30,0.21,0.0039,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=114.71,0.18,0.126,0.00225,0.0,0,3.0
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.51,2.34
 
 EngineAudioClip=audio/units/submarine_engine_2

@@ -1,0 +1,1 @@
+uk_1001=Type 1001=This is a British surface-search radar made by Decca mounted on the Dolfijn-class submarine.

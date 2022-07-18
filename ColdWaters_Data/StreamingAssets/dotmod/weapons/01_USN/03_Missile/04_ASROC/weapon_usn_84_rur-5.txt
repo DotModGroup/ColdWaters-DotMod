@@ -9,7 +9,7 @@ SensorAngles=0,0
 WeaponAltitudes=15000
 BoosterReleasedAfterSeconds=3600
 *
-WeaponRanges=4000,10560
+WeaponRanges=2950,10560
 WeaponSpeed=40,612
 TurnRate=10
 MaxPitchAngle=60
@@ -21,11 +21,11 @@ DepthSettings=FALSE
 WeaponNoiseValues=190,190
 WeaponSprite=hud/sprites/usn_84_rur-5_sprite.png
 MinCameraDistance=0.3
-ResupplyTime=30
+ResupplyTime=15
 [Model]
 ModelFile=weapons/assets/plan_cy-1
 Material=weapons/assets/usn_rur-5_mat
-MaterialTextures=hud/sprites/usn_rur-5_tx.png
+MaterialTextures=textures/usn_rur-5_tx.png
 MeshPosition=0,0,0
 MeshWeaponCanister=plan_cy-1
 MeshPosition=0,0,0

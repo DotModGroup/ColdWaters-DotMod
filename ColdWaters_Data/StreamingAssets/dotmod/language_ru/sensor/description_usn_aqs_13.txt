@@ -1,0 +1,1 @@
+usn_aqs_13=AQS-13=Active dipping sonar primarily used by the SH-2F ASW helicopter.

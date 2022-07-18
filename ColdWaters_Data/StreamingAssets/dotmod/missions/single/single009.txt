@@ -30,6 +30,6 @@ HelicopterType=wp_helix
 NumberOfAircraft=1
 AircraftType=wp_il-38_may
 
-PlayerVessels=usn_84_ff_knox_pl,usn_84_ffg_perry_pl,usn_84_dd_spruance_pl,usn_84_cg_belknap_pl
+PlayerVessels=usn_84_ff_knox_pl,usn_84_ffg_perry_lh_pl,usn_84_dd_spruance_pl,usn_84_cg_belknap_pl
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT

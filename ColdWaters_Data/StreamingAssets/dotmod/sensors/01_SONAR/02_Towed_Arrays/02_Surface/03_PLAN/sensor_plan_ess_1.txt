@@ -1,0 +1,8 @@
+SonarModel=plan_ess_1
+SonarType=TOWED
+SonarFrequencies=M,M
+SonarActiveSensitivity=32
+SonarPassiveSensitivity=32
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=220

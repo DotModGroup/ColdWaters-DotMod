@@ -31,7 +31,7 @@ ScanAirRadarDamaged=Conn, Radar is damaged. Detection of air targets is impossib
 AutoSAMEnabled=Conn, secondary SAM is ready to fire.
 AutoSAMDisabled=Conn, secondary SAM is offline.
 
-NoSuitableTorpedo=No torpedoes of that caliber
+NoSuitableTorpedo=No torpedoes of that calibre
 
 GunsFireAtWill=Guns! Fire at will!
 GunsOnHold=Guns! Hold fire!
@@ -67,9 +67,9 @@ NavigationSetDepth=Make depth <WANTEDDEPTH> <FEET>, dive aye
 NavigationAtDepth=Conn, dive at <WANTEDDEPTH> <FEET>
 
 [MANEUVERING]
-SetSpeed=Make turns for <SPEED> knots, maneuvering aye
-AtSpeed=Conn, manouvering: making turns for <SPEED> knots
-BackSpeed=Back emergency, maneuvering aye
+SetSpeed=Make turns for <SPEED> knots, manoeuvring aye
+AtSpeed=Conn, manoeuvring: making turns for <SPEED> knots
+BackSpeed=Back emergency, manoeuvring aye
 
 [SONAR]
 NewSonarContact=Conn, sonar: new contact bearing <BRG>, designated <CONTACT>
@@ -108,6 +108,9 @@ VLSTooDeep=Conn, torpedo room: cannot <VLS> weapon below <DEPTH> <FEET>
 NoReloadsAvailable=No reloads available
 NoVLSReloadsAvailable=No weapons remain in <VLS>
 BelowMinRange=Conn, torpedo room: cannot fire <WEAPON> below <RANGE> <KILOYARD>
+RecoverTowedDecoy=Conn, torpedo room: recovering towed decoy
+TowedDecoyLong=Conn, torpedo room: towed decoy to long stay
+TowedDecoyShort=Conn, torpedo room: towed decoy to short stay
 
 [FIRE CONTROL]
 WeaponAcquire=Conn, fire control, weapon acquire
@@ -160,6 +163,22 @@ StowMast1=Conn, radio, the ESM mast is stowed and rigged for dive
 RaiseMast2=Raise the RADAR mast
 LowerMast2=Lower the RADAR mast
 StowMast2=Conn, radio, the RADAR mast is stowed and rigged for dive
+
+[FLYCO]
+LaunchPlayerAircraft=Conn, Flyco, Launching Aircraft.
+LaunchPlayerAircraftComplete=Conn, Flyco, Launching Aircraft Complete.
+LaunchPlayerAircraftNoTransitionSpots=Conn, Flyco, Unable to Launch Aircraft due Traffic.
+TransitPlayerAircraft=Conn, Flyco, Aircraft Transiting to Point.
+DropWeaponPlayerAircraft=Conn, Flyco, Aircraft Dropping Weapon.
+OrbitPlayerAircraft=Conn, Flyco, Aircraft Orbiting Waypoint.
+ReturnPlayerAircraft=Conn, Flyco, Aircraft Returning to Base.
+DestroyedPlayerAircraft=Conn, Flyco, Aircraft Destroyed.
+LandPlayerAircraft=Conn, Flyco, Aircraft Landing.
+LandPlayerAircraftNoDeckSpots=Conn, Flyco, Aircraft Unable to Land Aircraft due Traffic.
+RecoveredPlayerAircraft=Conn, Flyco, Aircraft Recovered.
+InactivePlayerAircraft=Conn, Flyco, Aircraft Stowed.
+ReadyPlayerAircraft=Conn, Flyco, Aircraft Ready to Launch.
+
 
 [AUDIO]
 =============================================================
@@ -271,8 +290,6 @@ SubsystemDestroyedDIESEL=audio/voices/xo/section2/reactor_damaged.wav
 
 FLOODINGDIESEL=audio/voices/xo/section3/flooding_reactorspace.wav
 DCPARTYDIESEL=audio/voices/xo/section3/dc_reactorspace.wav
-
-
 
 MissileLaunchDetected=audio/voices/sonarman/transient.wav|0|FALSE
 
@@ -451,6 +468,10 @@ BelowMinRange=audio/voices/torpedo room/Cannot_fire_inside_minrange2.wav|8|FALSE
 NoReloadsAvailable=audio/voices/torpedo room/No_reloads_available.wav|8|FALSE
 NoVLSReloadsAvailable=audio/voices/torpedo room/VLS_empty.wav|8|FALSE
 
+//RecoverTowedDecoy=audio/voices/torpedo room/RecoverTowedDecoy.wav
+//TowedDecoyShort=audio/voices/torpedo room/TowedDecoyShort.wav
+//TowedDecoyLong=audio/voices/torpedo room/TowedDecoyLong.wav
+
 //TooDeep=Conn, torpedo room: cannot fire <WEAPON> below <DEPTH> <FEET>
 //VLSTooFast=Conn, torpedo room: cannot fire <VLS> weapon above <SPEED> <KNOT>
 //VLSTooDeep=Conn, torpedo room: cannot <VLS> weapon below <DEPTH> <FEET>
@@ -544,3 +565,18 @@ DCPARTY1=audio/voices/xo/section3/dc_CR.wav
 DCPARTY2=audio/voices/xo/section3/dc_reactorspace.wav
 DCPARTY3=audio/voices/xo/section3/dc_engineroom.wav
 DCPARTY4=audio/voices/xo/section3/dc_machineryspace.wav
+
+//FLYCO
+LaunchPlayerAircraft=audio/voices/flyco/LaunchPlayerAircraft.wav|2|FALSE
+LaunchPlayerAircraftComplete=audio/voices/flyco/LaunchPlayerAircraftComplete.wav|2|FALSE
+LaunchPlayerAircraftNoTransitionSpots=audio/voices/flyco/LaunchPlayerAircraftNoTransitionSpots.wav|2|FALSE
+TransitPlayerAircraft=audio/voices/flyco/TransitPlayerAircraft.wav|2|FALSE
+DropWeaponPlayerAircraft=audio/voices/flyco/DropWeaponPlayerAircraft.wav|2|FALSE
+OrbitPlayerAircraft=audio/voices/flyco/OrbitPlayerAircraft.wav|2|FALSE
+ReturnPlayerAircraft=audio/voices/flyco/ReturnPlayerAircraft.wav|2|FALSE
+DestroyedPlayerAircraft=audio/voices/flyco/DestroyedPlayerAircraft.wav|2|FALSE
+LandPlayerAircraft=audio/voices/flyco/LandPlayerAircraft.wav|2|FALSE
+LandPlayerAircraftNoDeckSpots=audio/voices/flyco/LandPlayerAircraftNoDeckSpots.wav|2|FALSE
+RecoveredPlayerAircraft=audio/voices/flyco/RecoveredPlayerAircraft.wav|2|FALSE
+InactivePlayerAircraft=audio/voices/flyco/InactivePlayerAircraft.wav|2|FALSE
+ReadyPlayerAircraft=audio/voices/flyco/ReadyPlayerAircraft.wav|2|FALSE

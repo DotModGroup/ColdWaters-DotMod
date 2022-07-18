@@ -1,0 +1,2 @@
+RADARModel=wp_spin_through
+RADARRange=40500

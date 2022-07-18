@@ -1,0 +1,8 @@
+SonarModel=nav_sonar
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=12
+SonarPassiveSensitivity=12
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=200

@@ -1,0 +1,8 @@
+SonarModel=wp_buck_toe
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=12
+SonarPassiveSensitivity=18
+SonarBaffle=150
+SonarNoisePerKnot=0.5
+SonarOutput=210

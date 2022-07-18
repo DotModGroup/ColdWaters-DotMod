@@ -1,0 +1,1 @@
+wp_wolf_paw=Wolf Paw=This is an older medium frequency sonar set that equipped many surface ships before the introduction of Bull Nose.

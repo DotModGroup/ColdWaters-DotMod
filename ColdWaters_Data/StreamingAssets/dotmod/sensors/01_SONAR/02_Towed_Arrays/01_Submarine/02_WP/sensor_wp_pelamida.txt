@@ -1,0 +1,8 @@
+SonarModel=wp_pelamida
+SonarType=TOWED
+SonarFrequencies=L
+SonarActiveSensitivity=0
+SonarPassiveSensitivity=48
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=220

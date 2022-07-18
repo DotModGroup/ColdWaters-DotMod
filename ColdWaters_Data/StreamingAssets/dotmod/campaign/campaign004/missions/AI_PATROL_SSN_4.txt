@@ -1,21 +1,21 @@
 //AI mission
-//Large
+//USN Mid-Atlantic Patrol
 MissionType=AI_PATROL_SSN
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL,DDGS
+ForbiddenFor=
 AllowedOnlyForCostBelow=
-AllowedOnlyForCostHigherThan=700
+AllowedOnlyForCostHigherThan=
 HoursToStart=24,48
-StartLocation=NAVAL_BASE
+StartLocation=USA
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
 Speed=10
 MustUseWaypoints=
-UseAtLeastOneWaypointOf=N1,N2,N3
-ProhibitedWaypoints=
+UseAtLeastOneWaypointOf=A1,IG4,IG2,IG7
+ProhibitedWaypoints=IG1,IG5,IG6
 PatrolForHours=72,156
-StrategicValue=5
+StrategicValue=10
 MissionEndsWhen=RETURN_HOME
 MapBehaviour=OFFENSIVE
 DisruptOnFail=
@@ -23,7 +23,7 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=0-1,1-2
-CombatBehaviour=OFFENSIVE,OFFENSIVE
-EnemyUnitMissionCritical=FALSE,FALSE
-EnemyShipClasses=usn_84_ssn_los_angeles|usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack,usn_84_ssn_sturgeon|usn_84_ssn_permit|usn_84_ssn_skipjack
+NumberOfEnemyUnits=1-1
+CombatBehaviour=OFFENSIVE
+EnemyUnitMissionCritical=FALSE
+EnemyShipClasses=usn_all_ssn

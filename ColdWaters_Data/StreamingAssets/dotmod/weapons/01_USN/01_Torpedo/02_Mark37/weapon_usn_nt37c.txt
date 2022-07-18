@@ -4,8 +4,8 @@ Special=SwimOut
 *
 Warhead=225
 //=Using about a 350% (4.6cm/1.3cm at the same scale [yes, measured with a ruler], estimate based on the arc lengths on the Navy's manual for this torp: https://maritime.org/doc/torpedomk37/, page 1-3 [NOT PAGES 1-3, PAGE 1-3]) would be too much, so I went with a 150% increase instead.
-SensorRange=2500
-SensorAngles=30,15
+SensorRange=2375
+SensorAngles=38,15
 *
 //=Ignore the below, more research (thanks Stallfighter!) shows that it was actually based on the Mod 2, so it does have a wire.
 //=Not wire guided, based on the Mark 37 Mod 3, not the Mod 2, and therefore had no wire. It would therefore also be small enough to be launched out of an Oberon's rear tubes.

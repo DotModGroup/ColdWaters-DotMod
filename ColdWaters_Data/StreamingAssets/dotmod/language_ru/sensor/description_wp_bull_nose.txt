@@ -1,0 +1,1 @@
+wp_bull_nose=Bull Nose=This is a medium-frequency passive/active array dating from the late 1960's. Though incapable of detecting US subs at anything above medium ranges, this design was clearly regarded as a success by the Soviets who equipped it on almost every major class of anti-submarine ship during the 1970's.

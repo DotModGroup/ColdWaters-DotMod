@@ -1,6 +1,6 @@
 WeaponObjectReference=wp_umgt-1
 WeaponType=TORPEDO
-*
+Size=400
 Warhead=275
 SensorRange=1650
 SensorAngles=45,20
@@ -17,6 +17,7 @@ AttackSettings=SNAKE,LEFT,RIGHT
 DepthSettings=DEEP_SUB
 *
 WeaponNoiseValues=120,230
+WeaponSprite=hud/sprites/wp_umgt-1_sprite.png
 MinCameraDistance=0.3
 ResupplyTime=15
 [Model]

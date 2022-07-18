@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Oberon
-Description=Oberon Class Diesel-Electric Submarine (Early)
+Description=Oberon-class Diesel-Electric Submarine (Early)
 History=First entering service in 1960, the Oberon-class was designed to be a bigger more and more capable version of it's predecessor, the Porpoise-class. A total of 27 boats where built, and saw service with 5 different countries around the world. A total of eight 21" torpedo tubes where mounted in the original design, 6 forward and 2 non-reloadable tubes aft. These would be used solely to defend the boat against attacking escorts. They were later updated with better sonar and the newer Tigerfish torpedo, at the expense of the 2 aft tubes. The last of the class was finally retired in 2000.
 
 [Player Ship Instances]

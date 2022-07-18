@@ -1,0 +1,1 @@
+wp_fregat=Fregat=Flag RADAR

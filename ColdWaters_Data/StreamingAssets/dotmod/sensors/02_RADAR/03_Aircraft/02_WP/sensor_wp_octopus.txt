@@ -1,0 +1,2 @@
+RADARModel=wp_octopus
+RADARRange=100000

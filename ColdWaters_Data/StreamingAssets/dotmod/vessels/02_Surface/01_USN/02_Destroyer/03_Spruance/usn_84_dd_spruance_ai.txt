@@ -9,7 +9,7 @@ Crew=334
 Range=10000
 HullNumbers=FALSE
 AircraftNumbers=2
-AircraftTypes=usn_sh60b
+AircraftTypes=usn_sh-2f
 
 [Movement]
 SurfaceSpeed=32
@@ -43,6 +43,7 @@ ActiveSonarModel=usn_sqs_26
 PassiveSonarModel=usn_sqs_26
 TowedArrayModel=usn_sqr_18
 RADAR=usn_sps_67
+TowedArrayPosition=-0.01588,0.0551,-1.269
 
 [Weapon Systems]
 NavalGuns=usn_mark_42_shell,usn_mark_42_shell
@@ -53,7 +54,7 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
 TorpedoTypes=usn_mk46_mod_5
-TorpedoNumbers=12
+TorpedoNumbers=18
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=324
@@ -98,7 +99,7 @@ NumberOfNoisemakers=18
 NoisemakerReloadTime=18
 
 [Model]
-AssetBundle=bundles/vessels/usn/usn_dd_spruance.unity3d
+AssetBundle=bundles/vessels/usn_dd_spruance.unity3d
 ModelFile=assets/models/usn_dd_spruance.fbx
 
 //Hull and Deck
@@ -287,13 +288,17 @@ MeshSternWake=usn_cg_belknap_sternwake
 ParticleBowWavePosition=0,0,1.15
 ParticlePropWashPosition=0,-0.07,-1.141
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=10,0.35,0.35,0.055,0,0,0.25
+ParticleHullFoamParameters=DEFAULT_CLIPPER
+
+ParticleAftFoamPosition=0,0,-0.50
+ParticleAftFoamParameters=DEFAULT_CLIPPER
+
 ParticleSternFoamPosition=0,0,-1.11
-ParticleSternFoamParameters=25,0.35,0.2,0.025,0.01,0,0.25
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=4.1,4.1
 
 //Load Damage Meshes
-AssetBundle=bundles/vessels/usn/usn_dd_spruance.unity3d
+AssetBundle=bundles/vessels/usn_dd_spruance.unity3d
 ModelFile=assets/models/usn_dd_spruance.fbx
 
 EngineAudioClip=audio/units/turbine_small

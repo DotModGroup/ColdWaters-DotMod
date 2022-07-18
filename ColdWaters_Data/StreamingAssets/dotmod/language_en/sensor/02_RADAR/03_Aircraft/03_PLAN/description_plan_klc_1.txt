@@ -1,0 +1,1 @@
+plan_klc_1=KLC-1=Helicopter-mounted surface search set for the Z-9C Dauphin, optimized for over-the-horizon targeting.

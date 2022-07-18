@@ -1,0 +1,9 @@
+SonarModel=usn_ssq_47
+SonarType=SONOBUOY
+SonarFrequencies=M
+SonarActiveSensitivity=20
+SonarPassiveSensitivity=0
+Directional=FALSE
+SonarBaffle=FALSE
+SonarNoisePerKnot=0
+SonarOutput=200

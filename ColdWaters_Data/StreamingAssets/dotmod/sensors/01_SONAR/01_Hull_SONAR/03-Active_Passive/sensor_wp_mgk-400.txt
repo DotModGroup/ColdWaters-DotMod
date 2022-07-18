@@ -1,0 +1,8 @@
+SonarModel=wp_mgk-400
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=L,L
+SonarActiveSensitivity=27
+SonarPassiveSensitivity=38
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=225

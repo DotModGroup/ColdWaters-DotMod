@@ -27,5 +27,5 @@ NumberOfEnemyUnits=1-1
 CombatBehaviour=DEFENSIVE
 EnemyUnitMissionCritical=TRUE
 EnemyShipClasses=usn_84_fss_algol
-EventWin=STATS
-EventFail=STATS
+EventWin=event_campaign_statistics
+EventFail=event_campaign_statistics

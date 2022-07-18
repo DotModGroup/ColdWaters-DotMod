@@ -1,0 +1,8 @@
+SonarModel=wp_mare_tail
+SonarType=TOWED
+SonarFrequencies=M
+SonarActiveSensitivity=26
+SonarPassiveSensitivity=40
+SonarBaffle=FALSE
+SonarNoisePerKnot=1
+SonarOutput=220

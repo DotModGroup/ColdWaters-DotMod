@@ -21,7 +21,7 @@ DepthSettings=FALSE
 WeaponNoiseValues=190,190
 WeaponSprite=hud/sprites/usn_rum-139_sprite.png
 MinCameraDistance=0.3
-ResupplyTime=30
+ResupplyTime=15
 [Model]
 AssetBundle=bundles/dotmodgenericresources.unity3d
 AssetBundle=bundles/weapons/usn_rum-139.unity3d
@@ -36,8 +36,8 @@ MeshMissileBooster=Whole
 MeshPosition=0,0,0
 BoosterParticle=assets/effects/usn_rum-139_release.prefab
 
-MeshPosition=0,0,-0.05049
-MissileTrailParticle=assets/effects/usn_rum-139_flame.prefab
+MeshPosition=0,0,-0.0775
+MissileTrailParticle=weapons/assets/usn_ugm84_missiletrail
 
 AssetBundle=bundles/dotmod/weapons/usn/usn_mk46
 ModelFile=assets/resourcesforbundles/weapons/usn/usn_mk46/usn_mk46.obj

@@ -1,6 +1,6 @@
 Designation=SSN
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_towedonly
 
 Length=110
 Beam=10
@@ -33,7 +33,7 @@ PeriscopeDepthInFeet=49
 [Acoustics & Sensors]
 //SelfNoise=120
 SelfNoise=110
-ActiveSonarReflection=15
+ActiveSonarReflection=30
 ActiveSonarModel=usn_an_bqq_5
 PassiveSonarModel=usn_an_bqq_5
 TowedArrayModel=usn_tb_23
@@ -198,13 +198,13 @@ ParticleBowWavePosition=0,0,0.74
 ParticlePropWashPosition=0,-0.033,-0.81
 
 ParticleHullFoamPosition=0,0,0.5
-ParticleHullFoamParameters=25,0.375,0.15,-0.025,0.02,0,0.375
+ParticleHullFoamParameters=DEFAULT_BULBOUS
 
 ParticleAftFoamPosition=0,0,-1.0
-ParticleAftFoamParameters=148.80,0.25,0.175,0.00325,0.0,0,0.7
+ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
-ParticleSternFoamParameters=119.84,0.15,0.105,0.001875,0.0,0,3.00
+ParticleSternFoamParameters=DEFAULT_CLIPPER
 KelvinWaves=3.1995,2.37
 
 EngineAudioClip=audio/units/submarine_engine_2

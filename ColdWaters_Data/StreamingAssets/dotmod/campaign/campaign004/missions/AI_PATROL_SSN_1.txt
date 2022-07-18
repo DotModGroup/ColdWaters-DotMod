@@ -1,21 +1,21 @@
 //AI mission
-//Small
+//USN GIUK Patrol
 MissionType=AI_PATROL_SSN
 AllowedOnlyFor=
-ForbiddenFor=SS,SSG,SSB,CL
-AllowedOnlyForCostBelow=400
+ForbiddenFor=
+AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=24,48
-StartLocation=NAVAL_BASE
+StartLocation=USA_NAVAL
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
 Speed=10
-MustUseWaypoints=
-UseAtLeastOneWaypointOf=N1,N2,N3
-ProhibitedWaypoints=
-PatrolForHours=72,156
-StrategicValue=5
+MustUseWaypoints=CS1,WA2,IG7,IG4,IG3,IG2,IG1,NC4
+UseAtLeastOneWaypointOf=
+ProhibitedWaypoints=P1,P2,N2,NS1,A1
+PatrolForHours=12,24
+StrategicValue=10
 MissionEndsWhen=RETURN_HOME
 MapBehaviour=OFFENSIVE
 DisruptOnFail=
@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=usn_84_ssn_permit|usn_84_ssn_sturgeon
+EnemyShipClasses=usn_all_ssn

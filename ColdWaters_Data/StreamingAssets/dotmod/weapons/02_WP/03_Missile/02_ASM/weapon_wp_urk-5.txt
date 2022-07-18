@@ -19,7 +19,7 @@ WeaponSpeed=50,620
 TurnRate=30
 MaxPitchAngle=22
 *
-HomeSettings=SHIP,SUBMARINE
+HomeSettings=SUBMARINE,SHIP
 AttackSettings=WIDE,NARROW
 DepthSettings=SKIM,POP-UP
 *

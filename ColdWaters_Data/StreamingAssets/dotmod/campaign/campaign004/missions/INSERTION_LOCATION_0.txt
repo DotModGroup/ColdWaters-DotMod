@@ -13,9 +13,9 @@ PlayerPosition=-50,100
 
 PlayerHeading=135
 PlayerDepthInFeet=50
-NumberOfEnemyUnits=1-2,1-2,1-2,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
-EnemyShipClasses=usn_84_ddg_adams_ai|usn_84_dd_spruance_ai,usn_84_ff_knox_ai|usn_84_ffg_perry_ai,usn_84_cg_belknap_ai|usn_84_cg_ticonderoga_ai,uk_84_ssn_trafalgar,usn_84_ssn_permit|usn_84_ssn_sturgeon|usn_84_ssn_los_angeles
+NumberOfEnemyUnits=1-2,1-2,1-2,1-1
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
+EnemyShipClasses=nato_seagoing_dd,nato_seagoing_ff,nato_seagoing_cg,uk_all_ssk|uk_all_ssn
 FormationCruiseSpeed=8
 
 //Group 1 - Northern destroyer patrol
@@ -30,19 +30,14 @@ EnemyWaypoints=-200,-400|700,-10
 EnemyWaypoints=-250,-300|320,120|360,-220
 EnemyWaypoints=-250,-300|320,120|360,-220
 
-//Group 4 - Sub 1
+//Group 4 - Sub
 EnemyWaypoints=-220,420|-50,-900
-
-//Group 5 - Sub 2
-EnemyWaypoints=-150,-900|-220,420
-
-
 
 //Mission position
 MissionPosition=525,25
 
 //Enemy Aircraft
-NumberOfHelicopters=1
+NumberOfHelicopters=0
 HelicopterType=usn_sh60b
 NumberOfAircraft=1
 AircraftType=usn_p3c

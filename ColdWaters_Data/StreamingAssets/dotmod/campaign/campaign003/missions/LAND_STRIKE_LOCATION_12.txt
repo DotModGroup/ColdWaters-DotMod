@@ -1,4 +1,4 @@
-//Quingdao
+//Qingdao
 UseTerrain=TRUE
 MapCoordinates=1996,1697
 MapElevationData=campaign/images/maps/south_china_sea_bathymetry

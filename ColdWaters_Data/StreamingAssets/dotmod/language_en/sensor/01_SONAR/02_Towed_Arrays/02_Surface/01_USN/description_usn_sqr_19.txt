@@ -1,0 +1,1 @@
+usn_sqr_19=SQR-19=The SQR-19 Tactical Array SONAR (TACTAS) is a passive towed array system which provides the ability to detect, classify, and track a large number of submarine contacts at increased ranges. It is most effective at slower speeds but suffers from noise saturation above 10 Kts.\n \nThe Towed Array also negates the stern blind arc that is caused by ownship noise.

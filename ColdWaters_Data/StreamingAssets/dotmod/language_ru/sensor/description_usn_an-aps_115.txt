@@ -1,0 +1,1 @@
+usn_an-aps_115=AN/APS-115=The APS-115 is an airborne search radar used primarily for maritime patrol and anti-submarine warfare (ASW) operations. The system uses two antennas, one in the nose and one in the tail of the P-3C Orion aircraft, to provide 360-degree coverage.

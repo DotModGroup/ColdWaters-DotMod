@@ -124,12 +124,12 @@ ApplicationQuitting=The application will now exit.
 
 DynamicDepthDarkening=Dynamic depth darkening
 DynamicDepthDarkeningDesc=Dynamic depth darkening. Reduction of water visibility with depth
-CombatDistanceIncreace=Combat spawn distance increaced by 
+CombatDistanceIncreace=Combat spawn distance increased by 
 CombatDistanceIncreaceDesc=Distance that player will be moved away from enemy upon entering combat by pressing "All hands man Battlestations". "Close to" button is not affected. Works always.
-CombatDistanceIncreaceSurf=Surface combat spawn distance increaced by 
-CombatDistanceIncreaceSurfDesc=Surface combat spawn distance increaced by flat amount. Works only when player controls surface ship, and enemy have surface ships too. Expands previous option.
+CombatDistanceIncreaceSurf=Surface combat spawn distance increased by 
+CombatDistanceIncreaceSurfDesc=Surface combat spawn distance increased by flat amount. Works only when player controls surface ship, and enemy have surface ships too. Expands previous option.
 
-ShowWakebubles=Display wakebubles on Tac map
+ShowWakebubles=Display wake bubles on Tac map
 CrewVoiceLanguage=Crew Voice Language
 SeeAlso=Coming Soon:
 DebugLevel=Debug Level
@@ -161,6 +161,19 @@ Place NavMarker=Place NavMarker
 Place NavMarkerALT=Place NavMarker ALT
 Delete All NavMarkers=Delete All NavMarkers
 Fire SAM=Fire SAM
+Toggle Towed=Toggle Towed Array
+Toggle Towed Decoy Long=Toggle Towed Decoy Long Stay
+Toggle Towed Decoy Short=Toggle Towed Decoy Short Stay
+Toggle Towed Decoy=Toggle Towed Decoy
+Aircraft Next=Select Next Aircraft
+Aircraft Previous=Select Previous Aircraft
+Aircraft Launch=Prepare or Launch Aircraft
+Aircraft Recover=Recover, Land, or Stow Aircraft
+Aircraft Navigate=Plot Aircraft Course
+Aircraft Attack=Plot Aircraft Attack
+Aircraft Weapon Count=Selected Weapon Inventory
+Aircraft Next Weapon=Select Next Aircraft Weapon
+Aircraft Previous Weapon=Select Previous Aircraft Weapon
 ==============================================================
 
 [GENERAL]
@@ -209,6 +222,7 @@ NavyPrefixUK=HMS
 NavyPrefixPLAN=
 NavyPrefixWP=
 NavyPrefixKNM=HNoMS
+NavyPrefixAUS=HMAS
 SUBMARINE=submarine
 WARSHIP=warship
 
@@ -292,6 +306,7 @@ ControlRoom=control room
 ReactorSpace=reactor space
 EngineRoom=engine room
 MachinerySpace=machinery space
+NoAircraft=No Aircraft Launched
 
 SonarContact=Sierra
 RadarContact=Romeo

@@ -1,0 +1,1 @@
+usn_an_bqq_6=AN/BQQ-6=This is a hull-mounted, sonar suite adopted from the AN/BQQ-5 suite for use on board of Ohio class SSBN. Passive sonar system has 944 hydrophone transducers mounted on a sphere and 100 transducers i two flank arrays. AN/BQS-13 system is an active component of this suite. It has lower capabilities compared to one in AN/BQQ-5 suite.

@@ -1,0 +1,1 @@
+plan_sjd_8=SJD-8/9=A Chinese license-built version of the French DUBV-23 medium frequency sonar. It is an sophisticated multimode scanning array comparable to Bull Nose.

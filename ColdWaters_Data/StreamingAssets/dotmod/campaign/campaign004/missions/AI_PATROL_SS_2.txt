@@ -1,18 +1,18 @@
 //AI mission
-//Norvegian Sea patrol
+//UK Norwegian Sea patrol
 MissionType=AI_PATROL_SS
 AllowedOnlyFor=
-ForbiddenFor=CL
+ForbiddenFor=
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=12,48
-StartLocation=UK_SEAPORT
+StartLocation=EU_SEAPORT
 StartAlignment=ENEMY
 EndLocation=WAYPOINT
 EndAlignment=
-Speed=8
+Speed=6
 MustUseWaypoints=
-UseAtLeastOneWaypointOf=IG6,N2,NC1
+UseAtLeastOneWaypointOf=N1,N2,N3
 ProhibitedWaypoints=P1,P2
 PatrolForHours=72,156
 StrategicValue=5
@@ -23,7 +23,7 @@ DisruptOnPass=
 InvadeOnFail=
 RequiresStealth=
 RequiresWeapon=
-NumberOfEnemyUnits=1-2
+NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=uk_84_ss_oberon
+EnemyShipClasses=nato_all_ssk
