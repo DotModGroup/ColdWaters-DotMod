@@ -49,8 +49,8 @@ DivePanelCover=hud/uk/maximized_dive_cover.png
 Guns_Toolbar=hud/uk/maximized_guns.png
 RBU_Toolbar=hud/uk/maximized_rbu.png
 
-GunsOff=hud/uk/icon_guns_off.png
-RBUOff=hud/uk/icon_rbu_off.png
+GunsSwitch=hud/uk/icon_guns_off.png
+RBUSwitch=hud/uk/icon_rbu_off.png
 
 SAM_Minimized=hud/uk/minimized_sam.png
 SAM_Toolbar=hud/uk/maximized_sam.png
@@ -69,6 +69,17 @@ SwitchDecoyLong=hud/uk/icon_num1.png
 SwitchDecoy=hud/uk/icon_io.png
 SwitchTowedArray=hud/uk/icon_towedarray.png
 
+AircraftMinimized=hud/uk/minimized_aircraft.png
+AircraftToolbar=hud/uk/maximized_aircraft.png
+SwitchIncrementSelectedAircraft=hud/uk/icon_doubleuparrow.png
+SwitchDecrementSelectedAircraft=hud/uk/icon_doubledownarrow.png
+SwitchLaunchSelectedAircraft=hud/uk/icon_helicopter.png
+SwitchPlotAircraftCourse=hud/uk/icon_plot_course.png
+SwitchRecoverSelectedAircraft=hud/uk/icon_popup.png
+SwitchIncrementSelectedAircraftStore=hud/uk/icon_doubleuparrow.png
+SwitchDecrementSelectedAircraftStore=hud/uk/icon_doubledownarrow.png
+SwitchDropAircraftStores=hud/uk/icon_depth_bomb.png
+
 MissileSettingTargetShips=hud/uk/icon_target_ship.png
 MissileSettingTargetSubs=hud/uk/icon_target_sub.png
 MissileSettingTargetLand=hud/uk/icon_target_land.png
@@ -81,7 +92,7 @@ AttackSettingThree=hud/uk/icon_num3.png
 AttackSettingFour=hud/uk/icon_num4.png
 
 MastPanelCover=hud/uk/mast_panel_cover.png
-DeployChaffButton=hud/uk/icon_decoy.png
+DeployChaffButton=hud/uk/icon_chaff.png
 
 DoubleUpArrow=hud/uk/icon_doubleuparrow.png
 DoubleDownArrow=hud/uk/icon_doubledownarrow.png
@@ -354,3 +365,4 @@ DiveToolbarOffset=700,-343
 SensorToolbarOffset=1039,-343
 SAM_ToolbarOffset=700,-270
 TowedToolbarOffset=1039,-270
+AircraftToolbarOffset=361,-270
