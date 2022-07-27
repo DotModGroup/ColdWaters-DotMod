@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=4-6,1-2,0-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE,FALSE
-EnemyShipClasses=plan_ptg_huangfeng,plan_ff_jianghu|plan_ff_jianghu3|plan_ff_chengdu|plan_ddg_luda,plan_ssn_han|plan_ssk_song
+EnemyShipClasses=plan_99_ptg_huangfeng,plan_99_ff_jianghu|plan_99_ff_jianghu3|plan_99_ff_chengdu|plan_99_ddg_luda,plan_99_ssn_han|plan_99_ssk_song
 EventWin=ASUW_STRIKE_win
 EventFail=ASUW_STRIKE_fail

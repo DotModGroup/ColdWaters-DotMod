@@ -26,6 +26,8 @@ SubmergedAt=0.2
 CavitationParameters=20,-220
 PropRotationSpeed=-150,150
 TestDepth=40
+EscapeDepth=787
+PeriscopeDepthInFeet=1
 Diesel=TRUE
 
 [Acoustics & Sensors]
@@ -67,8 +69,8 @@ AntiAirMissileLaunchPointsRotation=-35,-90,0|-35,-90,0|-35,-90,0|-35,-90,0|-35,9
 [Defenses]
 Anti-MissileGunHitProbability=0.015
 Anti-MissileGunRange=3300
-Anti-MissileGunFiringArcStart=-265,75
-Anti-MissileGunFiringArcFinish=95,285
+Anti-MissileGunFiringArcStart=-97,50
+Anti-MissileGunFiringArcFinish=97,-50
 Anti-MissileGunRestAngle=0,180
 Anti-MissileGunUsesRADAR=0,1
 Anti-MissileRADARRestAngle=-90,90
@@ -141,7 +143,7 @@ MeshRotation=0,0,0
 RADARSpeed=100
 
 //Flags
-MeshPosition=0,-0.3385,-1.1495
+MeshPosition=0,-0.0728,0.125
 MeshRotation=270,90,0
 Material=ships/materials/flag_us
 MeshMainFlag=usn_cg_belknap_animatedflag,HIDE
@@ -268,6 +270,7 @@ ModelFile=assets/models/usn_ddg_arleigh_burke_flight_1.fbx
 MeshRotation=0,0,0
 MeshPosition=0,0,0
 Material=assets/materials/usn_ddg_ab_railings.mat
+Mesh=usn_ddg_ab_railings_nohangar
 Mesh=usn_ddg_ab_f1_railings
 Material=assets/materials/usn_ddg_ab_netting.mat
 Mesh=usn_ddg_ab_f1_netting
@@ -283,6 +286,8 @@ Material=assets/materials/usn_ddg_ab_f2.mat
 
 Mesh=usn_ddg_ab_f1_hull
 Mesh=usn_ddg_ab_f1_superstructure
+Mesh=usn_ddg_ab_mount_ciws_fwd
+Mesh=usn_ddg_ab_f1_accessories
 
 MeshPosition=-0.04891445,-0.01091977,-1.018342
 MeshRotation=0,0,0

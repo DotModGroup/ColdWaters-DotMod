@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-4B
+WeaponDescriptiveName=Yu-4B ASuW Torpedo
+WeaponDescription=The Yu-4B is a Chinese ASuW homing torpedo with a range of 16,000 yards at a speed of 31.5 knots. It is an upgraded version of the original Yu-4, which never entered production, which was itself an upgraded version of the Soviet SAET-50. It features a 930m sensor range with a combo active/passive homing system.

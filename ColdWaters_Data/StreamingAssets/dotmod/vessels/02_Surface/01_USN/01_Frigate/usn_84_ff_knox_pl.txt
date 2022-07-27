@@ -1,6 +1,6 @@
 Designation=FF
 ShipType=SUBMARINE
-PlayerHUD=hud/default_usn
+PlayerHUD=hud/default_usn_heloonly
 
 Length=134
 Beam=14.25
@@ -11,7 +11,8 @@ Range=5000
 HullNumbers=usn_1052,usn_1053,usn_1054,usn_1055,usn_1056,usn_1057,usn_1058,usn_1059,usn_1060
 AircraftNumbers=1
 AircraftTypes=usn_sh-2f
-AircraftSpawnPoints=0,0.12,-0.60
+AircraftSpawnPoints=-0.005,0.10,-0.60
+AircraftSpawnOrientation=0,25,0
 AircraftTransitionPoints=-0.6,0.7,-0.9
 
 

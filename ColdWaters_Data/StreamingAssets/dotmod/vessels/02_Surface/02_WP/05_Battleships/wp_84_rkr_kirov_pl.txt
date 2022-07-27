@@ -11,7 +11,7 @@ Range=10500
 HullNumbers=181
 AircraftNumbers=2,1
 AircraftTypes=wp_hormone,wp_helix
-AircraftSpawnPoints=-0.009,0.133,-1.577
+AircraftSpawnPoints=-0.009,0.118,-1.577
 AircraftTransitionPoints=-0.6,0.7,-1.7
 
 [Movement]
@@ -43,7 +43,7 @@ TowedArrayModel=wp_horse_tail
 AnechoicCoating=FALSE
 RADAR=wp_mr-800
 RADARSignature=MEDIUM
-TowedArrayPosition=0,-0.02,-1.65
+TowedArrayPosition=0,-0.02,-1.71
 
 [Weapon Systems]
 NavalGuns=wp_ak-100_shell,wp_ak-100_shell
@@ -62,12 +62,12 @@ RBURestAngle=0,0,0
 RBUSalvoNumbers=20
 
 TorpedoTypes=wp_uset-80,wp_rpk-6,wp_moss_mg-74,wp_umgt-1
-TorpedoNumbers=10,10,8,20
-TorpedoTubes=11
+TorpedoNumbers=4,4,2,8
+TorpedoTubes=3
 NumberOfWires=0
-TubeConfig=1,1,1,1,1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533,533,533,533,533
-TubeReloadTime=210
+TubeConfig=1,1,1
+TorpedoTubeSize=533,533,533
+TubeReloadTime=-1
 
 VLSTorpedoTypes=wp_p-700
 VLSTorpedoNumbers=20
@@ -267,53 +267,12 @@ MeshPosition=-0.16,0.043,-1.53
 TorpedoSpawnPosition=-0.16,0.043,-1.53
 TorpedoEffectPosition=-0.16,0.043,-1.53
 
-//Tube 2
-MeshPosition=-0.16,0.043,-1.541
-TorpedoSpawnPosition=-0.16,0.043,-1.541
-TorpedoEffectPosition=-0.16,0.043,-1.541
-
-//Tube 3
-MeshPosition=-0.16,0.043,-1.552
-TorpedoSpawnPosition=-0.16,0.043,-1.552
-TorpedoEffectPosition=-0.16,0.043,-1.552
-
-//Tube 4
-MeshPosition=-0.16,0.043,-1.563
-TorpedoSpawnPosition=-0.16,0.043,-1.563
-TorpedoEffectPosition=-0.16,0.043,-1.563
-
-//Tube 5
-MeshPosition=-0.16,0.043,-1.574
-TorpedoSpawnPosition=-0.16,0.043,-1.574
-TorpedoEffectPosition=-0.16,0.043,-1.574
-
-
 //Правый борт
 MeshRotation=0,93,0
 //Tube 6
 MeshPosition=0.16,0.043,-1.53
 TorpedoSpawnPosition=0.16,0.043,-1.53
 TorpedoEffectPosition=0.16,0.043,-1.53
-
-//Tube 7
-MeshPosition=0.16,0.043,-1.541
-TorpedoSpawnPosition=0.16,0.043,-1.541
-TorpedoEffectPosition=0.16,0.043,-1.541
-
-//Tube 8
-MeshPosition=0.16,0.043,-1.552
-TorpedoSpawnPosition=0.16,0.043,-1.552
-TorpedoEffectPosition=0.16,0.043,-1.552
-
-//Tube 9
-MeshPosition=0.16,0.043,-1.563
-TorpedoSpawnPosition=0.16,0.043,-1.563
-TorpedoEffectPosition=0.16,0.043,-1.563
-
-//Tube 10
-MeshPosition=0.16,0.043,-1.574
-TorpedoSpawnPosition=0.16,0.043,-1.574
-TorpedoEffectPosition=0.16,0.043,-1.574
 
 VLSLaunchPoints=0.065,0.12,0.69|0.025,0.12,0.69|-0.025,0.12,0.69|-0.065,0.12,0.69|0.065,0.12,0.64|0.025,0.12,0.64|-0.025,0.12,0.64|-0.065,0.12,0.64|0.065,0.12,0.59|0.025,0.12,0.59|-0.025,0.12,0.59|-0.065,0.12,0.59|0.065,0.12,0.54|0.025,0.12,0.54|-0.025,0.12,0.54|-0.065,0.12,0.54|0.065,0.12,0.485|0.025,0.12,0.485|-0.025,0.12,0.485|-0.065,0.12,0.485
 VLSLaunchPointsRotation=-60,0,0

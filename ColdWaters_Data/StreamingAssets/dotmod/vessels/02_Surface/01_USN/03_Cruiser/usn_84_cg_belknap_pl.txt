@@ -11,8 +11,9 @@ Range=6000
 HullNumbers=usn_027,usn_028,usn_029,usn_030,usn_031,usn_032,usn_033,usn_034
 AircraftNumbers=1
 AircraftTypes=usn_sh-2f
-AircraftSpawnPoints=0,0.12,-0.69
-AircraftTransitionPoints=-0.6,0.7,-0.9
+AircraftSpawnPoints=-0.005,0.10,-0.71
+AircraftSpawnOrientation=0,-45,0
+AircraftTransitionPoints=0.6,0.7,-1.0
 
 [Movement]
 SurfaceSpeed=32

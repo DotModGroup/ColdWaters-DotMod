@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2,1-2,0-2,0-2,0-2
 CombatBehaviour=DEFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_ms_mercur|wp_ms_roro,civ_ms_mercur|civ_ms_roro,plan_ssn_han,wp_84_ss_kilo,plan_ss_romeo
+EnemyShipClasses=wp_ms_mercur|wp_ms_roro,civ_ms_mercur|civ_ms_roro,plan_99_ssn_han,wp_84_ss_kilo,plan_99_ss_romeo
 EventWin=RESUPPLY_CONVOY_win
 EventFail=RESUPPLY_CONVOY_fail

@@ -19,6 +19,7 @@ TorpedoNumbers=2
 DepthBomb=FALSE
 DepthBombNumbers=0
 MinCameraDistance=0.5
+AircraftSpawnOffset=0,0.0199,0
 
 [Model]
 ModelFile=aircraft/usn_sh-2f/usn_sh-2f

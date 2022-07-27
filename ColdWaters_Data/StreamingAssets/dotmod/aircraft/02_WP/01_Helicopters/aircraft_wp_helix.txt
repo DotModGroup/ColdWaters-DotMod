@@ -14,10 +14,11 @@ SonobuoyTypes=wp_rgb_56,wp_rgb_64,wp_rgb_73
 SonobuoyNumbers=8,9,9
 [Weapon Systems]
 TorpedoTypes=wp_umgt-1
-TorpedoNumbers=2
+TorpedoNumbers=1
 DepthBomb=wp_depth_bomb_120
 DepthBombNumbers=8
 MinCameraDistance=0.5
+AircraftSpawnOffset=0,0.0199,0
 
 [Model]
 ModelFile=aircraft/wp_helix/wp_helix

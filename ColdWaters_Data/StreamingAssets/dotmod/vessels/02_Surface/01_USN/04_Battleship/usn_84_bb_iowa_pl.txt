@@ -10,6 +10,10 @@ Crew=1800
 Range=15000
 HullNumbers=FALSE
 //usn_027,usn_028,usn_029,usn_030,usn_031,usn_032,usn_033,usn_034
+AircraftNumbers=1
+AircraftTypes=usn_sh60b
+AircraftSpawnPoints=0,0.13,-1.66
+AircraftTransitionPoints=-0.3,0.7,-2.2
 
 [Movement]
 SurfaceSpeed=32
@@ -41,10 +45,10 @@ TowedArrayModel=FALSE
 AnechoicCoating=FALSE
 RADAR=usn_sps_10
 RADARSignature=SMALL
-TowedDecoyPosition=-0.006,0.086,-1.23
+TowedDecoyPosition=-0.006,0.104,-1.958
 TowedDecoySettings=4,0.0008,456,0.035,true,999.72,0.75,25
 TowedDecoyBody=nixie
-TowedDecoyCount=10
+TowedDecoyCount=20
 
 [Weapon Systems]
 NavalGuns=usn_mark_7_shell,usn_mark_7_shell,usn_mark_7_shell
@@ -55,11 +59,11 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 NavalGunShellNumbers=1220
 
-TorpedoTypes=usn_moss_surf
-TorpedoNumbers=16
-TorpedoTubes=3
-TubeConfig=1,1,1
-TorpedoTubeSize=324,324,533
+TorpedoTypes=usn_mk46_mod_5
+TorpedoNumbers=8
+TorpedoTubes=1
+TubeConfig=1
+TorpedoTubeSize=533
 TubeReloadTime=30
 
 VLSTorpedoTypes=usn_tasm,usn_tlam
@@ -417,15 +421,15 @@ NavalGunSpawnPosition=0,0.0176,0.2102
 
 //Tube imitators
 //Левый борт
-MeshRotation=0,180,0
+//MeshRotation=0,180,0
 //Tube 1
-MeshPosition=-0.006,0.082,-1.243
-TorpedoSpawnPosition=-0.006,0.082,-1.243
-TorpedoEffectPosition=-0.006,0.082,-1.243
+//MeshPosition=-0.006,0.082,-1.243
+//TorpedoSpawnPosition=-0.006,0.082,-1.243
+//TorpedoEffectPosition=-0.006,0.082,-1.243
 //Tube 2
-MeshPosition=0.006,0.082,-1.243
-TorpedoSpawnPosition=0.006,0.082,-1.243
-TorpedoEffectPosition=0.006,0.082,-1.243
+//MeshPosition=0.006,0.082,-1.243
+//TorpedoSpawnPosition=0.006,0.082,-1.243
+//TorpedoEffectPosition=0.006,0.082,-1.243
 
 //Thomahawk launchers
 //VLS

@@ -50,7 +50,7 @@
  * Gearing-class DD (FRAM I)
  * Charles F. Adams-class DDG
  * Spruance-class DDG
- * Arleigh Burke-class DDG (Flight I and II)
+ * Arleigh Burke-class DDG (Flight I, II, and IIA)
  * Ticonderoga-class CG
  * Iowa-class BB 
  * Nimitz-class CVN

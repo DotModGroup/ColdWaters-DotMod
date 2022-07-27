@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=1
 DepthWeaponReloadTime=10
 DepthWeaponVelocity=5.2
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/ak100.ogg

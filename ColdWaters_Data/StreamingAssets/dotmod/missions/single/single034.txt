@@ -32,6 +32,6 @@ HelicopterType=usn_sh-2f
 NumberOfAircraft=0
 AircraftType=wp_il-38_may
 
-PlayerVessels=plan_ssn_han
+PlayerVessels=plan_99_ssn_han
 CommanderName=COM PACIFIC FLEET
 CommanderFleetName=CICPLAN

@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=1.5
 DepthWeaponReloadTime=30
 DepthWeaponVelocity=4.7
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/mk42.ogg

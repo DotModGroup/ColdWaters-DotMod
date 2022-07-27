@@ -46,7 +46,6 @@ RADARSignature=SMALL
 TorpedoTypes=uk_mk8mod4,uk_mk20s
 TorpedoNumbers=8,14
 TorpedoTubes=6
-//NumberOfWires=2
 TubeConfig=1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533
 TubeReloadTime=45

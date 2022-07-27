@@ -5,5 +5,5 @@ Aircraft=1 Ka-25 Hormone ASW helicopter
 History=This class of guided-missile cruisers is a modification of the Kresta I-class rocket cruisers, redesigned to specialize in ASW, though they still retain an effective area-defense anti-air capability as well. While they lack VDS equipment, their ability to use the shipboard KA-25 helicopter as target designator for their battery of SS-N-14 missiles make them dangerous opponents.
 
 [Player Ship Instances]
-PlayerClassNames=Kronshtadt,Admiral Isakov,Admiral Nahimov,Admiral Makarov,Marshal Voroshilov,Admiral Oktyabrsky,Admiral Isachenkov,Marshal Timoshenko,Vasily Capayev,Admiral Jumashev
+PlayerClassNames=Kronstadt,Admiral Isakov,Admiral Nakhimov,Admiral Makarov,Marshal Voroshilov,Admiral Oktyabrsky,Admiral Isachenkov,Marshal Timoshenko,Vasily Chapayev,Admiral Yumashev
 PlayerClassHullNumbers=,,,,,,,,,

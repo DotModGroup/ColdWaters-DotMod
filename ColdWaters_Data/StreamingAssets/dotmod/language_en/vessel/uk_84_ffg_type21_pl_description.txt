@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Type 21
+Description=Type 21 Frigate
+History=The Type 21 frigate, or Amazon-class frigate, was a British Royal Navy general-purpose escort that was designed in the late 1960s, built in the 1970s and served throughout the 1980s into the 1990s. These ships were the Royal Navy's first privately designed warships for many years. They were also the first design to enter service with the Royal Navy to be solely powered by gas-turbine engines, with two Rolls-Royce Tynes for cruising and two Rolls-Royce Olympus for high speeds.
+
+[Player Ship Instances]
+PlayerClassNames=Amazon, Antelope, Active, Ambuscade, Arrow, Alacrity, Ardent, Avenger
+PlayerClassHullNumbers=F169, F170, F171, F172, F173, F174, F184, F185

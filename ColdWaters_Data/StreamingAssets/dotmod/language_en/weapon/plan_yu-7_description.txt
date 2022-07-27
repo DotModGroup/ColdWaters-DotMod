@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Yu-7
 WeaponDescriptiveName=Yu-7 Torpedo
-WeaponDescription=Chinese copy of the US Mk-46 airdropped passive/active torpedo. Being a smaller weapon, it packs less of a punch, but is carried by helicopters, aircraft and serves as the payload for the CY-1 ASW standoff missile. The guidance system has a range of 1600 yards.
+WeaponDescription=The Yu-7 is a Chinese copy of the US Mark 46 Mod 2 airdropped passive/active torpedo. Being a smaller weapon, it packs less of a punch, but is carried by helicopters, aircraft and serves as the payload for the CY-1 ASW standoff missile. The guidance system has a range of 1600 yards. The weapon was cloned from Mark 46 Mod 2 technical samples sent by the US during 1985, when it attempted to contract the PRC to build the torpedo.

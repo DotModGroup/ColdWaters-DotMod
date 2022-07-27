@@ -7,7 +7,7 @@ Length=19.75
 Height=5.2
 Weight=9900
 Crew=4
-RADAR=usn_ln_66
+RADAR=usn_an-aps_124
 RADARSignature=SMALL
 ActiveSonarModel=usn_aqs_13f
 PassiveSonarModel=usn_aqs_13f
@@ -34,12 +34,12 @@ Material=assets/models/materials/usn_sh60b_rotor.mat
 
 MeshPosition=0,0.02415,0.00747
 MeshRotation=1,0,0
-MeshSpeed=-2000
+MeshSpeed=-1000
 MeshAircraftProp=usn_sh60b_mainrotor
 
 MeshPosition=0.00287,0.0392,-0.13868
 MeshRotation=0,0,-72
-MeshSpeed=1500
+MeshSpeed=-1000
 MeshAircraftProp=usn_sh60b_tailrotor
 
 Hardpoints=-0.01939,-0.00633,0|0.01939,-0.00633,-0.01523
@@ -55,7 +55,7 @@ MeshHardpoint=mk46_h
 
 HoverParticle=aircraft/heli_hover
 
-AudioClip=audio/units/ka25_inflight
+AudioClip=audio/helicopter/SH60Rtr.wav
 AudioRollOff=LINEAR
 AudioDistance=0.1,16
 AudioPitch=1

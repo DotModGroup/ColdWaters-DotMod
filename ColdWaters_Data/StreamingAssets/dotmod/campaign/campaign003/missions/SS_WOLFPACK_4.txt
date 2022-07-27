@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=2-4
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=plan_ssk_song|wp_84_ss_kilo|plan_ss_ming
+EnemyShipClasses=plan_99_ssk_song|wp_84_ss_kilo|plan_99_ss_ming
 EventWin=SS_WOLFPACK_win
 EventFail=SS_WOLFPACK_fail

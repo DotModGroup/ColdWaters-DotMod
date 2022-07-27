@@ -1,0 +1,8 @@
+[Unit Reference]
+ShipClass=Kilo Imp.
+Description=Kilo Improved-class Diesel-Electric Submarine
+History=This is the latest and most advanced diesel-electric submarine built by the Soviets. Compared to earlier designs, the Kilo has adopted the Albacore-hull form, which makes it much faster underwater. It is also much quieter, and carries weapons and sensors on par with the third-generation nuclear attack submarines like the Victor III. Project 636, or Kilo Improved, was a follow-on to the original Kilo class, with improved quieting. It was exported to many states, including China.
+
+[Player Ship Instances]
+PlayerClassNames=Yuan Zheng 66 Hao,Yuan Zheng 67 Hao
+PlayerClassHullNumbers=366,367

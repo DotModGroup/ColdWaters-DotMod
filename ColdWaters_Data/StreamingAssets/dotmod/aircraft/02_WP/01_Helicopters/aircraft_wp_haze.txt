@@ -18,6 +18,7 @@ TorpedoNumbers=1
 DepthBomb=wp_depth_bomb
 DepthBombNumbers=8
 MinCameraDistance=0.5
+AircraftSpawnOffset=0,0.0199,0
 
 [Model]
 ModelFile=aircraft/wp_haze/wp_haze

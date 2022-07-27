@@ -1,8 +1,0 @@
-[Unit Reference]
-ShipClass=Dolfijn
-Description=Dolfijn Class SSK
-History=First entering service in 1960, the Dolfijn-class was the first indigenous submarines built in the Netherlands and for the Royal Netherlands Navy after World War II. The four boats of the Dolfijn class are sometimes referred to as Three-Cylinders. The name is based on their unusual design, instead of one or two pressure hulls the submarines of the Dolfijn class consists of three separate pressure hulls (cylinders) arranged in a triangle and enclosed in an external steel casing.
-
-[Player Ship Instances]
-PlayerClassNames=Dolfijn,Zeehond,Potvis,Tonjin
-PlayerClassHullNumbers=,,,

@@ -39,4 +39,4 @@ Subsystem=REACTOR
 RepairTime=12
 
 Subsystem=TOWEDDECOY
-RepairTime=2
+RepairTime=0.01

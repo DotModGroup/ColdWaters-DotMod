@@ -13,7 +13,7 @@ HullNumbers=FALSE
 [Movement]
 SurfaceSpeed=10
 SubmergedSpeed=17
-TelegraphSpeeds=-3,0,3,6,9,12,17
+TelegraphSpeeds=-5,0,3,5,10,15,17
 AccelerationRate=0.5
 DecelerationRate=0.05
 RudderTurnRate=0.5
@@ -32,8 +32,7 @@ PeriscopeDepthInFeet=39
 Diesel=TRUE
 
 [Acoustics & Sensors]
-//SelfNoise=125
-SelfNoise=110
+SelfNoise=108
 ActiveSonarReflection=20
 ActiveSonarModel=wp_mgk-400
 PassiveSonarModel=wp_mgk-400
@@ -143,6 +142,7 @@ ModelFile=ships/wp_ss_kilo/wp_ss_kilo
 [Weapon Systems]
 //Torpedo Mounts
 
+//Left Tubes
 //Tube 1
 MeshRotation=0,0,0
 MeshPosition=-0.01,0.03,0.496
@@ -151,26 +151,27 @@ TorpedoEffectPosition=0,0,0.0232
 
 //Tube 2
 MeshRotation=0,0,0
-MeshPosition=0.01,0.03,0.496
-TorpedoSpawnPosition=-0.01,0.03,0.598
-TorpedoEffectPosition=0,0,0.0232
-
-//Tube 3
-MeshRotation=0,0,0
 MeshPosition=-0.01,0.0126,0.504
 TorpedoSpawnPosition=0.01,0.0126,0.606
 TorpedoEffectPosition=0,0,0.0232
 
+//Tube 3
+MeshRotation=0,0,0
+MeshPosition=-0.0274,0.0126,0.496
+TorpedoSpawnPosition=0.0274,0.0126,0.598
+TorpedoEffectPosition=0,0,0.0232
+
+//Right Tubes
 //Tube 4
 MeshRotation=0,0,0
-MeshPosition=0.01,0.0126,0.504
-TorpedoSpawnPosition=-0.01,0.0126,0.606
+MeshPosition=0.01,0.03,0.496
+TorpedoSpawnPosition=-0.01,0.03,0.598
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 5
 MeshRotation=0,0,0
-MeshPosition=-0.0274,0.0126,0.496
-TorpedoSpawnPosition=0.0274,0.0126,0.598
+MeshPosition=0.01,0.0126,0.504
+TorpedoSpawnPosition=-0.01,0.0126,0.606
 TorpedoEffectPosition=0,0,0.0232
 
 //Tube 6

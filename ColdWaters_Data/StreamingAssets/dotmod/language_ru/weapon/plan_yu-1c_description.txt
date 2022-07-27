@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=Yu-1C
+WeaponDescriptiveName=Yu-1C Torpedo
+WeaponDescription=The Yu-1C is an upgraded version of the original straight-running Yu-1 anti-ship torpedo. The upgrades include a combination active/passive homing system and a wake-homing sensor. The upgrades also changed the steam-powered weapon into a thermal torpedo, thereby increasing the maximum range from 8km to 10km, and allowing it to reach that far at the faster 50 knot speed.\nFor gameplay reasons, the wake-homing sensor is not simulated.

@@ -9,6 +9,11 @@ Displacement=40000
 Crew=1600
 Range=10500
 HullNumbers=121,025,137
+AircraftNumbers=7,7
+AircraftTypes=wp_helix,wp_hormone
+AircraftSpawnPoints=-0.259821,0.216084,0.184545|-0.237992,0.216084,-0.196084|-0.210119,0.216084,-0.529666|-0.18543,0.216084,-0.895786
+AircraftSpawnOrientation=0,-4,0|0,-4,0|0,-4,0|0,-4,0
+AircraftTransitionPoints=-0.75,0.75,0.184545|-0.75,0.75,-0.196084|-0.75,0.75,-0.529666|-0.75,0.75,-0.895786
 
 [Movement]
 SurfaceSpeed=32
@@ -25,7 +30,7 @@ BallastRate=0
 Waterline=0
 SubmergedAt=0.2
 CavitationParameters=20,-200
-PropRotationSpeed=-250,-250,250,250
+PropRotationSpeed=250,250,-250,-250
 TestDepth=40
 EscapeDepth=200
 PeriscopeDepthInFeet=0
@@ -57,12 +62,12 @@ RBURestElevation=335,335
 RBURestAngle=0,0
 RBUSalvoNumbers=10
 
-TorpedoTypes=wp_set-65m,wp_rpk-6
-TorpedoNumbers=10,10
-TorpedoTubes=11
-TubeConfig=1,1,1,1,1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533,533,533,533,533
-TubeReloadTime=210
+TorpedoTypes=wp_set-65m,wp_rpk-6,wp_umgt-1
+TorpedoNumbers=5,5,25
+TorpedoTubes=3
+TubeConfig=1,1,1
+TorpedoTubeSize=533,533,533
+TubeReloadTime=0
 
 VLSTorpedoTypes=wp_p-6
 VLSTorpedoNumbers=16
@@ -204,11 +209,11 @@ MeshRotation=0,0,0
 Material=ships/materials/soviet_crest
 Mesh=wp_takr_kiev_crest
 
-Material=aircraft/wp_hormone/wp_hormone_mat
-MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
-Mesh=wp_takr_kiev_airwing,wp_takr_kiev_airwing_d
-Material=ships/materials/hormone_shadow
-Mesh=wp_takr_kiev_airwing_shadow
+//Material=aircraft/wp_hormone/wp_hormone_mat
+//MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
+//Mesh=wp_takr_kiev_airwing,wp_takr_kiev_airwing_d
+//Material=ships/materials/hormone_shadow
+//Mesh=wp_takr_kiev_airwing_shadow
 
 Material=aircraft/wp_forger/wp_forger_mat
 MaterialTextures=aircraft/wp_forger/wp_forger_tx,aircraft/wp_forger/wp_forger_spec,aircraft/wp_forger/wp_forger_nm
@@ -296,24 +301,24 @@ TorpedoSpawnPosition=-0.22,0.06,0.93
 TorpedoEffectPosition=-0.22,0.06,0.93
 
 //Tube 2
-MeshPosition=-0.22,0.06,0.92
-TorpedoSpawnPosition=-0.22,0.06,0.92
-TorpedoEffectPosition=-0.22,0.06,0.92
+//MeshPosition=-0.22,0.06,0.92
+//TorpedoSpawnPosition=-0.22,0.06,0.92
+//TorpedoEffectPosition=-0.22,0.06,0.92
 
 //Tube 3
-MeshPosition=-0.22,0.06,0.909
-TorpedoSpawnPosition=-0.22,0.06,0.909
-TorpedoEffectPosition=-0.22,0.06,0.909
+//MeshPosition=-0.22,0.06,0.909
+//TorpedoSpawnPosition=-0.22,0.06,0.909
+//TorpedoEffectPosition=-0.22,0.06,0.909
 
 //Tube 4
-MeshPosition=-0.22,0.06,0.898
-TorpedoSpawnPosition=-0.22,0.06,0.898
-TorpedoEffectPosition=-0.22,0.06,0.898
+//MeshPosition=-0.22,0.06,0.898
+//TorpedoSpawnPosition=-0.22,0.06,0.898
+//TorpedoEffectPosition=-0.22,0.06,0.898
 
 //Tube 5
-MeshPosition=-0.22,0.06,0.886
-TorpedoSpawnPosition=-0.22,0.06,0.886
-TorpedoEffectPosition=-0.22,0.06,0.886
+//MeshPosition=-0.22,0.06,0.886
+//TorpedoSpawnPosition=-0.22,0.06,0.886
+//TorpedoEffectPosition=-0.22,0.06,0.886
 
 //Starboard side
 MeshRotation=0,-80,0
@@ -323,24 +328,24 @@ TorpedoSpawnPosition=0.22,0.06,0.93
 TorpedoEffectPosition=0.22,0.06,0.93
 
 //Tube 7
-MeshPosition=0.22,0.06,0.92
-TorpedoSpawnPosition=0.22,0.06,0.92
-TorpedoEffectPosition=0.22,0.06,0.92
+//MeshPosition=0.22,0.06,0.92
+//TorpedoSpawnPosition=0.22,0.06,0.92
+//TorpedoEffectPosition=0.22,0.06,0.92
 
 //Tube 8
-MeshPosition=0.22,0.06,0.909
-TorpedoSpawnPosition=0.22,0.06,0.909
-TorpedoEffectPosition=0.22,0.06,0.909
+//MeshPosition=0.22,0.06,0.909
+//TorpedoSpawnPosition=0.22,0.06,0.909
+//TorpedoEffectPosition=0.22,0.06,0.909
 
 //Tube 9
-MeshPosition=0.22,0.06,0.898
-TorpedoSpawnPosition=0.22,0.06,0.898
-TorpedoEffectPosition=0.22,0.06,0.898
+//MeshPosition=0.22,0.06,0.898
+//TorpedoSpawnPosition=0.22,0.06,0.898
+//TorpedoEffectPosition=0.22,0.06,0.898
 
 //Tube 10
-MeshPosition=0.22,0.06,0.886
-TorpedoSpawnPosition=0.22,0.06,0.886
-TorpedoEffectPosition=0.22,0.06,0.886
+//MeshPosition=0.22,0.06,0.886
+//TorpedoSpawnPosition=0.22,0.06,0.886
+//TorpedoEffectPosition=0.22,0.06,0.886
 
 //VLS
 VLSLaunchPoints=-0.1375,0.2285,1.05|0.1375,0.2285,1.05|-0.1025,0.2285,1.05|0.1025,0.2285,1.05|-0.1025,0.235,1.45|0.1025,0.235,1.45|-0.1025,0.235,1.45|0.1025,0.235,1.45

@@ -35,7 +35,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=nav_radar
+RADAR=FALSE
 RADARSignature=LARGE
 
 [Defenses]

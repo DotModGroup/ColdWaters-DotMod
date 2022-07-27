@@ -9,6 +9,10 @@ Displacement=7620
 Crew=300
 Range=3500
 HullNumbers=R695.png,623,412
+AircraftNumbers=2
+AircraftTypes=wp_helix
+AircraftSpawnPoints=0.053,0.1327,-0.9636
+AircraftTransitionPoints=0.6,0.7,-1.3
 
 [Movement]
 SurfaceSpeed=35
@@ -28,7 +32,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=350,-350
 TestDepth=40
 EscapeDepth=787
-PeriscopeDepthInFeet=44
+PeriscopeDepthInFeet=1
 
 [Acoustics & Sensors]
 SelfNoise=170
@@ -36,6 +40,7 @@ ActiveSonarReflection=16
 ActiveSonarModel=wp_mgk-355
 PassiveSonarModel=wp_mgk-355
 TowedArrayModel=wp_horse_tail
+TowedArrayPosition=0,0.0534,-1.10738
 AnechoicCoating=FALSE
 RADAR=wp_fregat
 RADARSignature=MEDIUM
@@ -57,12 +62,12 @@ RBURestElevation=335,335
 RBURestAngle=0,0
 RBUSalvoNumbers=8
 
-TorpedoTypes=wp_set-65m,wp_53-65k,wp_moss_mg-74
-TorpedoNumbers=8,8,10
-TorpedoTubes=9
-TubeConfig=1,1,1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533,533,533
-TubeReloadTime=210
+TorpedoTypes=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_umgt-1
+TorpedoNumbers=4,4,0,22
+TorpedoTubes=3
+TubeConfig=1,1,1
+TorpedoTubeSize=533,533,533
+TubeReloadTime=0
 
 VLSTorpedoTypes=wp_urk-5
 VLSTorpedoNumbers=8
@@ -100,7 +105,7 @@ NoisemakerReloadTime=18
 LabelPosition=370,39
 BOWSONAR=FRONT
 LabelPosition=50,39
-TOWED=FALSE
+TOWED=TRUE
 LabelPosition=23,204
 PERISCOPE=SAIL
 LabelPosition=23,183
@@ -227,11 +232,11 @@ MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=ships/materials/soviet_crest
 Mesh=wp_bpk_udaloy_crest
-Material=aircraft/wp_helix/wp_helix_mat
-MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
-Mesh=wp_bpk_udaloy_airwing,HIDE
-Material=ships/materials/hormone_shadow
-Mesh=wp_bpk_udaloy_airwing_shadow,HIDE
+//Material=aircraft/wp_helix/wp_helix_mat
+//MaterialTextures=aircraft/wp_helix/wp_helix_tx,aircraft/wp_helix/wp_helix_spec,aircraft/wp_helix/wp_helix_nm
+//Mesh=wp_bpk_udaloy_airwing,HIDE
+//Material=ships/materials/hormone_shadow
+//Mesh=wp_bpk_udaloy_airwing_shadow,HIDE
 
 [Weapon Systems]
 MeshRotation=0,0,0
@@ -272,17 +277,17 @@ MeshPosition=-0.115,0.08,-0.348
 TorpedoSpawnPosition=-0.115,0.08,-0.348
 TorpedoEffectPosition=-0.115,0.08,-0.348
 
-MeshPosition=-0.124,0.08,-0.354
-TorpedoSpawnPosition=-0.124,0.08,-0.354
-TorpedoEffectPosition=0.124,0.08,-0.354
+//MeshPosition=-0.124,0.08,-0.354
+//TorpedoSpawnPosition=-0.124,0.08,-0.354
+//TorpedoEffectPosition=0.124,0.08,-0.354
 
-MeshPosition=-0.132,0.08,-0.362
-TorpedoSpawnPosition=-0.132,0.08,-0.362
-TorpedoEffectPosition=-0.132,0.08,-0.362
+//MeshPosition=-0.132,0.08,-0.362
+//TorpedoSpawnPosition=-0.132,0.08,-0.362
+//TorpedoEffectPosition=-0.132,0.08,-0.362
 
-MeshPosition=-0.14,0.08,-0.37
-TorpedoSpawnPosition=-0.14,0.08,-0.37
-TorpedoEffectPosition=-0.14,0.08,-0.37
+//MeshPosition=-0.14,0.08,-0.37
+//TorpedoSpawnPosition=-0.14,0.08,-0.37
+//TorpedoEffectPosition=-0.14,0.08,-0.37
 
 //Right 5-8
 MeshRotation=0,40,0
@@ -290,17 +295,17 @@ MeshPosition=0.115,0.08,-0.348
 TorpedoSpawnPosition=0.115,0.08,-0.348
 TorpedoEffectPosition=0.115,0.08,-0.348
 
-MeshPosition=0.124,0.08,-0.354
-TorpedoSpawnPosition=0.124,0.08,-0.354
-TorpedoEffectPosition=0.124,0.08,-0.354
+//MeshPosition=0.124,0.08,-0.354
+//TorpedoSpawnPosition=0.124,0.08,-0.354
+//TorpedoEffectPosition=0.124,0.08,-0.354
 
-MeshPosition=0.132,0.08,-0.362
-TorpedoSpawnPosition=0.132,0.08,-0.362
-TorpedoEffectPosition=0.132,0.08,-0.362
+//MeshPosition=0.132,0.08,-0.362
+//TorpedoSpawnPosition=0.132,0.08,-0.362
+//TorpedoEffectPosition=0.132,0.08,-0.362
 
-MeshPosition=0.14,0.08,-0.37
-TorpedoSpawnPosition=0.14,0.08,-0.37
-TorpedoEffectPosition=0.14,0.08,-0.37
+//MeshPosition=0.14,0.08,-0.37
+//TorpedoSpawnPosition=0.14,0.08,-0.37
+//TorpedoEffectPosition=0.14,0.08,-0.37
 
 VLSLaunchPoints=-0.067,0.175,0.41|0.067,0.175,0.41|-0.067,0.154,0.418|0.067,0.154,0.418|-0.093,0.175,0.41|0.093,0.175,0.41|-0.093,0.154,0.418|0.093,0.154,0.418
 VLSLaunchPointsRotation=-19,0,0

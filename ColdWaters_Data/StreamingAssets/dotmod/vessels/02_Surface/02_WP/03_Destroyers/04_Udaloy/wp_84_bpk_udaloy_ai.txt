@@ -35,6 +35,7 @@ ActiveSonarReflection=25
 ActiveSonarModel=wp_mgk-355
 PassiveSonarModel=wp_mgk-355
 TowedArrayModel=wp_horse_tail
+TowedArrayPosition=0,0.0534,-1.10738
 AnechoicCoating=FALSE
 RADAR=wp_fregat
 RADARSignature=MEDIUM

@@ -1,0 +1,243 @@
+Designation=SS
+ShipType=SUBMARINE
+
+Length=76
+Beam=7.6
+HullHeight=0.08
+Displacement=2110
+Crew=54
+Range=9000
+HullNumbers=plan_356,plan_357,plan_358,plan_359,plan_360,plan_361,plan_362,plan_363,plan_605,plan_306,plan_307,plan_308
+
+[Movement]
+SurfaceSpeed=15.2
+SubmergedSpeed=18
+AccelerationRate=0.4
+DecelerationRate=0.1
+RudderTurnRate=0.5
+TurnRate=2.5
+PivotPointTurning=0.256
+DiveRate=1
+SurfaceRate=1
+BallastRate=0.25
+Waterline=0.0
+SubmergedAt=0.122
+CavitationParameters=20,-100
+PropRotationSpeed=-450,450
+TestDepth=985
+PeriscopeDepthInFeet=33
+
+[Acoustics & Sensors]
+SelfNoise=125
+ActiveSonarReflection=18
+ActiveSonarModel=plan_sqc_1
+PassiveSonarModel=plan_sqc_1
+TowedArrayModel=FALSE
+AnechoicCoating=FALSE
+RADAR=wp_snoop_plate
+RADARSignature=SMALL
+
+[Weapon Systems]
+TorpedoTypes=plan_yu-3c,plan_yu-4b,plan_yu-1c
+TorpedoNumbers=8,2,2
+TorpedoTubes=6
+NumberOfWires=1
+TubeConfig=1,1,1,1,1,1
+TorpedoTubeSize=533,533,533,533,533,533
+TubeReloadTime=45
+
+NoisemakerName=wp_noisemaker
+NumberOfNoisemakers=10
+NoisemakerReloadTime=32
+
+[Subsystems]
+LabelPosition=364.3,28
+BOWSONAR=FRONT
+LabelPosition=59.9,193.2
+TOWED=FALSE
+LabelPosition=409.7,171.9
+PERISCOPE=SAIL
+LabelPosition=160.8,193.2
+ESM_MAST=SAIL
+LabelPosition=409.7,193.3
+RADAR_MAST=SAIL
+LabelPosition=364.3,49.4
+TUBES=FRONT
+LabelPosition=409.7,151.4
+FIRECONTROL=FORE
+LabelPosition=256.6,48.7
+PUMPS=FORE
+LabelPosition=59.9,48.7
+PROPULSION=AFT,REAR
+LabelPosition=59.9,28
+RUDDER=REAR
+LabelPosition=59.9,172.2
+PLANES=REAR,FRONT
+LabelPosition=205.6,28
+BALLAST=MID
+LabelPosition=59.9,151.4
+REACTOR=MID
+
+[Flooding Display: x,width,ymin,ymax]
+FLOODING1=163,74,-76,-43
+FLOODING2=69,112,-76,-43
+FLOODING3=-44,110,-76,-43
+FLOODING4=-119,39,-74,-43
+FLOODING5=-164,49,-71,-43
+DamageControlPartyY=-31
+
+[Model]
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+//Masts
+Material=ships/materials/wp_masts
+ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
+MeshPosition=0,0,0.080
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_periscope
+
+MeshPosition=0,-0.005,0.032
+MastHeight=0.085
+MeshMast=wp_ssn_alfa_esm
+
+ModelFile=ships/wp_ssn_november/wp_ssn_november
+
+MeshPosition=0,-0.005,0.043
+MastHeight=0.085
+MeshMast=wp_ssn_november_radar
+
+ModelFile=ships/plan_ss_ming/plan_ss_ming
+
+//Hull and Deck
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+
+MeshHullCollider=plan_ss_ming_coll_hull
+MeshSuperstructureCollider=plan_ss_ming_coll_ss
+
+Material=ships/plan_ss_ming/plan_ss_ming_mat
+MaterialTextures=ships/plan_ss_ming/plan_ss_ming_tx,ships/plan_ss_ming/plan_ss_ming_spec,ships/plan_ss_ming/plan_ss_ming_nm
+Mesh=plan_ss_ming
+MeshPosition=0,-0.0435,-0.5161
+MeshRudder=plan_ss_ming_rudder
+MeshPosition=0,0.0211,0.400
+MeshBowPlanes=plan_ss_ming_bowplanes
+MeshPosition=0,-0.0344,-0.491
+MeshSternPlanes=plan_ss_ming_sternplanes
+MeshPosition=-0.0224,-0.0349,-0.4716
+MeshRotation=0,6,0
+MeshProp=plan_ss_ming_prop_l
+MeshPosition=0.0224,-0.0349,-0.4716
+MeshRotation=-0,-6,0
+MeshProp=plan_ss_ming_prop_r
+MeshPosition=0,0,0
+MeshRotation=0,0,0
+Material=ships/materials/hullnumbers/hullnumber
+MeshHullNumber=plan_ss_ming_hullnumber
+
+[Weapon Systems]
+//Torpedo Mounts
+MeshRotation=0,0,0
+
+//Left Tubes
+//Tube 1
+MeshPosition=-0.0053,0,0.56
+TorpedoSpawnPosition=-0.0053,0,0.56
+TorpedoEffectPosition=-0.0053,0,0.56
+
+//Tube 2
+MeshPosition=-0.0053,-0.0129,0.56
+TorpedoSpawnPosition=-0.0053,-0.0129,0.56
+TorpedoEffectPosition=-0.0053,-0.0129,0.56
+
+//Tube 3
+MeshPosition=-0.0053,-0.0244,0.56
+TorpedoSpawnPosition=-0.0053,-0.0244,0.56
+TorpedoEffectPosition=-0.0053,-0.0244,0.56
+
+//Tube 4
+MeshRotation=0,0,0
+MeshPosition=0.0053,0,0.56
+TorpedoSpawnPosition=-0.0053,0,0.56
+TorpedoEffectPosition=0.0053,0,0.56
+
+//Tube 5
+MeshRotation=0,0,0
+MeshPosition=0.0053,-0.0129,0.56
+TorpedoSpawnPosition=0.0053,-0.0129,0.56
+TorpedoEffectPosition=0.0053,-0.0129,0.56
+
+//Tube 6
+MeshRotation=0,0,0
+MeshPosition=0.005,-0.0244,0.53
+TorpedoSpawnPosition=-0.005,-0.0287,0.6
+TorpedoEffectPosition=0.0053,-0.0244,0.56
+
+//------------------For Tube Locations---------------------
+//ModelFile=weapons/assets/usn_mk48
+//Material=weapons/assets/usn_mk48_mat
+//MaterialTextures=weapons/assets/usn_mk48_tx
+
+//Left Tubes
+//Tube 1
+//MeshPosition=-0.0053,0,0.56
+//Mesh=Mk48
+
+//Tube 2
+//MeshPosition=-0.0053,-0.0129,0.56
+//Mesh=Mk48
+
+//Tube 3
+//MeshPosition=-0.0053,-0.0244,0.56
+//Mesh=Mk48
+
+//Right Tubes
+//Tube 4
+//MeshPosition=0.0053,0,0.56
+//Mesh=Mk48
+
+//Tube 5
+//MeshPosition=0.0053,-0.0129,0.56
+//Mesh=Mk48
+
+//Tube 6
+//MeshPosition=0.0053,-0.0244,0.56
+//Mesh=Mk48
+//---------------------------------------------------------
+
+//Noisemaker Mount
+MeshRotation=0,0,0
+MeshPosition=0,-0.056,-0.533
+MeshNoisemakerMount=FALSE
+
+//Wake
+MeshPosition=0,0,0
+BowWaveParticle=ships/particles/bowwave_small
+PropWashParticle=ships/particles/bowwave_small
+CavitationParticle=ships/particles/plan_ss_ming_cavitation
+FunnelSmokeParticle=ships/particles/plan_ss_ming_bubbles
+EmergencyBlowParticle=ships/particles/plan_ss_ming_emergency_blow
+
+ParticleBowWavePosition=0,0,0.533
+ParticlePropWashPosition=0,-0.033,-0.575
+
+ParticleHullFoamPosition=0,0,0.3
+ParticleHullFoamParameters=DEFAULT_CLIPPER
+
+ParticleSternFoamPosition=0,0,-0.55
+ParticleSternFoamParameters=DEFAULT_CLIPPER
+KelvinWaves=1.9,1.9
+
+EngineAudioClip=audio/units/submarine_engine_1
+EngineAudioRollOff=LOGARITHMIC
+EngineAudioDistance=1,20
+EngineAudioPitchRange=0.4,1
+PropAudioClip=audio/units/submarine_propeller
+PropAudioRollOff=LOGARITHMIC
+PropAudioDistance=1,20
+PropAudioPitchRange=0.1,0.6
+PingAudioClip=audio/environment/sonar_ping
+PingAudioRollOff=LOGARITHMIC
+PingAudioDistance=1,50
+PingAudioPitch=1

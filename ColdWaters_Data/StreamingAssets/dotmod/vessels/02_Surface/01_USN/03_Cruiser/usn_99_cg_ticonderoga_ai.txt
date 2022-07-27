@@ -8,6 +8,8 @@ Displacement=9800
 Crew=330
 Range=6000
 HullNumbers=CG-52.png,CG-53.png,CG-54.png,CG-55.png,CG-56.png,CG-57.png,CG-58.png,CG-59.png,CG-60.png,CG-61.png,CG-62.png,CG-63.png,CG-64.png,CG-65.png,CG-66.png,CG-67.png,CG-68.png,CG-69.png,CG-70.png,CG-71.png,CG-72.png,CG-73.png
+AircraftNumbers=2
+AircraftTypes=usn_sh60b
 
 [Movement]
 SurfaceSpeed=32

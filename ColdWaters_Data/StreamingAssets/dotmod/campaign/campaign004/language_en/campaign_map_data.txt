@@ -115,6 +115,8 @@ LabelPosition=387,-352
 LabelName=Smolensk
 LabelPosition=471,-245
 LabelName=Rybinsk
+LabelPosition=-17,154
+LabelName=Jan Mayen
 
 Color=255,0,0,255
 Size=18

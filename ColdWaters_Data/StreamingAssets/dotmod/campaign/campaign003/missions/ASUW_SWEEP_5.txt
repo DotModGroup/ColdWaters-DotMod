@@ -22,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2,2-2,1-2,2-3,1-1
 CombatBehaviour=OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,TRUE,TRUE,FALSE
-EnemyShipClasses=wp_84_bpk_udaloy_ai|wp_84_bpk_kara_ai||plan_ddg_luhu|plan_ddg_luda3,wp_84_skr_krivak1_ai|plan_ffg_jiangwei|plan_ff_jianghu3,plan_ddg_sovremenny|plan_ddg_luda,plan_lst_yukan|plan_lst_yuting,wp_84_ssn_akula1|wp_84_ssn_sierra
+EnemyShipClasses=wp_84_bpk_udaloy_ai|wp_84_bpk_kara_ai||plan_99_ddg_luhu|plan_99_ddg_luda3,wp_84_skr_krivak1_ai|plan_99_ffg_jiangwei|plan_99_ff_jianghu3,plan_99_ddg_sovremenny|plan_99_ddg_luda,plan_lst_yukan|plan_lst_yuting,wp_84_ssn_akula1|wp_84_ssn_sierra
 EventWin=ASUW_STRIKE_win
 EventFail=ASUW_STRIKE_fail

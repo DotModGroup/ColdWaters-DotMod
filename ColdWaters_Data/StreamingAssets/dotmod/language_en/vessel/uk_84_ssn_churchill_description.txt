@@ -1,6 +1,6 @@
 [Unit Reference]
 ShipClass=Churchill
-Description=Churchill Class Nuclear Attack Submarine
+Description=Churchill-class Nuclear Attack Submarine
 History=The three Churchill-class SSNs (also termed the repeat Valiants) were a improved variant of the Valiant-class. These submarines were almost identical externally but had significant internal improvements.  The ships were built with a Type 2001 sonar array, but this was replaced in the late 1970s with a Type 2020 array and a Type 2026 towed array. HMS Churchill evaluated Pump-jet propulsors, the Gould Mk48 Torpedo, and the Harpoon missile for the RN. HMS Conqueror was famously the submarine to sink the General Belgrano in the 1982 Falklands conflict. Both Churchill, Conqueror, and Courageous served the Royal Navy for nearly 30 years and are now awaiting recycling.
 
 [Player Ship Instances]

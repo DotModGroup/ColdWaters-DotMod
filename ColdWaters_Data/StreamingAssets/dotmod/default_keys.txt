@@ -113,3 +113,9 @@ Cancel or Quit=Escape
 
 Aircraft Navigate=LeftControl+H
 Aircraft Attack=LeftControl+Space
+Aircraft Previous=LeftControl+A
+Aircraft Next=LeftControl+D
+Aircraft Launch=LeftControl+F
+Aircraft Recover=LeftControl+R
+Aircraft Next Weapon=LeftControl+W
+Aircraft Previous Weapon=LeftControl+S

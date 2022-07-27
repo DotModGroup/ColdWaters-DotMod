@@ -2,7 +2,7 @@
 //Hardcoded. Only against NORWAYSPITSBERGEN SOSUS
 MissionType=SOSUS_BREACH
 AllowedOnlyFor=
-ForbiddenFor=SURFACE
+ForbiddenFor=SURFACE,SSG,SSGN
 AllowedOnlyForCostBelow=
 AllowedOnlyForCostHigherThan=
 HoursToStart=0,0

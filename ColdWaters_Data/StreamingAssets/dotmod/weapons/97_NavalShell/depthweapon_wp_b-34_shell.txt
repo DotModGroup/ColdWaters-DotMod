@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=4
 DepthWeaponReloadTime=30
 DepthWeaponVelocity=5.2
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/b24.ogg

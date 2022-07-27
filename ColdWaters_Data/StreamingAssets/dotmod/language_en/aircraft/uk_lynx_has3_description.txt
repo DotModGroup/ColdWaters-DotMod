@@ -1,0 +1,4 @@
+[Unit Reference]
+AircraftName=Lynx HAS.3
+AircraftDescriptiveName=Westland Lynx HAS.3
+History=Special: This is a temporary place holder model\n\nThe Westland Lynx is a British multi-purpose twin-engined military helicopter designed and built by Westland Helicopters at its factory in Yeovil. The HAS.3 was introduced to provided an uprated helicopter from the HAS.2 using the improved Rolls-Royce Gem 42-1 turboshaft engines and upgraded main transmission gearbox.

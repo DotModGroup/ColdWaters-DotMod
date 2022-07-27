@@ -235,13 +235,13 @@ MeshHullWake=civ_ms_sl7_hullwake
 MeshPosition=0,0,-0.822
 MeshSternWake=civ_ms_sl7_sternwake
 
-ParticleBowWavePosition=0,0,1.35
-ParticlePropWashPosition=0,-0.091,-1.81
+ParticleBowWavePosition=0,0,1.25
+ParticlePropWashPosition=0,-0.091,-1.22
 ParticleHullFoamPosition=0,0,0
 ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-1.83
 ParticleSternFoamParameters=DEFAULT_CLIPPER
-KelvinWaves=7.3,7.3
+KelvinWaves=7.3,4.7
 
 EngineAudioClip=audio/units/diesel_large
 EngineAudioRollOff=LOGARITHMIC

@@ -23,7 +23,7 @@ LayerStrength=Moderate
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=plan_ssn_han,plan_ssk_song
+EnemyShipClasses=plan_99_ssn_han,plan_99_ssk_song
 //Ship positions and headings, otherwise build into a formation
 
 //Enemy Aircraft

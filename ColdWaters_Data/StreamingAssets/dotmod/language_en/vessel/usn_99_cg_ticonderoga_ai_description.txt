@@ -1,5 +1,5 @@
 [Unit Reference]
-ShipClass=Ticonderoga (Late)
+ShipClass=Ticonderoga
 Designation=CG
 Description=Ticonderoga-class Guided Missile Cruiser (Late)
 Aircraft=2 Sikorsky SH-60B Seahawk

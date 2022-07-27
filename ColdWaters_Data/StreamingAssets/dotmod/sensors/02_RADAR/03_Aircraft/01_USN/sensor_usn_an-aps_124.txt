@@ -1,0 +1,2 @@
+RADARModel=usn_an-aps_124
+RADARRange=156000

@@ -75,29 +75,29 @@ LabelPosition=409.7,171.9
 RADAR_MAST=SAIL
 LabelPosition=364.3,49.4
 TUBES=FRONT
-LabelPosition=229.6,193.2
+LabelPosition=229.6,172.2  
 FIRECONTROL=FORE
-LabelPosition=229.6,172.2
+LabelPosition=229.6,193.2  
 PUMPS=AFT
-LabelPosition=59.9,27.7
+LabelPosition=59.9,48.7   
 PROPULSION=AFT
 LabelPosition=59.9,172.2
 RUDDER=REAR
-LabelPosition=59.9,48.7
+LabelPosition=59.9,27.7 
 PLANES=REAR
-LabelPosition=190.8,28    
+LabelPosition=190.8,49
 BALLAST=AFT
-LabelPosition=190.8,49 
+LabelPosition=190.8,28
 REACTOR=MID
 
 [Flooding Display: x,width,ymin,ymax]
-FLOODING1=200,90,-79,-38
-FLOODING2=134,42,-79,-37
-FLOODING3=-61,41,-79,-38
-FLOODING4=-100,35,-79,-38
-FLOODING5=-155,75,-79,-37
+//FLOODING1=188,65,-82,-38
+FLOODING1=188,65,22,-9
+FLOODING2=-20,90,66,8
+FLOODING3=-90,32,-77,-39
+FLOODING4=-124,34,-77,-39
+FLOODING5=-172,62,-76,-39
 DamageControlPartyY=-31
-MinCameraDistance=2.0
 
 [Model]
 ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa

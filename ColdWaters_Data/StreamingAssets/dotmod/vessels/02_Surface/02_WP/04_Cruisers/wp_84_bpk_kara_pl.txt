@@ -9,6 +9,10 @@ Displacement=9700
 Crew=380
 Range=9000
 HullNumbers=R707.png,R701.png,R530.png,R703.png,R565.png,R712.png,R597.png
+AircraftNumbers=1
+AircraftTypes=wp_hormone
+AircraftSpawnPoints=0,0.104,-1.1
+AircraftTransitionPoints=-0.6,0.7,-1.3
 
 
 [Movement]
@@ -29,7 +33,7 @@ CavitationParameters=20,-100
 PropRotationSpeed=250,-250
 TestDepth=40
 EscapeDepth=787
-PeriscopeDepthInFeet=44
+PeriscopeDepthInFeet=1
 
 [Acoustics & Sensors]
 SelfNoise=180
@@ -37,6 +41,7 @@ ActiveSonarReflection=25
 ActiveSonarModel=wp_bull_nose
 PassiveSonarModel=wp_bull_nose
 TowedArrayModel=wp_mare_tail
+TowedArrayPosition=0,0.0534,-1.18
 AnechoicCoating=FALSE
 RADAR=wp_angara_a
 RADARSignature=MEDIUM
@@ -61,12 +66,12 @@ RBURestElevation=335,335,335,335
 RBURestAngle=0,0,0,0
 RBUSalvoNumbers=20
 
-TorpedoTypes=wp_set-65m,wp_53-65k,wp_moss_mg-74
-TorpedoNumbers=10,10,10
-TorpedoTubes=11
-TubeConfig=1,1,1,1,1,1,1,1,1,1,1
-TorpedoTubeSize=533,533,533,533,533,533,533,533,533,533,533
-TubeReloadTime=210
+TorpedoTypes=wp_set-65m,wp_53-65k,wp_moss_mg-74,wp_umgt-1
+TorpedoNumbers=5,5,0,8
+TorpedoTubes=3
+TubeConfig=1,1,1
+TorpedoTubeSize=533,533,533
+TubeReloadTime=0
 
 VLSTorpedoTypes=wp_urk-5
 VLSTorpedoNumbers=8
@@ -199,11 +204,11 @@ MeshPosition=0,0,0
 MeshRotation=0,0,0
 Material=ships/materials/soviet_crest
 Mesh=wp_bpk_kara_crest
-Material=aircraft/wp_hormone/wp_hormone_mat
-MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hormone/wp_hormone_nm
-Mesh=wp_bpk_kara_airwing
-Material=ships/materials/hormone_shadow
-Mesh=wp_bpk_kara_airwing_shadow
+//Material=aircraft/wp_hormone/wp_hormone_mat
+//MaterialTextures=aircraft/wp_hormone/wp_hormone_tx,aircraft/wp_hormone/wp_hormone_spec,aircraft/wp_hor//mone/wp_hormone_nm
+//Mesh=wp_bpk_kara_airwing
+//Material=ships/materials/hormone_shadow
+//Mesh=wp_bpk_kara_airwing_shadow
 
 //RADARs
 RADARSpeed=100
@@ -275,34 +280,34 @@ MeshRotation=0,-30,0
 TorpedoSpawnPosition=-0.102,0.102,-0.530
 TorpedoEffectPosition=-0.102,0.102,-0.530
 
-TorpedoSpawnPosition=-0.112,0.102,-0.535
-TorpedoEffectPosition=-0.112,0.102,-0.535
+//TorpedoSpawnPosition=-0.112,0.102,-0.535
+//TorpedoEffectPosition=-0.112,0.102,-0.535
 
-TorpedoSpawnPosition=-0.121,0.102,-0.540
-TorpedoEffectPosition=-0.121,0.102,-0.540
+//TorpedoSpawnPosition=-0.121,0.102,-0.540
+//TorpedoEffectPosition=-0.121,0.102,-0.540
 
-TorpedoSpawnPosition=-0.13,0.102,-0.546
-TorpedoEffectPosition=-0.13,0.102,-0.546
+//TorpedoSpawnPosition=-0.13,0.102,-0.546
+//TorpedoEffectPosition=-0.13,0.102,-0.546
 
-TorpedoSpawnPosition=-0.14,0.102,-0.553
-TorpedoEffectPosition=-0.14,0.102,-0.553
+//TorpedoSpawnPosition=-0.14,0.102,-0.553
+//TorpedoEffectPosition=-0.14,0.102,-0.553
 
 //Right 6-10
 MeshRotation=0,30,0
 TorpedoSpawnPosition=0.102,0.102,-0.530
 TorpedoEffectPosition=0.102,0.102,-0.530
 
-TorpedoSpawnPosition=0.112,0.102,-0.535
-TorpedoEffectPosition=0.112,0.102,-0.535
+//TorpedoSpawnPosition=0.112,0.102,-0.535
+//TorpedoEffectPosition=0.112,0.102,-0.535
 
-TorpedoSpawnPosition=0.121,0.102,-0.540
-TorpedoEffectPosition=0.121,0.102,-0.540
+//TorpedoSpawnPosition=0.121,0.102,-0.540
+//TorpedoEffectPosition=0.121,0.102,-0.540
 
-TorpedoSpawnPosition=0.13,0.102,-0.546
-TorpedoEffectPosition=0.13,0.102,-0.546
+//TorpedoSpawnPosition=0.13,0.102,-0.546
+//TorpedoEffectPosition=0.13,0.102,-0.546
 
-TorpedoSpawnPosition=0.14,0.102,-0.553
-TorpedoEffectPosition=0.14,0.102,-0.553
+//TorpedoSpawnPosition=0.14,0.102,-0.553
+//TorpedoEffectPosition=0.14,0.102,-0.553
 
 VLSLaunchPoints=-0.089,0.156,0.48|0.089,0.156,0.48|-0.089,0.134,0.486|0.089,0.134,0.486|-0.116,0.156,0.48|0.116,0.156,0.48|-0.116,0.134,0.486|0.116,0.134,0.486
 VLSLaunchPointsRotation=-19,0,0

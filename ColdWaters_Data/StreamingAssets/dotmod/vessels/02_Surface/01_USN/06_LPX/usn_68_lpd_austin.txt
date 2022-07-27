@@ -147,24 +147,28 @@ Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
 CavitationParticle=ships/particles/civ_ms_sl7_cavitation
-FunnelSmokeParticle=ships/particles/civ_ms_sl7_smokeemitter
+CavitationParticlePosition=0,0.070,0.630
+FunnelSmokeParticle=ships/particles/civ_ms_act_1_smokeemitter
+FunnelSmokeParticlePosition=0.135,-0.035,1.007
+FunnelSmokeParticle=ships/particles/civ_ms_act_1_smokeemitter
+FunnelSmokeParticlePosition=-0.135,-0.035,0.76
 
-MeshPosition=0,0,1.017
+MeshPosition=0,0,1.00
 MeshHullWake=civ_ms_sl7_hullwake
 
-MeshPosition=0,0,-0.822
+MeshPosition=0,0,-0.022
 MeshSternWake=civ_ms_sl7_sternwake
 
 AssetBundle=bundles/vessels/usn_lpd_austin.unity3d
 ModelFile=assets/models/usn_lpd_austin.fbx
 
-ParticleBowWavePosition=0,0,2.0428
-ParticlePropWashPosition=0,-0.091,-1.81
+ParticleBowWavePosition=0,0,1.222
+ParticlePropWashPosition=0,-0.091,-1.22
 ParticleHullFoamPosition=0,0,0.822
 ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-1.995
 ParticleSternFoamParameters=DEFAULT_CLIPPER
-KelvinWaves=7.3,7.3
+KelvinWaves=7.3,4.6
 
 EngineAudioClip=audio/units/diesel_large
 EngineAudioRollOff=LOGARITHMIC

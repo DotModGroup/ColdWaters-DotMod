@@ -43,10 +43,10 @@ RADARSignature=SMALL
 TowedArrayPosition=-0.1087,-0.0585,-0.5507
 
 [Weapon Systems]
-TorpedoTypes=uk_spearfish,uk_tigerfish_Mod2+,usn_moss,usn_ugm84,usn_tlam
+TorpedoTypes=uk_spearfish,uk_tigerfish_mod2_plus,usn_moss,usn_ugm84,usn_tlam
 TorpedoNumbers=12,4,4,5,5
 TorpedoTubes=5
-NumberOfWires=3
+NumberOfWires=4
 TubeConfig=1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533
 TubeReloadTime=45

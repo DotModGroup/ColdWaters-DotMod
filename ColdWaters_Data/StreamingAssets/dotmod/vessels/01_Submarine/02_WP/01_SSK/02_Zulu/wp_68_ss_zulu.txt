@@ -32,7 +32,6 @@ PeriscopeDepthInFeet=27
 Diesel=TRUE
 
 [Acoustics & Sensors]
-//SelfNoise=140
 SelfNoise=129
 ActiveSonarReflection=20
 ActiveSonarModel=wp_plutoniy
@@ -46,7 +45,6 @@ RADARSignature=SMALL
 TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
 Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74
 TorpedoNumbers=10,8,4
-NumberOfWires=0
 TorpedoTubes=10
 TubeConfig=1,1,1,1,1,1,1,1,1,1
 TorpedoTubeSize=533,533,533,533,533,533,533,533,533,533
@@ -172,64 +170,127 @@ MeshPosition=0,0.03589949,0
 ChildMesh=wp_zulu_radar_mast_dish
 
 //Torpedo Mounts
-
-//Носовые ТА:
 MeshPosition=0,0,0
 
+//Left Tubes
 //Tube 1
-MeshPosition=0.005,-0.005,0.6
-TorpedoSpawnPosition=0.005,-0.005,0.6
-TorpedoEffectPosition=0.005,-0.005,0.6
+MeshRotation=0,0,0
+MeshPosition=-0.012,0.021,0.63
+TorpedoSpawnPosition=-0.012,0.021,0.63
+TorpedoEffectPosition=-0.012,0.021,0.63
 
 //Tube 2
-MeshPosition=-0.005,-0.005,0.6
-TorpedoSpawnPosition=-0.005,-0.005,0.6
-TorpedoEffectPosition=0.005,-0.005,0.6
+MeshRotation=0,0,0
+MeshPosition=-0.012,0.0097,0.63
+TorpedoSpawnPosition=-0.012,0.0097,0.63
+TorpedoEffectPosition=-0.012,0.0097,0.63
 
 //Tube 3
 MeshRotation=0,0,0
-MeshPosition=0.005,-0.0172,0.6
-TorpedoSpawnPosition=0.005,-0.0172,0.6
-TorpedoEffectPosition=0.005,-0.0172,0.6
+MeshPosition=-0.012,-0.004,0.63
+TorpedoSpawnPosition=-0.012,-0.004,0.63
+TorpedoEffectPosition=-0.012,-0.004,0.63
 
 //Tube 4
-MeshRotation=0,0,0
-MeshPosition=-0.005,-0.0172,0.6
-TorpedoSpawnPosition=-0.005,-0.0172,0.6
-TorpedoEffectPosition=-0.005,-0.0172,0.6
+MeshRotation=180,0,0
+MeshPosition=-0.015,0.01,-0.62
+TorpedoSpawnPosition=-0.015,0.01,-0.62
+TorpedoEffectPosition=-0.015,0.01,-0.62
 
 //Tube 5
-MeshPosition=0.005,-0.0287,0.6
-TorpedoSpawnPosition=0.005,-0.0287,0.6
-TorpedoEffectPosition=0.005,-0.0287,0.6
+MeshRotation=180,0,0
+MeshPosition=-0.012,-0.005,-0.62
+TorpedoSpawnPosition=-0.012,-0.005,-0.62
+TorpedoEffectPosition=-0.012,-0.005,-0.62
 
+//Right Tubes
 //Tube 6
 MeshRotation=0,0,0
-MeshPosition=-0.005,-0.0287,0.6
-TorpedoSpawnPosition=-0.005,-0.0287,0.6
-TorpedoEffectPosition=-0.005,-0.0287,0.6
+MeshPosition=0.012,0.021,0.63
+TorpedoSpawnPosition=0.012,0.021,0.63
+TorpedoEffectPosition=0.012,0.021,0.63
 
-//Кормовые ТА:
-MeshRotation=180,0,0
 //Tube 7
-MeshPosition=0.011,-0.005,-0.5
-TorpedoSpawnPosition=0.011,-0.005,-0.5
-TorpedoEffectPosition=0.011,-0.005,-0.5
+MeshRotation=0,0,0
+MeshPosition=0.012,0.0097,0.63
+TorpedoSpawnPosition=0.012,0.0097,0.63
+TorpedoEffectPosition=0.012,0.0097,0.63
 
 //Tube 8
-MeshPosition=0.009,-0.015,-0.49
-TorpedoSpawnPosition=0.009,-0.015,-0.49
-TorpedoEffectPosition=0.009,-0.015,-0.49
+MeshRotation=0,0,0
+MeshPosition=0.012,-0.004,0.63
+TorpedoSpawnPosition=0.012,-0.004,0.63
+TorpedoEffectPosition=0.012,-0.004,0.63
 
 //Tube 9
-MeshPosition=-0.011,-0.005,-0.5
-TorpedoSpawnPosition=-0.011,-0.005,-0.5
-TorpedoEffectPosition=-0.011,-0.005,-0.5
+MeshRotation=180,0,0
+MeshPosition=0.015,0.01,-0.62
+TorpedoSpawnPosition=0.015,0.01,-0.62
+TorpedoEffectPosition=0.015,0.01,-0.62
 
 //Tube 10
-MeshPosition=-0.009,-0.015,-0.49
-TorpedoSpawnPosition=-0.009,-0.015,-0.49
-TorpedoEffectPosition=-0.009,-0.015,-0.49
+MeshRotation=180,0,0
+MeshPosition=0.012,-0.005,-0.62
+TorpedoSpawnPosition=0.012,-0.005,-0.62
+TorpedoEffectPosition=0.012,-0.005,-0.62
+
+//------------------For Tube Locations---------------------
+//ModelFile=weapons/assets/usn_mk48
+//Material=weapons/assets/usn_mk48_mat
+//MaterialTextures=weapons/assets/usn_mk48_tx
+
+//Left Tubes
+//Tube 1
+//MeshRotation=0,0,0
+//MeshPosition=-0.012,0.021,0.63
+//Mesh=Mk48
+
+//Tube 2
+//MeshRotation=0,0,0
+//MeshPosition=-0.012,0.0097,0.63
+//Mesh=Mk48
+
+//Tube 3
+//MeshRotation=0,0,0
+//MeshPosition=-0.012,-0.004,0.63
+//Mesh=Mk48
+
+//Tube 4
+//MeshRotation=180,0,0
+//MeshPosition=-0.015,0.01,-0.62
+//Mesh=Mk48
+
+//Tube 5
+//MeshRotation=180,0,0
+//MeshPosition=-0.012,-0.005,-0.62
+//Mesh=Mk48
+
+//Right Tubes
+//Tube 6
+//MeshRotation=0,0,0
+//MeshPosition=0.012,0.021,0.63
+//Mesh=Mk48
+
+//Tube 7
+//MeshRotation=0,0,0
+//MeshPosition=0.012,0.0097,0.63
+//Mesh=Mk48
+
+//Tube 8
+//MeshRotation=0,0,0
+//MeshPosition=0.012,-0.004,0.63
+//Mesh=Mk48
+
+//Tube 9
+//MeshRotation=180,0,0
+//MeshPosition=0.015,0.01,-0.62
+//Mesh=Mk48
+
+//Tube 10
+//MeshRotation=180,0,0
+//MeshPosition=0.012,-0.005,-0.62
+//Mesh=Mk48
+//---------------------------------------------------------
 
 //Noisemaker Mount
 MeshRotation=0,0,0

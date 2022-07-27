@@ -217,19 +217,19 @@ CavitationParticlePosition=0,0.04,0.035
 FunnelSmokeParticle=ships/particles/civ_ms_act_1_smokeemitter
 FunnelSmokeParticlePosition=0.145,0.04,0.84
 
-MeshPosition=0,0,-0.30
+MeshPosition=0,0,-1
 MeshHullWake=civ_ms_sl7_hullwake
 
 MeshPosition=0,0,-0.822
 MeshSternWake=civ_ms_sl7_sternwake
 
-ParticleBowWavePosition=0,0,1.35
-ParticlePropWashPosition=0,-0.091,-1.81
-ParticleHullFoamPosition=0,0,0.5
+ParticleBowWavePosition=0,0,1.25
+ParticlePropWashPosition=0,-0.091,-1.22
+ParticleHullFoamPosition=0,0,0
 ParticleHullFoamParameters=DEFAULT_CLIPPER
-ParticleSternFoamPosition=0,0,-1
+ParticleSternFoamPosition=0,0,-1.83
 ParticleSternFoamParameters=DEFAULT_CLIPPER
-KelvinWaves=7.3,7.3
+KelvinWaves=7.3,4.7
 
 EngineAudioClip=audio/units/diesel_large
 EngineAudioRollOff=LOGARITHMIC

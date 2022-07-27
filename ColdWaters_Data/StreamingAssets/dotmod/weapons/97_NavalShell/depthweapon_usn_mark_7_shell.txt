@@ -6,3 +6,5 @@ DepthWeaponRateOfFire=0.15
 DepthWeaponReloadTime=30
 DepthWeaponVelocity=5.96
 DepthWeaponAccuracy=1.5
+DepthWeaponTrainRate=0.2
+DepthWeaponAudioClip=audio/guns/mk7.ogg

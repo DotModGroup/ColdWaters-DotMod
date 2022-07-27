@@ -10,5 +10,5 @@ though they still retain an effective area-defense anti-air capability as well.
 While they lack VDS equipment, their ability to use the shipboard KA-25 helicopter as target designator for their battery of SS-N-14 missiles make them dangerous opponents.
 
 [Player Ship Instances]
-PlayerClassNames=«Кронштадт»,«Адмирал Исаков»,«Адмирал Нахимов»,«Адмирал Макаров»,«Маршал Ворошилов»,«Адмирал Октябрьский»,«Адмирал Исаченков»,«Маршал Тимошенко»,«Василий Чапаев»,«Адмирал Юмашев»
+PlayerClassNames=Кронштадт,Адмирал Исаков,Адмирал Нахимов,Адмирал Макаров,Маршал Ворошилов,Адмирал Октябьский,Адмирал Исаченков,Адмирал Исаченков,Василий Чапаев,Адмирал Юмашев
 PlayerClassHullNumbers=,,,,,,,,,

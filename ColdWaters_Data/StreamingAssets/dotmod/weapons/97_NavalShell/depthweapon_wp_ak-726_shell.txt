@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=0.75
 DepthWeaponReloadTime=10.0
 DepthWeaponVelocity=5.2
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/ak726.ogg

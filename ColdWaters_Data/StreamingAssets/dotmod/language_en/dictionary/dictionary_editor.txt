@@ -1,12 +1,11 @@
 ﻿[MAP NAMES]
 MapName=North Atlantic All
-MapName=North Atlantic 1984 NATO vs Soviet
-MapName=North Atlantic 1984 Soviet vs NATO
-MapName=North Atlantic 1968 NATO vs Soviet
-MapName=North Atlantic 1968 Soviet vs NATO
-MapName=South China Sea 2000 US vs PLAN
-MapName=South China Sea 2000 PLAN vs US
-MapName=South China Sea 2000 Soviet vs US
+MapName=North Atlantic 1984 NATO
+MapName=North Atlantic 1984 Soviet
+MapName=North Atlantic 1968 NATO
+MapName=North Atlantic 1968 Soviet
+MapName=South China Sea 2000 US
+MapName=South China Sea 2000 PLAN
 
 [ERRORS & WARNINGS]
 NoGroups=ERROR: No groups of vessels set as active. Check at least one box in the Use Group column on the Enemy Tab.
@@ -14,7 +13,7 @@ MinZero=ERROR: Sum of min # vessels must be at least 1. Increase Min Vessels of 
 NoShips=ERROR: Used groups contain no vessels. Add at least 1 vessel type (click View/Edit Ships icon) to at least one used group on the Enemy Tab.
 MaxHigh=ERROR: Sum of used groups max vessels greater than 15. Decrease the max number of vessels per used group to below 15 total on the Enemy Tab.
 FileExported=File saved:
-FileExists=ERROR: that mission file already exists
+FileExists=ERROR: That mission file already exists
 
 [INTERFACE]
 Back=Back

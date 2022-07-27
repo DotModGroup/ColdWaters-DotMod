@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Mark 37 Mod 2
-WeaponDescriptiveName=Mark 37 Mod 2 Torpedo (Anti-Submarine Torpedo)
-WeaponDescription=The Mark 37 Mod 1 torpedoes were withdrawn from service and refurbished and reissued as Mod 2 torpedoes with deliveries beginning in 1967. The refurbishing involved many changes, one of note being the switch from magnetostrictive to ceramic piezoelectric transducers. This change extended the acquisition range to 1000 yards and avoided loss of sensitivity with depth.
+WeaponDescriptiveName=Mark 37 Mod 2 Torpedo
+WeaponDescription=The Mark 37 Mod 1 torpedoes were withdrawn from service and refurbished and reissued as Mod 2 torpedoes, with deliveries beginning in 1967. The refurbishing involved many changes, one of note being the switch from magnetostrictive to ceramic piezoelectric transducers. This change extended the acquisition range to 1000 yards and avoided loss of sensitivity with depth.

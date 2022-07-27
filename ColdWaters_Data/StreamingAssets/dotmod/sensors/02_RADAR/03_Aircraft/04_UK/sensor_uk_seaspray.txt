@@ -1,0 +1,2 @@
+RADARModel=uk_seaspray
+RADARRange=150000

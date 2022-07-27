@@ -34,7 +34,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=nav_radar
+RADAR=FALSE
 RADARSignature=MEDIUM
 
 [Model]

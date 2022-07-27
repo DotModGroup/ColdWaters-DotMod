@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=0.1
 DepthWeaponReloadTime=10
 DepthWeaponVelocity=5.3
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/b38.ogg

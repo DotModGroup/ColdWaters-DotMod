@@ -6,3 +6,4 @@ DepthWeaponRateOfFire=3.0
 DepthWeaponReloadTime=30
 DepthWeaponVelocity=8.08
 DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/5inGun.ogg

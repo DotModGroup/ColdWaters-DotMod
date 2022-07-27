@@ -11,8 +11,9 @@ Range=4500
 HullNumbers=FFG-7.png,FFG-9.png,FFG-10.png,FFG-11.png,FFG-12.png,FFG-13.png,FFG-14.png,FFG-15.png,FFG-16.png,FFG-19.png,FFG-20.png,FFG-21.png,FFG-22.png,FFG-23.png,FFG-24.png,FFG-25.png,FFG-26.png,FFG-27.png,FFG-30.png,FFG-31.png,FFG-34.png
 AircraftNumbers=1
 AircraftTypes=usn_sh-2f
-AircraftSpawnPoints=0,0.072,-0.8394
-AircraftTransitionPoints=-0.6,0.7,-0.9
+AircraftSpawnPoints=0,0.072,-0.788
+AircraftSpawnOrientation=0,30,0
+AircraftTransitionPoints=-0.6,0.7,-1.0
 
 [Movement]
 SurfaceSpeed=29

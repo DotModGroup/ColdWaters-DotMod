@@ -20,6 +20,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=plan_ssn_han|wp_84_ssn_victor3
+EnemyShipClasses=plan_99_ssn_han|wp_84_ssn_victor3
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

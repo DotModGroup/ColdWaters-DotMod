@@ -51,6 +51,8 @@ LabelPosition=265.7,-201.2
 LabelName=Helsinki
 LabelPosition=354,-230.2
 LabelName=Leningrad
+LabelPosition=-17,154
+LabelName=Jan Mayen
 
 [MARKERS]
 Color=0,255,0,255

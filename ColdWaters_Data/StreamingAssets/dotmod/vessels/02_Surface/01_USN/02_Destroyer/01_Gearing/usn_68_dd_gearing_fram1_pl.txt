@@ -47,8 +47,8 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 NavalGuns=usn_mark_42_shell,usn_mark_42_shell
-NavalGunFiringArcBearingMin=60,-120
-NavalGunFiringArcBearingMax=-60,120
+NavalGunFiringArcBearingMin=-140,70
+NavalGunFiringArcBearingMax=140,-70
 NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
@@ -270,8 +270,8 @@ Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small
 
-ParticleBowWavePosition=0,0,0.84
-ParticlePropWashPosition=0,-0.07,-1.3
+ParticleBowWavePosition=0,0,0.856
+ParticlePropWashPosition=0,-0.01,-0.85
 
 ParticleHullFoamPosition=0,0,0.4
 ParticleHullFoamParameters=DEFAULT_CLIPPER
@@ -282,7 +282,7 @@ ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
 ParticleSternFoamParameters=DEFAULT_CLIPPER
-KelvinWaves=3.3,3.3
+KelvinWaves=3.0,3.0
 
 AssetBundle=bundles/vessels/usn_dd_gearing.unity3d
 ModelFile=assets/models/usn_dd_gearing.fbx
