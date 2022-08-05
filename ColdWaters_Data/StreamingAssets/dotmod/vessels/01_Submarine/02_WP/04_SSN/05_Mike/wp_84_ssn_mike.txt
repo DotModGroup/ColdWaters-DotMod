@@ -148,17 +148,17 @@ Mesh=wp_ssn_mike_glass
 
 ModelFile=ships/wp_ssn_alfa/wp_ssn_alfa
 Material=ships/materials/wp_masts
-MeshPosition=0.011,0.055,0.231
+MeshPosition=0,0.055,0.221
 MastHeight=0.085
 MeshMast=wp_ssn_alfa_periscope
 
-MeshPosition=0,0.042,0.072
+MeshPosition=0,0.042,0.1225
 MastHeight=0.085
 MeshMast=wp_ssn_alfa_esm
 
 ModelFile=ships/wp_ssn_akula1/wp_ssn_akula1
 Material=ships/materials/wp_masts
-MeshPosition=0,0.032,0.11
+MeshPosition=0,0.032,0.177
 MastHeight=0.08
 MeshMast=wp_ssn_akula1_radar
 
@@ -167,34 +167,34 @@ MeshRotation=0,0,0
 
 //Torpedo Mounts
 //Tube 1
-MeshPosition=-0.016,0.0415,0.7
-TorpedoSpawnPosition=-0.016,0.0415,0.69
-TorpedoEffectPosition=-0.016,0.0415,0.69
+MeshPosition=-0.033,0.021,0.85
+TorpedoSpawnPosition=-0.033,0.021,0.85
+TorpedoEffectPosition=-0.033,0.021,0.85
 
 //Tube 2
-MeshPosition=0.016,0.0415,0.7
-TorpedoSpawnPosition=0.016,0.0415,0.69
-TorpedoEffectPosition=0.016,0.0415,0.69
+MeshPosition=0.033,0.021,0.85
+TorpedoSpawnPosition=0.033,0.021,0.85
+TorpedoEffectPosition=0.033,0.021,0.85
 
 //Tube 3
-MeshPosition=-0.0355,0.04,0.68
-TorpedoSpawnPosition=-0.0355,0.04,0.68
-TorpedoEffectPosition=-0.0355,0.04,0.68
+MeshPosition=-0.013,0.021,0.85
+TorpedoSpawnPosition=-0.013,0.021,0.85
+TorpedoEffectPosition=-0.013,0.021,0.85
 
 //Tube 4
-MeshPosition=-0.044,0.022,0.69
-TorpedoSpawnPosition=-0.044,0.022,0.69
-TorpedoEffectPosition=-0.044,0.022,0.69
+MeshPosition=0.013,0.021,0.85
+TorpedoSpawnPosition=0.013,0.021,0.85
+TorpedoEffectPosition=0.013,0.021,0.85
 
 //Tube 5
-MeshPosition=0.0355,0.04,0.68
-TorpedoSpawnPosition=0.0355,0.04,0.68
-TorpedoEffectPosition=0.0355,0.04,0.68
+MeshPosition=0.013,0.040,0.85
+TorpedoSpawnPosition=0.013,0.040,0.85
+TorpedoEffectPosition=0.013,0.040,0.85
 
 //Tube 6
-MeshPosition=0.044,0.022,0.69
-TorpedoSpawnPosition=0.044,0.022,0.69
-TorpedoEffectPosition=0.044,0.022,0.69
+MeshPosition=-0.013,0.040,0.85
+TorpedoSpawnPosition=-0.013,0.040,0.85
+TorpedoEffectPosition=-0.013,0.040,0.85
 
 //Noisemaker Mount
 MeshRotation=0,0,0
@@ -209,8 +209,8 @@ CavitationParticle=ships/particles/wp_ssn_sierra_cavitation
 FunnelSmokeParticle=ships/particles/wp_ssn_sierra_bubbles
 EmergencyBlowParticle=ships/particles/wp_ssn_sierra_emergency_blow
 
-ParticleBowWavePosition=0,0,0.765
-ParticlePropWashPosition=0,-0.035,-0.747
+ParticleBowWavePosition=0,0,0.87
+ParticlePropWashPosition=0,-0.035,-0.85
 
 ParticleHullFoamPosition=0,0,0.45
 ParticleHullFoamParameters=DEFAULT_BULBOUS
