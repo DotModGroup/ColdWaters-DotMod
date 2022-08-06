@@ -1,6 +1,6 @@
 WeaponObjectReference=wp_urk-5
 WeaponType=MISSILE
-MissilePayload=wp_umgt-1
+WeaponPayload=wp_umgt-1
 *
 Warhead=200
 SensorRange=10000

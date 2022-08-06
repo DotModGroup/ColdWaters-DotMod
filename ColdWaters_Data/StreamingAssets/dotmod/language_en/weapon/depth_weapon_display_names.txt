@@ -10,8 +10,9 @@ nw_terne_mortar=Terne ASW=This is a Hedgehog-style launcher that employs rockets
 [GUNS]
 usn_mark_7_shell=16"/50 Mark 7 Guns=16"/50 Mark 7
 
-uk_mark_8_shell=4.5" Mark 8 Meduim Caliber Gun=4.5" Mk 8
+uk_mark_8_shell=4.5" Mk 8 Gun=4.5" Mark 8 Meduim Caliber Gun
 
+usn_mark_12_shell=5"/38 Mark 12 Gun=5"/38 Mark 12
 usn_mark_42_shell=5"/54 Mark 42 Gun=5"/54 Mark 42
 usn_mark_75_shell=3"/62 Mark 75 Gun=3"/62 Mark 75
 usn_mark_45_shell=5"/54 Mark 45 Gun=5"/54 Mark 45
@@ -25,6 +26,8 @@ wp_sm2_shell=130mm/58 Guns=130mm/58 SM-2-1
 wp_ak-100_shell=AK-100 Guns=100mm/70 AK-100
 
 wp_sm2_shell=130mm/58 Guns=130mm/58 SM-2-1
+
+wp_4x57mm_shell=4x57mm Guns=Quad 57mm Gun Mount
 
 wp_b-34_shell=B-34 Guns=100mm/56 B-34
 

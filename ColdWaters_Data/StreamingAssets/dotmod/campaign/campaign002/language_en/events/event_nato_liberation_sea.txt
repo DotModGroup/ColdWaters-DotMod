@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/photos/nato naval 3,campaign/images/68 nato naval air 1
-Photo=campaign/images/photos/naval nato 3,campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 2,campaign/images/photos/naval nato carrier 3,campaign/images/photos/naval nato carrier 4
+Image=campaign/images/nato naval 1,campaign/images/68 nato naval air 1
+Photo=campaign/images/photos/naval nato 1,campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 3,campaign/images/photos/naval nato 4,campaign/images/photos/naval nato carrier 1,campaign/images/photos/naval nato carrier 2,campaign/images/photos/naval nato carrier 3,campaign/images/photos/naval nato carrier 4
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

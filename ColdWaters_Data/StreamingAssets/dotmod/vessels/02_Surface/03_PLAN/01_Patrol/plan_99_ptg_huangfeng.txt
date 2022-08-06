@@ -17,7 +17,7 @@ AccelerationRate=0.48
 DecelerationRate=0.24
 RudderTurnRate=2
 TurnRate=3
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=0
 BallastRate=0
@@ -30,14 +30,13 @@ TestDepth=0
 MissileType=plan_c-801
 MissilesPerLauncher=2,2
 
-Anti-MissileGunHitProbability=0.001
-Anti-MissileGunRange=4000
+Anti-MissileGunHitProbability=0.010
+Anti-MissileGunRange=2500
 Anti-MissileGunFiringArcStart=-120,30
 Anti-MissileGunFiringArcFinish=120,150
 Anti-MissileGunRestAngle=0,180
 Anti-MissileGunUsesRADAR=0,0
 Anti-MissileRADARRestAngle=0
-Anti-MissileGunParticle=ships/particles/plan_25mm_burst
 
 [Acoustics & Sensors]
 SelfNoise=175
@@ -46,7 +45,7 @@ ActiveSonarModel=FALSE
 PassiveSonarModel=FALSE
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=plan_sr_47
 RADARSignature=SMALL
 
 [Model]
@@ -60,7 +59,7 @@ MeshHullCollider=plan_ptg_huangfeng_coll_hull
 MeshSuperstructureCollider=plan_ptg_huangfeng_coll_ss
 
 Material=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_mat
-MaterialTextures=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_tx,ships/plan_ptg_huangfeng/plan_ptg_huangfeng_spec,ships/plan_ptg_huangfeng/plan_ptg_huangfeng_nm
+MaterialTextures=vessels/textures/plan_ptg_huangfeng_tx.png,vessels/textures/plan_ptg_huangfeng_spec.png,vessels/textures/plan_ptg_huangfeng_nm.png
 Mesh=plan_ptg_huangfeng,plan_ptg_huangfeng_d
 MeshPosition=0.025,-0.026,-0.246
 MeshRudder=plan_ptg_huangfeng_rudder
@@ -108,35 +107,6 @@ MeshRADAR=plan_ptg_huangfeng_topbow,HIDE
 
 
 //Missile Defense CIWS Guns and RADARs
-
-MeshRotation=-2,0,0
-MeshPosition=0,0.0542,0.152
-Material=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_mat
-MeshCIWSGun=plan_ptg_huangfeng_25mm
-
-MeshRotation=0,0,0
-MeshPosition=0,0,0
-Material=ships/materials/crew_soviet
-ChildMesh=plan_ptg_huangfeng_25mm_crew,HIDE
-
-MeshPosition=0,0.008,0.010
-Material=ships/materials/modular_parts
-ChildMesh=plan_ptg_huangfeng_25mm_gun
-
-MeshRotation=2,180,0
-MeshPosition=0,0.0296,-0.234
-Material=ships/plan_ptg_huangfeng/plan_ptg_huangfeng_mat
-MeshCIWSGun=plan_ptg_huangfeng_25mm
-
-MeshRotation=0,0,0
-MeshPosition=0,0,0
-Material=ships/materials/crew_soviet
-ChildMesh=plan_ptg_huangfeng_25mm_crew,HIDE
-
-MeshPosition=0,0.008,0.010
-Material=ships/materials/modular_parts
-ChildMesh=plan_ptg_huangfeng_25mm_gun
-
 MeshRotation=0,0,0
 MeshPosition=0,0.15,0.0
 MeshCIWSRADAR=FALSE
@@ -158,13 +128,17 @@ MeshPosition=0.0355,0.06,0
 MeshMissileMount=FALSE
 MissileEffectPosition=0.0355,0.06,0
 
-//MeshPosition=-0.0355,0.057,-0.146
-//MeshMissileMount=FALSE
-//MissileEffectPosition=-0.0355,0.057,-0.146
+//-------------AK 230
+ModelFile=ships/wp_kr_sverdlov/wp_kr_sverdlov
+MeshRotation=-2,0,0
+MeshPosition=0,0.0542,0.152
+Material=ships/materials/modular_parts
+MeshCIWSGun=wp_kr_sverdlov_AK230
 
-//MeshPosition=0.0355,0.057,-0.146
-//MeshMissileMount=FALSE
-//MissileEffectPosition=0.0355,0.057,-0.146
+MeshRotation=2,180,0
+MeshPosition=0,0.0296,-0.234
+Material=ships/materials/modular_parts
+MeshCIWSGun=wp_kr_sverdlov_AK230
 
 //Wake and Smoke
 ModelFile=ships/plan_ptg_huangfeng/plan_ptg_huangfeng

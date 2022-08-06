@@ -1,0 +1,2 @@
+RADARModel=plan_sr_47
+RADARRange=45000

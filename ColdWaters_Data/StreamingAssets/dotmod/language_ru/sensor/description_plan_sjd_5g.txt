@@ -1,0 +1,1 @@
+plan_sjd_5g=SJD-5g=This is a Chinese high frequency bow-mounted scanning sonar based on an improved Buck Toe design that equips several frigates.

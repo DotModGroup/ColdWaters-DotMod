@@ -1,4 +1,6 @@
 MissionType=SSN_WOLFPACK
+AllowedOnlyfor=
+ForbiddenFor=FFG
 HoursToStart=0,24
 StartLocation=NAVAL_BASE
 StartAlignment=ENEMY
@@ -20,6 +22,6 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-2
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=TRUE
-EnemyShipClasses=wp_ssgn
+EnemyShipClasses=wp_all_ssgn
 EventWin=SSN_WOLFPACK_win
 EventFail=SSN_WOLFPACK_fail

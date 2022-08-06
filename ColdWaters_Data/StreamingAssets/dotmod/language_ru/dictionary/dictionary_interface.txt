@@ -67,6 +67,7 @@ ReferenceType=Тип:
 ReferenceTorpedoNumbers=Боекомплект к ТА:
 ReferenceSelfNoise=Уровень шума:
 ReferenceWarhead=Мощность БЧ:
+ReferenceKillRadius=Kill Radius:
 ReferenceSensorSensitivity=Чувствительность:
 ReferenceAnechoicCoating=Антисонарное покрытие
 ReferenceNavalGunsAbb=Арт

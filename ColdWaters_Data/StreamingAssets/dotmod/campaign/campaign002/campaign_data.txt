@@ -3,13 +3,13 @@ MapImage=campaign/maps/norwegian_sea_chart_1990_small.png
 MapNavigationData=campaign/images/maps/norwegian_sea_navmap
 MapElevationData=campaign/images/maps/norwegian_sea_bathymetry
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
-VesselsAndTraffic=campaign/maps/norwegian_sea_traffic_68
+VesselsAndTraffic=campaign/maps/norwegian_sea_traffic
 
 MapHeightInNM=1800
 MapTimeCompression=3600
 Hemisphere=NORTH
 EquatorYValue=0
-JulianStartDate=2440190.5
+JulianStartDate=2446040.5
 StartDateRange=30
 MapSpeedModifier=2
 PlayerStartTelegraphs=2,3,6
@@ -57,24 +57,24 @@ NewFrontProbability=0.3
 [Aircraft]
 AircraftName=usn_p3c
 AircraftFaction=FRIENDLY
-AircraftPatrolSpeed=328
+AircraftPatrolSpeed=250
 AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png
 
-AircraftName=wp_il-38_may_68
+AircraftName=wp_il-38_may
 AircraftFaction=ENEMY
-AircraftPatrolSpeed=310
+AircraftPatrolSpeed=250
 AircraftPatrolRange=700
 AircraftDetectionRange=300
 AircraftSprite=campaign/images/sprites/icon_orion.png
 
-AircraftName=wp_be-12_mail
+AircraftName=wp_tu-142_bear
 AircraftFaction=ENEMY
-AircraftPatrolSpeed=384
+AircraftPatrolSpeed=250
 AircraftPatrolRange=700
 AircraftDetectionRange=300
-AircraftSprite=campaign/images/sprites/icon_orion.png
+AircraftSprite=campaign/images/sprites/icon_bear.png
 
 [Satellites]
 SatelliteName=US Satellite
@@ -94,7 +94,7 @@ Alignment=FRIENDLY
 Function=PLAYER_BASE,NAVAL_BASE,AIRBASE
 BaseMapPosition=-224,-198
 AircraftType=usn_p3c
-AircraftTypeInvaded=wp_il-38_may_68
+AircraftTypeInvaded=wp_il-38_may
 AircraftPrepTime=10
 AircraftHeadings=330,70
 AircraftSearchRange=700
@@ -115,7 +115,7 @@ Function=AIRBASE,SOSUS_NODE,INSERTION_TARGET
 BaseMapPosition=-259.3,135.1
 RelatedSOSUS=DENMARKSTRAIT
 AircraftType=usn_p3c
-AircraftTypeInvaded=wp_il-38_may_68
+AircraftTypeInvaded=wp_il-38_may
 AircraftPrepTime=10
 AircraftHeadings=45,110
 AircraftSearchRange=700
@@ -133,24 +133,24 @@ LinksToRegionWaypoint=I2
 //Norway
 //Oslo 4
 Alignment=FRIENDLY
-Function=NAVAL_BASE
+Function=STRATEGIC_NODE
 BaseMapPosition=50.7,-214.4
 LinksToWaypoint=NC6
 LinksToRegionWaypoint=N7
 
 //Bergen 5
 Alignment=FRIENDLY
-Function=INSERTION_TARGET,NAVAL_BASE
+Function=STRATEGIC_NODE,INSERTION_TARGET
 BaseMapPosition=-25.9,-147.5
 LinksToWaypoint=NC4
 LinksToRegionWaypoint=N6
 
 //Trondheim 6
 Alignment=FRIENDLY
-Function=AIRBASE,INSERTION_TARGET
+Function=STRATEGIC_NODE,AIRBASE,INSERTION_TARGET
 BaseMapPosition=67.2,-83.5
 AircraftType=usn_p3c
-AircraftTypeInvaded=wp_il-38_may_68
+AircraftTypeInvaded=wp_il-38_may
 AircraftSearchRange=700
 AircraftPrepTime=15
 AircraftHeadings=315,45
@@ -160,11 +160,11 @@ LinksToRegionWaypoint=N5
 
 //Andoya 7
 Alignment=FRIENDLY
-Function=AIRBASE,SOSUS_NODE,STRATEGIC_NODE
+Function=AIRBASE,SOSUS_NODE
 BaseMapPosition=182.7,45.4
 RelatedSOSUS=NORWAYSPITSBERGEN
 AircraftType=usn_p3c
-AircraftTypeInvaded=wp_il-38_may_68
+AircraftTypeInvaded=wp_tu-142_bear
 AircraftPrepTime=15
 AircraftHeadings=235,55
 AircraftSearchRange=700
@@ -173,10 +173,10 @@ LinksToRegionWaypoint=N2
 
 //Narvik 8
 Alignment=FRIENDLY
-Function=AIRBASE,INSERTION_TARGET
+Function=STRATEGIC_NODE,AIRBASE,INSERTION_TARGET
 BaseMapPosition=156.9,9.1
 AircraftType=usn_p3c
-AircraftTypeInvaded=wp_il-38_may_68
+AircraftTypeInvaded=wp_tu-142_bear
 AircraftPrepTime=15
 AircraftHeadings=235,50
 AircraftSearchRange=700
@@ -185,43 +185,43 @@ LinksToRegionWaypoint=N3
 
 //Spitsbergen 9
 Alignment=FRIENDLY
-Function=SOSUS_NODE,STRATEGIC_NODE
+Function=SOSUS_NODE
 BaseMapPosition=239.11,266.8
 RelatedSOSUS=NORWAYSPITSBERGEN
 LinksToWaypoint=N1
 
-//Soviet Onion
+//Soviet Union
 //Murmansk 10
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE,STRATEGIC_NODE,INSERTION_TARGET
+Function=NAVAL_BASE,AIRBASE
 BaseMapPosition=360,43.8
-AircraftType=wp_il-38_may_68
+AircraftType=wp_tu-142_bear
 AircraftTypeInvaded=usn_p3c
 AircraftPrepTime=10
 AircraftHeadings=300,0
 AircraftSearchRange=700
-MissionTypes=SSN_SURGE,SS_SURGE,SURGE,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,ASUW_STRIKE_LG,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SSN_WOLFPACK_LG,SS_PATROL,SS_WOLFPACK,SS_WOLFPACK_LG,SS_SPECOPS,SS_SPECOPS_LG,RESUPPLY_CONVOY
+MissionTypes=SSN_SURGE,SURGE,LANDING_FORCE,ASW_PATROL,ASUW_STRIKE,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_PATROL,SSN_WOLFPACK,SS_PATROL,SS_WOLFPACK,SS_SPECOPS,RESUPPLY_CONVOY,SS_WOLFPACK_LG
 LinksToWaypoint=SC4
 CombatCoords=1234,1234
 
 //Archangelsk 11
 Alignment=ENEMY
-Function=NAVAL_BASE,AIRBASE,INSERTION_TARGET
+Function=NAVAL_BASE,AIRBASE
 BaseMapPosition=448.6,-68.8
-AircraftType=wp_il-38_may_68
+AircraftType=wp_tu-142_bear
 AircraftTypeInvaded=usn_p3c
 AircraftPrepTime=15
 AircraftHeadings=330,0
 AircraftSearchRange=700
-MissionTypes=SURGE,SSN_SURGE,SS_SURGE,LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
+MissionTypes=LANDING_FORCE,SHIP_RESUPPLY,SUB_RESUPPLY,RESUPPLY_CONVOY
 LinksToWaypoint=SC1
 CombatCoords=1234,1234
 
 //Gremikha 12
 Alignment=ENEMY
-Function=NAVAL_BASE,STRATEGIC_NODE,INSERTION_TARGET
+Function=NAVAL_BASE
 BaseMapPosition=423.9,21.3
-MissionTypes=SURGE,SSN_SURGE,SS_SURGE,SSBN_PATROL,SSBN_RUN
+MissionTypes=SSBN_PATROL,SSBN_RUN,SURGE,SS_SURGE,SSN_SURGE
 LinksToWaypoint=SC3
 CombatCoords=1234,1234
 
@@ -257,11 +257,12 @@ SOSUSAlignment=FRIENDLY
 [PLAYER MISSIONS]
 //Last mission is the FINAL MISSION for the campaign
 //Second to last mission is simple RETURN TO BASE
-PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,ASUW_STRIKE,SSBN_RUN,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_WOLFPACK_LG,SS_WOLFPACK_LG,SS_SPECOPS_LG,ASUW_STRIKE_LG,RETURN_TO_BASE,SSBN_PATROL
+PlayerMissionTypes=SURGE,SSN_WOLFPACK,SS_WOLFPACK,SS_SPECOPS,INSERTION,LAND_STRIKE,SSBN_RUN,ASUW_STRIKE,LANDING_FORCE,RESUPPLY_CONVOY,SHIP_RESUPPLY,SUB_RESUPPLY,SSN_WOLFPACK_LG,SS_WOLFPACK_LG,SS_SPECOPS_LG,ASUW_STRIKE_LG,RETURN_TO_BASE,SSBN_PATROL
+//Last two missions are not included on frequency list
 //Sum of frequencies must equal 1
-PlayerMissionFrequency=0.0001,0.07,0.065,0.04,0.02,0.03,0.044,0.035,0.001,0.03,0.03,0.175,0.18,0.1299,0.15
-PlayerMissionThreshold=0,0,0,0.55,0.7,0,0.7,0,0.65,0.65,0.7,0.8,0.8,0.75,0.8
-PlayerMissionCount=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PlayerMissionFrequency=0.0001,0.06,0.064,0.04,0.02,0.04,0.02,0.042,0.030,0.001,0.03,0.03,0.170,0.182,0.1209,0.15
+PlayerMissionThreshold=0,0,0,0.55,0.7,0.55,0.7,0,0,0.65,0.65,0.7,0.8,0.8,0.75,0.8
+PlayerMissionCount=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 FirstMissionTypes=SURGE
 DefaultMissionTypes=SS_WOLFPACK,SSN_WOLFPACK
@@ -286,6 +287,9 @@ Mission=LANDING_FORCE_3
 Mission=RESUPPLY_CONVOY_0
 Mission=INSERTION_0
 Mission=INSERTION_1
+Mission=LAND_STRIKE_0
+Mission=LAND_STRIKE_1
+Mission=LAND_STRIKE_2
 Mission=SUB_RESUPPLY_0
 Mission=SUB_RESUPPLY_1
 Mission=SHIP_RESUPPLY_0
@@ -302,6 +306,7 @@ Mission=ASUW_STRIKE_8
 Mission=ASUW_STRIKE_LG_0
 Mission=ASUW_STRIKE_LG_1
 Mission=ASUW_STRIKE_LG_2
+Mission=ASUW_STRIKE_LG_3
 Mission=SSBN_RUN_0
 Mission=SSBN_RUN_1
 Mission=SSBN_RUN_2
@@ -341,6 +346,8 @@ Mission=SSBN_PATROL_0
 Mission=SSBN_PATROL_1
 Mission=SSBN_PATROL_2
 Mission=SSBN_PATROL_3
+Mission=SSBN_PATROL_4
+Mission=SSBN_PATROL_5
 
 [NON-PLAYER MISSIONS]
 Non-PlayerMissionTypes=SSN_SURGE,SS_SURGE,SS_PATROL,SSN_PATROL,ASW_PATROL
@@ -364,6 +371,9 @@ Event=event_intro_1=START
 Event=event_intro_2
 Event=event_intro_3
 Event=event_intro_4
+Event=event_intro_5
+Event=event_intro_6
+Event=event_intro_7
 Event=event_pact_invasion_sea=ENEMY_INVASION_SEA
 Event=event_pact_invasion_land=ENEMY_INVASION_LAND
 Event=event_pact_invasion_air=ENEMY_INVASION_AIR
@@ -376,8 +386,8 @@ Event=event_campaign_win=WIN
 Event=event_campaign_win_2
 Event=event_campaign_draw=DRAW
 Event=event_campaign_draw_2
-Event=event_campaign_fail=FAIL
 Event=event_campaign_fail_ssbn
+Event=event_campaign_fail=FAIL
 Event=event_campaign_fail_2
 Event=event_campaign_fail_3
 Event=event_campaign_critical_fail=CRITICAL_FAIL
@@ -424,10 +434,9 @@ Event=LAND_STRIKE_fail
 Event=SS_WOLFPACK_fail
 Event=SSN_WOLFPACK_fail
 Event=SSN_WOLFPACK_Carrier_fail
-Event=SSBN_RUN_win
-Event=SSBN_RUN_fail
-Event=SSBN_win
 Event=SSBN_fail
+Event=SSBN_RUN_fail
+Event=SSBN_RUN_win
 Event=SHIP_RESUPPLY_fail
 Event=SUB_RESUPPLY_fail
 Event=ASUW_STRIKE_fail

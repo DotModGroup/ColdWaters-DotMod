@@ -21,7 +21,7 @@ AccelerationRate=0.09
 DecelerationRate=0.03
 RudderTurnRate=0.5
 TurnRate=0.9
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=0
 BallastRate=0
@@ -267,7 +267,8 @@ Material=FALSE
 BowWaveParticle=ships/particles/bowwave
 PropWashParticle=ships/particles/bowwave
 CavitationParticle=ships/particles/wp_bpk_kanin_cavitation
-FunnelSmokeParticle=ships/particles/wp_bpk_kanin_smokeemitter
+FunnelSmokeParticle=ships/particles/wp_skr_riga_smokeemitter
+FunnelSmokeParticlePosition=0.0,0.075,-0.171
 
 //Wake planes
 MeshPosition=0,0,0.9863

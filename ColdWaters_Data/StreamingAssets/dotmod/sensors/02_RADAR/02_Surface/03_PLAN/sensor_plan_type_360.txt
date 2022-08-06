@@ -1,0 +1,2 @@
+RADARModel=plan_type_360
+RADARRange=55000

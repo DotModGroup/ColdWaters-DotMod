@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/pact wolfpack 1,campaign/images/pact wolfpack 2,campaign/images/pact wolfpack 3,campaign/images/pact wolfpack 4,campaign/images/pact wolfpack 5,campaign/images/pact wolfpack 6
-Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/naval nato 2,campaign/images/photos/naval nato 3
+Image=campaign/images/pact wolfpack 1,campaign/images/pact wolfpack 5,campaign/images/pact wolfpack 6,campaign/images/pact wolfpack 1
+Photo=campaign/images/photos/naval nato 3,campaign/images/photos/naval sub
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 

@@ -1,4 +1,5 @@
 MissionType=INSERTION
+ForbiddenFor=SURFACE
 HoursToStart=0,0
 StartLocation=PLAYER_BASE
 StartAlignment=FRIENDLY

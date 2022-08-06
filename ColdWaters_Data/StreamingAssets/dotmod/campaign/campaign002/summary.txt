@@ -1,18 +1,43 @@
-Image=campaign/images/68 pact naval 1
-PlayerVessels=usn_68_ss_guppy_2a,usn_68_ss_guppy_3,usn_68_ss_barbel,usn_68_ssn_nautilus,usn_68_ssn_skipjack,usn_68_ssn_permit,usn_68_ssn_sturgeon
+Image=campaign/images/pact naval 2
+PlayerVessels=usn_84_ssn_skipjack,usn_84_ssn_permit,usn_84_ssn_sturgeon,usn_84_ssn_narwhal,usn_84_ssn_los_angeles,uk_84_ssn_trafalgar,usn_84_ff_knox_pl,usn_84_ffg_perry_lh_pl,usn_84_cg_belknap_pl,usn_84_cg_ticonderoga_pl,usn_84_bb_iowa_pl
 [COMMANDER NAMES]
 CommanderName=COMSUBLANT
 CommanderFleetName=CINCLANTFLT
 
 //Easy, Normal, Hard, Elite
 StartingPrestige=400,200,0,0
-LoadoutType=0
+LoadoutType=1
 [Prestige Cost]
-wp_68_ss_whiskey=0
-wp_68_ss_romeo=10
-wp_68_ss_foxtrot=20
-wp_68_ssg_juliet=40
-wp_68_ssn_november=100
-wp_68_ssn_victor1=300
-wp_68_ssgn_echo2=120
-wp_68_ssgn_charlie1=200
+wp_68_ss_whiskey		=	0		=	0
+wp_68_ss_zulu           =   10      =   0
+wp_68_ss_romeo			=	25		=	0
+wp_68_ss_foxtrot		=	50		=	0
+wp_68_ssg_juliet		=	75		=	0
+wp_68_ssn_november		=	75		=	0
+wp_84_ss_tango			=	80		=	1
+wp_68_ssn_victor1		=	150		=	1
+wp_68_ssgn_echo2		=	100		=	1
+wp_68_ssgn_charlie1		=	180		=	1
+wp_84_ss_kilo			=	130		=	2
+wp_84_ssn_alfa			=	450		=	2
+wp_84_ssn_victor2		=	225		=	2
+wp_84_ssgn_papa			=	500		=	2
+wp_84_ssgn_charlie2		=	300		=	2
+wp_84_ssn_victor3		=	400		=	3
+wp_84_ssn_sierra		=	700		=	3
+wp_84_ssn_mike          =   750     =   3
+wp_84_ssn_akula1		=	800	    =	3
+wp_84_ssgn_oscar		=	600	    =	3
+wp_68_em_kotlin_pl		=	0		=	0
+wp_84_mpk_grisha3_pl	=	200		=	0
+wp_84_skr_krivak1_pl	=	400		=	1
+wp_68_kr_sverdlov_pl	=	600		=	1
+wp_84_bpk_kara_pl		=	400		=	2
+wp_84_bpk_udaloy_pl		=	600		=	2
+wp_84_em_sovremenny_pl	=	800		=	2
+wp_84_rkr_kirov_pl		=	1200	=	3
+usn_84_ssn_skipjack		=	0
+usn_84_ssn_permit		=	120
+usn_84_ssn_sturgeon		=	360
+usn_84_ssn_narwhal		=	620
+usn_84_ssn_los_angeles	=	600

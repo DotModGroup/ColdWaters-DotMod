@@ -1,4 +1,6 @@
 //Territorial Dispute
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=2
 
 UseTerrain=TRUE
 MapCoordinates=1498,607

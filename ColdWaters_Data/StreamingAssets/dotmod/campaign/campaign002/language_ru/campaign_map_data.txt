@@ -80,8 +80,6 @@ Color=0,0,0,255
 Outline=FALSE
 Size=12
 Font=2
-LabelPosition=-25.6,-369.2
-LabelName=WEST\nGERMANY
 LabelPosition=-201.2,103.3
 LabelName=ICELAND
 LabelPosition=-201.2,348.1
@@ -99,15 +97,12 @@ LabelName=POLAND
 LabelPosition=43.7,-369.2
 LabelName=EAST\nGERMANY
 LabelPosition=-25.6,-369.2
-LabelPosition=10,-300
+LabelName=WEST\nGERMANY
+LabelPosition=9,-276.2
 LabelName=DENMARK
-LabelPosition=-90,-355
-LabelName=NETHERLANDS
-LabelPosition=-120,-382
-LabelName=BELGIUM
 Size=26
 LabelPosition=477.3,-285.5
-LabelName=Soviet Union
+LabelName=SOVIET\nUNION
 
 [OCEANS AND SEAS LABELS]
 Color=43,71,97,255

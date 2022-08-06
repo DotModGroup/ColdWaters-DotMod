@@ -1,0 +1,10 @@
+[Unit Reference]
+ShipClass=Type 42
+Description=Type 42
+Aircraft=1 Wessex HAS.3
+History=Эсминец типа 42, или типа «Шеффилд», был классом из четырнадцати эсминцев с управляемыми ракетами, которые служили в Королевском флоте. Еще два корабля этого класса были построены и служили ВМС Аргентины.\nПервый корабль этого класса был заказан в 1968 году и спущен на воду в 1971 году. Два корабля этого класса («Шеффилд» и «Ковентри») были потоплены во время Фолклендской войны. 1982 г. Королевский флот использовал этот класс эсминцев в течение 38 лет с 1975 по 2013 г.
+
+[Player Ship Instances]
+PlayerClassNames=Sheffield,Birmingham,Cardiff,Coventry,Newcastle,Glasgow,Exeter,Southampton,Nottingham,Liverpool
+
+PlayerClassHullNumbers=Sheffield,Birmingham,Cardiff,Coventry,Newcastle,Glasgow,Exeter,Southampton,Nottingham,Liverpool

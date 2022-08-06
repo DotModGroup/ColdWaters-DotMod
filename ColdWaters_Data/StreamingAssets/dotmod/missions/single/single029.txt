@@ -1,4 +1,6 @@
 //Ambush
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 MapCoordinates=2381,1287

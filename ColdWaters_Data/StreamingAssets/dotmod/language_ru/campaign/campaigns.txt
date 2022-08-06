@@ -1,5 +1,5 @@
-<color=Cyan>HATO (1984) Северная Атлантика</color>
 <color=#39CCCC>HATO (1968) Северная Атлантика</color>
+<color=Cyan>HATO (1984) Северная Атлантика</color>
 <color=#7FDBFF>HATO (2000) Южное Китайское Море</color>
 <color=Red>СССР (1984) Северная Атлантика</color>
 <color=#39CCCC>On Her Majesty's Silent Service (RN 1984)</color>

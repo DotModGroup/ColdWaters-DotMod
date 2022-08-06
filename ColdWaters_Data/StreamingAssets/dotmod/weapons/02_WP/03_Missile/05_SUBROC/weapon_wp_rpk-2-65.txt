@@ -1,7 +1,7 @@
 WeaponObjectReference=wp_rpk-2-65
 WeaponType=MISSILE
 Size=650
-MissilePayload=wp_at-2
+WeaponPayload=wp_at-2
 *
 Warhead=0
 SensorRange=0

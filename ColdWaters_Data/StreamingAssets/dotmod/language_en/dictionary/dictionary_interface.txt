@@ -66,6 +66,7 @@ ReferenceType=Type:
 ReferenceTorpedoNumbers=Tube Stores:
 ReferenceSelfNoise=Self Noise:
 ReferenceWarhead=Warhead:
+ReferenceKillRadius=Kill Radius:
 ReferenceSensorSensitivity=Sensitivity:
 ReferenceAnechoicCoating=Anechoic coating
 ReferenceNavalGunsAbb=Gun

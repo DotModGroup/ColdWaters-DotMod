@@ -15,7 +15,7 @@ CruiseTime=25
 BoosterReleasedAfterSeconds=7
 *
 WeaponRanges=8000,120000
-WeaponSpeed=40,540
+WeaponSpeed=40,460
 TurnRate=40
 MaxPitchAngle=30
 *

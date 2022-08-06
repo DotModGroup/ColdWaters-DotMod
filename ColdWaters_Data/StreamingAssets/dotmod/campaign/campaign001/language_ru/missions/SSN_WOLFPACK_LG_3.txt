@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-AN ENEMY CRUISE MISSILE SUBMARINE IS TRANSITING SOUTHWARD IN THE NORWEGIAN SEA TOWARD THE NORTH ATLANTIC CONVOY ROUTES. YOU MUST SINK IT. THIS ENEMY SUB IS BELIEVED TO BE A NUCLEAR-POWERED OSCAR- OR CHARLIE CLASS. IT MAY HAVE AN SSN ESCORT.
+AN ENEMY CRUISE MISSILE SUBMARINE IS TRANSITING SOUTHWARD IN THE NORWEGIAN SEA TOWARD THE NORTH ATLANTIC CONVOY ROUTES. YOU MUST SINK IT. THIS ENEMY SUB IS BELIEVED TO BE A NUCLEAR-POWERED CHARLIE CLASS. IT MAY HAVE AN SSN ESCORT.
 
 2.	(S) PRIMARY OBJECTIVE:
 PATROL AREAS GREEN 012 AND GREEN 014, BETWEEN ICELAND AND THE UK. LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINE
@@ -17,7 +17,7 @@ NONE
 BT
 1803
 [MISSION WIN]
-Fine work eliminating this threat, Commander! Your contribution to the war effort will make transit for our convoys a lot safer - and supporting the troops on land is what the Navy is about! Keep it up, Commander!
+Fine work eliminating this threat, Commander! Your contribution to the war effort will make transit for our convoys a lot safer - and supporting the troops on land is what the Navy is about! Keep it up, Commander! Sorry about the faulty intel on the class of the SSGN.
 [MISSION FAIL]
 Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
 [MISSION MISSED]

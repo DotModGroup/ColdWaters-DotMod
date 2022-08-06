@@ -1,6 +1,6 @@
 NextAction=ASSIGN_NEW
 Image=campaign/images/sea rescue 1,campaign/images/sea rescue 2
-Photo=campaign/images/585_Surf.jpg,campaign/images/598_Surf.jpg,campaign/images/637_Surf.jpg
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

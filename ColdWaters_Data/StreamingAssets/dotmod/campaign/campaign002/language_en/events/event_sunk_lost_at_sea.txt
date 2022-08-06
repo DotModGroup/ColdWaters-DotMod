@@ -1,6 +1,6 @@
 NextAction=event_early_end_1
 Image=campaign/images/lost at sea
-Photo=campaign/images/585_Surf.jpg,campaign/images/598_Surf.jpg,campaign/images/637_Surf.jpg
+Photo=campaign/images/photos/naval nato sub 1,campaign/images/photos/naval nato sub 2,campaign/images/photos/naval nato sub 3,campaign/images/photos/naval nato sub 4
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 ForwardDate=7,14

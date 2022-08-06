@@ -285,7 +285,10 @@ Material=FALSE
 BowWaveParticle=ships/particles/bowwave_small
 PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=ships/particles/usn_cg_belknap_cavitation
-FunnelSmokeParticle=ships/particles/usn_cg_belknap_smokeemitter
+FunnelSmokeParticle=ships/particles/wp_skr_riga_smokeemitter
+FunnelSmokeParticlePosition=0.0,0.105,-0.127
+FunnelSmokeParticle=ships/particles/wp_skr_riga_smokeemitter
+FunnelSmokeParticlePosition=0.0,0.108,0.252
 
 MeshPosition=0,0,0.969
 MeshHullWake=usn_cg_belknap_hullwake
@@ -293,7 +296,7 @@ MeshHullWake=usn_cg_belknap_hullwake
 MeshPosition=0,0,-0.87
 MeshSternWake=usn_cg_belknap_sternwake
 
-ParticleBowWavePosition=0,0.05,1.15
+ParticleBowWavePosition=0,0.05,1.095
 ParticlePropWashPosition=0,-0.00685,-1.075
 
 ParticleHullFoamPosition=0,0,0.866
@@ -304,7 +307,7 @@ ParticleAftFoamParameters=DEFAULT_CLIPPER
 
 ParticleSternFoamPosition=0,0,0
 ParticleSternFoamParameters=DEFAULT_CLIPPER
-KelvinWaves=4.1,4.0
+KelvinWaves=4.1,3.85
 
 AssetBundle=bundles/vessels/uk_ddg_county.unity3d
 ModelFile=assets/models/uk_ddg_county.fbx

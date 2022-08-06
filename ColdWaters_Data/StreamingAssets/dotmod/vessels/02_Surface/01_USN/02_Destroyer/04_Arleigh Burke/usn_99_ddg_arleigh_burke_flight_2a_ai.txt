@@ -347,6 +347,7 @@ KelvinWaves=3.9,3.4
 AssetBundle=bundles/vessels/usn_ddg_arleigh_burke.unity3d
 ModelFile=assets/models/usn_ddg_arleigh_burke_flight_1.fbx
 
+[Audio]
 EngineAudioClip=audio/units/turbine_small
 EngineAudioRollOff=LOGARITHMIC
 EngineAudioDistance=1,20

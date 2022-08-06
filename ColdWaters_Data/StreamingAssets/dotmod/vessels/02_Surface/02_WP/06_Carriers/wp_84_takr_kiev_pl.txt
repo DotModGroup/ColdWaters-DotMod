@@ -9,21 +9,21 @@ Displacement=40000
 Crew=1600
 Range=10500
 HullNumbers=121,025,137
-AircraftNumbers=7,7
-AircraftTypes=wp_helix,wp_hormone
-AircraftSpawnPoints=-0.259821,0.216084,0.184545|-0.237992,0.216084,-0.196084|-0.210119,0.216084,-0.529666|-0.18543,0.216084,-0.895786
+AircraftNumbers=18
+AircraftTypes=wp_helix
+AircraftSpawnPoints=-0.259821,0.216083,0.181545|-0.237992,0.216084,-0.174084|-0.210119,0.216084,-0.533666|-0.18543,0.216084,-0.891786|-0.16243,0.216084,-1.247786|-0.13543,0.216084,-1.603786
 AircraftSpawnOrientation=0,-4,0|0,-4,0|0,-4,0|0,-4,0
-AircraftTransitionPoints=-0.75,0.75,0.184545|-0.75,0.75,-0.196084|-0.75,0.75,-0.529666|-0.75,0.75,-0.895786
+AircraftTransitionPoints=-0.75,0.75,0.161545|-0.75,0.75,-0.194084|-0.75,0.75,-0.553666|-0.75,0.75,-0.911786|-0.75,0.75,-1.267786|-0.75,0.75,-1.623786
 
 [Movement]
 SurfaceSpeed=32
 SubmergedSpeed=32
-TelegraphSpeeds=-5,0,5,10,18,25,32
+TelegraphSpeeds=-5,0,5,10,15,25,32
 AccelerationRate=0.12
 DecelerationRate=0.08
 RudderTurnRate=0.7
 TurnRate=0.3
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
@@ -34,6 +34,7 @@ PropRotationSpeed=250,250,-250,-250
 TestDepth=40
 EscapeDepth=200
 PeriscopeDepthInFeet=0
+Diesel=TRUE
 
 [Acoustics & Sensors]
 SelfNoise=182
@@ -44,7 +45,8 @@ TowedArrayModel=wp_mare_tail
 AnechoicCoating=FALSE
 RADAR=wp_fregat
 RADARSignature=MEDIUM
-TowedArrayPosition=0,-0.005,-1.8
+TowedArrayPosition=0,0.105,-1.85
+TowedArraySettings=4,0.0018,456,0.035,true,998.52,0.75,25
 
 [Weapon Systems]
 NavalGuns=wp_ak-726_shell,wp_ak-726_shell
@@ -63,7 +65,7 @@ RBURestAngle=0,0
 RBUSalvoNumbers=10
 
 TorpedoTypes=wp_set-65m,wp_rpk-6,wp_umgt-1
-TorpedoNumbers=5,5,25
+TorpedoNumbers=5,5,72
 TorpedoTubes=3
 TubeConfig=1,1,1
 TorpedoTubeSize=533,533,533

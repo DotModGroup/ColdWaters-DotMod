@@ -12,6 +12,7 @@ usn_mark_7_shell=406мм орудия Mark 7=406мм/50 Mark 7
 
 uk_mark_8_shell=114мм орудия Mark 8=114мм/55 Mark 8
 
+usn_mark_12_shell=5"/38 Mark 12 Gun=5"/38 Mark 12
 usn_mark_42_shell=127мм орудия Mark 42=127мм/54 Mark 42
 usn_mark_75_shell=76мм орудия Mark 75=127мм/62 Mark 75
 usn_mark_45_shell=127мм орудия Mark 45=127мм/54 Mark 45

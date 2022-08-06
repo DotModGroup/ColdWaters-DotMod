@@ -16,7 +16,7 @@ Even older Soviet vessels have anechoic coating. When attacking any vessel with 
 Any surface vessel with sonar will detect torpedoes long before they're able to hit. If using a straight-running torpedo, it is recommended to close in quite a bit before firing.
 Enemy vessels will conduct torpedo turns regardless of whether or not you have been detected. Remember this when planning attacks with both acoustic and non-acoustic torpedoes.
 Wave noise on the surface significantly decreases torpedo acquisition range. This requires you be very accurate when shooting at surface targets.
-The SS-N-14A Silex (URK-5 "Rastrub-B") is a universal ASW and anti-ship missile found on many Soviet surface ships. When firing, make sure you are in the correct targeting mode.
+The SS-N-14C Silex (URK-5 "Rastrub-B") is a universal ASW and anti-ship missile found on many Soviet surface ships. When firing, make sure you are in the correct targeting mode.
 Some Soviet anti-ship missiles, such as the SS-N-3A Shaddock (P-6 "Progress"), can only be launched from the surface. These weapons leave you an easy target until you can dive.
 Torpedo tubes will only jam if you are travelling faster than 20 knots. So, you do not have to completely slow down to avoid jamming when firing off a mobile decoy.
 The Russian voice files were almost entirely recorded by a single person.

@@ -9,8 +9,7 @@ Crew=253
 Range=4200
 HullNumbers=uk_ddg_type42_sheffield.png,uk_ddg_type42_birmingham.png,uk_ddg_type42_cardiff.png,uk_ddg_type42_coventry.png,uk_ddg_type42_newcastle.png,uk_ddg_type42_glasgow.png,uk_ddg_type42_exeter.png,uk_ddg_type42_southampton.png,uk_ddg_type42_nottingham.png,uk_ddg_type42_liverpool.png
 AircraftNumbers=1
-//AircraftTypes=uk_lynx
-AircraftTypes=usn_sh60b
+AircraftTypes=uk_lynx_has3
 
 [Movement]
 SurfaceSpeed=30
@@ -20,7 +19,7 @@ AccelerationRate=0.09
 DecelerationRate=0.03
 RudderTurnRate=0.5
 TurnRate=0.9
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=0
 BallastRate=0
@@ -49,15 +48,15 @@ NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
 
 AntiAirMissileType=uk_seadart
-AntiAirMissilesNumbers=8
+AntiAirMissilesNumbers=10
 AntiAirMissilesPerTarget=2
 AntiAirMissileReloadTime=10
 AntiAirMissileLaunchDepth=15
 AntiAirMissileLaunchPoints=-0.0145,0.1254,0.4986|0.0145,0.1254,0.4986
 AntiAirMissileLaunchPointsRotation=-45,0,0|-45,0,0
 
-TorpedoTypes=usn_mk46
-TorpedoNumbers=6
+TorpedoTypes=uk_stingray
+TorpedoNumbers=12
 TorpedoTubes=6
 TubeConfig=3,3
 TorpedoTubeSize=324
@@ -240,8 +239,8 @@ ModelFile=assets/models/uk_ddg_type42.fbx
 //Wake and Smoke
 MeshPosition=0,0,0
 Material=FALSE
-BowWaveParticle=ships/particles/bowwave
-PropWashParticle=ships/particles/bowwave
+BowWaveParticle=ships/particles/bowwave_small
+PropWashParticle=ships/particles/bowwave_small
 CavitationParticle=assets/effects/uk_ddg_type42_cavitation.prefab
 FunnelSmokeParticle=assets/effects/uk_ddg_type42_funnelsmoke.prefab
 
@@ -252,8 +251,8 @@ MeshPosition=0,0,-0.7671
 MeshSternWake=wp_bpk_kanin_sternwake
 
 //Ocean surface particles
-ParticleBowWavePosition=0,-0.075,0.877
-ParticlePropWashPosition=0,-0.044,-0.756
+ParticleBowWavePosition=0,-0.005,0.9
+ParticlePropWashPosition=0,-0.01,-0.9
 ParticleHullFoamPosition=0,0,0.39
 ParticleHullFoamParameters=DEFAULT_CLIPPER
 ParticleSternFoamPosition=0,0,-0.767

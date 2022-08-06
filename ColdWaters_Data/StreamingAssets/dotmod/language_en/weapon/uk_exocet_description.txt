@@ -1,4 +1,4 @@
 [Weapon Reference]
-WeaponName=MM40
+WeaponName=MM40 Exocet
 WeaponDescriptiveName=Exocet Missile (MM40)
 WeaponDescription=The Exocet is a French-built anti-ship missile whose various versions can be launched from surface vessels, submarines, helicopters and fixed-wing aircraft. The Exocet saw its first wartime launch during the Falklands War.

@@ -1,4 +1,6 @@
 //Shallow Grave
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=2
 
 UseTerrain=TRUE
 MapCoordinates=2211,1291

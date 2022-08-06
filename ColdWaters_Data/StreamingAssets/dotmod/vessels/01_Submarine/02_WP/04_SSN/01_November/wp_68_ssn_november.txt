@@ -18,7 +18,7 @@ AccelerationRate=0.25
 DecelerationRate=0.08
 RudderTurnRate=0.75
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=3
 SurfaceRate=3
 BallastRate=0.25
@@ -43,7 +43,7 @@ RADARSignature=SMALL
 
 [Weapon Systems]
 TorpedoTypes=wp_set-65,wp_53-65,wp_saet-60m
-Loadout_1=wp_set-65m,wp_53-65k,wp_moss_mg-74
+Loadout=1|wp_set-65m,wp_53-65k,wp_moss_mg-74
 TorpedoNumbers=12,4,4
 TorpedoTubes=8
 TubeConfig=1,1,1,1,1,1,1,1

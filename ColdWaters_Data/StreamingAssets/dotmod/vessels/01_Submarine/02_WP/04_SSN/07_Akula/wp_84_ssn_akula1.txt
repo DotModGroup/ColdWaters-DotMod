@@ -18,7 +18,7 @@ AccelerationRate=0.3
 DecelerationRate=0.08
 RudderTurnRate=1
 TurnRate=2
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=5
 SurfaceRate=5
 BallastRate=0.25
@@ -44,6 +44,7 @@ TowedArrayPosition=0,0.122,-0.72
 
 [Weapon Systems]
 TorpedoTypes=wp_uset-80,wp_test-71m,wp_65-76,wp_rpk-6,wp_moss_mg-74,wp_s-10
+Loadout=2|wp_uset-80k,wp_test-71mk,wp_65-76,wp_rpk-6,wp_moss_mg-74,wp_s-10
 TorpedoNumbers=8,8,8,8,8,0
 TorpedoTubes=8
 NumberOfWires=4

@@ -18,7 +18,7 @@ AccelerationRate=0.08
 DecelerationRate=0.08
 RudderTurnRate=0.5
 TurnRate=1.6
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=2
 SurfaceRate=2
 BallastRate=0.25
@@ -44,10 +44,11 @@ RADARSignature=SMALL
 TowedArrayPosition=0,0.116,-1.02
 
 [Weapon Systems]
-TorpedoTypes=wp_uset-80,wp_65-76,wp_shkval,wp_rpk-6,wp_moss_mg-74
-TorpedoNumbers=6,6,4,8,4
+TorpedoTypes=wp_uset-80,wp_test-71m,wp_65-76,wp_rpk-6,wp_moss_mg-74
+Loadout=2|wp_uset-80k,wp_test-71mk,wp_65-76,wp_rpk-6,wp_moss_mg-74
+TorpedoNumbers=8,8,4,4,4
 TorpedoTubes=7
-NumberOfWires=0
+NumberOfWires=4
 TubeConfig=1,1,1,1,1,1,1
 TorpedoTubeSize=650,650,533,533,533,533,533
 TubeReloadTime=30

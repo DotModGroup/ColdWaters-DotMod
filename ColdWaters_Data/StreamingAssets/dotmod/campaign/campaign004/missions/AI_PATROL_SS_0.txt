@@ -26,4 +26,4 @@ RequiresWeapon=
 NumberOfEnemyUnits=1-1
 CombatBehaviour=OFFENSIVE
 EnemyUnitMissionCritical=FALSE
-EnemyShipClasses=knm_84_ss_kobben
+EnemyShipClasses=knm_68_ss_kobben

@@ -16,7 +16,7 @@ AccelerationRate=0.12
 DecelerationRate=0.08
 RudderTurnRate=0.5
 TurnRate=1.7
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=0
 BallastRate=0
@@ -29,11 +29,11 @@ TestDepth=0
 [Acoustics & Sensors]
 SelfNoise=165
 ActiveSonarReflection=25
-ActiveSonarModel=plan_sjd_5
-PassiveSonarModel=plan_sjd_5
+ActiveSonarModel=plan_sjd_4
+PassiveSonarModel=plan_sjd_4
 TowedArrayModel=FALSE
 AnechoicCoating=FALSE
-RADAR=wp_don_kay
+RADAR=plan_type_354
 RADARSignature=MEDIUM
 
 [Weapon Systems]

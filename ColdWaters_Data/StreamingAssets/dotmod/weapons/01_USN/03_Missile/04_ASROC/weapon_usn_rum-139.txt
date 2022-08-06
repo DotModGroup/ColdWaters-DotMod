@@ -1,6 +1,6 @@
 WeaponObjectReference=usn_rum-139
 WeaponType=MISSILE
-MissilePayload=usn_mk46_mod_5
+WeaponPayload=usn_mk46_mod_5
 
 Warhead=0
 SensorRange=0

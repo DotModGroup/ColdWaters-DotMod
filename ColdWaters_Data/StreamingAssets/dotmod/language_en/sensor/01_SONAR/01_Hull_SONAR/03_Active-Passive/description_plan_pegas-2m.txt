@@ -1,0 +1,1 @@
+plan_pegas-2m=PEGAS-2m=This is a Chinese high frequency bow-mounted scanning sonar based on an improved Buck Toe design that equips several frigates.

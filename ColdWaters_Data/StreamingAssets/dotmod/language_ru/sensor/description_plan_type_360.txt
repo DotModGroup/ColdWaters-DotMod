@@ -1,0 +1,1 @@
+plan_type_360=Type 360=Type 360 Radar

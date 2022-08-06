@@ -1,4 +1,6 @@
 //Iron Coffins
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 //MapCoordinates=3165,1066

@@ -1,15 +1,17 @@
 NextAction=event_intro_7
-Image=campaign/images/nato air 4
-Photo=campaign/images/photos/infantry pact 1,campaign/images/photos/S-125.jpg,campaign/images/photos/M-60.jpg
+Image=campaign/images/German_Army.jpg
+Photo=campaign/images/photos/Bush1.jpg
 Music=audio/music/Cold Waters Campaign Victory
-Header=TEXT=11 февраля 1984
 
 Font=0
 Outline=FALSE
 Color=180,71,64,255
-Title=<b>Советы восприняли «Эйбл Арчер» всерьёз</b>|<b>СССР воспринял учения «Эйбл Арчер» всерьёз</b>
+Title=<b>ARMIES EXCHANGE FIRE IN BERLIN</b><n>CIVILIAN CASUALTIES HIGH
 Color=57,61,73,255
-Sentence1=ВАШИНГТОН: Сегодня на слушаниях в Конгрессе руководитель разведывательное управление министерства обороны (РУМО) генерал-лейтенант Джеймс A. Уильямсон сообщил сенату оценку реакции Советского Союза на недавние учения НАТО Эйбл Арчер 83. Анализ РУМО показал, что Советский Союз, какое-то время, действительно считал, что Соединенные Штаты готовятся к ядерному нападению, используя учения в качестве прикрытия. Таким образом, советские стратегические ядерные силы как минимум неделю находились в состоянии повышенной боевой готовности.|ВАШИНГТОН, США: На сегодняшних слушаниях в Конгрессе директор Разведуправления Минобороны США (РУМО) генерал-лейтенант Джеймс Артур Уильямсон сообщил сенату свою оценку реакции Советского Союза на учения НАТО «Able Archer 83», которые проводились в ноябре прошлого года. Глава РУМО подтвердил, что СССР какое-то время действительно считал учения всего лишь прикрытием, организованным Соединёнными Штатами для подготовки нанесения превентивного ядерного удара по советской территории. В связи с этим, стратегические ядерные силы СССР находились в состоянии минутной готовности как минимум неделю. 
-
+Sentence1=WASHINGTON - February 6, 1990 - Fighting has broken out between West German and East German army units in Berlin following East German attempts to close the border.  Initial reports indicate the fighting started following the shooting of unarmed East German civilians attempting to flee past guards, although witnesses were unable to say for sure who fired the first shot.  Some reports indicated that West German army units may have entered East Berlin during the battle.
 Color=218,218,208,255
-Sentence2=Столь сильная реакция подтверждает натянутые дипломатические отношения между США и Советским Союзом. Годы антикоммунистической деятельности, развертывание новейшего ядерного оружия и откровенная идеологическая дружба между президентом Рейганом и премьер-министром Великобритании Тэтчер, привели к росту недоверия и насторожеености Советского Союза по отношению к политикам НАТО.|Такая реакция СССР лишь подтверждает то, что напряжение в советско-американских отношениях вот-вот достигнет своего пика. Многолетняя антикоммунистическая риторика, развертывание новейшего ядерного оружия и откровенная идеологическая дружба между президентом США Рейганом и премьер-министром Великобритании Тэтчер вызвали рост настороженности Советского Союза по отношению к действиям НАТО.
+Sentence2=Western leaders have demanded an immediate end to the fighting, while simultaneously warning the Soviet Union of "the gravest possible consequences" if any attempt is made to intervene.  
+
+
+
+

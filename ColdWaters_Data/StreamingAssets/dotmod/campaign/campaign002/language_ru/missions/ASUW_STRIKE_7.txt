@@ -20,6 +20,6 @@ BT
 [MISSION WIN]
 Excellent job, Commander! Your neutralization of this high priority target will severely reduce the enemy's ability to hinder our operations. CINCLANT sends regards to you and your crew.
 [MISSION FAIL]
-Command is dissapointed you failed to destroy this target. However, our carrier battlegroup managed to destroy the rest of the task force with little damage incurred.
+Scrub Mission repeat Scrub Mission.  We now believe the previous intel report was in error.  Sorry for the snafu.
 [MISSION MISSED]
-Scrub Mission repeat Scrub Mission. We now believe the previous intel report was in error. Sorry for the snafu.
+Scrub Mission repeat Scrub Mission.  We now believe the previous intel report was in error.  Sorry for the snafu.

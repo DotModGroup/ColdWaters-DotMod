@@ -23,7 +23,7 @@ AccelerationRate=0.12
 DecelerationRate=0.08
 RudderTurnRate=0.7
 TurnRate=0.95
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
@@ -34,6 +34,7 @@ PropRotationSpeed=250,-250
 TestDepth=40
 EscapeDepth=787
 PeriscopeDepthInFeet=1
+Diesel=TRUE
 
 [Acoustics & Sensors]
 SelfNoise=180

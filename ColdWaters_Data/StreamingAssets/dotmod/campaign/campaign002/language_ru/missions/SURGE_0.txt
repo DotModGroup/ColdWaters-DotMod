@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-SOVIET SUBMARINES ARE ATTEMPTING TO BREAK OUT INTO THE NORTH ATLANTIC IN LARGE NUMBERS. THESE VESSELS MUST BE STOPPED BEFORE THEY HAVE A CHANCE TO REACH VITAL SHIPPING LANES. 
+SOVIET SUBMARINES ARE ATTEMPTING TO BREAK OUT INTO THE NORTH ATLANTIC IN LARGE NUMBERS.  THESE VESSELS MUST BE STOPPED BEFORE THEY HAVE A CHANCE TO REACH VITAL SHIPPING LANES. 
 
 2.	(S) PRIMARY OBJECTIVE:
 TRANSIT TO PATROL AREA **GREEN 011** BETWEEN ICELAND AND THE FAROE ISLANDS. SINK ALL HOSTILE SUBMARINES ENCOUNTERED.  
@@ -15,7 +15,7 @@ NONE
 BT
 0000
 [MISSION WIN]
-Excellent job on intercepting and destroying Soviet submarine assets. You and your crew have given us a big morale boost. Keep up the good work.
+Excellent job on intercepting and destroying Soviet submarine assets. You and your crew have given us a big morale boost.  Keep up the good work.
 [MISSION FAIL]
 Discouraged to hear you lost this opportunity to significantly attrite Soviet forces. Better luck next time.
 [MISSION MISSED]

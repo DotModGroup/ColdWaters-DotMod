@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/pact missile attack,campaign/images/68 pact surface raiders 1,campaign/images/68 pact naval 1
-Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/naval pact 3,campaign/images/photos/naval pact carrier 2
+Image=campaign/images/pact missile attack,campaign/images/pact surface raiders 2,campaign/images/pact surface raiders 3,campaign/images/68 pact surface raiders 1,campaign/images/68 pact naval 1
+Photo=campaign/images/photos/naval engagement 1,campaign/images/photos/naval pact 1,campaign/images/photos/naval pact 2,campaign/images/photos/naval pact 3,campaign/images/photos/naval pact 4,campaign/images/photos/naval pact 5,campaign/images/photos/naval pact carrier 1,campaign/images/photos/naval pact carrier 2
 Music=audio/music/Cold Waters Campaign Loss
 Header=<DATE>
 

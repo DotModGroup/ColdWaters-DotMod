@@ -1,4 +1,6 @@
 //Strike From The Sea
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=2
 
 UseTerrain=TRUE
 MapCoordinates=1481,527

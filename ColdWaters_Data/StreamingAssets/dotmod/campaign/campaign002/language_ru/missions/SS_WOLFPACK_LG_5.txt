@@ -17,7 +17,7 @@ NONE
 BT
 1705
 [MISSION WIN]
-Fine work dealing with those enemy subs, Commander! Your contribution to the war effort will make transit for our convoys a lot safer.  We are winning this war thanks to subs like the <PLAYERVESSELNAME>!  
+Fine work dealing with those enemy subs, Commander! Your contribution to the war effort will make transit for our convoys a lot safer.  We are winning this war thanks to subs like <PLAYERVESSELNAME>!  
 [MISSION FAIL]
 Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. Step it up.
 [MISSION MISSED]

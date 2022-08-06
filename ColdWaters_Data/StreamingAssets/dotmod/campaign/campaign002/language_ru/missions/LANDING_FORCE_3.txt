@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Great work further degrading Soviet amphibious warfare capabilities.
 [MISSION FAIL]
-Very disappointed that you were unable to take advantage of this opportunity.  Russian amphibious warfare forces will be reconstituted and continue to pose a serious threat.
+Very disappointed that you were unable to take advantage of this opportunity.  Russian amphibious warfare forces will likely be reconstituted and continue to pose a serious threat.
 [MISSION MISSED]
-Very disappointed that you were unable to take advantage of this opportunity.  Russian amphibious warfare forces will be reconstituted and continue to pose a serious threat.
+Very disappointed that you were unable to take advantage of this opportunity.  Russian amphibious warfare forces will likely be reconstituted and continue to pose a serious threat.

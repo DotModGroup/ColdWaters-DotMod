@@ -1,4 +1,6 @@
 //Red Waters
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 MapCoordinates=1580,1540

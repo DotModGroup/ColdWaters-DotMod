@@ -1,4 +1,6 @@
 //Metal and Ice
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 MapCoordinates=2410,1185

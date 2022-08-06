@@ -1,6 +1,6 @@
 NextAction=event_intro_2
-Image=campaign/images/reagan
-Photo=campaign/images/photos/air nato 1,campaign/images/photos/infantry nato 4,campaign/images/photos/infantry nato 5
+Image=campaign/images/68 soviets invade
+Photo=campaign/images/photos/armor pact 1,campaign/images/photos/riot 2,campaign/images/photos/infantry pact 2
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 ForwardDate=7,14
@@ -8,13 +8,8 @@ ForwardDate=7,14
 Font=0
 Outline=FALSE
 Color=180,71,64,255
-Title=<b>What Will Reaganism Mean<n>for US Foreign Relations?</b>
+Title=<b>RED<n>OPPRESSION</b>
 Color=57,61,73,255
-Sentence1=FOREIGN RELATIONS - New president-elect Ronald Reagan has begun his term in office by taking a harsh stance against the Soviet Union. The former Californian governor, once a Democrat, is reputed for his anti-communist stance and for rooting out Communist sympathisers in Hollywood in the 1950's.
+Sentence1=Forces of the Warsaw Pact, led by the Soviet Union, invaded Czechoslovakia today with 250,000 troops supported by some 2000 tanks, brutally supressing the reformist movement there.
 Color=218,218,208,255
-Sentence2=The new US President is regarded with suspicion in the Kremlin. Politburo sources claim that President Reagan is regarded as somewhat of a "cowboy", whose presidency risks spurring controversy and conflict instead of a continuation of the more detente-oriented policies of Jimmy Carter.
-
-
-
-
-
+Sentence2=The United States has stated that NATO will not intervene on behalf of the Prague Spring, effectively giving the USSR a free hand to do as it pleases. Analysts believe this attitude stems from heavy American involvement in Vietnam and President Johnson's reluctance to jeopardize the impending SALT talks.

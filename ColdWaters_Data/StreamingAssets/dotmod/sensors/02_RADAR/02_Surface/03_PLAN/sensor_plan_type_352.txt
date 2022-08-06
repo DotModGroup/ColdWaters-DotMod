@@ -1,0 +1,2 @@
+RADARModel=plan_type_352
+RADARRange=50500

@@ -1,0 +1,4 @@
+[Unit Reference]
+ShipClass=WIP
+Description=Dotmod-class WIP
+History=This is a WIP ship for DotMod

@@ -1,6 +1,6 @@
 NextAction=MAP
-Image=campaign/images/585_Surf.jpg,campaign/images/Surge_Win.jpg
-Photo=campaign/images/photos/594a.jpg,campaign/images/photos/637a.jpg
+Image=campaign/images/Surge_Win2.jpg,campaign/images/Surge_Win3.jpg
+Photo=campaign/images/photos/688i1.jpg,campaign/images/photos/688a.jpg
 Music=audio/music/Cold Waters Campaign Victory
 Header=<DATE>
 

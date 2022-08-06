@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-NAVAL INTELLEGENCE REPORTS THAT A WOLFPACK OF NATO SUBMARINES, ARMED WITH NUMEROUS CRUISE MISSILES, WIL LEAVE <color=#CBCB2B><STARTLOCATION> </color> WITHIN A DAY TO STRIKE AT OUR SUPPLY LINES. CURRENT INFORMATION INDICATES THEY WILL PASS BY <color=#52ABBA><MUSTUSELOCATION0> </color> BEFORE CONTINUING ONTO <color=#E6B621><ENDLOCATION> </color>. INTERCEPT THEM BEFORE THEY HAVE A CHANCE TO ENGAGE FRIENDLTY SHIPPING.
+NAVAL INTELLEGENCE REPORTS THAT AN ENEMY SUBMARINE, POSSIBLY EVEN TWO OPERATING TOGETHER, WILL LEAVE <color=#CBCB2B><STARTLOCATION> </color> WITHIN A DAY TO STRIKE AT OUR SUPPLY LINES. CURRENT INFORMATION INDICATES THEY WILL PASS BY <color=#52ABBA><MUSTUSELOCATION0> </color> BEFORE CONTINUING ONTO <color=#E6B621><ENDLOCATION> </color>. INTERCEPT THEM BEFORE THEY HAVE A CHANCE TO ENGAGE FRIENDLTY SHIPPING.
 
 2.	(S) PRIMARY OBJECTIVE:
 LOCATE AND SINK THE WOLFPACK.
@@ -16,6 +16,6 @@ NONE.
 [MISSION WIN]
 Good work. You kept our transports safe. They're what win wars, after all!
 [MISSION FAIL]
-While command understands that attacking a wolfpack can be difficult, we are nevertheless disappointed you failed to protect our critical supply transports.
+While command understands that attacking enemy SSNs can be difficult, we are nevertheless disappointed you failed to protect our critical supply transports.
 [MISSION MISSED]
-Two-and-a-half hours ago, one of our supply convoys was completely decimated by a coordinated missile strike, sinking every transport and leaving few survivors. Command believes this was the work of the wolfpack you failed to intercept.
+Two-and-a-half hours ago, one of our supply convoys was completely decimated by a torpedo strike, sinking every transport and leaving few survivors. Command believes this was the work of the enemy sub or subs you failed to intercept.

@@ -18,7 +18,7 @@ AccelerationRate=0.5
 DecelerationRate=0.08
 RudderTurnRate=0.5
 TurnRate=2.5
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=1
 SurfaceRate=1
 BallastRate=0.25
@@ -40,8 +40,8 @@ RADAR=wp_mrk-50
 RADARSignature=SMALL
 
 [Weapon Systems]
-TorpedoTypes=wp_test-71mk
-TorpedoNumbers=18
+TorpedoTypes=wp_test-71mk,wp_53-65k
+TorpedoNumbers=12,6
 TorpedoTubes=6
 NumberOfWires=3
 TubeConfig=1,1,1,1,1,1

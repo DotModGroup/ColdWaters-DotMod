@@ -1,4 +1,6 @@
 //Stalking The Red Bear
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 MapCoordinates=2927,1996
@@ -20,7 +22,7 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,2-4
+NumberOfEnemyUnits=1-1,2-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
 EnemyShipClasses=wp_84_ssbn_typhoon,wp_84_ssn_sierra|wp_84_ssn_victor3

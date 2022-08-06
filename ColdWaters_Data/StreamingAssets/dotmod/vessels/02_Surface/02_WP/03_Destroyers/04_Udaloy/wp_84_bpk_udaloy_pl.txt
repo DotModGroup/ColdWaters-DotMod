@@ -22,7 +22,7 @@ AccelerationRate=0.12
 DecelerationRate=0.08
 RudderTurnRate=0.7
 TurnRate=0.55
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=0
 SurfaceRate=5
 BallastRate=0
@@ -33,6 +33,7 @@ PropRotationSpeed=350,-350
 TestDepth=40
 EscapeDepth=787
 PeriscopeDepthInFeet=1
+Diesel=TRUE
 
 [Acoustics & Sensors]
 SelfNoise=170
@@ -93,6 +94,7 @@ AntiAirMissileType=wp_kinzhal
 AntiAirMissilesNumbers=64
 AntiAirMissilesPerTarget=4
 AntiAirMissileReloadTime=3
+AutoMissileScanTime=1
 AntiAirMissileLaunchDepth=5
 AntiAirMissileLaunchPoints=-0.039,0.14,0.935|0.039,0.14,0.935|-0.039,0.14,0.898|0.039,0.14,0.898|-0.02,0.14,-0.442|0.02,0.14,-0.442|0,0.16,-0.495|0,0.16,-0.525
 AntiAirMissileLaunchPointsRotation=-90,0,0

@@ -1,0 +1,9 @@
+DepthWeaponObjectReference=wp_4x57mm_shell
+DepthWeaponWarhead=1.5
+DepthWeaponRange=100,17000
+DepthWeaponNumberFired=28
+DepthWeaponRateOfFire=0.95
+DepthWeaponReloadTime=15
+DepthWeaponVelocity=5.2
+DepthWeaponAccuracy=1
+DepthWeaponAudioClip=audio/guns/gun_firing1.ogg

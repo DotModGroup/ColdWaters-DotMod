@@ -1,7 +1,7 @@
 //------------- UUM-125B -------------------
 WeaponObjectReference=usn_uum-125b
 WeaponType=MISSILE
-MissilePayload=usn_mk50
+WeaponPayload=usn_mk50
 *
 Warhead=0
 SensorRange=0

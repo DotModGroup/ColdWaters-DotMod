@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=RIM-2 Terrier
+WeaponDescriptiveName=RIM-2 Terrier
+WeaponDescription=Special:This is a temporary place holder model\n\n The Convair RIM-2 Terrier was a two-stage medium-range naval surface-to-air missile (SAM), and was among the earliest surface-to-air missiles to equip United States Navy ships. It underwent significant upgrades while in service, starting with beam-riding guidance with a 10-nautical-mile (19 km) range at a speed of Mach 1.8, and ending as a semi-active radar homing system with a range of 40 nmi (74 km) at speeds as high as Mach 3. It was replaced in service by the RIM-67 Standard ER (SM-1ER).

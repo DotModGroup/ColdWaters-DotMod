@@ -1,6 +1,6 @@
 WeaponObjectReference=wp_rpk-6
 WeaponType=MISSILE
-MissilePayload=wp_umgt-1
+WeaponPayload=wp_umgt-1
 *
 Warhead=0
 SensorRange=0

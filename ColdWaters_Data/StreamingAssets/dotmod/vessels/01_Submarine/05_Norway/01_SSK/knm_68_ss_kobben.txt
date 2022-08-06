@@ -19,7 +19,7 @@ AccelerationRate=0.3
 DecelerationRate=0.08
 RudderTurnRate=1
 TurnRate=3
-PivotPointTurning=0.256
+PivotPointTurning=0.0
 DiveRate=6
 SurfaceRate=6
 BallastRate=0.25
@@ -40,10 +40,10 @@ TowedArrayModel=FALSE
 AnechoicCoating=FALSE
 RADAR=dm_calypso
 RADARSignature=SMALL
-TowedArrayPosition=0.0718,0,-0.55
 
 [Weapon Systems]
-TorpedoTypes=usn_nt37c
+TorpedoTypes=usn_mk37_mod2
+Loadout=1|usn_nt37c
 TorpedoNumbers=8
 TorpedoTubes=8
 NumberOfWires=2

@@ -1,3 +1,4 @@
+//Gremika
 UseTerrain=TRUE
 MapCoordinates=3172,1066
 MapFromCampaign=North Atlantic
@@ -5,29 +6,29 @@ MapElevationData=oparea_norwegiansea_bathymetry
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE 
+CombatBehaviour=OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_all_small_escorts,wp_all_small_escorts,wp_ssk_threats,wp_cargo|civ_all_trawlers,wp_cargo|civ_all_trawlers,wp_cargo|civ_all_trawlers,wp_all_capital_ships,wp_cargo|wp_all_ssbn
+EnemyShipClasses=wp_small_escorts,wp_large_escorts,wp_cargo,wp_cargo|civ_all_trawlers,civ_all_trawlers,wp_ssb|wp_ssbn,wp_ssb|wp_asuw_cruisers,wp_ssbn|wp_sub_unrep
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
 UsePresetPositions=TRUE
-PlayerPosition=-160,700
-PlayerHeading=105
+PlayerPosition=-195,188
+PlayerHeading=260
 
 //AI Nav Waypoints
 //Array of Vector 2 positions
 //Must be enough for maximum number of enemy ships
-//ASW Escorts
-EnemyWaypoints=-171,1051|91,295
-//ASW Sector
-EnemyWaypoints=-89,209|230,886
-//SS Patrol
-EnemyWaypoints=-512,652|785,769
-//Merchies
-EnemyWaypoints=-740,920|589,911
-EnemyWaypoints=-277,931|187,291
-EnemyWaypoints=-404,306|500,950
+//Poti or Riga
+EnemyWaypoints=-360,240|-324,140
+//Grisha or Krivak
+EnemyWaypoints=-165,223|-379,287
+//Komsomol or Poltava
+EnemyWaypoints=-387,181|-109,261
+//Andizhan or Partizan
+EnemyWaypoints=-262,141|-286,400
+//Trawler
+EnemyWaypoints=-150,180|0,180|0,120|-150,120
 
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
@@ -36,7 +37,7 @@ EnemyWaypoints=0,0,0,ANCHORED_NOMISSILE_DOCKED
 MissionPosition=-370,150
 
 //Enemy Aircraft
-NumberOfHelicopters=1
+NumberOfHelicopters=0
 HelicopterType=wp_haze
 NumberOfAircraft=0
 AircraftType=wp_be-12_mail

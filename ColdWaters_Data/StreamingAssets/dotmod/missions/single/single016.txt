@@ -1,4 +1,6 @@
 //Hunting the Arctic Wolf
+//LoadoutType MUST!!! be before VesselsAndTraffic AND PlayerVessels
+LoadoutType=1
 
 UseTerrain=TRUE
 MapCoordinates=2975,2000
@@ -21,7 +23,7 @@ DuctStrength=Moderate
 LayerStrength=Moderate
 
 //Enemy Ships
-NumberOfEnemyUnits=1-1,3-4
+NumberOfEnemyUnits=1-1,2-3
 CombatBehaviour=DEFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=TRUE,FALSE
 EnemyShipClasses=wp_84_ssbn_typhoon,wp_84_ssn_sierra|wp_84_ssn_victor3|wp_84_ssn_victor2|wp_84_ssn_alfa

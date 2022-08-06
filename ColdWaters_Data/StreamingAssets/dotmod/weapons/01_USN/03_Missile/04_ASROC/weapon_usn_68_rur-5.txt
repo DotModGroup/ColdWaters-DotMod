@@ -1,6 +1,6 @@
 WeaponObjectReference=usn_68_rur-5
 WeaponType=MISSILE
-MissilePayload=usn_mk46
+WeaponPayload=usn_mk46
 *
 Warhead=0
 SensorRange=0

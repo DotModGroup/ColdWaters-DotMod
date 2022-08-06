@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=HHQ-7 (SAM)
+WeaponDescriptiveName=HHQ-7 (SAM)
+WeaponDescription=Special:This is a temporary place holder model\n\n The HQ-7 became PLAN's standard short-range air-defense SAM in the 1990s, and was used on new construction such as the Type 054 until superseded by the HQ-16 on the Type 054A frigate. The typical configuration is one 8-cell launcher, with stores of reload missiles in multiples of 8 (8, 16, 24). Earlier versions required manual re-loading, while later variants have an auto re-loader that can be retracted under the deck.

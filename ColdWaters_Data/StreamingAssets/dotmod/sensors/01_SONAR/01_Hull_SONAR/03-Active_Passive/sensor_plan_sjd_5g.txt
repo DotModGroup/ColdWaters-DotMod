@@ -1,0 +1,8 @@
+SonarModel=plan_sjd_5g
+SonarType=ACTIVE/PASSIVE
+SonarFrequencies=H,H
+SonarActiveSensitivity=23
+SonarPassiveSensitivity=23
+SonarBaffle=150
+SonarNoisePerKnot=1
+SonarOutput=220

@@ -9,7 +9,7 @@ uk_84_ss_oberon=13
 uk_84_ssn_valiant=2
 uk_84_ssn_churchill=3
 uk_84_ssn_trafalgar=2
-knm_84_ss_kobben=15
+knm_68_ss_kobben=15
 rnn_84_ssk_zwaardvis=2
 
 usn_84_ssbn_ohio=4

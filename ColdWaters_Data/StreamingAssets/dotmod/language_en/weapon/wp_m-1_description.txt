@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=SA-N-1 Goa
+WeaponDescriptiveName=SA-N-1 Goa
+WeaponDescription=Special:This is a temporary place holder model\n\n Work on a naval version M-1 Volna (SA-N-1) started in 1956, along with work on a land version. It was first mounted on a rebuilt Kotlin class destroyer (Project 56K) Bravyi and tested in 1962. In the same year, the system was accepted. The basic missile was a V-600 (or 4K90) (range: from 4 to 15 km, altitude: from 0.1 to 10 km). Fire control and guidance is carried out by 4R90 Yatagan radar, with five parabolic antennas on a common head. Only one target can be engaged at a time (or two, for ships fitted with two Volna systems). In case of emergency, Volna could be also used against naval targets, due to short response time.

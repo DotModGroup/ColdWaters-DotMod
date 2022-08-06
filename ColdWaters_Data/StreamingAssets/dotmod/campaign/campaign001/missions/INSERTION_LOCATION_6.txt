@@ -7,9 +7,9 @@ WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
 NumberOfEnemyUnits=1-1,1-1,1-1,1-1,1-1
-CombatBehaviour=OFFENSIVE,OFFENSIVE,DEFENSIVE,DEFENSIVE,DEFENSIVE
+CombatBehaviour=OFFENSIVE,DEFENSIVE,OFFENSIVE,OFFENSIVE,OFFENSIVE
 EnemyUnitMissionCritical=FALSE,FALSE,FALSE,FALSE,FALSE
-EnemyShipClasses=wp_obsolete_destroyers,wp_obsolete_destroyers|wp_all_small_escorts,wp_cargo,civ_all_trawlers|wp_cargo,wp_all_ssk
+EnemyShipClasses=wp_medium_escorts,wp_small_escorts,wp_cargo,wp_cargo|civ_all_trawlers,wp_ssk
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
@@ -34,7 +34,7 @@ EnemyWaypoints=0,-34|-60,-30|-30,0
 MissionPosition=-170,-80
 
 //Enemy Aircraft
-NumberOfHelicopters=1
+NumberOfHelicopters=0
 HelicopterType=wp_haze
 NumberOfAircraft=0
 AircraftType=wp_il-38_may

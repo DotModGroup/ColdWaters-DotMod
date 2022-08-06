@@ -58,7 +58,7 @@ NavalGunFiringArcBearingMax=120,-60
 NavalGunRestAngle=0,180
 NavalGunParticle=weapons/assets/SmallMuzzleFlash
 NavalGunSmokeParticle=weapons/assets/SmallMuzzleSmoke
-NavalGunShellNumbers=1600
+NavalGunShellNumbers=1200
 
 TorpedoTypes=usn_mk46_mod_5
 TorpedoNumbers=36
@@ -88,6 +88,7 @@ ChaffType=wp_chaff
 ChaffProbability=0.99
 NumberChaffLaunched=2
 
+Special=AEGIS
 AntiAirMissileType=usn_ugm84
 AntiAirMissilesNumbers=8
 AntiAirMissilesPerTarget=2

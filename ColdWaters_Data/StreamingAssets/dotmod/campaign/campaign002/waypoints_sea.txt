@@ -7,39 +7,94 @@ EastWaypoints=SC2
 //the Soviet Coast
 WaypointName=SC2
 WaypointPosition=472.4,-9.4,10
-NorthWaypoints=SC3
+NorthWaypoints=SC3,B4
 SouthWaypoints=SC1
 WestWaypoints=SC1,SC3
 
 //the Soviet Coast
 WaypointName=SC3
 WaypointPosition=420.00,45.60,20
-NorthWaypoints=SC4,B1
+NorthWaypoints=SC4,B1,B3,B4
 SouthWaypoints=SC2
-EastWaypoints=SC2
+EastWaypoints=SC2,B3
 WestWaypoints=SC4
 
 //the Soviet Coast
 WaypointName=SC4
 WaypointPosition=366.50,71.30,20
-NorthWaypoints=B1
+NorthWaypoints=B1,B3,B4
 SouthWaypoints=SC3
-EastWaypoints=SC3
+EastWaypoints=SC3,B3
 WestWaypoints=NC1
 
 //the Barents Sea
 WaypointName=B1
-WaypointPosition=363.10,173.9,130
-NorthWaypoints=B2
+WaypointPosition=363.10,194.9,25
+NorthWaypoints=B2,B5
 SouthWaypoints=SC3,SC4,NC1
-EastWaypoints=SC2,SC3
-WestWaypoints=N1,NC1
+EastWaypoints=B4
+WestWaypoints=B9,N1,NC1
 
 //the Barents Sea
 WaypointName=B2
 WaypointPosition=377.4,293.6,50
 NorthWaypoints=P1
-SouthWaypoints=B1
+SouthWaypoints=B1,B4,B9
+EastWaypoints=B5
+SubmarineOnly=TRUE
+
+//the Barents Sea
+WaypointName=B3
+WaypointPosition=573.0,137.0,1
+NorthWaypoints=B6
+SouthWaypoints=SC3,SC4
+WestWaypoints=SC3,SC4
+SubmarineOnly=TRUE
+
+//the Barents Sea
+WaypointName=B4
+WaypointPosition=440.0,233.0,30
+NorthWaypoints=B2,B5
+SouthWaypoints=SC3,SC4
+WestWaypoints=B1
+
+//the Barents Sea
+WaypointName=B5
+WaypointPosition=455.0,313.0,30
+NorthWaypoints=B8
+SouthWaypoints=B1,B4
+EastWaypoints=B7
+WestWaypoints=B2
+SubmarineOnly=TRUE
+
+//the Kara Sea
+WaypointName=B6
+WaypointPosition=550.0,258.0,20
+NorthWaypoints=B7
+SouthWaypoints=B3
+SubmarineOnly=TRUE
+
+//the Kara Sea
+WaypointName=B7
+WaypointPosition=551.0,356.0,25
+SouthWaypoints=B6
+WestWaypoints=B5,B2
+SubmarineOnly=TRUE
+
+//the Barents Sea
+WaypointName=B8
+WaypointPosition=329.0,350.0,30
+NorthWaypoints=P1
+SouthWaypoints=B2,B5,B9
+SubmarineOnly=TRUE
+
+//the Barents Sea
+WaypointName=B9
+WaypointPosition=273.0,172.0,50
+NorthWaypoints=B2,B8
+SouthWaypoints=N1,N5,NC1
+EastWaypoints=B1
+WestWaypoints=N1,N3
 
 //the Polar region
 WaypointName=P1
@@ -67,16 +122,16 @@ SubmarineOnly=TRUE
 //the northern Norwegian coast
 WaypointName=NC1
 WaypointPosition=265.10,107.60,20
-NorthWaypoints=B1,N1
+NorthWaypoints=B1,B9,N1,N5
 SouthWaypoints=NC2,SC4,N2
 EastWaypoints=SC4,B1
-WestWaypoints=NC2,N1,N2
+WestWaypoints=NC2,N1,N2,N5
 
 //the Norwegian coast
 WaypointName=NC2
 WaypointPosition=119.50,12.70,10
 NorthWaypoints=NC1,N1,N2
-SouthWaypoints=NC3,IG6
+SouthWaypoints=NC3,IG6,NC4
 EastWaypoints=NC1,N1
 WestWaypoints=N2,NC3,IG6,IG5
 
@@ -91,7 +146,7 @@ WestWaypoints=NC4,N4
 //the Norwegian coast
 WaypointName=NC4
 WaypointPosition=-45.10,-127.90,10
-NorthWaypoints=NC3,N2
+NorthWaypoints=NC3,N2,N4,NC2
 SouthWaypoints=NC5,NS1
 EastWaypoints=NC3
 WestWaypoints=NS1,IG6
@@ -120,9 +175,9 @@ WestWaypoints=NC6
 //the Norwegian Sea
 WaypointName=N1
 WaypointPosition=183.80,163.90,80
-NorthWaypoints=N3,B1
-SouthWaypoints=NC2,NC1,N4
-EastWaypoints=B1,NC1
+NorthWaypoints=N3,B1,B9
+SouthWaypoints=NC2,NC1,N4,N5
+EastWaypoints=B1,B9,NC1,N5
 WestWaypoints=N3,N2,NC2
 
 //the Norwegian Sea
@@ -138,8 +193,9 @@ WaypointName=N3
 WaypointPosition=90.90,274.00,50
 NorthWaypoints=P2,P3
 SouthWaypoints=IG1,N2,N1
-EastWaypoints=P2,N1
+EastWaypoints=P2,N1,B9
 WestWaypoints=IG1,N2
+SubmarineOnly=TRUE
 
 //the Norwegian Sea
 WaypointName=N4
@@ -148,6 +204,14 @@ NorthWaypoints=N2,IG1
 SouthWaypoints=IG6,NC4
 EastWaypoints=NC3
 WestWaypoints=IG5
+
+//the Western Barents Sea
+WaypointName=N5
+WaypointPosition=235.0,128.0,30
+NorthWaypoints=B1,N1,B9
+SouthWaypoints=NC2,SC4,N2,NC1
+EastWaypoints=SC4,B1,NC1
+WestWaypoints=NC2,N1,N2
 
 //the Denmark Strait
 WaypointName=IG1

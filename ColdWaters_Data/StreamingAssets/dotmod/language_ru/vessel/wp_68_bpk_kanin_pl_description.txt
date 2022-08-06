@@ -1,0 +1,14 @@
+[Unit Reference]
+Designation=БПК
+ShipClass=пр 57-А
+Description=БПК проекта 57-А (1968г)
+
+Aircraft=Площадка для вертолёта
+History=Большие противолодочные корабли проекта 57-А (Классификация НАТО: Kanin) - модернизация эсминцев проекта 57-бис типа «Гневный», разработанных специально под противокорабельный ракетный комплекс КСЩ. Вследствии крайне низкой эффективности и надёжности ракет КСЩ они быле заменены на ЗРК «Волна», также было установлено три реактивных бомбомёта РБУ-6000. Корабли модернезированные по пр 57-А были переклассифицированны в большие противолодочные корабли (БПК).
+роект 57-А представлял собой модернизацию неэффективного ПКР вооружения и переклассификацию в большие противолодочные корабли (БПК).
+
+The eight ships in this class were originally built as Krupny-class rocket ships armed with SS-N-1 cruise missiles. From 1968 to 1977 they were taken in and completely rebuilt as large anti-submarine ships, with upgraded sonar and ASW armament, and fitted with left-over SA-N-1 mounts originally intended for the Kresta I programme. While they are fitted with a helicopter landing pad on the stern, they do not have any hangar facilities to effectively operate helicopters. All in all they make second rate ships in a hi-lo mix.
+
+[Player Ship Instances]
+PlayerClassNames=Гремящий,Жгучий,Зоркий,Дерзкий,Гневный,Упорный,Бойкий,Гордый,Храбрый
+PlayerClassHullNumbers=,,,,,,,,,

@@ -1,0 +1,4 @@
+[Weapon Reference]
+WeaponName=GWS.1 Sea Slug
+WeaponDescriptiveName=GWS.1 Sea Slug
+WeaponDescription=Special: This is a temporary place holder model\n\n Seaslug was a first-generation surface-to-air missile designed by Armstrong Whitworth (later part of the Hawker Siddeley group) for use by the Royal Navy. Tracing its history as far back as 1943's LOPGAP design, it came into operational service in 1961 and was still in use at the time of the Falklands War in 1982.
