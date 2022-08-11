@@ -29,7 +29,7 @@ This panel can also be accessed from the briefing screen prior to any mission or
 
 The Damage Control panel shows a cut-out view of your vessel which is divided into 5 major watertight compartments. Various subsystems are also shown, many of which are associated with a given compartment, although some such as Periscope and Masts are not linked to a compartment as they are in the sail. The currently selected subsystem is in bold.
 
-In addition, the overall hull integrity of your submarine is shown at the bottom centre. If hull integrity is reduced to 0%, your submarine will be destroyed and sink.
+In addition, the overall hull integrity of your submarine is shown at the bottom center. If hull integrity is reduced to 0%, your submarine will be destroyed and sink.
 
 
 <size=24><color=maroon><b>DAMAGE CONTROL PARTY</b></color></size>
@@ -39,7 +39,7 @@ It is possible to assign your damage control party to an undamaged subsystem in 
 
 
 <size=24><color=maroon><b>SUBSYSTEMS</b></color></size>
-Each compartment may contain one or more subsystems. Select the name of a subsystem or use <KEY:Context Menu Previous> and <KEY:Context Menu Next> to move through and highlight a subsystem. 
+Each compartment may contain one or more subsystems. Select the name of a subsystem or use <KEY:Context Menu Previous> and <KEY:Context Menu Next> to move through and highlight a subsystem.
 
 Subsystems have 3 conditions:
 1) Operational (Blue)
