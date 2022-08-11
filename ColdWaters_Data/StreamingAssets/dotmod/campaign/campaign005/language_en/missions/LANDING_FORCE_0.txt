@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Great job. Pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been repelled.  You've dealt the Reds a serious blow.
 [MISSION FAIL]
-Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.  
+Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.
 [MISSION MISSED]
-Discouraged to hear you failed to intercept the enemy landing force. The Soviets have gained a foothold on our back door.  Be more aggressive.  
+Discouraged to hear you failed to intercept the enemy landing force. The Soviets have gained a foothold on our back door.  Be more aggressive.

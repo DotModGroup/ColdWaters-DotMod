@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Excellent job on intercepting and destroying Red ballistic missile subs.  The country owes you and your crew an unbelievable debt of gratitude.
 [MISSION FAIL]
-Leadership has lost faith in your ability to command. Turn over the boat to your XO and prepare for a board of inquiry upon your return. 
+Leadership has lost faith in your ability to command. Turn over the boat to your XO and prepare for a board of inquiry upon your return.
 [MISSION MISSED]
-Leadership has lost faith in your ability to command. Turn over the boat to your XO and prepare for a board of inquiry upon your return. 
+Leadership has lost faith in your ability to command. Turn over the boat to your XO and prepare for a board of inquiry upon your return.
