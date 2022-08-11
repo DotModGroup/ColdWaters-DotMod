@@ -9,5 +9,5 @@ Font=0
 Outline=FALSE
 Color=180,71,64,255
 Title=<b>IRON CURTAIN DRAWS OVER EUROPE</b>
-Sentence1=The immediate threat of nuclear war looks to have faded as West and East finally negotiate terms for the cessation of hostilities. Unfortunately, the Soviets hold the upper hand in peace talks, due to the positioning of thier ballistic missile submarines.
+Sentence1=The immediate threat of nuclear war looks to have faded as West and East finally negotiate terms for the cessation of hostilities. Unfortunately, the Soviets hold the upper hand in peace talks, due to the positioning of their ballistic missile submarines.
 Sentence2=Currently in exile, political leaders from occupied territories show strong concern for the risk of the Iron Curtain being brought further west. The likelihood of permanent Soviet occupation has sparked a massive and global refugee crisis, with millions attempting to escape Western Europe while they still can.

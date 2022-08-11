@@ -3,7 +3,7 @@ Image=campaign/images/event_award_background
 Photo=campaign/images/awards/silver_star
 Music=audio/music/Cold Waters Spotted
 Header=THE SECRETARY OF THE NAVY<n>WASHINGTON
- 
+
 Font=0
 Outline=FALSE
 Color=57,61,73,255
