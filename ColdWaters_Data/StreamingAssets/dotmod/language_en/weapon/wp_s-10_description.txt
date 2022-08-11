@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName="Granat"
 WeaponDescriptiveName=S-10 "Granat" Cruise Missile
-WeaponDescription=The S-10 "Granat" (NATO reporting name: SS-N-21 Sampson) is a turbojet-powered, submarine launched land attack missile used by the Soviet navy. It resembles Tomahawk Land Attack Missile in various aspects, such as profile and usage.
+WeaponDescription=The S-10 "Granat" (NATO reporting name: SS-N-21 Sampson) is a turbojet-powered, submarine launched land attack missile used by the Soviet navy. It resembles the Tomahawk Land Attack Missile in various aspects, such as profile and usage.

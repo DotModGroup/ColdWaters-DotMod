@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Fulton
 Description=Fulton-class Submarine Tender (Early)
-History=Built from 1939 to 1945, this class of seven saw service resupplying the US submarine force throughout World War 2 and the Cold War. The ships served in both the Atlantic and Pacific Oceans providing auxiliary support to submarines throughout the classes' 50 years of service. One member of the class, the USS Proteus, was modified in 1960 and recommissioned as a dedicated SSBN support vessel. The final ships were decomissioned in the early 1990s. By that time, USS Fulton was the 3rd longest serving active ship in the US navy.  
+History=Built from 1939 to 1945, this class of seven saw service resupplying the US submarine force throughout World War 2 and the Cold War. The ships served in both the Atlantic and Pacific Oceans providing auxiliary support to submarines throughout the classes' 50 years of service. One member of the class, the USS Proteus, was modified in 1960 and recommissioned as a dedicated SSBN support vessel. The final ships were decommissioned in the early 1990s. By that time, USS Fulton was the 3rd longest serving active ship in the US navy.

@@ -1,8 +1,8 @@
 [Unit Reference]
 ShipClass=Type 42
-Description=Type 42
+Description=Type 42 Destroyer
 Aircraft=1 Wessex HAS.3
-History=Эсминец типа 42, или типа «Шеффилд», был классом из четырнадцати эсминцев с управляемыми ракетами, которые служили в Королевском флоте. Еще два корабля этого класса были построены и служили ВМС Аргентины.\nПервый корабль этого класса был заказан в 1968 году и спущен на воду в 1971 году. Два корабля этого класса («Шеффилд» и «Ковентри») были потоплены во время Фолклендской войны. 1982 г. Королевский флот использовал этот класс эсминцев в течение 38 лет с 1975 по 2013 г.
+History=The Type 42 Destroyer, or Sheffield-class, was a class of fourteen guided missile destroyers that served in the Royal Navy. A further two ships of this class were built for and served with the Argentine Navy.\n\nThe first ship of the class was ordered in 1968 and launched in 1971. Two of the class (Sheffield and Coventry) were sunk in action during the Falklands War of 1982. The Royal Navy used this class of destroyer for 38 years between 1975 and 2013.
 
 [Player Ship Instances]
 PlayerClassNames=Sheffield,Birmingham,Cardiff,Coventry,Newcastle,Glasgow,Exeter,Southampton,Nottingham,Liverpool

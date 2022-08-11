@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Polaris A3
 WeaponDescriptiveName=UGM-27 Polaris A3 SLBM
-WeaponDescription=The UGM-27 Polaris missile was a two-stage solid-fuelled nuclear-armed submarine-launched ballistic missile, serving from 1961 to 1980. The A3 variant of the Polaris replaced the A1 and A2 variants in US Navy service, it had a range extended to 2,500 nautical miles and a new weapon bay housing three Mk 2 re-entry vehicles and the new W-58 warhead of 200 kt yield.
+WeaponDescription=The UGM-27 Polaris missile was a two-stage solid-fueled nuclear-armed submarine-launched ballistic missile, serving from 1961 to 1980. The A3 variant of the Polaris replaced the A1 and A2 variants in US Navy service, it had a range extended to 2,500 nautical miles and a new weapon bay housing three Mk 2 re-entry vehicles and the new W-58 warhead of 200 kt yield.

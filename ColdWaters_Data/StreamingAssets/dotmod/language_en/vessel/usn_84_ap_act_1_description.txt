@@ -2,4 +2,4 @@
 ShipClass=NATO Container
 ShipClassShort=Container
 Description=MSC Large Container Ship
-History=These are first-generation container ships, with cargo capacity of about 1900 TEU.\n\nThe United States Military Sealift Command (MSC) charters several of these ships from civilian companies for use in supporting military operations. With the outbreak of war they would all be pressed into service transporting military material to Europe across the Atlantic. Many cargo ships in military service were given the designation of Cape class. 
+History=These are first-generation container ships, with cargo capacity of about 1900 TEU.\n\nThe United States Military Sealift Command (MSC) charters several of these ships from civilian companies for use in supporting military operations. With the outbreak of war they would all be pressed into service transporting military material to Europe across the Atlantic. Many cargo ships in military service were given the designation of Cape class.
