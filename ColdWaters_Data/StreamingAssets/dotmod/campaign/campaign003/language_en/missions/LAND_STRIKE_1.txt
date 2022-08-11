@@ -17,6 +17,6 @@ LOCATE AND SINK ANY NEARBY WARSHIPS IF POSSIBLE
 [MISSION WIN]
 Well done on a successful mission.
 [MISSION FAIL]
-Disappointed you were unable to fulfil the full mission parameters.
+Disappointed you were unable to fulfill the full mission parameters.
 [MISSION MISSED]
 Disappointed you were unable to get into position for planned attack in time. Abort mission.
