@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Excellent job on intercepting and destroying that Yankee, Commander!.  Well done!
 [MISSION FAIL]
-You have committed a critical error at the worst possible time. Turn command over to your XO and return to port immediately. 
+You have committed a critical error at the worst possible time. Turn command over to your XO and return to port immediately.
 [MISSION MISSED]
-You have committed a critical error at the worst possible time. Turn command over to your XO and return to port immediately. 
+You have committed a critical error at the worst possible time. Turn command over to your XO and return to port immediately.

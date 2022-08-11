@@ -3,7 +3,7 @@
 INTELLIGENCE REPORTS THAT AN ENEMY SURFACE TASK FORCE IS PREPARING TO SAIL FROM <STARTLOCATION> FOR A PATROL IN THE VICINITY OF THE NORTHERN NORWEGIAN COAST. THE WARSHIPS COULD DISRUPT VITAL COASTAL SHIPPING OR BOMBARD COASTAL DEFENSES. YOU ARE ORDERED TO INTERCEPT AND DESTROY THIS TASK FORCE. NO OTHER FRIENDLY UNITS ARE IN A POSITION TO INTERCEPT THE ENEMY IN TIME.
 
 2.	(S) PRIMARY OBJECTIVE:
-TRANSIT TO THE SOUTHEASTERN EDGE OF PATROL AREA **BLUE 044** 
+TRANSIT TO THE SOUTHEASTERN EDGE OF PATROL AREA **BLUE 044**
 LOCATE AND SINK THE ENEMY SURFACE TASK FORCE.
 
 3.	(S) SECONDARY OBJECTIVE:
@@ -22,4 +22,4 @@ Excellent job, Commander! Your neutralization of this group will reduce the enem
 [MISSION FAIL]
 Discouraged to hear you lost this opportunity against this target group. We expect better.
 [MISSION MISSED]
-Discouraged to hear you lost this opportunity against this target battlegroup. Better luck next time. Enemy presence in this area will likely continue to hinder future ops. 
+Discouraged to hear you lost this opportunity against this target battlegroup. Better luck next time. Enemy presence in this area will likely continue to hinder future ops.

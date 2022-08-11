@@ -1,6 +1,6 @@
 [ORDERS]
 1.	(S) TACTICAL SITUATION:
-INTEL REPORTS INDICATE A SURFACE BATTLEGROUP HAS SAILED FROM <STARTLOCATION> INTENDING TO CONDUCT A SURPRISE SHORE BOBMARDMENT RAID AGAINST SOSUS FACILITIES LOCATED AT <ENDLOCATION>. INTEL FURTHER BELIEVES THE GROUP INCLUDES ONE OR MORE SVERDLOV CLASS GUN CRUISERS.
+INTEL REPORTS INDICATE A SURFACE BATTLEGROUP HAS SAILED FROM <STARTLOCATION> INTENDING TO CONDUCT A SURPRISE SHORE BOMBARDMENT RAID AGAINST SOSUS FACILITIES LOCATED AT <ENDLOCATION>. INTEL FURTHER BELIEVES THE GROUP INCLUDES ONE OR MORE SVERDLOV CLASS GUN CRUISERS.
 
 2.	(S) PRIMARY OBJECTIVE:
 LOCATE AND SINK THE ENEMY CRUISERS
@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Excellent job, Commander! Your neutralization of this target has prevented a significant degradation of our submarine detection capabilities. CINCLANT sends regards to you and your crew.
 [MISSION FAIL]
-Discouraged to hear you lost this opportunity. You've made it a lot harder for our ASW forces.  
+Discouraged to hear you lost this opportunity. You've made it a lot harder for our ASW forces.
 [MISSION MISSED]
 Discouraged to hear you lost this opportunity against this target. You've made it a lot harder for our ASW forces.
