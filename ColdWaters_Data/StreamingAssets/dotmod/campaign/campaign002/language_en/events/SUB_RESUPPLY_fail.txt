@@ -11,4 +11,4 @@ Title=<b>RED SUBS REFUEL</b>|<b>REDS RELOAD</b>|<b>SOVIET SUBS RESUPPLY</b>
 Color=57,61,73,255
 Sentence1=Military analysts have confirmed that Soviet submarines have torpedo and missile replenishment capability while at sea. The enemy's ability to keep fully armed ships and submarines stationed throughout the warzone poses a significant threat to NATO shipping and overall control of the region.
 Color=218,218,208,255
-Sentence2=Congress today made calls for additional air and naval resources to be immediately deployed into the North Atlantic and Norwegian Sea. "Existing patrol coverage of the theatre is clearly insufficient to locate and prevent crucial Soviet activities", several representatives claimed.
+Sentence2=Congress today made calls for additional air and naval resources to be immediately deployed into the North Atlantic and Norwegian Sea. "Existing patrol coverage of the theater is clearly insufficient to locate and prevent crucial Soviet activities", several representatives claimed.
