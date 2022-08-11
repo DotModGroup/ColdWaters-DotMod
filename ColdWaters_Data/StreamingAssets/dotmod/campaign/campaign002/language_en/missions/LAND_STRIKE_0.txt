@@ -20,6 +20,6 @@ BT
 [MISSION WIN]
 Well done on a successful land strike. Initial reports indicate extensive damage was sustained by the target.
 [MISSION FAIL]
-Disappointed you were unable to fulfil the full mission parameters.
+Disappointed you were unable to fulfill the full mission parameters.
 [MISSION MISSED]
 Disappointed you were unable to get into position for planned land attack in time as window of opportunity now closed. Abort mission.

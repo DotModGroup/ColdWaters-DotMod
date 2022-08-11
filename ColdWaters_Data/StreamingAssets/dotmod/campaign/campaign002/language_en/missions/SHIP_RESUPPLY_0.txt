@@ -17,7 +17,7 @@ LOCATE AND SINK ANY NEARBY WARSHIPS IF POSSIBLE
 BT
 0500
 [MISSION WIN]
-Good to hear you intercepted and destroyed the enemy replenishment resources. Keep up the good work. 
+Good to hear you intercepted and destroyed the enemy replenishment resources. Keep up the good work.
 [MISSION FAIL]
 Discouraged to hear you missed this opportunity to hinder enemy replenishment activities.
 [MISSION MISSED]
