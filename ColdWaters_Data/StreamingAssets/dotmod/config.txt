@@ -8,7 +8,7 @@ GenerateFullLog=TRUE
 
 //=========Modded Parameters===========
 //You can change this string to your mod name and version
-ModVersion=Dot Mod v 0.4a-1
+ModVersion=Dot Mod v 0.4a-2
 
 //Nations
 //The list of nations used by the game, as more are added this has been moved to the config file to prevent code changes. Format: comma separated strings
