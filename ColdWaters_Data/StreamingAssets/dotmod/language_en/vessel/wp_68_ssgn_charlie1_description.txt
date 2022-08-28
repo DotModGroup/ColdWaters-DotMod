@@ -2,7 +2,7 @@
 ShipClass=Charlie I
 Description=Charlie I-class Nuclear Cruise Missile Submarine
 
-History=The Charlie was the world's first cruise-missile submarine capable of submerged launch, making these boats much more of a threat than the earlier Echo and Julietts which had to surface to launch their missiles. Unlike the earlier generation, these boats featured improved quieting, advanced sonars and improved automation making them similar in capability to the Victor 1 class. However, the use of a single reactor makes them much slower and remains their primary drawback.
+History=The Charlie was the world's first cruise-missile submarine capable of submerged launch, making these boats much more of a threat than the earlier Echo and Juliett which had to surface to launch their missiles. Unlike the earlier generation, these boats featured improved quieting, advanced sonars and improved automation making them similar in capability to the Victor 1 class. However, the use of a single reactor makes them much slower and remains their primary drawback.
 
 [Player Ship Instances]
 PlayerClassNames=,,

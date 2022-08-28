@@ -11,4 +11,4 @@ Title=<b>THERE WILL BE NO SUPPLIES</b>|<b>THE DEFEAT OF THE CONVOY</b>|<b>CONVOY
 Color=57,61,73,255
 Sentence1=A representative of the USSR stated that today the enemy's operation to deliver military cargo to <ENDLOCATION_VI> (<COUNTRY>) was disrupted by the efforts of the Soviet Navy. A convoy of transport vessels with an escort attempted to break through the naval blockade, but was met with determined resistance and put to flight. The number of NATO vessels sunk is unspecified.
 Color=218,218,208,255
-Sentence2=The success of the Soviet Union's recent naval operations continues to have a beneficial effect on the course of the war on land. Opinion held by Western comentators before the war that the role of the Soviet Navy in aconflict would be limited have turned out to be incorrect.
+Sentence2=The success of the Soviet Union's recent naval operations continues to have a beneficial effect on the course of the war on land. Opinion held by Western commentators before the war that the role of the Soviet Navy in a conflict would be limited have turned out to be incorrect.

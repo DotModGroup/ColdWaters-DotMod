@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=MG-74 "Korund-2"
-WeaponDescriptiveName=U.S.S.R.\n MG-74 "Korund-2"\n 533mm-cal Self-Propelled Decoy
+WeaponDescriptiveName=MG-74 "Korund-2" Self-Propelled Decoy
 WeaponDescription=The MG-74 is a passive decoy that attempts to simulate the sound of a submarine to lure enemy passive sonar. It is launched on a straight track and remains at the launch depth, which means a submarine can launch it and escape on the opposite side of the layer.

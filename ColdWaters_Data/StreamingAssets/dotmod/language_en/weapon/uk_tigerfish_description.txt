@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Mark 24 Mod 1
 WeaponDescriptiveName=Mark 24 Mod 1 "Tigerfish" Heavyweight Torpedo
-WeaponDescription=The Mark 24 Mod 1 Tigerfish was a heavyweight (dual purpose) anti-submarine and anti-ship homing torpedo used by the Royal Navy during the 1980s and 90s. 
+WeaponDescription=The Mark 24 Mod 1 Tigerfish was a heavyweight (dual purpose) anti-submarine and anti-ship homing torpedo used by the Royal Navy during the 1980s and 90s.

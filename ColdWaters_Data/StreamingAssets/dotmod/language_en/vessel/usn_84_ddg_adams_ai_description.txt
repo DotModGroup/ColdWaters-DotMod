@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Charles F. Adams
 Description=Charles F. Adams-class Destroyer
-History=The Charles F. Adams class is a ship class of 29 guided missile destroyers (DDG) built between 1958 and 1967. The design of these ships was based on that of Forrest Sherman-class destroyers, but the Charles F. Adams class were the first class designed to serve as guided missile destroyers. 19 feet (5.8 m) of length was added to the center of the design of the Forrest Sherman class to carry the ASROC launcher. The Charles F. Adams-class destroyers were the last steam turbine-powered destroyers built for the U.S. Navy. 
+History=The Charles F. Adams class is a ship class of 29 guided missile destroyers (DDG) built between 1958 and 1967. The design of these ships was based on that of Forrest Sherman-class destroyers, but the Charles F. Adams class were the first class designed to serve as guided missile destroyers. 19 feet (5.8 m) of length was added to the center of the design of the Forrest Sherman class to carry the ASROC launcher. The Charles F. Adams-class destroyers were the last steam turbine-powered destroyers built for the U.S. Navy.

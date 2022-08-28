@@ -9,5 +9,5 @@ Font=0
 Outline=FALSE
 Color=180,71,64,255
 Title=<b>WAR CRIMINALS PROSECUTED</b>
-Sentence1=London: Protests of outrage erupted as Soviet armistice demands for deportation and prosecution of war criminals were passed by Parliament. Political analysts have called the armistice agreement a travesty and labelled it as the "greatest betrayal" and "darkest hour" in the history of modern democracy.
+Sentence1=London: Protests of outrage erupted as Soviet armistice demands for deportation and prosecution of war criminals were passed by Parliament. Political analysts have called the armistice agreement a travesty and labeled it as the "greatest betrayal" and "darkest hour" in the history of modern democracy.
 Sentence2=Numerous officers in NATO forces have been named in the terms of the armistice agreement, accused for their direct involvement and participation in war crimes. In a leaked report, this office can confirm that <PLAYERNAME>, who served as the commanding officer of the widely regarded as "heroic" <PLAYERVESSELNAVY> <PLAYERVESSELNAME>, is among those already deported.

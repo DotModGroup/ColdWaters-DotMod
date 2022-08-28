@@ -43,7 +43,7 @@ Icons displayed on the map are as follows and are described in further detail be
 <b>VESSEL POSITIONS</b>
 The map displays your submarine position and trail which is always 100% accurate. <LEFTCLICK> on your submarine will move the camera to it.
 
-Contacts are displayed based on their current target solution, namely how accurately their speed, course and range have been determined. The better the solution, (closer to 100%) the more accurate will be the displayed position of that contact. Once course is known, the icon will change so as to display that course and once the solution is at a high enough level of confidence, that contact will be updated more frequently on the map as well as have a trail showing where it has travelled. The process of building up information about a contact is termed Target Motion Analysis and is explained in more detail below.
+Contacts are displayed based on their current target solution, namely how accurately their speed, course and range have been determined. The better the solution, (closer to 100%) the more accurate will be the displayed position of that contact. Once course is known, the icon will change so as to display that course and once the solution is at a high enough level of confidence, that contact will be updated more frequently on the map as well as have a trail showing where it has traveled. The process of building up information about a contact is termed Target Motion Analysis and is explained in more detail below.
 
 <LEFTCLICK> on a contact will either;
 1) select that contact.
@@ -120,7 +120,7 @@ Detection and analysis of a contact is based on your submarine's sensors which a
 
 
 <size=24><color=maroon><b>SIGNATURE ANALYSIS</b></color></size>
-Passive sonar signals from a contact can be compared to known sound profiles of various vessels in order to identify the class of ship you are tracking, a process termed signature analysis. Over time, your crew will automatically perform this task however a skilled commander can speed up the process. The sooner a contact has been correctly classified, less time TMA will take and the quicker you can identify threats and prioritise targets. Note that a contact may also be classified by raising the periscope, establishing visual contact and marking that target (see Sensors, Periscope section for more information).
+Passive sonar signals from a contact can be compared to known sound profiles of various vessels in order to identify the class of ship you are tracking, a process termed signature analysis. Over time, your crew will automatically perform this task however a skilled commander can speed up the process. The sooner a contact has been correctly classified, less time TMA will take and the quicker you can identify threats and prioritize targets. Note that a contact may also be classified by raising the periscope, establishing visual contact and marking that target (see Sensors, Periscope section for more information).
 
 
 

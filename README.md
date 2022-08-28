@@ -1,17 +1,17 @@
-# ColdWaters-DotMod 
-  
- Welcome to DotMod! 
-  
- DotMod is an attempt to create a more organized mod that is closer to vanilla vessel and weapons characteristics for Cold Waters than other, currently-existing mods. This also generally results in more realistic sensor and performance comparisons. 
-  
+# ColdWaters-DotMod
+
+ Welcome to DotMod!
+
+ DotMod is an attempt to create a more organized mod that is closer to vanilla vessel and weapons characteristics for Cold Waters than other, currently-existing mods. This also generally results in more realistic sensor and performance comparisons.
+
  DotMod also adds RPG elements to the Cold Waters campaigns, adds new campaigns, introduces a new fleet of vessels (mostly) custom built for the game by our team of modellers, and adds new gameplay elements like deployable towed arrays, playable helicopters, and surface-to-air missiles.
-  
- Come join our community on Discord, we are mostly English language but have supporters and modders from around the world! https://discord.gg/DrmztcDYYf 
-  
- DotMod's latest release can be found at https://github.com/Dot-M134/ColdWaters-DotMod/releases. 
-  
- For upcoming features check out the #showcase channel on our Discord! 
-  
+
+ Come join our community on Discord, we are mostly English language but have supporters and modders from around the world! https://discord.gg/DrmztcDYYf
+
+ DotMod's latest release can be found at https://github.com/Dot-M134/ColdWaters-DotMod/releases.
+
+ For upcoming features check out the #showcase channel on our Discord!
+
 ## Features
 
 ### New Features
@@ -37,27 +37,27 @@
  * Limited Enemy Vessels Numbers for Campaigns
  * Removed Baffles-Seeing Eye for AI
  * Re-Balanced Torpedo and Sensor Performance around Realism
-  
+
 ### New Vessels
- 
+
 #### United States
  * Barbel-class SSK
  * Nautilus-class SSN
  * Virginia-class SSN
  * George Washington-class SSBN
- * Ohio-class SSBN 
+ * Ohio-class SSBN
  * Oliver Hazard Perry-class FFG (Long and Short Hull)
  * Gearing-class DD (FRAM I)
  * Charles F. Adams-class DDG
  * Spruance-class DDG
  * Arleigh Burke-class DDG (Flight I, II, and IIA)
  * Ticonderoga-class CG
- * Iowa-class BB 
+ * Iowa-class BB
  * Nimitz-class CVN
  * Austin-class LPD
  * Iwo-Jima class LPH
  * Algol-class FSS
-  
+
 #### Soviet Union
  * Zulu-class SS
  * Mike-class SSN
@@ -89,7 +89,7 @@
 
 #### Civilian
  * Atlantic Conveyor-class Merchant
-  
+
 ### New Weapons
 
 #### United States
@@ -110,7 +110,7 @@
  * 53-65 Torpedo
  * 65-76 Torpedo
  * SAET-60 Torpedo
- * VA-111 Skhval Torpedo
+ * VA-111 Shkval Torpedo
  * MG-14 Anabar Decoy
  * MG-74 Korund Decoy
  * SA-14 Gremlin MANPADS
@@ -146,7 +146,7 @@
 
 #### Republic of China
  * A184 Torpedo
- 
+
 ### New Aircraft
 
 #### United States
@@ -179,8 +179,8 @@
  * Some weapons exist in configurations which did not serve in the timeline or never existed
 
 ## Installation
-DotMod comes with an installer that will walk you through the steps of installation (unfortunately this does NOT work on Windows 7 at present). If this fails, a manual install can be performed by following these instructions: https://cdn.discordapp.com/attachments/866120539512373268/880131182367498321/Cold_Waters_DotMod_Manual_Install_Guide.pdf 
- 
+DotMod comes with an installer that will walk you through the steps of installation (unfortunately this does NOT work on Windows 7 at present). If this fails, a manual install can be performed by following these instructions: https://cdn.discordapp.com/attachments/866120539512373268/880131182367498321/Cold_Waters_DotMod_Manual_Install_Guide.pdf
+
 
 ## Support  
 If you have trouble with DotMod, please let us know on our #tech-support Discord channel, and we will endeavour to sort you out. Alternatively, raise an Issue here on GitHub. Be sure to include an output_log.txt and a description of what caused the error to occur (or at the very least what you were doing when it happened).

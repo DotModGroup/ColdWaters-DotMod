@@ -9,4 +9,4 @@ Outline=FALSE
 Color=57,61,73,255
 Title=By the QUEEN'S Order the name of
 Sentence1=<PLAYERNAME>,<n>Commanding Officer <PLAYERVESSELNAVY> <PLAYERVESSELNAME><n>was published in the London Gazette on<n><DATE>,
-Sentence2=as recieving the Queen's commendation for valuable service.<n>I am charged to record Her Majesty's high appreciation.<n><n><n><n>                                        First Lord of the Admiralty
+Sentence2=as receiving the Queen's commendation for valuable service.<n>I am charged to record Her Majesty's high appreciation.<n><n><n><n>                                        First Lord of the Admiralty

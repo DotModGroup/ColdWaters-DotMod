@@ -4,7 +4,7 @@ TO BETTER PLAN FOR NATO INITIATIVES, HIGH COMMAND HAS DECIDED TO INSERT A SPETSN
 
 2.	(S) PRIMARY OBJECTIVE:
 <color=<SEALSONBOARD>>PICK UP SPETSNAZ TEAM AT <STARTLOCATION></color>
-SAIL TO <color=#E6B621><ENDLOCATION_PR></color> UNDETECTED AND RELEASE THE SEAL TEAM
+SAIL TO <color=#E6B621><ENDLOCATION_PR></color> UNDETECTED AND RELEASE THE SPETSNAZ TEAM
 
 3.	(S) SECONDARY OBJECTIVE:
 AVOID ENGAGEMENT
@@ -17,8 +17,8 @@ AVOID ENGAGEMENT
 
 
 [MISSION WIN]
-The SEAL team reports they are in and are now in business. Excellent work, Commander.
+The Spetsnaz team reports they are in and are now in business. Excellent work, Commander.
 [MISSION FAIL]
 Unacceptable mission outcome.
 [MISSION MISSED]
-Intelligence reports window for SEAL insertion has closed. Abort mission. Repeat abort mission.
+Intelligence reports window for Spetsnaz insertion has closed. Abort mission. Repeat abort mission.

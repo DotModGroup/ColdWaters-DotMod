@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Polaris A3
 WeaponDescriptiveName=UGM-27 Polaris A3 SLBM
-WeaponDescription=The UGM-27 Polaris missile was a two-stage solid-fuelled nuclear-armed submarine-launched ballistic missile, serving the Royal Navy from 1967 to 1996 in the R-class SSBNs. The initial variant of the Polaris A3 used the US Navy's warhead system. But from 1982 the Chevaline system was fitted to maintain the relevance of the UK's nuclear deterrent against the improved Soviet missile defence systems. 
+WeaponDescription=The UGM-27 Polaris missile was a two-stage solid-fuelled nuclear-armed submarine-launched ballistic missile, serving the Royal Navy from 1967 to 1996 in the R-class SSBNs. The initial variant of the Polaris A3 used the US Navy's warhead system. But from 1982 the Chevaline system was fitted to maintain the relevance of the UK's nuclear deterrent against the improved Soviet missile defense systems.

@@ -9,6 +9,6 @@ Outline=FALSE
 Color=180,71,64,255
 Title=<b>IMPASSE</b>
 Color=57,61,73,255
-Sentence1=NATO and Soviet forces dug in to their current positions this week, yielding little gain or loss of ground by either side. <IMPASSE>
+Sentence1=NATO and Chinese forces dug in to their current positions this week, yielding little gain or loss of ground by either side. <IMPASSE>
 Color=218,218,208,255
 Sentence2=<WARSTATUS1> <WARSTATUS2>

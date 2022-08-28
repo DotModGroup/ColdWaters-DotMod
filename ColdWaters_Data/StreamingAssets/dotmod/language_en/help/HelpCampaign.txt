@@ -73,7 +73,7 @@ Opening the Briefing while in the vicinity of a friendly port will enter that po
 
 
 <size=24><color=maroon><b>STRATEGIC MAP</b></color></size>
-The Strategic map is used to navigate the oceans and provides an overview of the theatre of war. The strategic map consists of a toolbar in the upper left, a sea chart of the theatre of operations along with various icons. With the exception of the port and SOSUS barriers, icons are colored according to the side they fight for.
+The Strategic map is used to navigate the oceans and provides an overview of the theater of war. The strategic map consists of a toolbar in the upper left, a sea chart of the theater of operations along with various icons. With the exception of the port and SOSUS barriers, icons are colored according to the side they fight for.
 
 
 
@@ -155,7 +155,7 @@ From the Campaign Menu you may select one of the following;
 <size=24><color=maroon><b>INSERTION AND LAND STRIKE MISSIONS</b></color></size>
 These two missions require specific actions to be carried out.
 
-<b>INSERTION:</b> you must return to your home base and take on a party of Spec Ops. Then sail to the destination where you need to infiltrate an enemy location. On the Tactical Map will be displayed a deployment zone into which you must sail (preferably undetected), then come to a stop at less than 100 ft depth for the Spec Ops team to depart. Once departed, they will attempt to undertake their mission. If your submarine is engaged by the enemy or detected on route, shore defences will be on high alert and may capture your Spec Ops team before they can carry out their mission, making stealth of the upmost importance.
+<b>INSERTION:</b> you must return to your home base and take on a party of Spec Ops. Then sail to the destination where you need to infiltrate an enemy location. On the Tactical Map will be displayed a deployment zone into which you must sail (preferably undetected), then come to a stop at less than 100 ft depth for the Spec Ops team to depart. Once departed, they will attempt to undertake their mission. If your submarine is engaged by the enemy or detected on route, shore defenses will be on high alert and may capture your Spec Ops team before they can carry out their mission, making stealth of the utmost importance.
 
 <b>LAND STRIKE:</b> you must return to your home base to acquire the number of land strike weapons specified by your orders. Then sail to the destination where you need fire those weapons into a deployment zone (marked on your map). Missiles reaching the deployment zone will automatically be terminally guided to their target. Note that enemy ships may be in position with the ability to shoot down missiles en route. This mission type will only be given if your current submarine is capable of equipping land attack missiles.
 

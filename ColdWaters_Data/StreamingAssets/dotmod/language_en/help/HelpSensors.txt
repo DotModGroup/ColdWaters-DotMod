@@ -131,7 +131,7 @@ The diagram above illustrates the general listening capabilities of your sonar. 
 
 
 <size=24><color=maroon><b>UNDERWATER ACOUSTICS</b></color></size>
-Sonar uses sound waves travelling through water and environmental factors impact its sensitivity, decreasing or even enhancing it.
+Sonar uses sound waves traveling through water and environmental factors impact its sensitivity, decreasing or even enhancing it.
 
 <b>AMBIENT NOISE</b>
 This is the background noise of the ocean itself, the louder this is, the more difficult it becomes to hear other sound sources with sonar. Increased sea state (wind and how large waves are) as well as rain, snow and sea ice all increase ambient noise while pack ice dramatically reduces ambient noise.
@@ -140,7 +140,7 @@ This is the background noise of the ocean itself, the louder this is, the more d
 Very shallow waters may result in scattering of sound waves as they strike the bottom and also have more biological activity, resulting in decreased sonar sensitivity. Water depth is also a major factor involved in increasing the propagation of sound in water by several phenomena as outlined below.
 
 <b>MOVEMENT OF SOUND IN WATER</b>
-The propagation of sound in water bends, due to changes in temperature and pressure. As water cools, it bends sound waves downward, while warming water bends them upward. In addition, increasing water pressure also bends sound waves upwards. Therefore sound waves travelling deep into the ocean will initially bend downward due to the temperature gradient near the surface, then bend back upward due to the increasing pressure gradient. This results in the sound waves travelling in a deep arc back to the surface.
+The propagation of sound in water bends, due to changes in temperature and pressure. As water cools, it bends sound waves downward, while warming water bends them upward. In addition, increasing water pressure also bends sound waves upwards. Therefore sound waves traveling deep into the ocean will initially bend downward due to the temperature gradient near the surface, then bend back upward due to the increasing pressure gradient. This results in the sound waves traveling in a deep arc back to the surface.
 
 <b>CONVERGENCE ZONE</b>
 As mentioned above, sound is bent back upwards by water pressure such that if the water is deep enough (~10,000 ft in the Norwegian Sea) it will ultimately return to the surface. The zone in which these sound waves return to the surface is called a Convergence Zone and can be 40,000-50,000 yards away. A ship listening with sonar in this zone could detect the emitter, even though the range is far beyond the distance the sound could travel along the surface.

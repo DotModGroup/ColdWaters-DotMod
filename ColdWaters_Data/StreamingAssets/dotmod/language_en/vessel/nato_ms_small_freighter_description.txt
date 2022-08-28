@@ -2,4 +2,4 @@
 ShipClass=NATO Small Freighter
 ShipClassShort=Sml. Frghtr
 Description=NATO Small Freighter
-History=Small cargo ship used by NATO countries to transport military goods in coastal waters. As a part of the NATO Sealift program, many member states keep civilian cargo ships chartered for military use so that they can be used as to support NATO operations. 
+History=Small cargo ship used by NATO countries to transport military goods in coastal waters. As a part of the NATO Sealift program, many member states keep civilian cargo ships chartered for military use so that they can be used as to support NATO operations.

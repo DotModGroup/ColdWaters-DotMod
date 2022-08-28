@@ -3,7 +3,7 @@
 AN ENEMY ECHO- OR CHARLIE CLASS CRUISE MISSILE SUBMARINE IS ATTEMPTING TO BREAK OUT THROUGH THE DENMARK STRAIT IN ORDER TO ATTACK VITAL NORTH ATLANTIC CONVOYS. YOU MUST SINK IT. IT IS BELIEVED TO HAVE ONE OR MORE NUCLEAR ATTACK SUB ESCORTS.
 
 2.	(S) PRIMARY OBJECTIVE:
-PATROL AREA **GREEN 312** NW OF ICELAND. 
+PATROL AREA **GREEN 312** NW OF ICELAND.
 LOCATE AND SINK THE ENEMY CRUISE MISSILE SUBMARINE
 
 3.	(S) SECONDARY OBJECTIVE:
@@ -22,4 +22,4 @@ COMSUBLANT was very happy to hear about your recent success, Commander. The exce
 [MISSION FAIL]
 Commander, inability to meet the enemy submarine threat with resolve will make life on the Atlantic a lot more difficult for our colleagues. Not to mention a heck of a lot more dangerous for the merchies. We'll have to step it up.
 [MISSION MISSED]
-Further search for the enemy deemed unproductive at this time. 
+Further search for the enemy deemed unproductive at this time.

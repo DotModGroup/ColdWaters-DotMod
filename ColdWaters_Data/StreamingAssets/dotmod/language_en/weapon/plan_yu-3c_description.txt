@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=Yu-3C
 WeaponDescriptiveName=Yu-3C Torpedo
-WeaponDescription=The Yu-3C is a domestic Chinese ASW torpedo with a 13km range and a top speed of 35 knots. The combination active/passive homing system has a maximum range of approximately 1,200 yards, and while the weapon's original design specification only called for a maximum depth of 200m, the final product was capable of operating at around 400m. Additionally, the update to the Yu-3C from the B variant included a wire-guidance system, dramatically increasing the usability of the weapon against manuvering targets.
+WeaponDescription=The Yu-3C is a domestic Chinese ASW torpedo with a 13km range and a top speed of 35 knots. The combination active/passive homing system has a maximum range of approximately 1,200 yards, and while the weapon's original design specification only called for a maximum depth of 200m, the final product was capable of operating at around 400m. Additionally, the update to the Yu-3C from the B variant included a wire-guidance system, dramatically increasing the usability of the weapon against maneuvering targets.

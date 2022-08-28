@@ -57,7 +57,7 @@ Since the VLS launches weapons perpendicular to the direction of your submarine'
 Firing weapons in Cold Waters is relatively straight forward as your crew automatically performs all of the smaller tasks required, such as arming weapons and opening tubes. As commander, your role is to decide what weapon to fire and where to send it. All weapons in Cold Waters are fired using a waypoint system where the bearing and range to the waypoint are set using the tactical map display.
 
 <b>TACTICAL MAP DISPLAY</b>
-The tactical map is the nerve centre of your submarine's fire control system. It plots all information gathered by sensors and calculates target movement in order to predict their exact positions. The Sensors section will explain the tactical map in detail; however some basic understanding of its use is required to set weapon waypoints. Briefly;
+The tactical map is the nerve center of your submarine's fire control system. It plots all information gathered by sensors and calculates target movement in order to predict their exact positions. The Sensors section will explain the tactical map in detail; however some basic understanding of its use is required to set weapon waypoints. Briefly;
 
 In bottom left corner is a mini-map displaying your submarine, contact and torpedoes which is used to set weapon waypoints.
 
@@ -115,7 +115,7 @@ Unguided torpedoes have no applicable tube settings. They will either run at the
 
 
 <size=24><color=maroon><b>WIRE-GUIDED TORPEDOES</b></color></size>
-These sophisticated weapons are directly linked to your fire control computer by a wire once launched. As long as the wire remains intact, their behaviour settings can be changed, it is even possible to set new waypoint positions or manually guide the torpedo. If the wire is broken or cut, the weapon will carry out its current programmed settings.
+These sophisticated weapons are directly linked to your fire control computer by a wire once launched. As long as the wire remains intact, their behavior settings can be changed, it is even possible to set new waypoint positions or manually guide the torpedo. If the wire is broken or cut, the weapon will carry out its current programmed settings.
 
 The third data column displays information about the current wire. Clicking a wire-guided torpedo on the map or selecting a wire-containing tube will display that tube's wire data:
 <b>WPN DATA</b> Wire/Tube Number
@@ -157,14 +157,14 @@ Torpedoes on a wire have additional commands available:
 <b>WIRE BREAKAGE</b>
 The wire connecting the torpedo to the fire control computer is relatively fragile and may unintentionally be broken. A wire may break on launch, which is unavoidable and a wire will automatically be cut if a new weapon is loaded into a tube with a wire. Some submarine classes have fewer wires than tubes such that additional wire-guided torpedo launches will not possess a wire.
 
-Wire breakage while a torpedo is running can be minimised by;
+Wire breakage while a torpedo is running can be minimized by;
 - moving at slow speed
 - keeping your submarine level
 - keeping the weapon within a 60 degree arc of the bow of your submarine
 
 
 <size=24><color=maroon><b>GUIDED MISSILES</b></color></size>
-Guided missiles launch, head towards their waypoint and upon reaching it, become enabled. Once enabled the on-board guidance system uses radar to search for a surface target, which if found, will cause the missile to seek to out that target. Guided missiles can be fooled by the deployment of chaff, a countermeasure which confuses the radar guidance, or be shot down by ships possessing anti-missile defences such as CIWS guns. Also, if a missile becomes enabled but cannot find a target, it will self destruct.
+Guided missiles launch, head towards their waypoint and upon reaching it, become enabled. Once enabled the on-board guidance system uses radar to search for a surface target, which if found, will cause the missile to seek to out that target. Guided missiles can be fooled by the deployment of chaff, a countermeasure which confuses the radar guidance, or be shot down by ships possessing anti-missile defenses such as CIWS guns. Also, if a missile becomes enabled but cannot find a target, it will self destruct.
 
 <b>TUBE SETTINGS</b>
 Tube settings can be modified for the highlighted tube by either directly using the setting buttons or <KEY:Weapon Homing>, <KEY:Weapon Attack> and <KEY:Weapon Depth> to toggle each of the three settings respectively. Once launched, a missile's settings cannot be modified.

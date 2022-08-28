@@ -15,7 +15,7 @@ Close Help by <KEY:Help> again or use the <b><color=maroon>X</color></b> button 
 
 
 <size=24><color=maroon><b>WELCOME TO COLD WATERS</b></color></size>
-From 1947 until 1991 the world was gripped in the Cold War, an era of geopolitical tension accompanied by massive military expenditure and build up by the two major superpowers of the United States and the Soviet Union. Thankfully the war failed to materialise, despite several close incidents, but what if it had?
+From 1947 until 1991 the world was gripped in the Cold War, an era of geopolitical tension accompanied by massive military expenditure and build up by the two major superpowers of the United States and the Soviet Union. Thankfully the war failed to materialize, despite several close incidents, but what if it had?
 
 Cold Waters puts you in that very situation as the commander of a nuclear submarine when the Cold War goes hot. Rather than focus on specific operational details of a submarine, Cold Waters puts you in the Commander's chair where your tactical decisions will determine mission outcome and whether you and your crew return home.
 

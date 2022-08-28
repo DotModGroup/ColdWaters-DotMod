@@ -22,4 +22,4 @@ Excellent job on intercepting and destroying this critical target.  We owe you a
 [MISSION FAIL]
 You have committed a critical error at the worst possible time. Your XO has been ordered to take over command, effective immediately.  You are confined to your stateroom for the remainder of this mission.
 [MISSION MISSED]
-You have committed a critical error at the worst possible time. Your XO has been ordered to take over command, effective immediately.  You are confined to your stateroom for the remainder of this mission. 
+You have committed a critical error at the worst possible time. Your XO has been ordered to take over command, effective immediately.  You are confined to your stateroom for the remainder of this mission.

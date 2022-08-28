@@ -1,4 +1,4 @@
 [Unit Reference]
 ShipClass=Merchant
 Description=Atlantic-class CONRO
-History=This class of 7 15000 tonne combination Container/Ro-Ro ships are operated by the Atlantic Container Line consortium. They carry a combination of containers and Roll on Roll off Cargo.\nTwo ships, Atlantic Causeway and Atlantic Conveyor were requisitioned by the British Ministry of Defence at the beginning of the Falklands War, during the course of which Atlantic Conveyor was sunk by a pair of Exocet missiles. 
+History=This class of 7 15000 tonne combination Container/Ro-Ro ships are operated by the Atlantic Container Line consortium. They carry a combination of containers and Roll on Roll off Cargo.\nTwo ships, Atlantic Causeway and Atlantic Conveyor were requisitioned by the British Ministry of Defence at the beginning of the Falklands War, during the course of which Atlantic Conveyor was sunk by a pair of Exocet missiles.

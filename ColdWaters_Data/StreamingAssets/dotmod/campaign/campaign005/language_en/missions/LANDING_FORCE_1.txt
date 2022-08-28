@@ -17,8 +17,8 @@ LOCATE AND SINK ANY ESCORTING VESSELS IF POSSIBLE
 BT
 0401
 [MISSION WIN]
-Very pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been stopped.  Outstanding effort!  
+Very pleased to hear the expected invasion of <ENDLOCATION>, <COUNTRY> has been stopped.  Outstanding effort!
 [MISSION FAIL]
-Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.  
+Despite forewarning, the anticipated attack on <ENDLOCATION>, <COUNTRY> could not be prevented.
 [MISSION MISSED]
-Discouraged to hear you failed to intercept the enemy landing force. This failure be discussed at great length upon your next return to port.  
+Discouraged to hear you failed to intercept the enemy landing force. This failure be discussed at great length upon your next return to port.

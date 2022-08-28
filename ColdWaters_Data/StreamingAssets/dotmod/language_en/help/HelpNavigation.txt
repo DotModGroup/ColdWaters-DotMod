@@ -69,7 +69,7 @@ The helm control panel offers two additional ways of controlling speed:
 The graphical telegraph, which directly mirrors the functionality of the hotkeys.
 Ordered speed, which allows you to specify the precise speed you want. This allows you to optimize your speed to go as fast as possible without cavitating at a given depth.
 
-Changes in speed require some time to take effect, accelerating from stationary to flank speed may take several minutes. Travelling at Flank speed and cutting your speed to All Stop will allow your submarine to coast along for quite a long distance. While travelling fast and setting speed to Back Emergency will rapidly decelerate your submarine. You may use coasting to your advantage in sprint and drift tactics by silently gliding across thermoclines to better listen without alerting nearby enemies.
+Changes in speed require some time to take effect, accelerating from stationary to flank speed may take several minutes. Traveling at Flank speed and cutting your speed to All Stop will allow your submarine to coast along for quite a long distance. While traveling fast and setting speed to Back Emergency will rapidly decelerate your submarine. You may use coasting to your advantage in sprint and drift tactics by silently gliding across thermoclines to better listen without alerting nearby enemies.
 
 <b>CAVITATION</b>
 Cavitation is the formation of bubbles by a fast turning propeller. These bubbles make significant amounts of noise that can give away your position. At deeper depths, higher water pressure decreases this effect, allowing you to go faster without cavitating. Note that cavitation is based on engine speed, not your submarine's speed, such that quickly reducing your speed setting can stop cavitation soon after it begins.
@@ -146,7 +146,7 @@ Use <KEY:Level Submarine> to set rudder, planes and ballast (if no Emergency Blo
 
 
 <size=24><color=maroon><b>COLLISIONS</b></color></size>
-Striking ice or land with your submarine immediately results in a rapid loss of speed. The speed at which the collision occurs determines how much damage (if any) may be incurred. Travelling at less than 5 knots usually results in no or minimal damage, while high speeds can cripple or destroy your submarine due to extensive hull damage, flooding and knocked out subsystems.
+Striking ice or land with your submarine immediately results in a rapid loss of speed. The speed at which the collision occurs determines how much damage (if any) may be incurred. Traveling at less than 5 knots usually results in no or minimal damage, while high speeds can cripple or destroy your submarine due to extensive hull damage, flooding and knocked out subsystems.
 
 When operating in shallow waters or near the sea floor your helmsman will notify you if there is less than 50 ft of water under your keel. In addition, high frequency navigation sonar will detect ice or mines within about 4,000 yards in front of your submarine. Time compression will be disabled and status icons appear in the upper right to notify you of any ongoing navigational hazards.
 
@@ -172,7 +172,7 @@ As you navigate your submarine the following status icons are displayed in the u
 
 
 <b>NAVIGATION ICON DESCRIPTIONS</b>
-<b>Time Compression:</b> Time compression can be enabled and disabled with <KEY:Time Compression> to speed up game play when transiting longer distances. When enabled, this status icon is displayed. Time Compression will automatically be cancelled whenever a navigation hazard is encountered or if your submarine takes any damage.
+<b>Time Compression:</b> Time compression can be enabled and disabled with <KEY:Time Compression> to speed up game play when transiting longer distances. When enabled, this status icon is displayed. Time Compression will automatically be canceled whenever a navigation hazard is encountered or if your submarine takes any damage.
 
 <b>Event Camera:</b> If enabled, the event camera will automatically focus on events of interest as they happen such as weapon launches and impacts, aerial drops or anti-missile guns firing. Use <KEY:Event Camera> to toggle the event camera on or off.
 

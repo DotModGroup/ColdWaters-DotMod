@@ -11,4 +11,4 @@ Title=<b>RED SHIPS DESTROYED</b>|<b>RUSSIAN TASK FORCE HIT</b>
 Color=57,61,73,255
 Sentence1=The Pentagon today confirmed that a Russian surface action group had been discovered near <ENDLOCATION>, and had been destroyed or heavily damaged by NATO forces. The continued cooperation of NATO members was cited as pivotal to the successful outcome of this operation.
 Color=218,218,208,255
-Sentence2=Ongoing protection of allied military installations and shipping lanes throughout the theatre remains a high priority. The Soviet's attempted attack and its general lack of sophistication has been seen by some as a desperate act, and many are beginning to believe that the conflict is turning in the West's favor.
+Sentence2=Ongoing protection of allied military installations and shipping lanes throughout the theater remains a high priority. The Soviet's attempted attack and its general lack of sophistication has been seen by some as a desperate act, and many are beginning to believe that the conflict is turning in the West's favor.

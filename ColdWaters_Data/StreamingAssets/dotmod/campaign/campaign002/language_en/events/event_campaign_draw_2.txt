@@ -10,4 +10,4 @@ Outline=FALSE
 Color=180,71,64,255
 Title=<b>WAR OVER</b>
 Sentence1=The war is officially over as armistice terms have been agreed upon and signed by both sides. Despite intense negotiation efforts by Western diplomats, the Soviet demand of continued control of all territories currently occupied had to be met.
-Sentence2=Due to the economic and military strain of recent events, analysts remain concerned that the Cold War climate could recommence and persist for decades to come. 
+Sentence2=Due to the economic and military strain of recent events, analysts remain concerned that the Cold War climate could recommence and persist for decades to come.

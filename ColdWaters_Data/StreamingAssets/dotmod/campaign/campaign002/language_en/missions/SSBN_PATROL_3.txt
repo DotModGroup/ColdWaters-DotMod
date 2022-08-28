@@ -19,6 +19,6 @@ BT
 [MISSION WIN]
 Excellent job on intercepting and destroying this crucial target.  You have significantly degraded the enemy's ability to conduct a surprise strategic nuclear attack.
 [MISSION FAIL]
-Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.  
+Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.
 [MISSION MISSED]
-Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.  
+Your poor performance has made the unthinkable more likely, and opened us up to the possibility of a surprise nuclear strike.

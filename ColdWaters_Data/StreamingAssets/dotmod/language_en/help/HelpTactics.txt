@@ -54,7 +54,7 @@ Ever since the 1920's, analog then digital computers have been employed to help 
 
 
 
-The accuracy of the solution is dependent on several factors: Sudden movements by you or the target may invalidate the solution causing your weapons to miss. Therefore unguided torpedoes can easily be defeated by a manoeuvring target. This has been made into standard doctrine, and therefore all surface groups will make periodic course changes, or zigs, to throw off any skipper trying to ambush them.
+The accuracy of the solution is dependent on several factors: Sudden movements by you or the target may invalidate the solution causing your weapons to miss. Therefore unguided torpedoes can easily be defeated by a maneuvring target. This has been made into standard doctrine, and therefore all surface groups will make periodic course changes, or zigs, to throw off any skipper trying to ambush them.
 
 
 
@@ -92,7 +92,7 @@ In Cold Waters, an aim point appears on the tactical display when a target's sol
 
 
 <size=24><color=maroon><b>GUIDED TORPEDOES</b></color></size>
-Modern torpedoes often use wire-guidance to dramatically increase hit probability against manoeuvring targets. As the torpedo leaves the tube, it pays out an umbilical wire, through which course corrections can be transmitted to update the weapon. This allows the attacking submarine to use its own much more powerful sonar to track the target, leaving the weapons on-board sensor for terminal guidance. Generally, the torpedo will swim out to a preset distance on a gyro angle, at which point it activates its on-board sonar and looks for targets. This is referred to as run-to-enable.
+Modern torpedoes often use wire-guidance to dramatically increase hit probability against maneuvring targets. As the torpedo leaves the tube, it pays out an umbilical wire, through which course corrections can be transmitted to update the weapon. This allows the attacking submarine to use its own much more powerful sonar to track the target, leaving the weapons on-board sensor for terminal guidance. Generally, the torpedo will swim out to a preset distance on a gyro angle, at which point it activates its on-board sonar and looks for targets. This is referred to as run-to-enable.
 
 
 
@@ -117,15 +117,15 @@ Guided torpedoes dramatically extend the tactical repertoire of seasoned skipper
 
 
 <size=24><color=maroon><b>GUIDED MISSILES</b></color></size>
-For many years after World War 2, US submarines had no other dedicated anti-shipping weapon than the unguided Mark 14 and Mark 16 torpedoes, of 1940's vintage. By the 1970's the sub force clearly needed a better weapon, and so the UGM-84 submarine-launched variant of the Harpoon anti-ship missile was developed and fielded aboard existing SSN's.
+For many years after World War 2, US submarines had no other dedicated anti-shipping weapon than the unguided Mark 14 and Mark 16 torpedoes, of 1940's vintage. By the 1970's the sub force clearly needed a better weapon, and so the UGM-84 submarine-launched variant of the Harpoon anti-ship missile was developed and fielded aboard existing SSNs.
 
 Harpoon is a rather small missile, and lacks enough punch to deal with large targets, so in the 1980's, an anti-ship version of the Tomahawk land attack cruise missile was developed, called TASM with twice the hitting power of the earlier missile.
 
-These missiles can be thought of as faster guided torpedoes that have no mid-course guidance correction. They are launched in the anticipated direction of the target, fly out to an activation waypoint, and from there on search actively until they acquire a target. Missiles can be programmed to attack at wave top height, or perform a final pop-up manoeuvre and strike the target in a dive.
+These missiles can be thought of as faster guided torpedoes that have no mid-course guidance correction. They are launched in the anticipated direction of the target, fly out to an activation waypoint, and from there on search actively until they acquire a target. Missiles can be programmed to attack at wave top height, or perform a final pop-up maneuver and strike the target in a dive.
 
-In Cold Waters, missile parameters that can be set are seeker field-of-view, and terminal attack mode. To understand how to use these parameters, one must first understand the nature of Soviet missile defences:
+In Cold Waters, missile parameters that can be set are seeker field-of-view, and terminal attack mode. To understand how to use these parameters, one must first understand the nature of Soviet missile defenses:
 
-Most large surface combatants use a combination of active jamming, chaff launchers and rapid-fire anti-missile guns to defeat incoming missiles. On most Soviet destroyers and cruisers you will encounter, these guns are often arranged in either two per side or four per side, with each pair of guns controlled by single guidance radar. It is best to think of the guns as covering distinct 'quadrants' with fields of interlocking fire covering the broadsides. 
+Most large surface combatants use a combination of active jamming, chaff launchers and rapid-fire anti-missile guns to defeat incoming missiles. On most Soviet destroyers and cruisers you will encounter, these guns are often arranged in either two per side or four per side, with each pair of guns controlled by single guidance radar. It is best to think of the guns as covering distinct 'quadrants' with fields of interlocking fire covering the broadsides.
 
 
 
@@ -143,7 +143,7 @@ Most large surface combatants use a combination of active jamming, chaff launche
 
 
 These quadrants tend to leave the bow and stern areas undefended, with defensive fire being the weakest at angles < 45 degrees from the bow or stern.
-It quickly becomes apparent that a single missile has a rather low probability of surviving the defences of even a cruiser-sized ship. The way around this is firing missiles in salvos, with the intent to overload the defences. This is where wave top vs pop-up is useful. Two missiles can be launched in a quick salvo - the first set to pop-up, the second to wave top. The missile defences will attack the first missile as it does its pop-up manoeuvre, but this leaves them unable to attack the second missile coming in at wave top height.
+It quickly becomes apparent that a single missile has a rather low probability of surviving the defenses of even a cruiser-sized ship. The way around this is firing missiles in salvos, with the intent to overload the defenses. This is where wave top vs pop-up is useful. Two missiles can be launched in a quick salvo - the first set to pop-up, the second to wave top. The missile defenses will attack the first missile as it does its pop-up maneuver, but this leaves them unable to attack the second missile coming in at wave top height.
 
 Missiles can be also be doglegged toward targets by exploiting the large range of their targeting radar. Position the waypoint accordingly and the missile will acquire the enemy, and turn towards him. Several missiles can be launched and set to attack the enemy from multiple directions.
 
@@ -162,7 +162,7 @@ Missiles can be also be doglegged toward targets by exploiting the large range o
 
 
 
-Due to the ranges at which missiles are commonly used, an important consideration is the activation distance from the target. A short distance means less time for the enemy's defences to react, but over large distances the enemy may have zigged or moved too far, causing the weapon to miss. Once you fire the missile, it is on its own - you cannot correct its course in-flight like you can with a torpedo.
+Due to the ranges at which missiles are commonly used, an important consideration is the activation distance from the target. A short distance means less time for the enemy's defenses to react, but over large distances the enemy may have zigged or moved too far, causing the weapon to miss. Once you fire the missile, it is on its own - you cannot correct its course in-flight like you can with a torpedo.
 
 The narrow seeker FOV setting can be useful for hitting a specific target within a formation, or for avoiding obstacles like icebergs and oil rigs. Once active, missiles tend to lock onto the biggest target they can find, and if you don't pay attention, you may well lose the missile.
 
@@ -214,7 +214,7 @@ Notice that if you turn at too shallow an angle, the enemy weapon may well acqui
 If the water is sufficiently deep, another option is vertical evasion.
 
 <b>VERTICAL EVASION</b>
-In this scenario, we will change depth enough that we move outside the 'slice' exploiting the narrower vertical spread. Depending on your depth, either dive or rise rapidly to clear the danger zone. Generally this maneuver also involves the sharp turn seen in horizontal evasion, to form a very effective evasive manuever. The real gutsy skippers will assume the enemy has set their activation point close and simply run at flank speed towards the weapon, so that they end up behind the active torpedo but with maintained contact and in position to counterfire with a fish of their own.
+In this scenario, we will change depth enough that we move outside the 'slice' exploiting the narrower vertical spread. Depending on your depth, either dive or rise rapidly to clear the danger zone. Generally this maneuver also involves the sharp turn seen in horizontal evasion, to form a very effective evasive maneuver. The real gutsy skippers will assume the enemy has set their activation point close and simply run at flank speed towards the weapon, so that they end up behind the active torpedo but with maintained contact and in position to counterfire with a fish of their own.
 
 
 

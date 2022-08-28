@@ -1,4 +1,4 @@
 [Weapon Reference]
 WeaponName=C4 Trident I
 WeaponDescriptiveName=UGM-96 Trident I
-WeaponDescription=The UGM-96 Trident I is a U.S. Navy submarine-launched ballistic missile (SLBM) that first entered service in 1979. It was a major development over the proceeding Poseidon SLBM, as it allowed ballistic missile submarines to launch nuclear strikes from the central Atlantic Ocean. This in turn kept them safe from Soviet ASW forces. The missile was then retrofitted into several of the older SSBN classes and Ohio-class submarines. It remained in service until 2005, when it was replaced by the UGM-133 Trident II. 
+WeaponDescription=The UGM-96 Trident I is a U.S. Navy submarine-launched ballistic missile (SLBM) that first entered service in 1979. It was a major development over the proceeding Poseidon SLBM, as it allowed ballistic missile submarines to launch nuclear strikes from the central Atlantic Ocean. This in turn kept them safe from Soviet ASW forces. The missile was then retrofitted into several of the older SSBN classes and Ohio-class submarines. It remained in service until 2005, when it was replaced by the UGM-133 Trident II.
