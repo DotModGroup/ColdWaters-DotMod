@@ -184,3 +184,10 @@ DotMod comes with an installer that will walk you through the steps 
 
 ## Support  
 If you have trouble with DotMod, please let us know on our #tech-support Discord channel, and we will endeavour to sort you out. Alternatively, raise an Issue here on GitHub. Be sure to include an output_log.txt and a description of what caused the error to occur (or at the very least what you were doing when it happened).
+
+## DISTRIBUTION
+If planning to distribute the main mod without modification, you may do so under the condition that you link to the GitHub page and not to any mirror, torrent, or other distribution.
+If planning to distribute the main mod with modification, you may do so under the condition that you also provide a link to the unmodified version found on the GitHub and not to any mirror, torrent, or other distribution.
+If planning to distribute a modification to the main mod separately from the main mod, no restrictions are provided on your work. However, you are encouraged to provide a link to the GitHub. You may include DotModInstaller.exe as well as a configuration .ini file to allow the modification to be automatically installed to JSGME.
+You may copy, edit, delete, add, etc. content under the condition that you do not do so in order to distribute with or for Epic Mod. (Yes Epic, this applies to you. Don't say we didn't warn you.)
+ - Note that some models are licensed under the Sketchfab license. As per that license you are free to make derivative works of said models, provided that you do not sell them. For a full list of terms, see https://help.sketchfab.com/hc/en-us/articles/115004276346-Licenses and https://sketchfab.com/licenses.
