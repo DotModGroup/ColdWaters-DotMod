@@ -1,4 +1,4 @@
-# Compile with python -m nuitka --onefile --windows-onefile-tempdir --windows-icon-from-ico=DMEXE.ico DotModInstaller.py
+# Compile with python -m nuitka --onefile --windows-icon-from-ico=DMEXE.ico DotModInstaller.py
 
 # Imports
 # File path checking

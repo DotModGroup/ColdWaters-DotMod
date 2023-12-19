@@ -8,7 +8,7 @@ MapElevationData=campaign/images/maps/norwegian_sea_bathymetry.png
 WorldObjectsData=campaign/maps/norwegian_sea_world_objects
 
 //Enemy Ships
-UsePresetPositions=FALSE
+UsePresetPositions=TRUE
 PlayerPosition=-50,100
 
 PlayerHeading=135

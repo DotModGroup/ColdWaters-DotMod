@@ -13,7 +13,7 @@ EnemyShipClasses=knm_all_escorts,nato_all_asw_escorts,civ_trawlers,usn_cargo|nat
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
-UsePresetPositions=FALSE
+UsePresetPositions=TRUE
 PlayerPosition=-950,-210
 PlayerHeading=90
 

@@ -13,7 +13,7 @@ EnemyShipClasses=knm_68_ss_kobben,nato_all_asw_escorts,knm_all_escorts,knm_all_e
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
-UsePresetPositions=FALSE
+UsePresetPositions=TRUE
 PlayerPosition=-150,-900
 PlayerHeading=180
 

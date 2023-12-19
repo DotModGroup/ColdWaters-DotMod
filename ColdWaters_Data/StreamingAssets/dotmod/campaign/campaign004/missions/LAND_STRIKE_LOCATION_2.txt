@@ -13,7 +13,7 @@ EnemyShipClasses=nato_all_ssk|nato_all_ssn,nato_seagoing_ff,nato_seagoing_dd,nat
 FormationCruiseSpeed=8
 
 //Ship positions and headings, otherwise build into a formation
-UsePresetPositions=FALSE
+UsePresetPositions=TRUE
 PlayerPosition=-68,464
 PlayerHeading=180
 

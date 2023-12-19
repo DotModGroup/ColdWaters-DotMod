@@ -173,6 +173,8 @@
  * Added dotmod and priority folders to game loading order (default > dotmod > override > priority)
  * Skip loading override and priority on first run
  * Added vessel inventory and vessel selectors to campaigns
+ * Loadout System Improvment Project implemeneted
+ * Allow for locking vessels to a certain amount of each caliber of weapon
 
 ## Known Issues
  * Completing NATO campaign is impossible in vessels with no ASW capabilities
@@ -184,6 +186,40 @@ DotMod comes with an installer that will walk you through the steps 
 
 ## Support  
 If you have trouble with DotMod, please let us know on our #tech-support Discord channel, and we will endeavour to sort you out. Alternatively, raise an Issue here on GitHub. Be sure to include an output_log.txt and a description of what caused the error to occur (or at the very least what you were doing when it happened).
+
+## CREDITS
+DotMod team:
+ * Ivan Baranov a.k.a. Dot - Started the project and has done work on just about everything
+ * Dsmirnoff - Accoustics system supervision, advanced programming, research and correction, additional modeling, work on russian text
+ * Masha Sklyarova - Main tester, tactics assesement, work on russian text
+ * TheHappyYachter - Advanced coding, modeling
+ * HobbitJack - Campaigns, cleanup, tech support, minor programming
+ * Electric Boat - Modeling
+ * that_person - Campaign 001, modeling, single missions
+ * Minsk CVGH - Additional Russian translation
+ * ghostdog688 - Coordination, presentation, PR
+ * Goldmaster11 - Testing
+ * Russian_Wolf - Russian Translations
+ * Kevin DDSSTT - Texture art for new vessel models
+ * Steel Shark - UI Sprites, Textures, and HUD
+ * Misfit - Sounds for USN Sonars and Mk7 Guns
+ * Tionstav - Modeling
+ * RedEagle - Modeling
+-----------
+Our team also wants thank several people for their help and inspiration:
+ * Nils a.k.a. Julhelm - Without you there would not be CW and without your help our mod would be missing small, yet critical, info! We'd also like to thank you for that Marmoset material that kept our ships hidden by fog. 
+ * Gsmith93 - We thank you for your incredible 1990 campaign! It gave us such a good base to work off of and saved us so much time.
+ * Oleg Vygovsky - You've showed that impossible is actually possible and provided info and support
+ * Nikita Nichagin - If you hadn't called Dot to CW, we woldnt be here now! Additionally, thanks for the info and support through the years.
+ * Kostya Martynov - Your analysis and info you've posted in your group was very valuable for creation of this mod.
+ * Evgeny Mas - Your voiceover adds an incredible amount of immersion to playing Russian vessels.
+ * Epic - Credits for ideas on chaff and WH behaviour and assistance in WH parameters setup, Shkval sprite and several medals sprites and edited parameters of the wake trals. It was fun to improve EM, but sadly your attitude eventually drove all content makers from the project.
+-----------
+ * Electric Boat would like to thank by name the following:
+ * George Bieda (Windjammers Arts) and TheFloatingDrydock - For all the drawings that constitute my main reference for all US Navy vessels, and
+ * Boris Volkhov (Polar Bear Productions) - For static scale models and drawings that are my constant and most precious source of reference for all soviet submarines.
+
+Special thanks is also given to model makers who have uploaded thier models for anyone to use, especially on 3D Warehouse!
 
 ## DISTRIBUTION
 If planning to distribute the main mod without modification, you may do so under the condition that you link to the GitHub page and not to any mirror, torrent, or other distribution.
