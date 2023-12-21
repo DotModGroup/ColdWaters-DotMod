@@ -10,31 +10,6 @@ import shutil
 # Config (This installer is meant to be universal, for both the main mod and addons)
 import configparser
 
-def likelypaths():
-    # Produce a list of likely places the game would be installed
-
-    # Check drive letters C-Z and generate a list of those that exist on this system
-    drives = [ chr(x) + ":" for x in range(ord("C"),ord("Z"))
-            if os.path.exists(chr(x) + ":/") ]
-    paths = [
-        "Program Files (x86)",
-        "Steam",
-        "Games",
-        ]
-    middles = [
-        "Steam",
-        "Games",
-        "",
-        ]
-    suffix = "steamapps/common/Cold Waters"
-
-    for drive in drives:
-      for path in paths:
-        for middle in middles:
-          yield f"{drive}/{path}/{middle}/{suffix}"
-
-if __name__ == "__main__":
-    main()
 
 # Good programming practices
 def main():
@@ -43,14 +18,17 @@ def main():
     mod_name = config["Settings"]["mod_name"]
     mod = "%s/ColdWaters_Data" % (os.getcwd())
 
-    install_directory = None
-    # Auto-locate; Simply checks likely locations for the game to be installed
-    for possiblepath in likelypaths():
-        if os.path.exists(possiblepath):
-            install_directory = possiblepath
-            break
+    # Auto-locate; Simply checks likely locations for the game to be installed to
+    if os.path.exists("C:/Program Files (x86)/Steam/steamapps/common/Cold Waters"):
+        install_directory = "C:/Program Files (x86)/Steam/steamapps/common/Cold Waters"
 
-    if install_directory is None:
+    elif os.path.exists("D:/Steam/steamapps/common/Cold Waters"):
+        install_directory = "D:/Steam/steamapps/common/Cold Waters"
+
+    elif os.path.exists("D:/Games/steamapps/common/Cold Waters"):
+        install_directory = "D:/Games/steamapps/common/Cold Waters"
+
+    else:
         print("Auto-locate failed.")
         install_directory = input(
             "Please input the directory of your Cold Waters install: "
@@ -67,7 +45,7 @@ def main():
             "Please input the directory of your Cold Waters install: "
         )
 
-    mod_target = f"{install_directory}/MODS/{mod_name}/ColdWaters_Data"
+    mod_target = install_directory + f"/MODS/{mod_name}/ColdWaters_Data"
 
     if mod_name == "DotMod":
         # Welcome/Install instructions for the main mod
