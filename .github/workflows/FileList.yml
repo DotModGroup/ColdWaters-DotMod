@@ -5,16 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout DotMod Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: main
-          token: ${{ secrets.ORG_ACCESS_TOKEN }}
       - name: Checkout DotMod Website Repo
-        uses:  actions/checkout@v2
+        uses:  actions/checkout@v4
         with:
           path: website
           repository: DotModGroup/DotModGroup.github.io
-          token: ${{ secrets.ORG_ACCESS_TOKEN }}
       - name: Build Weapon Data Table
         shell: pwsh
         run: |
