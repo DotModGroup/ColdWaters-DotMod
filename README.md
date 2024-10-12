@@ -181,8 +181,7 @@
  * Some weapons exist in configurations which did not serve in the timeline or never existed
 
 ## Installation
-DotMod comes with an installer that will walk you through the steps of installation (unfortunately this does NOT work on Windows 7 at present). If this fails, a manual install can be performed by following these instructions: https://cdn.discordapp.com/attachments/866120539512373268/880131182367498321/Cold_Waters_DotMod_Manual_Install_Guide.pdf
-
+DotMod comes with an installer that will walk you through the steps of installation (unfortunately this does NOT work on Windows 7 at present). If this fails, a manual install can be performed by following these instructions: https://github.com/DotModGroup/ColdWaters-DotMod/blob/main/DotMod_Installer.pdf
 
 ## Support  
 If you have trouble with DotMod, please let us know on our #tech-support Discord channel, and we will endeavour to sort you out. Alternatively, raise an Issue here on GitHub. Be sure to include an output_log.txt and a description of what caused the error to occur (or at the very least what you were doing when it happened).
